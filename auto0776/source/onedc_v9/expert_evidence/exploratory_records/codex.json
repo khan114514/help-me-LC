@@ -1,0 +1,1544 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "policy_name": "baseline_preexisting",
+      "method_summary": "会话开始时已有 evaluate.sh 生成的未登记基线结果；保留并补记。naive dead-zone tau=0.6，真实熵编码码率通过硬门。",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12219947576522827,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 06:53:11"
+    },
+    {
+      "round": 2,
+      "policy_name": "baseline_retest_failed",
+      "method_summary": "tau=0.6 baseline rerun failed before model load: evaluate.sh resolved python3 to /opt/conda Python 3.12, lacking omegaconf; no metrics produced. Locating the provisioned Python 3.10 environment.",
+      "status": "exploratory_metric_unavailable",
+      "score": null,
+      "failure_reason": "tau=0.6 baseline rerun failed before model load: evaluate.sh resolved python3 to /opt/conda Python 3.12, lacking omegaconf; no metrics produced. Locating the provisioned Python 3.10 environment.",
+      "retained_best": null,
+      "time": "2026-10-04 06:56:33"
+    },
+    {
+      "round": 3,
+      "policy_name": "baseline_diagnostics",
+      "method_summary": "Baseline tau=0.6 unchanged integer decisions; record active residual and sigma quantiles and input tensors for theoretical analysis. Correct provisioned Python 3.10 environment.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12219947576522827,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 06:58:33"
+    },
+    {
+      "round": 4,
+      "policy_name": "rdo_coarse",
+      "method_summary": "Per-coefficient latent squared-error plus lambda times Gaussian bin bits, stable erfc probability, lambda=0.055, candidates round(x)+[-1,0,1], continuous sigma. The approximate bit cost is used only for decisions; metrics use evaluate.sh real rANS. Evaluation completed encoding and reconstruction but failed when reading anchors.json: Python default text encoding was ASCII and anchor notes contain UTF-8. Retry with PYTHONUTF8=1 and LC_ALL=C.UTF-8. Evaluation failed; details in run.log.",
+      "status": "exploratory_metric_unavailable",
+      "score": null,
+      "failure_reason": "Per-coefficient latent squared-error plus lambda times Gaussian bin bits, stable erfc probability, lambda=0.055, candidates round(x)+[-1,0,1], continuous sigma. The approximate bit cost is used only for decisions; metrics use evaluate.sh real rANS. Evaluation completed encoding and reconstruction but failed when reading anchors.json: Python default text encoding was ASCII and anchor notes contain UTF-8. Retry with PYTHONUTF8=1 and LC_ALL=C.UTF-8. Evaluation failed; details in run.log.",
+      "retained_best": null,
+      "time": "2026-10-04 07:01:09"
+    },
+    {
+      "round": 5,
+      "policy_name": "rdo_coarse",
+      "method_summary": "Rerun continuous-sigma Gaussian RDOQ lambda=0.055 radius=1 with explicit UTF-8 locale to resolve anchor parsing. Integer output unchanged relative to round04.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11976931616663933,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:02:00"
+    },
+    {
+      "round": 6,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.055,\"radius\":1,\"indexed\":\"True\",\"power\":0,\"gain\":1}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12000664696097374,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:02:42"
+    },
+    {
+      "round": 7,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.06,\"radius\":1,\"indexed\":\"True\",\"power\":0,\"gain\":1}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12127586454153061,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:03:36"
+    },
+    {
+      "round": 8,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.055,\"radius\":1,\"indexed\":\"True\",\"power\":0.5,\"gain\":1}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1179477870464325,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:04:17"
+    },
+    {
+      "round": 9,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.055,\"radius\":1,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12155965715646744,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:05:05"
+    },
+    {
+      "round": 10,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.055,\"radius\":2,\"indexed\":\"True\",\"power\":0,\"gain\":1}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12000664696097374,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:05:44"
+    },
+    {
+      "round": 11,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.0535,\"radius\":2,\"indexed\":\"True\",\"power\":0,\"gain\":1}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1198653094470501,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:07:09"
+    },
+    {
+      "round": 12,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.062,\"radius\":2,\"indexed\":\"True\",\"power\":0.5,\"gain\":1}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11945846304297447,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:08:05"
+    },
+    {
+      "round": 13,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.047,\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11912059411406517,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:08:44"
+    },
+    {
+      "round": 14,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.0565,\"radius\":2,\"indexed\":\"False\",\"power\":0,\"gain\":1.02}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11838099360466003,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:09:23"
+    },
+    {
+      "round": 15,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.053,\"radius\":2,\"indexed\":\"False\",\"power\":0,\"gain\":0.98}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1228628046810627,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:10:12"
+    },
+    {
+      "round": 16,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"lambda\":0.054,\"radius\":2,\"indexed\":\"False\",\"power\":0,\"gain\":1}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11986939236521721,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:10:51"
+    },
+    {
+      "round": 17,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-1.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"lambda\":0.0340973}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12156248465180397,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:13:52"
+    },
+    {
+      "round": 18,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-1,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"lambda\":0.040107}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12279362231492996,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:14:40"
+    },
+    {
+      "round": 19,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.75,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"lambda\":0.04338997}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12208226323127747,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:15:20"
+    },
+    {
+      "round": 20,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.25,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"lambda\":0.05122082}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11989771947264671,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:15:59"
+    },
+    {
+      "round": 21,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":0.25,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"lambda\":0.06017058}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12126394361257553,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:16:47"
+    },
+    {
+      "round": 22,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"lambda\":0.06530153}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12055092304944992,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:17:26"
+    },
+    {
+      "round": 23,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":-0.5,\"zero_bias\":0,\"lambda\":0.04872467}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12089763954281807,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:20:59"
+    },
+    {
+      "round": 24,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0.5,\"zero_bias\":0,\"lambda\":0.04562234}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12049169838428497,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:21:47"
+    },
+    {
+      "round": 25,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":1,\"zero_bias\":0,\"lambda\":0.04382513}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12017879262566566,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:22:26"
+    },
+    {
+      "round": 26,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":-0.03,\"lambda\":0.0547934}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12155981734395027,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:23:19"
+    },
+    {
+      "round": 27,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0.03,\"lambda\":0.04027482}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12102434784173965,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:23:58"
+    },
+    {
+      "round": 28,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0.06,\"lambda\":0.03272635}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12144721299409866,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:24:37"
+    },
+    {
+      "round": 29,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"lambda\":0.045}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12036444619297981,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:26:53"
+    },
+    {
+      "round": 30,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"lambda\":0.046}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11927996575832367,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:27:42"
+    },
+    {
+      "round": 31,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0.1,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12045590206980705,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:28:21"
+    },
+    {
+      "round": 32,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0.25,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11967332661151886,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:29:00"
+    },
+    {
+      "round": 33,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0.5,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12166857719421387,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:29:40"
+    },
+    {
+      "round": 34,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":1,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11997101828455925,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:30:28"
+    },
+    {
+      "round": 35,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0.5,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"dither\":0,\"lambda\":0.0435}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1202554889023304,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:32:26"
+    },
+    {
+      "round": 36,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":1,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"dither\":0,\"lambda\":0.041}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11930687725543976,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:33:05"
+    },
+    {
+      "round": 37,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"True\",\"stage_tilt\":0,\"dither\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11912059411406517,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:33:44"
+    },
+    {
+      "round": 38,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"False\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"dither\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11932375282049179,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:34:32"
+    },
+    {
+      "round": 39,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0.08,\"dither\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.121230099350214,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:35:12"
+    },
+    {
+      "round": 40,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":-0.08,\"dither\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12027108296751976,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:36:10"
+    },
+    {
+      "round": 41,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"dither\":0.002,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11969517543911934,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:38:28"
+    },
+    {
+      "round": 42,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"dither\":0.006,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11977041140198708,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:39:07"
+    },
+    {
+      "round": 43,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"dither\":0.015,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1197248101234436,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:40:09"
+    },
+    {
+      "round": 44,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":-0.15,\"mean\":0,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"dither\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11915064603090286,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:40:48"
+    },
+    {
+      "round": 45,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":-0.5,\"variance\":0,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"dither\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12007259204983711,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:41:28"
+    },
+    {
+      "round": 46,
+      "policy_name": "rdo_sweep",
+      "method_summary": "{\"radius\":2,\"indexed\":\"True\",\"power\":-0.5,\"gain\":1,\"channel_power\":0,\"zero_bias\":0,\"spatial\":0,\"mean\":0,\"variance\":0.1,\"iterations\":1,\"native_indexed\":\"False\",\"stage_tilt\":0,\"dither\":0,\"lambda\":0.047}; Gaussian bin rate-distortion proxy; evaluation uses real rANS bpp. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11881274729967117,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:42:16"
+    },
+    {
+      "round": 47,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2}; unchanged frozen CDF symbol probability and exact bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11880380660295486,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:44:37"
+    },
+    {
+      "round": 48,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.055,\"power\":0,\"ratio\":1,\"radius\":2}; unchanged frozen CDF symbol probability and exact bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12010252103209496,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:45:16"
+    },
+    {
+      "round": 49,
+      "policy_name": "adaptive_cdf_budget",
+      "method_summary": "{\"mode\":\"budget\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":0.997,\"radius\":2}; unchanged frozen CDF symbol probability and exact bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12048043310642242,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:46:05"
+    },
+    {
+      "round": 50,
+      "policy_name": "adaptive_cdf_budget",
+      "method_summary": "{\"mode\":\"budget\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2}; unchanged frozen CDF symbol probability and exact bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12060096487402916,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:46:44"
+    },
+    {
+      "round": 51,
+      "policy_name": "adaptive_cdf_budget",
+      "method_summary": "{\"mode\":\"budget\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1.003,\"radius\":2}; unchanged frozen CDF symbol probability and exact bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11933886632323265,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:47:41"
+    },
+    {
+      "round": 52,
+      "policy_name": "adaptive_cdf_budget",
+      "method_summary": "{\"mode\":\"budget\",\"lambda\":0.047,\"power\":0,\"ratio\":1,\"radius\":2}; unchanged frozen CDF symbol probability and exact bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12038910388946533,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:48:20"
+    },
+    {
+      "round": 53,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11880380660295486,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:55:46"
+    },
+    {
+      "round": 54,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0455,\"power\":-0.5,\"ratio\":1,\"radius\":2}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11932013928890228,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:56:25"
+    },
+    {
+      "round": 55,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0465,\"power\":-0.5,\"ratio\":1,\"radius\":2}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11884685978293419,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:57:05"
+    },
+    {
+      "round": 56,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0485,\"power\":-0.5,\"ratio\":1,\"radius\":2}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11896628886461258,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:57:46"
+    },
+    {
+      "round": 57,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0485,\"power\":-0.4,\"ratio\":1,\"radius\":2}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11958339065313339,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:58:35"
+    },
+    {
+      "round": 58,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0455,\"power\":-0.6,\"ratio\":1,\"radius\":2}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12005623430013657,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:59:14"
+    },
+    {
+      "round": 59,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":-0.05,\"variance\":0,\"tail_clip\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11926925927400589,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:01:32"
+    },
+    {
+      "round": 60,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":-0.15,\"variance\":0,\"tail_clip\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11901294440031052,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:02:12"
+    },
+    {
+      "round": 61,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.05,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0.1,\"tail_clip\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11979778856039047,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:02:59"
+    },
+    {
+      "round": 62,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":4}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11880380660295486,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:03:47"
+    },
+    {
+      "round": 63,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.05,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":1.5,\"spatial\":0,\"variance\":0,\"tail_clip\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11947472393512726,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:04:27"
+    },
+    {
+      "round": 64,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0365,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":3,\"spatial\":0,\"variance\":0,\"tail_clip\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11902479454874992,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:05:20"
+    },
+    {
+      "round": 65,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.05315875,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":1,\"feature_power\":0.25}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12021899968385696,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:14:32"
+    },
+    {
+      "round": 66,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.05942726,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":1,\"feature_power\":0.5}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11947105824947357,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:15:11"
+    },
+    {
+      "round": 67,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.07428557,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":1,\"feature_power\":1}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11918976530432701,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:15:50"
+    },
+    {
+      "round": 68,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.06215762,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":2,\"feature_power\":0.25}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11994961276650429,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:16:43"
+    },
+    {
+      "round": 69,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.08175327,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":2,\"feature_power\":0.5}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11913775280117989,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:17:22"
+    },
+    {
+      "round": 70,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.07291782,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":3,\"feature_power\":0.5}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11975963041186333,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:18:13"
+    },
+    {
+      "round": 71,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04780469,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":4,\"feature_power\":-0.25,\"covariance\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11939224973320961,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:43:37"
+    },
+    {
+      "round": 72,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04669586,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":4,\"feature_power\":0.25,\"covariance\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11919764801859856,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:44:16"
+    },
+    {
+      "round": 73,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04634144,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":4,\"feature_power\":0.5,\"covariance\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12203281000256538,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:44:55"
+    },
+    {
+      "round": 74,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04720429,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":4,\"feature_power\":1,\"covariance\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12400190159678459,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:45:34"
+    },
+    {
+      "round": 75,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0467,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":4,\"feature_power\":0.25,\"covariance\":0.1}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11977094784379005,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:46:15"
+    },
+    {
+      "round": 76,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0.1}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1193016804754734,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:46:55"
+    },
+    {
+      "round": 77,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04737645,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.2,\"sigma_ceiling\":64,\"smooth_floor\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11953579261898994,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:48:43"
+    },
+    {
+      "round": 78,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04863456,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.3,\"sigma_ceiling\":64,\"smooth_floor\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11951826885342598,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:49:22"
+    },
+    {
+      "round": 79,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04696761,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":1,\"smooth_floor\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11880380660295486,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:50:02"
+    },
+    {
+      "round": 80,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04670742,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":0.6,\"smooth_floor\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11940350756049156,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:50:41"
+    },
+    {
+      "round": 81,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04947381,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0.2}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1193275935947895,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:51:20"
+    },
+    {
+      "round": 82,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.05180671,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0.4}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11998454108834267,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:51:59"
+    },
+    {
+      "round": 83,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.047,\"power\":-0.5,\"strength\":0.025,\"kind\":1,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged; evaluation real rANS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11880380660295486,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:53:41"
+    },
+    {
+      "round": 84,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.047,\"power\":-0.5,\"strength\":0.1,\"kind\":1,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged; evaluation real rANS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11880380660295486,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:54:20"
+    },
+    {
+      "round": 85,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.047,\"power\":-0.5,\"strength\":0.25,\"kind\":1,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged; evaluation real rANS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11888840422034264,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:54:59"
+    },
+    {
+      "round": 86,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.047,\"power\":-0.5,\"strength\":0.025,\"kind\":2,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged; evaluation real rANS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11892206594347954,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:55:39"
+    },
+    {
+      "round": 87,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.047,\"power\":-0.5,\"strength\":0.1,\"kind\":2,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged; evaluation real rANS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11942936480045319,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:56:18"
+    },
+    {
+      "round": 88,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.047,\"power\":-0.5,\"strength\":-0.05,\"kind\":1,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged; evaluation real rANS. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11725030094385147,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:56:57"
+    },
+    {
+      "round": 89,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.047,\"power\":-0.5,\"strength\":-0.05,\"kind\":1,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged, helper model construction restores CPU RNG state with fork_rng; evaluation real rANS. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11725030094385147,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:59:06"
+    },
+    {
+      "round": 90,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.052,\"power\":-0.5,\"strength\":-0.05,\"kind\":1,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged, helper model construction restores CPU RNG state with fork_rng; evaluation real rANS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12093454971909523,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:59:45"
+    },
+    {
+      "round": 91,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.055,\"power\":-0.5,\"strength\":-0.05,\"kind\":1,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged, helper model construction restores CPU RNG state with fork_rng; evaluation real rANS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12367164716124535,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:00:25"
+    },
+    {
+      "round": 92,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.05,\"power\":-0.5,\"strength\":-0.025,\"kind\":1,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged, helper model construction restores CPU RNG state with fork_rng; evaluation real rANS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12020885571837425,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:01:04"
+    },
+    {
+      "round": 93,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.0485,\"power\":-0.5,\"strength\":-0.01,\"kind\":1,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged, helper model construction restores CPU RNG state with fork_rng; evaluation real rANS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12092120945453644,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:01:43"
+    },
+    {
+      "round": 94,
+      "policy_name": "nonlinear_frozen_feature_rdo",
+      "method_summary": "{\"lambda\":0.05,\"power\":-0.5,\"strength\":-0.01,\"kind\":2,\"steps\":1,\"base_snapshot\":\"False\"}; frozen decoder trans_coding feature error gradient modifies local RDO target; weights unchanged, helper model construction restores CPU RNG state with fork_rng; evaluation real rANS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1203579343855381,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:02:23"
+    },
+    {
+      "round": 95,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0475,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11987777426838875,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:03:45"
+    },
+    {
+      "round": 96,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04675,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11920446902513504,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:04:24"
+    },
+    {
+      "round": 97,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04725,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11953538283705711,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:05:03"
+    },
+    {
+      "round": 98,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0.25,\"channel_activity\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11881072074174881,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:05:42"
+    },
+    {
+      "round": 99,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":-0.25,\"channel_activity\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1218169815838337,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:06:21"
+    },
+    {
+      "round": 100,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0.25}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12015002220869064,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:07:00"
+    },
+    {
+      "round": 101,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[0.97, 1.01, 1.01, 1.01]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11939694732427597,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:08:55"
+    },
+    {
+      "round": 102,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11866208910942078,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:09:34"
+    },
+    {
+      "round": 103,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.01, 1.01, 1.01, 0.97]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11966459825634956,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:10:14"
+    },
+    {
+      "round": 104,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":1,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.0, 1.0, 1.0, 1.0]\",\"extra_zero\":\"True\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11880380660295486,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:10:53"
+    },
+    {
+      "round": 105,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":4,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.0, 1.0, 1.0, 1.0]\",\"extra_zero\":\"True\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11880380660295486,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:11:32"
+    },
+    {
+      "round": 106,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.0, 1.0, 1.0, 1.0]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0.01}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1214611865580082,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:12:11"
+    },
+    {
+      "round": 107,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.06, 0.98, 0.98, 0.98]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11959860473871231,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:13:59"
+    },
+    {
+      "round": 108,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.09, 0.97, 0.97, 0.97]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1198917031288147,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:14:37"
+    },
+    {
+      "round": 109,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 1.01, 0.99, 0.97]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11879125982522964,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:15:16"
+    },
+    {
+      "round": 110,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.97, 1.01, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11916173249483109,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:15:55"
+    },
+    {
+      "round": 111,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0465,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1191050335764885,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:16:34"
+    },
+    {
+      "round": 112,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.048,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11931856721639633,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:17:13"
+    },
+    {
+      "round": 113,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04871333,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":1.75,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11867969483137131,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:19:41"
+    },
+    {
+      "round": 114,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0446311,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2.25,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11895254999399185,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:20:20"
+    },
+    {
+      "round": 115,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.04190513,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2.5,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11845400929450989,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:20:59"
+    },
+    {
+      "round": 116,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.03905559,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2.75,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11821901425719261,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:21:38"
+    },
+    {
+      "round": 117,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.45,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1188853494822979,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:22:16"
+    },
+    {
+      "round": 118,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.047,\"power\":-0.55,\"ratio\":1,\"radius\":2,\"loss_power\":2,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11934397369623184,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:23:03"
+    },
+    {
+      "round": 119,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.03600215,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":3,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11783365160226822,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:24:50"
+    },
+    {
+      "round": 120,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.03317708,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":3.25,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11832469329237938,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:25:29"
+    },
+    {
+      "round": 121,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.03044876,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":3.5,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11854623630642891,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:26:08"
+    },
+    {
+      "round": 122,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.02506925,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":4,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11952712759375572,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:26:47"
+    },
+    {
+      "round": 123,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0378,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2.75,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid. Real bpp exceeds hard cap; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11966673284769058,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:27:26"
+    },
+    {
+      "round": 124,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0403,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":2.75,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11959177255630493,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:28:05"
+    },
+    {
+      "round": 125,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.035,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":3,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11898928135633469,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:30:07"
+    },
+    {
+      "round": 126,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.0365,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":3,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11813996359705925,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:30:46"
+    },
+    {
+      "round": 127,
+      "policy_name": "frozen_cdf_rdo",
+      "method_summary": "{\"mode\":\"fixed\",\"lambda\":0.037,\"power\":-0.5,\"ratio\":1,\"radius\":2,\"loss_power\":3,\"spatial\":0,\"variance\":0,\"tail_clip\":0,\"feature_kind\":0,\"feature_power\":0,\"covariance\":0,\"sigma_floor\":0.11,\"sigma_ceiling\":64,\"smooth_floor\":0,\"activity\":0,\"channel_activity\":0,\"stage_weights\":\"[1.03, 0.99, 0.99, 0.99]\",\"extra_zero\":\"False\",\"magnitude_penalty\":0}; corrected negative escape sentinel lookup; unchanged frozen CDF symbol probability and bypass lengths used only for decisions; reported bpp remains real encoded length from evaluate.sh. Earlier rounds47-52 used first-bin frequencies for negative escape costs; their measured metrics remain valid.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11942548677325249,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:31:25"
+    },
+    {
+      "round": 128,
+      "policy_name": "best_confirmation",
+      "method_summary": "Clean equivalent cubic-loss frozen-CDF RDO; lambda=0.03600215, sigma rate weight exponent -0.5, stages=[1.03,0.99,0.99,0.99], candidates round(x)+[-2,-1,0,1,2]. Removed inactive exploratory parameters and tables. CPU checks: identical integer output to historical round119 on 64 public latent inputs, same-input determinism, RNG state unchanged. Fresh-process evaluate.sh on agent-output/best_method.py for final confirmation.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11783365160226822,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:34:39"
+    },
+    {
+      "round": 129,
+      "policy_name": "wrap_up",
+      "method_summary": "Closed after 128 evaluated artifacts. Historical best round119; cleaned best_method.py confirmed by evaluate.sh in round128. Aggregate/per-image metrics and all 16 streams identical. True public bpp passes cap; DISTS improves 3.5727%, bpp rises 0.25899%, unclipped score 1.0508334551408398. Cubic frozen-CDF RDO, sigma power -0.5, stages=[1.03,0.99,0.99,0.99]. Summary contains all-round table, rationale, failures and recompute command. No hidden/full evaluation. Budget not exhausted; stopped further public fitting after neighborhood checks and confirmations. Metrics in this wrap-up are measured round128 values, not a new evaluation.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11783365160226822,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 09:37:21"
+    },
+    {
+      "round": 130,
+      "policy_name": "pairwise_cubic_rdo",
+      "method_summary": "Resume after supervisor restart; exact 25-way adjacent horizontal pair search on the active 2x2 phase lattice. Objective: historical cubic frozen-CDF unary cost plus 0.25 * geometric sigma distortion weight * abs(sum of the two quantization errors)^3. Lambda=0.03600215, stages=[1.03,0.99,0.99,0.99]. Pair costs preserve local DC; no image lookup or state. CPU checks passed determinism, integer output, inactive zeros and unchanged RNG; coupling=0 matches confirmed best. Real encoded bpp exceeds hard gate; score=0.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11233314126729965,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:05:40"
+    },
+    {
+      "round": 131,
+      "policy_name": "pairwise_cubic_rdo",
+      "method_summary": "Exact 25-way horizontal pair search, cubic unary plus 0.25 geometric-weighted cubic DC error. Rate multiplier increased to 0.055; stages=[1.03,0.99,0.99,0.99]. Calibrated decision proxy on all 64 baseline public latent inputs gave 0.99578 times confirmed-best CDF symbol bits; evaluation acceptance uses actual new-process rANS lengths and full reconstruction. Real rANS bpp passes hard gate.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1199687197804451,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:07:41"
+    },
+    {
+      "round": 132,
+      "policy_name": "pairwise_cubic_rdo",
+      "method_summary": "Exact 25-way horizontal pair search, weaker DC coupling=0.05, lambda=0.03953125; sigma power=-0.5, stages=[1.03,0.99,0.99,0.99]. All 64 saved baseline latent inputs calibrate symbol cost near confirmed-best budget; fresh-process real rANS evaluation decides validity. Real rANS bpp passes hard gate.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11829466372728348,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:09:39"
+    },
+    {
+      "round": 133,
+      "policy_name": "pairwise_cubic_rdo",
+      "method_summary": "Exact 25-way horizontal pair search with DC coupling=0.1, lambda=0.042734375 calibrated to confirmed-best frozen-CDF symbol budget on 64 latent inputs. Cubic unary, sigma power=-0.5, stages=[1.03,0.99,0.99,0.99]. All reported bpp uses actual fresh-process rANS coding. Real rANS bpp passes hard gate.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11879806220531464,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:11:56"
+    },
+    {
+      "round": 134,
+      "policy_name": "pairwise_cubic_rdo",
+      "method_summary": "Vertical pair direction control: exact 25-way active-lattice search, DC coupling=0.1, lambda=0.042578125. Rate proxy calibrated on the same 64 public latent inputs; frozen CDF, cubic unary, sigma power=-0.5 and stage weights unchanged. Real rANS bpp passes hard gate.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12033817172050476,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:13:04"
+    },
+    {
+      "round": 135,
+      "policy_name": "stage_adaptive_loss_rdo",
+      "method_summary": "Stage-dependent scalar frozen-CDF RDO: loss exponents=[2.5,3,3,3], lambda=0.03783905, sigma distortion power=0.5, stage rate weights=[1.03,0.99,0.99,0.99]. Pair coupling disabled. Only first context stage changes loss shape; global rate proxy calibrated to confirmed-best symbol budget on all 64 saved latent inputs. Actual bpp from fresh-process rANS. Real rANS bpp passes hard gate.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12082808837294579,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:15:55"
+    },
+    {
+      "round": 136,
+      "policy_name": "stage_adaptive_loss_rdo",
+      "method_summary": "Stage-dependent scalar frozen-CDF RDO: loss exponents=[3.5,3,3,3], lambda=0.03410751. First context stage emphasizes larger errors; global rate proxy calibrated to confirmed-best symbol budget on 64 saved latent inputs. Sigma distortion power=0.5, stage rate weights=[1.03,0.99,0.99,0.99]; pair coupling disabled; actual fresh-process rANS evaluation. Real rANS bpp passes hard gate.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11932426318526268,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:17:18"
+    },
+    {
+      "round": 137,
+      "policy_name": "sigma_loss_slope",
+      "method_summary": "Clean cubic frozen-CDF RDO with sigma-dependent loss exponent slope=0.25; lambda=0.03600215, sigma rate exponent=-0.5, stages=[1.03,0.99,0.99,0.99]. Fresh-process real rANS evaluation completed; hard gate rejected the increased bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1187620535492897,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:43:53"
+    },
+    {
+      "round": 138,
+      "policy_name": "sigma_loss_slope",
+      "method_summary": "Clean cubic frozen-CDF RDO with sigma-dependent loss exponent slope=-0.25; lambda=0.03600215, sigma rate exponent=-0.5, stages=[1.03,0.99,0.99,0.99]. Fresh-process real rANS evaluation passed the bpp gate but worsened DISTS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12075164169073105,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:45:38"
+    },
+    {
+      "round": 139,
+      "policy_name": "continuous_sigma_rdo",
+      "method_summary": "Clean cubic frozen-CDF RDO with continuous input scales for distortion weighting; lambda=0.03600215, sigma rate exponent=-0.5, stage weights=[1.03,0.99,0.99,0.99]. Fresh-process real rANS evaluation passed the bpp gate and nearly matched the confirmed best.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11787113174796104,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:47:22"
+    },
+    {
+      "round": 140,
+      "policy_name": "continuous_sigma_rdo",
+      "method_summary": "Continuous-input-sigma cubic RDO with rate multiplier=0.0365; sigma rate exponent=-0.5 and stage weights=[1.03,0.99,0.99,0.99]. Fresh-process rANS bpp passed, but DISTS worsened versus lambda=0.03600215.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1182742640376091,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:49:00"
+    },
+    {
+      "round": 141,
+      "policy_name": "continuous_sigma_rdo",
+      "method_summary": "Continuous-input-sigma cubic RDO with rate multiplier=0.03575; sigma rate exponent=-0.5 and stage weights=[1.03,0.99,0.99,0.99]. Fresh-process rANS bpp passed but DISTS worsened, ruling out this lambda neighborhood.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11878478154540062,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:50:38"
+    },
+    {
+      "round": 142,
+      "policy_name": "stage_weight_neighbor",
+      "method_summary": "Discrete-table cubic frozen-CDF RDO with stage weights=[1.02,0.9933333333,0.9933333333,0.9933333333], lambda=0.03600215. Fresh-process real rANS bpp passed, but DISTS worsened versus confirmed [1.03,0.99,0.99,0.99].",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11832816153764725,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:52:15"
+    },
+    {
+      "round": 143,
+      "policy_name": "stage_weight_neighbor",
+      "method_summary": "Discrete-table cubic frozen-CDF RDO with stage weights=[1.04,0.9866666667,0.9866666667,0.9866666667], lambda=0.03600215. Fresh-process real rANS evaluation passed the bpp gate but worsened DISTS versus confirmed [1.03,0.99,0.99,0.99].",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1184704452753067,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:55:56"
+    },
+    {
+      "round": 144,
+      "policy_name": "channel_energy_coupling",
+      "method_summary": "Adjacent latent-channel energy-preservation joint search with CROSS_COUPLING=0.05, built on the round143 stage-weight candidate. Fresh-process real rANS evaluation passed the bpp gate but worsened DISTS substantially; channel coupling is not retained.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11980058252811432,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:01:18"
+    },
+    {
+      "round": 145,
+      "policy_name": "channel_energy_coupling",
+      "method_summary": "Adjacent latent-channel energy-preservation search with CROSS_COUPLING=0.005 on the confirmed cubic best. Fresh-process evaluation passed the bpp gate but DISTS worsened to 0.11997; channel coupling family rejected.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11997054889798164,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:03:42"
+    },
+    {
+      "round": 146,
+      "policy_name": "cubic_stage_asymmetry",
+      "method_summary": "Cubic frozen-CDF RDO stage-weight redistribution [1.03,0.98,1.01,0.98], sum-preserving and evaluated in a fresh process. It passed the bpp gate but was slightly worse than the confirmed equal-tail stage weights.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1179763451218605,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:05:55"
+    },
+    {
+      "round": 147,
+      "policy_name": "cubic_stage_asymmetry",
+      "method_summary": "Cubic frozen-CDF RDO stage-weight swap [1.03,1.01,0.98,0.98], sum-preserving fresh-process control. It passed the bpp gate but worsened DISTS versus the confirmed equal-tail stage weights; stage asymmetry rejected.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11832393705844879,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:08:10"
+    },
+    {
+      "round": 148,
+      "policy_name": "best_confirmation",
+      "method_summary": "Restored confirmed cubic frozen-CDF RDO from best_method.py and evaluated in a fresh process. Metrics and all 16 public rANS streams are byte-identical to round128; bpp passes the hard gate. No resumed candidate improved this method.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11783365160226822,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:16:54"
+    },
+    {
+      "round": 149,
+      "policy_name": "wrap_up",
+      "method_summary": "Completed resumed research through round148. Restored best_method.py to workspace/method.py; final public confirmation passed. Summary includes historical and resumed round tables, rationale, verification, limitations, and recompute command.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11783365160226822,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:16:54"
+    },
+    {
+      "round": 150,
+      "policy_name": "cubic_adaptive_budget",
+      "method_summary": "Supervisor recovery audited all 145 successful historical metrics against trajectory values and evaluator hashes. New family: cubic-loss frozen-CDF RDO with a per-call baseline-relative symbol budget, ratio=1.0, blend=1.0. Deterministic 24-step scalar Lagrange bisection; same frozen tables and five integer candidates as confirmed best. Fresh-process public evaluation uses actual rANS bpp; gate passed but DISTS worsened substantially. No historical evaluation repeated.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12188272550702095,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:29:19"
+    },
+    {
+      "round": 151,
+      "policy_name": "cubic_adaptive_budget",
+      "method_summary": "Cubic frozen-CDF per-call rate adaptation, ratio=1.0, blend=0.25 between baseline symbol bits and the confirmed fixed-lambda decision bits. Deterministic 24-step bisection; fresh-process real rANS gate passed, but DISTS remained worse than best. Round150 CPU analysis verified integer outputs, inactive zeros, same-input equality and unchanged RNG on all 64 saved public latent inputs. Strong and mild baseline-relative cubic rate adaptation did not improve the method.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11941639333963394,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:32:46"
+    },
+    {
+      "round": 152,
+      "policy_name": "pairwise_highpass_rdo",
+      "method_summary": "New exact 25-way horizontal adjacent-pair search on the active phase lattice. Cubic frozen-CDF unary cost plus 0.05 geometric-sigma-weighted abs(e_left-e_right)^3 preserves local high-frequency differences, unlike earlier sum-error/DC coupling. Lambda=0.03953125; stages=[1.03,0.99,0.99,0.99]. Fresh-process real rANS gate passed with excess rate headroom, but DISTS worsened. Next control increases budget use.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12163974344730377,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:34:57"
+    },
+    {
+      "round": 153,
+      "policy_name": "pairwise_highpass_rdo",
+      "method_summary": "Rate-matched highpass pair control: coupling=0.05, horizontal, lambda=0.0375; cubic unary and frozen CDF unchanged. Fresh-process real rANS bpp nearly reaches gate, yet DISTS remains worse than best; highpass coupling rejected. CPU checks on all 64 saved inputs verified determinism, unchanged RNG, integer outputs, inactive zeros and zero-coupling equivalence to confirmed best at its lambda.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12110765650868416,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:36:42"
+    },
+    {
+      "round": 154,
+      "policy_name": "cubic_amplitude_compensation",
+      "method_summary": "Cubic RDO target gain=1.02; lambda=0.04185173 calibrated on all 64 baseline public latent inputs to match confirmed-best symbol costs. Exact frozen CDF and stage weights unchanged; fresh-process actual rANS gate passed but DISTS worsened. CPU checks passed deterministic equality, integer outputs, inactive zeros and unchanged RNG on all 64 inputs. Gain calibration estimated symbol costs only; reported bpp is measured real coding.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12032397463917732,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:41:58"
+    }
+  ]
+}

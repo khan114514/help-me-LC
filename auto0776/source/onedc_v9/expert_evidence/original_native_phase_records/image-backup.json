@@ -1,0 +1,10 @@
+{
+  "image_id": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+  "archive": "onedc-env-v8.tar.gz",
+  "archive_size_bytes": 15121763292,
+  "archive_sha256": "8470df4b64f402bc52037df280bbe2b90ba3c20b2ea8be40a0d7f52fc7da037e",
+  "archive_sha256_verified": true,
+  "gzip_verified": true,
+  "verified_at": "2026-10-04T16:08:37+08:00",
+  "scope": "Private recovery artifact; excluded from public task delivery."
+}

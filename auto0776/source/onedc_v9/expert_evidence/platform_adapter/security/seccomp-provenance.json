@@ -1,0 +1,24 @@
+{
+  "source": "https://raw.githubusercontent.com/moby/profiles/main/seccomp/default.json",
+  "source_sha256": "6416b47770785a41ac59073cdc77d9fe98517df2799dc83ef207e622de3053f6",
+  "profile_sha256": "f497872699ae365183c200f50c9d531246ba6ceef70518f2d0cfb78badce4495",
+  "change": "Allow inner user namespaces and mount operations while retaining other default syscall rules; outer capabilities remain restricted.",
+  "allowed_names": [
+    "chroot",
+    "clone",
+    "clone3",
+    "mount",
+    "pivot_root",
+    "setns",
+    "umount",
+    "umount2",
+    "unshare"
+  ],
+  "apparmor": {
+    "source": "https://raw.githubusercontent.com/moby/profiles/main/apparmor/template.go",
+    "source_sha256": "7da15d81aa5c507f5002b844fdc49a969904681447a2cc29222bd6cbe797163b",
+    "derived_sha256": "9dc7f484842e38db7cd505adfffb6dca7e8bc2a74b1187b41aca205f23418199",
+    "profile_name": "onedc-codex-v1",
+    "change": "Scope to OneDC containers; permit inner-namespace mounts and pivot_root required by bubblewrap. Retain proc/sys and peer restrictions. No outer SYS_ADMIN, no global default profile replacement."
+  }
+}

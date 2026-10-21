@@ -1,0 +1,14 @@
+[
+  {
+    "member": "expert_evidence/trajectory_codex.json",
+    "original_sha256": "45dc03483212a9bc0c7a76519566b2aeaa98bb5a6b154c62fb795a137ba2f939",
+    "derived_sha256": "5805f77c72cef0c77f681e6698845a8088babd795008abe137bae7908aa2292e",
+    "original_preserved_member": "expert_evidence/historical_package_records/trajectory_codex.json"
+  },
+  {
+    "member": "expert_evidence/trajectory_seed.json",
+    "original_sha256": "42b474aa9096ac3b68ea86d9a911570bba67729c56b6891da0c799e462f53757",
+    "derived_sha256": "05a3dd4fceea0df174cf341a084e205991f197b32f514d5b3a4eca1ef3ffffdd",
+    "original_preserved_member": "expert_evidence/historical_package_records/trajectory_seed.json"
+  }
+]

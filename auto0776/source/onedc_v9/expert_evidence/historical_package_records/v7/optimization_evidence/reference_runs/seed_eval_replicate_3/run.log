@@ -1,0 +1,8 @@
+[public-package-redaction] Final-v8 native Harbor aggregate run log.
+[run_eval] role=R replicate=3 image=sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5
+[run_eval] split=full image_count=24 order=public16_then_hidden8
+[run_eval] method_sha256=48dbf1ef65c4a4ec8498160ca4d4943d32e082bb96bb4e3fb9c9b9fe95a26444
+[run_eval] DONE valid=true bpp=0.020459493001302086 dists=0.11463754375775655 lpips=0.17375360118846098 normalized_score=0.6243098009518612 elapsed_sec=37.520867791557976
+[run_eval] source_bundle_sha256=95e6e38a23ac2863c0976ea475faa9e08ac53d6ef1ed6cbb13a18ab304705320
+[public-package-redaction] Per-image lines and hidden assets are retained only in the private recovery archive.
+

@@ -1,0 +1,9 @@
+{
+  "status": "format_error",
+  "valid": false,
+  "failure_type": "format_error",
+  "score": null,
+  "error": "CandidateError: Candidate failed or returned an invalid tensor response",
+  "exit_code": 2,
+  "run_id": "36b9f8cbc527489c803678f5dc6dc4a2"
+}

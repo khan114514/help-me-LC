@@ -1,0 +1,116 @@
+{
+  "round": 22,
+  "candidate_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "trusted_method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 0.8450469970703125,
+    "failed_request_seconds": 0.0294339656829834,
+    "gpu_queue_seconds": 0,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 0
+  },
+  "cli_exit": 1,
+  "gateway_records": [
+    {
+      "timestamp": "2026-10-04T08:58:16.880070+00:00",
+      "event": "request",
+      "request_id": "dc4a57da648d4040992016735ebafacf",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "eea4d68c9f8874f7125baeb6dd46f41a0914956a86ce7a504c2e3aae32ca964b",
+      "input_bytes": 61174
+    },
+    {
+      "timestamp": "2026-10-04T08:58:16.887640+00:00",
+      "event": "response",
+      "request_id": "dc4a57da648d4040992016735ebafacf",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.008112984003673773,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    },
+    {
+      "timestamp": "2026-10-04T08:58:17.080934+00:00",
+      "event": "request",
+      "request_id": "f8eeb180c7634eb1a211712b5ec98594",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "eea4d68c9f8874f7125baeb6dd46f41a0914956a86ce7a504c2e3aae32ca964b",
+      "input_bytes": 61174
+    },
+    {
+      "timestamp": "2026-10-04T08:58:17.088136+00:00",
+      "event": "response",
+      "request_id": "f8eeb180c7634eb1a211712b5ec98594",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.007837674995244015,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    },
+    {
+      "timestamp": "2026-10-04T08:58:17.310965+00:00",
+      "event": "request",
+      "request_id": "a6f826e700ae45868f61a185bc7d400f",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "e382322e7aaf02817ed9bec65775aaa60abe7ab38697b623896748fcf509c1e9",
+      "input_bytes": 61174
+    },
+    {
+      "timestamp": "2026-10-04T08:58:17.318288+00:00",
+      "event": "response",
+      "request_id": "a6f826e700ae45868f61a185bc7d400f",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.007877210002334323,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    },
+    {
+      "timestamp": "2026-10-04T08:58:17.506447+00:00",
+      "event": "request",
+      "request_id": "2ad07f08724542e4bca7cb0defc1d249",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "e382322e7aaf02817ed9bec65775aaa60abe7ab38697b623896748fcf509c1e9",
+      "input_bytes": 61174
+    },
+    {
+      "timestamp": "2026-10-04T08:58:17.513786+00:00",
+      "event": "response",
+      "request_id": "2ad07f08724542e4bca7cb0defc1d249",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.007913829002063721,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    }
+  ],
+  "new_public_receipts": [],
+  "retained_best": false,
+  "novel_method_semantics": false,
+  "method_semantics_sha256": "b3c4f4ca3f075f0ee9750261616189b60274d9b053b93492031d3ae74ad65217"
+}

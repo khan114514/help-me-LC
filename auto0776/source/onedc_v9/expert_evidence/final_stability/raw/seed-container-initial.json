@@ -1,0 +1,48 @@
+{
+  "image_id": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+  "container_id": "0a48effa2397bbdb7e359041bc101523e5123271b4cb64330e8892d3797103c3",
+  "started_at": "2026-10-04T11:28:17.157037601Z",
+  "restart_count": 0,
+  "cpu_limit_nano": 8000000000,
+  "cpu_quota": 0,
+  "cpu_period": 0,
+  "memory_limit_bytes": 34359738368,
+  "device_requests": [
+    {
+      "Driver": "nvidia",
+      "Count": 0,
+      "DeviceIDs": [
+        "0"
+      ],
+      "Capabilities": [
+        [
+          "gpu"
+        ]
+      ],
+      "Options": null
+    }
+  ],
+  "network_mode": "container:24909de0b73cc13b04d573cd2936a9e1ce4f55d58d2c3c9ccbb944bcfcab4603",
+  "mount_destinations": [
+    {
+      "Type": "bind",
+      "Destination": "/logs/agent",
+      "RW": true
+    },
+    {
+      "Type": "bind",
+      "Destination": "/logs/artifacts",
+      "RW": true
+    },
+    {
+      "Type": "bind",
+      "Destination": "/logs/verifier",
+      "RW": true
+    },
+    {
+      "Type": "bind",
+      "Destination": "/opt/onedc/locks/gpu.lock",
+      "RW": true
+    }
+  ]
+}

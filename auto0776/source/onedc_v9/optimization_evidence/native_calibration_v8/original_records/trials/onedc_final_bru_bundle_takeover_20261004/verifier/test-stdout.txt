@@ -1,0 +1,9 @@
+{"role": "B", "repeat": 1, "dists": 0.11711087326208751, "score": 0.0, "valid": true}
+{"role": "B", "repeat": 2, "dists": 0.11711087326208751, "score": 0.0, "valid": true}
+{"role": "B", "repeat": 3, "dists": 0.11711087326208751, "score": 0.0, "valid": true}
+{"role": "R", "repeat": 1, "dists": 0.11463754375775655, "score": 0.6243098009518612, "valid": true}
+{"role": "R", "repeat": 2, "dists": 0.11463754375775655, "score": 0.6243098009518612, "valid": true}
+{"role": "R", "repeat": 3, "dists": 0.11463754375775655, "score": 0.6243098009518612, "valid": true}
+{"role": "U", "repeat": 1, "dists": 0.11314917107423146, "score": 1.0, "valid": true}
+{"role": "U", "repeat": 2, "dists": 0.11314917107423146, "score": 1.0, "valid": true}
+{"role": "U", "repeat": 3, "dists": 0.11314917107423146, "score": 1.0, "valid": true}

@@ -1,0 +1,40 @@
+{
+  "phase": "PASS_LOCAL_ALL_FILE_HASHES",
+  "remote": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/paused-workspace-captures/20261004T212414667031Z",
+  "tracks": {
+    "gpt": {
+      "archive": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/paused-workspace-captures/20261004T212414667031Z/gpt.tgz",
+      "archive_bytes": 44876,
+      "archive_sha256": "4af05732d07e5dae0f96334986a964fae3ca4c6ece65939a1d54bd28d2490f88",
+      "files": 72,
+      "bytes": 259832,
+      "controller_pid": 1503309,
+      "controller_state": "T",
+      "controller_startticks": 6333164,
+      "CID": "2ee7cbe3a63dfa733facfdff454e61a6174faccb20ce8db5a56d0496c7eec1b6",
+      "StartedAt": "2026-10-04T10:16:23.744127135Z",
+      "method_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+      "identity_and_state_unchanged": true
+    },
+    "seed": {
+      "archive": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/paused-workspace-captures/20261004T212414667031Z/seed.tgz",
+      "archive_bytes": 22784,
+      "archive_sha256": "454c45748b10e1cce7feff1d3ad3430a21c9d30b1f303d48485728c56bb5fd15",
+      "files": 39,
+      "bytes": 105866,
+      "controller_pid": 1776711,
+      "controller_state": "T",
+      "controller_startticks": 6764503,
+      "CID": "0a48effa2397bbdb7e359041bc101523e5123271b4cb64330e8892d3797103c3",
+      "StartedAt": "2026-10-04T11:28:17.157037601Z",
+      "method_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+      "identity_and_state_unchanged": true
+    }
+  },
+  "original_native_trials_remain_open": true,
+  "model_or_scoring_calls": 0,
+  "research_credit_seconds": 0,
+  "local": "${CONTAINER_OR_LOCAL_HOME}/Documents/ChatGPT/New project/a10_takeover_20261004/onedc-paused-workspace-backups/20261004T212414667031Z",
+  "all_hashes_verified": true,
+  "verified_at": "2026-10-04T21:24:15.426345+00:00"
+}

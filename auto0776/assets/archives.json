@@ -1,0 +1,28 @@
+{
+  "scope": "Cloud file visibility checked with desktop client; hashes come from existing original backup/audit; no new cloud-byte hash in this handoff turn",
+  "archives": [
+    {
+      "file": "onedc-assets.tar.gz",
+      "bytes": 9193898241,
+      "sha256": "adf37d23103580414fe4df8f51d6e8ca642b79af717d758717b21d2b316a3a1d",
+      "cloud_path": "/电脑大文件归档_OneDC资产_20261010_203405/WorkBuddy/2026-10-03-21-07-06/private-recovery/onedc-assets.tar.gz",
+      "cloud_path_evidence": "confirmed by desktop-visible original archive manifest"
+    },
+    {
+      "file": "onedc-env-v8.tar.gz",
+      "bytes": 15121763292,
+      "sha256": "8470df4b64f402bc52037df280bbe2b90ba3c20b2ea8be40a0d7f52fc7da037e",
+      "image_id": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+      "cloud_path": "/电脑大文件归档_OneDC旧环境_20261012_103401/WorkBuddy/2026-10-03-21-07-06/private-recovery/onedc-env-v8.tar.gz",
+      "cloud_path_evidence": "file, size, archive directory and private-recovery visible; full nested path inferred and must be checked on restore"
+    },
+    {
+      "file": "onedc-env-v5-preflight.tar.gz",
+      "bytes": null,
+      "sha256": null,
+      "cloud_directory": "/电脑大文件归档_OneDC旧环境_20261012_103401",
+      "cloud_display_size": "14.00GB",
+      "use": "historical preflight only; prefer v8"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "authority": "user instruction in this task on 2026-10-04",
+  "timezone": "Asia/Shanghai",
+  "task_work_started_at": "2026-10-04T06:53:11+08:00",
+  "as_of": "2026-10-04T21:04:57.113708+08:00",
+  "as_of_epoch": 1791119097.1137083,
+  "policy": {
+    "primary_rule": "Count all elapsed task work; exclude only evidence-backed intervals in which the model gateway obtained no HTTP connection or response.",
+    "included": [
+      "environment configuration",
+      "image/runtime builds",
+      "smoke and NOP",
+      "formal and exploratory evaluations",
+      "debugging and recovery",
+      "GPU queues and waits",
+      "failed, incomplete, repeated, and no-op experiments",
+      "HTTP 429 responses and incomplete HTTP 200 streams because connectivity existed"
+    ],
+    "excluded": [
+      "confirmed no-HTTP-status or no-response gateway intervals"
+    ],
+    "shared_prerequisite_accounting": "The documented task start is credited to both tracks because setup, smoke, NOP, isolation, and recovery were shared prerequisites for both.",
+    "supplemental_only": "The former semantic closed-loop clock is retained for audit comparison and is not the completion clock."
+  },
+  "required_hours_per_track": 10.0,
+  "tracks": {
+    "gpt": {
+      "model_work_first_record": "2026-10-04T06:53:11+08:00",
+      "gross_elapsed_work_seconds": 51106.113708257675,
+      "gross_elapsed_work_hms": "14:11:46",
+      "excluded_no_connection_seconds": 1286.8766100406647,
+      "excluded_no_connection_hms": "00:21:27",
+      "effective_seconds": 49819.23709821701,
+      "effective_hms": "13:50:19",
+      "effective_hours": 13.838676971726947,
+      "required_seconds": 36000.0,
+      "target_met": true,
+      "audited_formal_rounds": 47,
+      "confirmed_no_connection_intervals": [
+        {
+          "start": "2026-10-04T16:39:44.666406+08:00",
+          "end": "2026-10-04T16:55:35.856102+08:00",
+          "seconds": 951.1896960735321,
+          "request_count": 6,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:56:02.055143+08:00",
+          "end": "2026-10-04T16:56:02.062541+08:00",
+          "seconds": 0.007397890090942383,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:56:02.280798+08:00",
+          "end": "2026-10-04T16:56:02.287461+08:00",
+          "seconds": 0.006663084030151367,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:56:02.498874+08:00",
+          "end": "2026-10-04T16:56:02.505876+08:00",
+          "seconds": 0.007002115249633789,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:56:02.715993+08:00",
+          "end": "2026-10-04T16:56:02.722516+08:00",
+          "seconds": 0.00652313232421875,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:56:46.997985+08:00",
+          "end": "2026-10-04T16:56:47.005169+08:00",
+          "seconds": 0.007184028625488281,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:56:47.214420+08:00",
+          "end": "2026-10-04T16:56:47.221159+08:00",
+          "seconds": 0.006738901138305664,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:56:47.444104+08:00",
+          "end": "2026-10-04T16:56:47.450744+08:00",
+          "seconds": 0.006639957427978516,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:56:47.668980+08:00",
+          "end": "2026-10-04T16:56:47.675857+08:00",
+          "seconds": 0.00687718391418457,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:57:31.958238+08:00",
+          "end": "2026-10-04T16:57:31.965312+08:00",
+          "seconds": 0.007074117660522461,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:57:32.169651+08:00",
+          "end": "2026-10-04T16:57:32.176143+08:00",
+          "seconds": 0.006491899490356445,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:57:32.378773+08:00",
+          "end": "2026-10-04T16:57:32.385776+08:00",
+          "seconds": 0.007003068923950195,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:57:32.587246+08:00",
+          "end": "2026-10-04T16:57:32.594349+08:00",
+          "seconds": 0.00710296630859375,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:58:16.880070+08:00",
+          "end": "2026-10-04T16:58:16.887640+08:00",
+          "seconds": 0.007570028305053711,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:58:17.080934+08:00",
+          "end": "2026-10-04T16:58:17.088136+08:00",
+          "seconds": 0.0072019100189208984,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:58:17.310965+08:00",
+          "end": "2026-10-04T16:58:17.318288+08:00",
+          "seconds": 0.007323026657104492,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T16:58:17.506447+08:00",
+          "end": "2026-10-04T16:58:17.513786+08:00",
+          "seconds": 0.007339000701904297,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T18:25:17.662910+08:00",
+          "end": "2026-10-04T18:25:20.748674+08:00",
+          "seconds": 3.085763931274414,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        },
+        {
+          "start": "2026-10-04T20:35:52.241121+08:00",
+          "end": "2026-10-04T20:41:24.730139+08:00",
+          "seconds": 332.48901772499084,
+          "request_count": 3,
+          "basis": "gateway request received no HTTP status/response"
+        }
+      ],
+      "confirmed_no_connection_seconds": 1286.8766100406647,
+      "included_gpu_queue_seconds_observed_in_formal_audits": 65.59164506098023,
+      "included_http_200_incomplete_response_count": 32,
+      "supplemental_strict_closed_loop_seconds": 4817.365821064508
+    },
+    "seed": {
+      "model_work_first_record": "2026-10-04T07:01:49+08:00",
+      "gross_elapsed_work_seconds": 51106.113708257675,
+      "gross_elapsed_work_hms": "14:11:46",
+      "excluded_no_connection_seconds": 14.80884313583374,
+      "excluded_no_connection_hms": "00:00:15",
+      "effective_seconds": 51091.30486512184,
+      "effective_hms": "14:11:31",
+      "effective_hours": 14.192029129200511,
+      "required_seconds": 36000.0,
+      "target_met": true,
+      "audited_formal_rounds": 9,
+      "confirmed_no_connection_intervals": [
+        {
+          "start": "2026-10-04T18:47:02.923709+08:00",
+          "end": "2026-10-04T18:47:17.732552+08:00",
+          "seconds": 14.80884313583374,
+          "request_count": 1,
+          "basis": "gateway request received no HTTP status/response"
+        }
+      ],
+      "confirmed_no_connection_seconds": 14.80884313583374,
+      "included_gpu_queue_seconds_observed_in_formal_audits": 210.9941610719543,
+      "included_http_200_incomplete_response_count": 12,
+      "supplemental_strict_closed_loop_seconds": 0.0
+    }
+  },
+  "all_tracks_target_met": true
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PENDING",
+  "actual_work_preserved": [
+    "Native current-package NOP",
+    "Native BRU calibration",
+    "Both frozen-best all24 terminal native reruns",
+    "Complete closed controller histories and SHA-bound public metrics",
+    "Three unclosed native attempt receipts",
+    "Primary user clock and pause receipts"
+  ],
+  "final_result": {
+    "selected_valid_track": "gpt",
+    "gpt_reward": 1.1955827260919034,
+    "seed_reward": -1,
+    "seed_quality_failure_preserved": true
+  },
+  "remaining": [
+    "Actual continuous12h stability receipts for both retained containers",
+    "Honest original-phase and independent-final-Trial association",
+    "Official strict privacy check and two independent release QA sessions",
+    "Final corresponding-topic ZIP and member/full-archive hashes"
+  ],
+  "not_final_package": true,
+  "not_platform_accepted": true,
+  "original_research_trials_remain_open_and_intentionally_paused": true,
+  "no_new_research_or_native_rerun_started_by_this_assembly": true
+}

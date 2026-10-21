@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "status": "VALID",
+  "role": "reference",
+  "seed": "eval_replicate_3",
+  "seed_note": "Deterministic inference-only task: rep is an independent fresh scoring process, not a training seed.",
+  "task_type": "inference_only_test_time_quantization",
+  "method": {
+    "name": "per-latent RDOQ (cand q0±1, lambda=0.055)",
+    "source_path": "candidates/reference_rdoq/method.py",
+    "source_sha256": "48dbf1ef65c4a4ec8498160ca4d4943d32e082bb96bb4e3fb9c9b9fe95a26444"
+  },
+  "protocol": {
+    "evaluator": "workspace/harbor_task/tests/run_eval.py --split full",
+    "data_boundary": "public images are embedded in the Agent environment; eight hidden images are injected only into the separate trusted Verifier",
+    "ordering": "24 fixed-order images: public16 followed by hidden8",
+    "metric_direction": "minimize full-set DISTS",
+    "quality_gate": "public and hidden mean bpp must each be no greater than the corresponding Baseline mean multiplied by 1.005",
+    "resource": "one A10 GPU, fresh process, Harbor 0.23.0",
+    "frozen_image": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+    "calibration_bundle_sha256": "95e6e38a23ac2863c0976ea475faa9e08ac53d6ef1ed6cbb13a18ab304705320"
+  },
+  "training": "NOT_APPLICABLE",
+  "execution": {
+    "command": "python /opt/onedc/grader/run_eval.py --method <method.py> --out <out> --split full",
+    "environment": "immutable offline final-v8 image on one A10 GPU",
+    "exit_code": 0,
+    "elapsed_sec": 37.520867791557976
+  },
+  "metrics": {
+    "primary": {
+      "name": "DISTS",
+      "direction": "minimize",
+      "value": 0.11463754375775655
+    },
+    "bpp_mean": 0.020459493001302086,
+    "dists": 0.11463754375775655,
+    "lpips": 0.17375360118846098,
+    "psnr": 21.82438685391236,
+    "msssim": 0.7578616241614023,
+    "public": {
+      "dists": 0.12056996300816536,
+      "bpp_mean": 0.02001317342122396,
+      "n": 16
+    },
+    "hidden": {
+      "dists": 0.10277270525693893,
+      "bpp_mean": 0.021352132161458336,
+      "n": 8
+    },
+    "normalized_score": 0.6243098009518612
+  },
+  "quality_gate": {
+    "public_pass": true,
+    "hidden_pass": true,
+    "cap_public": 0.020115795135498046,
+    "cap_hidden": 0.021553459167480468
+  },
+  "artifacts": [
+    "reference_runs/seed_eval_replicate_3/metrics.json",
+    "native_calibration_v8/summary.json"
+  ]
+}

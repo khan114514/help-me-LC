@@ -1,0 +1,4 @@
+Trial onedc_formal_seed_v8 failed: 
+Collecting main service artifacts
+Running collect hook in service 'main': 'rm -rf /logs/artifacts/solution; mkdir /logs/artifacts/solution; cp -a /workspace/solution/. /logs/artifacts/solution/'
+Collect hook in service 'main' completed

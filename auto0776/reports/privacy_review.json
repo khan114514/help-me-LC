@@ -1,0 +1,35 @@
+{
+  "scanner": "artifact_privacy_audit.py supplementary scanner, not official protocol.py",
+  "scanner_source_sha256": "7b837d97463adc68ecf7b17bedb488f377788e370ccb132efdef22623c75af68",
+  "scan_archive_sha256": "27d9bb9641b525549ce5eef1b67c37618d014fb646a017fa8b6b184e75a1694e",
+  "scope": "Auto0776 subtree before generated integrity/privacy metadata; source includes binary/image metadata coverage; no other task included",
+  "container_home_allowance": "/home/onedc-agent is a declared image user, not an author home",
+  "original_scanner_status": "BLOCK",
+  "original_scanner_findings": [
+    {
+      "code": "SECRET_VALUE",
+      "path": "auto0776_privacy_candidate.zip!/skills/autoresearch-manager/scripts/test_manager.py",
+      "line": 247
+    }
+  ],
+  "stats": {
+    "files": 1,
+    "archive_members": 1103,
+    "decoded_bytes": 55083667,
+    "png_metadata_chunks": 106
+  },
+  "manual_review": [
+    {
+      "path": "skills/autoresearch-manager/scripts/test_manager.py",
+      "source_sha256": "b5b558186e9ab2b5981cf5e69818644863ac391890ef083913e181cebcfabdc2",
+      "line": 247,
+      "code": "SECRET_VALUE",
+      "decision": "FALSE_POSITIVE_NON_SECRET_PATH_VARIABLE",
+      "evidence": "The value is a pathlib.Path expression in a unit test that creates a sentinel file; it is not a credential literal. Fixed QA assets are unmodified."
+    }
+  ],
+  "unresolved_findings": [],
+  "publication_review": "CLEARED_WITH_DOCUMENTED_NON_SECRET_FALSE_POSITIVE",
+  "official_privacy_check_completed": false,
+  "task_release_ready": false
+}

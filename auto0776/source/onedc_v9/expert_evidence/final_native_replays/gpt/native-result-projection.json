@@ -1,0 +1,58 @@
+{
+  "id": "414063a8-2765-4e50-88b2-cd359e9953eb",
+  "task_name": "autoresearch/onedc-quant",
+  "trial_name": "onedc_clean_best_gpt_all24_20261004",
+  "task_checksum": "00050a5235062b8b4eed87058280606e8e7d756dd5eaccc5ee280ce8c6a70b0b",
+  "agent_info": {
+    "name": "onedc-frozen-best-replay",
+    "version": "1",
+    "model_info": null
+  },
+  "agent_result": {
+    "n_input_tokens": null,
+    "n_cache_tokens": null,
+    "n_output_tokens": null,
+    "cost_usd": null,
+    "model_usage": null,
+    "rollout_details": null,
+    "metadata": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.1955827260919034
+    }
+  },
+  "verifier_environment_mode": "separate",
+  "exception_info": null,
+  "started_at": "2026-10-04T14:12:13.890113Z",
+  "finished_at": "2026-10-04T14:14:00.267508Z",
+  "environment_setup": {
+    "started_at": "2026-10-04T14:12:13.937989Z",
+    "finished_at": "2026-10-04T14:12:15.026052Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-10-04T14:12:15.026116Z",
+    "finished_at": "2026-10-04T14:12:15.275777Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-10-04T14:12:15.275894Z",
+    "finished_at": "2026-10-04T14:12:15.375059Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-04T14:12:26.711494Z",
+    "finished_at": "2026-10-04T14:14:00.267492Z"
+  },
+  "step_results": null,
+  "evidence_export": {
+    "kind": "derived_native_result_projection",
+    "original_sha256": "a4d1e70e24cd8304fe9582c0f532d94461b1795142a76de3aff6881a43f1a795",
+    "excluded_host_configuration_fields": [
+      "trial_uri",
+      "task_id",
+      "config",
+      "source"
+    ],
+    "original_bytes_preserved_in_verified_private_backup": true,
+    "native_result_not_synthesized": true
+  }
+}

@@ -1,0 +1,4 @@
+Collecting main service artifacts
+Running collect hook in service 'main': 'rm -rf /logs/artifacts/solution; mkdir /logs/artifacts/solution; cp -a /workspace/solution/. /logs/artifacts/solution/'
+Collect hook in service 'main' completed
+Skipping image OS validation for hb__c3c1cd7d6d46591c856542960caab411: docker inspect returned 1

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "status": "VALID",
+  "role": "baseline",
+  "seed": "eval_replicate_1",
+  "seed_note": "Deterministic inference-only task: rep is an independent fresh scoring process, not a training seed.",
+  "task_type": "inference_only_test_time_quantization",
+  "method": {
+    "name": "naive dead-zone (tau=0.6)",
+    "source_path": "candidates/baseline_dz/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198"
+  },
+  "protocol": {
+    "evaluator": "workspace/harbor_task/tests/run_eval.py --split full",
+    "data_boundary": "public images are embedded in the Agent environment; eight hidden images are injected only into the separate trusted Verifier",
+    "ordering": "24 fixed-order images: public16 followed by hidden8",
+    "metric_direction": "minimize full-set DISTS",
+    "quality_gate": "public and hidden mean bpp must each be no greater than the corresponding Baseline mean multiplied by 1.005",
+    "resource": "one A10 GPU, fresh process, Harbor 0.23.0",
+    "frozen_image": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+    "calibration_bundle_sha256": "95e6e38a23ac2863c0976ea475faa9e08ac53d6ef1ed6cbb13a18ab304705320"
+  },
+  "training": "NOT_APPLICABLE",
+  "execution": {
+    "command": "python /opt/onedc/grader/run_eval.py --method <method.py> --out <out> --split full",
+    "environment": "immutable offline final-v8 image on one A10 GPU",
+    "exit_code": 0,
+    "elapsed_sec": 37.61417865128169
+  },
+  "metrics": {
+    "primary": {
+      "name": "DISTS",
+      "direction": "minimize",
+      "value": 0.11711087326208751
+    },
+    "bpp_mean": 0.0204925537109375,
+    "dists": 0.11711087326208751,
+    "lpips": 0.17629042702416578,
+    "psnr": 21.74609302673294,
+    "msssim": 0.7513415142893791,
+    "public": {
+      "dists": 0.12342559173703194,
+      "bpp_mean": 0.020015716552734375,
+      "n": 16
+    },
+    "hidden": {
+      "dists": 0.10448143631219864,
+      "bpp_mean": 0.02144622802734375,
+      "n": 8
+    },
+    "normalized_score": 0
+  },
+  "quality_gate": {
+    "public_pass": true,
+    "hidden_pass": true,
+    "cap_public": 0.020115795135498046,
+    "cap_hidden": 0.021553459167480468
+  },
+  "artifacts": [
+    "baseline_runs/seed_eval_replicate_1/metrics.json",
+    "native_calibration_v8/summary.json"
+  ]
+}

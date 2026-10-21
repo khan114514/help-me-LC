@@ -1,0 +1,90 @@
+{
+  "status": "PENDING_FINAL_ACCEPTANCE",
+  "generated_at": "2026-10-04T16:59:32.435692+00:00",
+  "source_task_archive_sha256": "89813a4462f93341832e2801ff81f523f91dcb1d24719a3f788ad5bb1c80afb5",
+  "native_results": {
+    "gpt": {
+      "native_execution_complete": true,
+      "method_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+      "images": 24,
+      "metric_status": "ok",
+      "valid": true,
+      "bpp_in_window": true,
+      "score": 1.1955827260919034,
+      "dists": 0.11237433056036632,
+      "bpp_mean": 0.020490858289930556,
+      "public_bpp": 0.020032246907552082,
+      "hidden_bpp": 0.0214080810546875,
+      "bpp_caps": {
+        "public": 0.020115795135498046,
+        "hidden": 0.021553459167480468
+      },
+      "violation": null,
+      "exception_info": null,
+      "finished_at": "2026-10-04T14:14:00.267508Z"
+    },
+    "seed": {
+      "native_execution_complete": true,
+      "method_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+      "images": 24,
+      "metric_status": "hard_gate",
+      "valid": false,
+      "bpp_in_window": false,
+      "score": -1.0,
+      "dists": 0.11519672721624374,
+      "bpp_mean": 0.020598517523871526,
+      "public_bpp": 0.020105997721354164,
+      "hidden_bpp": 0.02158355712890625,
+      "bpp_caps": {
+        "public": 0.020115795135498046,
+        "hidden": 0.021553459167480468
+      },
+      "violation": "Mean bitrate exceeds the frozen split cap",
+      "exception_info": null,
+      "finished_at": "2026-10-04T14:15:18.571842Z"
+    }
+  },
+  "selected_valid_final_method": {
+    "track": "gpt",
+    "method_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+    "score": 1.1955827260919034
+  },
+  "seed_reward_minus_one_retained": true,
+  "hidden_results_not_used_for_further_research": true,
+  "original_research_trials_status": "OPEN_INTENTIONALLY_PAUSED; independent final replays closed",
+  "continuous_stability": {
+    "gpt": {
+      "container_id": "2ee7cbe3a63dfa733facfdff454e61a6174faccb20ce8db5a56d0496c7eec1b6",
+      "restarts": 0,
+      "state": {
+        "Running": true,
+        "OOMKilled": false,
+        "StartedAt": "2026-10-04T10:16:23.744127135Z"
+      },
+      "container_live_seconds": 23805.146718502045,
+      "container_12h_stability_target_met": false,
+      "controller_process_state": "T"
+    },
+    "seed": {
+      "container_id": "0a48effa2397bbdb7e359041bc101523e5123271b4cb64330e8892d3797103c3",
+      "restarts": 0,
+      "state": {
+        "Running": true,
+        "OOMKilled": false,
+        "StartedAt": "2026-10-04T11:28:17.157037601Z"
+      },
+      "container_live_seconds": 19491.827585220337,
+      "container_12h_stability_target_met": false,
+      "controller_process_state": "T"
+    }
+  },
+  "remaining": [
+    "Both actual continuous12h stability receipts",
+    "Honest final phase closure/association",
+    "Final complete archive evidence coverage and privacy review",
+    "Fresh final package QA, including independent required reviews"
+  ],
+  "not_final_or_platform_accepted": true,
+  "original_task_and_trajectory_members_preserved": true,
+  "supplemental_native_logs_and_private_complete_Trial_backup": "Private complete native backups are hash-verified. Log export and final archive coverage remain pending; no external-path-only final delivery claim."
+}

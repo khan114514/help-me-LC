@@ -1,0 +1,35 @@
+{
+  "schema_version": "onedc-aggregate-metrics.v1",
+  "split": "full",
+  "replicate": 2,
+  "method_sha256": "48dbf1ef65c4a4ec8498160ca4d4943d32e082bb96bb4e3fb9c9b9fe95a26444",
+  "image_count": 24,
+  "bpp_mean": 0.020459493001302086,
+  "dists": 0.11463754375775655,
+  "lpips": 0.17375360118846098,
+  "psnr": 21.82438685391236,
+  "msssim": 0.7578616241614023,
+  "public": {
+    "dists": 0.12056996300816536,
+    "bpp_mean": 0.02001317342122396,
+    "n": 16
+  },
+  "hidden": {
+    "dists": 0.10277270525693893,
+    "bpp_mean": 0.021352132161458336,
+    "n": 8
+  },
+  "elapsed_sec": 37.499503499617276,
+  "bpp_cap": {
+    "public": 0.020115795135498046,
+    "hidden": 0.021553459167480468
+  },
+  "bpp_in_window": true,
+  "normalized_score": 0.6243098009518612,
+  "anchors": {
+    "baseline_dists": 0.11711087326208751,
+    "upper_bound_dists": 0.11314917107423146
+  },
+  "note": "Per-image private-test measurements are intentionally omitted from the public package; aggregate results are bound to the verified calibration bundle hash in native_calibration_v8/summary.json."
+}
+

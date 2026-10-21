@@ -1,0 +1,116 @@
+{
+  "round": 19,
+  "candidate_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "trusted_method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 0.868441104888916,
+    "failed_request_seconds": 0.02758622169494629,
+    "gpu_queue_seconds": 0,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 0
+  },
+  "cli_exit": 1,
+  "gateway_records": [
+    {
+      "timestamp": "2026-10-04T08:56:02.055143+00:00",
+      "event": "request",
+      "request_id": "ef99e31b49c34e419fad4681613ac2f3",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "bf0377e6d0075c4b64fee10ea5bd19233311e8c0f5bd1da891895e76d7c970c5",
+      "input_bytes": 61168
+    },
+    {
+      "timestamp": "2026-10-04T08:56:02.062541+00:00",
+      "event": "response",
+      "request_id": "ef99e31b49c34e419fad4681613ac2f3",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.008032711994019337,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    },
+    {
+      "timestamp": "2026-10-04T08:56:02.280798+00:00",
+      "event": "request",
+      "request_id": "f2ca2941c09d4abdb8525e6bd22c51df",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "bf0377e6d0075c4b64fee10ea5bd19233311e8c0f5bd1da891895e76d7c970c5",
+      "input_bytes": 61168
+    },
+    {
+      "timestamp": "2026-10-04T08:56:02.287461+00:00",
+      "event": "response",
+      "request_id": "f2ca2941c09d4abdb8525e6bd22c51df",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.007278172000951599,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    },
+    {
+      "timestamp": "2026-10-04T08:56:02.498874+00:00",
+      "event": "request",
+      "request_id": "ddcd472dfa86433bb1c1181dd462809b",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "9c0485e3623a9b4be8e47e4b95152f248885c7f3fe5884d7a45a20ec7438331e",
+      "input_bytes": 61168
+    },
+    {
+      "timestamp": "2026-10-04T08:56:02.505876+00:00",
+      "event": "response",
+      "request_id": "ddcd472dfa86433bb1c1181dd462809b",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.00752762100455584,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    },
+    {
+      "timestamp": "2026-10-04T08:56:02.715993+00:00",
+      "event": "request",
+      "request_id": "f2d7396b703a465fb10e07ae0b80b01e",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "9c0485e3623a9b4be8e47e4b95152f248885c7f3fe5884d7a45a20ec7438331e",
+      "input_bytes": 61168
+    },
+    {
+      "timestamp": "2026-10-04T08:56:02.722516+00:00",
+      "event": "response",
+      "request_id": "f2d7396b703a465fb10e07ae0b80b01e",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.007029084001260344,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    }
+  ],
+  "new_public_receipts": [],
+  "retained_best": false,
+  "novel_method_semantics": false,
+  "method_semantics_sha256": "b3c4f4ca3f075f0ee9750261616189b60274d9b053b93492031d3ae74ad65217"
+}

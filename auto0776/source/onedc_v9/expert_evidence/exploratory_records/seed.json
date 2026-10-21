@@ -1,0 +1,654 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "policy_name": "baseline_verification_with_stats",
+      "method_summary": "Baseline dead-zone (τ=0.6) verified: bpp=0.020130, dists=0.122199, matches anchors exactly. Collected y_res/scales stats: ~98-99% zero after rounding, y_abs_mean≈0.05-0.08, scale_mean≈0.12. 128 channels at 32x48 spatial.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1221994758,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:01:49"
+    },
+    {
+      "round": 2,
+      "policy_name": "rdoq_plusminus1_lambda0.055",
+      "method_summary": "Per-latent RDOQ with ±1 candidates, λ=0.055. Matches reference exactly: bpp=0.020194, dists=0.119769, score=0.5849. Baseline bpp=0.020130 with headroom to cap=0.020231 (0.000037 bpp = 0.18% available).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1197693162,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:03:37"
+    },
+    {
+      "round": 3,
+      "policy_name": "rdoq_plusminus2_lambda0.06",
+      "method_summary": "RDOQ ±2 candidates, λ=0.06. bpp=0.019982 (way under cap 0.020231), dists=0.12143 (worse than reference 0.11977), score=0.185. λ too high → under-utilizing bit budget. Need λ≈0.053 to hit bpp cap with ±2 candidates.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.121426031,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:05:22"
+    },
+    {
+      "round": 4,
+      "policy_name": "rdoq_plusminus2_lambda0.053",
+      "method_summary": "RDOQ ±2 candidates, λ=0.053. bpp=0.02025 OVER cap (0.020231) → score=0. But dists=0.11905 is better than reference 0.11977, showing ±2 has potential. Need to increase λ slightly to ~0.054 to get under cap while keeping most of the dists gain.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11904567,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:06:42"
+    },
+    {
+      "round": 5,
+      "policy_name": "rdoq_plusminus2_lambda0.054",
+      "method_summary": "RDOQ ±2 candidates, λ=0.054. bpp=0.020213 (under cap), dists=0.119869, score=0.5608. Surprisingly worse than ±1 reference (0.5849). Strong non-linearity between λ=0.053 (dists=0.11905, over cap) and λ=0.054 (dists=0.11987, under cap). Need to fine-tune λ≈0.0535 to hit cap precisely.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.119869,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:08:40"
+    },
+    {
+      "round": 6,
+      "policy_name": "rdoq_plusminus2_lambda0.0535",
+      "method_summary": "RDOQ ±2 candidates, λ=0.0535. bpp=0.02023061 (just under cap 0.02023081), dists=0.118743, score=0.8319. Big improvement over reference (0.585). Fine-tuning λ precisely to the bpp cap was key. Best so far.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.118743,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:11:27"
+    },
+    {
+      "round": 7,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.5_lambda0.02",
+      "method_summary": "Sigma-adaptive RDOQ ±2, α=0.5, λ_base=0.02. bpp=0.02125 OVER cap (0.020231) → score=0. But dists=0.11163 is MUCH better than best (0.11874). Proves sigma-adaptive allocation works - reallocating bits to high-σ coefficients is very efficient for DISTS reduction. Need higher λ_base to bring bpp under control.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.111628,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:14:50"
+    },
+    {
+      "round": 8,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.5_lambda0.03",
+      "method_summary": "Sigma-adaptive RDOQ ±2, α=0.5, λ_base=0.03. bpp=0.02038 OVER cap (0.020231) → score=0. Surprisingly, dists=0.11983 is WORSE than constant-λ best (0.11874 at similar bpp). α=0.5 is too aggressive near the bpp cap: reallocating too many bits to rare high-σ coefficients at the expense of abundant low-σ coefficients. Need smaller α.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11983,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:16:55"
+    },
+    {
+      "round": 9,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.25_lambda0.032",
+      "method_summary": "Sigma-adaptive RDOQ ±2, α=0.25, λ_base=0.032. bpp=0.02081 OVER cap → score=0. dists=0.11560 is 2.6% better than best valid (0.11874). α=0.25 works better than α=0.5 near the bpp cap (milder reallocation = better overall RD). Need higher λ_base (~0.038) to get under cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.115597,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:18:49"
+    },
+    {
+      "round": 10,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.25_lambda0.038",
+      "method_summary": "Sigma-adaptive RDOQ ±2, α=0.25, λ_base=0.038. bpp=0.02041 (0.9% over cap) → score=0. dists=0.11835 is already better than best valid (0.11874). Very close! Need λ_base≈0.041 to get under cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.118347,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:20:22"
+    },
+    {
+      "round": 11,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.25_lambda0.041",
+      "method_summary": "Sigma-adaptive RDOQ ±2, α=0.25, λ_base=0.041. bpp=0.020264 (0.000033 over cap = 0.16%) → score=0. dists=0.11830, 0.37% better than best valid (0.11874). Barely over cap, need tiny λ increase to ~0.042.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.118303,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:22:06"
+    },
+    {
+      "round": 12,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.25_lambda0.042",
+      "method_summary": "Sigma-adaptive RDOQ ±2, α=0.25, λ_base=0.042. bpp=0.020242 (barely over cap) but dists=0.12016 JUMPS UP 1.6% from λ=0.041 (0.11830). Severe cliff effect near bpp cap. Need to find sweet spot between λ=0.041 and λ=0.042, or use a different adaptation strategy.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.120158,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:24:10"
+    },
+    {
+      "round": 13,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.25_lambda0.0415",
+      "method_summary": "Sigma-adaptive α=0.25, λ_base=0.0415. bpp=0.02025, dists=0.11925. Confirms cliff between λ=0.041 and 0.042: dists rapidly degrades (0.1183→0.1202) while bpp barely changes (0.02026→0.02024). Root cause: high-σ coefficients transition from ±2 to ±1 as λ increases, causing abrupt distortion jump.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.119251,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:26:27"
+    },
+    {
+      "round": 14,
+      "policy_name": "rdoq_thresholded_sigma_min0.2_alpha0.5_lambda0.03",
+      "method_summary": "Thresholded sigma-adaptive (σ_min=0.2, α=0.5, λ_base=0.03). bpp=0.02039, dists=0.11972. No improvement over smooth sigma-adaptive or constant λ. Current best valid remains constant-λ ±2 RDOQ (score=0.832).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.119715,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:28:48"
+    },
+    {
+      "round": 15,
+      "policy_name": "rdoq_plusminus3_lambda0.054",
+      "method_summary": "RDOQ ±3 candidates, λ=0.054. bpp=0.020213, dists=0.119869, score=0.5608. IDENTICAL to ±2 at same λ - ±3 candidates never used at this bitrate. Best valid remains constant-λ ±2 at λ=0.0535 (score=0.832).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.119869,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:30:52"
+    },
+    {
+      "round": 16,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.1_lambda0.045",
+      "method_summary": "Mild sigma-adaptive RDOQ ±2, α=0.1, λ_base=0.045. bpp=0.02039 (over cap), dists=0.11830. Promising: RD efficiency is good. Also discovered non-monotonic DISTS vs λ for constant λ (dists minimum at λ≈0.0535) - latent MSE ≠ DISTS. Need to tune λ_base higher to hit cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1183,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:33:09"
+    },
+    {
+      "round": 17,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.1_lambda0.047",
+      "method_summary": "Mild sigma-adaptive RDOQ ±2, α=0.1, λ_base=0.047. bpp=0.020289 (0.29% over cap), dists=0.11793. DISTS is 0.69% better than best valid (0.11874)! DISTS still decreasing as λ increases (non-monotonic pattern). Need λ_base≈0.0485 to hit cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.117927,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:35:00"
+    },
+    {
+      "round": 18,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.1_lambda0.0485",
+      "method_summary": "Mild sigma-adaptive α=0.1, λ_base=0.0485. bpp=0.020233 (just over cap), dists=0.119335. Worse than best valid (0.11874). DISTS minimum for α=0.1 is at bpp≈0.02029 (above cap). Past the minimum, DISTS increases rapidly as bpp decreases. Need to try smaller α to bring minimum closer to cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.119335,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:37:09"
+    },
+    {
+      "round": 19,
+      "policy_name": "rdoq_sigma_adaptive_alpha0.05_lambda0.050",
+      "method_summary": "Very mild sigma-adaptive α=0.05, λ_base=0.050. bpp=0.02028 (over cap), dists=0.11870. Only 0.04% better dists than best valid (0.11874) but with 0.24% more bpp. Very low RD efficiency. Best valid remains constant-λ ±2 at λ=0.0535 (score=0.832).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1187,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:38:58"
+    },
+    {
+      "round": 20,
+      "policy_name": "rdoq_sigma_adaptive_alpha_neg0.05_lambda0.057",
+      "method_summary": "Inverse sigma-adaptive α=-0.05, λ_base=0.057. bpp=0.02020, dists=0.12029, score=0.460. Much worse than best valid (0.832). Confirms that high-sigma coefficients are perceptually more important - giving them fewer bits hurts DISTS. Best valid remains constant-λ ±2 (score=0.832).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12029,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:40:45"
+    },
+    {
+      "round": 21,
+      "policy_name": "rdoq_gamma0.008_lambda0.052",
+      "method_summary": "RDOQ ±2 with dead-zone bonus (γ=0.008, λ=0.052). bpp=0.02021, dists=0.11957, score=0.634. Slightly better than constant λ at same bpp (0.56→0.63), but worse than best valid 0.832. Two-parameter approach shows promise but needs tuning at higher bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11957,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:43:05"
+    },
+    {
+      "round": 22,
+      "policy_name": "rdoq_l1_lambda0.035",
+      "method_summary": "L1-norm RDOQ ±2, λ=0.035. bpp=0.02115 (over cap), dists=0.11179. EXCELLENT at high bpp - much better than L2 RDOQ. L1 distortion aligns better with DISTS. Need to increase λ to ~0.050 to approach the cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11179,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:44:35"
+    },
+    {
+      "round": 23,
+      "policy_name": "rdoq_l1_lambda0.050",
+      "method_summary": "L1-norm RDOQ ±2, λ=0.050. bpp=0.02038 (0.74% over cap), dists=0.11804. MATCHES upper bound dists! L1 distortion aligns much better with DISTS than L2. Need λ≈0.055 to hit cap. Best dists achieved so far at this bpp level.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11804,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:46:27"
+    },
+    {
+      "round": 24,
+      "policy_name": "rdoq_l1_lambda0.055",
+      "method_summary": "L1-norm RDOQ ±2, λ=0.055. bpp=0.02017 (under cap), dists=0.11993, score=0.546. Worse than L2 best (0.832) at the cap. L1 is much better than L2 at higher bpp (dists=0.11179 at bpp=0.02115) but degrades faster as bpp decreases. L2 wins at the cap because its DISTS optimum falls right at the cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11993,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:48:17"
+    },
+    {
+      "round": 25,
+      "policy_name": "rdoq_l1_sigma_alpha0.05_lambda0.048",
+      "method_summary": "L1 RDOQ + mild sigma-adaptive α=0.05, λ_base=0.048. bpp=0.02033 (over cap), dists=0.11812. Similar to pure L1 at comparable bpp. Best valid remains constant-L2 ±2 (score=0.832, dists=0.11874).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11812,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:50:13"
+    },
+    {
+      "round": 26,
+      "policy_name": "rdoq_huber_delta0.8_lambda0.052",
+      "method_summary": "Huber loss RDOQ (δ=0.8, λ=0.052). bpp=0.01832, dists=0.14193. Very poor - wrong loss scale, way too few bits. Not a promising direction without extensive tuning. Best valid remains constant-L2 ±2 (score=0.832).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.14193,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:52:04"
+    },
+    {
+      "round": 27,
+      "policy_name": "rdoq_per_channel_4groups",
+      "method_summary": "Per-channel-group RDOQ ±2, 4 groups (λ=[0.050,0.052,0.055,0.058]). bpp=0.020191, dists=0.118531, score=0.8831. NEW BEST! Up from 0.832 (constant λ). Earlier channels are perceptually more important - reallocating bits from later to earlier channels improves DISTS.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.118531,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:54:29"
+    },
+    {
+      "round": 28,
+      "policy_name": "rdoq_per_channel_8groups_steeper",
+      "method_summary": "Per-channel RDOQ ±2, 8 groups (λ=[0.046..0.062] linear). bpp=0.020177, dists=0.118364, score=0.9248. NEW BEST! Up from 0.883 with 4 groups. More groups + steeper ramp = better DISTS. Still ~0.25% bit budget headroom available.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.118364,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:57:02"
+    },
+    {
+      "round": 29,
+      "policy_name": "rdoq_per_channel_16groups_curved_exp1.5",
+      "method_summary": "Per-channel RDOQ ±2, 16 groups, curved ramp (t^1.5, λ=0.045→0.063). bpp=0.020220, dists=0.117381, score=1.1599 (clipped=1.0). NEW BEST - beats upper bound! Per-channel allocation with curved ramp is highly effective. ~0.05% bit budget headroom remaining.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.117381,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 07:59:22"
+    },
+    {
+      "round": 30,
+      "policy_name": "rdoq_per_channel_32groups_exp2",
+      "method_summary": "Per-channel RDOQ ±2, 32 groups, t^2.0 ramp (λ=0.043→0.065). bpp=0.02029 (over cap), dists=0.11834. Worse than 16-group t^1.5 (0.11738). Too steep an exponent degrades later channels too much. Best remains 16 groups t^1.5 (score=1.16).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11834,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:04:03"
+    },
+    {
+      "round": 31,
+      "policy_name": "rdoq_per_channel_16groups_exp1.5_finetuned",
+      "method_summary": "Per-channel RDOQ ±2, 16 groups, t^1.5 (λ=0.044→0.064). bpp=0.0202306 (0.001% under cap - nearly perfect!), dists=0.117240, score=1.1936. NEW BEST! Up from 1.16. Fine-tuning lambda range to use all bit budget pays off.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11724,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:05:47"
+    },
+    {
+      "round": 32,
+      "policy_name": "rdoq_perchannel_16groups_plus_sigma_alpha0.03",
+      "method_summary": "Per-channel 16-group RDOQ + mild sigma-adaptive (α=0.03). bpp=0.02022, dists=0.11794, score=1.026. Worse than pure per-channel (1.194). Sigma-adaptive hurts at the cap - reallocated bits within channels don't improve DISTS as much as across channels. Best remains pure per-channel 16 groups t^1.5 (score=1.194).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11794,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:07:34"
+    },
+    {
+      "round": 33,
+      "policy_name": "rdoq_per_channel_16groups_exp1.2",
+      "method_summary": "Per-channel RDOQ ±2, 16 groups, t^1.2 (λ=0.044→0.066). bpp=0.020135, dists=0.116818, score=1.2953. NEW BEST! Shallower ramp (1.2 vs 1.5) is better - middle channels are more important than previously thought. 0.475% bit budget still unused.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.116818,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:09:36"
+    },
+    {
+      "round": 34,
+      "policy_name": "rdoq_per_channel_16groups_exp1.0_linear",
+      "method_summary": "Per-channel RDOQ ±2, 16 groups, linear t^1.0 ramp (λ=0.042→0.068). bpp=0.02008, dists=0.11891, score=0.792. Worse than t^1.2 (1.295). Optimal ramp shape is concave-up with exponent ~1.2. t^1.0 is too flat - early channels under-allocated, late channels over-penalized.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11891,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:11:15"
+    },
+    {
+      "round": 35,
+      "policy_name": "rdoq_per_channel_16groups_exp1.15",
+      "method_summary": "Per-channel RDOQ ±2, 16 groups, t^1.15 (λ=0.043→0.067). bpp=0.020117, dists=0.117647, score=1.0947. Worse than t^1.2 (1.295). Exponent 1.2 is confirmed as the sweet spot between 1.0 (too flat) and 1.5 (too steep).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.117647,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:12:41"
+    },
+    {
+      "round": 36,
+      "policy_name": "rdoq_per_channel_16groups_exp1.2_wider_range",
+      "method_summary": "Per-channel t^1.2 ramp, λ=0.040→0.067 (wider range). bpp=0.020190, dists=0.119240, score=0.712. Worse than t^1.2 0.044→0.066 (score=1.295). Wider ramp hurts DISTS - early channels get too many bits (diminishing returns) and late channels get too few (steep distortion cost). Optimal shape is a mild concave-up curve.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11924,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:15:31"
+    },
+    {
+      "round": 37,
+      "policy_name": "rdoq_per_channel_16groups_Ushaped",
+      "method_summary": "U-shaped per-channel lambda (low in middle, high at ends). bpp=0.02035 (over cap), dists=0.11906. Worse than t^1.2 ramp (score=1.295). Earliest channels are too important to raise lambda. Best remains 16-group t^1.2 (score=1.295).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11906,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:16:56"
+    },
+    {
+      "round": 38,
+      "policy_name": "rdoq_per_channel_32groups_exp1.2",
+      "method_summary": "32 groups per-channel RDOQ, t^1.2 (λ=0.044→0.066). bpp=0.020127, dists=0.117331, score=1.1722. Worse than 16-group t^1.2 (score=1.295). Finer grouping doesn't help and may overfit. Optimal granularity is ~16 groups.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.117331,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 08:18:22"
+    },
+    {
+      "round": 39,
+      "policy_name": "rdoq_per_channel_128groups_exp1.2",
+      "method_summary": "Per-channel RDOQ ±2, 128 groups (per-channel), t^1.2 (λ=0.044→0.066). bpp=0.020129, dists=0.118355, score=0.925. Much worse than 16-group t^1.2 (1.295). Per-channel granularity overfits - 16 groups captures the optimal channel allocation structure.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11835538595914841,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:41:29"
+    },
+    {
+      "round": 40,
+      "policy_name": "rdoq_per_channel_16groups_exp1.2_lambda_lower",
+      "method_summary": "16-group RDOQ t^1.2, uniformly lower lambda (λ=0.042→0.064). bpp=0.020234 OVER cap (0.020231) → score=0. Surprisingly dists=0.117186 is WORSE than best (0.116818) despite more bits. Extra bits went to early channels (diminishing DISTS returns) while late channels didn't get enough. Uniform lambda shift is bad - need to reallocate across channels.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11718568950891495,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:50:33"
+    },
+    {
+      "round": 41,
+      "policy_name": "rdoq_per_channel_16groups_exp1.2_narrower_range",
+      "method_summary": "16-group RDOQ t^1.2, narrower range (λ=0.045→0.064). bpp=0.02018, dists=0.11774, score=1.073. Worse than best (1.295). Reallocating bits from early to late channels hurts DISTS - early channels are more perceptually important than we thought. t^1.2 with 0.044→0.066 remains optimal shape.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11774230003356934,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:53:09"
+    },
+    {
+      "round": 42,
+      "policy_name": "rdoq_per_channel_16groups_exp1.2_candwidth3",
+      "method_summary": "16-group RDOQ t^1.2 with CAND_WIDTH=3 (±3 candidates). bpp=0.02014, dists=0.11682, score=1.295. Identical to ±2 version - virtually no coefficients need ±3 quantization. ±2 candidate set is sufficient.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1168179102241993,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:54:51"
+    },
+    {
+      "round": 43,
+      "policy_name": "rdoq_per_channel_12groups_exp1.2",
+      "method_summary": "12-group RDOQ t^1.2 (λ=0.044→0.066). bpp=0.02009, dists=0.11799, score=1.013. Worse than 16-group (1.295). Confirms 16 groups is the optimal granularity - 12 is too coarse, 32+ overfits.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11798877269029617,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:56:32"
+    },
+    {
+      "round": 44,
+      "policy_name": "rdoq_per_channel_16groups_exp1.2_perimage_adapt",
+      "method_summary": "16-group t^1.2 RDOQ + per-image adaptive lambda (alpha=0.3, scale-based). bpp=0.02014, dists=0.11682, score=1.295. Identical to baseline - per-image scale variation is too small to matter. Per-image adaptation provides no benefit.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1168179102241993,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 10:58:27"
+    },
+    {
+      "round": 45,
+      "policy_name": "rdoq_per_channel_16groups_exp1.2_L1distortion",
+      "method_summary": "16-group t^1.2 RDOQ with L1 (abs) distortion instead of L2. bpp=0.02013, dists=0.11693, score=1.269. Worse than L2 (1.295). L2 MSE is better aligned with DISTS - small coefficient distortion is perceptually important and shouldn't be aggressively zeroed.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11692830920219421,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:00:46"
+    },
+    {
+      "round": 46,
+      "policy_name": "rdoq_scale_sorted_16groups_exp1.2",
+      "method_summary": "RDOQ with channels sorted by mean scale (descending), 16 groups t^1.2 (λ=0.044→0.066). bpp=0.02067 OVER cap → score=0. But dists=0.11636 is BETTER than best (0.11682)! Scale-sorted allocation is more efficient for distortion - high-σ channels truly need more bits. Need higher lambda to bring bpp under cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11635665595531464,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:02:30"
+    },
+    {
+      "round": 47,
+      "policy_name": "rdoq_scale_sorted_16groups_exp1.2_higher_lambda",
+      "method_summary": "Scale-sorted RDOQ with higher lambda (0.052→0.078). bpp=0.02029 still OVER cap, dists=0.11809, score=0. Worse DISTS than index-sorted at similar bpp (0.11682 at 0.020135). At low bitrates, channel-index ordering is better than scale ordering - early channels have higher perceptual importance per bit.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1180889867246151,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:05:19"
+    },
+    {
+      "round": 48,
+      "policy_name": "rdoq_per_channel_16groups_exp1.2_narrow_same_start",
+      "method_summary": "16-group t^1.2 RDOQ, narrower range same start (λ=0.044→0.064). bpp=0.02019, dists=0.11800, score=1.011. Worse than best (1.295). Giving late channels more bits (lower lambda) hurts - late channels are truly less perceptually important. t^1.2 0.044→0.066 remains firmly optimal.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11799713596701622,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:08:21"
+    },
+    {
+      "round": 49,
+      "policy_name": "rdoq_per_channel_16groups_exp1.22",
+      "method_summary": "16-group RDOQ with exponent 1.22 (λ=0.044→0.066). bpp=0.02014, dists=0.11706, score=1.236. Worse than 1.2 (1.295). Confirms exponent 1.2 is the sweet spot between 1.15 (1.095) and 1.22 (1.236).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11706415936350822,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:11:02"
+    },
+    {
+      "round": 50,
+      "policy_name": "rdoq_per_channel_16groups_perceptual_masking",
+      "method_summary": "16-group t^1.2 RDOQ + perceptual masking (alpha=0.15, high sigma → higher lambda). bpp=0.01975, dists=0.12194, score=0.064. Terrible! Perceptual masking is wrong direction - high-sigma coefficients are MORE perceptually important, not less. Confirms high sigma = high DISTS importance.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1219351589679718,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:13:22"
+    },
+    {
+      "round": 51,
+      "policy_name": "rdoq_per_channel_16groups_L3distortion",
+      "method_summary": "16-group t^1.2 RDOQ with L3 (cubed) distortion. bpp=0.01947, dists=0.12587, score=-0.883. Terrible! L3 massively over-penalizes large errors, causing too many zeros and poor quality. L2 is confirmed as far the best distortion norm.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12586768344044685,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:15:04"
+    },
+    {
+      "round": 52,
+      "policy_name": "rdoq_per_channel_16groups_exp0.8",
+      "method_summary": "16-group RDOQ with exponent 0.8 (concave-down ramp). bpp=0.02006, dists=0.11880, score=0.819. Much worse than t^1.2 (1.295). Confirms optimal shape is mildly concave-up with exponent ~1.2. Too flat (t^0.8-1.0) and too steep (t^1.5+) are both worse.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11879650875926018,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:16:46"
+    },
+    {
+      "round": 53,
+      "policy_name": "rdoq_per_channel_16groups_exp1.2_spatial_gradient",
+      "method_summary": "16-group t^1.2 RDOQ + spatial gradient (center-biased, 5% strength). bpp=0.02008, dists=0.11844, score=0.904. Worse than baseline (1.295). Spatial reallocation of bits hurts - perceptual importance doesn't vary spatially in the latent space. Per-channel allocation remains the right granularity.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11844383552670479,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:19:46"
+    },
+    {
+      "round": 54,
+      "policy_name": "rdoq_snr_normalized_16groups_exp1.2",
+      "method_summary": "16-group t^1.2 RDOQ with SNR-normalized distortion (MSE/sigma^2). bpp=0.02325 WAY over cap → score=0. But dists=0.10244 is MASSIVELY better than best (0.1168)! SNR-normalized distortion is far more DISTS-efficient - high-sigma coefficients contribute less distortion per unit error. Major discovery! Need higher lambda to bring bpp under cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.10243859142065048,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:22:07"
+    },
+    {
+      "round": 55,
+      "policy_name": "rdoq_snr_16groups_higher_lambda",
+      "method_summary": "SNR-normalized RDOQ 16g t^1.2, λ=0.08→0.12. bpp=0.02271, dists=0.10161, score=0. Still way over cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.10243859142065048,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:39:03"
+    },
+    {
+      "round": 56,
+      "policy_name": "rdoq_snr_16groups_even_higher",
+      "method_summary": "SNR-normalized RDOQ 16g t^1.2, λ=0.15→0.22. bpp=0.02182, dists=0.10649, score=0. SNR is efficient at high bitrates.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.10161042585968971,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:39:03"
+    },
+    {
+      "round": 57,
+      "policy_name": "rdoq_snr_16groups_0.25_to_0.37",
+      "method_summary": "SNR-normalized RDOQ 16g t^1.2, λ=0.25→0.37. bpp=0.02094, dists=0.11638, score=0. Near cap, dists slightly better than MSE (0.1168).",
+      "status": "exploratory_metric_recorded",
+      "score": 0.10648923739790916,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:39:03"
+    },
+    {
+      "round": 58,
+      "policy_name": "rdoq_snr_16groups_0.30_to_0.44",
+      "method_summary": "SNR-normalized RDOQ 16g t^1.2, λ=0.30→0.44. bpp=0.02060, dists=0.11898, score=0. Below previous but DISTS worse than MSE at cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11638214439153671,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:39:03"
+    },
+    {
+      "round": 59,
+      "policy_name": "rdoq_snr_16groups_0.34_to_0.50",
+      "method_summary": "SNR-normalized RDOQ 16g t^1.2, λ=0.34→0.50. bpp=0.02033, dists=0.12360, score=0. Near cap but DISTS much worse than MSE.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11897605285048485,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:39:03"
+    },
+    {
+      "round": 60,
+      "policy_name": "rdoq_sigma1_norm_16groups",
+      "method_summary": "Sigma-normalized (alpha=1.0) RDOQ 16g t^1.2, λ=0.09→0.135. bpp=0.02081, dists=0.11573, score=0. Better DISTS than SNR at similar bpp.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.12360161915421486,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:39:03"
+    },
+    {
+      "round": 61,
+      "policy_name": "rdoq_sigma1_norm_16groups_higher",
+      "method_summary": "Sigma-normalized (alpha=1.0) RDOQ 16g t^1.2, λ=0.11→0.165. bpp=0.02041, dists=0.11927, score=0. DISTS worse than MSE near cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11572674661874771,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:39:03"
+    },
+    {
+      "round": 62,
+      "policy_name": "rdoq_sigma0.5_norm_16groups",
+      "method_summary": "Sigma^0.5-normalized (alpha=0.5) RDOQ 16g t^1.2, λ=0.055→0.083. bpp=0.02078, dists=0.11487, score=0. Best at ~0.0208 bpp - alpha=0.5 is optimal at medium bitrates.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11927087604999542,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:39:03"
+    },
+    {
+      "round": 63,
+      "policy_name": "rdoq_sigma0.5_norm_higher",
+      "method_summary": "Sigma^0.5-normalized RDOQ 16g t^1.2, λ=0.070→0.105. bpp=0.02024, dists=0.12002, score=0. Near cap but DISTS worse than pure MSE.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.11486584693193436,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:39:03"
+    },
+    {
+      "round": 64,
+      "policy_name": "rdoq_sigma0.25_norm_16groups",
+      "method_summary": "Sigma^0.25-normalized (alpha=0.25) RDOQ 16g t^1.2, λ=0.050→0.075. bpp=0.02044, dists=0.11785, score=0. Still worse than MSE at similar bitrate.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.1200217679142952,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:39:03"
+    },
+    {
+      "round": 65,
+      "policy_name": "rdoq_16g_t1.2_sigma_adaptive_neg0.05",
+      "method_summary": "16-group t^1.2 RDOQ + mild sigma-adaptive with negative alpha=-0.05 (high-sigma gets lower lambda). bpp=0.02026 over cap, dists=0.11777, score=0. Worse than pure per-channel MSE (0.11682). Sigma-adaptive in either direction hurts at the bpp cap.",
+      "status": "exploratory_metric_recorded",
+      "score": 0.117770005017519,
+      "failure_reason": null,
+      "retained_best": null,
+      "time": "2026-10-04 11:40:31"
+    }
+  ]
+}

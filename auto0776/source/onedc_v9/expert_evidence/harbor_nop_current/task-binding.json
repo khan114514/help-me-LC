@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "summary": "The Harbor task name autoresearch/onedc-quant maps to the submitted task directory harbor_task. The public task snapshot was hashed before the organizer injected eight Hidden images into tests/hidden_assets and built the independent Verifier. task.toml and both Dockerfiles match the submitted package hashes.",
+  "current_task_directory_name": "harbor_task",
+  "harbor_task_name": "autoresearch/onedc-quant",
+  "public_task_file_count": 125,
+  "public_task_manifest_sha256": "15f0d8af36f9d71b4c7750777d044d42221cfdb3269a350c66a521a6b28d9692",
+  "task_toml_sha256": "20c20fa63ad9c1304bacf96c8316146d9619ccc6cf99e27b569469a19102174b",
+  "environment_dockerfile_sha256": "63cdec30944d64eb3d0f901fb30d6f6796d3671b2ad07b9112e04f53534372b3",
+  "tests_dockerfile_sha256": "8d6124def8633b463ec6f134d77eba054354a352bfd221de091b3daecba93a4b",
+  "tests_dockerignore_sha256": "7583f221f5be02eaefb4070c75bd0ce318877708a3f7231b78d53573bbfb2d4b",
+  "hidden_injection": {
+    "mode": "trusted organizer injection before verifier image build",
+    "image_count": 8,
+    "assets_in_public_package": false
+  },
+  "trial_task_checksum": "00050a5235062b8b4eed87058280606e8e7d756dd5eaccc5ee280ce8c6a70b0b",
+  "raw_private_evidence_sha256": {
+    "result_json": "66cf2b3671784be176320195d545bb96d316d9ab3b1c89981aff5be644c41dc5",
+    "reward_json": "b2695462ed3c7dd9715862d5c6f030c98f63b701b75282bb90a60ffcaeab06b2",
+    "test_stdout": "c4a607db978defa44c92722071912d089f29a83646a9abef1d37b178383c0024",
+    "metrics_json": "0c16b64b857a6956901e108574e04746ee0409fee1ac4b14da047df064bf6938"
+  }
+}

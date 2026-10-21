@@ -1,0 +1,46 @@
+{
+  "round": 11,
+  "candidate_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "trusted_method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 0.21125030517578125,
+    "failed_request_seconds": 0.0,
+    "gpu_queue_seconds": 0,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 0
+  },
+  "cli_exit": 1,
+  "gateway_records": [
+    {
+      "timestamp": "2026-10-04T08:49:44.740325+00:00",
+      "event": "response",
+      "request_id": "140f1fe2fb9b41d1982a9bec4dbacc9c",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 600.095404656,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    },
+    {
+      "timestamp": "2026-10-04T08:49:59.934662+00:00",
+      "event": "response",
+      "request_id": "21bfc5dc578e4e5eb631064a1c563804",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 600.0984627479993,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    }
+  ],
+  "new_public_receipts": [],
+  "retained_best": false,
+  "novel_method_semantics": false,
+  "method_semantics_sha256": "b3c4f4ca3f075f0ee9750261616189b60274d9b053b93492031d3ae74ad65217"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "onedc-metric-assets.v1",
+  "files": {
+    "dists.pt": {
+      "size": 12288,
+      "sha256": "f5e65c96230b7f6ca995691647d482237e4cab8a50c5c4a5784f219ef0748218"
+    }
+  },
+  "provenance": "Byte-identical frozen DISTS 0.1 alpha/beta weights used in the original official-metric reproduction."
+}

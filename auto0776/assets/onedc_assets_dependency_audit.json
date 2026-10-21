@@ -1,0 +1,10 @@
+{
+  "source_sha256": "7c77c6709a82c1ecca7580e1c56a46bc6e8b2e1d4499200ed5f757ba11722c75",
+  "export": "path-projected original audit, no new asset verification",
+  "audit": {
+    "checked_at": "2026-10-10T20:33:29.576937+08:00",
+    "protected_code_refs": [],
+    "rg_returncode": 1,
+    "related_processes": []
+  }
+}

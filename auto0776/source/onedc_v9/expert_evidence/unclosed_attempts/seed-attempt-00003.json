@@ -1,0 +1,53 @@
+{
+  "kind": "derived_unclosed_attempt_receipt",
+  "track": "seed",
+  "attempted_round": 3,
+  "started_at": "2026-10-04T08:47:31.030084+00:00",
+  "native_turn_completed": false,
+  "native_turn_failed": true,
+  "observed_http_error_codes": [
+    429
+  ],
+  "observed_event_types": [
+    "thread.started",
+    "item.completed",
+    "turn.started",
+    "error",
+    "turn.failed"
+  ],
+  "terminal_result_available": false,
+  "score": null,
+  "not_inserted_into_completed_controller_trajectory": true,
+  "no_duration_credit_added": true,
+  "source_manifest": [
+    {
+      "filename": "codex-events.jsonl",
+      "bytes": 506,
+      "sha256": "8e8d7433fe716b1016b51496c9b3207fc77d26427fe29b8f40f03fa3cd81c635"
+    },
+    {
+      "filename": "codex-stderr.log",
+      "bytes": 39,
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721"
+    },
+    {
+      "filename": "method.py",
+      "bytes": 6799,
+      "sha256": "8309e00bb4fd95538b163c3bced6f2eb5c1980f5bae9e9f3f74df60f3a89a55a"
+    },
+    {
+      "filename": "started.json",
+      "bytes": 83,
+      "sha256": "bc44ee483c0733ed145952c490eefdf0b8745461a487ba3b2c4cb72b9c81a227"
+    },
+    {
+      "filename": "trusted-metrics.json",
+      "bytes": 5177,
+      "sha256": "693a7c144653b2dee8cb8c1f86d9000e566fea1a8da77d881ab55910430ccc76"
+    }
+  ],
+  "export_omissions": [
+    "Private gateway endpoint and request bodies"
+  ],
+  "raw_private_bytes_preserved_and_hash_verified": true
+}

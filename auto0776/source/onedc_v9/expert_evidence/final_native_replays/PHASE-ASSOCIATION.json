@@ -1,0 +1,23 @@
+{
+  "research_phase": "OPEN_RECORD_PRESERVED_OPERATOR_ABORTED; scoring is the separate closed frozen-best native Trials",
+  "original_trials": {
+    "gpt": "onedc_formal_gpt_v8_resume_20261004T101619645079",
+    "seed": "onedc_formal_seed_v8_resume_20261004T112813049205"
+  },
+  "original_trial_names_source": "Actual retained Docker bind mounts captured in the raw exposure inventory; original source SHA and public projection are both recorded.",
+  "pause_receipt": "../time_authority/original-research-transition-user-clock.json",
+  "closed_replay_trials": {
+    "gpt": "onedc_clean_best_gpt_all24_20261004",
+    "seed": "onedc_clean_best_seed_all24_20261004"
+  },
+  "binding": "Each original own best SHA is recorded in the actual pause receipt and identical to final_native_replays/<track>/method.py and trusted native replay-source/metrics. Frozen image and requested config are in native_execution_records.",
+  "final_choice": "GPT valid score1.1955827260919034; Seed genuine all24 quality hard-gate score-1 preserved.",
+  "replay_credit_seconds": 0,
+  "research_controller_not_resumed": true,
+  "full12h_acceptance": true,
+  "original_phase_cleanup_and_final_QA": "Operator phase ended with exact own dependencies released; fresh final dual-AI QA pending.",
+  "starter_role": "workspace solution/starter is baseline for new Agent optimization; expert final_native_replays/gpt/method.py is the selected final method.",
+  "actual_closure_evidence": "../final_stability/onedc-original-phase-close-receipt.json",
+  "actual_continuity_evidence": "../final_stability/onedc-retained-continuity-latest.json",
+  "original_workspace_capture": "../closed_original_workspace"
+}

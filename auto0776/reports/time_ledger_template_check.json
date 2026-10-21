@@ -1,0 +1,29 @@
+{
+  "status": "INCOMPLETE",
+  "task_release_ready": false,
+  "tracks": [
+    {
+      "track": "gpt",
+      "review_complete": false,
+      "research_union_seconds": 0,
+      "exclusion_overlap_seconds": 0,
+      "effective_seconds": null,
+      "arithmetic_unreviewed_seconds": 0,
+      "required_seconds": 36000,
+      "deficit_seconds": null,
+      "target_met": false
+    },
+    {
+      "track": "seed",
+      "review_complete": false,
+      "research_union_seconds": 0,
+      "exclusion_overlap_seconds": 0,
+      "effective_seconds": null,
+      "arithmetic_unreviewed_seconds": 0,
+      "required_seconds": 36000,
+      "deficit_seconds": null,
+      "target_met": false
+    }
+  ],
+  "scope": "Union/subtraction of author-reviewed evidence intervals only; does not authenticate evidence or accept 7h exceptions."
+}

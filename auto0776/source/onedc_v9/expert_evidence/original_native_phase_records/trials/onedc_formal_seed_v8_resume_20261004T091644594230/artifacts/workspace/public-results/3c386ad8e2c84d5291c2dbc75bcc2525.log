@@ -1,0 +1,7 @@
+[run_eval] waiting gpu lock (/opt/onedc/locks/gpu.lock) ...
+[run_eval] gpu lock acquired
+[INFO] using lora to Unet
+<All keys matched successfully>
+<All keys matched successfully>
+[run_eval] model loaded in 5.8s
+[run_eval] format_error: Candidate failed or returned an invalid tensor response

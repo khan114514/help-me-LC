@@ -1,0 +1,1 @@
+{"metrics_path": "/workspace/public-results/3c386ad8e2c84d5291c2dbc75bcc2525.json", "log_path": "/workspace/public-results/3c386ad8e2c84d5291c2dbc75bcc2525.log", "exit_code": 2, "status": "format_error", "valid": false, "dists": null, "bpp_mean": null, "score": null, "request_id": "99bff0770e9f4554be09b0753643a5be", "service_elapsed_sec": 21.15993511799752}

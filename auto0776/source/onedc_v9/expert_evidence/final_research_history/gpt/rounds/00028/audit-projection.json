@@ -1,0 +1,125 @@
+{
+  "round": 28,
+  "candidate_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+  "trusted_method_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 121.791574716568,
+    "failed_request_seconds": 85.10356593132019,
+    "gpu_queue_seconds": 0,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 5
+  },
+  "cli_exit": 1,
+  "retained_best": false,
+  "novel_method_semantics": false,
+  "method_semantics_sha256": "f66ccce0c3df502c5d01e2e2ef6a2496f38d0a2b7ec671aed5b12c18e9c16fc9",
+  "new_public_receipts": [],
+  "native_event_observations": {
+    "turn_completed": false,
+    "completed_command_tools": [
+      {
+        "id": "item_1",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "a83cf4736c62021ef40dbed9ca02fa924c5c69f1dc793beff2cce9f323660d24",
+        "output_sha256": "a67305ba049a13201e2e1d6ec2d8c7313800a227675ffb7034b644feaecb1a9c"
+      },
+      {
+        "id": "item_2",
+        "status": "failed",
+        "exit_code": 127,
+        "command_sha256": "d20c120cc6c33bdf331ce4517108a6a7fd8a49fc76b4645be173da7e0c401c49",
+        "output_sha256": "f48250f0085abe8668b290e5a84fd7e8a22342f533a35dcb6144260209615841"
+      },
+      {
+        "id": "item_3",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "9e5915b2a9008450a8bf4a8b20659cfd271f70de0733abe8ed99accdd24c5c4a",
+        "output_sha256": "4c098cb33ae6868891f8b03c5a490bd17efac1204677e11f62b099673a3fbc2b"
+      },
+      {
+        "id": "item_4",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "0445c20d66813d074631977cd99cf3218f5e19ea3f799779e8b48f9b008d1614",
+        "output_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59"
+      },
+      {
+        "id": "item_5",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "4ac49001c1947d48c7fdf996f43bbdd2df407cdcff7a68cf77794527f805b713",
+        "output_sha256": "4bfa66caff582efae5723bdacd98bf8bf5641f7543df4c4576e0d2271d165513"
+      },
+      {
+        "id": "item_6",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "95075c79e5eda13f115c8b6540b1d1fbe10247ac66de1286b38475e5f5010124",
+        "output_sha256": "c10022a8f3d0f65f6b1e8dcb4405956fe31c4cdf26c3e40a27407d31b6e90bad"
+      },
+      {
+        "id": "item_7",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "32f28b69a489687d77fe51a023595e3e9d0ab3a8882ee8bb0f68d46410639ff6",
+        "output_sha256": "6a29dc19d0774368cbd39e13b5677fef8ea929cd23ef637021ec5b9f48b749a1"
+      },
+      {
+        "id": "item_8",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "399665a20d9ca9322706f2da356012baf5444e92b5862bd4126a5cf147847062",
+        "output_sha256": "0276fe7691a181fc65c63b1651c438ec661bd9d6919f70f4def69d95f47cf741"
+      },
+      {
+        "id": "item_9",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "4c8821f8be9a94201727537218f4ec7c02b80e94819b6728984a2533d0680676",
+        "output_sha256": "07f834d72f3af68018a5822368310d4e11c40686c90b7a62c90b569bed21e885"
+      },
+      {
+        "id": "item_10",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "88ed2150163b829353592075a69fcd9378f88ed5d90a762d5d2a2da927786b6e",
+        "output_sha256": "e4c9abd316c8cc042d7a1ab733287a04fed1ef142790c373cbffc1d994f9b503"
+      },
+      {
+        "id": "item_11",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "dfef6ffaff0a147a6437ba153d0ab80f39bd64f3d445e24fad7821217547b245",
+        "output_sha256": "0ec9a62d1924d048051882134ef1bf1ecf4073a0ad6f5d5a3aaae41be93885e5"
+      },
+      {
+        "id": "item_12",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "11cb820810d66468d252384c21f19697b91b914d6c7bf401f55c724eaabe92e3",
+        "output_sha256": "4a0c0ae5064a0c1a6588a6e0fbea1183c96bf24e2d1b7c62676ca45b7f53b393"
+      }
+    ],
+    "event_types": [
+      "error",
+      "item.completed",
+      "item.started",
+      "thread.started",
+      "turn.failed",
+      "turn.started"
+    ]
+  },
+  "evidence_export": {
+    "kind": "derived_audit_projection",
+    "original_audit_sha256": "58b59898bb0def18133f5e0913feea080bfb7b818c7406d9cc6c030fe0dfcabd",
+    "original_events_sha256": "e13e6a1a5bdb4984b0701197e2a215ac11fd640a38cd4a003090abc6e98f1be6",
+    "omitted_fields": [
+      "gateway_records"
+    ],
+    "raw_private_sources_preserved": true,
+    "clock_is_original_strict_supplementary_not_primary_user_clock": true
+  }
+}

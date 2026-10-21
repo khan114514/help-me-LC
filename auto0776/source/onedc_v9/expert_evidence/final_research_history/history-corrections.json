@@ -1,0 +1,249 @@
+{
+  "changes": [
+    {
+      "track": "gpt",
+      "round": 1,
+      "original_status": "ok",
+      "derived_status": "no_model_command_experiment",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 2,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 3,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 4,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 5,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 6,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 7,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 8,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 9,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 10,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 11,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 12,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 13,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 14,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 15,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 16,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 17,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 18,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 19,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 20,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 21,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 22,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 28,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 29,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 30,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 40,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 42,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 44,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "gpt",
+      "round": 47,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "seed",
+      "round": 1,
+      "original_status": "model_execution_failure",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "seed",
+      "round": 2,
+      "original_status": "model_cli_error",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    },
+    {
+      "track": "seed",
+      "round": 5,
+      "original_status": "model_execution_failure",
+      "derived_status": "model_execution_failure",
+      "score_reclassified": true
+    }
+  ],
+  "scope": "derived presentation only",
+  "original_logs_and_original_package_preserved": true,
+  "raw_record_count": {
+    "gpt": 48,
+    "seed": 11
+  },
+  "old_package_record_count": {
+    "gpt": 48,
+    "seed": 11
+  },
+  "old_package_already_contains_last_completed_rounds": true,
+  "unclosed_attempts_excluded_from_original_trajectory": {
+    "gpt": [
+      23
+    ],
+    "seed": [
+      3,
+      7
+    ]
+  },
+  "final_hidden_seed_reward_minus_one_unchanged": true
+}

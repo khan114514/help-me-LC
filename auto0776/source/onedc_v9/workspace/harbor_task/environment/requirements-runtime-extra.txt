@@ -1,0 +1,5 @@
+# Imports required by the official evaluator utilities; versions match the
+# earlier working reproduction environment. They are baked, never installed by agents.
+wandb==0.19.3
+tensorboard==2.18.0
+imageio==2.36.1

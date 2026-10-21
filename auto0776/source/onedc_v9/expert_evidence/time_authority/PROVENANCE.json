@@ -1,0 +1,23 @@
+{
+  "source_verification_sha256": "446a51bfadd394e57b09747753dd598f74358ad4dba3e1d2a2df7f85cbdfe5ba",
+  "records": [
+    {
+      "member": "expert_evidence/time_authority/original-effective-time-user-policy.json",
+      "original_sha256": "95e37a42d93a282850b3de7973789dff730cc0d7bd7f1b5b3ea902f85ab02053",
+      "delivered_sha256": "95e37a42d93a282850b3de7973789dff730cc0d7bd7f1b5b3ea902f85ab02053",
+      "string_paths_projected": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "expert_evidence/time_authority/original-research-transition-user-clock.json",
+      "original_sha256": "cef09880e3ce635b059e04817b0a8bfb91ef703c470796a3f87392498590f00b",
+      "delivered_sha256": "cef09880e3ce635b059e04817b0a8bfb91ef703c470796a3f87392498590f00b",
+      "string_paths_projected": false,
+      "numeric_boolean_null_unchanged": true
+    }
+  ],
+  "old_source_clock_as_of": "2026-10-04T21:04:57+08:00",
+  "later_packaged_clock_is_separate_snapshot": true,
+  "source_pause_receipt_is_actual_original": true,
+  "zero_new_research_credit": true
+}

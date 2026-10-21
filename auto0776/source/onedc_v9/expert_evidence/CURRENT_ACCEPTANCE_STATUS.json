@@ -1,0 +1,15 @@
+{
+  "status": "RUNTIME_EVIDENCE_COMPLETE_FRESH_DUAL_QA_PENDING",
+  "selected_valid_track": "gpt",
+  "gpt_native_reward": 1.1955827260919034,
+  "seed_native_reward": -1,
+  "both_native_executions_completed": true,
+  "both_quality_passed": false,
+  "actual_retained12h_both_verified": true,
+  "original_operator_phase_closed": true,
+  "original_native_records_not_synthesized": true,
+  "complete_111_workspace_files_included": true,
+  "fresh_final_QA_pending": true,
+  "platform_acceptance_claimed": false,
+  "new_research_credit_seconds": 0
+}
