@@ -1,0 +1,67 @@
+{
+  "status": "PASS_HANDOFF_INTEGRITY_ONLY",
+  "task_release_ready": false,
+  "official_0310_qa_performed": false,
+  "scope": "Read-only file hashes, historical six raw score logs and actual skill snapshots. No candidate import, GPU, model, official fingerprint, NOP or QA execution.",
+  "checks": 6055,
+  "errors": [],
+  "source_files": 842,
+  "skill_files": 111,
+  "clock_files": 118,
+  "runs": [
+    {
+      "run": "B_1",
+      "seed": 0,
+      "images": 24,
+      "log_lines": 47,
+      "log_sha256": "73558282650f1b60c2c0c050bddc1479504afc5e3f7316161f47141ca10f5038",
+      "exit_code": 0,
+      "dists": 0.11711087326208751
+    },
+    {
+      "run": "B_2",
+      "seed": 0,
+      "images": 24,
+      "log_lines": 43,
+      "log_sha256": "c0caa742c9d1bf6a311203b9011a27823333a9f8c58192eb4097f78cec92aa11",
+      "exit_code": 0,
+      "dists": 0.11711087326208751
+    },
+    {
+      "run": "B_3",
+      "seed": 0,
+      "images": 24,
+      "log_lines": 43,
+      "log_sha256": "ea771f056fedb0b3b9d9d0c7ab53d19e476b864c4f7ed48b254fffae45798e03",
+      "exit_code": 0,
+      "dists": 0.11711087326208751
+    },
+    {
+      "run": "R_1",
+      "seed": 0,
+      "images": 24,
+      "log_lines": 43,
+      "log_sha256": "125825a05fb78aa5086fcd5285d76dc724a62043bedc702f0f0af4c7ba0c856e",
+      "exit_code": 0,
+      "dists": 0.11463754375775655
+    },
+    {
+      "run": "R_2",
+      "seed": 0,
+      "images": 24,
+      "log_lines": 43,
+      "log_sha256": "d39495c207a2b52f00146699f2f4b9cc3b1dc1a970c7f289305e75dead313b37",
+      "exit_code": 0,
+      "dists": 0.11463754375775655
+    },
+    {
+      "run": "R_3",
+      "seed": 0,
+      "images": 24,
+      "log_lines": 43,
+      "log_sha256": "125825a05fb78aa5086fcd5285d76dc724a62043bedc702f0f0af4c7ba0c856e",
+      "exit_code": 0,
+      "dists": 0.11463754375775655
+    }
+  ]
+}

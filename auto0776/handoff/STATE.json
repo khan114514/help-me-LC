@@ -99,5 +99,18 @@
   ],
   "official_0310_available": false,
   "final_zip_sha256": null,
-  "qa_passes": 0
+  "qa_passes": 0,
+  "current_review_policy": {
+    "source": "handoff/00_CURRENT_REVIEW_POLICY.md",
+    "effective_date": "2026-10-21",
+    "nonblocking_scopes": [
+      "QA21 fingerprint/hash discrepancies or missing evidence",
+      "G02/G03 post-GPU-change supplementary evidence",
+      "QA15 post-GPU-change timing",
+      "QA17/H06 NOP",
+      "QA03/QA13 post-GPU-change score recalculation"
+    ],
+    "old_step_statuses": "Preserved factual states; these five gaps alone do not block the user-policy verdict",
+    "other_core_checks": "unchanged"
+  }
 }

@@ -127,30 +127,67 @@
   "experiments_started": false,
   "format_validation": [
     {
+      "scope": ".",
       "skill": "autoresearch",
       "exit_code": 0,
       "result": "Skill is valid!"
     },
     {
+      "scope": ".",
       "skill": "autoresearch-manager",
       "exit_code": 0,
       "result": "Skill is valid!"
     },
     {
+      "scope": ".",
       "skill": "autoresearch-remote-cli",
       "exit_code": 0,
       "result": "Skill is valid!"
     },
     {
+      "scope": ".",
       "skill": "autoresearch-task-qa",
       "exit_code": 0,
       "result": "Skill is valid!"
     },
     {
+      "scope": ".",
+      "skill": "autoresearch-baseline-quality",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "scope": "auto0776",
+      "skill": "autoresearch",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "scope": "auto0776",
+      "skill": "autoresearch-manager",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "scope": "auto0776",
+      "skill": "autoresearch-remote-cli",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "scope": "auto0776",
+      "skill": "autoresearch-task-qa",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "scope": "auto0776",
       "skill": "autoresearch-baseline-quality",
       "exit_code": 0,
       "result": "Skill is valid!"
     }
   ],
-  "validator_environment": "Task-local PyYAML 6.0.3 supplied; initial default runtime lacked this dependency."
+  "validator_environment": "Task-local PyYAML 6.0.3 supplied; initial default runtime lacked this dependency.",
+  "auto0776_duplicate_skill_documents_updated": 20,
+  "other_remote_changes_preserved": true
 }

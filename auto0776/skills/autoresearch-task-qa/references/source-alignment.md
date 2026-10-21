@@ -1,4 +1,4 @@
-> 三期V4更新：先读 [当前教程合同](phase3-v4-contract.md)。本文件保留旧版工具的参考细节；与V4冲突时，以V4为准，包括可复用Solver镜像、资源/GPU估算、轨迹可选sessions与四项指纹。旧脚本不代表官方0.3.10或当前内场验收。
+> 三期V4及用户2026-10-21更新：先读 [当前教程合同与优先级调整](phase3-v4-contract.md)。QA21 指纹/哈希差异、G02/G03 换卡影响补证、QA15 换卡耗时、QA17/H06 NOP、QA03/QA13 换卡重算可非阻断待补；本口径优先于下列旧工具细节。旧脚本结果保留原样，不冒充官方0.3.10或平台验收。
 
 # 来源、版本与适用范围
 
@@ -9,7 +9,7 @@
 - 对外验收所用的期次、题号和记录主键必须在提交时重新从当前期次的权威题库或验收表读取，并保留可复核的记录定位信息。旧期表、本地文件夹名、压缩包名或历史报告不能代替当期题号；权威表不可达或权限不足时，对外填报状态为 `INCOMPLETE`，不猜测、不沿用。
 - Agent 与 Verifier 分别以 `environment/Dockerfile`、`tests/Dockerfile` 构建，并显式设置 `[verifier] environment_mode = "separate"`。
 - 公开 Dev 评测必须供 Agent 迭代；最终私有 Hidden 材料留在独立 Verifier。Hidden 可采用预置、可复现生成或安全注入，但必须有材料、实现和真实调用证据，不能用空目录或目录名代替。
-- 必须提交一次当前题包版本的 NOP 自检记录。核对同一 Trial 的配置、结果、reward、日志、任务版本和 separate 运行证据；缺失时 H06 与 QA17 失败。可复用平台已有的同版本记录，NOP 分数本身不决定结论。
+- 已有 NOP 核对同一 Trial 的配置、结果、reward、日志、任务版本和 separate 运行证据；记录缺失、不齐或版本待核记非阻断待补，不单因此使 H06 与 QA17 失败。可复用平台已有的同版本记录；已证实的链路故障仍须处理，NOP 分数本身不决定结论。
 - 源码 `solution/` 是可选 Oracle；它与 Agent 的运行时提交目录不是同一概念。
 - 两条 Agent 轨迹每轮包含八字段：`round`、`policy_name`、`method_summary`、`status`、`score`、`failure_reason`、`retained_best`、`time`。旧两字段轨迹不再满足契约，人工填写 pass 也不能覆盖格式反证。
 

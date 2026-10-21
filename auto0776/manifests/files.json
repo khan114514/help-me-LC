@@ -13,18 +13,18 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 3762,
-      "sha256": "3b1522ef0dc3c6ba417c558cca56bbe237e5a12236e5239c7bf040c1c1a47f42"
+      "bytes": 4149,
+      "sha256": "ee6c4e6c75ceee68f3a1479a635b92e44997d8809f631fe5b764547b44074261"
     },
     {
       "path": "README.md",
-      "bytes": 3879,
-      "sha256": "da0c90132d77ce5447ba5ecdcd401745292807b03eb817283b481fd2c35d4070"
+      "bytes": 4266,
+      "sha256": "2e17f68c0851e9a3b55a0f58362d3cb7ce331ef9eec560034c6970013260c0d6"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 2627,
-      "sha256": "33683b19560ba8ca5266254ba9829e33325612bd4b504284fa42bf66d91ebe60"
+      "bytes": 3014,
+      "sha256": "68c001cc58ff7d53337a9a1027b08776b7f0bee55dd4683648fbe7019e5b8b21"
     },
     {
       "path": "assets/RECOVERY.md",
@@ -657,39 +657,44 @@
       "sha256": "90e1b242f430302100f1e3a379476ac536e5150058b03a109caadc4e1e90b5d5"
     },
     {
+      "path": "handoff/00_CURRENT_REVIEW_POLICY.md",
+      "bytes": 2987,
+      "sha256": "214bd885c67c83a759d86cc91447289875904efb3fabfdf6d5cb111a8413466c"
+    },
+    {
       "path": "handoff/01_REPAIR_PLAN.md",
-      "bytes": 6590,
-      "sha256": "2b579f81fa3af5a71621ab3b7ebcb5a7ac24720a7c07f693f1dae7eb555d85d2"
+      "bytes": 6868,
+      "sha256": "bb3650b1e15d446b72dbe417d2f8dd57120bfdf14b46b5beab394234384fd979"
     },
     {
       "path": "handoff/02_DEPLOYMENT.md",
-      "bytes": 5242,
-      "sha256": "eed6ba5d9903dd65e5f182dba6c0b24fac69157f1d0b1a4f78a68ea4238521cc"
+      "bytes": 5520,
+      "sha256": "979f7fa32455b7459c1be0f10b56a86de92aa9cad30d71af6afd5da7370f5435"
     },
     {
       "path": "handoff/03_TRAJECTORIES_AND_TIME.md",
-      "bytes": 6500,
-      "sha256": "d860b1a5e473bcfc68e5ab1265cf263b34ff52c4bb78e9421dc54c5b81124cb1"
+      "bytes": 6778,
+      "sha256": "d2ed36beece818e17244d740ace38c4777ddba2a487838302fd1da67dd5b0a6e"
     },
     {
       "path": "handoff/04_MODEL_AND_ISOLATION.md",
-      "bytes": 2701,
-      "sha256": "d1dc759b99aa5652382760e2c2398bc3db4fb7f58179a464082913528450bff9"
+      "bytes": 2979,
+      "sha256": "83dbaa80b41da89250dd1e764fdceb14e1ba8009825aaed068d62048aea84993"
     },
     {
       "path": "handoff/05_ACCEPTANCE_AND_DELIVERY.md",
-      "bytes": 5047,
-      "sha256": "3a6f4a595d55b13de2365f8db133076680af8270a6fa6170b6e2c59c9995f062"
+      "bytes": 5325,
+      "sha256": "5856a37d34c850ef5f2c98d844c14931d3d133613d102dd092b1dfb6d23d57a1"
     },
     {
       "path": "handoff/06_SKILLS_AND_TOOLS.md",
-      "bytes": 3043,
-      "sha256": "42d2628f7af4bd7c5d39fe52cf3ba65da09dbc5f42bad523e764f54a7c6c2b32"
+      "bytes": 3321,
+      "sha256": "85d4ba9f277bc5fe2340df46e8dcd3d9b335305078d77e207146342e71570cf7"
     },
     {
       "path": "handoff/STATE.json",
-      "bytes": 3335,
-      "sha256": "55d58e7e8af0ed9e60c5c279a4cbd313b7f96ab17f7ad0fca643a51bb32bad0d"
+      "bytes": 3877,
+      "sha256": "2b2ddc3925f83bbd57f2852ae01e98ede7968bc23eb3bf3a00de44033e17deb5"
     },
     {
       "path": "historical_helpers/README.md",
@@ -708,8 +713,8 @@
     },
     {
       "path": "manifests/skills_provenance.json",
-      "bytes": 48986,
-      "sha256": "25fda0b4b425ab6820f4d991fb181beff2f30682bc0262df6e19d024c8ecb499"
+      "bytes": 49078,
+      "sha256": "de291ab533c5467034dfdd017a9027a35e99d3676d1a05a55ea1474634aea31a"
     },
     {
       "path": "manifests/source_v9.json",
@@ -738,8 +743,8 @@
     },
     {
       "path": "skills/autoresearch/SKILL.md",
-      "bytes": 26710,
-      "sha256": "da13eda23d15eb4587989541d32148e1f97c7acd201320118af478ff6a37ae4b"
+      "bytes": 27064,
+      "sha256": "c787bdbb570cbc2fc5462f6ef6facb93b94a9ebeb0ee7efa8075c9b0742049bf"
     },
     {
       "path": "skills/autoresearch/UPSTREAM-LICENSE",
@@ -758,8 +763,8 @@
     },
     {
       "path": "skills/autoresearch/references/phase3-v4-contract.md",
-      "bytes": 19709,
-      "sha256": "7604f6c52769e8a2349bb57c68e3f71fbf8c2dfe161a52352dd7612d893a7360"
+      "bytes": 22804,
+      "sha256": "916e4a306d9f1fb224eb94fcd89285bcf800372b64d99bd36b8cfa876cb11da6"
     },
     {
       "path": "skills/autoresearch/references/progress-reporting.md",
@@ -793,8 +798,8 @@
     },
     {
       "path": "skills/autoresearch-baseline-quality/AGENTS.md",
-      "bytes": 11136,
-      "sha256": "4817cad7f1d05d2ed515ae102bc46a4a3ece22319129c0c1af4922e393b7d8fb"
+      "bytes": 11697,
+      "sha256": "eaed446d9ee5f810a777850ed4f5fe62d04b0b905d7cba301edc2ef823dcb68a"
     },
     {
       "path": "skills/autoresearch-baseline-quality/CLAUDE.md",
@@ -803,8 +808,8 @@
     },
     {
       "path": "skills/autoresearch-baseline-quality/SKILL.md",
-      "bytes": 11512,
-      "sha256": "85b3e56bf4fbc2869ae1297518f5a77a234f1050d6026e9cdf77fec5cd15fe50"
+      "bytes": 12073,
+      "sha256": "980e47e99c7ffbb9784800d53fa5ba4c84ef07cab4e747f917170060530e0013"
     },
     {
       "path": "skills/autoresearch-baseline-quality/agents/openai.yaml",
@@ -818,13 +823,13 @@
     },
     {
       "path": "skills/autoresearch-baseline-quality/references/phase3-v4-contract.md",
-      "bytes": 19709,
-      "sha256": "7604f6c52769e8a2349bb57c68e3f71fbf8c2dfe161a52352dd7612d893a7360"
+      "bytes": 22804,
+      "sha256": "916e4a306d9f1fb224eb94fcd89285bcf800372b64d99bd36b8cfa876cb11da6"
     },
     {
       "path": "skills/autoresearch-manager/SKILL.md",
-      "bytes": 6414,
-      "sha256": "d2fb8669eae3ddc079d186a6e83f39661506cb4939fb0e24ec7d151bee4a7f77"
+      "bytes": 7053,
+      "sha256": "71ca17976a0e4d21aacfa73b317942ad0811f16407c7799e5201ee178c8e7bb8"
     },
     {
       "path": "skills/autoresearch-manager/agents/openai.yaml",
@@ -1008,13 +1013,13 @@
     },
     {
       "path": "skills/autoresearch-manager/references/phase3-v4-contract.md",
-      "bytes": 19709,
-      "sha256": "7604f6c52769e8a2349bb57c68e3f71fbf8c2dfe161a52352dd7612d893a7360"
+      "bytes": 22804,
+      "sha256": "916e4a306d9f1fb224eb94fcd89285bcf800372b64d99bd36b8cfa876cb11da6"
     },
     {
       "path": "skills/autoresearch-manager/references/runtime-contract.md",
-      "bytes": 6535,
-      "sha256": "5ee794268a36e40851b3ff541508ffd587a3b5c1cec4d3a687e20b49d98cfa6c"
+      "bytes": 7102,
+      "sha256": "70a8c9e9417c4348b11d6f14df1a34a5f16d47fd05977faed792e40c31407e4d"
     },
     {
       "path": "skills/autoresearch-manager/scripts/agent_stage.py",
@@ -1068,8 +1073,8 @@
     },
     {
       "path": "skills/autoresearch-remote-cli/SKILL.md",
-      "bytes": 7407,
-      "sha256": "2abb5ac0535ff997d17156ed29b530fee383d863d9551dee5c9afa66f491f666"
+      "bytes": 7999,
+      "sha256": "cb5882a7082d43c50855c06703931b455ae775cd77f35b8ce2050005337de50d"
     },
     {
       "path": "skills/autoresearch-remote-cli/agents/openai.yaml",
@@ -1078,8 +1083,8 @@
     },
     {
       "path": "skills/autoresearch-remote-cli/references/phase3-v4-contract.md",
-      "bytes": 19709,
-      "sha256": "7604f6c52769e8a2349bb57c68e3f71fbf8c2dfe161a52352dd7612d893a7360"
+      "bytes": 22804,
+      "sha256": "916e4a306d9f1fb224eb94fcd89285bcf800372b64d99bd36b8cfa876cb11da6"
     },
     {
       "path": "skills/autoresearch-remote-cli/references/requirements.txt",
@@ -1098,8 +1103,8 @@
     },
     {
       "path": "skills/autoresearch-remote-cli/references/workflow.md",
-      "bytes": 6579,
-      "sha256": "cf0655664d7906f68ed6c3f89c50a1cbfd45715a1d1382f30e7fd99221d91bdd"
+      "bytes": 7110,
+      "sha256": "2d84806b027637e5eda0c91009972d582ecc70546349196685b674485ab01a07"
     },
     {
       "path": "skills/autoresearch-remote-cli/scripts/control.py",
@@ -1123,8 +1128,8 @@
     },
     {
       "path": "skills/autoresearch-task-qa/AGENTS.md",
-      "bytes": 13943,
-      "sha256": "c66928df8e46e6d6768e5362c5ba3f5857d453d503b58f5f6d124cdb83043345"
+      "bytes": 14751,
+      "sha256": "001be43980179b672239219a736453de8f49896f5d0d6f67532747674df49ee1"
     },
     {
       "path": "skills/autoresearch-task-qa/CLAUDE.md",
@@ -1133,8 +1138,8 @@
     },
     {
       "path": "skills/autoresearch-task-qa/SKILL.md",
-      "bytes": 14321,
-      "sha256": "af35fc7ab14c38221edf7ce673e702d3e405d0965a0077abe7ed2d6b6ecc1781"
+      "bytes": 15129,
+      "sha256": "2d112c47371004391fc5fe325d7a944988fc0e857428f53a18ab9c3ae67595f4"
     },
     {
       "path": "skills/autoresearch-task-qa/agents/openai.yaml",
@@ -1153,23 +1158,23 @@
     },
     {
       "path": "skills/autoresearch-task-qa/references/harbor-harness.md",
-      "bytes": 10244,
-      "sha256": "767b84ba85047d91a18813837f461b70d5805e481dff93b729b3e29507c68965"
+      "bytes": 10515,
+      "sha256": "7d362c047a10fee4ed96cfe56389a0d18ade7ad0c56959908d421acc8aeee985"
     },
     {
       "path": "skills/autoresearch-task-qa/references/implementation-policy.md",
-      "bytes": 8836,
-      "sha256": "c43ef598003d3242cfa745c83578641c80fd78221d16010b9c44fa766566d778"
+      "bytes": 9150,
+      "sha256": "07f9e868948dc7a20da25f3e46c79b4e5ebd4aebf1573a2652e1b7cbca67433d"
     },
     {
       "path": "skills/autoresearch-task-qa/references/implementation-report.md",
-      "bytes": 10913,
-      "sha256": "5fa80872aaddd7a12226ed9d7932e338a8caeb30ceb120e11355a8ce83591e9b"
+      "bytes": 11316,
+      "sha256": "ded2399bd0998912fe5c5245c2fd3621f62a2c1aba35fed2f74597c3144ad34e"
     },
     {
       "path": "skills/autoresearch-task-qa/references/phase3-v4-contract.md",
-      "bytes": 19709,
-      "sha256": "7604f6c52769e8a2349bb57c68e3f71fbf8c2dfe161a52352dd7612d893a7360"
+      "bytes": 22804,
+      "sha256": "916e4a306d9f1fb224eb94fcd89285bcf800372b64d99bd36b8cfa876cb11da6"
     },
     {
       "path": "skills/autoresearch-task-qa/references/precheck-policy.md",
@@ -1193,18 +1198,18 @@
     },
     {
       "path": "skills/autoresearch-task-qa/references/research-quality.md",
-      "bytes": 7253,
-      "sha256": "8154289c9759d7b60463db81f2dbe4b2c96840d5394720e6e419a812b204e13f"
+      "bytes": 7576,
+      "sha256": "ea1fd85d6b66b48463a6ec4b253c12c0a2d5c3b4ae0d832e2e047c4c7204781d"
     },
     {
       "path": "skills/autoresearch-task-qa/references/source-alignment.md",
-      "bytes": 4132,
-      "sha256": "27a679e8f645e6c67027a9995dbce71d07dd4ce6090413b9b44a2f9d437db76d"
+      "bytes": 4251,
+      "sha256": "23af9a34c4b329ea0a4bb12e20f1c0df6fc2b4ab94d8308ba1c35fc77ea2a64e"
     },
     {
       "path": "skills/autoresearch-task-qa/references/submission-format.md",
-      "bytes": 10162,
-      "sha256": "d8d27fdd2858fb72467523ac163154fbf457d6bbd682ffc45252a09d84b78c99"
+      "bytes": 10403,
+      "sha256": "800e0db16ad8482fdd1625598379694aa0ac7c7ec078100fcee1704760988008"
     },
     {
       "path": "skills/autoresearch-task-qa/scripts/aggregate_qa_reports.py",

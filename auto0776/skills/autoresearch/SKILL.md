@@ -11,6 +11,8 @@ metadata:
 
 # Autoresearch
 
+三期任务同时采用用户 2026-10-21 的[当前优先级调整](references/phase3-v4-contract.md#当前优先级调整用户授权2026-10-21)：QA21 指纹/哈希差异、G02/G03 换卡影响补证、QA15 换卡耗时、QA17/H06 NOP、QA03/QA13 换卡重算均可非阻断待补。其余核心要求照常审查；未核验不得声称已验证。
+
 ## Choose the workflow first
 
 For **三期 AutoResearch task authoring, repair, execution or review**, first read [the V4 contract](references/phase3-v4-contract.md). It integrates the user-supplied tutorial corresponding to review Skill 0.3.10; it does not claim that the official 0.3.10 tools are installed. These batch-specific rules override conflicting generic advice below, including compute choice, container deployment, checkpoint location, trajectory fields and stopping criteria. Keep Public/Dev feedback available to the Agent; final Hidden evaluation follows Agent exit and artifact transfer to a separate Verifier sandbox. GPU tasks use H20 (preferred) or L20; CPU tasks remain CPU-only.

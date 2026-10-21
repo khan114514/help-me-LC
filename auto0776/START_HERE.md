@@ -1,5 +1,7 @@
 # 交给接手执行者的提示词
 
+**最新用户口径优先：**2026-10-21的[五项非阻断待补/待核](handoff/00_CURRENT_REVIEW_POLICY.md)优先于本文和旧参考中的冲突门槛。指纹/哈希差异、换卡影响/耗时/重算补证、H06/NOP不单独判退或强制补跑；其他核心要求保留。旧工具原始结果不改，另列用户口径结论，可为“通过（含放宽待补项）”。
+
 请接手本仓库的 auto0776（One-Step Diffusion-Based Image Compression with Semantic Distillation）返修，按 AGENTS.md 和 handoff/ 执行，完成后给用户完整压缩包。
 
 先运行 `python3 tools/verify_handoff.py`，阅读 handoff/01–06 和 skills/autoresearch/references/phase3-v4-contract.md。将 source/onedc_v9 复制到新的作者工作目录，保护原始证据。先整理已经找回的六份原始评分日志和 τ=0.6 的既有扫描证据，再完成目标平台单容器与 H20/L20 适配、Public 评分、受影响成对验证及同版本 NOP。随后逐轮修复轨迹、按真实区间核算各轨有效时间，继续不足部分的合法研究，最终选择唯一 best 并干净公开复验。没有要求无条件重跑全部历史研究。

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "strict": true,
+  "implementation": "local-strict-protocol-extension/1",
+  "official_upstream_protocol": false,
+  "scanned_payloads": 65,
+  "scanned_bytes_including_nested": 2376202,
+  "content_manifest_sha256": "ee2ca6295b20eca4f439f5b2f1c82ef338dd9cd14302c269e9fd54315485547e",
+  "findings": [],
+  "scope": "Only files added/modified by this policy update relative to the fetched remote main; prior task source and reports are preserved."
+}

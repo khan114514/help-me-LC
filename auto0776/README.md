@@ -1,5 +1,7 @@
 # auto0776：OneDC 返修完整交接
 
+**最新用户口径优先：**2026-10-21的[五项非阻断待补/待核](handoff/00_CURRENT_REVIEW_POLICY.md)优先于本文和旧参考中的冲突门槛。指纹/哈希差异、换卡影响/耗时/重算补证、H06/NOP不单独判退或强制补跑；其他核心要求保留。旧工具原始结果不改，另列用户口径结论，可为“通过（含放宽待补项）”。
+
 题目：**One-Step Diffusion-Based Image Compression with Semantic Distillation**。本目录是专家侧材料，目标是完成本次返修、真实复验和独立质检，最后交回完整压缩包。
 
 **当前不是已通过的最终题包。** 旧文件中的 passed、target_met、14.6/14.9h和旧版QA结论只是历史记录，不能作为当前V4验收结论。不要把整个仓库打包或交给研究Actor。

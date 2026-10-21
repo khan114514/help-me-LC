@@ -1,5 +1,7 @@
 # 轨迹、回执、合法研究时间与续接
 
+> 当前优先读[五项非阻断口径](00_CURRENT_REVIEW_POLICY.md)。本文件涉及指纹/哈希、换卡补证和H06/NOP的旧硬门槛由该口径覆盖，不因此强制补跑/判退；其他核心检查保留。旧工具结果原样保留，另列用户口径结论。
+
 ## 原始记录在哪里
 
 - v9正式投影：source/onedc_v9/expert_evidence/trajectory_codex.json 与 trajectory_seed.json。
