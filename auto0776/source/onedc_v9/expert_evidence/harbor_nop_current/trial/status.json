@@ -1,0 +1,14 @@
+{
+  "phase": "PASS",
+  "finished_at": "2026-10-04T13:40:49.936280+00:00",
+  "image": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+  "agent": "nop",
+  "reward": 0,
+  "dists": 0.11711087326208751,
+  "bpp_mean": 0.0204925537109375,
+  "images": 24,
+  "trial_dir": "expert_evidence/harbor_nop_current/trial",
+  "formal_research_seconds": 0,
+  "scope": "Native Harbor NOP only; long model trajectories and final QA remain separate gates"
+}
+

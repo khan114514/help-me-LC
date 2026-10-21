@@ -1,0 +1,90 @@
+{
+  "round": 30,
+  "candidate_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+  "trusted_method_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 131.0092146396637,
+    "failed_request_seconds": 63.73376178741455,
+    "gpu_queue_seconds": 0,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 2
+  },
+  "cli_exit": 1,
+  "retained_best": false,
+  "novel_method_semantics": false,
+  "method_semantics_sha256": "f66ccce0c3df502c5d01e2e2ef6a2496f38d0a2b7ec671aed5b12c18e9c16fc9",
+  "new_public_receipts": [],
+  "native_event_observations": {
+    "turn_completed": false,
+    "completed_command_tools": [
+      {
+        "id": "item_1",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "a83cf4736c62021ef40dbed9ca02fa924c5c69f1dc793beff2cce9f323660d24",
+        "output_sha256": "a67305ba049a13201e2e1d6ec2d8c7313800a227675ffb7034b644feaecb1a9c"
+      },
+      {
+        "id": "item_2",
+        "status": "failed",
+        "exit_code": 127,
+        "command_sha256": "5cbb6aad8493a5d50d2a382ef4710e2d4ec9bb3d69f3d15e9a0ce731509be7b5",
+        "output_sha256": "f48250f0085abe8668b290e5a84fd7e8a22342f533a35dcb6144260209615841"
+      },
+      {
+        "id": "item_3",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "0445c20d66813d074631977cd99cf3218f5e19ea3f799779e8b48f9b008d1614",
+        "output_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59"
+      },
+      {
+        "id": "item_5",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "9ed30e22d4b43f838e5103500e482967b3b2c9dcd06906163654f4c718fcde29",
+        "output_sha256": "da02da6988509d5a3f727292d6400c1ddae70b0d145033e2770372870755d0a0"
+      },
+      {
+        "id": "item_6",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "7fcd4482e04caa87b75e0e1eb6d63cd1db702801ac59178f5acc5cdc850d7f13",
+        "output_sha256": "bc7003488e2f57bff804c4877413e33cba7395b330259b164bda1e65bbb35d85"
+      },
+      {
+        "id": "item_7",
+        "status": "failed",
+        "exit_code": 128,
+        "command_sha256": "3337cbecb11ee53561bd1d4d315e8cd660be7231b876ccaefb6cdba17c64ea72",
+        "output_sha256": "d2b35cacadc66b7fad8dedd1be5244e17150a6625978c9330f831bd7a9cd6b1e"
+      },
+      {
+        "id": "item_8",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "413f2a058940da7c78b8e679913f9919e59c8d1809c1b1d487f52451bfb19ab7",
+        "output_sha256": "2da03c147b1bbd9e97a7a26a428d5dc3e767bc0b0677ee8718f1cd0427be332b"
+      }
+    ],
+    "event_types": [
+      "error",
+      "item.completed",
+      "item.started",
+      "thread.started",
+      "turn.failed",
+      "turn.started"
+    ]
+  },
+  "evidence_export": {
+    "kind": "derived_audit_projection",
+    "original_audit_sha256": "049153f0b82ce38024e7b12347ceb124a96fa45aac9370784cdb5e5bc13b19d4",
+    "original_events_sha256": "71a07048aa1728c2fbcc24259164dbed52f9f931ee669fc97f7ec5a2d5ec4e39",
+    "omitted_fields": [
+      "gateway_records"
+    ],
+    "raw_private_sources_preserved": true,
+    "clock_is_original_strict_supplementary_not_primary_user_clock": true
+  }
+}

@@ -1,0 +1,809 @@
+{
+  "round": 2,
+  "candidate_sha256": "8309e00bb4fd95538b163c3bced6f2eb5c1980f5bae9e9f3f74df60f3a89a55a",
+  "trusted_method_sha256": "8309e00bb4fd95538b163c3bced6f2eb5c1980f5bae9e9f3f74df60f3a89a55a",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 791.7230896949768,
+    "failed_request_seconds": 273.73310899734497,
+    "gpu_queue_seconds": 28.93855800199526,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 22
+  },
+  "cli_exit": 1,
+  "gateway_records": [
+    {
+      "timestamp": "2026-10-04T08:32:27.959334+00:00",
+      "event": "request",
+      "request_id": "df75d447bc41439db48335f49ef144ee",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "9ce2e22e3a9937aa3f6478d00ceb3a4b56c3c6acf6927b0666ab5b95bf1dc97d",
+      "input_bytes": 34747
+    },
+    {
+      "timestamp": "2026-10-04T08:32:32.855927+00:00",
+      "event": "response",
+      "request_id": "df75d447bc41439db48335f49ef144ee",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 4.8970030389973545,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "aa6724ec755a435672215189b368e0b311fd60eaf197d145ff5dfd798ed03a32",
+      "redacted_response_bytes": 98997
+    },
+    {
+      "timestamp": "2026-10-04T08:32:32.942699+00:00",
+      "event": "request",
+      "request_id": "73e24652df1a40d7b918f1878e9a0e62",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "0ac590bd82b2773671fdfe681fa05a7df9536035199f62062569188785c25886",
+      "input_bytes": 38248
+    },
+    {
+      "timestamp": "2026-10-04T08:32:37.090361+00:00",
+      "event": "response",
+      "request_id": "73e24652df1a40d7b918f1878e9a0e62",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 4.1481413780056755,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "550d6cbf2bb5a0d6b9011da976722cef8ba46fc47b601649a2b162d19d78688a",
+      "redacted_response_bytes": 92714
+    },
+    {
+      "timestamp": "2026-10-04T08:32:37.173506+00:00",
+      "event": "request",
+      "request_id": "f3e12b572e9e4f48992819116548f3ba",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "2f893c838f200062ccf45d8ea5ca36114b189494012dd64718ebe416c1febf65",
+      "input_bytes": 48482
+    },
+    {
+      "timestamp": "2026-10-04T08:32:42.708890+00:00",
+      "event": "response",
+      "request_id": "f3e12b572e9e4f48992819116548f3ba",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 5.535917220004194,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "c3e5d78572a6ab57e7700129defc651a38bce702eff429dbac96dbc098a546f6",
+      "redacted_response_bytes": 103386
+    },
+    {
+      "timestamp": "2026-10-04T08:32:42.789586+00:00",
+      "event": "request",
+      "request_id": "da8f6d390187433481c843e73dc763ae",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "2800af2a47ad25e51c5225af73cd4ec86959405ba42cf1b00d52d205ab1603c6",
+      "input_bytes": 60649
+    },
+    {
+      "timestamp": "2026-10-04T08:32:48.716121+00:00",
+      "event": "response",
+      "request_id": "da8f6d390187433481c843e73dc763ae",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 5.927188382003806,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "c7ea43e6ea5980afe30e8c53a9e432d7fd29037a49143f95ec362dd58e8c0e62",
+      "redacted_response_bytes": 97678
+    },
+    {
+      "timestamp": "2026-10-04T08:32:48.798771+00:00",
+      "event": "request",
+      "request_id": "b0a7ae1f65174662b97a772a05f364d3",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "eabfc0378320a7e4bf09b81011ccf147098428391a3cb79bf8dbefc52901b4fd",
+      "input_bytes": 69367
+    },
+    {
+      "timestamp": "2026-10-04T08:33:01.264532+00:00",
+      "event": "response",
+      "request_id": "b0a7ae1f65174662b97a772a05f364d3",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 12.466438251001819,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "5c20952aea78c169b86281d972e84cf57fb9216e7a541fc23141a72aae756259",
+      "redacted_response_bytes": 123170
+    },
+    {
+      "timestamp": "2026-10-04T08:33:01.358781+00:00",
+      "event": "request",
+      "request_id": "ef154de9f0734cabaab1830325a1c112",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "bf3296b8a2271270bc7c3779a11e4a458e46fa23b2f4cac229ec852be751c5ed",
+      "input_bytes": 80364
+    },
+    {
+      "timestamp": "2026-10-04T08:33:05.412017+00:00",
+      "event": "response",
+      "request_id": "ef154de9f0734cabaab1830325a1c112",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 4.053909084002953,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e5f75e63de605ee56e40225001b51cf4a2535cd777eb4ca9290611332652c0f3",
+      "redacted_response_bytes": 91625
+    },
+    {
+      "timestamp": "2026-10-04T08:33:05.504646+00:00",
+      "event": "request",
+      "request_id": "18763f99e6be417ea868db5d1379f3e7",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "510715b31416af9888e20c36aacc81b98e02c29bc4daeb881b3d8d72e721d281",
+      "input_bytes": 81727
+    },
+    {
+      "timestamp": "2026-10-04T08:33:12.394079+00:00",
+      "event": "response",
+      "request_id": "18763f99e6be417ea868db5d1379f3e7",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 6.890110906999325,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "61b44327e35023c6db5b9411dd2ea8d760e30abea99e52504e00f0fa8ba340a7",
+      "redacted_response_bytes": 93170
+    },
+    {
+      "timestamp": "2026-10-04T08:33:12.474484+00:00",
+      "event": "request",
+      "request_id": "f854d62d7ba2439eb9bc71f2e2863f8c",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "e7b49de9c54c77ccdeb8c862fa149748f4264eb4ab61eeeb2410ae05833badf1",
+      "input_bytes": 90228
+    },
+    {
+      "timestamp": "2026-10-04T08:33:21.994507+00:00",
+      "event": "response",
+      "request_id": "f854d62d7ba2439eb9bc71f2e2863f8c",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 9.52084182100225,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "6dbb8fa03383806ae4c0539515a59a2dea74e11000d998041f33cf28bac7d519",
+      "redacted_response_bytes": 95234
+    },
+    {
+      "timestamp": "2026-10-04T08:33:22.068556+00:00",
+      "event": "request",
+      "request_id": "8caaa350678d47649b949c4d77bc9abf",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "8426702b6cbdd994969e6fc471a7bfd05efc794db8b380c5becb0b0b4ad9cda6",
+      "input_bytes": 102435
+    },
+    {
+      "timestamp": "2026-10-04T08:33:36.701708+00:00",
+      "event": "response",
+      "request_id": "8caaa350678d47649b949c4d77bc9abf",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 14.633869649005646,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "b4cef155e4ac1aad36ceb60551efb8db86cb7ef2309a857bee0f8c7ddd970adf",
+      "redacted_response_bytes": 170240
+    },
+    {
+      "timestamp": "2026-10-04T08:33:36.798003+00:00",
+      "event": "request",
+      "request_id": "fe61c045b3104f5e8091516af3a1b689",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "53123df22dba44c7ad5acd6c96a97ae2c81a14a88a8c8a4ffea044f08a6478fe",
+      "input_bytes": 122732
+    },
+    {
+      "timestamp": "2026-10-04T08:33:43.825228+00:00",
+      "event": "response",
+      "request_id": "fe61c045b3104f5e8091516af3a1b689",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 7.028222670996911,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "4cd25be20d49c575cc18070ec754e0d5a28823dcf73b052aac7441564ee1a6c7",
+      "redacted_response_bytes": 98641
+    },
+    {
+      "timestamp": "2026-10-04T08:33:43.914526+00:00",
+      "event": "request",
+      "request_id": "60f087d8a66846e5b6bd89635b7a33be",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "064fbd1ed9cf16bc3e287fb727f1c5af1c8433125e4a016acafd9a05534fd886",
+      "input_bytes": 128757
+    },
+    {
+      "timestamp": "2026-10-04T08:33:51.900689+00:00",
+      "event": "response",
+      "request_id": "60f087d8a66846e5b6bd89635b7a33be",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 7.987044089000847,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e39bdc119a873535f440defe384874a0555556ffdbeb27f03e648a8605c74782",
+      "redacted_response_bytes": 106640
+    },
+    {
+      "timestamp": "2026-10-04T08:33:51.996715+00:00",
+      "event": "request",
+      "request_id": "1c6ea43fe8254e5daf78e8bef353adc2",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "6f78c457ee51b380e9d3db785aba5c65662085fefe758e2861f788ac7882c0fc",
+      "input_bytes": 130870
+    },
+    {
+      "timestamp": "2026-10-04T08:34:02.564475+00:00",
+      "event": "response",
+      "request_id": "1c6ea43fe8254e5daf78e8bef353adc2",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 10.568920441000955,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "cc18253c2e73afb2a5aaeddc62c67a68edf9e4bd14e0becd1f2e65903a2763fe",
+      "redacted_response_bytes": 98429
+    },
+    {
+      "timestamp": "2026-10-04T08:34:02.659775+00:00",
+      "event": "request",
+      "request_id": "32628d2f55704680b728898e11156b45",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "c550bfd9a8b8a481f25e732e9a214bd7f68468d47e484baefb018ff33558d559",
+      "input_bytes": 133393
+    },
+    {
+      "timestamp": "2026-10-04T08:38:36.392884+00:00",
+      "event": "response",
+      "request_id": "32628d2f55704680b728898e11156b45",
+      "track": "seed",
+      "http_status": 200,
+      "completed": false,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 273.7342954210035,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "3da6b49e1756173f9ebb44791b0ddaca9cc9bd23fd8383b9bc3234ba5803a333",
+      "redacted_response_bytes": 84752
+    },
+    {
+      "timestamp": "2026-10-04T08:38:36.596414+00:00",
+      "event": "request",
+      "request_id": "0586998eeaef45c7b71913f9e76f1006",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "e129bf0fcebcb69c792d64afe3ef76522bcfee4532d3b3652e1f7be67d6d4335",
+      "input_bytes": 134228
+    },
+    {
+      "timestamp": "2026-10-04T08:38:43.263589+00:00",
+      "event": "response",
+      "request_id": "0586998eeaef45c7b71913f9e76f1006",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 6.668246605004242,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "a5d99edf0c82fc55f684e684e41cb09f0bbdc589f7230f45fc3586571a7af812",
+      "redacted_response_bytes": 88358
+    },
+    {
+      "timestamp": "2026-10-04T08:38:43.343551+00:00",
+      "event": "request",
+      "request_id": "58994a9ba0344cc8b6beb37b5865261c",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "f59d244d8c7bff073defb8e83d2c5ce7578f4ac4c350f44ff3bbb798124f15aa",
+      "input_bytes": 136881
+    },
+    {
+      "timestamp": "2026-10-04T08:39:29.331637+00:00",
+      "event": "response",
+      "request_id": "58994a9ba0344cc8b6beb37b5865261c",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 45.98940289299935,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "4b9dd959ed821fdba752d732165eb378cf2b32b275a469766ccd7bf1d4192e62",
+      "redacted_response_bytes": 298578
+    },
+    {
+      "timestamp": "2026-10-04T08:39:29.422129+00:00",
+      "event": "request",
+      "request_id": "56bfb5ad4b554506bb954dc88bc40b74",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "fa3d44244fcd3798ba84b7633bad551f6cc2351d31c76fcad37de19561f0fda2",
+      "input_bytes": 149994
+    },
+    {
+      "timestamp": "2026-10-04T08:39:35.717502+00:00",
+      "event": "response",
+      "request_id": "56bfb5ad4b554506bb954dc88bc40b74",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 6.296685155000887,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "ab955d19434c8fabd808b549af46b66f95fb093425a1899ee4f7ea0becd0a4cb",
+      "redacted_response_bytes": 95813
+    },
+    {
+      "timestamp": "2026-10-04T08:39:35.822107+00:00",
+      "event": "request",
+      "request_id": "5f1eaa56c7c344e28a7284ba43be7e95",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "a136d348cc8d7d10448a0df4be6413b17b36d8f33b7015657b3af3b80e8f08ef",
+      "input_bytes": 152096
+    },
+    {
+      "timestamp": "2026-10-04T08:39:44.966185+00:00",
+      "event": "response",
+      "request_id": "5f1eaa56c7c344e28a7284ba43be7e95",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 9.145264548998966,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "ae26dd7e827fc7e141d8428db52bc78612891aa51d22ba3630274dabfe69a82d",
+      "redacted_response_bytes": 131685
+    },
+    {
+      "timestamp": "2026-10-04T08:39:46.024879+00:00",
+      "event": "request",
+      "request_id": "afcac761d72945a3a6c6411c1fab404e",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "88de6bdd18473f6001bba153f9bf07a86a8d960096e2f0d9be3ba04e655680f5",
+      "input_bytes": 154952
+    },
+    {
+      "timestamp": "2026-10-04T08:40:30.238536+00:00",
+      "event": "response",
+      "request_id": "afcac761d72945a3a6c6411c1fab404e",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 44.215187873000104,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "ca09ba9c73f99ce944eac3b13c20cb5cb456f05f6813f32cf5236c271a9d7a07",
+      "redacted_response_bytes": 287614
+    },
+    {
+      "timestamp": "2026-10-04T08:40:30.340121+00:00",
+      "event": "request",
+      "request_id": "1ef9ac1faf23451d81c67a4b18889bab",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "4012c9ec42c7aa6e3a1d091534c8d02b979c2274004f254f6a980ab3c0834d58",
+      "input_bytes": 165277
+    },
+    {
+      "timestamp": "2026-10-04T08:41:08.715061+00:00",
+      "event": "response",
+      "request_id": "1ef9ac1faf23451d81c67a4b18889bab",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 38.376421672001015,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "84b1f23d1a65272823b734ac521c95a9a0384cba491cec057dd68b02fbc432c3",
+      "redacted_response_bytes": 558116
+    },
+    {
+      "timestamp": "2026-10-04T08:41:08.803800+00:00",
+      "event": "request",
+      "request_id": "37f7375a7d7a45e0b45cc3e2279b599b",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "0e920bfd03f7a3955d76aa6b3354e094903e86a8201eaa202a1bf3a503f7d215",
+      "input_bytes": 174418
+    },
+    {
+      "timestamp": "2026-10-04T08:41:14.087241+00:00",
+      "event": "response",
+      "request_id": "37f7375a7d7a45e0b45cc3e2279b599b",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 5.284987803999684,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "6156af348d764bfa430cc43857b5a685c0ad68f916568a98f65a5960823f493b",
+      "redacted_response_bytes": 93988
+    },
+    {
+      "timestamp": "2026-10-04T08:41:44.237777+00:00",
+      "event": "request",
+      "request_id": "458f79fdeedf4b26a8e475783061f3ce",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "9d5a03f2ce7e282e0b82adc270c4e6dd544b7b7acd3ffde8ec8d85673384ac34",
+      "input_bytes": 175749
+    },
+    {
+      "timestamp": "2026-10-04T08:41:52.239981+00:00",
+      "event": "response",
+      "request_id": "458f79fdeedf4b26a8e475783061f3ce",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 8.003463859000476,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "5dd9c15ebff229780424d77bd5041e91a56e928673212ae229b0bb45857ed764",
+      "redacted_response_bytes": 89127
+    },
+    {
+      "timestamp": "2026-10-04T08:42:28.254436+00:00",
+      "event": "request",
+      "request_id": "fe7098cd19e04d7980cf76c006c7833f",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "0dfafffed5ab95fdb98cbb7a90d686cad062b86afc7c189c4b84a89142d0c61c",
+      "input_bytes": 177221
+    },
+    {
+      "timestamp": "2026-10-04T08:44:55.351292+00:00",
+      "event": "response",
+      "request_id": "fe7098cd19e04d7980cf76c006c7833f",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 147.09821222799656,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "cb9f577634710f76e16384ddfeda031ca5110c9a079ef8f55afc1c3b3585b797",
+      "redacted_response_bytes": 937846
+    },
+    {
+      "timestamp": "2026-10-04T08:44:55.436322+00:00",
+      "event": "request",
+      "request_id": "757668056ee14905955ada1522efeac8",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "ec056da982495253b08e7e34dcda27cb0dde2808657271f2f0f706b823ca9f65",
+      "input_bytes": 205258
+    },
+    {
+      "timestamp": "2026-10-04T08:45:09.319178+00:00",
+      "event": "response",
+      "request_id": "757668056ee14905955ada1522efeac8",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 13.884129402998951,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "1b78c74428a6439bbfc881038add5d9f83c6b5169a7c89ee7a3defae5af7f25b",
+      "redacted_response_bytes": 86995
+    }
+  ],
+  "new_public_receipts": [
+    {
+      "split": "public",
+      "method_sha256": "f407e97499bc1ea2f2b2e1e1d135ee82bc0ecf1aec1d674493070f3ad9d54b94",
+      "bpp_mean": 0.02141571044921875,
+      "bpp_per_image": {
+        "kodim01": 0.02252197265625,
+        "kodim02": 0.0191650390625,
+        "kodim04": 0.02081298828125,
+        "kodim08": 0.027201334635416668,
+        "kodim11": 0.020751953125,
+        "kodim12": 0.0164794921875,
+        "kodim13": 0.020039876302083332,
+        "kodim14": 0.0267333984375,
+        "kodim16": 0.01611328125,
+        "kodim17": 0.028116861979166668,
+        "kodim18": 0.022969563802083332,
+        "kodim19": 0.0194091796875,
+        "kodim20": 0.015055338541666666,
+        "kodim21": 0.017252604166666668,
+        "kodim23": 0.02264404296875,
+        "kodim24": 0.027384440104166668
+      },
+      "dists": 0.1090228520333767,
+      "lpips": 0.17204631306231022,
+      "psnr": 21.727118443166596,
+      "msssim": 0.7545152977108955,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.02252197265625,
+          "psnr": 19.86924392447544,
+          "msssim": 0.6920773983001709,
+          "lpips": 0.1986880600452423,
+          "dists": 0.11899352073669434
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.0191650390625,
+          "psnr": 24.859119410599195,
+          "msssim": 0.8067818880081177,
+          "lpips": 0.16513065993785858,
+          "dists": 0.11615657806396484
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.02081298828125,
+          "psnr": 24.704187829981166,
+          "msssim": 0.8167802691459656,
+          "lpips": 0.14291323721408844,
+          "dists": 0.08224058151245117
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.027201334635416668,
+          "psnr": 16.935775278173576,
+          "msssim": 0.7463051080703735,
+          "lpips": 0.19531866908073425,
+          "dists": 0.12619376182556152
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.020751953125,
+          "psnr": 21.39784535252167,
+          "msssim": 0.7389335632324219,
+          "lpips": 0.18994958698749542,
+          "dists": 0.11311829090118408
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.0164794921875,
+          "psnr": 25.055439083886547,
+          "msssim": 0.8218898177146912,
+          "lpips": 0.14516852796077728,
+          "dists": 0.10707271099090576
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.020039876302083332,
+          "psnr": 16.865839680330325,
+          "msssim": 0.5114576816558838,
+          "lpips": 0.2927851676940918,
+          "dists": 0.15403980016708374
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.0267333984375,
+          "psnr": 19.93810220254312,
+          "msssim": 0.6642967462539673,
+          "lpips": 0.21573838591575623,
+          "dists": 0.10834240913391113
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.01611328125,
+          "psnr": 24.098509600410658,
+          "msssim": 0.7312776446342468,
+          "lpips": 0.14578716456890106,
+          "dists": 0.11088275909423828
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.028116861979166668,
+          "psnr": 23.17097704257637,
+          "msssim": 0.8205055594444275,
+          "lpips": 0.1514582484960556,
+          "dists": 0.10729271173477173
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.022969563802083332,
+          "psnr": 19.67396505007043,
+          "msssim": 0.6524065732955933,
+          "lpips": 0.21393954753875732,
+          "dists": 0.12293124198913574
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.0194091796875,
+          "psnr": 22.055883781752858,
+          "msssim": 0.7878851294517517,
+          "lpips": 0.14402815699577332,
+          "dists": 0.09384167194366455
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.015055338541666666,
+          "psnr": 24.090126754384045,
+          "msssim": 0.8785766959190369,
+          "lpips": 0.09870033711194992,
+          "dists": 0.09450960159301758
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.017252604166666668,
+          "psnr": 20.11506841293862,
+          "msssim": 0.7749700546264648,
+          "lpips": 0.16856032609939575,
+          "dists": 0.10315710306167603
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.02264404296875,
+          "psnr": 25.01448564942494,
+          "msssim": 0.8841947317123413,
+          "lpips": 0.09049341827630997,
+          "dists": 0.0763319730758667
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.027384440104166668,
+          "psnr": 19.789326036596602,
+          "msssim": 0.7439059019088745,
+          "lpips": 0.19408151507377625,
+          "dists": 0.1092609167098999
+        }
+      ],
+      "elapsed_sec": 62.99672305069544,
+      "queue_elapsed_sec": 28.93855800199526,
+      "evaluation_elapsed_sec": 34.05816600237449,
+      "status": "hard_gate",
+      "valid": false,
+      "failure_type": "hard_gate",
+      "score": -1.0,
+      "score_clipped": null,
+      "bpp_in_window": false,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": "Mean bitrate exceeds the frozen split cap",
+      "exit_code": 0,
+      "run_id": "7cbde1dd6dac446d9503d4990e664fc5"
+    }
+  ],
+  "retained_best": true,
+  "novel_method_semantics": true,
+  "method_semantics_sha256": "9e5a033a5dcf4b6e60c03a5d90110165c43e7a8d8d03c8bfb115f4cd2af6e882"
+}

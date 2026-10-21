@@ -1,0 +1,112 @@
+{
+  "schema_version": "onedc-run-summary.v2",
+  "task_id": "onedc-quant",
+  "status": "runtime_evidence_complete_fresh_final_qa_pending",
+  "generated_at": "2026-10-04T23:30:30.684998+00:00",
+  "image": {
+    "digest": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+    "tag": "onedc-env:v8",
+    "target_harbor_version": "0.23.0",
+    "offline": true
+  },
+  "time_policy": {
+    "authority": "user instruction on 2026-10-04",
+    "rule": "Count all elapsed task work, including setup, builds, smoke, NOP, evaluation, queues, failures, debugging, recovery, and retries; exclude only evidence-backed no-HTTP-status/no-response intervals.",
+    "evidence": "effective-time-user-policy.json"
+  },
+  "agent_execution": [
+    {
+      "name": "gpt",
+      "runtime": "Codex",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "source_path": "expert_evidence/trajectory_codex.json",
+      "packaged_rounds": 48,
+      "last_round_number": 49,
+      "wall_time_seconds": 53816.49066,
+      "effective_seconds": 52529.61404995934,
+      "duration_hours": 14.591559458322038,
+      "target_met": true,
+      "best_public_dists": 0.11724298819899559,
+      "best_method_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb"
+    },
+    {
+      "name": "seed",
+      "runtime": "Codex",
+      "model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "source_path": "expert_evidence/trajectory_seed.json",
+      "packaged_rounds": 11,
+      "last_round_number": 13,
+      "wall_time_seconds": 53816.49066,
+      "effective_seconds": 53801.68181686417,
+      "duration_hours": 14.944911615795602,
+      "target_met": true,
+      "best_public_dists": 0.12091859057545662,
+      "best_method_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e"
+    }
+  ],
+  "calibration": {
+    "status": "passed",
+    "evidence": "optimization_evidence/native_calibration_v8/summary.json",
+    "protocol": "B/R/U each measured in three fresh native Harbor scoring processes on the immutable final-v8 image",
+    "baseline_full_dists": 0.11711087326208751,
+    "reference_full_dists": 0.11463754375775655,
+    "upper_bound_full_dists": 0.11314917107423146,
+    "reference_normalized_score": 0.6243098009518612,
+    "all_rate_gates_passed": true,
+    "all_replicates_deterministic": true
+  },
+  "validation": {
+    "official_method_reproduction_passed": true,
+    "baseline_passed": true,
+    "reference_passed": true,
+    "optimization_evidence_complete": true,
+    "trajectory_format_passed": "pending final release review; canonical statuses corrected from source events and metrics",
+    "current_package_nop": "passed",
+    "verifier_docker_build": "passed",
+    "privacy_scan": "Scoped independent tool required for this exact final candidate; official package lacks advertised protocol.py; no claim unavailable command executed.",
+    "container_12h_stability": "PASS_BOTH_RETAINED_12H; final_stability/onedc-retained-continuity-latest.json",
+    "final_release_qa": "pending two independent clean-context reviews",
+    "clean_frozen_best_all24": {
+      "gpt": {
+        "native_execution_completed": true,
+        "quality_valid": true,
+        "reward": 1.1955827260919034,
+        "evidence": "final_native_replays/gpt"
+      },
+      "seed": {
+        "native_execution_completed": true,
+        "quality_valid": false,
+        "reward": -1,
+        "evidence": "final_native_replays/seed"
+      }
+    }
+  },
+  "transition": {
+    "evidence": "final_stability/onedc-original-phase-close-receipt.json",
+    "gpt_controller_paused": true,
+    "seed_controller_paused": true,
+    "best_methods_restored": true,
+    "owned_processes_cleaned": true,
+    "owned_operator_phase_ended": true,
+    "legacy_controllers_not_resumed": true
+  },
+  "notes": [
+    "Earlier physically non-isolated trajectories and v7 calibration were retained outside the submission package as private recovery material.",
+    "The packaged trajectories are the final-v8 formal runs. Missing round numbers correspond to controller attempts that did not emit a trajectory record; no synthetic rounds were added.",
+    "The long-run time requirement is complete under the user-authorized accounting policy. Continuous container lifetime is a separate gate and does not increase research time.",
+    "The installed QA skill does not include its referenced scripts/protocol.py; release artifacts were scanned with the documented equivalent fallback, and that tool difference remains disclosed in the QA report.",
+    "The historical author summary is preserved. Fallback privacy scans are preliminary; they do not replace required release privacy and independent QA. Both frozen-best native replays genuinely completed; Seed quality failed its frozen bitrate gate. No additional hidden-guided research was performed."
+  ],
+  "evidence_presentation": {
+    "kind": "derived_runtime_complete_run_summary_pending_final_QA",
+    "original_summary_sha256": "ce40a6578d85307a6c980e4e938e12d4bfa41771494ae3d03f250d45c739bb97",
+    "original_summary_preserved": "historical_package_records/run_summary.json",
+    "primary_clock_values_unchanged": true,
+    "new_research_seconds_added": 0
+  },
+  "final_selected_valid_track": "gpt",
+  "final_research_history_evidence": "final_research_history",
+  "original_native_research_trial_status": "OPEN_RECORD_PRESERVED_OPERATOR_ABORTED; separate closed frozen-best scoring Trials"
+}

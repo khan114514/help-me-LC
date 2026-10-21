@@ -1,0 +1,42 @@
+{
+  "round": 8,
+  "candidate_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "trusted_method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 30.633132457733154,
+    "failed_request_seconds": 30.462557077407837,
+    "gpu_queue_seconds": 0,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 0
+  },
+  "cli_exit": 1,
+  "gateway_records": [
+    {
+      "timestamp": "2026-10-04T08:45:22.976736+00:00",
+      "event": "request",
+      "request_id": "53191c4910434cceaeae25fdd99b55b6",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "9b9bceb1243f43c852f1b0cbdc16a452b93f9361a6daeb556b2234a4c22e16e1",
+      "input_bytes": 59406
+    },
+    {
+      "timestamp": "2026-10-04T08:45:38.196441+00:00",
+      "event": "request",
+      "request_id": "cd8dc9559f1040a9bb26421903af2ff6",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "9b9bceb1243f43c852f1b0cbdc16a452b93f9361a6daeb556b2234a4c22e16e1",
+      "input_bytes": 59406
+    }
+  ],
+  "new_public_receipts": [],
+  "retained_best": false,
+  "novel_method_semantics": false,
+  "method_semantics_sha256": "b3c4f4ca3f075f0ee9750261616189b60274d9b053b93492031d3ae74ad65217"
+}

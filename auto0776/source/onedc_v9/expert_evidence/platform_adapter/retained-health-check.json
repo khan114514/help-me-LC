@@ -1,0 +1,52 @@
+{
+  "status": "READ_ONLY_RETAINED_HEALTH_CHECK_PASS",
+  "observed_at": "2026-10-04T19:43:35.117093+00:00",
+  "tracks": {
+    "gpt": {
+      "controller_pid": 1503309,
+      "controller_state": "T",
+      "CID": "2ee7cbe3a63dfa733facfdff454e61a6174faccb20ce8db5a56d0496c7eec1b6",
+      "StartedAt": "2026-10-04T10:16:23.744127135Z",
+      "Running": true,
+      "OOMKilled": false,
+      "RestartCount": 0,
+      "live_seconds": 34031.23373746872,
+      "age_12h_reached": false,
+      "read_only_CPU_IO_service_probe": {
+        "uid": 25000,
+        "method_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+        "method_regular": true,
+        "service_pid": 58,
+        "service_command_matches": true,
+        "actual_CPU_result": 332833500
+      },
+      "original_identity_and_method_unchanged": true,
+      "controller_not_resumed": true
+    },
+    "seed": {
+      "controller_pid": 1776711,
+      "controller_state": "T",
+      "CID": "0a48effa2397bbdb7e359041bc101523e5123271b4cb64330e8892d3797103c3",
+      "StartedAt": "2026-10-04T11:28:17.157037601Z",
+      "Running": true,
+      "OOMKilled": false,
+      "RestartCount": 0,
+      "live_seconds": 29717.960040330887,
+      "age_12h_reached": false,
+      "read_only_CPU_IO_service_probe": {
+        "uid": 25000,
+        "method_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+        "method_regular": true,
+        "service_pid": 58,
+        "service_command_matches": true,
+        "actual_CPU_result": 332833500
+      },
+      "original_identity_and_method_unchanged": true,
+      "controller_not_resumed": true
+    }
+  },
+  "GPU_or_model_calls": 0,
+  "formal_credit_seconds": 0,
+  "final_12h_release_acceptance": false,
+  "note": "Actual read-only CPU execution, candidate IO and public service identity checked; elapsed age alone is not final stable-container certification."
+}

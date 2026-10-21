@@ -1,0 +1,116 @@
+{
+  "round": 20,
+  "candidate_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "trusted_method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 0.8844516277313232,
+    "failed_request_seconds": 0.02744007110595703,
+    "gpu_queue_seconds": 0,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 0
+  },
+  "cli_exit": 1,
+  "gateway_records": [
+    {
+      "timestamp": "2026-10-04T08:56:46.997985+00:00",
+      "event": "request",
+      "request_id": "7daf3474e7cd4c20beb6ce7ef72628a6",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "49e7e8818cbfa11db3516bcd3d0660e350518ead16bef42983a5db0361755aff",
+      "input_bytes": 61170
+    },
+    {
+      "timestamp": "2026-10-04T08:56:47.005169+00:00",
+      "event": "response",
+      "request_id": "7daf3474e7cd4c20beb6ce7ef72628a6",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.007842725004593376,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    },
+    {
+      "timestamp": "2026-10-04T08:56:47.214420+00:00",
+      "event": "request",
+      "request_id": "6fbafa25ff87445cb11d3f3630e783cf",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "49e7e8818cbfa11db3516bcd3d0660e350518ead16bef42983a5db0361755aff",
+      "input_bytes": 61170
+    },
+    {
+      "timestamp": "2026-10-04T08:56:47.221159+00:00",
+      "event": "response",
+      "request_id": "6fbafa25ff87445cb11d3f3630e783cf",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.007279304001713172,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    },
+    {
+      "timestamp": "2026-10-04T08:56:47.444104+00:00",
+      "event": "request",
+      "request_id": "dca631edfbef483ba15a61c2b547ae4b",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "faded229386ad1e7764c11b7a3fa634a277e64a6227ff0e254821a98d7ab6172",
+      "input_bytes": 61170
+    },
+    {
+      "timestamp": "2026-10-04T08:56:47.450744+00:00",
+      "event": "response",
+      "request_id": "dca631edfbef483ba15a61c2b547ae4b",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.007130293000955135,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    },
+    {
+      "timestamp": "2026-10-04T08:56:47.668980+00:00",
+      "event": "request",
+      "request_id": "ee22454b058f49139e7652fc08c5d81a",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "faded229386ad1e7764c11b7a3fa634a277e64a6227ff0e254821a98d7ab6172",
+      "input_bytes": 61170
+    },
+    {
+      "timestamp": "2026-10-04T08:56:47.675857+00:00",
+      "event": "response",
+      "request_id": "ee22454b058f49139e7652fc08c5d81a",
+      "track": "gpt",
+      "http_status": null,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 0.007449775002896786,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_response_bytes": 0
+    }
+  ],
+  "new_public_receipts": [],
+  "retained_best": false,
+  "novel_method_semantics": false,
+  "method_semantics_sha256": "b3c4f4ca3f075f0ee9750261616189b60274d9b053b93492031d3ae74ad65217"
+}

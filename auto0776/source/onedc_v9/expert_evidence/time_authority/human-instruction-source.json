@@ -1,0 +1,15 @@
+{
+  "role": "user",
+  "source_kind": "direct human user message read from local Codex rollout",
+  "source_thread": "01a104eb-53c3-7a22-b77c-297575182785",
+  "message_id": "msg_01a106fe-8a95-7071-b5c6-3a26651e4e17",
+  "timestamp": "2026-10-04T12:58:27.349Z",
+  "exact_core_excerpt": "配制环境、做smoke都是有效的啊，要去除的只有网络不好没连上的。你重新计算并记录",
+  "original_instruction_record_sha256": "ce65c04ea5cd1375f7184fd9de67c08fc3495c8ee9787a44034e69dd848660d9",
+  "instruction_record_hash_serialization": "json.dumps(user_instruction,ensure_ascii=False,sort_keys=True) UTF-8",
+  "full_original_text_sha256": "d89d2581d7f1e29eeeb5edf3aa527e938bebc7fa4e4713f0710478b38eab8dd4",
+  "excerpt_is_full_message": false,
+  "verified_at": "2026-10-04T13:52:09.257738+00:00",
+  "scope": "OneDC only. Original full human message is retained privately; this exact core excerpt removes unrelated emotional wording. This is independently observed human authority, not a model self-description.",
+  "policy": "Count actual configuration, build, smoke, NOP, debugging, queue and connected work; only evidence-backed no-connection/no-response intervals excluded. Scores and original histories unchanged; strict-loop clocks remain supplementary."
+}

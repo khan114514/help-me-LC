@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "agent_visible_paths": [
+    "harbor_task/instruction.md",
+    "harbor_task/task.toml",
+    "harbor_task/environment/repo",
+    "harbor_task/environment/starter",
+    "harbor_task/environment/public_assets",
+    "harbor_task/environment/grader",
+    "harbor_task/environment/evaluate.sh",
+    "harbor_task/environment/solve.sh",
+    "harbor_task/solution"
+  ],
+  "agent_writable_paths": [
+    "harbor_task/solution/method.py"
+  ],
+  "trusted_only_paths": [
+    "harbor_task/tests",
+    "reference"
+  ],
+  "hidden_injection_paths": [
+    "/tests/hidden_assets"
+  ],
+  "final_image_digest": null,
+  "generated_agent_view_manifest": null,
+  "verified_as_uid": 25000,
+  "status": "NOT_FINAL_IMAGE_VERIFIED",
+  "runtime_scratch_paths": [
+    "/home/onedc-agent",
+    "/tmp"
+  ],
+  "runtime_transport_paths": [
+    "/workspace/eval-requests"
+  ],
+  "runtime_workspace_permission": "root:root mode 0755; only existing method.py is owned by UID 25000 and writable; frozen source/weights/grader top directories root:onedc-agent 0750 exclude worker UID 25001",
+  "notes": [
+    "Native environment build context excludes workspace/reference, tests and all expert/optimization evidence.",
+    "Agent-visible grader contains public numeric anchors only; hidden inputs are injected into a separate verifier.",
+    "Final image plus mount inventory and digest still require dynamic regeneration.",
+    "Actual final Codex sandbox requires empty root-owned .aws/.codex/.agents directories; they contain no credentials or private history."
+  ]
+}

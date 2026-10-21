@@ -1,0 +1,9 @@
+{
+  "raw_log": "optimization_evidence/native_calibration_v8/original_records/raw/R_1/run.log",
+  "native_execution": "optimization_evidence/native_calibration_v8/original_records/raw/R_1/execution.json",
+  "native_metrics": "optimization_evidence/native_calibration_v8/original_records/raw/R_1/out/metrics.json",
+  "method_sha256": "48dbf1ef65c4a4ec8498160ca4d4943d32e082bb96bb4e3fb9c9b9fe95a26444",
+  "real_exit_code": 0,
+  "actual_pid_or_per_repeat_wall_timestamps_recorded": false,
+  "available_execution_identity": "Native per-repeat command and fresh lease_exec/run_eval process contract, verifier loop, elapsed/queue/evaluation seconds; no missing PID or wall timestamp invented."
+}

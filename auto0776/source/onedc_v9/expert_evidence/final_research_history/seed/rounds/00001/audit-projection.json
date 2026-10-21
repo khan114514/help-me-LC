@@ -1,0 +1,1314 @@
+{
+  "round": 1,
+  "candidate_sha256": "07918cb7a8943c442ae54a7e88e6835d9dfb1592bfcd47432592962192f70209",
+  "trusted_method_sha256": "07918cb7a8943c442ae54a7e88e6835d9dfb1592bfcd47432592962192f70209",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 1802.225557565689,
+    "failed_request_seconds": 71.95171403884888,
+    "gpu_queue_seconds": 87.52286998400814,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 47
+  },
+  "cli_exit": null,
+  "retained_best": true,
+  "novel_method_semantics": true,
+  "method_semantics_sha256": "529abe620b6a4c0e199569373f5a111edd20883726d8d979fdbbd46e655f4381",
+  "new_public_receipts": [
+    {
+      "split": "public",
+      "method_sha256": "a87195695d599c5da1e4168f56a044f40109909876f9edf822d3018c79fc2bf3",
+      "bpp_mean": 0.021418253580729164,
+      "bpp_per_image": {
+        "kodim01": 0.022542317708333332,
+        "kodim02": 0.019002278645833332,
+        "kodim04": 0.020711263020833332,
+        "kodim08": 0.026957194010416668,
+        "kodim11": 0.020914713541666668,
+        "kodim12": 0.016581217447916668,
+        "kodim13": 0.020060221354166668,
+        "kodim14": 0.026936848958333332,
+        "kodim16": 0.016072591145833332,
+        "kodim17": 0.028361002604166668,
+        "kodim18": 0.02301025390625,
+        "kodim19": 0.019449869791666668,
+        "kodim20": 0.014994303385416666,
+        "kodim21": 0.017293294270833332,
+        "kodim23": 0.0225830078125,
+        "kodim24": 0.0272216796875
+      },
+      "dists": 0.10953865200281143,
+      "lpips": 0.17182777309790254,
+      "psnr": 21.705485819719343,
+      "msssim": 0.7548542730510235,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.022542317708333332,
+          "psnr": 19.84542429596722,
+          "msssim": 0.6908359527587891,
+          "lpips": 0.19766584038734436,
+          "dists": 0.11655151844024658
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.019002278645833332,
+          "psnr": 24.746737091483148,
+          "msssim": 0.8049143552780151,
+          "lpips": 0.1678246259689331,
+          "dists": 0.11740553379058838
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.020711263020833332,
+          "psnr": 24.53413527520704,
+          "msssim": 0.8151354193687439,
+          "lpips": 0.14168180525302887,
+          "dists": 0.08015573024749756
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.026957194010416668,
+          "psnr": 16.92952875380366,
+          "msssim": 0.7456178665161133,
+          "lpips": 0.19532905519008636,
+          "dists": 0.1307966113090515
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.020914713541666668,
+          "psnr": 21.46344708355574,
+          "msssim": 0.7408844828605652,
+          "lpips": 0.18735691905021667,
+          "dists": 0.11222666501998901
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.016581217447916668,
+          "psnr": 25.058175984969957,
+          "msssim": 0.8220202922821045,
+          "lpips": 0.14440739154815674,
+          "dists": 0.10568094253540039
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.020060221354166668,
+          "psnr": 16.912490765594917,
+          "msssim": 0.5120276212692261,
+          "lpips": 0.29175299406051636,
+          "dists": 0.15545982122421265
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.026936848958333332,
+          "psnr": 19.968602552643166,
+          "msssim": 0.6688776016235352,
+          "lpips": 0.21471156179904938,
+          "dists": 0.1090816855430603
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.016072591145833332,
+          "psnr": 23.970441055177325,
+          "msssim": 0.7321421504020691,
+          "lpips": 0.1476161777973175,
+          "dists": 0.10934501886367798
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.028361002604166668,
+          "psnr": 22.94536239799445,
+          "msssim": 0.8200368881225586,
+          "lpips": 0.1517857164144516,
+          "dists": 0.10836225748062134
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.02301025390625,
+          "psnr": 19.706339707747226,
+          "msssim": 0.6541282534599304,
+          "lpips": 0.216644749045372,
+          "dists": 0.12606936693191528
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.019449869791666668,
+          "psnr": 22.17073784285576,
+          "msssim": 0.7900848388671875,
+          "lpips": 0.1399834156036377,
+          "dists": 0.09850895404815674
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.014994303385416666,
+          "psnr": 24.085625465915626,
+          "msssim": 0.8791424632072449,
+          "lpips": 0.09721726179122925,
+          "dists": 0.09470587968826294
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.017293294270833332,
+          "psnr": 20.142841551651852,
+          "msssim": 0.7758592367172241,
+          "lpips": 0.1678968071937561,
+          "dists": 0.10271793603897095
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.0225830078125,
+          "psnr": 25.017283212786907,
+          "msssim": 0.8835943937301636,
+          "lpips": 0.09174390882253647,
+          "dists": 0.0768892765045166
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.0272216796875,
+          "psnr": 19.790600078155485,
+          "msssim": 0.7423665523529053,
+          "lpips": 0.1956261396408081,
+          "dists": 0.1086612343788147
+        }
+      ],
+      "elapsed_sec": 34.725428589910734,
+      "queue_elapsed_sec": 1.5819001419004053e-05,
+      "evaluation_elapsed_sec": 34.72541372458363,
+      "status": "hard_gate",
+      "valid": false,
+      "failure_type": "hard_gate",
+      "score": -1.0,
+      "score_clipped": null,
+      "bpp_in_window": false,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": "Mean bitrate exceeds the frozen split cap",
+      "exit_code": 0,
+      "run_id": "3dc878b3c92e4d07b101ee2991ef2fb6"
+    },
+    {
+      "split": "public",
+      "method_sha256": "87d1c5361e8b734529197e8b22f5b47558816a23e7ffaf599dbe382c5437d058",
+      "bpp_mean": 0.02106475830078125,
+      "bpp_per_image": {
+        "kodim01": 0.021931966145833332,
+        "kodim02": 0.0185546875,
+        "kodim04": 0.019999186197916668,
+        "kodim08": 0.025410970052083332,
+        "kodim11": 0.02069091796875,
+        "kodim12": 0.016133626302083332,
+        "kodim13": 0.019449869791666668,
+        "kodim14": 0.026590983072916668,
+        "kodim16": 0.015909830729166668,
+        "kodim17": 0.02752685546875,
+        "kodim18": 0.023681640625,
+        "kodim19": 0.018595377604166668,
+        "kodim20": 0.0146484375,
+        "kodim21": 0.017740885416666668,
+        "kodim23": 0.022440592447916668,
+        "kodim24": 0.027730305989583332
+      },
+      "dists": 0.11383550986647606,
+      "lpips": 0.17891291063278913,
+      "psnr": 21.577182529018252,
+      "msssim": 0.7492981776595116,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.021931966145833332,
+          "psnr": 19.408265107895996,
+          "msssim": 0.6760430335998535,
+          "lpips": 0.20773746073246002,
+          "dists": 0.12007874250411987
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.0185546875,
+          "psnr": 24.84507353930537,
+          "msssim": 0.8051852583885193,
+          "lpips": 0.165517196059227,
+          "dists": 0.12320983409881592
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.019999186197916668,
+          "psnr": 24.469929967815766,
+          "msssim": 0.8116823434829712,
+          "lpips": 0.1471427083015442,
+          "dists": 0.08646059036254883
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.025410970052083332,
+          "psnr": 16.720916364495817,
+          "msssim": 0.7248386144638062,
+          "lpips": 0.21656468510627747,
+          "dists": 0.1400740146636963
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.02069091796875,
+          "psnr": 21.402504733966982,
+          "msssim": 0.7411121726036072,
+          "lpips": 0.1930881142616272,
+          "dists": 0.10995393991470337
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.016133626302083332,
+          "psnr": 24.834418351118252,
+          "msssim": 0.8161848783493042,
+          "lpips": 0.14978133141994476,
+          "dists": 0.10914981365203857
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.019449869791666668,
+          "psnr": 16.78963599020921,
+          "msssim": 0.5058501958847046,
+          "lpips": 0.30112165212631226,
+          "dists": 0.15342086553573608
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.026590983072916668,
+          "psnr": 20.001149748031466,
+          "msssim": 0.6631535291671753,
+          "lpips": 0.2231677919626236,
+          "dists": 0.10515820980072021
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.015909830729166668,
+          "psnr": 23.691888628243703,
+          "msssim": 0.7251099944114685,
+          "lpips": 0.1499861180782318,
+          "dists": 0.11498373746871948
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.02752685546875,
+          "psnr": 23.049747273576987,
+          "msssim": 0.8122830390930176,
+          "lpips": 0.1637727916240692,
+          "dists": 0.12306159734725952
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.023681640625,
+          "psnr": 19.558923524970456,
+          "msssim": 0.6544989347457886,
+          "lpips": 0.2212805151939392,
+          "dists": 0.13697516918182373
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.018595377604166668,
+          "psnr": 22.03323193230109,
+          "msssim": 0.7842495441436768,
+          "lpips": 0.1525634527206421,
+          "dists": 0.09963345527648926
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.0146484375,
+          "psnr": 23.98220375023105,
+          "msssim": 0.875899076461792,
+          "lpips": 0.10286492854356766,
+          "dists": 0.10176229476928711
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.017740885416666668,
+          "psnr": 20.069325862059983,
+          "msssim": 0.7732144594192505,
+          "lpips": 0.1733175814151764,
+          "dists": 0.1039130687713623
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.022440592447916668,
+          "psnr": 24.647342061961673,
+          "msssim": 0.8778144717216492,
+          "lpips": 0.09765119105577469,
+          "dists": 0.07886052131652832
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.027730305989583332,
+          "psnr": 19.730363628108186,
+          "msssim": 0.7416512966156006,
+          "lpips": 0.19704905152320862,
+          "dists": 0.11467230319976807
+        }
+      ],
+      "elapsed_sec": 83.19981218991597,
+      "queue_elapsed_sec": 47.56599853499938,
+      "evaluation_elapsed_sec": 35.63381437017233,
+      "status": "hard_gate",
+      "valid": false,
+      "failure_type": "hard_gate",
+      "score": -1.0,
+      "score_clipped": null,
+      "bpp_in_window": false,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": "Mean bitrate exceeds the frozen split cap",
+      "exit_code": 0,
+      "run_id": "36676b6b29ab48d79f4e18800bc13b9e"
+    },
+    {
+      "status": "format_error",
+      "valid": false,
+      "failure_type": "format_error",
+      "score": null,
+      "error": "CandidateError: Candidate failed or returned an invalid tensor response",
+      "exit_code": 2,
+      "run_id": "1ac8f2dc04344100a0b2c1eb52a34d95"
+    },
+    {
+      "split": "public",
+      "method_sha256": "953e3a614bd7d657bb34ff79cb9d80d5c5132b1e318b5b954f96ed2768d48c1c",
+      "bpp_mean": 0.023469289143880207,
+      "bpp_per_image": {
+        "kodim01": 0.025044759114583332,
+        "kodim02": 0.0191650390625,
+        "kodim04": 0.02435302734375,
+        "kodim08": 0.029947916666666668,
+        "kodim11": 0.023234049479166668,
+        "kodim12": 0.018168131510416668,
+        "kodim13": 0.021077473958333332,
+        "kodim14": 0.029561360677083332,
+        "kodim16": 0.015970865885416668,
+        "kodim17": 0.031087239583333332,
+        "kodim18": 0.024983723958333332,
+        "kodim19": 0.0205078125,
+        "kodim20": 0.018351236979166668,
+        "kodim21": 0.018595377604166668,
+        "kodim23": 0.026163736979166668,
+        "kodim24": 0.029296875
+      },
+      "dists": 0.1812189370393753,
+      "lpips": 0.2459961324930191,
+      "psnr": 20.543475807724505,
+      "msssim": 0.6909379363059998,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.025044759114583332,
+          "psnr": 18.79240178105237,
+          "msssim": 0.6056633591651917,
+          "lpips": 0.2746414542198181,
+          "dists": 0.18421918153762817
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.0191650390625,
+          "psnr": 23.805312875269955,
+          "msssim": 0.7677029371261597,
+          "lpips": 0.2309170663356781,
+          "dists": 0.20737087726593018
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.02435302734375,
+          "psnr": 23.010948464741666,
+          "msssim": 0.7600849866867065,
+          "lpips": 0.2246311902999878,
+          "dists": 0.13913530111312866
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.029947916666666668,
+          "psnr": 15.639702669741727,
+          "msssim": 0.6209194660186768,
+          "lpips": 0.2925836443901062,
+          "dists": 0.2238723635673523
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.023234049479166668,
+          "psnr": 20.321594114367166,
+          "msssim": 0.6847593188285828,
+          "lpips": 0.253978431224823,
+          "dists": 0.1934647560119629
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.018168131510416668,
+          "psnr": 23.49120847643156,
+          "msssim": 0.7886347770690918,
+          "lpips": 0.19507336616516113,
+          "dists": 0.15175485610961914
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.021077473958333332,
+          "psnr": 16.59608929989403,
+          "msssim": 0.46194642782211304,
+          "lpips": 0.3421950042247772,
+          "dists": 0.18683820962905884
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.029561360677083332,
+          "psnr": 19.007773164053905,
+          "msssim": 0.5782510638237,
+          "lpips": 0.3164350986480713,
+          "dists": 0.1965547800064087
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.015970865885416668,
+          "psnr": 23.22143307459382,
+          "msssim": 0.6983892917633057,
+          "lpips": 0.1891653835773468,
+          "dists": 0.15094220638275146
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.031087239583333332,
+          "psnr": 22.074233258222552,
+          "msssim": 0.7455560564994812,
+          "lpips": 0.23814338445663452,
+          "dists": 0.1830947995185852
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.024983723958333332,
+          "psnr": 19.18356096158883,
+          "msssim": 0.5924667119979858,
+          "lpips": 0.3029504120349884,
+          "dists": 0.21225720643997192
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.0205078125,
+          "psnr": 20.706493398070947,
+          "msssim": 0.7300168871879578,
+          "lpips": 0.2080218344926834,
+          "dists": 0.16995370388031006
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.018351236979166668,
+          "psnr": 22.289386929940875,
+          "msssim": 0.838746190071106,
+          "lpips": 0.16390462219715118,
+          "dists": 0.1839599609375
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.018595377604166668,
+          "psnr": 19.328010668819214,
+          "msssim": 0.7263398170471191,
+          "lpips": 0.2217419147491455,
+          "dists": 0.1655203104019165
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.026163736979166668,
+          "psnr": 22.505527415697287,
+          "msssim": 0.8075913190841675,
+          "lpips": 0.17941433191299438,
+          "dists": 0.141315758228302
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.029296875,
+          "psnr": 18.721936371106192,
+          "msssim": 0.6479383707046509,
+          "lpips": 0.3021409809589386,
+          "dists": 0.20924872159957886
+        }
+      ],
+      "elapsed_sec": 75.26231429667678,
+      "queue_elapsed_sec": 39.95682157600095,
+      "evaluation_elapsed_sec": 35.305493912768725,
+      "status": "hard_gate",
+      "valid": false,
+      "failure_type": "hard_gate",
+      "score": -1.0,
+      "score_clipped": null,
+      "bpp_in_window": false,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": "Mean bitrate exceeds the frozen split cap",
+      "exit_code": 0,
+      "run_id": "a6c5ffc3624b453dab3ba07e84c783bb"
+    },
+    {
+      "split": "public",
+      "method_sha256": "0eaf64a6a4fe7bd4f86fb4baa9d87cf0e962fcfa9c7a55d0291370d2b69b90ee",
+      "bpp_mean": 0.019640604654947918,
+      "bpp_per_image": {
+        "kodim01": 0.020243326822916668,
+        "kodim02": 0.016886393229166668,
+        "kodim04": 0.019124348958333332,
+        "kodim08": 0.025349934895833332,
+        "kodim11": 0.018900553385416668,
+        "kodim12": 0.015421549479166666,
+        "kodim13": 0.018107096354166668,
+        "kodim14": 0.024759928385416668,
+        "kodim16": 0.014404296875,
+        "kodim17": 0.02593994140625,
+        "kodim18": 0.02105712890625,
+        "kodim19": 0.017557779947916668,
+        "kodim20": 0.014241536458333334,
+        "kodim21": 0.0162353515625,
+        "kodim23": 0.020975748697916668,
+        "kodim24": 0.025044759114583332
+      },
+      "dists": 0.12581810355186462,
+      "lpips": 0.18969849729910493,
+      "psnr": 21.332220647627654,
+      "msssim": 0.7319563813507557,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.020243326822916668,
+          "psnr": 19.412421296123302,
+          "msssim": 0.6487196683883667,
+          "lpips": 0.22278660535812378,
+          "dists": 0.1607765555381775
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.016886393229166668,
+          "psnr": 24.400910151398204,
+          "msssim": 0.7860206961631775,
+          "lpips": 0.2014123648405075,
+          "dists": 0.14816021919250488
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.019124348958333332,
+          "psnr": 24.335992925334264,
+          "msssim": 0.8002384901046753,
+          "lpips": 0.15701507031917572,
+          "dists": 0.09236741065979004
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.025349934895833332,
+          "psnr": 16.55049193045133,
+          "msssim": 0.7170051336288452,
+          "lpips": 0.2096952646970749,
+          "dists": 0.13576656579971313
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.018900553385416668,
+          "psnr": 20.782047546040666,
+          "msssim": 0.7136567831039429,
+          "lpips": 0.20472514629364014,
+          "dists": 0.1248772144317627
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.015421549479166666,
+          "psnr": 24.51838144610846,
+          "msssim": 0.8116546869277954,
+          "lpips": 0.15333451330661774,
+          "dists": 0.1122671365737915
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.018107096354166668,
+          "psnr": 16.707570765276124,
+          "msssim": 0.48641276359558105,
+          "lpips": 0.30148255825042725,
+          "dists": 0.16053229570388794
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.024759928385416668,
+          "psnr": 19.83208007437875,
+          "msssim": 0.63359135389328,
+          "lpips": 0.23634739220142365,
+          "dists": 0.1292191743850708
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.014404296875,
+          "psnr": 23.222949223212247,
+          "msssim": 0.7114295363426208,
+          "lpips": 0.16044387221336365,
+          "dists": 0.11545968055725098
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.02593994140625,
+          "psnr": 23.10916429338644,
+          "msssim": 0.8016742467880249,
+          "lpips": 0.1708681285381317,
+          "dists": 0.12493807077407837
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.02105712890625,
+          "psnr": 19.296896737764694,
+          "msssim": 0.6304223537445068,
+          "lpips": 0.23300935328006744,
+          "dists": 0.132246732711792
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.017557779947916668,
+          "psnr": 21.711756404756628,
+          "msssim": 0.7676552534103394,
+          "lpips": 0.16879867017269135,
+          "dists": 0.11562025547027588
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.014241536458333334,
+          "psnr": 23.60769008747813,
+          "msssim": 0.8680938482284546,
+          "lpips": 0.1104205921292305,
+          "dists": 0.11101639270782471
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.0162353515625,
+          "psnr": 19.843573376827294,
+          "msssim": 0.7516435384750366,
+          "lpips": 0.18008331954479218,
+          "dists": 0.12008523941040039
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.020975748697916668,
+          "psnr": 24.391739130504718,
+          "msssim": 0.8635599613189697,
+          "lpips": 0.10929861664772034,
+          "dists": 0.09184491634368896
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.025044759114583332,
+          "psnr": 19.591864973001194,
+          "msssim": 0.7195237874984741,
+          "lpips": 0.21545448899269104,
+          "dists": 0.13791179656982422
+        }
+      ],
+      "elapsed_sec": 31.815645537477394,
+      "queue_elapsed_sec": 1.7132006178144366e-05,
+      "evaluation_elapsed_sec": 31.815629120726953,
+      "status": "ok",
+      "valid": true,
+      "failure_type": null,
+      "score": -0.48057884820013497,
+      "score_clipped": 0.0,
+      "bpp_in_window": true,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": null,
+      "exit_code": 0,
+      "run_id": "aeff8808e95641618319bed33a34870c"
+    },
+    {
+      "split": "public",
+      "method_sha256": "07918cb7a8943c442ae54a7e88e6835d9dfb1592bfcd47432592962192f70209",
+      "bpp_mean": 0.020052591959635414,
+      "bpp_per_image": {
+        "kodim01": 0.02081298828125,
+        "kodim02": 0.0172119140625,
+        "kodim04": 0.019429524739583332,
+        "kodim08": 0.025899251302083332,
+        "kodim11": 0.019368489583333332,
+        "kodim12": 0.015767415364583332,
+        "kodim13": 0.018452962239583332,
+        "kodim14": 0.025370279947916668,
+        "kodim16": 0.014628092447916666,
+        "kodim17": 0.026346842447916668,
+        "kodim18": 0.021565755208333332,
+        "kodim19": 0.018107096354166668,
+        "kodim20": 0.014546712239583334,
+        "kodim21": 0.016398111979166668,
+        "kodim23": 0.021240234375,
+        "kodim24": 0.02569580078125
+      },
+      "dists": 0.12226979061961174,
+      "lpips": 0.1837880932725966,
+      "psnr": 21.469425966600046,
+      "msssim": 0.7386063225567341,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.02081298828125,
+          "psnr": 19.509817449538012,
+          "msssim": 0.660243809223175,
+          "lpips": 0.21163856983184814,
+          "dists": 0.1473851203918457
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.0172119140625,
+          "psnr": 24.667199964338266,
+          "msssim": 0.791454017162323,
+          "lpips": 0.19527694582939148,
+          "dists": 0.15974664688110352
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.019429524739583332,
+          "psnr": 24.521369781204623,
+          "msssim": 0.8041038513183594,
+          "lpips": 0.15133897960186005,
+          "dists": 0.08905398845672607
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.025899251302083332,
+          "psnr": 16.842838943898844,
+          "msssim": 0.7275680303573608,
+          "lpips": 0.20612244307994843,
+          "dists": 0.13900595903396606
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.019368489583333332,
+          "psnr": 21.052657874759618,
+          "msssim": 0.7247001528739929,
+          "lpips": 0.19696635007858276,
+          "dists": 0.12659037113189697
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.015767415364583332,
+          "psnr": 24.861826374937902,
+          "msssim": 0.8138675689697266,
+          "lpips": 0.14831730723381042,
+          "dists": 0.11363917589187622
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.018452962239583332,
+          "psnr": 16.775598890795052,
+          "msssim": 0.49353206157684326,
+          "lpips": 0.29575806856155396,
+          "dists": 0.15756845474243164
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.025370279947916668,
+          "psnr": 19.97214169107301,
+          "msssim": 0.6454566121101379,
+          "lpips": 0.23293361067771912,
+          "dists": 0.11312997341156006
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.014628092447916666,
+          "psnr": 23.412487280501942,
+          "msssim": 0.7157689929008484,
+          "lpips": 0.1575624793767929,
+          "dists": 0.11782729625701904
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.026346842447916668,
+          "psnr": 23.05039466169626,
+          "msssim": 0.8075355291366577,
+          "lpips": 0.1647283136844635,
+          "dists": 0.11564916372299194
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.021565755208333332,
+          "psnr": 19.48897617253156,
+          "msssim": 0.6344085931777954,
+          "lpips": 0.22740869224071503,
+          "dists": 0.13528788089752197
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.018107096354166668,
+          "psnr": 21.739996210534464,
+          "msssim": 0.7732548117637634,
+          "lpips": 0.16467607021331787,
+          "dists": 0.1063084602355957
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.014546712239583334,
+          "psnr": 23.74243388050936,
+          "msssim": 0.8735479712486267,
+          "lpips": 0.10658227652311325,
+          "dists": 0.10304713249206543
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.016398111979166668,
+          "psnr": 19.90275973829162,
+          "msssim": 0.7606849074363708,
+          "lpips": 0.17687642574310303,
+          "dists": 0.11869466304779053
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.021240234375,
+          "psnr": 24.348232498941996,
+          "msssim": 0.8687266111373901,
+          "lpips": 0.10059475898742676,
+          "dists": 0.0760045051574707
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.02569580078125,
+          "psnr": 19.622084052048162,
+          "msssim": 0.7228476405143738,
+          "lpips": 0.20382820069789886,
+          "dists": 0.13737785816192627
+        }
+      ],
+      "elapsed_sec": 32.25840010463435,
+      "queue_elapsed_sec": 1.692200021352619e-05,
+      "evaluation_elapsed_sec": 32.25838389788987,
+      "status": "ok",
+      "valid": true,
+      "failure_type": null,
+      "score": 0.23216335497890567,
+      "score_clipped": 0.23216335497890567,
+      "bpp_in_window": true,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": null,
+      "exit_code": 0,
+      "run_id": "ae08018e3d4844a99860160d2afcbbd2"
+    }
+  ],
+  "native_event_observations": {
+    "turn_completed": false,
+    "completed_command_tools": [
+      {
+        "id": "item_3",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "88ce67a00df8a8d9157d4477502a8271961f59e013685ca13d18c968a2d71b2b",
+        "output_sha256": "bd8716352bf42662ad5e4bc21c87cd66f0ed57e3d10627ba7ec04ca38cb68742"
+      },
+      {
+        "id": "item_5",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "0445c20d66813d074631977cd99cf3218f5e19ea3f799779e8b48f9b008d1614",
+        "output_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198"
+      },
+      {
+        "id": "item_6",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "a0ec97d376f189fea413a99ce3859f7bb3146be131df1f98a7213de37274252d",
+        "output_sha256": "e4412d33b98b53bc8f744dfdab3df2eb094b093de36a3983436760a830920038"
+      },
+      {
+        "id": "item_7",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "23afc0d7b244768f8d5153757fcec7921c2320832ada1b83d6063d9ee881d916",
+        "output_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198"
+      },
+      {
+        "id": "item_9",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "3291f480310b883fc0fe4f3a847e33085e9ddf113bbd83107819860a3db8f786",
+        "output_sha256": "e788440216cc224069a93e258ceeb7aaeaddd4e331a965e3c98acc972796a0ba"
+      },
+      {
+        "id": "item_10",
+        "status": "failed",
+        "exit_code": 1,
+        "command_sha256": "b7cb2443f4f6d83f09a33e06948add317471626c243dd6c03f60eba16be8a9e0",
+        "output_sha256": "cb84a3dcfe166ca786ea82d6b49b47fdc1d6f8be882130a9412175979521afb3"
+      },
+      {
+        "id": "item_11",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "a70ed3a23dae90c38a02cb893edfb8f92d849a9fb3e62b7472aebbafdf43c992",
+        "output_sha256": "aaff5d6f75247c5101653a628535335a54791069cd38afe93e05ede824ba7d3e"
+      },
+      {
+        "id": "item_14",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "660aa7ebec50f96437659a4c28944e87e4bf32194e0641177420a7ffb98ac967",
+        "output_sha256": "d0b4f8bc43a4472ab03edac54fd76e4ac3e6aa46116d7808e1b09feb63dd9378"
+      },
+      {
+        "id": "item_13",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "dd8c948d5158bc8c752814705707a78fd9f2b3592ca9cc3ef74fdb6868cc4773",
+        "output_sha256": "2fcb98cc6629a2d041b4dd72608d4c940a07c579c6307aad99765d856a9af24a"
+      },
+      {
+        "id": "item_17",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "88ed2150163b829353592075a69fcd9378f88ed5d90a762d5d2a2da927786b6e",
+        "output_sha256": "e4c9abd316c8cc042d7a1ab733287a04fed1ef142790c373cbffc1d994f9b503"
+      },
+      {
+        "id": "item_19",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "515e1a43e4367ce64070f3fa4a9d31a8e6297f2bb61a26c2b108055ae2e10c0d",
+        "output_sha256": "9d516b919d1f9f3c95e13a73f7b4a482307223f5f77d13ce9685171037ea20c9"
+      },
+      {
+        "id": "item_21",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "e0c145171436080eb58ffc8157e15544fc14d46b431a1aafdc5fe9e2dabb2995",
+        "output_sha256": "c9d11ad7c9249d90dd3f04993bfa2a6f658250547dce50a46e9d4123c7a6a12a"
+      },
+      {
+        "id": "item_23",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "2223ef69a30636914db365919c40ed466398f360e6c65d5ba5c3f57fd33d7466",
+        "output_sha256": "6aed54e6450bdb818d62e3d7fe1114bb4fea6b0d3122178951d79017100ad9cd"
+      },
+      {
+        "id": "item_25",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "83cbf2bcc656add73b1792bba743bce217319afbadd2b2de55cfac834c74f490",
+        "output_sha256": "982a110943e2a8f35558e579f0cf46ea8ba8c6923fc5b5850008a513048e270a"
+      },
+      {
+        "id": "item_27",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "bf7a31ecef405f8ae94c3ce2a974155dda6c53505d7acff3d48d6e55f22a64b3",
+        "output_sha256": "cac78cd3f5caf38b82c27c96f97c3875484101f33ffdc80897250a70eda218cf"
+      },
+      {
+        "id": "item_30",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "535b194cd18cd67aa689feab379fd22e52c97483002e1c10395a0d2cc13aaffa",
+        "output_sha256": "48148ff53ea9e7adbc192ba354b38de5c5eff60595c72e2efac436d26d5a9535"
+      },
+      {
+        "id": "item_32",
+        "status": "failed",
+        "exit_code": 127,
+        "command_sha256": "d334b867718c58b289c07e0abb01eea6766b0e43ebb5f200471c59af5619347c",
+        "output_sha256": "f48250f0085abe8668b290e5a84fd7e8a22342f533a35dcb6144260209615841"
+      },
+      {
+        "id": "item_34",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "01618305e7f9f37945ab9526e4b40c474725c73f5b44a835804ae666f72167c3",
+        "output_sha256": "b26c43a83ff9b69f92712eb4fa51b386506bb640d33a023184f8191319daf00a"
+      },
+      {
+        "id": "item_36",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "2b84bf0cd0d9246c4993595c510d064832710e3bae12a052524f7f91fe92dfb1",
+        "output_sha256": "f04ff5772c99875461890c90c93bbbdacae32340f7919e0bd31b99d385407c07"
+      },
+      {
+        "id": "item_38",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "0fd428289ac45464792f5ab36ff33aa1b3da9d5ed958b99ca80a2dc935ef45b8",
+        "output_sha256": "80cb5bb28bfb0cc5856b62b92fac9a80c49f2cfbc70d4d27c1d4f7a23ecfe007"
+      },
+      {
+        "id": "item_40",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "61b6c88280ad65019a66687b44f634e1d41fd51a0dbae2759bd691c96714238e",
+        "output_sha256": "3337abb97ef423df07b385d793f3535dab5e1a44be04284eb7afa8f9206bf17d"
+      },
+      {
+        "id": "item_42",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "31de118407129add34d5834deee1ff1af8dd15de5691750d081d986430c47b84",
+        "output_sha256": "54ccc934986f0775d911a3c938feb4ef0b97ec8047a85df4eb4764b80ac0d12f"
+      },
+      {
+        "id": "item_44",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "4924f0922df56e40809323f735622d649f46d312e5527b5c3a0eb23f7d8b9359",
+        "output_sha256": "ba4910b5a8ab470c440d97cb0a771498a02fd4d22bfd91a1f4e665438c10b966"
+      },
+      {
+        "id": "item_47",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "84c5f2a921b0cc47b1dc696f34378316ca03b3086df644d48d656a84a6cea02f",
+        "output_sha256": "c4627b7e52b7bde530395f3ac26a9dbbedcf1181b859894f472ea1e4dd6d672a"
+      },
+      {
+        "id": "item_49",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "80a32ed6bc444335893ef038a8a55997ec611c3f15e48794f4a7a22e0705f7b6",
+        "output_sha256": "36f2062370b3a29f01e5f158ed33511ac77ed17a7162c28c0f324a79328c3308"
+      },
+      {
+        "id": "item_52",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "173ea864474ba38a2de3de5542e680ee23b1e51759be088329a425d2309a512b",
+        "output_sha256": "e0829c13131f32ba88a0a6a5bbe6fd790b0c7f1c0c2dfdba5189fe15eae73aab"
+      },
+      {
+        "id": "item_55",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "aafc54755b8e51a0b1197998ee54098da82ce056243eae7dcea19c684728a322",
+        "output_sha256": "ea71a73a6ae6d888f76068ec4ad194dd650fddf6c5167718704eb9dcc37b2d3c"
+      },
+      {
+        "id": "item_59",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "9d57571b5a1421df613c0c8d650afa7536ea9996380528fcd41da7945fd0a3cd",
+        "output_sha256": "ee149d7109319c0c451c502c8ec775f4a20af4237a88ecb1dffb9ad9ab4d2463"
+      },
+      {
+        "id": "item_61",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "954db362388e0aa782fa348033ee40f98d2af983f476eca9e64a20a33d0dfb97",
+        "output_sha256": "7d473c7b43b93c7b5fdbb8d40e406f176d494ffdd9d97b1865428524bc93f704"
+      },
+      {
+        "id": "item_63",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "8cec48dd7dd2aaa8d445ae0fb82b6afce9520ef8123aaf583661b72d336da2f3",
+        "output_sha256": "7b9f20fa92a9fb8e1f270b84499f58d454ac3aba8ec6ce8fb4aa24454bd0aa91"
+      },
+      {
+        "id": "item_66",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "65f927016787c3263a7d1293b89f3a90b9716a91fdb88b9d116131e5efd64db1",
+        "output_sha256": "eff2906dc8f6d10da753f78c53bbb4c2fc0a1b4bc925c1ec535b5f42902a240a"
+      },
+      {
+        "id": "item_69",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "aafc54755b8e51a0b1197998ee54098da82ce056243eae7dcea19c684728a322",
+        "output_sha256": "7b1235a9d7c9fd753f6a7ffb794bd21c2d63273582eab86b68181ef38decd071"
+      },
+      {
+        "id": "item_73",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "bc79075f360a2cad4a0b454f371e8bb42a9c8374c45c042cf5d23691b69631df",
+        "output_sha256": "eff2906dc8f6d10da753f78c53bbb4c2fc0a1b4bc925c1ec535b5f42902a240a"
+      },
+      {
+        "id": "item_75",
+        "status": "failed",
+        "exit_code": 2,
+        "command_sha256": "aafc54755b8e51a0b1197998ee54098da82ce056243eae7dcea19c684728a322",
+        "output_sha256": "1c40120e7958361fd372b1945e36ec68d53c03faf9979d43e67073c7e31f9e5d"
+      },
+      {
+        "id": "item_79",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "341a49c16d173bbf4f54b80c5fd5fbe80053c745639e4ef4759c8360d51a5a03",
+        "output_sha256": "e15acd093efca2a04da6625d85a7cda318ebc5ae04adfb0cd3c312f53443d983"
+      },
+      {
+        "id": "item_81",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "ea3834b6872f32183c725580d099548e22d159b9fb775e782e681c8a8351286d",
+        "output_sha256": "f1690b3b67b3701798d7ff3f385e0b873cd5ec5728c90cf8b58c875259066d68"
+      },
+      {
+        "id": "item_84",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "54b7181a86b6daa1a3bfe0ef154022a92c0c62dc294dbbc3076f61d40149334f",
+        "output_sha256": "eff2906dc8f6d10da753f78c53bbb4c2fc0a1b4bc925c1ec535b5f42902a240a"
+      },
+      {
+        "id": "item_86",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "aafc54755b8e51a0b1197998ee54098da82ce056243eae7dcea19c684728a322",
+        "output_sha256": "51b36657dc11490af8564480039fa2f86db709292526fa31ea00f9ef05086c18"
+      },
+      {
+        "id": "item_90",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "023cc7a551b794b8b98ad4741c5285507c5be50c3784cef378c8445b7c2791d1",
+        "output_sha256": "9ea5943738efd07db52333cb643619269fbdb8a3053843e48a279053a18c036f"
+      },
+      {
+        "id": "item_93",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "68abc830f7b0d5b6f85bf3750249333c65bd5fcc9416015f72ef23deac1939fa",
+        "output_sha256": "eff2906dc8f6d10da753f78c53bbb4c2fc0a1b4bc925c1ec535b5f42902a240a"
+      },
+      {
+        "id": "item_95",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "aafc54755b8e51a0b1197998ee54098da82ce056243eae7dcea19c684728a322",
+        "output_sha256": "de9437cee0f4abdda2a454e2a67b3a3e3d9cf5dca7d6050a7bb8fcf8c9f70c37"
+      },
+      {
+        "id": "item_99",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "033222f9a0cfe469391cbaec01e04a1c27ee0f42b5c2a46b4019a94bbf98f2e7",
+        "output_sha256": "b6ad991b91b7ce230871b59706490976e7e5bf64f56c29025a26ddcc78e33b46"
+      },
+      {
+        "id": "item_102",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "5eced338aeb1218620545969fa58b2ce917e31e08a446a6858af1be67ea8f7bf",
+        "output_sha256": "eff2906dc8f6d10da753f78c53bbb4c2fc0a1b4bc925c1ec535b5f42902a240a"
+      },
+      {
+        "id": "item_104",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "e943db60d83b2c35485939281bacc3173e973b8901f63689d6eaa13508925e91",
+        "output_sha256": "48987882ac6c6b2c60e3b86a24400650d3aed1cfadce4068c207620f4ca61490"
+      },
+      {
+        "id": "item_107",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "aafc54755b8e51a0b1197998ee54098da82ce056243eae7dcea19c684728a322",
+        "output_sha256": "70f65ec72f410056f7b2a2225e3ee872c0a04c1d50b1ac7f0c0d130299b853ef"
+      }
+    ],
+    "event_types": [
+      "item.completed",
+      "item.started",
+      "thread.started",
+      "turn.started"
+    ]
+  },
+  "evidence_export": {
+    "kind": "derived_audit_projection",
+    "original_audit_sha256": "467fd8fbc8b27d467632c8d379877c0d1d774972887abca03f2cc638bb493552",
+    "original_events_sha256": "21d2abc438f3ef1aee3abb7da9e8d827a54f21d551f18f15ab2e3995cb5398bc",
+    "omitted_fields": [
+      "gateway_records"
+    ],
+    "raw_private_sources_preserved": true,
+    "clock_is_original_strict_supplementary_not_primary_user_clock": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "phase": "PASS",
+  "finished_at": "2026-10-04T08:24:02.109019+00:00",
+  "image_id": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+  "reference_public_normalized": 0.5736041748666919,
+  "reward": 0.0,
+  "fresh_processes": 9,
+  "images_per_process": 24,
+  "trial_dir": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/final-calibration/trials/onedc_final_bru_bundle_takeover_20261004",
+  "formal_research_seconds": 0,
+  "scope": "Native final-image calibration harness; exact formal-task NOP is separate"
+}

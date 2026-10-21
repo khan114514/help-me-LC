@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+  "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+  "path": "0-autoresearch-skill",
+  "installed_date": "2026-10-16",
+  "skill_content_modified": true,
+  "upstream_files": {
+    "SKILL.md": "b7ca0d7a6e905da85a8b494d3fe398ac78eaa278854f67b50a34f2b37a9a2b78",
+    "references/agent-continuity.md": "8003b626868817498e7962183b9a4a415143d92cae3d88ac35c0f658acd6e595",
+    "references/progress-reporting.md": "f57fbd191618f3911b99fa0a68a038553e222201857b4f0bd5bd32cb524148b5",
+    "references/skill-routing.md": "a64f3877b4c0515ddcd5401a9eb4683824f4f9c0e9c010cee360a5409bd4e734",
+    "templates/findings.md": "f81f7f63ec2f962796a2e28dbd1bf256dcef683000e1dab513296f0e8d9f79f2",
+    "templates/progress-presentation.html": "40034b84dccfefffca74244abdc12b8376264b31749e7792bf683b2c5df9e175",
+    "templates/research-log.md": "975a85c5d90897718d3542560b1fe40516a0dde2521b5136e567769cc2dfdef5",
+    "templates/research-state.yaml": "46aded613c427052c1e5f1faa8f2490873f11b70e4f2028be05fa2d22e03fa9c"
+  },
+  "local_update": {
+    "date": "2026-10-21",
+    "rules": "phase3-tutorial-v4",
+    "tutorial_corresponding_review_version": "0.3.10",
+    "official_release_installed": false,
+    "policy_file": "references/phase3-v4-contract.md",
+    "policy_sha256": "c57f11d0a276ff8397166e31a11a952de40ea34fa728a6867586593a61a77375"
+  }
+}

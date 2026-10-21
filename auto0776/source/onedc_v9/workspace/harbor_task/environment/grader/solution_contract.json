@@ -1,0 +1,7 @@
+{
+  "allowed_files": [
+    "method.py",
+    "solve.sh"
+  ],
+  "solve_sha256": "f6193363a8f755c0fbfdbfd85579b83eb021e999e8bd0312fb47e77127112779"
+}

@@ -1,0 +1,21 @@
+{
+  "task": {
+    "path": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/final-calibration/task"
+  },
+  "trial_name": "onedc_final_bru_bundle_takeover_20261004",
+  "trials_dir": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/final-calibration/trials",
+  "agent": {
+    "import_path": "harbor_calibrate:CalibrationOracle",
+    "override_timeout_sec": 120.0,
+    "kwargs": {
+      "method_path": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/final-calibration/task/tests/methods/B.py"
+    }
+  },
+  "environment": {
+    "import_path": "onedc_offline_harbor:OfflineOneDCDockerEnvironment",
+    "kwargs": {
+      "gpu_lock_path": "/var/lib/onedc/gpu.lock",
+      "gpu_device_id": "0"
+    }
+  }
+}

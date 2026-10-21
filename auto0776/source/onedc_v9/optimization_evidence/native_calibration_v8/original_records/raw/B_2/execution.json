@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "/opt/onedc/grader/lease_exec.py",
+    "--timeout",
+    "3600",
+    "--",
+    "python3",
+    "/opt/onedc/grader/run_eval.py",
+    "--method",
+    "/tests/methods/B.py",
+    "--out",
+    "/logs/verifier/raw/B_2/out",
+    "--split",
+    "full"
+  ],
+  "seed": 0,
+  "method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "exit_code": 0,
+  "pid_lifecycle": "fresh lease_exec and run_eval process for each repeat; fresh tensor worker"
+}

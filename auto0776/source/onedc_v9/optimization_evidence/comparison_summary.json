@@ -1,0 +1,99 @@
+{
+  "schema_version": "autoresearch-comparison.v1",
+  "status": "passed",
+  "generated_at": "2026-10-04T21:15:34+08:00",
+  "task": "onedc-quant",
+  "task_type": "non_training",
+  "metric": {
+    "name": "DISTS",
+    "direction": "minimize",
+    "scope": "full fixed-order 24-image evaluation"
+  },
+  "quality_gate": {
+    "rule": "public and hidden mean bpp <= corresponding Baseline mean * 1.005",
+    "ratio": 1.005,
+    "baseline_public_bpp": 0.020015716552734375,
+    "baseline_hidden_bpp": 0.02144622802734375,
+    "all_runs_passed": true
+  },
+  "seeds": [
+    "eval_replicate_1",
+    "eval_replicate_2",
+    "eval_replicate_3"
+  ],
+  "paired_runs": [
+    {
+      "seed": "eval_replicate_1",
+      "baseline": 0.11711087326208751,
+      "reference": 0.11463754375775655,
+      "paired_improvement": 0.002473329504330962,
+      "baseline_valid": true,
+      "reference_valid": true
+    },
+    {
+      "seed": "eval_replicate_2",
+      "baseline": 0.11711087326208751,
+      "reference": 0.11463754375775655,
+      "paired_improvement": 0.002473329504330962,
+      "baseline_valid": true,
+      "reference_valid": true
+    },
+    {
+      "seed": "eval_replicate_3",
+      "baseline": 0.11711087326208751,
+      "reference": 0.11463754375775655,
+      "paired_improvement": 0.002473329504330962,
+      "baseline_valid": true,
+      "reference_valid": true
+    }
+  ],
+  "statistics": {
+    "paired_run_count": 3,
+    "baseline_mean": 0.11711087326208751,
+    "baseline_sample_std": 0,
+    "reference_mean": 0.11463754375775655,
+    "reference_sample_std": 0,
+    "mean_paired_improvement": 0.002473329504330962,
+    "relative_improvement": 0.02111955478972299,
+    "baseline_sigma_multiple": "infinite (deterministic baseline, sigma=0, strictly positive paired gain)"
+  },
+  "normalized_score": {
+    "baseline": 0,
+    "reference": 0.6243098009518612,
+    "upper_bound": 1,
+    "formula": "(baseline_dists - candidate_dists) / (baseline_dists - upper_bound_dists)",
+    "required_reference_range": [
+      0.15,
+      0.8
+    ],
+    "reference_in_required_range": true
+  },
+  "significance_rule": {
+    "required_baseline_sigma_multiple": 3,
+    "passed": true,
+    "basis": "All three fresh-process B and R replicates are bit-identical; sigma_B=0 and every paired improvement is strictly positive."
+  },
+  "methods": {
+    "baseline": {
+      "name": "naive dead-zone (tau=0.6)",
+      "sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198"
+    },
+    "reference": {
+      "name": "per-latent RDOQ (cand q0±1, lambda=0.055)",
+      "sha256": "48dbf1ef65c4a4ec8498160ca4d4943d32e082bb96bb4e3fb9c9b9fe95a26444"
+    },
+    "upper_bound": {
+      "name": "reachable in-gate per-channel RDOQ",
+      "sha256": "b3d03a7d2010b3e65e1c277f6c33e238f5f4abed68976afa978272e8c3473ef7",
+      "dists": 0.11314917107423146
+    }
+  },
+  "calibration": {
+    "image_digest": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+    "protocol": "nine fresh scoring processes in one separate native verifier, same immutable image and seed0, public16 then hidden8",
+    "source_bundle_sha256": "95e6e38a23ac2863c0976ea475faa9e08ac53d6ef1ed6cbb13a18ab304705320",
+    "evidence": "native_calibration_v8/summary.json"
+  },
+  "note": "This final-v8 A10 calibration supersedes the earlier pilot and v7 hardware calibrations."
+}
+

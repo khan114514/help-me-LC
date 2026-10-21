@@ -1,0 +1,4 @@
+interface:
+  display_name: "AutoResearch 自动管理"
+  short_description: "持续管理双轨实验、NOP、稳定性和双 AI 质检，失败后自动修正重审"
+  default_prompt: "使用 $autoresearch-manager 管理指定 AutoResearch 任务，持续修正和重审，直到同一最终 ZIP 获得两份独立 PASS。"

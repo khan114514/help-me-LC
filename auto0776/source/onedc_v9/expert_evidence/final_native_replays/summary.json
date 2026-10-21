@@ -1,0 +1,102 @@
+{
+  "status": "NATIVE_RESULTS_AND_RUNTIME_COMPLETE_FRESH_QA_PENDING",
+  "generated_at": "2026-10-04T16:59:32.435692+00:00",
+  "source_task_archive_sha256": "89813a4462f93341832e2801ff81f523f91dcb1d24719a3f788ad5bb1c80afb5",
+  "native_results": {
+    "gpt": {
+      "native_execution_complete": true,
+      "method_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+      "images": 24,
+      "metric_status": "ok",
+      "valid": true,
+      "bpp_in_window": true,
+      "score": 1.1955827260919034,
+      "dists": 0.11237433056036632,
+      "bpp_mean": 0.020490858289930556,
+      "public_bpp": 0.020032246907552082,
+      "hidden_bpp": 0.0214080810546875,
+      "bpp_caps": {
+        "public": 0.020115795135498046,
+        "hidden": 0.021553459167480468
+      },
+      "violation": null,
+      "exception_info": null,
+      "finished_at": "2026-10-04T14:14:00.267508Z"
+    },
+    "seed": {
+      "native_execution_complete": true,
+      "method_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+      "images": 24,
+      "metric_status": "hard_gate",
+      "valid": false,
+      "bpp_in_window": false,
+      "score": -1.0,
+      "dists": 0.11519672721624374,
+      "bpp_mean": 0.020598517523871526,
+      "public_bpp": 0.020105997721354164,
+      "hidden_bpp": 0.02158355712890625,
+      "bpp_caps": {
+        "public": 0.020115795135498046,
+        "hidden": 0.021553459167480468
+      },
+      "violation": "Mean bitrate exceeds the frozen split cap",
+      "exception_info": null,
+      "finished_at": "2026-10-04T14:15:18.571842Z"
+    }
+  },
+  "selected_valid_final_method": {
+    "track": "gpt",
+    "method_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+    "score": 1.1955827260919034
+  },
+  "seed_reward_minus_one_retained": true,
+  "hidden_results_not_used_for_further_research": true,
+  "original_research_trials_status": "OPEN_RECORD_PRESERVED_OPERATOR_ABORTED; scoring is the separate closed frozen-best native Trials",
+  "continuous_stability": {
+    "gpt": {
+      "status": "PASS_RETAINED_12H_CONTINUITY_AND_FINAL_HEALTH",
+      "CID": "2ee7cbe3a63dfa733facfdff454e61a6174faccb20ce8db5a56d0496c7eec1b6",
+      "image_digest": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+      "StartedAt": "2026-10-04T10:16:23.744127135Z",
+      "observed_live_seconds": 47534.66319155693,
+      "actual_kernel_main_process_lifetime_seconds": 47534.64,
+      "actual_kernel_main_process_start_ticks": 6333609,
+      "original_pause_controller_pid": 1503309,
+      "original_pause_startticks": 6333164,
+      "RestartCount": 0,
+      "OOMKilled": false,
+      "actual_CPU_IO_public_service_UID_probe_passed": true,
+      "resources_8CPU_32GiB_match_initial": true,
+      "prior_recorded_health_observations": 8,
+      "scope": "Original Docker lifetime identity, no observed restart/OOM, resources and actual current CPU/IO/public-service identity health. Not continuous gateway response or stress-load certification.",
+      "GPU_or_model_calls": 0,
+      "new_research_credit_seconds": 0
+    },
+    "seed": {
+      "status": "PASS_RETAINED_12H_CONTINUITY_AND_FINAL_HEALTH",
+      "CID": "0a48effa2397bbdb7e359041bc101523e5123271b4cb64330e8892d3797103c3",
+      "image_digest": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+      "StartedAt": "2026-10-04T11:28:17.157037601Z",
+      "observed_live_seconds": 43221.390216588974,
+      "actual_kernel_main_process_lifetime_seconds": 43221.369999999995,
+      "actual_kernel_main_process_start_ticks": 6764950,
+      "original_pause_controller_pid": 1776711,
+      "original_pause_startticks": 6764503,
+      "RestartCount": 0,
+      "OOMKilled": false,
+      "actual_CPU_IO_public_service_UID_probe_passed": true,
+      "resources_8CPU_32GiB_match_initial": true,
+      "prior_recorded_health_observations": 8,
+      "scope": "Original Docker lifetime identity, no observed restart/OOM, resources and actual current CPU/IO/public-service identity health. Not continuous gateway response or stress-load certification.",
+      "GPU_or_model_calls": 0,
+      "new_research_credit_seconds": 0
+    }
+  },
+  "remaining": [
+    "Fresh independent dual-AI QA on this immutable full ZIP",
+    "Final delivery envelope with byte-identical reviewed payload and both reports"
+  ],
+  "not_final_or_platform_accepted": true,
+  "original_task_and_trajectory_members_preserved": true,
+  "supplemental_native_logs_and_private_complete_Trial_backup": "Complete raw replay execution records, closed histories, actual continuity and original paused workspace captures are inside this candidate. Private complete backups retain original SHA."
+}

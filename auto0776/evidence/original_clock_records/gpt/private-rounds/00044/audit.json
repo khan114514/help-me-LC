@@ -1,0 +1,116 @@
+{
+  "round": 44,
+  "candidate_sha256": "7f81dd7b6e958a8cb852301c1cd08ff60cf0ea9124b57748056da6dab5027ec9",
+  "trusted_method_sha256": "7f81dd7b6e958a8cb852301c1cd08ff60cf0ea9124b57748056da6dab5027ec9",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 60.812297105789185,
+    "failed_request_seconds": 60.644699811935425,
+    "gpu_queue_seconds": 0,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 0
+  },
+  "cli_exit": 1,
+  "gateway_records": [
+    {
+      "timestamp": "2026-10-04T12:09:08.773526+00:00",
+      "event": "request",
+      "request_id": "3b30cddd65bc4b5491ab84ee4b329082",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "55f3e300a315aea1eaaf7c1a4eab07f3797a227e7154936ffa69dcf109db8c4a",
+      "input_bytes": 63290
+    },
+    {
+      "timestamp": "2026-10-04T12:09:23.975881+00:00",
+      "event": "request",
+      "request_id": "9e534c830d514e8899abf79b2374a93e",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "55f3e300a315aea1eaaf7c1a4eab07f3797a227e7154936ffa69dcf109db8c4a",
+      "input_bytes": 63290
+    },
+    {
+      "timestamp": "2026-10-04T12:09:27.290363+00:00",
+      "event": "response",
+      "request_id": "3b30cddd65bc4b5491ab84ee4b329082",
+      "track": "gpt",
+      "http_status": 200,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 18.517521101006423,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "5bddf549e0a1132932596baf2ac142c0ebbb88a068c417489a5be707dd42fcda",
+      "redacted_response_bytes": 12
+    },
+    {
+      "timestamp": "2026-10-04T12:09:39.186420+00:00",
+      "event": "request",
+      "request_id": "83f83eb879674758b3a9e244f611b11d",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "ccefcc20c9c1ce471dea0a842af22b26ebff1460df4bb57474a36556c894654b",
+      "input_bytes": 63290
+    },
+    {
+      "timestamp": "2026-10-04T12:09:42.503712+00:00",
+      "event": "response",
+      "request_id": "9e534c830d514e8899abf79b2374a93e",
+      "track": "gpt",
+      "http_status": 200,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 18.528341373996227,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "5bddf549e0a1132932596baf2ac142c0ebbb88a068c417489a5be707dd42fcda",
+      "redacted_response_bytes": 12
+    },
+    {
+      "timestamp": "2026-10-04T12:09:54.385804+00:00",
+      "event": "request",
+      "request_id": "4be9398a4987419dbc8a0d896c42468e",
+      "track": "gpt",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "store": false,
+      "input_sha256": "ccefcc20c9c1ce471dea0a842af22b26ebff1460df4bb57474a36556c894654b",
+      "input_bytes": 63290
+    },
+    {
+      "timestamp": "2026-10-04T12:09:57.549561+00:00",
+      "event": "response",
+      "request_id": "83f83eb879674758b3a9e244f611b11d",
+      "track": "gpt",
+      "http_status": 200,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 18.363732306999736,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "5bddf549e0a1132932596baf2ac142c0ebbb88a068c417489a5be707dd42fcda",
+      "redacted_response_bytes": 12
+    },
+    {
+      "timestamp": "2026-10-04T12:10:11.219548+00:00",
+      "event": "response",
+      "request_id": "4be9398a4987419dbc8a0d896c42468e",
+      "track": "gpt",
+      "http_status": 200,
+      "completed": false,
+      "returned_models": [],
+      "elapsed_sec": 16.834295723005198,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "5bddf549e0a1132932596baf2ac142c0ebbb88a068c417489a5be707dd42fcda",
+      "redacted_response_bytes": 12
+    }
+  ],
+  "new_public_receipts": [],
+  "retained_best": false,
+  "novel_method_semantics": false,
+  "method_semantics_sha256": "9d03bbed8c6105803814c844d35cb061118f6b0ccb3217eea93f74389f07f08b"
+}

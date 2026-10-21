@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "built_at": "2026-10-04T21:39:20+08:00",
+  "base_tag": "onedc-env:v8",
+  "base_image_id": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+  "agent_image_pinned_in_task_toml": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+  "verifier_image_id": "sha256:fad0eb6efce3071f1ba8e35cebfab41a3633d3102ae1d741208c99c71cd80ae3",
+  "verifier_image_size_bytes": 20053711742,
+  "public_task_manifest_sha256": "15f0d8af36f9d71b4c7750777d044d42221cfdb3269a350c66a521a6b28d9692",
+  "tests_dockerfile_sha256": "8d6124def8633b463ec6f134d77eba054354a352bfd221de091b3daecba93a4b",
+  "build_log_sha256": "4af6140b5f85860e876a280560f726a02ad9cc4730873115a155b076ad6257bf",
+  "hidden_image_count_in_built_verifier": 8,
+  "docker_build_steps": [
+    "FROM onedc-env:v8",
+    "WORKDIR /tests",
+    "COPY . /tests",
+    "COPY --chmod=0755 test.sh protect_runtime.sh /tests/"
+  ],
+  "note": "The base tag image ID was verified against the task-pinned final-v8 digest before the offline build."
+}
+

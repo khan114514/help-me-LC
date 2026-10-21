@@ -1,0 +1,17 @@
+{
+  "status": "SUPPLEMENTAL_STAGING_NOT_FINAL",
+  "included": [
+    "Both complete controller histories",
+    "SHA-bound public metrics and methods",
+    "Execution/audit projections with original hashes",
+    "Final native verifier and agent logs"
+  ],
+  "remaining": [
+    "Final topic ZIP assembly",
+    "Actual continuous12h stability",
+    "Final phase association",
+    "Strict privacy and independent release QA"
+  ],
+  "no_private_rpc_export": true,
+  "no_new_research_or_hidden_guided_changes": true
+}

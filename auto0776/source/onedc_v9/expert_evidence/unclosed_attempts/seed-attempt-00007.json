@@ -1,0 +1,25 @@
+{
+  "kind": "derived_unclosed_attempt_receipt",
+  "track": "seed",
+  "attempted_round": 7,
+  "started_at": "2026-10-04T11:18:50.772435+00:00",
+  "native_turn_completed": false,
+  "native_turn_failed": false,
+  "observed_http_error_codes": [],
+  "observed_event_types": [],
+  "terminal_result_available": false,
+  "score": null,
+  "not_inserted_into_completed_controller_trajectory": true,
+  "no_duration_credit_added": true,
+  "source_manifest": [
+    {
+      "filename": "started.json",
+      "bytes": 83,
+      "sha256": "144dc4c74ba6afe5daf20fa2a5f9d9db192b8d095243ac51a3ee457f99a21235"
+    }
+  ],
+  "export_omissions": [
+    "Private gateway endpoint and request bodies"
+  ],
+  "raw_private_bytes_preserved_and_hash_verified": true
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+private/
+work/
+runtime/
+downloads/
+local-secrets/
+.env
+.env.*
+*.pem
+id_rsa*
+id_ed25519*
+.netrc

@@ -1,0 +1,536 @@
+{
+  "scope": "Complete necessary native execution JSON/log evidence for both frozen best replays. Existing exact methods, full24 metrics and rewards remain in final_native_replays; complete audited method histories are in final_research_history.",
+  "records": [
+    {
+      "member": "gpt/harbor-result.json",
+      "original_sha256": "a650c0a20670676e10ebe7fc3e073d76a26cd4b0152564f86deac288ea882f09",
+      "delivered_sha256": "f6fa402824598fe8b4a155c9b6dc2c9a41e1893619180b09b85558e4fcb611f8",
+      "original_bytes": 3711,
+      "delivered_bytes": 3786,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/requested-config.json",
+      "original_sha256": "f6a0309ea6245709ea22e56c76b448c39b636335654e4b596f48533215ff2a18",
+      "delivered_sha256": "51e03f8936a20704d69c28dda295103cbb89974b8414a27ce0977bd9fdd35956",
+      "original_bytes": 2019,
+      "delivered_bytes": 2064,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/task-manifest.json",
+      "original_sha256": "8b619e5a1667cebab71ffa41a406c1e4fa793e1350b1405c9c5eea4f0d2e65f8",
+      "delivered_sha256": "c15019c234e8be2dba67186dfdbda1b810d2717db32c1d19dbdfaac24ddf2765",
+      "original_bytes": 15984,
+      "delivered_bytes": 15999,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/result.json",
+      "original_sha256": "a4d1e70e24cd8304fe9582c0f532d94461b1795142a76de3aff6881a43f1a795",
+      "delivered_sha256": "f6fa402824598fe8b4a155c9b6dc2c9a41e1893619180b09b85558e4fcb611f8",
+      "original_bytes": 4230,
+      "delivered_bytes": 3786,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/config.json",
+      "original_sha256": "5fce7f00689e38e06f391fee48c84f3eb576ea8c06a9b12dab16fa4a753661cb",
+      "delivered_sha256": "4e1e37ebd6c817b13dbc557242ebef2886ea0fe3b00f0a361dcf5d99a059e154",
+      "original_bytes": 797,
+      "delivered_bytes": 771,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/lock.json",
+      "original_sha256": "bcbf0ec1882a30adf64cceb699a02f7c54ef1acc76ace4887a8a5a3b9b44ca5f",
+      "delivered_sha256": "e43a280f5992966a77b6ba85413e20e59683690d620baaaf9ec375dd866f6601",
+      "original_bytes": 1381,
+      "delivered_bytes": 1266,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/trial.log",
+      "original_sha256": "396fcc5cb8dc9fa63e44019ca2d6d9ea0dfa9d6caf335f178c00218ff3bc398d",
+      "delivered_sha256": "396fcc5cb8dc9fa63e44019ca2d6d9ea0dfa9d6caf335f178c00218ff3bc398d",
+      "original_bytes": 333,
+      "delivered_bytes": 333,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/artifacts/manifest.json",
+      "original_sha256": "6499083425e78001854d329e605984ddf588de2b026cbc17b5ea813c2face8b1",
+      "delivered_sha256": "6499083425e78001854d329e605984ddf588de2b026cbc17b5ea813c2face8b1",
+      "original_bytes": 368,
+      "delivered_bytes": 368,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/agent/replay-setup.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "delivered_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "delivered_bytes": 0,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/agent/replay-source.json",
+      "original_sha256": "d94df7efacb8d0aa0e3ab02662d186dae1d82b21f6fb88613a2341dd302ce56a",
+      "delivered_sha256": "d94df7efacb8d0aa0e3ab02662d186dae1d82b21f6fb88613a2341dd302ce56a",
+      "original_bytes": 183,
+      "delivered_bytes": 183,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/agent/replay-agent.log",
+      "original_sha256": "df408953374cfba89680172a19726d54fc222e95cfccca3307753ace5fb7a304",
+      "delivered_sha256": "df408953374cfba89680172a19726d54fc222e95cfccca3307753ace5fb7a304",
+      "original_bytes": 96,
+      "delivered_bytes": 96,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/verifier/test-stdout.txt",
+      "original_sha256": "0aacafe776cda05b92d5c8e403b6038a720b2a575e4d457a6ae93b60ca212438",
+      "delivered_sha256": "0aacafe776cda05b92d5c8e403b6038a720b2a575e4d457a6ae93b60ca212438",
+      "original_bytes": 4740,
+      "delivered_bytes": 4740,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/verifier/reward.json",
+      "original_sha256": "f9c27f3c1f68594289bef5c3587648efa6150d5a96ab7a74010f089861e673c3",
+      "delivered_sha256": "f9c27f3c1f68594289bef5c3587648efa6150d5a96ab7a74010f089861e673c3",
+      "original_bytes": 30,
+      "delivered_bytes": 30,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/verifier/out/metrics.json",
+      "original_sha256": "1d6d6fe41f3e7b3db69a05daa957137d7de9a824d5175e9defd01f3486ef47f4",
+      "delivered_sha256": "1d6d6fe41f3e7b3db69a05daa957137d7de9a824d5175e9defd01f3486ef47f4",
+      "original_bytes": 7724,
+      "delivered_bytes": 7724,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/harbor-result.json",
+      "original_sha256": "b3a8db62122bad67255f150b183d9c581069f2813cb2e5778dc0bfa6462cfc9f",
+      "delivered_sha256": "de492a1c2e08212736893075a3fb17956cb6aa54efbd79cd544c2c3c8e742468",
+      "original_bytes": 3705,
+      "delivered_bytes": 3780,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/requested-config.json",
+      "original_sha256": "b5eb1576c2447db82305c1733853ff55d78f978c8e5acfeb0560767503f8a44e",
+      "delivered_sha256": "1641f71c945e3f869faae133fc68e2a2dfcc54b7876022849b2227fc96c29bc0",
+      "original_bytes": 2023,
+      "delivered_bytes": 2068,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/task-manifest.json",
+      "original_sha256": "8b619e5a1667cebab71ffa41a406c1e4fa793e1350b1405c9c5eea4f0d2e65f8",
+      "delivered_sha256": "c15019c234e8be2dba67186dfdbda1b810d2717db32c1d19dbdfaac24ddf2765",
+      "original_bytes": 15984,
+      "delivered_bytes": 15999,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/result.json",
+      "original_sha256": "712a568d282ca5ef0b307d8849010d7d569696939dfd0f375be781e75acb3891",
+      "delivered_sha256": "de492a1c2e08212736893075a3fb17956cb6aa54efbd79cd544c2c3c8e742468",
+      "original_bytes": 4224,
+      "delivered_bytes": 3780,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/config.json",
+      "original_sha256": "cd8566a3cd54a759c9c8b334e7367aaec2085b2592f18c4200a1ddd6ddbcfc8e",
+      "delivered_sha256": "ce3dd154a642e46def2fb3a2bc4dac775da55fefc23fb3df8e14d8211746cfb0",
+      "original_bytes": 801,
+      "delivered_bytes": 775,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/lock.json",
+      "original_sha256": "f2b664e3c7affa0924f22b2d23b24341b85d4488c2f70a7b7c8e5cb69bd0c799",
+      "delivered_sha256": "956254983575359802856711028f942c72050496b5fd446e69c16517fe543e80",
+      "original_bytes": 1383,
+      "delivered_bytes": 1268,
+      "path_projection": true,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/trial.log",
+      "original_sha256": "396fcc5cb8dc9fa63e44019ca2d6d9ea0dfa9d6caf335f178c00218ff3bc398d",
+      "delivered_sha256": "396fcc5cb8dc9fa63e44019ca2d6d9ea0dfa9d6caf335f178c00218ff3bc398d",
+      "original_bytes": 333,
+      "delivered_bytes": 333,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/artifacts/manifest.json",
+      "original_sha256": "6499083425e78001854d329e605984ddf588de2b026cbc17b5ea813c2face8b1",
+      "delivered_sha256": "6499083425e78001854d329e605984ddf588de2b026cbc17b5ea813c2face8b1",
+      "original_bytes": 368,
+      "delivered_bytes": 368,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/agent/replay-setup.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "delivered_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "delivered_bytes": 0,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/agent/replay-source.json",
+      "original_sha256": "b9f52dcb20044ff9d24857a34e34cd6eaac0c99d4c7a6d781cd891a5a1146a88",
+      "delivered_sha256": "b9f52dcb20044ff9d24857a34e34cd6eaac0c99d4c7a6d781cd891a5a1146a88",
+      "original_bytes": 183,
+      "delivered_bytes": 183,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/agent/replay-agent.log",
+      "original_sha256": "d8cdc0dc40a8f9ee3ed9fd2b15fa47a786be681e423e76c82cb7d7374fce8a4d",
+      "delivered_sha256": "d8cdc0dc40a8f9ee3ed9fd2b15fa47a786be681e423e76c82cb7d7374fce8a4d",
+      "original_bytes": 96,
+      "delivered_bytes": 96,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/verifier/test-stdout.txt",
+      "original_sha256": "caa9eeacf08fd46990a4675283cb3027964acc1a3a04f4c923f1f6c29e5978b7",
+      "delivered_sha256": "caa9eeacf08fd46990a4675283cb3027964acc1a3a04f4c923f1f6c29e5978b7",
+      "original_bytes": 4720,
+      "delivered_bytes": 4720,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/verifier/reward.json",
+      "original_sha256": "086728b6ad41dc03a7b478edc0fad7b4270ce83f67730a019af24ee4d651bfd7",
+      "delivered_sha256": "086728b6ad41dc03a7b478edc0fad7b4270ce83f67730a019af24ee4d651bfd7",
+      "original_bytes": 16,
+      "delivered_bytes": 16,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/verifier/out/metrics.json",
+      "original_sha256": "b0f49c7d6efca5d378f608a13ab371ab8bf15febdbfe8cfce272ca348d83732c",
+      "delivered_sha256": "b0f49c7d6efca5d378f608a13ab371ab8bf15febdbfe8cfce272ca348d83732c",
+      "original_bytes": 7793,
+      "delivered_bytes": 7793,
+      "path_projection": false,
+      "no_numeric_boolean_null_changes": true
+    }
+  ],
+  "declared_string_projections": [
+    {
+      "member": "gpt/harbor-result.json",
+      "field": "$.<field-e4af920e27a7>",
+      "source_value_sha256": "f62aaf0c8a4c4f12896098f706609b3285e25c0523852030066cd1ba493d7c89",
+      "projection_value_sha256": "9cf2546f61e1ad295013018f76a5005fb4b8239a31c8556509a66e954ea12e87",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/harbor-result.json",
+      "field": "$.<field-14bc7aeea995>.<field-a0af9f865bf6>",
+      "source_value_sha256": "a40a556a53bc439c6f6ef6fd9fa4bb59e4fdc618822de3633bcac31c80d8959f",
+      "projection_value_sha256": "3379463edae479333870068a756f3d34df4a36be99600832289108db7cfba167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/harbor-result.json",
+      "field": "$.<field-b79606fb3afe>.<field-0ebb429fa86d>.<field-a0af9f865bf6>",
+      "source_value_sha256": "a40a556a53bc439c6f6ef6fd9fa4bb59e4fdc618822de3633bcac31c80d8959f",
+      "projection_value_sha256": "3379463edae479333870068a756f3d34df4a36be99600832289108db7cfba167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/harbor-result.json",
+      "field": "$.<field-b79606fb3afe>.<field-1569069d0a8f>",
+      "source_value_sha256": "474c1f92fcd2d8da666462f6f2b873854a36cea40f7f2087803eca650ac92119",
+      "projection_value_sha256": "c4821ac50b1ee8168d1357f5cb4001fddd1a62c478071dafe0d34590657ce8d1",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/harbor-result.json",
+      "field": "$.<field-b79606fb3afe>.<field-d4f0bc5a29de>.<field-9dcd55ada913>.<field-b3f054f6bcb2>",
+      "source_value_sha256": "d8541fa51f873bdc1258ffa1e8a73ed97019be4d2bff2d4c88a0b1e2433d2fb7",
+      "projection_value_sha256": "b798a1ee3f5f5d938eedb9bd9163417aa6c6177ae2044d968571afe78875d304",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/requested-config.json",
+      "field": "$.<field-0ebb429fa86d>.<field-a0af9f865bf6>",
+      "source_value_sha256": "a40a556a53bc439c6f6ef6fd9fa4bb59e4fdc618822de3633bcac31c80d8959f",
+      "projection_value_sha256": "3379463edae479333870068a756f3d34df4a36be99600832289108db7cfba167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/requested-config.json",
+      "field": "$.<field-1569069d0a8f>",
+      "source_value_sha256": "474c1f92fcd2d8da666462f6f2b873854a36cea40f7f2087803eca650ac92119",
+      "projection_value_sha256": "c4821ac50b1ee8168d1357f5cb4001fddd1a62c478071dafe0d34590657ce8d1",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/requested-config.json",
+      "field": "$.<field-d4f0bc5a29de>.<field-9dcd55ada913>.<field-b3f054f6bcb2>",
+      "source_value_sha256": "d8541fa51f873bdc1258ffa1e8a73ed97019be4d2bff2d4c88a0b1e2433d2fb7",
+      "projection_value_sha256": "b798a1ee3f5f5d938eedb9bd9163417aa6c6177ae2044d968571afe78875d304",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/task-manifest.json",
+      "field": "$.<field-41cf6794ba42>",
+      "source_value_sha256": "aa66103423eb53aa1bc5a952511bf0eb81f557b6197e742de4778a1e7d398558",
+      "projection_value_sha256": "3543e1b7f32db7d2e8314e58a4476ec36f17eecee1c59b036ccba626a3da511d",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/result.json",
+      "field": "$.<field-e4af920e27a7>",
+      "source_value_sha256": "f62aaf0c8a4c4f12896098f706609b3285e25c0523852030066cd1ba493d7c89",
+      "projection_value_sha256": "9cf2546f61e1ad295013018f76a5005fb4b8239a31c8556509a66e954ea12e87",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/result.json",
+      "field": "$.<field-14bc7aeea995>.<field-a0af9f865bf6>",
+      "source_value_sha256": "a40a556a53bc439c6f6ef6fd9fa4bb59e4fdc618822de3633bcac31c80d8959f",
+      "projection_value_sha256": "3379463edae479333870068a756f3d34df4a36be99600832289108db7cfba167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/result.json",
+      "field": "$.<field-b79606fb3afe>.<field-0ebb429fa86d>.<field-a0af9f865bf6>",
+      "source_value_sha256": "a40a556a53bc439c6f6ef6fd9fa4bb59e4fdc618822de3633bcac31c80d8959f",
+      "projection_value_sha256": "3379463edae479333870068a756f3d34df4a36be99600832289108db7cfba167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/result.json",
+      "field": "$.<field-b79606fb3afe>.<field-1569069d0a8f>",
+      "source_value_sha256": "474c1f92fcd2d8da666462f6f2b873854a36cea40f7f2087803eca650ac92119",
+      "projection_value_sha256": "c4821ac50b1ee8168d1357f5cb4001fddd1a62c478071dafe0d34590657ce8d1",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/result.json",
+      "field": "$.<field-b79606fb3afe>.<field-d4f0bc5a29de>.<field-9dcd55ada913>.<field-b3f054f6bcb2>",
+      "source_value_sha256": "d8541fa51f873bdc1258ffa1e8a73ed97019be4d2bff2d4c88a0b1e2433d2fb7",
+      "projection_value_sha256": "b798a1ee3f5f5d938eedb9bd9163417aa6c6177ae2044d968571afe78875d304",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/config.json",
+      "field": "$.<field-0ebb429fa86d>.<field-a0af9f865bf6>",
+      "source_value_sha256": "a40a556a53bc439c6f6ef6fd9fa4bb59e4fdc618822de3633bcac31c80d8959f",
+      "projection_value_sha256": "3379463edae479333870068a756f3d34df4a36be99600832289108db7cfba167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/config.json",
+      "field": "$.<field-1569069d0a8f>",
+      "source_value_sha256": "474c1f92fcd2d8da666462f6f2b873854a36cea40f7f2087803eca650ac92119",
+      "projection_value_sha256": "c4821ac50b1ee8168d1357f5cb4001fddd1a62c478071dafe0d34590657ce8d1",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/config.json",
+      "field": "$.<field-d4f0bc5a29de>.<field-9dcd55ada913>.<field-b3f054f6bcb2>",
+      "source_value_sha256": "d8541fa51f873bdc1258ffa1e8a73ed97019be4d2bff2d4c88a0b1e2433d2fb7",
+      "projection_value_sha256": "b798a1ee3f5f5d938eedb9bd9163417aa6c6177ae2044d968571afe78875d304",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/lock.json",
+      "field": "$.<field-0ebb429fa86d>.<field-a0af9f865bf6>",
+      "source_value_sha256": "a40a556a53bc439c6f6ef6fd9fa4bb59e4fdc618822de3633bcac31c80d8959f",
+      "projection_value_sha256": "3379463edae479333870068a756f3d34df4a36be99600832289108db7cfba167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "gpt/trials/onedc_clean_best_gpt_all24_20261004/lock.json",
+      "field": "$.<field-d4f0bc5a29de>.<field-9dcd55ada913>.<field-b3f054f6bcb2>",
+      "source_value_sha256": "d8541fa51f873bdc1258ffa1e8a73ed97019be4d2bff2d4c88a0b1e2433d2fb7",
+      "projection_value_sha256": "b798a1ee3f5f5d938eedb9bd9163417aa6c6177ae2044d968571afe78875d304",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/harbor-result.json",
+      "field": "$.<field-e4af920e27a7>",
+      "source_value_sha256": "5e17a626afe5a955c2e11803bc3341247cddcef04a6707e4a2b06c02ef77d810",
+      "projection_value_sha256": "ea395ef039795d9ba08be14856a6b4d879309f3efbbce7af81efc1d7e88b3517",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/harbor-result.json",
+      "field": "$.<field-14bc7aeea995>.<field-a0af9f865bf6>",
+      "source_value_sha256": "c45532d703db1c04ea3433453daa4ef54854e10e7cca81709dbc58b95299ca87",
+      "projection_value_sha256": "0e8af65dcad2e6c10323e4ba78225ec9e4fb30e89e2579e6a9e771b22d49c167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/harbor-result.json",
+      "field": "$.<field-b79606fb3afe>.<field-0ebb429fa86d>.<field-a0af9f865bf6>",
+      "source_value_sha256": "c45532d703db1c04ea3433453daa4ef54854e10e7cca81709dbc58b95299ca87",
+      "projection_value_sha256": "0e8af65dcad2e6c10323e4ba78225ec9e4fb30e89e2579e6a9e771b22d49c167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/harbor-result.json",
+      "field": "$.<field-b79606fb3afe>.<field-1569069d0a8f>",
+      "source_value_sha256": "5700a9dbc301227a67b2155dd9215ee160f43030705ea70429ced5430086be57",
+      "projection_value_sha256": "e9d14dbdc7303eca05bfc38d5ef81d968eede89f16d350b13fdf01d3cc73b6df",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/harbor-result.json",
+      "field": "$.<field-b79606fb3afe>.<field-d4f0bc5a29de>.<field-9dcd55ada913>.<field-b3f054f6bcb2>",
+      "source_value_sha256": "ccbdf8eeeb3153d2f8264664bc6d03b49d7278d99beaef9c8ff5ecc5c493492d",
+      "projection_value_sha256": "806336a91f1541a2919521d36e133a115751a924399a1c1d2cbb270f1a6f8dcf",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/requested-config.json",
+      "field": "$.<field-0ebb429fa86d>.<field-a0af9f865bf6>",
+      "source_value_sha256": "c45532d703db1c04ea3433453daa4ef54854e10e7cca81709dbc58b95299ca87",
+      "projection_value_sha256": "0e8af65dcad2e6c10323e4ba78225ec9e4fb30e89e2579e6a9e771b22d49c167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/requested-config.json",
+      "field": "$.<field-1569069d0a8f>",
+      "source_value_sha256": "5700a9dbc301227a67b2155dd9215ee160f43030705ea70429ced5430086be57",
+      "projection_value_sha256": "e9d14dbdc7303eca05bfc38d5ef81d968eede89f16d350b13fdf01d3cc73b6df",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/requested-config.json",
+      "field": "$.<field-d4f0bc5a29de>.<field-9dcd55ada913>.<field-b3f054f6bcb2>",
+      "source_value_sha256": "ccbdf8eeeb3153d2f8264664bc6d03b49d7278d99beaef9c8ff5ecc5c493492d",
+      "projection_value_sha256": "806336a91f1541a2919521d36e133a115751a924399a1c1d2cbb270f1a6f8dcf",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/task-manifest.json",
+      "field": "$.<field-41cf6794ba42>",
+      "source_value_sha256": "aa66103423eb53aa1bc5a952511bf0eb81f557b6197e742de4778a1e7d398558",
+      "projection_value_sha256": "3543e1b7f32db7d2e8314e58a4476ec36f17eecee1c59b036ccba626a3da511d",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/result.json",
+      "field": "$.<field-e4af920e27a7>",
+      "source_value_sha256": "5e17a626afe5a955c2e11803bc3341247cddcef04a6707e4a2b06c02ef77d810",
+      "projection_value_sha256": "ea395ef039795d9ba08be14856a6b4d879309f3efbbce7af81efc1d7e88b3517",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/result.json",
+      "field": "$.<field-14bc7aeea995>.<field-a0af9f865bf6>",
+      "source_value_sha256": "c45532d703db1c04ea3433453daa4ef54854e10e7cca81709dbc58b95299ca87",
+      "projection_value_sha256": "0e8af65dcad2e6c10323e4ba78225ec9e4fb30e89e2579e6a9e771b22d49c167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/result.json",
+      "field": "$.<field-b79606fb3afe>.<field-0ebb429fa86d>.<field-a0af9f865bf6>",
+      "source_value_sha256": "c45532d703db1c04ea3433453daa4ef54854e10e7cca81709dbc58b95299ca87",
+      "projection_value_sha256": "0e8af65dcad2e6c10323e4ba78225ec9e4fb30e89e2579e6a9e771b22d49c167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/result.json",
+      "field": "$.<field-b79606fb3afe>.<field-1569069d0a8f>",
+      "source_value_sha256": "5700a9dbc301227a67b2155dd9215ee160f43030705ea70429ced5430086be57",
+      "projection_value_sha256": "e9d14dbdc7303eca05bfc38d5ef81d968eede89f16d350b13fdf01d3cc73b6df",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/result.json",
+      "field": "$.<field-b79606fb3afe>.<field-d4f0bc5a29de>.<field-9dcd55ada913>.<field-b3f054f6bcb2>",
+      "source_value_sha256": "ccbdf8eeeb3153d2f8264664bc6d03b49d7278d99beaef9c8ff5ecc5c493492d",
+      "projection_value_sha256": "806336a91f1541a2919521d36e133a115751a924399a1c1d2cbb270f1a6f8dcf",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/config.json",
+      "field": "$.<field-0ebb429fa86d>.<field-a0af9f865bf6>",
+      "source_value_sha256": "c45532d703db1c04ea3433453daa4ef54854e10e7cca81709dbc58b95299ca87",
+      "projection_value_sha256": "0e8af65dcad2e6c10323e4ba78225ec9e4fb30e89e2579e6a9e771b22d49c167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/config.json",
+      "field": "$.<field-1569069d0a8f>",
+      "source_value_sha256": "5700a9dbc301227a67b2155dd9215ee160f43030705ea70429ced5430086be57",
+      "projection_value_sha256": "e9d14dbdc7303eca05bfc38d5ef81d968eede89f16d350b13fdf01d3cc73b6df",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/config.json",
+      "field": "$.<field-d4f0bc5a29de>.<field-9dcd55ada913>.<field-b3f054f6bcb2>",
+      "source_value_sha256": "ccbdf8eeeb3153d2f8264664bc6d03b49d7278d99beaef9c8ff5ecc5c493492d",
+      "projection_value_sha256": "806336a91f1541a2919521d36e133a115751a924399a1c1d2cbb270f1a6f8dcf",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/lock.json",
+      "field": "$.<field-0ebb429fa86d>.<field-a0af9f865bf6>",
+      "source_value_sha256": "c45532d703db1c04ea3433453daa4ef54854e10e7cca81709dbc58b95299ca87",
+      "projection_value_sha256": "0e8af65dcad2e6c10323e4ba78225ec9e4fb30e89e2579e6a9e771b22d49c167",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    },
+    {
+      "member": "seed/trials/onedc_clean_best_seed_all24_20261004/lock.json",
+      "field": "$.<field-d4f0bc5a29de>.<field-9dcd55ada913>.<field-b3f054f6bcb2>",
+      "source_value_sha256": "ccbdf8eeeb3153d2f8264664bc6d03b49d7278d99beaef9c8ff5ecc5c493492d",
+      "projection_value_sha256": "806336a91f1541a2919521d36e133a115751a924399a1c1d2cbb270f1a6f8dcf",
+      "rule": "machine-home-prefix/legacy-operator-endpoint projection"
+    }
+  ],
+  "raw_source_manifest_sha256": "ec97954e1ba3851b9f9defa5bd0c5190366511c0a2f12b97790be5e44aa56859",
+  "original_persistent_backup_files": 406,
+  "original_persistent_backup_all_SHA_verified": true,
+  "excluded": "Hidden/Public pixels, reconstructed PNGs, encoded bitstreams and duplicated model/repository assets are not exported in these execution records. They remain in the private verified backup; no image byte was modified.",
+  "paths": "Host machine prefixes replaced by archival display aliases. Original native source SHA and delivered SHA are separate. These copies are logs and configs for audit, not executable deployment replacements.",
+  "original_main_research_trial": "Still operator-paused/open; no fabricated native normal exit or new research credit.",
+  "actual_12h_stability_pass": false,
+  "final_release_QA_pass": false,
+  "Seed_quality_gate_pass": false,
+  "selected_valid_track": "gpt",
+  "new_GPU_or_model_calls": 0
+}

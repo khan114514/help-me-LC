@@ -1,0 +1,24 @@
+{
+  "task": {
+    "path": "${HOST_RUNTIME_ROOT}/onedc-remediation/formal/task"
+  },
+  "trial_name": "onedc_formal_seed_v8_resume_20261004T112813049205",
+  "trials_dir": "${HOST_RUNTIME_ROOT}/onedc-remediation/formal/trials",
+  "agent": {
+    "import_path": "harbor_research:ResearchAgent",
+    "override_timeout_sec": 172800.0,
+    "kwargs": {
+      "track": "seed",
+      "required_hours": 10.0,
+      "pilot_rounds": 0,
+      "resume": true
+    }
+  },
+  "environment": {
+    "import_path": "onedc_offline_harbor:OfflineOneDCDockerEnvironment",
+    "kwargs": {
+      "gpu_lock_path": "/var/lib/onedc/gpu.lock",
+      "gpu_device_id": "0"
+    }
+  }
+}

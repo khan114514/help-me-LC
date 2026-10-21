@@ -1,0 +1,60 @@
+{
+  "release": {
+    "artifacts": [
+      {
+        "bytes": 489423,
+        "file": "autoresearch-task-qa-0.3.4.zip",
+        "sha256": "0499bb453e76d02d65a35de80e6582a498607c32f5b8e24b0f013d34870077d6",
+        "skill": "autoresearch-task-qa",
+        "skill_tree_sha256": "acc7118b295a7559a149cf14062f525b24635949229fd2f7e0ef19530ca61166"
+      },
+      {
+        "bytes": 22809,
+        "file": "autoresearch-baseline-quality-0.3.4.zip",
+        "sha256": "a4b8e7e8d68b73763a4cfd8c82fdf2a3186bd71cb8cef2d24ed6fb4548cfa507",
+        "skill": "autoresearch-baseline-quality",
+        "skill_tree_sha256": "0d8aca6a123c1d0d5e2ce305a5fe7c0a57c5dc9e8b32bf878211c9a5ab9ecd19"
+      }
+    ],
+    "packaging_contract": "one-skill-per-zip",
+    "release": "autoresearch-qa-skills-0.3.4",
+    "schema_version": 1,
+    "version": "0.3.4"
+  },
+  "files": {
+    "autoresearch-task-qa/SKILL.md": "8fb227d7e1b4619285f50b2cae49e5fb10daa16bd5bcd40eef5aa25cf1f777a6",
+    "autoresearch-task-qa/agents/openai.yaml": "38c7156722ca4c0471b368b8aadc2c7235e0ac326deb3a6045184b859155646f",
+    "autoresearch-task-qa/references/docker-path-contract.md": "78f4f6cd5ec2805287afc89193bf485670f3d5c791a44c0a739c289f18e471ed",
+    "autoresearch-task-qa/references/exposure-manifest.md": "7f4bba67d2acd2e7732409d04bce76422c0935987eb8a9f42c9e992641929a69",
+    "autoresearch-task-qa/references/harbor-harness.md": "566bcc6320302e4a9ed8566e1c6eabfcd6f1d4002a5f21dc1dd86c5d1fb391c9",
+    "autoresearch-task-qa/references/implementation-policy.md": "f20ca415f840aa66885222381926a3e44a67bc5e6d63142a203ae330b8b4f24b",
+    "autoresearch-task-qa/references/implementation-report.md": "0c13880bebc635b60e964451f89d9ebe57373b74f408e09839580dd0f2fd04eb",
+    "autoresearch-task-qa/references/precheck-policy.md": "4c84074aa9214f5a6070f038ea1b084d30cd947abac3f4510c1b149432d5550c",
+    "autoresearch-task-qa/references/privacy-and-portability.md": "bb5c647182046bbdb8e2573df6e4cfaed7acda5e3b665e4eef39781b241e7f05",
+    "autoresearch-task-qa/references/qa-spec.md": "7a26bce4dde9283b2f3a289659b93f8a7120096059bebc4306d7514609e5475a",
+    "autoresearch-task-qa/references/report-schema.md": "a1fc6c726bbf325a1d65f784e022e8b45c30e8fe7b9d1b3e7301e73f553666d8",
+    "autoresearch-task-qa/references/research-quality.md": "3304e93def3129922fe7544bca7fd6a778aa6df1270aa9259ee1ee6ef71d0724",
+    "autoresearch-task-qa/references/source-alignment.md": "643743eee2bb8579caa2af33ea28ada695082279aae3b3d8da7666b70f6c378a",
+    "autoresearch-task-qa/references/submission-format.md": "5677b02d2e6b75ab160200f8751741a4d02b60e9b788289f55f44d0368da3a57",
+    "autoresearch-task-qa/scripts/aggregate_qa_reports.py": "2827e9bb605f3f14a7a5e660de67e967eb3da9b0c3778c07a5530cc67c2b606d",
+    "autoresearch-task-qa/scripts/audit_collection.py": "ae43dbaecd8969bbcac06e368cd49af0f2da27de8f22606cfe95a1b945e04b7a",
+    "autoresearch-task-qa/scripts/audit_task.py": "6bfed09c69a0d96edad6c463d333e2002aa47b6d6c8103f9e0c233f1ab7fe8a2",
+    "autoresearch-task-qa/scripts/content_gates.py": "9cebf512c5cbff17bab2939bb06e2df677af1e65516113c4883ba8da96185b2d",
+    "autoresearch-task-qa/scripts/docker_paths.py": "e738cfa5091a50369a0c83aa672de65896c4fd4e591245da8a390de0b2481a03",
+    "autoresearch-task-qa/scripts/harbor_review.py": "b68672f5a082f06cdf23e150732cf1890dd02bdebb4eec74eec4d21eeafeaf7b",
+    "autoresearch-task-qa/scripts/implementation_review.py": "6ba3517b9de1290f96118a59a51498d5620849026113e694ce2a8f771545dfcf",
+    "autoresearch-task-qa/scripts/qa_consensus.py": "43c28bd1e293a9cfa4e70f5d54f71f87c23282c15035299d9e1c23e518e55ad5",
+    "autoresearch-task-qa/scripts/submission_format.py": "6813b9afbb33b0e07d15a365515be3566e7dfd7fcaaf64cdc17f49dcbe65377d",
+    "autoresearch-task-qa/scripts/test_audit_collection.py": "e069469cb33c47eb1a0183dbfeb506f894a4dea6c4a0208d839eebbd2aa71cf6",
+    "autoresearch-task-qa/scripts/test_audit_task.py": "ff29243a232b450d0991f369dbfec0c787eefc17fb267cc80a68db02d722b43d",
+    "autoresearch-task-qa/scripts/test_content_gates.py": "95ca6a2a34fc97a1d64a2a63f534d1ec2ea429edcc9f9b2acd0787279b8ae52b",
+    "autoresearch-task-qa/scripts/test_docker_paths.py": "df58fa1a1c718431a5b09e36042098c5d3e7d1c050edb224863ecb371245fa03",
+    "autoresearch-task-qa/scripts/test_harbor_review.py": "78561f1b0b0f40f6ce871d71265107a56da070735b4cc8a2e4898b25da82d0bc",
+    "autoresearch-task-qa/scripts/test_implementation_review.py": "880b07ffd423f081f94214a7c1d91c4ab297d4d17ace7dd44a193b79e7b2ca4d",
+    "autoresearch-task-qa/scripts/test_qa_consensus.py": "71727d299a696a1a4d775f54b8f4dd25aefa0bf28e5a1caf9466c03fefab1d31",
+    "autoresearch-task-qa/scripts/test_submission_format.py": "dac90632ade757dced090b4ee1e8bf304a2160e142a5af908c3e393a891e9c9a",
+    "autoresearch-baseline-quality/SKILL.md": "5d32b3052d6edd2ef00a16caac124438e3ff77ed4338275b65527706914a1043",
+    "autoresearch-baseline-quality/agents/openai.yaml": "79d7424f5e8da52b31b833d3d62313b7f5b0dc7e4c91fd9dd3a5852770fe286b",
+    "autoresearch-baseline-quality/references/baseline-review-method.md": "15f996157d18b17209d0640bec24e2c39711fbac682ee7eaac830c7a7a8a568c"
+  }
+}

@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.14/site-packages/harbor/trial/trial.py", line 418, in run
+    await self._run()
+  File "/opt/miniconda3/lib/python3.14/site-packages/harbor/trial/single_step.py", line 41, in _run
+    await self._run_agent()
+  File "/opt/miniconda3/lib/python3.14/site-packages/harbor/trial/single_step.py", line 77, in _run_agent
+    await self._run_agent_phase(
+    ...<5 lines>...
+    )
+  File "/opt/miniconda3/lib/python3.14/site-packages/harbor/trial/trial.py", line 554, in _run_agent_phase
+    await asyncio.wait_for(
+    ...<6 lines>...
+    )
+  File "/opt/miniconda3/lib/python3.14/asyncio/tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "${HOST_RUNTIME_ROOT}/onedc-remediation/organizer/harbor_research.py", line 278, in run
+    raise RuntimeError('Model turn failed or produced no successful execution tool; state preserved for audited continuation')
+RuntimeError: Model turn failed or produced no successful execution tool; state preserved for audited continuation

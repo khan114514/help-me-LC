@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "reason": "User-authorized 10-hour clock is satisfied; research paused after already in-flight rounds while the same containers remain alive for stability.",
+  "tracks": {
+    "gpt": {
+      "paused_at": "2026-10-04T21:11:43.022668+08:00",
+      "controller_pid": 1503309,
+      "controller_start_ticks": 6333164,
+      "controller_state": "T",
+      "completed_in_flight_round": 49,
+      "audit_sha256": "62f867bf902811a41f875d930d773822ad4d66ec9bb9faf74a8da0c039534cf2",
+      "owned_process_cleanup": {
+        "terminated_uid25000_pids": []
+      },
+      "best_restore": {
+        "sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+        "uid": 25000,
+        "mode": "0o644"
+      },
+      "container": {
+        "container_id": "2ee7cbe3a63dfa733facfdff454e61a6174faccb20ce8db5a56d0496c7eec1b6",
+        "image_id": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+        "started_at": "2026-10-04T10:16:23.744127135Z",
+        "restart_count": 0,
+        "running": true,
+        "oom_killed": false
+      }
+    },
+    "seed": {
+      "paused_at": "2026-10-04T21:15:34.694233+08:00",
+      "controller_pid": 1776711,
+      "controller_start_ticks": 6764503,
+      "controller_state": "T",
+      "completed_in_flight_round": 13,
+      "audit_sha256": "b96095dbbb8535720b98692885a8603c9eecf618934e98e9a207ed773822b6fa",
+      "owned_process_cleanup": {
+        "terminated_uid25000_pids": []
+      },
+      "best_restore": {
+        "sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+        "uid": 25000,
+        "mode": "0o644"
+      },
+      "container": {
+        "container_id": "0a48effa2397bbdb7e359041bc101523e5123271b4cb64330e8892d3797103c3",
+        "image_id": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+        "started_at": "2026-10-04T11:28:17.157037601Z",
+        "restart_count": 0,
+        "running": true,
+        "oom_killed": false
+      }
+    }
+  },
+  "created_at": "2026-10-04T21:15:34.765972+08:00"
+}

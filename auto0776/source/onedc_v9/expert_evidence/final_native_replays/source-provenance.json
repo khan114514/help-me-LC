@@ -1,0 +1,58 @@
+[
+  {
+    "member": "expert_evidence/final_native_replays/gpt/method.py",
+    "source_logical": "onedc_clean_best_gpt_all24_20261004/artifacts/logs/artifacts/solution/method.py",
+    "source_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+    "export_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "expert_evidence/final_native_replays/gpt/metrics.json",
+    "source_logical": "onedc_clean_best_gpt_all24_20261004/verifier/out/metrics.json",
+    "source_sha256": "1d6d6fe41f3e7b3db69a05daa957137d7de9a824d5175e9defd01f3486ef47f4",
+    "export_sha256": "1d6d6fe41f3e7b3db69a05daa957137d7de9a824d5175e9defd01f3486ef47f4",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "expert_evidence/final_native_replays/gpt/reward.json",
+    "source_logical": "onedc_clean_best_gpt_all24_20261004/verifier/reward.json",
+    "source_sha256": "f9c27f3c1f68594289bef5c3587648efa6150d5a96ab7a74010f089861e673c3",
+    "export_sha256": "f9c27f3c1f68594289bef5c3587648efa6150d5a96ab7a74010f089861e673c3",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "expert_evidence/final_native_replays/gpt/native-result-projection.json",
+    "source_logical": "onedc_clean_best_gpt_all24_20261004/result.json",
+    "source_sha256": "a4d1e70e24cd8304fe9582c0f532d94461b1795142a76de3aff6881a43f1a795",
+    "export_sha256": "07dc352b3d5d9bb813d1d4e11c2988c9c53295d0159d07c4bdd9fb696d667b4d",
+    "transform": "Allowlisted native fields; host configuration omitted, recorded explicitly"
+  },
+  {
+    "member": "expert_evidence/final_native_replays/seed/method.py",
+    "source_logical": "onedc_clean_best_seed_all24_20261004/artifacts/logs/artifacts/solution/method.py",
+    "source_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+    "export_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "expert_evidence/final_native_replays/seed/metrics.json",
+    "source_logical": "onedc_clean_best_seed_all24_20261004/verifier/out/metrics.json",
+    "source_sha256": "b0f49c7d6efca5d378f608a13ab371ab8bf15febdbfe8cfce272ca348d83732c",
+    "export_sha256": "b0f49c7d6efca5d378f608a13ab371ab8bf15febdbfe8cfce272ca348d83732c",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "expert_evidence/final_native_replays/seed/reward.json",
+    "source_logical": "onedc_clean_best_seed_all24_20261004/verifier/reward.json",
+    "source_sha256": "086728b6ad41dc03a7b478edc0fad7b4270ce83f67730a019af24ee4d651bfd7",
+    "export_sha256": "086728b6ad41dc03a7b478edc0fad7b4270ce83f67730a019af24ee4d651bfd7",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "expert_evidence/final_native_replays/seed/native-result-projection.json",
+    "source_logical": "onedc_clean_best_seed_all24_20261004/result.json",
+    "source_sha256": "712a568d282ca5ef0b307d8849010d7d569696939dfd0f375be781e75acb3891",
+    "export_sha256": "2ac15447e299e46d8091d1bd03c72217317fde434fd5b930eebf3049d8dee0f7",
+    "transform": "Allowlisted native fields; host configuration omitted, recorded explicitly"
+  }
+]

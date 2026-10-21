@@ -1,0 +1,35 @@
+{
+  "round": 7,
+  "candidate_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "trusted_method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 0.20235610008239746,
+    "failed_request_seconds": 0.0,
+    "gpu_queue_seconds": 0,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 0
+  },
+  "cli_exit": 1,
+  "gateway_records": [
+    {
+      "timestamp": "2026-10-04T08:44:44.520843+00:00",
+      "event": "response",
+      "request_id": "d870b934f6cc4a65869b1562ff377dc8",
+      "track": "gpt",
+      "http_status": 200,
+      "completed": false,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ],
+      "elapsed_sec": 605.5591294580008,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "33e0ce62d3eb96142dc06811d63fcd906375077aa135e8d3cad069f17f6ae9a7",
+      "redacted_response_bytes": 94004
+    }
+  ],
+  "new_public_receipts": [],
+  "retained_best": false,
+  "novel_method_semantics": false,
+  "method_semantics_sha256": "b3c4f4ca3f075f0ee9750261616189b60274d9b053b93492031d3ae74ad65217"
+}

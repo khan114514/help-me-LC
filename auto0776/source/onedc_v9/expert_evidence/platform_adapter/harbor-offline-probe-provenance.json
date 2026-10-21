@@ -1,0 +1,9 @@
+{
+  "upstream_oci_index": "sha256:5b10f432ef3da1b8d4c7eb6c487f2f5a8f096bc91145e68878dd4a5019afde11",
+  "platform": "linux/amd64",
+  "manifest_digest": "sha256:4d889c14e7d5a73929ab00be2ef8ff22437e7cbc545931e52554a7b00e123d8b",
+  "config_digest": "sha256:3cb067eab609612d81b4d82ff8ad71d73482bb3059a87b642d7e14f0ed659cde",
+  "probe_script": "Harbor 0.23.0 unchanged inherited script",
+  "image_transport": "Docker save/load; original OCI index blobs verified",
+  "research_metric": "NOT_RUN"
+}

@@ -1,0 +1,36 @@
+schema_version = "1.4"
+artifacts = ["/workspace/public-results"]
+[task]
+name = "autoresearch/onedc-quant"
+version = "0.3.0"
+description = "Deterministic residual-latent quantization under a frozen bitrate cap."
+authors = [{ name = "AutoResearch Expert" }]
+[metadata]
+category = "image-compression"
+difficulty_explanation = "Method-level deterministic quantization with an independently verified legal improvement."
+[agent]
+user = "onedc-agent"
+network_mode = "public"
+[verifier]
+user = "root"
+network_mode = "no-network"
+timeout_sec = 3600.0
+environment_mode = "separate"
+[[verifier.collect]]
+command = "rm -rf /logs/artifacts/solution; mkdir /logs/artifacts/solution; cp -a /workspace/solution/. /logs/artifacts/solution/"
+[verifier.environment]
+workdir = "/tests"
+cpus = 8
+memory_mb = 32768
+gpus = 1
+network_mode = "no-network"
+[environment]
+docker_image = "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5"
+os = "linux"
+network_mode = "public"
+gpus = 1
+cpus = 8
+memory_mb = 32768
+storage_mb = 81920
+build_timeout_sec = 3600.0
+workdir = "/workspace"

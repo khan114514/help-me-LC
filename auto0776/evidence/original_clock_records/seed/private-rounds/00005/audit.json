@@ -1,0 +1,2696 @@
+{
+  "round": 5,
+  "candidate_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+  "trusted_method_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+  "clock": {
+    "eligible": false,
+    "wall_seconds": 1802.2403950691223,
+    "failed_request_seconds": 14.808836698532104,
+    "gpu_queue_seconds": 0.00013115898036630824,
+    "effective_seconds": 0.0,
+    "completed_provider_responses": 44
+  },
+  "cli_exit": null,
+  "gateway_records": [
+    {
+      "timestamp": "2026-10-04T10:17:15.663842+00:00",
+      "event": "request",
+      "request_id": "b6332a8daaef4535838e9a9df18980ff",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "4030ad763577b0f199f57415886f56d2721d5d8d65110ff2ac422c3020259d2a",
+      "input_bytes": 35909
+    },
+    {
+      "timestamp": "2026-10-04T10:17:21.383862+00:00",
+      "event": "response",
+      "request_id": "b6332a8daaef4535838e9a9df18980ff",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 5.720424241000728,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "5babdc8a496b515e0f5fab5b60cb30054652f227a9deccd788968a69ea6a98d5",
+      "redacted_response_bytes": 102895
+    },
+    {
+      "timestamp": "2026-10-04T10:17:21.485297+00:00",
+      "event": "request",
+      "request_id": "16b0ae4bdb5d4a2dbca661d8c8c06405",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "e1aab317e98fbefbc82b0acbfd607b6bf33b0c2aa3ccbad4314c8a2268cc2111",
+      "input_bytes": 39542
+    },
+    {
+      "timestamp": "2026-10-04T10:17:24.742473+00:00",
+      "event": "response",
+      "request_id": "16b0ae4bdb5d4a2dbca661d8c8c06405",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 3.2577086800010875,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "7f8456b030a736de8e9cc04ffaf1a4f17cbe2a28d8f5d626fb76cb6cb0c9fd41",
+      "redacted_response_bytes": 89979
+    },
+    {
+      "timestamp": "2026-10-04T10:17:24.840374+00:00",
+      "event": "request",
+      "request_id": "d57ba6433fa54d98b9d456b3e43edffc",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "beaaed6cc4ea65008ed7b23553bbcd39e756c3f721aad08afe35802c89eae839",
+      "input_bytes": 49159
+    },
+    {
+      "timestamp": "2026-10-04T10:17:31.156504+00:00",
+      "event": "response",
+      "request_id": "d57ba6433fa54d98b9d456b3e43edffc",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 6.3166541649989085,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e47cf874dc3305c0671cbcd0eeb4ed84c0f678ad6e3623e1bb27db97448087bf",
+      "redacted_response_bytes": 112449
+    },
+    {
+      "timestamp": "2026-10-04T10:17:31.243131+00:00",
+      "event": "request",
+      "request_id": "edc74791667140e0813ab7b48fb78626",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "517d902a5d65ec9019f517efcbae1d5a8c941f4607453e25a2dc8a47fa7d0f11",
+      "input_bytes": 61909
+    },
+    {
+      "timestamp": "2026-10-04T10:17:38.716935+00:00",
+      "event": "response",
+      "request_id": "edc74791667140e0813ab7b48fb78626",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 7.474453702998289,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "dd190af0c24c910fe559d9a00073ccb83078f4d5816ecb34d67d11be327bd2ca",
+      "redacted_response_bytes": 109102
+    },
+    {
+      "timestamp": "2026-10-04T10:17:38.810098+00:00",
+      "event": "request",
+      "request_id": "b1e89e739b284f0b9f1bcf57abf13c00",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "b49ee41b25f6a6de857277e5db4ed2c9fc0c6d63a61e1681b7713db6070d6594",
+      "input_bytes": 64127
+    },
+    {
+      "timestamp": "2026-10-04T10:17:41.957170+00:00",
+      "event": "response",
+      "request_id": "b1e89e739b284f0b9f1bcf57abf13c00",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 3.147688962999382,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "3702e43eee8ae57de6323a19398e2752656acb9cd704170eb0f6e841d4d0151b",
+      "redacted_response_bytes": 88492
+    },
+    {
+      "timestamp": "2026-10-04T10:17:42.042691+00:00",
+      "event": "request",
+      "request_id": "d96d64da0433460ba4d19d991d2107fd",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "383e1718c06135bd3622abc849f8de2c66ce511f8843f07de05a90c09d2385bd",
+      "input_bytes": 70902
+    },
+    {
+      "timestamp": "2026-10-04T10:17:49.125497+00:00",
+      "event": "response",
+      "request_id": "d96d64da0433460ba4d19d991d2107fd",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 7.083400513001834,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "d87abe92da487c3078fdb15a4cdbdc26d323bbcf4b3b1efb3fcaf86cdad7466a",
+      "redacted_response_bytes": 113653
+    },
+    {
+      "timestamp": "2026-10-04T10:17:49.222972+00:00",
+      "event": "request",
+      "request_id": "b117407f91a04e3096fa135dd41d18b1",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "d7976eb751413064c244f478ffd6a8cdf71f2db0cf57b59cc8fa90bf11408853",
+      "input_bytes": 84058
+    },
+    {
+      "timestamp": "2026-10-04T10:19:44.796928+00:00",
+      "event": "response",
+      "request_id": "b117407f91a04e3096fa135dd41d18b1",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 115.57485144100065,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "df48aa4d2885ef2508839cfce6fde2f9255cf4c2736a7489a1695abcfe1352b2",
+      "redacted_response_bytes": 503124
+    },
+    {
+      "timestamp": "2026-10-04T10:19:44.889146+00:00",
+      "event": "request",
+      "request_id": "2ea281eef49c4681abfcca6a83407e9d",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "ff7aafc50c637a299c354bb9478f1efa39389a67273a620b8f0a94907a5b0546",
+      "input_bytes": 106919
+    },
+    {
+      "timestamp": "2026-10-04T10:19:49.809279+00:00",
+      "event": "response",
+      "request_id": "2ea281eef49c4681abfcca6a83407e9d",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 4.9211461980012245,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "d72a0228c857c8dfbbfc01d6d214484158753c5ef34b07334bc127a82df0cc1a",
+      "redacted_response_bytes": 88463
+    },
+    {
+      "timestamp": "2026-10-04T10:19:49.893081+00:00",
+      "event": "request",
+      "request_id": "f61df31752e24fe39e94ab4a8c770761",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "cc6f8a776f8b632f79cbba428aeca9c6ea3d14e4fd087ba38ddf6483a917ef80",
+      "input_bytes": 114952
+    },
+    {
+      "timestamp": "2026-10-04T10:19:54.618815+00:00",
+      "event": "response",
+      "request_id": "f61df31752e24fe39e94ab4a8c770761",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 4.726583509996999,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "17e44474ceeea3b7ce48ccc5ceab6e69c33ef3d5c7f39b363f779df92350025b",
+      "redacted_response_bytes": 90751
+    },
+    {
+      "timestamp": "2026-10-04T10:19:54.688902+00:00",
+      "event": "request",
+      "request_id": "21b3353c00dc4813981e721a96a7e798",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "0b4ee5b3185ae88ae9927ca83c06dde0f5d4e418d2394c78dccf552ea064e45e",
+      "input_bytes": 116234
+    },
+    {
+      "timestamp": "2026-10-04T10:19:59.113285+00:00",
+      "event": "response",
+      "request_id": "21b3353c00dc4813981e721a96a7e798",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 4.4251636560002225,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "ccb9373b2ba3b9c2e028fe571d091dcfe06ac173169dffb4dc26f3b12fe27cf4",
+      "redacted_response_bytes": 99075
+    },
+    {
+      "timestamp": "2026-10-04T10:19:59.208025+00:00",
+      "event": "request",
+      "request_id": "cf3f782e6fac433d94dafcf4e5524718",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "5f44355020ee09987da28c981f16a86c80a0b385a6b5232905c7a664edd85f68",
+      "input_bytes": 128310
+    },
+    {
+      "timestamp": "2026-10-04T10:20:10.178061+00:00",
+      "event": "response",
+      "request_id": "cf3f782e6fac433d94dafcf4e5524718",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 10.970954809999967,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "3987e55f023018216f6fa504dbb4cfe240b2cc246b25ca0d51725d3cc1e11561",
+      "redacted_response_bytes": 126176
+    },
+    {
+      "timestamp": "2026-10-04T10:20:10.239662+00:00",
+      "event": "request",
+      "request_id": "08720affe3564117bf7045a25f48e82a",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "845cce52984c9a8e5cf4418761c926141e3d0032e9e5b80aaa80d7fc3ea569ac",
+      "input_bytes": 131450
+    },
+    {
+      "timestamp": "2026-10-04T10:20:13.189988+00:00",
+      "event": "response",
+      "request_id": "08720affe3564117bf7045a25f48e82a",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 2.9514418780017877,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "334a1dd4b7509b9a9b21afacdbc339916b81501ab356f05b69b6902b67a226b5",
+      "redacted_response_bytes": 92841
+    },
+    {
+      "timestamp": "2026-10-04T10:20:13.275740+00:00",
+      "event": "request",
+      "request_id": "f29000337c684539ad5500114c8950cc",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "8228a285f07891b598ba9263757ae35be8287e47b2f2635a89c0c4c2b71d339b",
+      "input_bytes": 136569
+    },
+    {
+      "timestamp": "2026-10-04T10:20:32.129530+00:00",
+      "event": "response",
+      "request_id": "f29000337c684539ad5500114c8950cc",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 18.85473209200427,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "88c8b738dd1f19c57c9398368594421b9982ab9347a8f93277914d545a00b0fb",
+      "redacted_response_bytes": 158186
+    },
+    {
+      "timestamp": "2026-10-04T10:20:32.215449+00:00",
+      "event": "request",
+      "request_id": "6550e1cd2d8e49c08388d1f2093be824",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "d7364db871cdcfa37415d7ecdd13d9b5c79149d2b20efe67cc6b3aced4a29276",
+      "input_bytes": 144557
+    },
+    {
+      "timestamp": "2026-10-04T10:20:36.051743+00:00",
+      "event": "response",
+      "request_id": "6550e1cd2d8e49c08388d1f2093be824",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 3.837510712997755,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "955e17d7209be85481c263924a16846859cc3b27428d035bfab65aea2ab5e3d6",
+      "redacted_response_bytes": 92206
+    },
+    {
+      "timestamp": "2026-10-04T10:20:36.137943+00:00",
+      "event": "request",
+      "request_id": "1012394adf5241e7a00fcd9b2307420b",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "99ce3265a4fabc416c63506be71cab7f2f42253a42a4624b3ea9eedb22429162",
+      "input_bytes": 148653
+    },
+    {
+      "timestamp": "2026-10-04T10:22:01.270094+00:00",
+      "event": "response",
+      "request_id": "1012394adf5241e7a00fcd9b2307420b",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 85.13328577399807,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "fdd7d84273578ea7d63ad6b3b89b50ac929ff5ac84bd19f53e6bd5f1ddc998c9",
+      "redacted_response_bytes": 388854
+    },
+    {
+      "timestamp": "2026-10-04T10:22:01.349255+00:00",
+      "event": "request",
+      "request_id": "85992b670a674160b7bd681f53a0f819",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "007b45a16b13240e381bac781c3ce17b0ceaa4f5feea2f58c92de9e5e1c53224",
+      "input_bytes": 167234
+    },
+    {
+      "timestamp": "2026-10-04T10:22:48.579818+00:00",
+      "event": "response",
+      "request_id": "85992b670a674160b7bd681f53a0f819",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 47.23167749800632,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "10387a5d100158e648c6cd67bec9bcaf9b4cc8049512543786e570b48a0cdf3d",
+      "redacted_response_bytes": 762137
+    },
+    {
+      "timestamp": "2026-10-04T10:22:48.666202+00:00",
+      "event": "request",
+      "request_id": "45f5b3e86acb4f4a8a3e2cd59fa5d40d",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "030a11dbdb706261986bf8022768c99ef9c63b495798a395f4ab4a8ef0322a2a",
+      "input_bytes": 180270
+    },
+    {
+      "timestamp": "2026-10-04T10:22:53.516213+00:00",
+      "event": "response",
+      "request_id": "45f5b3e86acb4f4a8a3e2cd59fa5d40d",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 4.851408121001441,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "28a9253c0042e327af69e9c2633b002b3843c3d5b25ce0427c536f52d9706b95",
+      "redacted_response_bytes": 91982
+    },
+    {
+      "timestamp": "2026-10-04T10:23:23.661049+00:00",
+      "event": "request",
+      "request_id": "0473b65b745d4b37990d34495f6e453c",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "e5deec2f65a6f14181c61f839691f14c19e5dfa0fe5c4698a3148716120c3a24",
+      "input_bytes": 181470
+    },
+    {
+      "timestamp": "2026-10-04T10:23:27.454912+00:00",
+      "event": "response",
+      "request_id": "0473b65b745d4b37990d34495f6e453c",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 3.794961022998905,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "12c93bf74da6064afeb734cb03d7e938379db6fce38b056dbb31bb9e3b3be933",
+      "redacted_response_bytes": 85399
+    },
+    {
+      "timestamp": "2026-10-04T10:23:36.649841+00:00",
+      "event": "request",
+      "request_id": "8d9dcd7770354e79b74594a6eaf064a7",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "586ab012c962d3f54c4daa640595c5820c08615281ea30750cb2911f117dd274",
+      "input_bytes": 182734
+    },
+    {
+      "timestamp": "2026-10-04T10:26:27.087227+00:00",
+      "event": "response",
+      "request_id": "8d9dcd7770354e79b74594a6eaf064a7",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 170.4388524080059,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "f31f2edcd938b7c0b0fae7089f6d9ac4e333faf133f29ee37a7f3fb38bdc5113",
+      "redacted_response_bytes": 796429
+    },
+    {
+      "timestamp": "2026-10-04T10:26:28.692858+00:00",
+      "event": "request",
+      "request_id": "06b0598eaf8e4468ac3b840aeb603333",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "484caaf5c8a76ee4d3bb7a0f70e7381f7b11dc202a1becf904e2bd382b53a1eb",
+      "input_bytes": 210346
+    },
+    {
+      "timestamp": "2026-10-04T10:27:03.384460+00:00",
+      "event": "response",
+      "request_id": "06b0598eaf8e4468ac3b840aeb603333",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 34.69324353199772,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "d0492288fff29752188dd5bf190d4e9bd71d6c90802f7b0a77320600f30e51ba",
+      "redacted_response_bytes": 551299
+    },
+    {
+      "timestamp": "2026-10-04T10:27:03.448526+00:00",
+      "event": "request",
+      "request_id": "a63dcce712f742d9a1b983cf5e380866",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "3bcdb4cc483c636624d16f89029b32b02c7b2f09a150e7c11886a88f6615c11d",
+      "input_bytes": 219112
+    },
+    {
+      "timestamp": "2026-10-04T10:27:08.638235+00:00",
+      "event": "response",
+      "request_id": "a63dcce712f742d9a1b983cf5e380866",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 5.191451538004912,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "46da711a6a1c0d40bf11d398347a1906764f8726dc8cb2a80b5ca5afd3f88e74",
+      "redacted_response_bytes": 92323
+    },
+    {
+      "timestamp": "2026-10-04T10:27:38.785286+00:00",
+      "event": "request",
+      "request_id": "8c646cfa28344329a84b10b825b16092",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "de528f634622ede817798226ccc585b8795882b26c6e14da18211e5c943833fe",
+      "input_bytes": 220340
+    },
+    {
+      "timestamp": "2026-10-04T10:27:43.073740+00:00",
+      "event": "response",
+      "request_id": "8c646cfa28344329a84b10b825b16092",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 4.289713899001072,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "cad53df363a434ab42fc08814ec9d04ae15b8feb943a8d54f40cec4bfc338e06",
+      "redacted_response_bytes": 84534
+    },
+    {
+      "timestamp": "2026-10-04T10:27:55.775046+00:00",
+      "event": "request",
+      "request_id": "fd4f7666dcee4583b96c5a9b22053de3",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "4ea743264b126f3af7d78266d03a1c4422b896627fe5de45ba0e27f20b58fd5b",
+      "input_bytes": 221560
+    },
+    {
+      "timestamp": "2026-10-04T10:29:57.419871+00:00",
+      "event": "response",
+      "request_id": "fd4f7666dcee4583b96c5a9b22053de3",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 121.64681741700042,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "c1939900045f3a8edf239d454d0e0bc6c9e7873d592fb4336e73025432ec2405",
+      "redacted_response_bytes": 523464
+    },
+    {
+      "timestamp": "2026-10-04T10:30:01.918050+00:00",
+      "event": "request",
+      "request_id": "6869891351604b27a00d679918ef671b",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "f2a529cc063e5a1ffef7b170b500d2468530af65ac75534954420cf6f931b2cc",
+      "input_bytes": 244310
+    },
+    {
+      "timestamp": "2026-10-04T10:30:11.304768+00:00",
+      "event": "response",
+      "request_id": "6869891351604b27a00d679918ef671b",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 9.388507522002328,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "f5055987f1245ac6c61fb7fc61ebf7876d9e88975d5d562da09e400ce3db5646",
+      "redacted_response_bytes": 105130
+    },
+    {
+      "timestamp": "2026-10-04T10:30:11.386630+00:00",
+      "event": "request",
+      "request_id": "31b3ec6918ec40e5b3e09ae11ffc799d",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "63ceee2c67ab885b533d5a7c76b07d4f26a779aeaecd4729c7b8745cdc5891de",
+      "input_bytes": 248966
+    },
+    {
+      "timestamp": "2026-10-04T10:30:18.192392+00:00",
+      "event": "response",
+      "request_id": "31b3ec6918ec40e5b3e09ae11ffc799d",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 6.807315293001011,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "d94202c29543418579e212099c3c39d99af72b2356b282483ef342679697240b",
+      "redacted_response_bytes": 102458
+    },
+    {
+      "timestamp": "2026-10-04T10:30:18.278609+00:00",
+      "event": "request",
+      "request_id": "b3c3b821fc184075936942d80505aa7a",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "02a7f53d5f730837523fd22c7e9d9661389a2f961477d87c0316da9d34f82e7f",
+      "input_bytes": 253759
+    },
+    {
+      "timestamp": "2026-10-04T10:30:26.588139+00:00",
+      "event": "response",
+      "request_id": "b3c3b821fc184075936942d80505aa7a",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 8.31131775600079,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "340093758de758f2e2c0c4b7a10936e20ea5f4713e0d64520bf453a5a2a3fffa",
+      "redacted_response_bytes": 110103
+    },
+    {
+      "timestamp": "2026-10-04T10:30:26.682521+00:00",
+      "event": "request",
+      "request_id": "0c0a4748c9c740cba62cc1a6ea740d9e",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "4eab8045c717cba9aa87fde0479678a3940260919a73f109b388826bad788199",
+      "input_bytes": 263062
+    },
+    {
+      "timestamp": "2026-10-04T10:37:08.300526+00:00",
+      "event": "response",
+      "request_id": "0c0a4748c9c740cba62cc1a6ea740d9e",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 401.6198488980008,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "9d38a040de424be04412d29589019bbd7743f0be5f924737a6ffcf911080c00b",
+      "redacted_response_bytes": 1882696
+    },
+    {
+      "timestamp": "2026-10-04T10:37:08.373006+00:00",
+      "event": "request",
+      "request_id": "33de027628c54bc2a784cc3486c6a083",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "d45e2234ddcf3040bb19923a8ab11e538fde0590de179d9217e8c11d183a6fe7",
+      "input_bytes": 329413
+    },
+    {
+      "timestamp": "2026-10-04T10:37:15.259829+00:00",
+      "event": "response",
+      "request_id": "33de027628c54bc2a784cc3486c6a083",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 6.888788242002192,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "2af2de66a588eec96f6dc25e6ef21adf0beb96670440640eec53bd0905d6cf14",
+      "redacted_response_bytes": 87150
+    },
+    {
+      "timestamp": "2026-10-04T10:37:45.423360+00:00",
+      "event": "request",
+      "request_id": "ee4d7a8221ac49f79ea587290eaee8d4",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "1d7794b53d7fa00477c966539d681e9ff7ddeeca9f53fd774248c98aad060c14",
+      "input_bytes": 330419
+    },
+    {
+      "timestamp": "2026-10-04T10:37:51.174153+00:00",
+      "event": "response",
+      "request_id": "ee4d7a8221ac49f79ea587290eaee8d4",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 5.7528828979993705,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "40926d5338d8d65544de69266726101b5e6155fe27ef8c37e23c79fcdc8b82ff",
+      "redacted_response_bytes": 84534
+    },
+    {
+      "timestamp": "2026-10-04T10:37:58.907472+00:00",
+      "event": "request",
+      "request_id": "7e2758678ecd4b9199c6113da794f02b",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "6954c8d7234a3c6295def32b79124fcd659a18182044635b5234ff6ba07bb2c4",
+      "input_bytes": 331647
+    },
+    {
+      "timestamp": "2026-10-04T10:38:56.333139+00:00",
+      "event": "response",
+      "request_id": "7e2758678ecd4b9199c6113da794f02b",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 57.427631938997365,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "46652ff7a72b01f85ee146c37733a5ca7d1a63d2bf6b2b8348dc407e7957534d",
+      "redacted_response_bytes": 560841
+    },
+    {
+      "timestamp": "2026-10-04T10:38:56.401532+00:00",
+      "event": "request",
+      "request_id": "de06a10580ff4e5aa2a05f080746d774",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "bb798261e45dea3bfbab36f452189b0d520653047d1f82e81bf993b1d3c5dac5",
+      "input_bytes": 344160
+    },
+    {
+      "timestamp": "2026-10-04T10:39:03.180045+00:00",
+      "event": "response",
+      "request_id": "de06a10580ff4e5aa2a05f080746d774",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 6.7803972529945895,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "5ca80fe036b6f6fdbabac244c2de1c270e121ecda3927b1011190695a626c52b",
+      "redacted_response_bytes": 88067
+    },
+    {
+      "timestamp": "2026-10-04T10:39:33.343916+00:00",
+      "event": "request",
+      "request_id": "917a32fe7f20445ba33a441a72873ad5",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "c30caf72ce182c3ec390bda4dd525d0494756561c07e46633ccd7b2f321ea549",
+      "input_bytes": 345157
+    },
+    {
+      "timestamp": "2026-10-04T10:39:40.235357+00:00",
+      "event": "response",
+      "request_id": "917a32fe7f20445ba33a441a72873ad5",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 6.893682982998143,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "509deb0df093ec04f8f48638ad8b6f1b5aeb02e9a4bc5b920f2d28c644b8e4cd",
+      "redacted_response_bytes": 84536
+    },
+    {
+      "timestamp": "2026-10-04T10:39:46.326854+00:00",
+      "event": "request",
+      "request_id": "790ac6007f6443cb9d81820383ca1718",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "1682c69ce45831bb81678e2f4cf155aae68e35302055b28c865148ad5c5740e8",
+      "input_bytes": 346385
+    },
+    {
+      "timestamp": "2026-10-04T10:40:35.007417+00:00",
+      "event": "response",
+      "request_id": "790ac6007f6443cb9d81820383ca1718",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 48.68273469000269,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "f3bb17b9126a310fbf0385462c7a7b32d16c61eb98fa8e7fd4d2ba4cbb500c2b",
+      "redacted_response_bytes": 520610
+    },
+    {
+      "timestamp": "2026-10-04T10:40:35.080175+00:00",
+      "event": "request",
+      "request_id": "4e392d5ea80f4a2cba5494818ffeefc6",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "d2b83a978d67cf5aa0b8cc90adaa94cf0464476db165fe1fc0b0004d6c395aaa",
+      "input_bytes": 357257
+    },
+    {
+      "timestamp": "2026-10-04T10:40:41.417063+00:00",
+      "event": "response",
+      "request_id": "4e392d5ea80f4a2cba5494818ffeefc6",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 6.338948679003806,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "956bfaefc595f7dc6799728d57ac3056e2b259b82ba0985f1b9f240bc17eb984",
+      "redacted_response_bytes": 88234
+    },
+    {
+      "timestamp": "2026-10-04T10:41:11.577642+00:00",
+      "event": "request",
+      "request_id": "8dd6eeaa544a4909b418899136d87d9a",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "e10f5b1e5af13b2abd4e353d63ccd488fbe0b6052450b65f495d06e89124d87b",
+      "input_bytes": 358304
+    },
+    {
+      "timestamp": "2026-10-04T10:41:17.131869+00:00",
+      "event": "response",
+      "request_id": "8dd6eeaa544a4909b418899136d87d9a",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 5.556422135006869,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "2d9243e8b0f0561cfc997e87c79b7878c2c8c7542bb8e13fb703523424adaff7",
+      "redacted_response_bytes": 84537
+    },
+    {
+      "timestamp": "2026-10-04T10:41:24.561972+00:00",
+      "event": "request",
+      "request_id": "6186625f8cdc40dc802a7fdfb31f6319",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "ac33b1cd28e44e082288666c3f78cc673c1d02c896351d29188a1020f7bd7fbf",
+      "input_bytes": 359525
+    },
+    {
+      "timestamp": "2026-10-04T10:42:57.102781+00:00",
+      "event": "response",
+      "request_id": "6186625f8cdc40dc802a7fdfb31f6319",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 92.54298818399548,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "06d6f8eaaf9ba85fd98706a47630f75595c3356e532a594675a0cdd775a9d019",
+      "redacted_response_bytes": 705373
+    },
+    {
+      "timestamp": "2026-10-04T10:42:57.190429+00:00",
+      "event": "request",
+      "request_id": "916ee4dd12bb4336b8425b486521acfd",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "e2ed6ee83d429de2aed2bbd654b3ac3a9e53485e35e7d78aef90f78bea77ab8b",
+      "input_bytes": 378000
+    },
+    {
+      "timestamp": "2026-10-04T10:43:04.790940+00:00",
+      "event": "response",
+      "request_id": "916ee4dd12bb4336b8425b486521acfd",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 7.603508808002516,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "c771c34e312b79b821955f1063e0aeacc9e8d40831f2cea063fbcf1ada99e6bb",
+      "redacted_response_bytes": 87703
+    },
+    {
+      "timestamp": "2026-10-04T10:43:34.948329+00:00",
+      "event": "request",
+      "request_id": "0c438ec47361492ab71dd80661f373e9",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "9f9840dd4d43adb603b8b936aa203ea5f3226db565596d6afe7d9f62d410cab6",
+      "input_bytes": 378957
+    },
+    {
+      "timestamp": "2026-10-04T10:43:41.212733+00:00",
+      "event": "response",
+      "request_id": "0c438ec47361492ab71dd80661f373e9",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 6.266956994004431,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "e093ba827beadd348974b7ec0435404485d24588dcee3c290916e229bc7eac8f",
+      "redacted_response_bytes": 84537
+    },
+    {
+      "timestamp": "2026-10-04T10:43:48.436265+00:00",
+      "event": "request",
+      "request_id": "0935089e716944dca33661435a9cd962",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "8a7f4654b780532463a5f844039715b79192eb0817a4c3e35b522597557887ed",
+      "input_bytes": 380184
+    },
+    {
+      "timestamp": "2026-10-04T10:44:32.156877+00:00",
+      "event": "response",
+      "request_id": "0935089e716944dca33661435a9cd962",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 43.72285164100322,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "58e92e961e63c14e3762bc044639d56c7e0d87a83cb459c0e79494f23077b524",
+      "redacted_response_bytes": 497125
+    },
+    {
+      "timestamp": "2026-10-04T10:44:32.222799+00:00",
+      "event": "request",
+      "request_id": "ebfcdb8db66742de8f522e716a34518c",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "c9940c8b8cd75a64fa76157a854af241163a5a5a3d9c2e774f8526943d90b109",
+      "input_bytes": 389794
+    },
+    {
+      "timestamp": "2026-10-04T10:44:39.940070+00:00",
+      "event": "response",
+      "request_id": "ebfcdb8db66742de8f522e716a34518c",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 7.7200337200047215,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "f90a847194947263410f74f7b72c82acb2d4cc6c8469f546a58db870d0edff92",
+      "redacted_response_bytes": 89114
+    },
+    {
+      "timestamp": "2026-10-04T10:45:10.090567+00:00",
+      "event": "request",
+      "request_id": "3393c472a05f4f1793ff2dffbc7161b6",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "66fdf9e800cbbaee1a05e54f589cd8f73bb39514ad9f2d91ab9934dfbeede136",
+      "input_bytes": 390819
+    },
+    {
+      "timestamp": "2026-10-04T10:45:15.697270+00:00",
+      "event": "response",
+      "request_id": "3393c472a05f4f1793ff2dffbc7161b6",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 5.60888424100267,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "4538de823ec95b9ec57a82f77f408653eb592b4fe037ba51920c11d7ebee8516",
+      "redacted_response_bytes": 84312
+    },
+    {
+      "timestamp": "2026-10-04T10:45:23.073689+00:00",
+      "event": "request",
+      "request_id": "793844ece3164438b9f59d27ce643744",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "d11f9b4323fdcdf6d087373001450747348a5c7e158d894477287d1c02284d5a",
+      "input_bytes": 392038
+    },
+    {
+      "timestamp": "2026-10-04T10:46:11.980103+00:00",
+      "event": "response",
+      "request_id": "793844ece3164438b9f59d27ce643744",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 48.90907892299583,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "1f64757066a66b1c5c08805177d3973a62e02571eaa1ec1b3b8fe446f840a78c",
+      "redacted_response_bytes": 502187
+    },
+    {
+      "timestamp": "2026-10-04T10:46:12.048843+00:00",
+      "event": "request",
+      "request_id": "e5fcdd5b9e3e4430a3119d1fe4b52ef7",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "ada77d1426cea8ee20ebd68c10fd11c582d9589eca22ccc4592ad8ca34cfc821",
+      "input_bytes": 402696
+    },
+    {
+      "timestamp": "2026-10-04T10:46:19.785411+00:00",
+      "event": "response",
+      "request_id": "e5fcdd5b9e3e4430a3119d1fe4b52ef7",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 7.739249806996668,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "262d84664f16037a403cdcfbbd9015691091ca5a158eb2219c8c36ba96b46bbc",
+      "redacted_response_bytes": 89063
+    },
+    {
+      "timestamp": "2026-10-04T10:46:49.935442+00:00",
+      "event": "request",
+      "request_id": "ed79cec60eea4a82978046a9162136c1",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "ee2f01ed237c47a0dc425e7872cd9d8d8d02ae7749755d6e2e0d71200b8b6384",
+      "input_bytes": 403707
+    },
+    {
+      "timestamp": "2026-10-04T10:46:55.062430+00:00",
+      "event": "response",
+      "request_id": "ed79cec60eea4a82978046a9162136c1",
+      "track": "seed",
+      "http_status": 200,
+      "completed": true,
+      "returned_models": [
+        "doubao-seed-2-1-turbo-260628"
+      ],
+      "elapsed_sec": 5.129733481997391,
+      "private_rpc_saved": true,
+      "redacted_response_sha256": "d0362cfbcb12ae57b2e8ab8e6aa27918e8ee67841a9a90122b880a81402913a7",
+      "redacted_response_bytes": 84537
+    },
+    {
+      "timestamp": "2026-10-04T10:47:02.923709+00:00",
+      "event": "request",
+      "request_id": "39e08cb387454fcab40c57cbf0449617",
+      "track": "seed",
+      "requested_model": "doubao-seed-2-1-turbo-260628",
+      "reasoning_effort": "high",
+      "store": false,
+      "input_sha256": "24beda3d449275747ba609992d19b913184c450bce9baca700fd0626ba33282a",
+      "input_bytes": 404933
+    }
+  ],
+  "new_public_receipts": [
+    {
+      "split": "public",
+      "method_sha256": "c1d10089e045871dbc5804ab519dd92fcfa4e78cd2b7877e5cf1b63057adaaad",
+      "bpp_mean": 0.020015716552734375,
+      "bpp_per_image": {
+        "kodim01": 0.020731608072916668,
+        "kodim02": 0.017191569010416668,
+        "kodim04": 0.0194091796875,
+        "kodim08": 0.025838216145833332,
+        "kodim11": 0.019327799479166668,
+        "kodim12": 0.015645345052083332,
+        "kodim13": 0.01837158203125,
+        "kodim14": 0.025390625,
+        "kodim16": 0.01458740234375,
+        "kodim17": 0.02642822265625,
+        "kodim18": 0.021525065104166668,
+        "kodim19": 0.01800537109375,
+        "kodim20": 0.014506022135416666,
+        "kodim21": 0.016398111979166668,
+        "kodim23": 0.02117919921875,
+        "kodim24": 0.025716145833333332
+      },
+      "dists": 0.12342559173703194,
+      "lpips": 0.18519677966833115,
+      "psnr": 21.452535560266103,
+      "msssim": 0.7377250380814075,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.020731608072916668,
+          "psnr": 19.509623436564734,
+          "msssim": 0.6573696136474609,
+          "lpips": 0.20853659510612488,
+          "dists": 0.1416785717010498
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.017191569010416668,
+          "psnr": 24.646088957995648,
+          "msssim": 0.7918726801872253,
+          "lpips": 0.19665595889091492,
+          "dists": 0.15210962295532227
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.0194091796875,
+          "psnr": 24.545751948683186,
+          "msssim": 0.8035651445388794,
+          "lpips": 0.15223613381385803,
+          "dists": 0.0941692590713501
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.025838216145833332,
+          "psnr": 16.744133310405193,
+          "msssim": 0.726486325263977,
+          "lpips": 0.20457658171653748,
+          "dists": 0.13582831621170044
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.019327799479166668,
+          "psnr": 21.083594545645767,
+          "msssim": 0.7258152961730957,
+          "lpips": 0.1993471384048462,
+          "dists": 0.13234007358551025
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.015645345052083332,
+          "psnr": 24.643409454588184,
+          "msssim": 0.8121894598007202,
+          "lpips": 0.1515653133392334,
+          "dists": 0.11593365669250488
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.01837158203125,
+          "psnr": 16.783968642515127,
+          "msssim": 0.49296659231185913,
+          "lpips": 0.2999769449234009,
+          "dists": 0.16370350122451782
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.025390625,
+          "psnr": 19.97214892495596,
+          "msssim": 0.6440439224243164,
+          "lpips": 0.23758448660373688,
+          "dists": 0.11915922164916992
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.01458740234375,
+          "psnr": 23.399904491035343,
+          "msssim": 0.7155610918998718,
+          "lpips": 0.15933331847190857,
+          "dists": 0.1207500696182251
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.02642822265625,
+          "psnr": 23.10761247695506,
+          "msssim": 0.806936502456665,
+          "lpips": 0.16324542462825775,
+          "dists": 0.11641407012939453
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.021525065104166668,
+          "psnr": 19.554784706273225,
+          "msssim": 0.6336986422538757,
+          "lpips": 0.22924794256687164,
+          "dists": 0.14054828882217407
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.01800537109375,
+          "psnr": 21.670934571971735,
+          "msssim": 0.7710903882980347,
+          "lpips": 0.16730546951293945,
+          "dists": 0.10827112197875977
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.014506022135416666,
+          "psnr": 23.671454382238785,
+          "msssim": 0.8719436526298523,
+          "lpips": 0.10843458771705627,
+          "dists": 0.10191774368286133
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.016398111979166668,
+          "psnr": 19.88350817568322,
+          "msssim": 0.7595621347427368,
+          "lpips": 0.17529819905757904,
+          "dists": 0.11465394496917725
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.02117919921875,
+          "psnr": 24.37760318906514,
+          "msssim": 0.8685600757598877,
+          "lpips": 0.10187385976314545,
+          "dists": 0.08182287216186523
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.025716145833333332,
+          "psnr": 19.64604774968133,
+          "msssim": 0.7219390869140625,
+          "lpips": 0.2079305201768875,
+          "dists": 0.13550913333892822
+        }
+      ],
+      "elapsed_sec": 31.964015176788962,
+      "queue_elapsed_sec": 1.4718003512825817e-05,
+      "evaluation_elapsed_sec": 31.964001650878345,
+      "status": "ok",
+      "valid": true,
+      "failure_type": null,
+      "score": 0.0,
+      "score_clipped": 0.0,
+      "bpp_in_window": true,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": null,
+      "exit_code": 0,
+      "run_id": "134ecc855bb54c3f99cc27dcb7c2d497"
+    },
+    {
+      "split": "public",
+      "method_sha256": "0789b59b4ebc3c618323fb8cbed820cbe8c25212b0df59bbdffb4e41fe42b69b",
+      "bpp_mean": 0.02146148681640625,
+      "bpp_per_image": {
+        "kodim01": 0.02252197265625,
+        "kodim02": 0.01910400390625,
+        "kodim04": 0.020609537760416668,
+        "kodim08": 0.026896158854166668,
+        "kodim11": 0.021016438802083332,
+        "kodim12": 0.016560872395833332,
+        "kodim13": 0.020243326822916668,
+        "kodim14": 0.0267333984375,
+        "kodim16": 0.016092936197916668,
+        "kodim17": 0.0286865234375,
+        "kodim18": 0.02313232421875,
+        "kodim19": 0.019429524739583332,
+        "kodim20": 0.01513671875,
+        "kodim21": 0.017293294270833332,
+        "kodim23": 0.022481282552083332,
+        "kodim24": 0.027445475260416668
+      },
+      "dists": 0.10984308645129204,
+      "lpips": 0.1723217936232686,
+      "psnr": 21.7432996489729,
+      "msssim": 0.7546310573816299,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.02252197265625,
+          "psnr": 19.88468450601841,
+          "msssim": 0.6910502314567566,
+          "lpips": 0.19832760095596313,
+          "dists": 0.12282627820968628
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.01910400390625,
+          "psnr": 24.972999815407807,
+          "msssim": 0.8079289793968201,
+          "lpips": 0.16557615995407104,
+          "dists": 0.11884623765945435
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.020609537760416668,
+          "psnr": 24.690404750791615,
+          "msssim": 0.8155577182769775,
+          "lpips": 0.14278097450733185,
+          "dists": 0.08654248714447021
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.026896158854166668,
+          "psnr": 16.92619679874262,
+          "msssim": 0.7446154356002808,
+          "lpips": 0.19667242467403412,
+          "dists": 0.13005924224853516
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.021016438802083332,
+          "psnr": 21.40950207336409,
+          "msssim": 0.7393975257873535,
+          "lpips": 0.18870997428894043,
+          "dists": 0.11093103885650635
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.016560872395833332,
+          "psnr": 25.096095155180635,
+          "msssim": 0.821454644203186,
+          "lpips": 0.14586572349071503,
+          "dists": 0.10813188552856445
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.020243326822916668,
+          "psnr": 16.92401024707056,
+          "msssim": 0.5132301449775696,
+          "lpips": 0.2926762104034424,
+          "dists": 0.14791125059127808
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.0267333984375,
+          "psnr": 19.95329739218085,
+          "msssim": 0.667569100856781,
+          "lpips": 0.21532708406448364,
+          "dists": 0.10662531852722168
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.016092936197916668,
+          "psnr": 24.092212971484194,
+          "msssim": 0.7292909622192383,
+          "lpips": 0.14651522040367126,
+          "dists": 0.11352318525314331
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.0286865234375,
+          "psnr": 23.237955328008685,
+          "msssim": 0.8217406272888184,
+          "lpips": 0.1549021154642105,
+          "dists": 0.1090461015701294
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.02313232421875,
+          "psnr": 19.71995056851813,
+          "msssim": 0.6562482118606567,
+          "lpips": 0.21133053302764893,
+          "dists": 0.12461203336715698
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.019429524739583332,
+          "psnr": 22.079895788128887,
+          "msssim": 0.7877753973007202,
+          "lpips": 0.14338071644306183,
+          "dists": 0.09654241800308228
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.01513671875,
+          "psnr": 24.05638415533694,
+          "msssim": 0.8783318996429443,
+          "lpips": 0.09838209301233292,
+          "dists": 0.0897473692893982
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.017293294270833332,
+          "psnr": 20.11943986355597,
+          "msssim": 0.7747601270675659,
+          "lpips": 0.16948296129703522,
+          "dists": 0.10429602861404419
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.022481282552083332,
+          "psnr": 24.92382280094415,
+          "msssim": 0.8810310363769531,
+          "lpips": 0.09245968610048294,
+          "dists": 0.07803714275360107
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.027445475260416668,
+          "psnr": 19.805942168832885,
+          "msssim": 0.744114875793457,
+          "lpips": 0.19475921988487244,
+          "dists": 0.10981136560440063
+        }
+      ],
+      "elapsed_sec": 36.43261221879948,
+      "queue_elapsed_sec": 1.5499994333367795e-05,
+      "evaluation_elapsed_sec": 36.43259743406088,
+      "status": "hard_gate",
+      "valid": false,
+      "failure_type": "hard_gate",
+      "score": -1.0,
+      "score_clipped": null,
+      "bpp_in_window": false,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": "Mean bitrate exceeds the frozen split cap",
+      "exit_code": 0,
+      "run_id": "a59ad513fe434969b13ace0a2eb31a63"
+    },
+    {
+      "split": "public",
+      "method_sha256": "fe50694052ffcb628896e94e58fdb9591f1a73cc3d125c93fd7e99541be51a25",
+      "bpp_mean": 0.020056406656901043,
+      "bpp_per_image": {
+        "kodim01": 0.020833333333333332,
+        "kodim02": 0.017191569010416668,
+        "kodim04": 0.019429524739583332,
+        "kodim08": 0.02593994140625,
+        "kodim11": 0.019368489583333332,
+        "kodim12": 0.0157470703125,
+        "kodim13": 0.018473307291666668,
+        "kodim14": 0.025370279947916668,
+        "kodim16": 0.014607747395833334,
+        "kodim17": 0.0263671875,
+        "kodim18": 0.021525065104166668,
+        "kodim19": 0.018107096354166668,
+        "kodim20": 0.014567057291666666,
+        "kodim21": 0.016377766927083332,
+        "kodim23": 0.021260579427083332,
+        "kodim24": 0.025736490885416668
+      },
+      "dists": 0.12233377620577812,
+      "lpips": 0.18428915226832032,
+      "psnr": 21.45348906112875,
+      "msssim": 0.7383868433535099,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.020833333333333332,
+          "psnr": 19.478852454577837,
+          "msssim": 0.6594563126564026,
+          "lpips": 0.2101655900478363,
+          "dists": 0.14622634649276733
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.017191569010416668,
+          "psnr": 24.669828103913943,
+          "msssim": 0.7911427021026611,
+          "lpips": 0.19477172195911407,
+          "dists": 0.16068679094314575
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.019429524739583332,
+          "psnr": 24.53849942413182,
+          "msssim": 0.8041171431541443,
+          "lpips": 0.1521911323070526,
+          "dists": 0.09000194072723389
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.02593994140625,
+          "psnr": 16.840499322957974,
+          "msssim": 0.7274197936058044,
+          "lpips": 0.20643170177936554,
+          "dists": 0.13997304439544678
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.019368489583333332,
+          "psnr": 21.04183442752692,
+          "msssim": 0.7242158651351929,
+          "lpips": 0.19778725504875183,
+          "dists": 0.12609732151031494
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.0157470703125,
+          "psnr": 24.769499452420114,
+          "msssim": 0.8130136728286743,
+          "lpips": 0.14854630827903748,
+          "dists": 0.11303472518920898
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.018473307291666668,
+          "psnr": 16.756930949279912,
+          "msssim": 0.49260252714157104,
+          "lpips": 0.297328382730484,
+          "dists": 0.1539372205734253
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.025370279947916668,
+          "psnr": 20.0104021206583,
+          "msssim": 0.6461073160171509,
+          "lpips": 0.2361329346895218,
+          "dists": 0.11596167087554932
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.014607747395833334,
+          "psnr": 23.431372818859654,
+          "msssim": 0.7173942923545837,
+          "lpips": 0.15712426602840424,
+          "dists": 0.11816149950027466
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.0263671875,
+          "psnr": 23.01702954966718,
+          "msssim": 0.807649552822113,
+          "lpips": 0.16716858744621277,
+          "dists": 0.11510193347930908
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.021525065104166668,
+          "psnr": 19.484328715736986,
+          "msssim": 0.6329042911529541,
+          "lpips": 0.2267807126045227,
+          "dists": 0.1373070478439331
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.018107096354166668,
+          "psnr": 21.739996210534464,
+          "msssim": 0.7732548117637634,
+          "lpips": 0.16467607021331787,
+          "dists": 0.1063084602355957
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.014567057291666666,
+          "psnr": 23.712099990902367,
+          "msssim": 0.8735508918762207,
+          "lpips": 0.1054440438747406,
+          "dists": 0.10311436653137207
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.016377766927083332,
+          "psnr": 19.88030333750768,
+          "msssim": 0.7600958347320557,
+          "lpips": 0.17691275477409363,
+          "dists": 0.11745887994766235
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.021260579427083332,
+          "psnr": 24.294887103991304,
+          "msssim": 0.8683266639709473,
+          "lpips": 0.10140403360128403,
+          "dists": 0.07869797945022583
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.025736490885416668,
+          "psnr": 19.58946099539358,
+          "msssim": 0.722937822341919,
+          "lpips": 0.20576094090938568,
+          "dists": 0.13527119159698486
+        }
+      ],
+      "elapsed_sec": 32.48901145726995,
+      "queue_elapsed_sec": 1.7021993699017912e-05,
+      "evaluation_elapsed_sec": 32.48899491211341,
+      "status": "ok",
+      "valid": true,
+      "failure_type": null,
+      "score": 0.2193107040073991,
+      "score_clipped": 0.2193107040073991,
+      "bpp_in_window": true,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": null,
+      "exit_code": 0,
+      "run_id": "c0b63e9852c1484fb0e8696e366ad43f"
+    },
+    {
+      "split": "public",
+      "method_sha256": "95318812c325c5138e623b51988da3b384e14c4edbaa8ec2c44b3f738005e014",
+      "bpp_mean": 0.020079294840494793,
+      "bpp_per_image": {
+        "kodim01": 0.02081298828125,
+        "kodim02": 0.017232259114583332,
+        "kodim04": 0.01953125,
+        "kodim08": 0.025919596354166668,
+        "kodim11": 0.0194091796875,
+        "kodim12": 0.015726725260416668,
+        "kodim13": 0.018513997395833332,
+        "kodim14": 0.0252685546875,
+        "kodim16": 0.014668782552083334,
+        "kodim17": 0.0264892578125,
+        "kodim18": 0.021565755208333332,
+        "kodim19": 0.018086751302083332,
+        "kodim20": 0.0145263671875,
+        "kodim21": 0.016520182291666668,
+        "kodim23": 0.021341959635416668,
+        "kodim24": 0.025655110677083332
+      },
+      "dists": 0.12103685736656189,
+      "lpips": 0.18327693967148662,
+      "psnr": 21.505322726207147,
+      "msssim": 0.7392121627926826,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.02081298828125,
+          "psnr": 19.486567729192352,
+          "msssim": 0.6601275205612183,
+          "lpips": 0.20860382914543152,
+          "dists": 0.14612460136413574
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.017232259114583332,
+          "psnr": 24.633908401366536,
+          "msssim": 0.7918496131896973,
+          "lpips": 0.19285352528095245,
+          "dists": 0.15291208028793335
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.01953125,
+          "psnr": 24.647837389762728,
+          "msssim": 0.8082837462425232,
+          "lpips": 0.1509622037410736,
+          "dists": 0.09021317958831787
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.025919596354166668,
+          "psnr": 16.853900490692123,
+          "msssim": 0.7272406816482544,
+          "lpips": 0.2048606276512146,
+          "dists": 0.13472026586532593
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.0194091796875,
+          "psnr": 21.24476227068966,
+          "msssim": 0.7268705368041992,
+          "lpips": 0.1948445737361908,
+          "dists": 0.12515205144882202
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.015726725260416668,
+          "psnr": 24.902302892725082,
+          "msssim": 0.813224732875824,
+          "lpips": 0.14796985685825348,
+          "dists": 0.11437952518463135
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.018513997395833332,
+          "psnr": 16.76300494397222,
+          "msssim": 0.4934074878692627,
+          "lpips": 0.29859405755996704,
+          "dists": 0.15680015087127686
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.0252685546875,
+          "psnr": 19.981631645807663,
+          "msssim": 0.6452091336250305,
+          "lpips": 0.23158472776412964,
+          "dists": 0.11593687534332275
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.014668782552083334,
+          "psnr": 23.434709328017462,
+          "msssim": 0.716876208782196,
+          "lpips": 0.15796151757240295,
+          "dists": 0.12196570634841919
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.0264892578125,
+          "psnr": 23.061437969002107,
+          "msssim": 0.8074347376823425,
+          "lpips": 0.16312536597251892,
+          "dists": 0.11530101299285889
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.021565755208333332,
+          "psnr": 19.439373934014995,
+          "msssim": 0.6328173875808716,
+          "lpips": 0.23015670478343964,
+          "dists": 0.13585197925567627
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.018086751302083332,
+          "psnr": 21.8472790770113,
+          "msssim": 0.7752476930618286,
+          "lpips": 0.1627414971590042,
+          "dists": 0.10570192337036133
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.0145263671875,
+          "psnr": 23.852029617769425,
+          "msssim": 0.874150276184082,
+          "lpips": 0.10679440945386887,
+          "dists": 0.10187774896621704
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.016520182291666668,
+          "psnr": 19.942007267198004,
+          "msssim": 0.761360764503479,
+          "lpips": 0.17775875329971313,
+          "dists": 0.11103206872940063
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.021341959635416668,
+          "psnr": 24.368363973944177,
+          "msssim": 0.8683385848999023,
+          "lpips": 0.10038384795188904,
+          "dists": 0.07877165079116821
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.025655110677083332,
+          "psnr": 19.626046688148495,
+          "msssim": 0.7249554991722107,
+          "lpips": 0.20323553681373596,
+          "dists": 0.1298488974571228
+        }
+      ],
+      "elapsed_sec": 32.34900972778996,
+      "queue_elapsed_sec": 1.5390003682114184e-05,
+      "evaluation_elapsed_sec": 32.34899481462344,
+      "status": "ok",
+      "valid": true,
+      "failure_type": null,
+      "score": 0.4798200808453896,
+      "score_clipped": 0.4798200808453896,
+      "bpp_in_window": true,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": null,
+      "exit_code": 0,
+      "run_id": "ba2705e5b09d4b1fa729b1fa13db4ba8"
+    },
+    {
+      "split": "public",
+      "method_sha256": "f8ab9a891c9499f0bfdbbf12a49fca2f30408610c562d4f5e80df4bacf95cd91",
+      "bpp_mean": 0.020125071207682293,
+      "bpp_per_image": {
+        "kodim01": 0.020751953125,
+        "kodim02": 0.017435709635416668,
+        "kodim04": 0.019571940104166668,
+        "kodim08": 0.02593994140625,
+        "kodim11": 0.01947021484375,
+        "kodim12": 0.015767415364583332,
+        "kodim13": 0.018452962239583332,
+        "kodim14": 0.025349934895833332,
+        "kodim16": 0.014668782552083334,
+        "kodim17": 0.02655029296875,
+        "kodim18": 0.02166748046875,
+        "kodim19": 0.01812744140625,
+        "kodim20": 0.01458740234375,
+        "kodim21": 0.01654052734375,
+        "kodim23": 0.021402994791666668,
+        "kodim24": 0.025716145833333332
+      },
+      "dists": 0.12187748402357101,
+      "lpips": 0.18352192267775536,
+      "psnr": 21.51099825583524,
+      "msssim": 0.7400920297950506,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.020751953125,
+          "psnr": 19.568021449286988,
+          "msssim": 0.6603518128395081,
+          "lpips": 0.21188953518867493,
+          "dists": 0.1452602744102478
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.017435709635416668,
+          "psnr": 24.69890157135773,
+          "msssim": 0.7928853034973145,
+          "lpips": 0.18753956258296967,
+          "dists": 0.15302586555480957
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.019571940104166668,
+          "psnr": 24.67719750441002,
+          "msssim": 0.8080966472625732,
+          "lpips": 0.15351970493793488,
+          "dists": 0.0915035605430603
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.02593994140625,
+          "psnr": 16.86633815441216,
+          "msssim": 0.7292898893356323,
+          "lpips": 0.20050297677516937,
+          "dists": 0.13391143083572388
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.01947021484375,
+          "psnr": 21.20874366530429,
+          "msssim": 0.7269161939620972,
+          "lpips": 0.19557319581508636,
+          "dists": 0.12683862447738647
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.015767415364583332,
+          "psnr": 24.85668081001858,
+          "msssim": 0.8114487528800964,
+          "lpips": 0.15015855431556702,
+          "dists": 0.11292725801467896
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.018452962239583332,
+          "psnr": 16.753425381264837,
+          "msssim": 0.49336299300193787,
+          "lpips": 0.29677021503448486,
+          "dists": 0.15639936923980713
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.025349934895833332,
+          "psnr": 19.846410760408887,
+          "msssim": 0.6467145681381226,
+          "lpips": 0.23386496305465698,
+          "dists": 0.11506056785583496
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.014668782552083334,
+          "psnr": 23.487441394665446,
+          "msssim": 0.7206117510795593,
+          "lpips": 0.1578802615404129,
+          "dists": 0.12297958135604858
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.02655029296875,
+          "psnr": 23.046267073737674,
+          "msssim": 0.8089324831962585,
+          "lpips": 0.1643398255109787,
+          "dists": 0.11681145429611206
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.02166748046875,
+          "psnr": 19.482327442956496,
+          "msssim": 0.6344014406204224,
+          "lpips": 0.2305586040019989,
+          "dists": 0.13990765810012817
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.01812744140625,
+          "psnr": 21.83617001599986,
+          "msssim": 0.775554358959198,
+          "lpips": 0.16419808566570282,
+          "dists": 0.10943049192428589
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.01458740234375,
+          "psnr": 23.852914440833448,
+          "msssim": 0.8753070831298828,
+          "lpips": 0.10707812011241913,
+          "dists": 0.10376298427581787
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.01654052734375,
+          "psnr": 19.956886548392,
+          "msssim": 0.7616037130355835,
+          "lpips": 0.17384570837020874,
+          "dists": 0.11043286323547363
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.021402994791666668,
+          "psnr": 24.391139589997728,
+          "msssim": 0.8694294691085815,
+          "lpips": 0.10231827199459076,
+          "dists": 0.08069032430648804
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.025716145833333332,
+          "psnr": 19.647106290317705,
+          "msssim": 0.7265660166740417,
+          "lpips": 0.20631317794322968,
+          "dists": 0.1310974359512329
+        }
+      ],
+      "elapsed_sec": 32.32018990994402,
+      "queue_elapsed_sec": 1.6821999452076852e-05,
+      "evaluation_elapsed_sec": 32.320173803200305,
+      "status": "hard_gate",
+      "valid": false,
+      "failure_type": "hard_gate",
+      "score": -1.0,
+      "score_clipped": null,
+      "bpp_in_window": false,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": "Mean bitrate exceeds the frozen split cap",
+      "exit_code": 0,
+      "run_id": "e4b2eca1c5b7445797b4adfbad60fdaf"
+    },
+    {
+      "split": "public",
+      "method_sha256": "b3c615d0c473016ee7dfd37fb9e482b0a12895b1f3325d5a773040ff6191ef2b",
+      "bpp_mean": 0.020097096761067707,
+      "bpp_per_image": {
+        "kodim01": 0.02081298828125,
+        "kodim02": 0.017333984375,
+        "kodim04": 0.019551595052083332,
+        "kodim08": 0.025919596354166668,
+        "kodim11": 0.019449869791666668,
+        "kodim12": 0.0157470703125,
+        "kodim13": 0.018513997395833332,
+        "kodim14": 0.025288899739583332,
+        "kodim16": 0.014668782552083334,
+        "kodim17": 0.026509602864583332,
+        "kodim18": 0.021586100260416668,
+        "kodim19": 0.018107096354166668,
+        "kodim20": 0.014567057291666666,
+        "kodim21": 0.016520182291666668,
+        "kodim23": 0.021240234375,
+        "kodim24": 0.025736490885416668
+      },
+      "dists": 0.1205865927040577,
+      "lpips": 0.18338652793318033,
+      "psnr": 21.52144632550845,
+      "msssim": 0.7398063335567713,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.02081298828125,
+          "psnr": 19.51526310193858,
+          "msssim": 0.6588904857635498,
+          "lpips": 0.20952282845973969,
+          "dists": 0.142020583152771
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.017333984375,
+          "psnr": 24.666407479557208,
+          "msssim": 0.7924527525901794,
+          "lpips": 0.18990901112556458,
+          "dists": 0.14433234930038452
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.019551595052083332,
+          "psnr": 24.710665906129393,
+          "msssim": 0.8082777857780457,
+          "lpips": 0.15166215598583221,
+          "dists": 0.09255486726760864
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.025919596354166668,
+          "psnr": 16.869866847933793,
+          "msssim": 0.7277841567993164,
+          "lpips": 0.20555029809474945,
+          "dists": 0.13087624311447144
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.019449869791666668,
+          "psnr": 21.315910861523303,
+          "msssim": 0.7281448245048523,
+          "lpips": 0.1940811425447464,
+          "dists": 0.12598806619644165
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.0157470703125,
+          "psnr": 24.87215383858387,
+          "msssim": 0.813396155834198,
+          "lpips": 0.14947952330112457,
+          "dists": 0.1170005202293396
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.018513997395833332,
+          "psnr": 16.768970194422742,
+          "msssim": 0.49284252524375916,
+          "lpips": 0.2984524667263031,
+          "dists": 0.15948110818862915
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.025288899739583332,
+          "psnr": 19.855848337080936,
+          "msssim": 0.6457328796386719,
+          "lpips": 0.23301397264003754,
+          "dists": 0.11205536127090454
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.014668782552083334,
+          "psnr": 23.41568408532108,
+          "msssim": 0.7198328971862793,
+          "lpips": 0.1576264500617981,
+          "dists": 0.12246042490005493
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.026509602864583332,
+          "psnr": 23.06448187616031,
+          "msssim": 0.8081679344177246,
+          "lpips": 0.16119278967380524,
+          "dists": 0.11559921503067017
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.021586100260416668,
+          "psnr": 19.459910819047252,
+          "msssim": 0.6346886157989502,
+          "lpips": 0.23368731141090393,
+          "dists": 0.1409561038017273
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.018107096354166668,
+          "psnr": 21.875934798493567,
+          "msssim": 0.776171088218689,
+          "lpips": 0.16282254457473755,
+          "dists": 0.10762250423431396
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.014567057291666666,
+          "psnr": 23.90627829262634,
+          "msssim": 0.8746083974838257,
+          "lpips": 0.10532509535551071,
+          "dists": 0.09867405891418457
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.016520182291666668,
+          "psnr": 19.950067446607036,
+          "msssim": 0.7613029479980469,
+          "lpips": 0.17291197180747986,
+          "dists": 0.10831475257873535
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.021240234375,
+          "psnr": 24.43048960062245,
+          "msssim": 0.8683816194534302,
+          "lpips": 0.1017543151974678,
+          "dists": 0.07952803373336792
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.025736490885416668,
+          "psnr": 19.665207722087327,
+          "msssim": 0.726226270198822,
+          "lpips": 0.2071925699710846,
+          "dists": 0.13192129135131836
+        }
+      ],
+      "elapsed_sec": 32.3830494867434,
+      "queue_elapsed_sec": 1.662099384702742e-05,
+      "evaluation_elapsed_sec": 32.38303381942387,
+      "status": "ok",
+      "valid": true,
+      "failure_type": null,
+      "score": 0.5702638026067475,
+      "score_clipped": 0.5702638026067475,
+      "bpp_in_window": true,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": null,
+      "exit_code": 0,
+      "run_id": "aeb7848b2c8445719db5dca129557105"
+    },
+    {
+      "split": "public",
+      "method_sha256": "81b894d468135dbcbf1372075190265148f9259f5b3b396916bbec1221f6f6e0",
+      "bpp_mean": 0.020122528076171875,
+      "bpp_per_image": {
+        "kodim01": 0.020792643229166668,
+        "kodim02": 0.017435709635416668,
+        "kodim04": 0.019551595052083332,
+        "kodim08": 0.025899251302083332,
+        "kodim11": 0.019429524739583332,
+        "kodim12": 0.015767415364583332,
+        "kodim13": 0.01849365234375,
+        "kodim14": 0.025288899739583332,
+        "kodim16": 0.014668782552083334,
+        "kodim17": 0.026570638020833332,
+        "kodim18": 0.021687825520833332,
+        "kodim19": 0.018107096354166668,
+        "kodim20": 0.014567057291666666,
+        "kodim21": 0.016499837239583332,
+        "kodim23": 0.021443684895833332,
+        "kodim24": 0.0257568359375
+      },
+      "dists": 0.1220330260694027,
+      "lpips": 0.18299730634316802,
+      "psnr": 21.498439234729318,
+      "msssim": 0.7398028150200844,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.020792643229166668,
+          "psnr": 19.513893002100147,
+          "msssim": 0.6577650308609009,
+          "lpips": 0.2080548107624054,
+          "dists": 0.14603149890899658
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.017435709635416668,
+          "psnr": 24.666174144631725,
+          "msssim": 0.7928329706192017,
+          "lpips": 0.18729904294013977,
+          "dists": 0.1543683409690857
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.019551595052083332,
+          "psnr": 24.705075972268276,
+          "msssim": 0.8085614442825317,
+          "lpips": 0.15241752564907074,
+          "dists": 0.0907660722732544
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.025899251302083332,
+          "psnr": 16.84255702804454,
+          "msssim": 0.7293443083763123,
+          "lpips": 0.20384818315505981,
+          "dists": 0.1378728151321411
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.019429524739583332,
+          "psnr": 21.27678501577844,
+          "msssim": 0.7282447814941406,
+          "lpips": 0.1935257911682129,
+          "dists": 0.1273123025894165
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.015767415364583332,
+          "psnr": 24.84457463542885,
+          "msssim": 0.8128455877304077,
+          "lpips": 0.15183241665363312,
+          "dists": 0.11309182643890381
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.01849365234375,
+          "psnr": 16.772491030737914,
+          "msssim": 0.49300462007522583,
+          "lpips": 0.2981058359146118,
+          "dists": 0.15737384557724
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.025288899739583332,
+          "psnr": 19.82383760977904,
+          "msssim": 0.6464866399765015,
+          "lpips": 0.2334834337234497,
+          "dists": 0.11743128299713135
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.014668782552083334,
+          "psnr": 23.394998498549732,
+          "msssim": 0.7196614742279053,
+          "lpips": 0.15702873468399048,
+          "dists": 0.12278348207473755
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.026570638020833332,
+          "psnr": 23.0726805289987,
+          "msssim": 0.8092477321624756,
+          "lpips": 0.16340988874435425,
+          "dists": 0.11509734392166138
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.021687825520833332,
+          "psnr": 19.463480418441627,
+          "msssim": 0.6343297362327576,
+          "lpips": 0.22884684801101685,
+          "dists": 0.13686150312423706
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.018107096354166668,
+          "psnr": 21.80005410527356,
+          "msssim": 0.7754332423210144,
+          "lpips": 0.1630457639694214,
+          "dists": 0.11046695709228516
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.014567057291666666,
+          "psnr": 23.8403018891469,
+          "msssim": 0.8753683567047119,
+          "lpips": 0.1052112877368927,
+          "dists": 0.10136497020721436
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.016499837239583332,
+          "psnr": 19.9201170423215,
+          "msssim": 0.7585643529891968,
+          "lpips": 0.17385295033454895,
+          "dists": 0.11137896776199341
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.021443684895833332,
+          "psnr": 24.42138582976027,
+          "msssim": 0.8696908950805664,
+          "lpips": 0.1015857681632042,
+          "dists": 0.08014631271362305
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.0257568359375,
+          "psnr": 19.61662100440784,
+          "msssim": 0.7254638671875,
+          "lpips": 0.20640861988067627,
+          "dists": 0.13018089532852173
+        }
+      ],
+      "elapsed_sec": 32.39525587206299,
+      "queue_elapsed_sec": 1.7853999452199787e-05,
+      "evaluation_elapsed_sec": 32.395238733319275,
+      "status": "hard_gate",
+      "valid": false,
+      "failure_type": "hard_gate",
+      "score": -1.0,
+      "score_clipped": null,
+      "bpp_in_window": false,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": "Mean bitrate exceeds the frozen split cap",
+      "exit_code": 0,
+      "run_id": "3e3414849ae74a53b00216d46ef6fba9"
+    },
+    {
+      "split": "public",
+      "method_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+      "bpp_mean": 0.020105997721354164,
+      "bpp_per_image": {
+        "kodim01": 0.020853678385416668,
+        "kodim02": 0.017333984375,
+        "kodim04": 0.019571940104166668,
+        "kodim08": 0.02593994140625,
+        "kodim11": 0.0194091796875,
+        "kodim12": 0.015726725260416668,
+        "kodim13": 0.018513997395833332,
+        "kodim14": 0.025288899739583332,
+        "kodim16": 0.014689127604166666,
+        "kodim17": 0.026570638020833332,
+        "kodim18": 0.02166748046875,
+        "kodim19": 0.018086751302083332,
+        "kodim20": 0.01458740234375,
+        "kodim21": 0.016499837239583332,
+        "kodim23": 0.02117919921875,
+        "kodim24": 0.025777180989583332
+      },
+      "dists": 0.12091859057545662,
+      "lpips": 0.1835159957408905,
+      "psnr": 21.51844637460689,
+      "msssim": 0.739687092602253,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.020853678385416668,
+          "psnr": 19.529307649807212,
+          "msssim": 0.6582183241844177,
+          "lpips": 0.21033558249473572,
+          "dists": 0.14393150806427002
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.017333984375,
+          "psnr": 24.737616441861693,
+          "msssim": 0.7926921844482422,
+          "lpips": 0.19045968353748322,
+          "dists": 0.14940667152404785
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.019571940104166668,
+          "psnr": 24.738735754594448,
+          "msssim": 0.8090223073959351,
+          "lpips": 0.15216590464115143,
+          "dists": 0.09187358617782593
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.02593994140625,
+          "psnr": 16.836464142921926,
+          "msssim": 0.7286636233329773,
+          "lpips": 0.20479080080986023,
+          "dists": 0.13730394840240479
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.0194091796875,
+          "psnr": 21.33773247684656,
+          "msssim": 0.7283734083175659,
+          "lpips": 0.1937459111213684,
+          "dists": 0.12318539619445801
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.015726725260416668,
+          "psnr": 24.860463702007838,
+          "msssim": 0.8128401637077332,
+          "lpips": 0.15027844905853271,
+          "dists": 0.11451822519302368
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.018513997395833332,
+          "psnr": 16.77584761570386,
+          "msssim": 0.4930117726325989,
+          "lpips": 0.29806527495384216,
+          "dists": 0.1603022813796997
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.025288899739583332,
+          "psnr": 19.801429478945693,
+          "msssim": 0.6435263156890869,
+          "lpips": 0.2361975461244583,
+          "dists": 0.11650657653808594
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.014689127604166666,
+          "psnr": 23.416238727667455,
+          "msssim": 0.7197033762931824,
+          "lpips": 0.1577703058719635,
+          "dists": 0.11997878551483154
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.026570638020833332,
+          "psnr": 23.06823124912773,
+          "msssim": 0.8086742162704468,
+          "lpips": 0.1637917309999466,
+          "dists": 0.11520981788635254
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.02166748046875,
+          "psnr": 19.48468504115333,
+          "msssim": 0.6361938118934631,
+          "lpips": 0.22607466578483582,
+          "dists": 0.13690882921218872
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.018086751302083332,
+          "psnr": 21.811658141268055,
+          "msssim": 0.7751282453536987,
+          "lpips": 0.16413354873657227,
+          "dists": 0.10663735866546631
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.01458740234375,
+          "psnr": 23.920607225790363,
+          "msssim": 0.8748504519462585,
+          "lpips": 0.10579533129930496,
+          "dists": 0.09823465347290039
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.016499837239583332,
+          "psnr": 19.925434242418923,
+          "msssim": 0.7593938708305359,
+          "lpips": 0.1738438606262207,
+          "dists": 0.1128811240196228
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.02117919921875,
+          "psnr": 24.442885728279666,
+          "msssim": 0.8681926727294922,
+          "lpips": 0.10301268845796585,
+          "dists": 0.07983434200286865
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.025777180989583332,
+          "psnr": 19.6078043753155,
+          "msssim": 0.7265087366104126,
+          "lpips": 0.20579464733600616,
+          "dists": 0.12798434495925903
+        }
+      ],
+      "elapsed_sec": 32.45718668916379,
+      "queue_elapsed_sec": 1.7231992387678474e-05,
+      "evaluation_elapsed_sec": 32.45717017242714,
+      "status": "ok",
+      "valid": true,
+      "failure_type": null,
+      "score": 0.5035760840121583,
+      "score_clipped": 0.5035760840121583,
+      "bpp_in_window": true,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": null,
+      "exit_code": 0,
+      "run_id": "344287414b454d36b93f130d3fe82baa"
+    }
+  ],
+  "retained_best": true,
+  "novel_method_semantics": true,
+  "method_semantics_sha256": "e24c19b16037b0e80312f2d3b87342a47a2cb8e238d8b8343a0358b0bf4fa139"
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "derived_unclosed_attempt_receipt",
+  "track": "gpt",
+  "attempted_round": 23,
+  "started_at": "2026-10-04T08:59:01.637594+00:00",
+  "native_turn_completed": false,
+  "native_turn_failed": true,
+  "observed_http_error_codes": [
+    502
+  ],
+  "observed_event_types": [
+    "thread.started",
+    "turn.started",
+    "error",
+    "error",
+    "turn.failed"
+  ],
+  "terminal_result_available": false,
+  "score": null,
+  "not_inserted_into_completed_controller_trajectory": true,
+  "no_duration_credit_added": true,
+  "source_manifest": [
+    {
+      "filename": "codex-events.jsonl",
+      "bytes": 538,
+      "sha256": "7ef96162d0897e3ef6feee4a6e2b8d7a8953b8739ce4faad6242b3102cce6266"
+    },
+    {
+      "filename": "codex-stderr.log",
+      "bytes": 39,
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721"
+    },
+    {
+      "filename": "method.py",
+      "bytes": 1209,
+      "sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198"
+    },
+    {
+      "filename": "started.json",
+      "bytes": 83,
+      "sha256": "811c95a7a6a604e050f7a949b7498a81bc050dc5726402918e8f6b78ef9bc4ff"
+    }
+  ],
+  "export_omissions": [
+    "Private gateway endpoint and request bodies"
+  ],
+  "raw_private_bytes_preserved_and_hash_verified": true
+}

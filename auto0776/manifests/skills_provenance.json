@@ -1,0 +1,919 @@
+{
+  "rules": "2026-10-21 user-supplied V4 contract; official 0.3.10 package absent",
+  "files": [
+    {
+      "path": "skills/autoresearch/UPSTREAM-LICENSE",
+      "source_skill": "autoresearch",
+      "source_relative_path": "UPSTREAM-LICENSE",
+      "source_sha256": "80b5899a9ab121a2d4aae63724f0c11defba7f23da487086932bb9abfb0f2a00",
+      "published_sha256": "80b5899a9ab121a2d4aae63724f0c11defba7f23da487086932bb9abfb0f2a00",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch/SKILL.md",
+      "source_skill": "autoresearch",
+      "source_relative_path": "SKILL.md",
+      "source_sha256": "da13eda23d15eb4587989541d32148e1f97c7acd201320118af478ff6a37ae4b",
+      "published_sha256": "da13eda23d15eb4587989541d32148e1f97c7acd201320118af478ff6a37ae4b",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch/UPSTREAM.json",
+      "source_skill": "autoresearch",
+      "source_relative_path": "UPSTREAM.json",
+      "source_sha256": "0098f2c18d9990145caea388a5389e4f23c7a65c2e072922e9e497ba733bef9e",
+      "published_sha256": "0098f2c18d9990145caea388a5389e4f23c7a65c2e072922e9e497ba733bef9e",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch/references/progress-reporting.md",
+      "source_skill": "autoresearch",
+      "source_relative_path": "references/progress-reporting.md",
+      "source_sha256": "f57fbd191618f3911b99fa0a68a038553e222201857b4f0bd5bd32cb524148b5",
+      "published_sha256": "f57fbd191618f3911b99fa0a68a038553e222201857b4f0bd5bd32cb524148b5",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch/references/agent-continuity.md",
+      "source_skill": "autoresearch",
+      "source_relative_path": "references/agent-continuity.md",
+      "source_sha256": "8003b626868817498e7962183b9a4a415143d92cae3d88ac35c0f658acd6e595",
+      "published_sha256": "8003b626868817498e7962183b9a4a415143d92cae3d88ac35c0f658acd6e595",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch/references/phase3-v4-contract.md",
+      "source_skill": "autoresearch",
+      "source_relative_path": "references/phase3-v4-contract.md",
+      "source_sha256": "c57f11d0a276ff8397166e31a11a952de40ea34fa728a6867586593a61a77375",
+      "published_sha256": "7604f6c52769e8a2349bb57c68e3f71fbf8c2dfe161a52352dd7612d893a7360",
+      "transformation": [
+        "portable author-home and historical host substitution; no policy change"
+      ]
+    },
+    {
+      "path": "skills/autoresearch/references/skill-routing.md",
+      "source_skill": "autoresearch",
+      "source_relative_path": "references/skill-routing.md",
+      "source_sha256": "a64f3877b4c0515ddcd5401a9eb4683824f4f9c0e9c010cee360a5409bd4e734",
+      "published_sha256": "a64f3877b4c0515ddcd5401a9eb4683824f4f9c0e9c010cee360a5409bd4e734",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch/templates/research-state.yaml",
+      "source_skill": "autoresearch",
+      "source_relative_path": "templates/research-state.yaml",
+      "source_sha256": "46aded613c427052c1e5f1faa8f2490873f11b70e4f2028be05fa2d22e03fa9c",
+      "published_sha256": "46aded613c427052c1e5f1faa8f2490873f11b70e4f2028be05fa2d22e03fa9c",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch/templates/findings.md",
+      "source_skill": "autoresearch",
+      "source_relative_path": "templates/findings.md",
+      "source_sha256": "f81f7f63ec2f962796a2e28dbd1bf256dcef683000e1dab513296f0e8d9f79f2",
+      "published_sha256": "f81f7f63ec2f962796a2e28dbd1bf256dcef683000e1dab513296f0e8d9f79f2",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch/templates/research-log.md",
+      "source_skill": "autoresearch",
+      "source_relative_path": "templates/research-log.md",
+      "source_sha256": "975a85c5d90897718d3542560b1fe40516a0dde2521b5136e567769cc2dfdef5",
+      "published_sha256": "975a85c5d90897718d3542560b1fe40516a0dde2521b5136e567769cc2dfdef5",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch/templates/progress-presentation.html",
+      "source_skill": "autoresearch",
+      "source_relative_path": "templates/progress-presentation.html",
+      "source_sha256": "40034b84dccfefffca74244abdc12b8376264b31749e7792bf683b2c5df9e175",
+      "published_sha256": "40034b84dccfefffca74244abdc12b8376264b31749e7792bf683b2c5df9e175",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/SKILL.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "SKILL.md",
+      "source_sha256": "72b8a82103e811d8b17119d82a0370af10ce45cb259dc1d922a5c64c772af1df",
+      "published_sha256": "d2fb8669eae3ddc079d186a6e83f39661506cb4939fb0e24ec7d151bee4a7f77",
+      "transformation": [
+        "portable author-home and historical host substitution; no policy change"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-manager/references/runtime-contract.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "references/runtime-contract.md",
+      "source_sha256": "5ee794268a36e40851b3ff541508ffd587a3b5c1cec4d3a687e20b49d98cfa6c",
+      "published_sha256": "5ee794268a36e40851b3ff541508ffd587a3b5c1cec4d3a687e20b49d98cfa6c",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/references/phase3-v4-contract.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "references/phase3-v4-contract.md",
+      "source_sha256": "c57f11d0a276ff8397166e31a11a952de40ea34fa728a6867586593a61a77375",
+      "published_sha256": "7604f6c52769e8a2349bb57c68e3f71fbf8c2dfe161a52352dd7612d893a7360",
+      "transformation": [
+        "portable author-home and historical host substitution; no policy change"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-manager/agents/openai.yaml",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "agents/openai.yaml",
+      "source_sha256": "d17696da169b951d07ff90524c074e9e2c7dfdea182d1aa4f3386fca406a4c0d",
+      "published_sha256": "d17696da169b951d07ff90524c074e9e2c7dfdea182d1aa4f3386fca406a4c0d",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/scripts/test_qa_docker.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "scripts/test_qa_docker.py",
+      "source_sha256": "c94819e49b202301aba8348e4b52215c73fdd0a1278e7d423f97d451dd4807b3",
+      "published_sha256": "c94819e49b202301aba8348e4b52215c73fdd0a1278e7d423f97d451dd4807b3",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/scripts/qa_entry.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "scripts/qa_entry.py",
+      "source_sha256": "bef00761075600ebb021179113e0ed2e3d527f0fc9c896e562c84a5526882f9a",
+      "published_sha256": "bef00761075600ebb021179113e0ed2e3d527f0fc9c896e562c84a5526882f9a",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/scripts/agent_stage.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "scripts/agent_stage.py",
+      "source_sha256": "0b61fb5a350d2f49472e9ac024d07b8712fbe96f0daa9f9d787c29c3e4913a97",
+      "published_sha256": "0b61fb5a350d2f49472e9ac024d07b8712fbe96f0daa9f9d787c29c3e4913a97",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/scripts/fixture_driver.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "scripts/fixture_driver.py",
+      "source_sha256": "ea6fd3a36b9ecc4692e9ece0549b8b38c122583eee8c077984098243991f4a44",
+      "published_sha256": "ea6fd3a36b9ecc4692e9ece0549b8b38c122583eee8c077984098243991f4a44",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/scripts/common.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "scripts/common.py",
+      "source_sha256": "58d9cce24b30d5e8a540ace1fb8c3de4198681a2c199513009ac75441139d837",
+      "published_sha256": "58d9cce24b30d5e8a540ace1fb8c3de4198681a2c199513009ac75441139d837",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/scripts/qa_container.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "scripts/qa_container.py",
+      "source_sha256": "16ebde21bf7410a0e0560d1644fe0a070bf92a57fcbd090fadf0c0b404c6c895",
+      "published_sha256": "16ebde21bf7410a0e0560d1644fe0a070bf92a57fcbd090fadf0c0b404c6c895",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/scripts/job_worker.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "scripts/job_worker.py",
+      "source_sha256": "8f62f6d111d8300cf7b4d5ac3d135d248722756b54cc673891c2afa2415a80d6",
+      "published_sha256": "8f62f6d111d8300cf7b4d5ac3d135d248722756b54cc673891c2afa2415a80d6",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/scripts/test_manager.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "scripts/test_manager.py",
+      "source_sha256": "b5b558186e9ab2b5981cf5e69818644863ac391890ef083913e181cebcfabdc2",
+      "published_sha256": "b5b558186e9ab2b5981cf5e69818644863ac391890ef083913e181cebcfabdc2",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/scripts/stability_worker.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "scripts/stability_worker.py",
+      "source_sha256": "53b0ec17ab50574c693def890dad45bef2d641ff55be90c030892a82c6d75fe8",
+      "published_sha256": "53b0ec17ab50574c693def890dad45bef2d641ff55be90c030892a82c6d75fe8",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/scripts/manager.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "scripts/manager.py",
+      "source_sha256": "dd08489cd2b21e91c99f7f38eef2322349255fe05f79dbd093bb7299bbbac9c1",
+      "published_sha256": "dd08489cd2b21e91c99f7f38eef2322349255fe05f79dbd093bb7299bbbac9c1",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-release.json",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-release.json",
+      "source_sha256": "cdc104ec84631875419a553dff936e38455a4ffd745bd917bfebb54738fdaa4a",
+      "published_sha256": "cdc104ec84631875419a553dff936e38455a4ffd745bd917bfebb54738fdaa4a",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-baseline-quality/SKILL.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-baseline-quality/SKILL.md",
+      "source_sha256": "5d32b3052d6edd2ef00a16caac124438e3ff77ed4338275b65527706914a1043",
+      "published_sha256": "5d32b3052d6edd2ef00a16caac124438e3ff77ed4338275b65527706914a1043",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-baseline-quality/references/baseline-review-method.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-baseline-quality/references/baseline-review-method.md",
+      "source_sha256": "15f996157d18b17209d0640bec24e2c39711fbac682ee7eaac830c7a7a8a568c",
+      "published_sha256": "15f996157d18b17209d0640bec24e2c39711fbac682ee7eaac830c7a7a8a568c",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-baseline-quality/agents/openai.yaml",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-baseline-quality/agents/openai.yaml",
+      "source_sha256": "79d7424f5e8da52b31b833d3d62313b7f5b0dc7e4c91fd9dd3a5852770fe286b",
+      "published_sha256": "79d7424f5e8da52b31b833d3d62313b7f5b0dc7e4c91fd9dd3a5852770fe286b",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/SKILL.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/SKILL.md",
+      "source_sha256": "8fb227d7e1b4619285f50b2cae49e5fb10daa16bd5bcd40eef5aa25cf1f777a6",
+      "published_sha256": "8fb227d7e1b4619285f50b2cae49e5fb10daa16bd5bcd40eef5aa25cf1f777a6",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/report-schema.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/report-schema.md",
+      "source_sha256": "a1fc6c726bbf325a1d65f784e022e8b45c30e8fe7b9d1b3e7301e73f553666d8",
+      "published_sha256": "a1fc6c726bbf325a1d65f784e022e8b45c30e8fe7b9d1b3e7301e73f553666d8",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/implementation-report.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/implementation-report.md",
+      "source_sha256": "0c13880bebc635b60e964451f89d9ebe57373b74f408e09839580dd0f2fd04eb",
+      "published_sha256": "0c13880bebc635b60e964451f89d9ebe57373b74f408e09839580dd0f2fd04eb",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/submission-format.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/submission-format.md",
+      "source_sha256": "5677b02d2e6b75ab160200f8751741a4d02b60e9b788289f55f44d0368da3a57",
+      "published_sha256": "5677b02d2e6b75ab160200f8751741a4d02b60e9b788289f55f44d0368da3a57",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/precheck-policy.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/precheck-policy.md",
+      "source_sha256": "4c84074aa9214f5a6070f038ea1b084d30cd947abac3f4510c1b149432d5550c",
+      "published_sha256": "4c84074aa9214f5a6070f038ea1b084d30cd947abac3f4510c1b149432d5550c",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/research-quality.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/research-quality.md",
+      "source_sha256": "3304e93def3129922fe7544bca7fd6a778aa6df1270aa9259ee1ee6ef71d0724",
+      "published_sha256": "3304e93def3129922fe7544bca7fd6a778aa6df1270aa9259ee1ee6ef71d0724",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/docker-path-contract.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/docker-path-contract.md",
+      "source_sha256": "78f4f6cd5ec2805287afc89193bf485670f3d5c791a44c0a739c289f18e471ed",
+      "published_sha256": "78f4f6cd5ec2805287afc89193bf485670f3d5c791a44c0a739c289f18e471ed",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/source-alignment.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/source-alignment.md",
+      "source_sha256": "643743eee2bb8579caa2af33ea28ada695082279aae3b3d8da7666b70f6c378a",
+      "published_sha256": "643743eee2bb8579caa2af33ea28ada695082279aae3b3d8da7666b70f6c378a",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/implementation-policy.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/implementation-policy.md",
+      "source_sha256": "f20ca415f840aa66885222381926a3e44a67bc5e6d63142a203ae330b8b4f24b",
+      "published_sha256": "f20ca415f840aa66885222381926a3e44a67bc5e6d63142a203ae330b8b4f24b",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/privacy-and-portability.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/privacy-and-portability.md",
+      "source_sha256": "bb5c647182046bbdb8e2573df6e4cfaed7acda5e3b665e4eef39781b241e7f05",
+      "published_sha256": "bb5c647182046bbdb8e2573df6e4cfaed7acda5e3b665e4eef39781b241e7f05",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/harbor-harness.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/harbor-harness.md",
+      "source_sha256": "566bcc6320302e4a9ed8566e1c6eabfcd6f1d4002a5f21dc1dd86c5d1fb391c9",
+      "published_sha256": "566bcc6320302e4a9ed8566e1c6eabfcd6f1d4002a5f21dc1dd86c5d1fb391c9",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/exposure-manifest.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/exposure-manifest.md",
+      "source_sha256": "7f4bba67d2acd2e7732409d04bce76422c0935987eb8a9f42c9e992641929a69",
+      "published_sha256": "7f4bba67d2acd2e7732409d04bce76422c0935987eb8a9f42c9e992641929a69",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/references/qa-spec.md",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/references/qa-spec.md",
+      "source_sha256": "7a26bce4dde9283b2f3a289659b93f8a7120096059bebc4306d7514609e5475a",
+      "published_sha256": "7a26bce4dde9283b2f3a289659b93f8a7120096059bebc4306d7514609e5475a",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/agents/openai.yaml",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/agents/openai.yaml",
+      "source_sha256": "38c7156722ca4c0471b368b8aadc2c7235e0ac326deb3a6045184b859155646f",
+      "published_sha256": "38c7156722ca4c0471b368b8aadc2c7235e0ac326deb3a6045184b859155646f",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/test_submission_format.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/test_submission_format.py",
+      "source_sha256": "dac90632ade757dced090b4ee1e8bf304a2160e142a5af908c3e393a891e9c9a",
+      "published_sha256": "dac90632ade757dced090b4ee1e8bf304a2160e142a5af908c3e393a891e9c9a",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/implementation_review.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/implementation_review.py",
+      "source_sha256": "6ba3517b9de1290f96118a59a51498d5620849026113e694ce2a8f771545dfcf",
+      "published_sha256": "6ba3517b9de1290f96118a59a51498d5620849026113e694ce2a8f771545dfcf",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/test_content_gates.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/test_content_gates.py",
+      "source_sha256": "95ca6a2a34fc97a1d64a2a63f534d1ec2ea429edcc9f9b2acd0787279b8ae52b",
+      "published_sha256": "95ca6a2a34fc97a1d64a2a63f534d1ec2ea429edcc9f9b2acd0787279b8ae52b",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/test_harbor_review.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/test_harbor_review.py",
+      "source_sha256": "78561f1b0b0f40f6ce871d71265107a56da070735b4cc8a2e4898b25da82d0bc",
+      "published_sha256": "78561f1b0b0f40f6ce871d71265107a56da070735b4cc8a2e4898b25da82d0bc",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/test_docker_paths.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/test_docker_paths.py",
+      "source_sha256": "df58fa1a1c718431a5b09e36042098c5d3e7d1c050edb224863ecb371245fa03",
+      "published_sha256": "df58fa1a1c718431a5b09e36042098c5d3e7d1c050edb224863ecb371245fa03",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/audit_task.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/audit_task.py",
+      "source_sha256": "6bfed09c69a0d96edad6c463d333e2002aa47b6d6c8103f9e0c233f1ab7fe8a2",
+      "published_sha256": "6bfed09c69a0d96edad6c463d333e2002aa47b6d6c8103f9e0c233f1ab7fe8a2",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/test_qa_consensus.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/test_qa_consensus.py",
+      "source_sha256": "71727d299a696a1a4d775f54b8f4dd25aefa0bf28e5a1caf9466c03fefab1d31",
+      "published_sha256": "71727d299a696a1a4d775f54b8f4dd25aefa0bf28e5a1caf9466c03fefab1d31",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/audit_collection.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/audit_collection.py",
+      "source_sha256": "ae43dbaecd8969bbcac06e368cd49af0f2da27de8f22606cfe95a1b945e04b7a",
+      "published_sha256": "ae43dbaecd8969bbcac06e368cd49af0f2da27de8f22606cfe95a1b945e04b7a",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/harbor_review.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/harbor_review.py",
+      "source_sha256": "b68672f5a082f06cdf23e150732cf1890dd02bdebb4eec74eec4d21eeafeaf7b",
+      "published_sha256": "b68672f5a082f06cdf23e150732cf1890dd02bdebb4eec74eec4d21eeafeaf7b",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/content_gates.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/content_gates.py",
+      "source_sha256": "9cebf512c5cbff17bab2939bb06e2df677af1e65516113c4883ba8da96185b2d",
+      "published_sha256": "9cebf512c5cbff17bab2939bb06e2df677af1e65516113c4883ba8da96185b2d",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/docker_paths.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/docker_paths.py",
+      "source_sha256": "e738cfa5091a50369a0c83aa672de65896c4fd4e591245da8a390de0b2481a03",
+      "published_sha256": "e738cfa5091a50369a0c83aa672de65896c4fd4e591245da8a390de0b2481a03",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/submission_format.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/submission_format.py",
+      "source_sha256": "6813b9afbb33b0e07d15a365515be3566e7dfd7fcaaf64cdc17f49dcbe65377d",
+      "published_sha256": "6813b9afbb33b0e07d15a365515be3566e7dfd7fcaaf64cdc17f49dcbe65377d",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/qa_consensus.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/qa_consensus.py",
+      "source_sha256": "43c28bd1e293a9cfa4e70f5d54f71f87c23282c15035299d9e1c23e518e55ad5",
+      "published_sha256": "43c28bd1e293a9cfa4e70f5d54f71f87c23282c15035299d9e1c23e518e55ad5",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/aggregate_qa_reports.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/aggregate_qa_reports.py",
+      "source_sha256": "2827e9bb605f3f14a7a5e660de67e967eb3da9b0c3778c07a5530cc67c2b606d",
+      "published_sha256": "2827e9bb605f3f14a7a5e660de67e967eb3da9b0c3778c07a5530cc67c2b606d",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/test_audit_collection.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/test_audit_collection.py",
+      "source_sha256": "e069469cb33c47eb1a0183dbfeb506f894a4dea6c4a0208d839eebbd2aa71cf6",
+      "published_sha256": "e069469cb33c47eb1a0183dbfeb506f894a4dea6c4a0208d839eebbd2aa71cf6",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/test_audit_task.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/test_audit_task.py",
+      "source_sha256": "ff29243a232b450d0991f369dbfec0c787eefc17fb267cc80a68db02d722b43d",
+      "published_sha256": "ff29243a232b450d0991f369dbfec0c787eefc17fb267cc80a68db02d722b43d",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-manager/assets/qa-skills/autoresearch-task-qa/scripts/test_implementation_review.py",
+      "source_skill": "autoresearch-manager",
+      "source_relative_path": "assets/qa-skills/autoresearch-task-qa/scripts/test_implementation_review.py",
+      "source_sha256": "880b07ffd423f081f94214a7c1d91c4ab297d4d17ace7dd44a193b79e7b2ca4d",
+      "published_sha256": "880b07ffd423f081f94214a7c1d91c4ab297d4d17ace7dd44a193b79e7b2ca4d",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/SKILL.md",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "SKILL.md",
+      "source_sha256": "808b4948a5d014de17ad7bea973d7515d7a2546776209ee22fdc192c11a3858c",
+      "published_sha256": "2abb5ac0535ff997d17156ed29b530fee383d863d9551dee5c9afa66f491f666",
+      "transformation": [
+        "portable author-home and historical host substitution; no policy change"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/references/requirements.txt",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "references/requirements.txt",
+      "source_sha256": "34ed30c03d0dc9972102b620b7dcd0960c58ca79c421811c25e142a05c883c31",
+      "published_sha256": "34ed30c03d0dc9972102b620b7dcd0960c58ca79c421811c25e142a05c883c31",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/references/server-context.md",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "references/server-context.md",
+      "source_sha256": "673f463dcaeb659d48a03c8a11edd43f190b55f18c139a4b7df521711959242f",
+      "published_sha256": "67ed903ea665fc474ef8af30289518fde10397df97026668e0397b5fc48d1f18",
+      "transformation": [
+        "portable author-home and historical host substitution; no policy change",
+        "historical author-side root path replaced by TRUSTED_RUNTIME_ROOT placeholder; legacy helpers require explicit reconfiguration"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/references/validation.md",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "references/validation.md",
+      "source_sha256": "464bd0f7e65e395f77692ef6d0674ded33ea50362164b269a8d72bdeae2b53c4",
+      "published_sha256": "c036b569d9a121344cd62e04eeb3baa8d390dd1569ce9d378e75877491799625",
+      "transformation": [
+        "historical author-side root path replaced by TRUSTED_RUNTIME_ROOT placeholder; legacy helpers require explicit reconfiguration"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/references/workflow.md",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "references/workflow.md",
+      "source_sha256": "10b99a81c3b636e23c449d21b53d5aad848427b5348f765b45402de4e2a7ea35",
+      "published_sha256": "cf0655664d7906f68ed6c3f89c50a1cbfd45715a1d1382f30e7fd99221d91bdd",
+      "transformation": [
+        "portable author-home and historical host substitution; no policy change"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/references/phase3-v4-contract.md",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "references/phase3-v4-contract.md",
+      "source_sha256": "c57f11d0a276ff8397166e31a11a952de40ea34fa728a6867586593a61a77375",
+      "published_sha256": "7604f6c52769e8a2349bb57c68e3f71fbf8c2dfe161a52352dd7612d893a7360",
+      "transformation": [
+        "portable author-home and historical host substitution; no policy change"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/agents/openai.yaml",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "agents/openai.yaml",
+      "source_sha256": "e46c90ffacd5af9345616fd7c7a88a719a6241ae00a2c5b3f5408ff46d4af435",
+      "published_sha256": "e46c90ffacd5af9345616fd7c7a88a719a6241ae00a2c5b3f5408ff46d4af435",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/scripts/modcon_launcher.py",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "scripts/modcon_launcher.py",
+      "source_sha256": "4a966849b5611141ec3e39a01012baf87030f895ec34c86db7e3923fe3e6dd86",
+      "published_sha256": "4a966849b5611141ec3e39a01012baf87030f895ec34c86db7e3923fe3e6dd86",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/scripts/control.py",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "scripts/control.py",
+      "source_sha256": "b0d45396ada16be3fc49db5e3aa1af2409bebed004ecf8f85cca09b3448ffdcd",
+      "published_sha256": "ded8aa80bf238b40274504c0a6b8e19c7466a7c9576df184f5c68a84658f1e8e",
+      "transformation": [
+        "portable author-home and historical host substitution; no policy change",
+        "historical author-side root path replaced by TRUSTED_RUNTIME_ROOT placeholder; legacy helpers require explicit reconfiguration"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/scripts/test_remote_worker.py",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "scripts/test_remote_worker.py",
+      "source_sha256": "ecd708243ad12c22ab5640d7d967e44bab69f1f4cc7825765c061747a5665189",
+      "published_sha256": "ecd708243ad12c22ab5640d7d967e44bab69f1f4cc7825765c061747a5665189",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-remote-cli/scripts/remote_worker.py",
+      "source_skill": "autoresearch-remote-cli",
+      "source_relative_path": "scripts/remote_worker.py",
+      "source_sha256": "f85c5e53fec750615c7b6d03b4c60f9f2915ad267fab43b0264e692d4306f4d3",
+      "published_sha256": "68e0021622c64af5c22a279e7df9c9816738aee3fd17f6ad9c0c99de0f9fcb5a",
+      "transformation": [
+        "historical author-side root path replaced by TRUSTED_RUNTIME_ROOT placeholder; legacy helpers require explicit reconfiguration"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-task-qa/SKILL.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "SKILL.md",
+      "source_sha256": "af35fc7ab14c38221edf7ce673e702d3e405d0965a0077abe7ed2d6b6ecc1781",
+      "published_sha256": "af35fc7ab14c38221edf7ce673e702d3e405d0965a0077abe7ed2d6b6ecc1781",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/AGENTS.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "AGENTS.md",
+      "source_sha256": "c66928df8e46e6d6768e5362c5ba3f5857d453d503b58f5f6d124cdb83043345",
+      "published_sha256": "c66928df8e46e6d6768e5362c5ba3f5857d453d503b58f5f6d124cdb83043345",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/CLAUDE.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "CLAUDE.md",
+      "source_sha256": "c66928df8e46e6d6768e5362c5ba3f5857d453d503b58f5f6d124cdb83043345",
+      "published_sha256": "c66928df8e46e6d6768e5362c5ba3f5857d453d503b58f5f6d124cdb83043345",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/report-schema.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/report-schema.md",
+      "source_sha256": "ada8691af09ae9b5f8728d19e375af0509f82ab9f70d2dbdac6006f8394607b4",
+      "published_sha256": "ada8691af09ae9b5f8728d19e375af0509f82ab9f70d2dbdac6006f8394607b4",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/implementation-report.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/implementation-report.md",
+      "source_sha256": "5fa80872aaddd7a12226ed9d7932e338a8caeb30ceb120e11355a8ce83591e9b",
+      "published_sha256": "5fa80872aaddd7a12226ed9d7932e338a8caeb30ceb120e11355a8ce83591e9b",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/submission-format.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/submission-format.md",
+      "source_sha256": "d8d27fdd2858fb72467523ac163154fbf457d6bbd682ffc45252a09d84b78c99",
+      "published_sha256": "d8d27fdd2858fb72467523ac163154fbf457d6bbd682ffc45252a09d84b78c99",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/precheck-policy.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/precheck-policy.md",
+      "source_sha256": "cfa2b6d45a8267782eadf1fcecaf20a05787ceced250a9a8b642a2ad0f68ba7f",
+      "published_sha256": "cfa2b6d45a8267782eadf1fcecaf20a05787ceced250a9a8b642a2ad0f68ba7f",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/research-quality.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/research-quality.md",
+      "source_sha256": "8154289c9759d7b60463db81f2dbe4b2c96840d5394720e6e419a812b204e13f",
+      "published_sha256": "8154289c9759d7b60463db81f2dbe4b2c96840d5394720e6e419a812b204e13f",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/phase3-v4-contract.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/phase3-v4-contract.md",
+      "source_sha256": "c57f11d0a276ff8397166e31a11a952de40ea34fa728a6867586593a61a77375",
+      "published_sha256": "7604f6c52769e8a2349bb57c68e3f71fbf8c2dfe161a52352dd7612d893a7360",
+      "transformation": [
+        "portable author-home and historical host substitution; no policy change"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/docker-path-contract.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/docker-path-contract.md",
+      "source_sha256": "64e0ff4f5ef3ceea5449d371edc5303a6dde1607aafcbfc7aaa246dd5f4ef724",
+      "published_sha256": "64e0ff4f5ef3ceea5449d371edc5303a6dde1607aafcbfc7aaa246dd5f4ef724",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/source-alignment.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/source-alignment.md",
+      "source_sha256": "27a679e8f645e6c67027a9995dbce71d07dd4ce6090413b9b44a2f9d437db76d",
+      "published_sha256": "27a679e8f645e6c67027a9995dbce71d07dd4ce6090413b9b44a2f9d437db76d",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/implementation-policy.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/implementation-policy.md",
+      "source_sha256": "c43ef598003d3242cfa745c83578641c80fd78221d16010b9c44fa766566d778",
+      "published_sha256": "c43ef598003d3242cfa745c83578641c80fd78221d16010b9c44fa766566d778",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/privacy-and-portability.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/privacy-and-portability.md",
+      "source_sha256": "79dd33d8be450ae80bcb6974798fc38520a41cc45e1753c7b24e5418704740e0",
+      "published_sha256": "79dd33d8be450ae80bcb6974798fc38520a41cc45e1753c7b24e5418704740e0",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/harbor-harness.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/harbor-harness.md",
+      "source_sha256": "767b84ba85047d91a18813837f461b70d5805e481dff93b729b3e29507c68965",
+      "published_sha256": "767b84ba85047d91a18813837f461b70d5805e481dff93b729b3e29507c68965",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/exposure-manifest.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/exposure-manifest.md",
+      "source_sha256": "96f42fe852057b89ff428cd633d72b4bc3c7c8afe3dca71e7cb1659ac726df0c",
+      "published_sha256": "96f42fe852057b89ff428cd633d72b4bc3c7c8afe3dca71e7cb1659ac726df0c",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/references/qa-spec.md",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "references/qa-spec.md",
+      "source_sha256": "7a26bce4dde9283b2f3a289659b93f8a7120096059bebc4306d7514609e5475a",
+      "published_sha256": "7a26bce4dde9283b2f3a289659b93f8a7120096059bebc4306d7514609e5475a",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/agents/openai.yaml",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "agents/openai.yaml",
+      "source_sha256": "38c7156722ca4c0471b368b8aadc2c7235e0ac326deb3a6045184b859155646f",
+      "published_sha256": "38c7156722ca4c0471b368b8aadc2c7235e0ac326deb3a6045184b859155646f",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/test_submission_format.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/test_submission_format.py",
+      "source_sha256": "dac90632ade757dced090b4ee1e8bf304a2160e142a5af908c3e393a891e9c9a",
+      "published_sha256": "dac90632ade757dced090b4ee1e8bf304a2160e142a5af908c3e393a891e9c9a",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/implementation_review.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/implementation_review.py",
+      "source_sha256": "2bc8a56a8e2ac890cd0318eedb2073cfe6ce5f78819fd2c48b739e821e8095a2",
+      "published_sha256": "2bc8a56a8e2ac890cd0318eedb2073cfe6ce5f78819fd2c48b739e821e8095a2",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/test_content_gates.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/test_content_gates.py",
+      "source_sha256": "95ca6a2a34fc97a1d64a2a63f534d1ec2ea429edcc9f9b2acd0787279b8ae52b",
+      "published_sha256": "95ca6a2a34fc97a1d64a2a63f534d1ec2ea429edcc9f9b2acd0787279b8ae52b",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/test_harbor_review.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/test_harbor_review.py",
+      "source_sha256": "78561f1b0b0f40f6ce871d71265107a56da070735b4cc8a2e4898b25da82d0bc",
+      "published_sha256": "78561f1b0b0f40f6ce871d71265107a56da070735b4cc8a2e4898b25da82d0bc",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/test_docker_paths.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/test_docker_paths.py",
+      "source_sha256": "df58fa1a1c718431a5b09e36042098c5d3e7d1c050edb224863ecb371245fa03",
+      "published_sha256": "df58fa1a1c718431a5b09e36042098c5d3e7d1c050edb224863ecb371245fa03",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/audit_task.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/audit_task.py",
+      "source_sha256": "6bfed09c69a0d96edad6c463d333e2002aa47b6d6c8103f9e0c233f1ab7fe8a2",
+      "published_sha256": "6bfed09c69a0d96edad6c463d333e2002aa47b6d6c8103f9e0c233f1ab7fe8a2",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/test_qa_consensus.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/test_qa_consensus.py",
+      "source_sha256": "4740e88c9a38dfe62f2f7556165ff26b7ad4bf540e862563e6b4c0423290a174",
+      "published_sha256": "4740e88c9a38dfe62f2f7556165ff26b7ad4bf540e862563e6b4c0423290a174",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/audit_collection.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/audit_collection.py",
+      "source_sha256": "ae43dbaecd8969bbcac06e368cd49af0f2da27de8f22606cfe95a1b945e04b7a",
+      "published_sha256": "ae43dbaecd8969bbcac06e368cd49af0f2da27de8f22606cfe95a1b945e04b7a",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/harbor_review.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/harbor_review.py",
+      "source_sha256": "4e553521659a14b95ce40bd06ad6889a0154bebad4a99ac5482998af697df5d4",
+      "published_sha256": "4e553521659a14b95ce40bd06ad6889a0154bebad4a99ac5482998af697df5d4",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/content_gates.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/content_gates.py",
+      "source_sha256": "0b941f358a64c140ecc0bc8d8bde6c9f4f1b1c4c8d8a8d9974259599234ff590",
+      "published_sha256": "0b941f358a64c140ecc0bc8d8bde6c9f4f1b1c4c8d8a8d9974259599234ff590",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/docker_paths.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/docker_paths.py",
+      "source_sha256": "e738cfa5091a50369a0c83aa672de65896c4fd4e591245da8a390de0b2481a03",
+      "published_sha256": "e738cfa5091a50369a0c83aa672de65896c4fd4e591245da8a390de0b2481a03",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/submission_format.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/submission_format.py",
+      "source_sha256": "25ad4ef67aa15917f3617afff6cd8e244d25871ae2f4ea6887e8287fb245ad8a",
+      "published_sha256": "25ad4ef67aa15917f3617afff6cd8e244d25871ae2f4ea6887e8287fb245ad8a",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/qa_consensus.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/qa_consensus.py",
+      "source_sha256": "3c0d8badc47503013631b5ef6cc274bbd1e94b0a99566cfc0c59e63a5b90898e",
+      "published_sha256": "3c0d8badc47503013631b5ef6cc274bbd1e94b0a99566cfc0c59e63a5b90898e",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/aggregate_qa_reports.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/aggregate_qa_reports.py",
+      "source_sha256": "2827e9bb605f3f14a7a5e660de67e967eb3da9b0c3778c07a5530cc67c2b606d",
+      "published_sha256": "2827e9bb605f3f14a7a5e660de67e967eb3da9b0c3778c07a5530cc67c2b606d",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/test_audit_collection.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/test_audit_collection.py",
+      "source_sha256": "e069469cb33c47eb1a0183dbfeb506f894a4dea6c4a0208d839eebbd2aa71cf6",
+      "published_sha256": "e069469cb33c47eb1a0183dbfeb506f894a4dea6c4a0208d839eebbd2aa71cf6",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/test_audit_task.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/test_audit_task.py",
+      "source_sha256": "ff29243a232b450d0991f369dbfec0c787eefc17fb267cc80a68db02d722b43d",
+      "published_sha256": "ff29243a232b450d0991f369dbfec0c787eefc17fb267cc80a68db02d722b43d",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-task-qa/scripts/test_implementation_review.py",
+      "source_skill": "autoresearch-task-qa",
+      "source_relative_path": "scripts/test_implementation_review.py",
+      "source_sha256": "f68cb9f2ccc737f9a5e3010edb43ab24d9d16d5317540a91e9369b7f227feb46",
+      "published_sha256": "f68cb9f2ccc737f9a5e3010edb43ab24d9d16d5317540a91e9369b7f227feb46",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-baseline-quality/SKILL.md",
+      "source_skill": "autoresearch-baseline-quality",
+      "source_relative_path": "SKILL.md",
+      "source_sha256": "85b3e56bf4fbc2869ae1297518f5a77a234f1050d6026e9cdf77fec5cd15fe50",
+      "published_sha256": "85b3e56bf4fbc2869ae1297518f5a77a234f1050d6026e9cdf77fec5cd15fe50",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-baseline-quality/AGENTS.md",
+      "source_skill": "autoresearch-baseline-quality",
+      "source_relative_path": "AGENTS.md",
+      "source_sha256": "4817cad7f1d05d2ed515ae102bc46a4a3ece22319129c0c1af4922e393b7d8fb",
+      "published_sha256": "4817cad7f1d05d2ed515ae102bc46a4a3ece22319129c0c1af4922e393b7d8fb",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-baseline-quality/CLAUDE.md",
+      "source_skill": "autoresearch-baseline-quality",
+      "source_relative_path": "CLAUDE.md",
+      "source_sha256": "4817cad7f1d05d2ed515ae102bc46a4a3ece22319129c0c1af4922e393b7d8fb",
+      "published_sha256": "4817cad7f1d05d2ed515ae102bc46a4a3ece22319129c0c1af4922e393b7d8fb",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-baseline-quality/references/baseline-review-method.md",
+      "source_skill": "autoresearch-baseline-quality",
+      "source_relative_path": "references/baseline-review-method.md",
+      "source_sha256": "15f996157d18b17209d0640bec24e2c39711fbac682ee7eaac830c7a7a8a568c",
+      "published_sha256": "15f996157d18b17209d0640bec24e2c39711fbac682ee7eaac830c7a7a8a568c",
+      "transformation": null
+    },
+    {
+      "path": "skills/autoresearch-baseline-quality/references/phase3-v4-contract.md",
+      "source_skill": "autoresearch-baseline-quality",
+      "source_relative_path": "references/phase3-v4-contract.md",
+      "source_sha256": "c57f11d0a276ff8397166e31a11a952de40ea34fa728a6867586593a61a77375",
+      "published_sha256": "7604f6c52769e8a2349bb57c68e3f71fbf8c2dfe161a52352dd7612d893a7360",
+      "transformation": [
+        "portable author-home and historical host substitution; no policy change"
+      ]
+    },
+    {
+      "path": "skills/autoresearch-baseline-quality/agents/openai.yaml",
+      "source_skill": "autoresearch-baseline-quality",
+      "source_relative_path": "agents/openai.yaml",
+      "source_sha256": "79d7424f5e8da52b31b833d3d62313b7f5b0dc7e4c91fd9dd3a5852770fe286b",
+      "published_sha256": "79d7424f5e8da52b31b833d3d62313b7f5b0dc7e4c91fd9dd3a5852770fe286b",
+      "transformation": null
+    }
+  ]
+}

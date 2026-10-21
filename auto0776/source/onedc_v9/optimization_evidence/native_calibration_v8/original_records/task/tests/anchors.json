@@ -1,0 +1,33 @@
+{
+  "schema_version": "onedc-anchors.v6",
+  "task": "onedc-quant",
+  "protocol": "full-24-fixed-order; three independent processes; seed=0; public16 then hidden8",
+  "bpp_cap_ratio": 1.005,
+  "baseline_bpp": {
+    "public": 0.020015716552734375,
+    "hidden": 0.02144622802734375,
+    "full": 0.0204925537109375
+  },
+  "baseline": {
+    "public": {
+      "dists": 0.12342559173703194
+    },
+    "hidden": {
+      "dists": 0.10448143631219864
+    },
+    "full": {
+      "dists": 0.11711087326208751
+    }
+  },
+  "upper_bound": {
+    "public": {
+      "dists": 0.118447195738554
+    },
+    "hidden": {
+      "dists": 0.1025531217455864
+    },
+    "full": {
+      "dists": 0.11314917107423146
+    }
+  }
+}

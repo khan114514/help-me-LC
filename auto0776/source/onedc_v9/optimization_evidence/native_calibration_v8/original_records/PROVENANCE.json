@@ -1,0 +1,482 @@
+{
+  "archive_sha256": "2b799f7251c7724163f1d32ead30d404d7d88b28634f35ee859e6e60fbfdddb1",
+  "archive_previously_all516_files_verified": true,
+  "records": [
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/status.json",
+      "original_archive_member": "final-calibration/status.json",
+      "original_sha256": "73c0f8b719614143e1dcdee760b8c7f95280f9807547ceeac9116ae82418526d",
+      "delivered_sha256": "caffe954ad1503df19d35bb7ce3d9d1e8437e80ca45fc4bb90687502e206e49c",
+      "path_string_projection": true,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/requested-config.json",
+      "original_archive_member": "final-calibration/requested-config.json",
+      "original_sha256": "fab3e57bccfd27e3efb5cfc6beebead80cfa6fa703b1fa7866915145b96639f6",
+      "delivered_sha256": "4f1f7ec2020895e81df88d7613d3dc0988221ed7f9890b36119bcce01641267f",
+      "path_string_projection": true,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/task-manifest.json",
+      "original_archive_member": "final-calibration/task-manifest.json",
+      "original_sha256": "7e23598a3a48ebeac9468d80a72cd8a389adaf28748bed66912f87db5f36582b",
+      "delivered_sha256": "2a006d70596b7540d60d27c540ce39cce90b69de4f9303ac31195da9b9e05f85",
+      "path_string_projection": true,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/harbor-result.json",
+      "original_archive_member": "final-calibration/harbor-result.json",
+      "original_sha256": "d8d1634baa072616f5cf83f1325911d38f128b75585c1e3f3a1b97c4caf43528",
+      "delivered_sha256": "ccadfd3ba5dbbaee4fa9e9e5b2afbcb10c728ced61f9c8eaa26822dcf12e4741",
+      "path_string_projection": true,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/trials/onedc_final_bru_bundle_takeover_20261004/result.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/result.json",
+      "original_sha256": "2f61544c3bc5b7ad415d24f4900d2a1d2c7cc788f668cba6580bd716c3f25c9d",
+      "delivered_sha256": "ccadfd3ba5dbbaee4fa9e9e5b2afbcb10c728ced61f9c8eaa26822dcf12e4741",
+      "path_string_projection": true,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/trials/onedc_final_bru_bundle_takeover_20261004/config.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/config.json",
+      "original_sha256": "7a74a9acbec95c2d2060ac4927be7b21b7d83c79d661518d42b82c60b15f5e25",
+      "delivered_sha256": "9e2ac2e78426b2c7a6586474158d174f9b6d459c27a7a2be980b3923d58df20c",
+      "path_string_projection": true,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/trials/onedc_final_bru_bundle_takeover_20261004/trial.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/trial.log",
+      "original_sha256": "03789ea26ea3cb1a374d61c3f4401a358c3a4269578edcbe6ee19416959ec9b7",
+      "delivered_sha256": "03789ea26ea3cb1a374d61c3f4401a358c3a4269578edcbe6ee19416959ec9b7",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/trials/onedc_final_bru_bundle_takeover_20261004/verifier/test-stdout.txt",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/test-stdout.txt",
+      "original_sha256": "fb7f1c5dab871a96f07f58a2adb3ac0317d22f3dc6d030a6aa873c80a7d259b1",
+      "delivered_sha256": "fb7f1c5dab871a96f07f58a2adb3ac0317d22f3dc6d030a6aa873c80a7d259b1",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/trials/onedc_final_bru_bundle_takeover_20261004/verifier/calibration-bundle.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/calibration-bundle.json",
+      "original_sha256": "95e6e38a23ac2863c0976ea475faa9e08ac53d6ef1ed6cbb13a18ab304705320",
+      "delivered_sha256": "95e6e38a23ac2863c0976ea475faa9e08ac53d6ef1ed6cbb13a18ab304705320",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/trials/onedc_final_bru_bundle_takeover_20261004/verifier/reward.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/reward.json",
+      "original_sha256": "1d8511dcb533d7d0ea095ab1fed80023c526956199da238a47b3bcde6e6df655",
+      "delivered_sha256": "1d8511dcb533d7d0ea095ab1fed80023c526956199da238a47b3bcde6e6df655",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/task/tests/calibration_bundle_verifier.py",
+      "original_archive_member": "final-calibration/task/tests/calibration_bundle_verifier.py",
+      "original_sha256": "b84cf234a7f2bbab63b8e2dd0fb15698bb81b4325fd8ebd4df498edfe1724c61",
+      "delivered_sha256": "b84cf234a7f2bbab63b8e2dd0fb15698bb81b4325fd8ebd4df498edfe1724c61",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/task/tests/test.sh",
+      "original_archive_member": "final-calibration/task/tests/test.sh",
+      "original_sha256": "0dcb11a71a379cd9db8f983199806f23c08ad12c407897811eee52d6d4f8c1fc",
+      "delivered_sha256": "0dcb11a71a379cd9db8f983199806f23c08ad12c407897811eee52d6d4f8c1fc",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/task/tests/lease_exec.py",
+      "original_archive_member": "final-calibration/task/tests/lease_exec.py",
+      "original_sha256": "4cd3ebca318722aa72d19c8e003812499b61151e3dcfc972a6fd9cb03086fb98",
+      "delivered_sha256": "4cd3ebca318722aa72d19c8e003812499b61151e3dcfc972a6fd9cb03086fb98",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/task/tests/anchors.json",
+      "original_archive_member": "final-calibration/task/tests/anchors.json",
+      "original_sha256": "e0d6fa1f55c99d2d40dc1ad08fdf61351f7da92eebcf22b2b721c4cc889e0178",
+      "delivered_sha256": "e0d6fa1f55c99d2d40dc1ad08fdf61351f7da92eebcf22b2b721c4cc889e0178",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/methods/B.py",
+      "original_archive_member": "final-calibration/task/tests/methods/B.py",
+      "original_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+      "delivered_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_1/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_1/run.log",
+      "original_sha256": "73558282650f1b60c2c0c050bddc1479504afc5e3f7316161f47141ca10f5038",
+      "delivered_sha256": "73558282650f1b60c2c0c050bddc1479504afc5e3f7316161f47141ca10f5038",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_1/execution.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_1/execution.json",
+      "original_sha256": "b99e179351f4ab069633de4972620b5b5f95f0a4c339d8310c91a48e054224db",
+      "delivered_sha256": "b99e179351f4ab069633de4972620b5b5f95f0a4c339d8310c91a48e054224db",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_1/out/metrics.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_1/out/metrics.json",
+      "original_sha256": "d307b444e6a5215a31c38f49b92eff93ef245e995a71b179f9eb6f36f4972607",
+      "delivered_sha256": "d307b444e6a5215a31c38f49b92eff93ef245e995a71b179f9eb6f36f4972607",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_1/out/detail_bpp.csv",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_1/out/detail_bpp.csv",
+      "original_sha256": "3d51b780a2c6968229a37af2e5438b695ae07285940d96bf17562cc6fba4b378",
+      "delivered_sha256": "3d51b780a2c6968229a37af2e5438b695ae07285940d96bf17562cc6fba4b378",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/baseline_runs/seed_eval_replicate_1/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_1/run.log",
+      "original_sha256": "73558282650f1b60c2c0c050bddc1479504afc5e3f7316161f47141ca10f5038",
+      "delivered_sha256": "73558282650f1b60c2c0c050bddc1479504afc5e3f7316161f47141ca10f5038",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_2/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_2/run.log",
+      "original_sha256": "c0caa742c9d1bf6a311203b9011a27823333a9f8c58192eb4097f78cec92aa11",
+      "delivered_sha256": "c0caa742c9d1bf6a311203b9011a27823333a9f8c58192eb4097f78cec92aa11",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_2/execution.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_2/execution.json",
+      "original_sha256": "0351c8eba6fa80323b61845576b6bcdc89384d0097b1f8e9e8a8cf4cb4631b9f",
+      "delivered_sha256": "0351c8eba6fa80323b61845576b6bcdc89384d0097b1f8e9e8a8cf4cb4631b9f",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_2/out/metrics.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_2/out/metrics.json",
+      "original_sha256": "6e0de4e333cd2255df932b9e48567c722a89f0bf624d05033207eb3e6b2dff12",
+      "delivered_sha256": "6e0de4e333cd2255df932b9e48567c722a89f0bf624d05033207eb3e6b2dff12",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_2/out/detail_bpp.csv",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_2/out/detail_bpp.csv",
+      "original_sha256": "3d51b780a2c6968229a37af2e5438b695ae07285940d96bf17562cc6fba4b378",
+      "delivered_sha256": "3d51b780a2c6968229a37af2e5438b695ae07285940d96bf17562cc6fba4b378",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/baseline_runs/seed_eval_replicate_2/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_2/run.log",
+      "original_sha256": "c0caa742c9d1bf6a311203b9011a27823333a9f8c58192eb4097f78cec92aa11",
+      "delivered_sha256": "c0caa742c9d1bf6a311203b9011a27823333a9f8c58192eb4097f78cec92aa11",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_3/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_3/run.log",
+      "original_sha256": "ea771f056fedb0b3b9d9d0c7ab53d19e476b864c4f7ed48b254fffae45798e03",
+      "delivered_sha256": "ea771f056fedb0b3b9d9d0c7ab53d19e476b864c4f7ed48b254fffae45798e03",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_3/execution.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_3/execution.json",
+      "original_sha256": "4b1bf0edab87053509d4838463a61c72c3220e05498d26152a8cf4a68021f882",
+      "delivered_sha256": "4b1bf0edab87053509d4838463a61c72c3220e05498d26152a8cf4a68021f882",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_3/out/metrics.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_3/out/metrics.json",
+      "original_sha256": "5c876823c037537ac7fe1bdabe094510b9b36ba9470456aae14bca7ac89f48ac",
+      "delivered_sha256": "5c876823c037537ac7fe1bdabe094510b9b36ba9470456aae14bca7ac89f48ac",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/B_3/out/detail_bpp.csv",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_3/out/detail_bpp.csv",
+      "original_sha256": "3d51b780a2c6968229a37af2e5438b695ae07285940d96bf17562cc6fba4b378",
+      "delivered_sha256": "3d51b780a2c6968229a37af2e5438b695ae07285940d96bf17562cc6fba4b378",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/baseline_runs/seed_eval_replicate_3/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/B_3/run.log",
+      "original_sha256": "ea771f056fedb0b3b9d9d0c7ab53d19e476b864c4f7ed48b254fffae45798e03",
+      "delivered_sha256": "ea771f056fedb0b3b9d9d0c7ab53d19e476b864c4f7ed48b254fffae45798e03",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/methods/R.py",
+      "original_archive_member": "final-calibration/task/tests/methods/R.py",
+      "original_sha256": "48dbf1ef65c4a4ec8498160ca4d4943d32e082bb96bb4e3fb9c9b9fe95a26444",
+      "delivered_sha256": "48dbf1ef65c4a4ec8498160ca4d4943d32e082bb96bb4e3fb9c9b9fe95a26444",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_1/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_1/run.log",
+      "original_sha256": "125825a05fb78aa5086fcd5285d76dc724a62043bedc702f0f0af4c7ba0c856e",
+      "delivered_sha256": "125825a05fb78aa5086fcd5285d76dc724a62043bedc702f0f0af4c7ba0c856e",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_1/execution.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_1/execution.json",
+      "original_sha256": "ff29971726bd5baddd68caacfb89fb5608c1fac24c2e4b5d733ebce99835540c",
+      "delivered_sha256": "ff29971726bd5baddd68caacfb89fb5608c1fac24c2e4b5d733ebce99835540c",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_1/out/metrics.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_1/out/metrics.json",
+      "original_sha256": "6f644efcbae9f3070c2ca205a7036ad02f48ccf5f6d9a7c7402fc74519be45ee",
+      "delivered_sha256": "6f644efcbae9f3070c2ca205a7036ad02f48ccf5f6d9a7c7402fc74519be45ee",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_1/out/detail_bpp.csv",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_1/out/detail_bpp.csv",
+      "original_sha256": "f87ec01751177ea5f38bdbf8babaf6ce3f29c55014e08d54a8fb5db8e1006dae",
+      "delivered_sha256": "f87ec01751177ea5f38bdbf8babaf6ce3f29c55014e08d54a8fb5db8e1006dae",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/reference_runs/seed_eval_replicate_1/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_1/run.log",
+      "original_sha256": "125825a05fb78aa5086fcd5285d76dc724a62043bedc702f0f0af4c7ba0c856e",
+      "delivered_sha256": "125825a05fb78aa5086fcd5285d76dc724a62043bedc702f0f0af4c7ba0c856e",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_2/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_2/run.log",
+      "original_sha256": "d39495c207a2b52f00146699f2f4b9cc3b1dc1a970c7f289305e75dead313b37",
+      "delivered_sha256": "d39495c207a2b52f00146699f2f4b9cc3b1dc1a970c7f289305e75dead313b37",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_2/execution.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_2/execution.json",
+      "original_sha256": "623c1f45336bfdfdb1b8f803eb32825682323b0aaa41c5db2efb7854fb5334c7",
+      "delivered_sha256": "623c1f45336bfdfdb1b8f803eb32825682323b0aaa41c5db2efb7854fb5334c7",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_2/out/metrics.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_2/out/metrics.json",
+      "original_sha256": "3cb6eb366196683903f085bfc685a947fd23c5e7c7bf34e972d9803eeeb0a039",
+      "delivered_sha256": "3cb6eb366196683903f085bfc685a947fd23c5e7c7bf34e972d9803eeeb0a039",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_2/out/detail_bpp.csv",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_2/out/detail_bpp.csv",
+      "original_sha256": "f87ec01751177ea5f38bdbf8babaf6ce3f29c55014e08d54a8fb5db8e1006dae",
+      "delivered_sha256": "f87ec01751177ea5f38bdbf8babaf6ce3f29c55014e08d54a8fb5db8e1006dae",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/reference_runs/seed_eval_replicate_2/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_2/run.log",
+      "original_sha256": "d39495c207a2b52f00146699f2f4b9cc3b1dc1a970c7f289305e75dead313b37",
+      "delivered_sha256": "d39495c207a2b52f00146699f2f4b9cc3b1dc1a970c7f289305e75dead313b37",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_3/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_3/run.log",
+      "original_sha256": "125825a05fb78aa5086fcd5285d76dc724a62043bedc702f0f0af4c7ba0c856e",
+      "delivered_sha256": "125825a05fb78aa5086fcd5285d76dc724a62043bedc702f0f0af4c7ba0c856e",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_3/execution.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_3/execution.json",
+      "original_sha256": "5d8fe4957cb55dc1e1349df153a88fd1b94f3b98c4b76935c9dc7150a0505172",
+      "delivered_sha256": "5d8fe4957cb55dc1e1349df153a88fd1b94f3b98c4b76935c9dc7150a0505172",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_3/out/metrics.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_3/out/metrics.json",
+      "original_sha256": "eb33a83d94775c80e0e5aa3196bd9c39704298e48c81315c6ed5d5f2afb0609e",
+      "delivered_sha256": "eb33a83d94775c80e0e5aa3196bd9c39704298e48c81315c6ed5d5f2afb0609e",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/R_3/out/detail_bpp.csv",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_3/out/detail_bpp.csv",
+      "original_sha256": "f87ec01751177ea5f38bdbf8babaf6ce3f29c55014e08d54a8fb5db8e1006dae",
+      "delivered_sha256": "f87ec01751177ea5f38bdbf8babaf6ce3f29c55014e08d54a8fb5db8e1006dae",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/reference_runs/seed_eval_replicate_3/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/R_3/run.log",
+      "original_sha256": "125825a05fb78aa5086fcd5285d76dc724a62043bedc702f0f0af4c7ba0c856e",
+      "delivered_sha256": "125825a05fb78aa5086fcd5285d76dc724a62043bedc702f0f0af4c7ba0c856e",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/methods/U.py",
+      "original_archive_member": "final-calibration/task/tests/methods/U.py",
+      "original_sha256": "b3d03a7d2010b3e65e1c277f6c33e238f5f4abed68976afa978272e8c3473ef7",
+      "delivered_sha256": "b3d03a7d2010b3e65e1c277f6c33e238f5f4abed68976afa978272e8c3473ef7",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_1/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_1/run.log",
+      "original_sha256": "181201ed4b02a3db40ae01e7b4ebcb75075133b3feab96f89429d72d45e088db",
+      "delivered_sha256": "181201ed4b02a3db40ae01e7b4ebcb75075133b3feab96f89429d72d45e088db",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_1/execution.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_1/execution.json",
+      "original_sha256": "f92bfb68c8d5719bcc09a5ebd0c05110e36bb8da84e8829a2792ecd894e2b8c5",
+      "delivered_sha256": "f92bfb68c8d5719bcc09a5ebd0c05110e36bb8da84e8829a2792ecd894e2b8c5",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_1/out/metrics.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_1/out/metrics.json",
+      "original_sha256": "520492c69d19f0f95ed4a134d46f9a2281d41bdac7b5d0bf8117ae4f61b7efc8",
+      "delivered_sha256": "520492c69d19f0f95ed4a134d46f9a2281d41bdac7b5d0bf8117ae4f61b7efc8",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_1/out/detail_bpp.csv",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_1/out/detail_bpp.csv",
+      "original_sha256": "e3d1caf7f4b9876c6c8420e828310d81f1609e8a23e2a39d31d3536db5093684",
+      "delivered_sha256": "e3d1caf7f4b9876c6c8420e828310d81f1609e8a23e2a39d31d3536db5093684",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_2/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_2/run.log",
+      "original_sha256": "927a97efe158aad90baeb216ceb247369fe095f8ea1986842f0c742f45d9cd67",
+      "delivered_sha256": "927a97efe158aad90baeb216ceb247369fe095f8ea1986842f0c742f45d9cd67",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_2/execution.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_2/execution.json",
+      "original_sha256": "19885d3c403c33cac9a8627fdcb92df3b5746731060ed4ec33382b33dc8c1051",
+      "delivered_sha256": "19885d3c403c33cac9a8627fdcb92df3b5746731060ed4ec33382b33dc8c1051",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_2/out/metrics.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_2/out/metrics.json",
+      "original_sha256": "5227ff57d4474aa0add7d5fcd9cc17b3e7732a834d4db78b9bbe2a5ad97227e1",
+      "delivered_sha256": "5227ff57d4474aa0add7d5fcd9cc17b3e7732a834d4db78b9bbe2a5ad97227e1",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_2/out/detail_bpp.csv",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_2/out/detail_bpp.csv",
+      "original_sha256": "e3d1caf7f4b9876c6c8420e828310d81f1609e8a23e2a39d31d3536db5093684",
+      "delivered_sha256": "e3d1caf7f4b9876c6c8420e828310d81f1609e8a23e2a39d31d3536db5093684",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_3/run.log",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_3/run.log",
+      "original_sha256": "0c2c4c08c5015861e7c4aca355e4857c955805a9da7b2fbb5b14e2691dbd13d2",
+      "delivered_sha256": "0c2c4c08c5015861e7c4aca355e4857c955805a9da7b2fbb5b14e2691dbd13d2",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_3/execution.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_3/execution.json",
+      "original_sha256": "7943d364b607a562143195d0b36220f5dddec495b0ccfd9e5a8c0e6d92e21eb3",
+      "delivered_sha256": "7943d364b607a562143195d0b36220f5dddec495b0ccfd9e5a8c0e6d92e21eb3",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_3/out/metrics.json",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_3/out/metrics.json",
+      "original_sha256": "5ca38e3246371e51617eb7ac25f2522adedd2c9d5febb6918adf3c5c11b756a3",
+      "delivered_sha256": "5ca38e3246371e51617eb7ac25f2522adedd2c9d5febb6918adf3c5c11b756a3",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    },
+    {
+      "member": "optimization_evidence/native_calibration_v8/original_records/raw/U_3/out/detail_bpp.csv",
+      "original_archive_member": "final-calibration/trials/onedc_final_bru_bundle_takeover_20261004/verifier/raw/U_3/out/detail_bpp.csv",
+      "original_sha256": "e3d1caf7f4b9876c6c8420e828310d81f1609e8a23e2a39d31d3536db5093684",
+      "delivered_sha256": "e3d1caf7f4b9876c6c8420e828310d81f1609e8a23e2a39d31d3536db5093684",
+      "path_string_projection": false,
+      "numeric_boolean_null_unchanged": true
+    }
+  ],
+  "scope": "Original combined stdout/stderr, execution commands, metrics and actual unified Harbor Trial. Hidden pixels, reconstructions and streams not exported. All selected raw source bytes matched prior original manifest. Not a new run or research credit.",
+  "full_reference_normalized": 0.6243098009518612,
+  "native_bundle_public_only_reference_normalized": 0.5736041748666919,
+  "both_normalizations_distinct_scopes": true
+}

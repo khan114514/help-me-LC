@@ -1,0 +1,40 @@
+{
+  "schema_version": "onedc-nop-metrics-summary.v1",
+  "split": "full",
+  "method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+  "image_count": 24,
+  "public_image_count": 16,
+  "hidden_image_count": 8,
+  "bpp_mean": 0.0204925537109375,
+  "dists": 0.11711087326208751,
+  "lpips": 0.17629042702416578,
+  "psnr": 21.74609302673294,
+  "msssim": 0.7513415142893791,
+  "public": {
+    "dists": 0.12342559173703194,
+    "lpips": 0.18519677966833115,
+    "psnr": 21.452535560266103,
+    "msssim": 0.7377250380814075,
+    "bpp_mean": 0.020015716552734375,
+    "n": 16
+  },
+  "hidden": {
+    "dists": 0.10448143631219864,
+    "lpips": 0.15847772173583508,
+    "psnr": 22.33320795966661,
+    "msssim": 0.7785744667053223,
+    "bpp_mean": 0.02144622802734375,
+    "n": 8
+  },
+  "status": "ok",
+  "valid": true,
+  "score": 0,
+  "bpp_in_window": true,
+  "anchors": {
+    "baseline_dists": 0.11711087326208751,
+    "upper_bound_dists": 0.11314917107423146
+  },
+  "elapsed_sec": 37.32864025123126,
+  "note": "Per-image private-test measurements are intentionally omitted. The raw private log is bound by SHA256 in task-binding.json."
+}
+

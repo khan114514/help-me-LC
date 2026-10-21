@@ -1,0 +1,308 @@
+{
+  "round": 31,
+  "candidate_sha256": "5f780da99f33f94dfcc37b14178a78b078e4568821299d9c8dca1d66da6e2dcd",
+  "trusted_method_sha256": "5f780da99f33f94dfcc37b14178a78b078e4568821299d9c8dca1d66da6e2dcd",
+  "clock": {
+    "eligible": true,
+    "wall_seconds": 204.2670865058899,
+    "failed_request_seconds": 0.0,
+    "gpu_queue_seconds": 1.550899469293654e-05,
+    "effective_seconds": 204.2670709968952,
+    "completed_provider_responses": 13
+  },
+  "cli_exit": 0,
+  "retained_best": true,
+  "novel_method_semantics": true,
+  "method_semantics_sha256": "23f97c073da4e7476e640c0d8573b343de38d354e49b63969dc0ea1476a1fdf6",
+  "new_public_receipts": [
+    {
+      "split": "public",
+      "method_sha256": "5f780da99f33f94dfcc37b14178a78b078e4568821299d9c8dca1d66da6e2dcd",
+      "bpp_mean": 0.020025889078776043,
+      "bpp_per_image": {
+        "kodim01": 0.02099609375,
+        "kodim02": 0.017435709635416668,
+        "kodim04": 0.019429524739583332,
+        "kodim08": 0.025594075520833332,
+        "kodim11": 0.019510904947916668,
+        "kodim12": 0.015665690104166668,
+        "kodim13": 0.01861572265625,
+        "kodim14": 0.0250244140625,
+        "kodim16": 0.01470947265625,
+        "kodim17": 0.026448567708333332,
+        "kodim18": 0.021240234375,
+        "kodim19": 0.018025716145833332,
+        "kodim20": 0.014485677083333334,
+        "kodim21": 0.016357421875,
+        "kodim23": 0.021240234375,
+        "kodim24": 0.025634765625
+      },
+      "dists": 0.11973695084452629,
+      "lpips": 0.18405506387352943,
+      "psnr": 21.493977938067136,
+      "msssim": 0.7412809357047081,
+      "per_image": [
+        {
+          "image": "kodim01",
+          "split": "public",
+          "bpp": 0.02099609375,
+          "psnr": 19.451038131098368,
+          "msssim": 0.656509280204773,
+          "lpips": 0.20965012907981873,
+          "dists": 0.1404355764389038
+        },
+        {
+          "image": "kodim02",
+          "split": "public",
+          "bpp": 0.017435709635416668,
+          "psnr": 24.523003957035776,
+          "msssim": 0.7933166027069092,
+          "lpips": 0.18912138044834137,
+          "dists": 0.13789331912994385
+        },
+        {
+          "image": "kodim04",
+          "split": "public",
+          "bpp": 0.019429524739583332,
+          "psnr": 24.533550790480916,
+          "msssim": 0.8103474974632263,
+          "lpips": 0.15210773050785065,
+          "dists": 0.09127151966094971
+        },
+        {
+          "image": "kodim08",
+          "split": "public",
+          "bpp": 0.025594075520833332,
+          "psnr": 16.85953978141307,
+          "msssim": 0.7306193113327026,
+          "lpips": 0.2121237814426422,
+          "dists": 0.14393389225006104
+        },
+        {
+          "image": "kodim11",
+          "split": "public",
+          "bpp": 0.019510904947916668,
+          "psnr": 21.094539613731307,
+          "msssim": 0.730410099029541,
+          "lpips": 0.1944688856601715,
+          "dists": 0.12174171209335327
+        },
+        {
+          "image": "kodim12",
+          "split": "public",
+          "bpp": 0.015665690104166668,
+          "psnr": 24.641921621052024,
+          "msssim": 0.8126925826072693,
+          "lpips": 0.14818120002746582,
+          "dists": 0.10753673315048218
+        },
+        {
+          "image": "kodim13",
+          "split": "public",
+          "bpp": 0.01861572265625,
+          "psnr": 16.807258042721372,
+          "msssim": 0.4934106469154358,
+          "lpips": 0.2999255955219269,
+          "dists": 0.1676102876663208
+        },
+        {
+          "image": "kodim14",
+          "split": "public",
+          "bpp": 0.0250244140625,
+          "psnr": 19.81147025074094,
+          "msssim": 0.6455731391906738,
+          "lpips": 0.2270357608795166,
+          "dists": 0.11426538228988647
+        },
+        {
+          "image": "kodim16",
+          "split": "public",
+          "bpp": 0.01470947265625,
+          "psnr": 23.64728948797903,
+          "msssim": 0.7212587594985962,
+          "lpips": 0.15553796291351318,
+          "dists": 0.11336272954940796
+        },
+        {
+          "image": "kodim17",
+          "split": "public",
+          "bpp": 0.026448567708333332,
+          "psnr": 23.055876836359626,
+          "msssim": 0.8118824362754822,
+          "lpips": 0.16373464465141296,
+          "dists": 0.12054359912872314
+        },
+        {
+          "image": "kodim18",
+          "split": "public",
+          "bpp": 0.021240234375,
+          "psnr": 19.65111161589653,
+          "msssim": 0.6358004808425903,
+          "lpips": 0.22719351947307587,
+          "dists": 0.12974613904953003
+        },
+        {
+          "image": "kodim19",
+          "split": "public",
+          "bpp": 0.018025716145833332,
+          "psnr": 21.782410411183776,
+          "msssim": 0.7752830386161804,
+          "lpips": 0.16317781805992126,
+          "dists": 0.1070561408996582
+        },
+        {
+          "image": "kodim20",
+          "split": "public",
+          "bpp": 0.014485677083333334,
+          "psnr": 24.013318230171734,
+          "msssim": 0.8773469924926758,
+          "lpips": 0.10408952832221985,
+          "dists": 0.10095465183258057
+        },
+        {
+          "image": "kodim21",
+          "split": "public",
+          "bpp": 0.016357421875,
+          "psnr": 19.923167020578983,
+          "msssim": 0.7643203735351562,
+          "lpips": 0.1800709366798401,
+          "dists": 0.11239540576934814
+        },
+        {
+          "image": "kodim23",
+          "split": "public",
+          "bpp": 0.021240234375,
+          "psnr": 24.47065144625271,
+          "msssim": 0.8740660548210144,
+          "lpips": 0.10058687627315521,
+          "dists": 0.08251756429672241
+        },
+        {
+          "image": "kodim24",
+          "split": "public",
+          "bpp": 0.025634765625,
+          "psnr": 19.637499772378018,
+          "msssim": 0.727657675743103,
+          "lpips": 0.21787527203559875,
+          "dists": 0.12452656030654907
+        }
+      ],
+      "elapsed_sec": 37.97582969679206,
+      "queue_elapsed_sec": 1.550899469293654e-05,
+      "evaluation_elapsed_sec": 37.975814903053106,
+      "status": "ok",
+      "valid": true,
+      "failure_type": null,
+      "score": 0.7409295872874292,
+      "score_clipped": 0.7409295872874292,
+      "bpp_in_window": true,
+      "bpp_cap": 0.020115795135498046,
+      "anchors": {
+        "baseline_dists": 0.12342559173703194,
+        "upper_bound_dists": 0.118447195738554
+      },
+      "violation": null,
+      "exit_code": 0,
+      "run_id": "9205377851d9434e93f1c563343bbba6"
+    }
+  ],
+  "native_event_observations": {
+    "turn_completed": true,
+    "completed_command_tools": [
+      {
+        "id": "item_1",
+        "status": "failed",
+        "exit_code": 127,
+        "command_sha256": "71bc5e1a278b8f9bd07d8fcd8930b5673992d387057bdd825f04fdbee7d256fc",
+        "output_sha256": "91df8b7d4c066a8c75d908bb8dee060a8aa076a21c58a605aa88dd48d9191666"
+      },
+      {
+        "id": "item_2",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "9e5915b2a9008450a8bf4a8b20659cfd271f70de0733abe8ed99accdd24c5c4a",
+        "output_sha256": "2ec7224e35e2fcf7510ed3465102e579273ca28ddb9f15882fa99200425b22e3"
+      },
+      {
+        "id": "item_3",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "0445c20d66813d074631977cd99cf3218f5e19ea3f799779e8b48f9b008d1614",
+        "output_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59"
+      },
+      {
+        "id": "item_4",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "74767d8f99bde13eb29c105abc00b6f998cc84a998c5a295cbe3cfd3e48794ca",
+        "output_sha256": "fe019fcf393cb588ab7cde128e899d1f26d1e1349d67955f21371bbc0130f117"
+      },
+      {
+        "id": "item_5",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "5a463a38e2fb1a9584e9daf9d8fd6d8804bec8af5b49a3aa3d4dcd9346ec802a",
+        "output_sha256": "c10022a8f3d0f65f6b1e8dcb4405956fe31c4cdf26c3e40a27407d31b6e90bad"
+      },
+      {
+        "id": "item_6",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "1f30e2fe98cf67c7279edc0b91744a4209821d86b38e60ca871bf49cdf528032",
+        "output_sha256": "579c7fd708c4d236512825b7101f1a3c94c5e220338cacc66f684d5ed0be7b33"
+      },
+      {
+        "id": "item_7",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "2223ef69a30636914db365919c40ed466398f360e6c65d5ba5c3f57fd33d7466",
+        "output_sha256": "6aed54e6450bdb818d62e3d7fe1114bb4fea6b0d3122178951d79017100ad9cd"
+      },
+      {
+        "id": "item_8",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "0a6c3f37c9ef942df1804a2802a9d279434fc2d8f166005b8d8a1c0204b86f76",
+        "output_sha256": "db6a3636c405527bed1f6702b295f28fe6e7b749694e086930529cb983631b98"
+      },
+      {
+        "id": "item_9",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "77a6fa3e2f561b0104405533b92419f72abe3902c60aef3b74b63e742a6821ca",
+        "output_sha256": "6d1ff2d4166b431d058c6abcf3aa0bfe4a2e81b23ce5924e8e7e77775f59adb2"
+      },
+      {
+        "id": "item_12",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "d1ef07d2303e6ec3252076f220dac6955d38d9efcb6c9955a48bc922d9e7aff1",
+        "output_sha256": "fe33df0fd3b3ac38e1eda98dcac093ff2dc185a2ad112570f660f8afd0ccc6a2"
+      },
+      {
+        "id": "item_14",
+        "status": "completed",
+        "exit_code": 0,
+        "command_sha256": "34486fb2ee248dcc336b038a7ba5f1075ccedb5912e4143550b8cf3da8795833",
+        "output_sha256": "8dc28753d74573686a03e42d709f31f6e62d2d870741240b213083c9d5a2995f"
+      }
+    ],
+    "event_types": [
+      "item.completed",
+      "item.started",
+      "thread.started",
+      "turn.completed",
+      "turn.started"
+    ]
+  },
+  "evidence_export": {
+    "kind": "derived_audit_projection",
+    "original_audit_sha256": "5479353e4b6cfef1e9b3d4b1c5a641e1f589f75b33f3456abe6d2d2d18789bbd",
+    "original_events_sha256": "e04210c9a3366bcf50924f146e9e119ecfcbe633153cd55bf695ca1c6f0e5f6e",
+    "omitted_fields": [
+      "gateway_records"
+    ],
+    "raw_private_sources_preserved": true,
+    "clock_is_original_strict_supplementary_not_primary_user_clock": true
+  }
+}

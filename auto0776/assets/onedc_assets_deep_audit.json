@@ -1,0 +1,208 @@
+{
+  "source_sha256": "e5476ca6cf35c750b0d847f01c3ef6a5dec98d4158adefcaabd380c4135e2fc5",
+  "export": "path-projected original audit, no new asset verification",
+  "audit": {
+    "source": "${ORIGINAL_LOCAL_HOME}/WorkBuddy/2026-10-03-21-07-06/private-recovery/onedc-assets.tar.gz",
+    "size_bytes": 9193898241,
+    "mtime_ns": 1791092609774234595,
+    "inode": 11736818,
+    "device": 16777233,
+    "sha256": "adf37d23103580414fe4df8f51d6e8ca642b79af717d758717b21d2b316a3a1d",
+    "all_members_audited": true,
+    "members": [
+      {
+        "name": "./asset_manifest.json",
+        "size": 3307,
+        "sha256": "0fb8b05ec731a871c18961981dc49a8d5a4488491deeb29e277cf2649fa98c4b",
+        "format": "asset manifest JSON"
+      },
+      {
+        "name": "./torch/hub/checkpoints/vgg16-397923af.pth",
+        "size": 553433881,
+        "sha256": "397923af8e79cdbb6a7127f12361acd7a2f83e06b05044ddf496e83de57a5bf0",
+        "format": "torch legacy",
+        "symbolic_pickle_streams": 5,
+        "storage_count": 32,
+        "metadata_bytes": 3449,
+        "numeric_payload_size_complete": true
+      },
+      {
+        "name": "./torch/hub/checkpoints/alexnet-owt-7be5be79.pth",
+        "size": 244408911,
+        "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02",
+        "format": "torch ZIP",
+        "symbolic_metadata": true,
+        "storage_count": 16,
+        "all_zip_crc_verified": true,
+        "numeric_payload_size_complete": true
+      },
+      {
+        "name": "./hf/hub/models--stabilityai--stable-diffusion-2-1/snapshots/0000000000000000000000000000000000000001/vae/diffusion_pytorch_model.safetensors",
+        "size": 334643276,
+        "sha256": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815",
+        "format": "safetensors",
+        "tensor_count": 248,
+        "header_bytes": 27816,
+        "numeric_payload_coverage_complete": true
+      },
+      {
+        "name": "./hf/hub/models--stabilityai--stable-diffusion-2-1/snapshots/0000000000000000000000000000000000000001/vae/config.json",
+        "size": 611,
+        "sha256": "d69281aa3f6a0f3c41aaf6778e35464fc6ee8a92e6ac8a8b1eb679f6df6423eb",
+        "format": "primitive architecture JSON"
+      },
+      {
+        "name": "./hf/hub/models--stabilityai--stable-diffusion-2-1/refs/main",
+        "size": 40,
+        "sha256": "ac39233f6b706526fa1f93aa538367da928efa1848c7c89444ca38f8ff901588",
+        "format": "public revision hash"
+      },
+      {
+        "name": "./hf/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/scheduler/scheduler_config.json",
+        "size": 308,
+        "sha256": "699cce92eb7c122e2eb7dfdea78e6187fda76a5ed4a8e42319b85610e620e091",
+        "format": "primitive architecture JSON"
+      },
+      {
+        "name": "./hf/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/unet/diffusion_pytorch_model.safetensors",
+        "size": 3438167540,
+        "sha256": "19da7aaa4b880e59d56843f1fcb4dd9b599c28a1d9d9af7c1143057c8ffae9f1",
+        "format": "safetensors",
+        "tensor_count": 686,
+        "header_bytes": 83676,
+        "numeric_payload_coverage_complete": true
+      },
+      {
+        "name": "./hf/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/unet/config.json",
+        "size": 743,
+        "sha256": "78f474de6bab3d893868f37be97b636ae65c0df3073ed3256ca458ff599b5f96",
+        "format": "primitive architecture JSON"
+      },
+      {
+        "name": "./hf/hub/models--runwayml--stable-diffusion-v1-5/refs/main",
+        "size": 40,
+        "sha256": "9f1be15d2e250df94a702bf381da6f56a41c5aaf4591e130365bc1abe2190b44",
+        "format": "public revision hash"
+      },
+      {
+        "name": "./hf/hub/models--madebyollin--taesd/snapshots/614f76814bbe30edbe2e627ace1c2234c81a2c0e/diffusion_pytorch_model.safetensors",
+        "size": 9793292,
+        "sha256": "db169d69145ec4ff064e49d99c95fa05d3eb04ee453de35824a6d0f325513549",
+        "format": "safetensors",
+        "tensor_count": 134,
+        "header_bytes": 13032,
+        "numeric_payload_coverage_complete": true
+      },
+      {
+        "name": "./hf/hub/models--madebyollin--taesd/snapshots/614f76814bbe30edbe2e627ace1c2234c81a2c0e/config.json",
+        "size": 597,
+        "sha256": "3ebefd1aa96ac474cc6430fe6ea81febccf7ee82461715691ee9315c884adeef",
+        "format": "primitive architecture JSON"
+      },
+      {
+        "name": "./hf/hub/models--madebyollin--taesd/snapshots/614f76814bbe30edbe2e627ace1c2234c81a2c0e/diffusion_pytorch_model.bin",
+        "size": 9823878,
+        "sha256": "5fd7edbf16d049365dda1dfd6df71526dc1b24ce78537dcad733f7b73921d267",
+        "format": "torch ZIP",
+        "symbolic_metadata": true,
+        "storage_count": 134,
+        "all_zip_crc_verified": true,
+        "numeric_payload_size_complete": true
+      },
+      {
+        "name": "./hf/hub/models--madebyollin--taesd/refs/main",
+        "size": 40,
+        "sha256": "e1fa714832b5e9cf187f11f261651fa5afaa5b7124ea83b0a278b8afdacdb913",
+        "format": "public revision hash"
+      },
+      {
+        "name": "./lambda4.6/model.safetensors",
+        "size": 3714647200,
+        "sha256": "5986ca3ab874c886044a316dce72a6fff6d924fa1825c98a4455f84afe6614ee",
+        "format": "safetensors",
+        "tensor_count": 1252,
+        "header_bytes": 170088,
+        "numeric_payload_coverage_complete": true
+      },
+      {
+        "name": "./lambda4.6/model_1.safetensors",
+        "size": 1576680148,
+        "sha256": "6dd4dc0d02ae00d8b7b24bfcd4d8acbf043c72a33042f270afccd539144bc6f3",
+        "format": "safetensors",
+        "tensor_count": 779,
+        "header_bytes": 89008,
+        "numeric_payload_coverage_complete": true
+      }
+    ],
+    "manifest": {
+      "files": {
+        "hf/hub/models--madebyollin--taesd/refs/main": {
+          "sha256": "e1fa714832b5e9cf187f11f261651fa5afaa5b7124ea83b0a278b8afdacdb913",
+          "size": 40
+        },
+        "hf/hub/models--madebyollin--taesd/snapshots/614f76814bbe30edbe2e627ace1c2234c81a2c0e/config.json": {
+          "sha256": "3ebefd1aa96ac474cc6430fe6ea81febccf7ee82461715691ee9315c884adeef",
+          "size": 597
+        },
+        "hf/hub/models--madebyollin--taesd/snapshots/614f76814bbe30edbe2e627ace1c2234c81a2c0e/diffusion_pytorch_model.bin": {
+          "sha256": "5fd7edbf16d049365dda1dfd6df71526dc1b24ce78537dcad733f7b73921d267",
+          "size": 9823878
+        },
+        "hf/hub/models--madebyollin--taesd/snapshots/614f76814bbe30edbe2e627ace1c2234c81a2c0e/diffusion_pytorch_model.safetensors": {
+          "sha256": "db169d69145ec4ff064e49d99c95fa05d3eb04ee453de35824a6d0f325513549",
+          "size": 9793292
+        },
+        "hf/hub/models--runwayml--stable-diffusion-v1-5/refs/main": {
+          "sha256": "9f1be15d2e250df94a702bf381da6f56a41c5aaf4591e130365bc1abe2190b44",
+          "size": 40
+        },
+        "hf/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/scheduler/scheduler_config.json": {
+          "sha256": "699cce92eb7c122e2eb7dfdea78e6187fda76a5ed4a8e42319b85610e620e091",
+          "size": 308
+        },
+        "hf/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/unet/config.json": {
+          "sha256": "78f474de6bab3d893868f37be97b636ae65c0df3073ed3256ca458ff599b5f96",
+          "size": 743
+        },
+        "hf/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/unet/diffusion_pytorch_model.safetensors": {
+          "sha256": "19da7aaa4b880e59d56843f1fcb4dd9b599c28a1d9d9af7c1143057c8ffae9f1",
+          "size": 3438167540
+        },
+        "hf/hub/models--stabilityai--stable-diffusion-2-1/refs/main": {
+          "sha256": "ac39233f6b706526fa1f93aa538367da928efa1848c7c89444ca38f8ff901588",
+          "size": 40
+        },
+        "hf/hub/models--stabilityai--stable-diffusion-2-1/snapshots/0000000000000000000000000000000000000001/vae/config.json": {
+          "sha256": "d69281aa3f6a0f3c41aaf6778e35464fc6ee8a92e6ac8a8b1eb679f6df6423eb",
+          "size": 611
+        },
+        "hf/hub/models--stabilityai--stable-diffusion-2-1/snapshots/0000000000000000000000000000000000000001/vae/diffusion_pytorch_model.safetensors": {
+          "sha256": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815",
+          "size": 334643276
+        },
+        "lambda4.6/model.safetensors": {
+          "sha256": "5986ca3ab874c886044a316dce72a6fff6d924fa1825c98a4455f84afe6614ee",
+          "size": 3714647200
+        },
+        "lambda4.6/model_1.safetensors": {
+          "sha256": "6dd4dc0d02ae00d8b7b24bfcd4d8acbf043c72a33042f270afccd539144bc6f3",
+          "size": 1576680148
+        },
+        "torch/hub/checkpoints/alexnet-owt-7be5be79.pth": {
+          "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02",
+          "size": 244408911
+        },
+        "torch/hub/checkpoints/vgg16-397923af.pth": {
+          "sha256": "397923af8e79cdbb6a7127f12361acd7a2f83e06b05044ddf496e83de57a5bf0",
+          "size": 553433881
+        }
+      },
+      "schema_version": "onedc-offline-assets.v1",
+      "source_fidelity": "Transport hashes verified separately. Cache revision labels alone do not authenticate upstream provenance.",
+      "symlinks": {}
+    },
+    "eligible_content": true,
+    "reason": "All15 model/config/revision members reconcile exact SHA256/size with original public model asset manifest; 16th manifest safe primitive metadata; no unreviewed members.",
+    "manifest_hashes_all_match": true
+  }
+}

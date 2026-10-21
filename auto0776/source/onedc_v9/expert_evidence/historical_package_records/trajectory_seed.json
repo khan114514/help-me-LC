@@ -1,0 +1,135 @@
+{
+  "schema_version": "autoresearch-trajectory.v1",
+  "run_id": "onedc-final-v8-seed",
+  "model": "doubao-seed-2-1-turbo-260628",
+  "reasoning_effort": "high",
+  "run_duration_seconds": 53816.49066,
+  "effective_seconds": 53801.68181686417,
+  "excluded_no_connection_seconds": 14.80884313583374,
+  "time_accounting": "Count all elapsed task work from the documented shared start; exclude only evidence-backed intervals with no HTTP status or response.",
+  "rounds": [
+    {
+      "round": 1,
+      "policy_name": "method-attempt-1",
+      "method_summary": "Model method attempt; complete implementation and tool evidence are retained in the private round audit.",
+      "status": "ok",
+      "score": 0.12226979061961174,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 16:32:27",
+      "controller_status": "model_execution_failure",
+      "controller_failure_reason": "CLI execution did not close; own processes cancelled, duration excluded"
+    },
+    {
+      "round": 2,
+      "policy_name": "method-attempt-2",
+      "method_summary": "Model method attempt; complete implementation and tool evidence are retained in the private round audit.",
+      "status": "ok",
+      "score": 0.12134469673037529,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 16:47:30",
+      "controller_status": "model_cli_error",
+      "controller_failure_reason": "CLI exit 1; duration excluded"
+    },
+    {
+      "round": 4,
+      "policy_name": "method-attempt-4",
+      "method_summary": "Model method attempt; complete implementation and tool evidence are retained in the private round audit.",
+      "status": "failed",
+      "score": null,
+      "failure_reason": "CLI execution did not close; own processes cancelled, duration excluded",
+      "retained_best": false,
+      "time": "2026-10-04 17:48:49",
+      "controller_status": "model_execution_failure"
+    },
+    {
+      "round": 5,
+      "policy_name": "method-attempt-5",
+      "method_summary": "Model method attempt; complete implementation and tool evidence are retained in the private round audit.",
+      "status": "ok",
+      "score": 0.12091859057545662,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 18:47:18",
+      "controller_status": "model_execution_failure",
+      "controller_failure_reason": "CLI execution did not close; own processes cancelled, duration excluded"
+    },
+    {
+      "round": 6,
+      "policy_name": "method-attempt-6",
+      "method_summary": "Model method attempt; complete implementation and tool evidence are retained in the private round audit.",
+      "status": "failed",
+      "score": null,
+      "failure_reason": "CLI execution did not close; own processes cancelled, duration excluded",
+      "retained_best": false,
+      "time": "2026-10-04 19:18:39",
+      "controller_status": "model_execution_failure"
+    },
+    {
+      "round": 8,
+      "policy_name": "method-attempt-8",
+      "method_summary": "Model method attempt; complete implementation and tool evidence are retained in the private round audit.",
+      "status": "quality_gate_failed",
+      "score": null,
+      "failure_reason": "hard_gate",
+      "retained_best": false,
+      "time": "2026-10-04 19:43:23",
+      "controller_status": "hard_gate"
+    },
+    {
+      "round": 9,
+      "policy_name": "method-attempt-9",
+      "method_summary": "Model method attempt; complete implementation and tool evidence are retained in the private round audit.",
+      "status": "ok",
+      "score": 0.12317302823066711,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-04 19:56:15"
+    },
+    {
+      "round": 10,
+      "policy_name": "lagrangian-rdo-v1",
+      "method_summary": "Replaced greedy +1 upgrade with full Lagrangian rate-distortion optimization: binary search over λ finds the per-coefficient integer quantization minimizing MSE + λ·rate, evaluated vectorized over all candidate levels. Result was hard_gate: DISTS dropped dramatically to 0.11886 (from baseline 0.12343), but rate target was miscalibrated — actual bpp increase was 1.84% vs the 0.5% cap (estimated-to-actual ratio ~1.15x). The approach is highly effective and needs rate calibration adjustment to fit the cap.",
+      "status": "quality_gate_failed",
+      "score": null,
+      "failure_reason": "hard_gate",
+      "retained_best": false,
+      "time": "2026-10-04 20:14:20",
+      "controller_status": "hard_gate"
+    },
+    {
+      "round": 11,
+      "policy_name": "method-attempt-11",
+      "method_summary": "Model method attempt; complete implementation and tool evidence are retained in the private round audit.",
+      "status": "failed",
+      "score": null,
+      "failure_reason": "CLI execution did not close; own processes cancelled, duration excluded",
+      "retained_best": false,
+      "time": "2026-10-04 20:44:23",
+      "controller_status": "model_execution_failure"
+    },
+    {
+      "round": 12,
+      "policy_name": "lagrangian-rdo-v2",
+      "method_summary": "Full per-coefficient Lagrangian RDO minimizing MSE + λ·rate with binary search over λ to target 0.35 % estimated-rate increase above dead-zone baseline. Result was hard_gate: DISTS dropped to 0.1095 (from 0.1234 baseline, a 11 % improvement) but actual bpp increased by 7.2 % vs the 0.5 % cap — the estimated-to-actual rate-increase ratio is ~20×, far worse than the greedy method's ~1.86×, indicating the Lagrangian solution's value distribution interacts very differently with the real entropy coder than the rate model predicts. The approach is highly effective at DISTS reduction but requires radical rate-target recalibration.",
+      "status": "quality_gate_failed",
+      "score": null,
+      "failure_reason": "hard_gate",
+      "retained_best": false,
+      "time": "2026-10-04 21:05:46",
+      "controller_status": "hard_gate"
+    },
+    {
+      "round": 13,
+      "policy_name": "method-attempt-13",
+      "method_summary": "Model method attempt; complete implementation and tool evidence are retained in the private round audit.",
+      "status": "quality_gate_failed",
+      "score": null,
+      "failure_reason": "hard_gate",
+      "retained_best": false,
+      "time": "2026-10-04 21:15:32",
+      "controller_status": "hard_gate"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "timezone": "Asia/Shanghai",
+  "policy": {
+    "primary_effective": "Per the user's 2026-10-04 instruction, count all elapsed task work for both tracks, including environment configuration, builds, smoke, NOP, exploration, evaluation, queues, failures, debugging, recovery, and retries. Exclude only evidence-backed intervals with no HTTP connection or response.",
+    "connectivity_rule": "HTTP 429 and incomplete HTTP 200 streams remain counted because the service connection was established.",
+    "shared_prerequisites": "Shared setup, isolation, smoke, NOP, and recovery work is credited to both tracks from the documented task start.",
+    "former_formal_effective": "The earlier semantic closed-loop clock is retained only as a supplemental audit field and is not the completion clock.",
+    "stability": "Continuous container lifetime is tracked separately and does not increase formal effective research time."
+  },
+  "user_authorized_recalculation": {
+    "as_of": "2026-10-04T21:50:07.490660+08:00",
+    "task_work_started_at": "2026-10-04T06:53:11+08:00",
+    "required_seconds_per_track": 36000,
+    "gpt": {
+      "gross_elapsed_seconds": 53816.49066,
+      "excluded_no_connection_seconds": 1286.8766100406647,
+      "effective_seconds": 52529.61404995934,
+      "effective_hms": "14:35:30",
+      "target_met": true,
+      "effective_hours": 14.591559458322038,
+      "paused_at": "2026-10-04T21:11:43.022668+08:00",
+      "post_controller_qa_remediation_seconds": 2304.467992
+    },
+    "seed": {
+      "gross_elapsed_seconds": 53816.49066,
+      "excluded_no_connection_seconds": 14.80884313583374,
+      "effective_seconds": 53801.68181686417,
+      "effective_hms": "14:56:42",
+      "target_met": true,
+      "effective_hours": 14.944911615795602,
+      "paused_at": "2026-10-04T21:15:34.694233+08:00",
+      "post_controller_qa_remediation_seconds": 2072.796427
+    },
+    "all_tracks_target_met": true,
+    "detailed_evidence": "effective-time-user-policy.json"
+  },
+  "legacy_exploration": {
+    "eligibility": "outputs remain exploratory due to the former physical-isolation defect; their elapsed work is included by the user-authorized time policy",
+    "codex": {
+      "rounds": 154,
+      "rounds_with_metric": 152,
+      "first_record": "2026-10-04T06:53:11+08:00",
+      "last_record": "2026-10-04T11:41:58+08:00",
+      "record_span_seconds": 17327,
+      "record_span_hms": "04:48:47",
+      "gap_capped_activity_estimate_seconds": 14164,
+      "gap_capped_activity_estimate_hms": "03:56:04"
+    },
+    "seed": {
+      "rounds": 65,
+      "rounds_with_metric": 65,
+      "first_record": "2026-10-04T07:01:49+08:00",
+      "last_record": "2026-10-04T11:40:31+08:00",
+      "record_span_seconds": 16722,
+      "record_span_hms": "04:38:42",
+      "gap_capped_activity_estimate_seconds": 8319,
+      "gap_capped_activity_estimate_hms": "02:18:39"
+    },
+    "combined_track_record_span_seconds": 34049,
+    "combined_track_record_span_hms": "09:27:29",
+    "combined_gap_capped_activity_estimate_seconds": 22483,
+    "combined_gap_capped_activity_estimate_hms": "06:14:43",
+    "note": "Track spans overlap in wall time. These legacy estimates are retained for historical audit only; the primary user-authorized clock is recorded above and in effective-time-user-policy.json."
+  },
+  "remediation_before_formal": {
+    "first_remote_artifact": "2026-10-04T12:31:36+08:00",
+    "formal_launch": "2026-10-04T15:54:09+08:00",
+    "observed_elapsed_seconds": 12153,
+    "observed_elapsed_hms": "03:22:33",
+    "included_work": "Isolation repair, native Harbor runtime, official-paper reproduction, B/R/U recalibration, boundary checks, final image builds, and recovery archive streaming."
+  },
+  "final_v8_pilot": {
+    "started_at": "2026-10-04T15:45:23+08:00",
+    "gpt_completed_rounds": 1,
+    "gpt_useful_seconds": 268.0278822444743,
+    "gpt_container_live_seconds_at_last_record": 334.2383248806,
+    "seed_completed_rounds": 0,
+    "eligibility": "pilot_only"
+  },
+  "all_in_elapsed_before_formal": {
+    "from_first_legacy_record": "2026-10-04T06:53:11+08:00",
+    "to_final_v8_formal_launch": "2026-10-04T15:54:09+08:00",
+    "elapsed_seconds": 32458,
+    "elapsed_hms": "09:00:58",
+    "note": "This elapsed work is included by the user-authorized policy; the authoritative point-in-time calculation starts at the same documented task timestamp and subtracts only confirmed no-connection intervals."
+  },
+  "final_v8_formal": {
+    "initial_launch_at": "2026-10-04T15:54:09+08:00",
+    "initial_controller_attempt": {
+      "seed": "First round closed as a no-op with zero eligible seconds, then failed while restoring the unchanged best because the trusted root process lacked DAC_OVERRIDE and wrote before using CAP_CHOWN.",
+      "gpt": "First round was still incomplete when stopped so the already-loaded pre-fix controller could not later hit the same restore failure. A subsequent 17-second setup attempt exited before agent execution because Docker reused an IP whose dead peer record was cleaned after, rather than before, the launch; that attempt is also archived.",
+      "accounting": "Both attempts remain in failed-attempts and contribute to total investment only; neither contributes formal effective time."
+    },
+    "tracks": [
+      {
+        "name": "gpt",
+        "model": "gpt-6.1-sol",
+        "effort": "xhigh",
+        "current_qualifying_started_at": "2026-10-04T16:03:16+08:00",
+        "required_effective_seconds": 36000
+      },
+      {
+        "name": "seed",
+        "model": "doubao-seed-2-1-turbo-260628",
+        "effort": "high",
+        "current_qualifying_started_at": "2026-10-04T16:01:33+08:00",
+        "required_effective_seconds": 36000
+      }
+    ],
+    "status": "10-hour research-time target satisfied for both tracks under the user-authorized policy; controllers paused after in-flight rounds; continuous-container stability remains pending",
+    "primary_progress_source": "expert_evidence/effective-time-user-policy.json",
+    "supplemental_closed_loop_progress_source": "expert_evidence/trajectory_{codex,seed}.json and private controller audits"
+  }
+}

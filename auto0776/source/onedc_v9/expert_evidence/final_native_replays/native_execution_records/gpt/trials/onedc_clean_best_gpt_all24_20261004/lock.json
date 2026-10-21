@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "task": {
+    "name": "task",
+    "version": "0.3.0",
+    "type": "local",
+    "digest": "sha256:6b8a349778935453a2c92ff8708932694c112daeb6da6556fc0fa54233939b9c",
+    "path": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/clean-best-all24/gpt/task"
+  },
+  "install_only": false,
+  "timeout_multiplier": 1.0,
+  "agent": {
+    "import_path": "clean_best_native:FrozenBestReplay",
+    "skills": [],
+    "override_timeout_sec": 120.0,
+    "resume_trajectory": false,
+    "extra_allowed_hosts": [],
+    "kwargs": {
+      "method_path": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/clean-best-all24/gpt/best_method.py",
+      "expected_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb"
+    },
+    "mcp_servers": []
+  },
+  "bridge_inputs": {},
+  "skills": [],
+  "environment": {
+    "import_path": "onedc_offline_harbor:OfflineOneDCDockerEnvironment",
+    "force_build": false,
+    "delete": true,
+    "cpu_enforcement_policy": "auto",
+    "memory_enforcement_policy": "auto",
+    "extra_docker_compose": [],
+    "kwargs": {
+      "gpu_lock_path": "/var/lib/onedc/gpu.lock",
+      "gpu_device_id": "0"
+    },
+    "extra_allowed_hosts": []
+  },
+  "verifier": {
+    "disable": false,
+    "environment_mode": "separate"
+  }
+}

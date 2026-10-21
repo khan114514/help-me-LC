@@ -1,0 +1,4 @@
+Trial onedc_formal_seed_v8_resume_20261004T095526181101 failed: Agent setup timed out after 360.0 seconds
+Collecting main service artifacts
+Running collect hook in service 'main': 'rm -rf /logs/artifacts/solution; mkdir /logs/artifacts/solution; cp -a /workspace/solution/. /logs/artifacts/solution/'
+Collect hook in service 'main' completed

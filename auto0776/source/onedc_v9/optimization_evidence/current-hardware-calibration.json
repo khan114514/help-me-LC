@@ -1,0 +1,230 @@
+{
+  "schema_version": "onedc-native-calibration.v8",
+  "status": "passed",
+  "image_digest": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+  "target_harbor_version": "0.23.0",
+  "source_bundle_sha256": "95e6e38a23ac2863c0976ea475faa9e08ac53d6ef1ed6cbb13a18ab304705320",
+  "recovery_archive_sha256": "2b799f7251c7724163f1d32ead30d404d7d88b28634f35ee859e6e60fbfdddb1",
+  "recovery_archive_files": 516,
+  "protocol": "nine fresh scoring processes in one separate native verifier, same immutable image and seed0, public16 then hidden8",
+  "formal_model_hours": 0,
+  "reference_public_normalized": 0.5736041748666919,
+  "native_reward_meaning": "actual full Baseline normalized score from B_1, not a fabricated calibration reward",
+  "roles": {
+    "B": [
+      {
+        "replicate": 1,
+        "method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+        "valid": true,
+        "status": "ok",
+        "dists": 0.11711087326208751,
+        "bpp_mean": 0.0204925537109375,
+        "lpips": 0.17629042702416578,
+        "psnr": 21.74609302673294,
+        "msssim": 0.7513415142893791,
+        "public": {
+          "dists": 0.12342559173703194,
+          "bpp_mean": 0.020015716552734375,
+          "n": 16
+        },
+        "hidden": {
+          "dists": 0.10448143631219864,
+          "bpp_mean": 0.02144622802734375,
+          "n": 8
+        },
+        "normalized_score": 0,
+        "elapsed_sec": 37.61417865128169
+      },
+      {
+        "replicate": 2,
+        "method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+        "valid": true,
+        "status": "ok",
+        "dists": 0.11711087326208751,
+        "bpp_mean": 0.0204925537109375,
+        "lpips": 0.17629042702416578,
+        "psnr": 21.74609302673294,
+        "msssim": 0.7513415142893791,
+        "public": {
+          "dists": 0.12342559173703194,
+          "bpp_mean": 0.020015716552734375,
+          "n": 16
+        },
+        "hidden": {
+          "dists": 0.10448143631219864,
+          "bpp_mean": 0.02144622802734375,
+          "n": 8
+        },
+        "normalized_score": 0,
+        "elapsed_sec": 83.165799681723
+      },
+      {
+        "replicate": 3,
+        "method_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+        "valid": true,
+        "status": "ok",
+        "dists": 0.11711087326208751,
+        "bpp_mean": 0.0204925537109375,
+        "lpips": 0.17629042702416578,
+        "psnr": 21.74609302673294,
+        "msssim": 0.7513415142893791,
+        "public": {
+          "dists": 0.12342559173703194,
+          "bpp_mean": 0.020015716552734375,
+          "n": 16
+        },
+        "hidden": {
+          "dists": 0.10448143631219864,
+          "bpp_mean": 0.02144622802734375,
+          "n": 8
+        },
+        "normalized_score": 0,
+        "elapsed_sec": 37.099205034995975
+      }
+    ],
+    "R": [
+      {
+        "replicate": 1,
+        "method_sha256": "48dbf1ef65c4a4ec8498160ca4d4943d32e082bb96bb4e3fb9c9b9fe95a26444",
+        "valid": true,
+        "status": "ok",
+        "dists": 0.11463754375775655,
+        "bpp_mean": 0.020459493001302086,
+        "lpips": 0.17375360118846098,
+        "psnr": 21.82438685391236,
+        "msssim": 0.7578616241614023,
+        "public": {
+          "dists": 0.12056996300816536,
+          "bpp_mean": 0.02001317342122396,
+          "n": 16
+        },
+        "hidden": {
+          "dists": 0.10277270525693893,
+          "bpp_mean": 0.021352132161458336,
+          "n": 8
+        },
+        "normalized_score": 0.6243098009518612,
+        "elapsed_sec": 37.68279180115496
+      },
+      {
+        "replicate": 2,
+        "method_sha256": "48dbf1ef65c4a4ec8498160ca4d4943d32e082bb96bb4e3fb9c9b9fe95a26444",
+        "valid": true,
+        "status": "ok",
+        "dists": 0.11463754375775655,
+        "bpp_mean": 0.020459493001302086,
+        "lpips": 0.17375360118846098,
+        "psnr": 21.82438685391236,
+        "msssim": 0.7578616241614023,
+        "public": {
+          "dists": 0.12056996300816536,
+          "bpp_mean": 0.02001317342122396,
+          "n": 16
+        },
+        "hidden": {
+          "dists": 0.10277270525693893,
+          "bpp_mean": 0.021352132161458336,
+          "n": 8
+        },
+        "normalized_score": 0.6243098009518612,
+        "elapsed_sec": 37.499503499617276
+      },
+      {
+        "replicate": 3,
+        "method_sha256": "48dbf1ef65c4a4ec8498160ca4d4943d32e082bb96bb4e3fb9c9b9fe95a26444",
+        "valid": true,
+        "status": "ok",
+        "dists": 0.11463754375775655,
+        "bpp_mean": 0.020459493001302086,
+        "lpips": 0.17375360118846098,
+        "psnr": 21.82438685391236,
+        "msssim": 0.7578616241614023,
+        "public": {
+          "dists": 0.12056996300816536,
+          "bpp_mean": 0.02001317342122396,
+          "n": 16
+        },
+        "hidden": {
+          "dists": 0.10277270525693893,
+          "bpp_mean": 0.021352132161458336,
+          "n": 8
+        },
+        "normalized_score": 0.6243098009518612,
+        "elapsed_sec": 37.520867791557976
+      }
+    ],
+    "U": [
+      {
+        "replicate": 1,
+        "method_sha256": "b3d03a7d2010b3e65e1c277f6c33e238f5f4abed68976afa978272e8c3473ef7",
+        "valid": true,
+        "status": "ok",
+        "dists": 0.11314917107423146,
+        "bpp_mean": 0.02051628960503472,
+        "lpips": 0.17278619731465975,
+        "psnr": 21.80992072215226,
+        "msssim": 0.7568604896465937,
+        "public": {
+          "dists": 0.118447195738554,
+          "bpp_mean": 0.020081837972005207,
+          "n": 16
+        },
+        "hidden": {
+          "dists": 0.1025531217455864,
+          "bpp_mean": 0.02138519287109375,
+          "n": 8
+        },
+        "normalized_score": 1,
+        "elapsed_sec": 59.74328630712262
+      },
+      {
+        "replicate": 2,
+        "method_sha256": "b3d03a7d2010b3e65e1c277f6c33e238f5f4abed68976afa978272e8c3473ef7",
+        "valid": true,
+        "status": "ok",
+        "dists": 0.11314917107423146,
+        "bpp_mean": 0.02051628960503472,
+        "lpips": 0.17278619731465975,
+        "psnr": 21.80992072215226,
+        "msssim": 0.7568604896465937,
+        "public": {
+          "dists": 0.118447195738554,
+          "bpp_mean": 0.020081837972005207,
+          "n": 16
+        },
+        "hidden": {
+          "dists": 0.1025531217455864,
+          "bpp_mean": 0.02138519287109375,
+          "n": 8
+        },
+        "normalized_score": 1,
+        "elapsed_sec": 37.95520834189665
+      },
+      {
+        "replicate": 3,
+        "method_sha256": "b3d03a7d2010b3e65e1c277f6c33e238f5f4abed68976afa978272e8c3473ef7",
+        "valid": true,
+        "status": "ok",
+        "dists": 0.11314917107423146,
+        "bpp_mean": 0.02051628960503472,
+        "lpips": 0.17278619731465975,
+        "psnr": 21.80992072215226,
+        "msssim": 0.7568604896465937,
+        "public": {
+          "dists": 0.118447195738554,
+          "bpp_mean": 0.020081837972005207,
+          "n": 16
+        },
+        "hidden": {
+          "dists": 0.1025531217455864,
+          "bpp_mean": 0.02138519287109375,
+          "n": 8
+        },
+        "normalized_score": 1,
+        "elapsed_sec": 127.30790794007044
+      }
+    ]
+  },
+  "note": "Authoritative current-hardware calibration. Earlier v7 calibration was superseded and excluded from the submission package."
+}
+

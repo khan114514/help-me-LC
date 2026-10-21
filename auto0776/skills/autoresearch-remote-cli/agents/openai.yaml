@@ -1,0 +1,4 @@
+interface:
+  display_name: "AutoResearch Remote CLI"
+  short_description: "Control remote research CLIs and preserve real evidence"
+  default_prompt: "Use $autoresearch-remote-cli to control the remote Codex and arkcli, validate the research protocol, and prepare honest AutoResearch evidence."

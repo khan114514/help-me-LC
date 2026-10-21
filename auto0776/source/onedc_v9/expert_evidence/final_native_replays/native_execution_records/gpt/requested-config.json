@@ -1,0 +1,70 @@
+{
+  "task": {
+    "path": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/clean-best-all24/gpt/task",
+    "git_url": null,
+    "git_commit_id": null,
+    "name": null,
+    "ref": null,
+    "overwrite": false,
+    "download_dir": null,
+    "source": null
+  },
+  "trial_name": "onedc_clean_best_gpt_all24_20261004",
+  "trials_dir": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/clean-best-all24/gpt/trials",
+  "install_only": false,
+  "timeout_multiplier": 1.0,
+  "agent_timeout_multiplier": null,
+  "verifier_timeout_multiplier": null,
+  "agent_setup_timeout_multiplier": null,
+  "environment_build_timeout_multiplier": null,
+  "agent": {
+    "name": null,
+    "import_path": "clean_best_native:FrozenBestReplay",
+    "model_name": null,
+    "n_concurrent": null,
+    "concurrency_group": null,
+    "skills": [],
+    "override_timeout_sec": 120.0,
+    "override_setup_timeout_sec": null,
+    "max_timeout_sec": null,
+    "resume_trajectory": false,
+    "load_trajectory": null,
+    "extra_allowed_hosts": [],
+    "kwargs": {
+      "method_path": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/clean-best-all24/gpt/best_method.py",
+      "expected_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb"
+    },
+    "mcp_servers": []
+  },
+  "user_agent": null,
+  "environment": {
+    "type": null,
+    "import_path": "onedc_offline_harbor:OfflineOneDCDockerEnvironment",
+    "force_build": false,
+    "delete": true,
+    "cpu_enforcement_policy": "auto",
+    "memory_enforcement_policy": "auto",
+    "override_cpus": null,
+    "override_memory_mb": null,
+    "override_storage_mb": null,
+    "override_gpus": null,
+    "override_tpu": null,
+    "mounts": null,
+    "extra_docker_compose": [],
+    "kwargs": {
+      "gpu_lock_path": "/var/lib/onedc/gpu.lock",
+      "gpu_device_id": "0"
+    },
+    "extra_allowed_hosts": []
+  },
+  "verifier": {
+    "override_timeout_sec": null,
+    "max_timeout_sec": null,
+    "disable": false
+  },
+  "artifacts": [],
+  "extra_instruction_paths": [],
+  "extra_instructions": [],
+  "job_id": null,
+  "source_trial": null
+}

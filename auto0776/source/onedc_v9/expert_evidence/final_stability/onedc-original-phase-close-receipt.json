@@ -1,0 +1,94 @@
+{
+  "status": "OPERATOR_PHASE_ENDED_OWN_DEPENDENCIES_RELEASED",
+  "tracks": {
+    "gpt": {
+      "controller_pid": 1503309,
+      "controller_startticks": 6333164,
+      "CID": "2ee7cbe3a63dfa733facfdff454e61a6174faccb20ce8db5a56d0496c7eec1b6",
+      "StartedAt": "2026-10-04T10:16:23.744127135Z",
+      "wall_lifetime_seconds": 47549.9105219841,
+      "kernel_lifetime_seconds": 47549.89,
+      "project": "onedc_formal_gpt_v8_resume_20261004t101619645079__env",
+      "exact_owned_containers": [
+        "2ee7cbe3a63dfa733facfdff454e61a6174faccb20ce8db5a56d0496c7eec1b6",
+        "59aa699e2d4ac647dcab01b4c96075a7d6d2e049f40d0e24ae70dfd4c75fd9d7"
+      ],
+      "source_workspace_matches_verified_backup": true,
+      "native_trial_directory": "${HOST_RUNTIME_ROOT}/onedc-remediation/formal/trials/onedc_formal_gpt_v8_resume_20261004T101619645079"
+    },
+    "seed": {
+      "controller_pid": 1776711,
+      "controller_startticks": 6764503,
+      "CID": "0a48effa2397bbdb7e359041bc101523e5123271b4cb64330e8892d3797103c3",
+      "StartedAt": "2026-10-04T11:28:17.157037601Z",
+      "wall_lifetime_seconds": 43236.59994459152,
+      "kernel_lifetime_seconds": 43236.58,
+      "project": "onedc_formal_seed_v8_resume_20261004t112813049205__env",
+      "exact_owned_containers": [
+        "0a48effa2397bbdb7e359041bc101523e5123271b4cb64330e8892d3797103c3",
+        "24909de0b73cc13b04d573cd2936a9e1ce4f55d58d2c3c9ccbb944bcfcab4603"
+      ],
+      "source_workspace_matches_verified_backup": true,
+      "native_trial_directory": "${HOST_RUNTIME_ROOT}/onedc-remediation/formal/trials/onedc_formal_seed_v8_resume_20261004T112813049205"
+    }
+  },
+  "stability_audit_sha256": "24400fea8907707da2ba99eb5bb77162345948a7bac2e263d3ad7e0453832587",
+  "complete_local_backups_verified": true,
+  "original_native_result_synthesized": false,
+  "legacy_controllers_resumed": false,
+  "research_credit_seconds": 0,
+  "actions": [
+    {
+      "action": "SIGKILL_OWN_OPERATOR_PAUSED_CONTROLLER",
+      "pid": 1503309,
+      "role": "gpt",
+      "reason": "Do not resume legacy strict-loop controller after completed human-clock and independent final replays."
+    },
+    {
+      "action": "SIGKILL_OWN_OPERATOR_PAUSED_CONTROLLER",
+      "pid": 1776711,
+      "role": "seed",
+      "reason": "Do not resume legacy strict-loop controller after completed human-clock and independent final replays."
+    },
+    {
+      "action": "STOP_EXACT_OWN_CONTAINER",
+      "CID": "2ee7cbe3a63dfa733facfdff454e61a6174faccb20ce8db5a56d0496c7eec1b6"
+    },
+    {
+      "action": "STOP_EXACT_OWN_CONTAINER",
+      "CID": "59aa699e2d4ac647dcab01b4c96075a7d6d2e049f40d0e24ae70dfd4c75fd9d7"
+    },
+    {
+      "action": "STOP_EXACT_OWN_CONTAINER",
+      "CID": "0a48effa2397bbdb7e359041bc101523e5123271b4cb64330e8892d3797103c3"
+    },
+    {
+      "action": "STOP_EXACT_OWN_CONTAINER",
+      "CID": "24909de0b73cc13b04d573cd2936a9e1ce4f55d58d2c3c9ccbb944bcfcab4603"
+    },
+    {
+      "action": "REMOVE_EXACT_STOPPED_OWN_CONTAINER",
+      "CID": "2ee7cbe3a63dfa733facfdff454e61a6174faccb20ce8db5a56d0496c7eec1b6"
+    },
+    {
+      "action": "REMOVE_EXACT_STOPPED_OWN_CONTAINER",
+      "CID": "59aa699e2d4ac647dcab01b4c96075a7d6d2e049f40d0e24ae70dfd4c75fd9d7"
+    },
+    {
+      "action": "REMOVE_EXACT_STOPPED_OWN_CONTAINER",
+      "CID": "0a48effa2397bbdb7e359041bc101523e5123271b4cb64330e8892d3797103c3"
+    },
+    {
+      "action": "REMOVE_EXACT_STOPPED_OWN_CONTAINER",
+      "CID": "24909de0b73cc13b04d573cd2936a9e1ce4f55d58d2c3c9ccbb944bcfcab4603"
+    },
+    {
+      "action": "REMOVE_ONLY_OWN_REGISTRY_PEERS",
+      "count": 2
+    }
+  ],
+  "updated_at": "2026-10-04T23:29:14.956886+00:00",
+  "original_native_disposition": "OPEN_RECORD_PRESERVED_OPERATOR_ABORTED; scoring is the separate closed frozen-best native Trials",
+  "original_native_files_unchanged": true,
+  "remote_receipt": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/operator-phase-close/receipt.json"
+}

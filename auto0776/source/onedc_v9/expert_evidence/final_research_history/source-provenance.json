@@ -1,0 +1,926 @@
+[
+  {
+    "member": "gpt/original-controller-trajectory.jsonl",
+    "source_logical": "live-backups/1791121971876893884/gpt/trajectory.jsonl",
+    "source_sha256": "bc977d8ba9c52727c6a254846aede97c32c50d4b7f5814e41006189e0813f171",
+    "export_sha256": "bc977d8ba9c52727c6a254846aede97c32c50d4b7f5814e41006189e0813f171",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00001/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00001/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00001/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00001/trusted-metrics.json",
+    "source_sha256": "d6833234be2e767136b802751f306a244555fe1a73bba61b9a0433f72a586202",
+    "export_sha256": "d6833234be2e767136b802751f306a244555fe1a73bba61b9a0433f72a586202",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00002/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00002/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00002/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00002/trusted-metrics.json",
+    "source_sha256": "c4cac3995776a7e0d9f83c240adb8d71689b7f1daa5647fb72129d23e5e19326",
+    "export_sha256": "c4cac3995776a7e0d9f83c240adb8d71689b7f1daa5647fb72129d23e5e19326",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00003/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00003/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00003/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00003/trusted-metrics.json",
+    "source_sha256": "a1ee2d0d73fc08cab38d773aa974aba014b2aab6cae1278250b33a4ee30955e2",
+    "export_sha256": "a1ee2d0d73fc08cab38d773aa974aba014b2aab6cae1278250b33a4ee30955e2",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00004/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00004/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00004/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00004/trusted-metrics.json",
+    "source_sha256": "4a7cf85246c84d878bea4f5ff7f41015e199850ece373f1c183d8025d953e6a6",
+    "export_sha256": "4a7cf85246c84d878bea4f5ff7f41015e199850ece373f1c183d8025d953e6a6",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00005/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00005/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00005/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00005/trusted-metrics.json",
+    "source_sha256": "20b49f89129f50b3906cdcc9fecbda79c6b8f1b7e495f92f824a5aedf2e7cc29",
+    "export_sha256": "20b49f89129f50b3906cdcc9fecbda79c6b8f1b7e495f92f824a5aedf2e7cc29",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00006/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00006/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00006/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00006/trusted-metrics.json",
+    "source_sha256": "1aa18775bd38b3eb1e014507b351b5229d7e8444405ac6a92f128a9dec61bd9e",
+    "export_sha256": "1aa18775bd38b3eb1e014507b351b5229d7e8444405ac6a92f128a9dec61bd9e",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00007/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00007/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00007/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00007/trusted-metrics.json",
+    "source_sha256": "8841d1b90669815dbd89a0e70475a2a617ffc843d22afe25da9a9f01c32836fd",
+    "export_sha256": "8841d1b90669815dbd89a0e70475a2a617ffc843d22afe25da9a9f01c32836fd",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00008/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00008/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00008/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00008/trusted-metrics.json",
+    "source_sha256": "245dfbc47012f4cbf660f93e1258a007587e2ca86b8ee2636a12ffc60a6baeff",
+    "export_sha256": "245dfbc47012f4cbf660f93e1258a007587e2ca86b8ee2636a12ffc60a6baeff",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00009/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00009/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00009/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00009/trusted-metrics.json",
+    "source_sha256": "383afdf47a855d7cd6ac2516d6f085b6e7b8275540b972494980e84f9e6f2627",
+    "export_sha256": "383afdf47a855d7cd6ac2516d6f085b6e7b8275540b972494980e84f9e6f2627",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00010/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00010/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00010/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00010/trusted-metrics.json",
+    "source_sha256": "deac87e170bc4b545af348b35056220cfbc7e5c7eecf0d603a06bde709789744",
+    "export_sha256": "deac87e170bc4b545af348b35056220cfbc7e5c7eecf0d603a06bde709789744",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00011/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00011/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00011/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00011/trusted-metrics.json",
+    "source_sha256": "31160f56d0ddb9da67fc76252e087cd4e00466adaac30c2e723ac9cf028c367b",
+    "export_sha256": "31160f56d0ddb9da67fc76252e087cd4e00466adaac30c2e723ac9cf028c367b",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00012/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00012/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00012/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00012/trusted-metrics.json",
+    "source_sha256": "7668ea699094c5e96be6cea0a26a73caaed93e4b8bd0b65b044d59d8284d8da4",
+    "export_sha256": "7668ea699094c5e96be6cea0a26a73caaed93e4b8bd0b65b044d59d8284d8da4",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00013/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00013/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00013/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00013/trusted-metrics.json",
+    "source_sha256": "2316fb04bffd32dc9f539e2d136a31f7f4dd9978850eb9ab04c0fcde50a64ed7",
+    "export_sha256": "2316fb04bffd32dc9f539e2d136a31f7f4dd9978850eb9ab04c0fcde50a64ed7",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00014/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00014/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00014/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00014/trusted-metrics.json",
+    "source_sha256": "eeda01bb43ce4b274d1fec9d09e527fb77e81893cef97a3df3a1a7f98022a0d4",
+    "export_sha256": "eeda01bb43ce4b274d1fec9d09e527fb77e81893cef97a3df3a1a7f98022a0d4",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00015/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00015/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00015/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00015/trusted-metrics.json",
+    "source_sha256": "b994715f09b5c8617fe5554a119d7e8fe15b0ca2a336c83e6ad6186aa6b0a372",
+    "export_sha256": "b994715f09b5c8617fe5554a119d7e8fe15b0ca2a336c83e6ad6186aa6b0a372",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00016/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00016/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00016/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00016/trusted-metrics.json",
+    "source_sha256": "fd622de68fb0dbc2b7b1fa046ea1bac3a540d99261d509f2b9e07569e524e46d",
+    "export_sha256": "fd622de68fb0dbc2b7b1fa046ea1bac3a540d99261d509f2b9e07569e524e46d",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00017/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00017/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00017/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00017/trusted-metrics.json",
+    "source_sha256": "573744365ca05663ca07abf1dfedb743651c8cb1f69722d6951ef4b0e32e40be",
+    "export_sha256": "573744365ca05663ca07abf1dfedb743651c8cb1f69722d6951ef4b0e32e40be",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00018/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00018/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00018/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00018/trusted-metrics.json",
+    "source_sha256": "956b166a3b16da478249a382b170c61e8af2c48cf54bb4e811cc0f11723bbe53",
+    "export_sha256": "956b166a3b16da478249a382b170c61e8af2c48cf54bb4e811cc0f11723bbe53",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00019/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00019/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00019/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00019/trusted-metrics.json",
+    "source_sha256": "40ca8d7d445107d758134bd046a77982c0b7af783159a97b74c463352ecb7f83",
+    "export_sha256": "40ca8d7d445107d758134bd046a77982c0b7af783159a97b74c463352ecb7f83",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00020/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00020/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00020/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00020/trusted-metrics.json",
+    "source_sha256": "4993354619a4508f6a490282b752a443c5ad09f6221ba5c2c1ba4b808c5cf767",
+    "export_sha256": "4993354619a4508f6a490282b752a443c5ad09f6221ba5c2c1ba4b808c5cf767",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00021/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00021/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00021/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00021/trusted-metrics.json",
+    "source_sha256": "b88ea1cfbe34968ede3fb99335eb3792348352051c0bd29b3ac89dd476b5d597",
+    "export_sha256": "b88ea1cfbe34968ede3fb99335eb3792348352051c0bd29b3ac89dd476b5d597",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00022/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00022/method.py",
+    "source_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "export_sha256": "116ce1665e0cda66e0ac8d2ad0340929587ddb663528b68cd5b44df71628b198",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00022/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00022/trusted-metrics.json",
+    "source_sha256": "604b9770c9cf9895b2e7cd1361fca18aba7281a9367bc581f274d8eece761403",
+    "export_sha256": "604b9770c9cf9895b2e7cd1361fca18aba7281a9367bc581f274d8eece761403",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00024/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00024/method.py",
+    "source_sha256": "a09d8e0ea93e60bf3b23bb65f0062485ef97497c5cceb4ac31425dbad729ea27",
+    "export_sha256": "a09d8e0ea93e60bf3b23bb65f0062485ef97497c5cceb4ac31425dbad729ea27",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00024/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00024/trusted-metrics.json",
+    "source_sha256": "035d50a6e2b7c0d0f3aca9fa9822e512bd1e49b9b76744ac0f04323ed6246cb5",
+    "export_sha256": "035d50a6e2b7c0d0f3aca9fa9822e512bd1e49b9b76744ac0f04323ed6246cb5",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00025/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00025/method.py",
+    "source_sha256": "9f7988b6fdb1d92210b7bb0f260a8610d18a1b0591b1bc98238d3cc1caafa705",
+    "export_sha256": "9f7988b6fdb1d92210b7bb0f260a8610d18a1b0591b1bc98238d3cc1caafa705",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00025/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00025/trusted-metrics.json",
+    "source_sha256": "ec3a48ca8ae44ee02c573e70ff53b89e26d40039a4c08c2495b7d4a422b5696f",
+    "export_sha256": "ec3a48ca8ae44ee02c573e70ff53b89e26d40039a4c08c2495b7d4a422b5696f",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00026/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00026/method.py",
+    "source_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+    "export_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00026/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00026/trusted-metrics.json",
+    "source_sha256": "3ef3efbb3472a659024ac262fe75dde0e24270eb017b96fc3a893010890b9c22",
+    "export_sha256": "3ef3efbb3472a659024ac262fe75dde0e24270eb017b96fc3a893010890b9c22",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00027/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00027/method.py",
+    "source_sha256": "3640ce48bf7f18889f3803b2ea96459f62fc963366c374c70621f5715e519f3f",
+    "export_sha256": "3640ce48bf7f18889f3803b2ea96459f62fc963366c374c70621f5715e519f3f",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00027/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00027/trusted-metrics.json",
+    "source_sha256": "2cd72437f961ccf10c9f473f8dc72cd35e63e5538bb7a1c70be2a94e9ab16001",
+    "export_sha256": "2cd72437f961ccf10c9f473f8dc72cd35e63e5538bb7a1c70be2a94e9ab16001",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00028/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00028/method.py",
+    "source_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+    "export_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00028/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00028/trusted-metrics.json",
+    "source_sha256": "f58e41642e86f32f9fb100e54782bd9c2c09273b354a89c8dc47fce10271778a",
+    "export_sha256": "f58e41642e86f32f9fb100e54782bd9c2c09273b354a89c8dc47fce10271778a",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00029/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00029/method.py",
+    "source_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+    "export_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00029/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00029/trusted-metrics.json",
+    "source_sha256": "be3a027e15061781bf8fceee25c4ad350d1ebddab27969b90cf21d4a39af60b1",
+    "export_sha256": "be3a027e15061781bf8fceee25c4ad350d1ebddab27969b90cf21d4a39af60b1",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00030/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00030/method.py",
+    "source_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+    "export_sha256": "12069a24212ddd7a23d4a54d45ef6a24de4222f7d723f2ebf00dd5ff8a7bfb59",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00030/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00030/trusted-metrics.json",
+    "source_sha256": "0a65d2b2cecc3754bddf0c31ce42983b1eff20f6bc487b91725edce0cb4c9b8d",
+    "export_sha256": "0a65d2b2cecc3754bddf0c31ce42983b1eff20f6bc487b91725edce0cb4c9b8d",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00031/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00031/method.py",
+    "source_sha256": "5f780da99f33f94dfcc37b14178a78b078e4568821299d9c8dca1d66da6e2dcd",
+    "export_sha256": "5f780da99f33f94dfcc37b14178a78b078e4568821299d9c8dca1d66da6e2dcd",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00031/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00031/trusted-metrics.json",
+    "source_sha256": "28f125467dc799cb060705c61ba1b8ae7467605b3eb973cbf074641dfff5493c",
+    "export_sha256": "28f125467dc799cb060705c61ba1b8ae7467605b3eb973cbf074641dfff5493c",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00032/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00032/method.py",
+    "source_sha256": "356e60abdbac00c4f6bd3d81539dab56679d90d2539ecd136edec63d8cd42e1b",
+    "export_sha256": "356e60abdbac00c4f6bd3d81539dab56679d90d2539ecd136edec63d8cd42e1b",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00032/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00032/trusted-metrics.json",
+    "source_sha256": "4ae0bb2b430d7d9669463aec214087eb058fdc9a89ffb928150af2643964dd6b",
+    "export_sha256": "4ae0bb2b430d7d9669463aec214087eb058fdc9a89ffb928150af2643964dd6b",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00033/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00033/method.py",
+    "source_sha256": "8fff6e7008a5d8ccc29184be4044b3c279c584caba4457ad6d196544858b94d3",
+    "export_sha256": "8fff6e7008a5d8ccc29184be4044b3c279c584caba4457ad6d196544858b94d3",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00033/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00033/trusted-metrics.json",
+    "source_sha256": "1905db114eacfc96874e0aab788d5bd3cd2dc9faa9ea72ebbde63f7189789b6e",
+    "export_sha256": "1905db114eacfc96874e0aab788d5bd3cd2dc9faa9ea72ebbde63f7189789b6e",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00034/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00034/method.py",
+    "source_sha256": "0eecb1877e7ad7d311933b47912b156b3a9ff36c5263e718b953618dd10aad09",
+    "export_sha256": "0eecb1877e7ad7d311933b47912b156b3a9ff36c5263e718b953618dd10aad09",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00034/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00034/trusted-metrics.json",
+    "source_sha256": "e17140677cd380a60e676f9e899994b882631d7754aac2d6eb4c5a2f28ca2da5",
+    "export_sha256": "e17140677cd380a60e676f9e899994b882631d7754aac2d6eb4c5a2f28ca2da5",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00035/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00035/method.py",
+    "source_sha256": "12d05e304d5ba931536753ab4dbf9e80c2e88e75f8cd2f002c9b53d271f25c8b",
+    "export_sha256": "12d05e304d5ba931536753ab4dbf9e80c2e88e75f8cd2f002c9b53d271f25c8b",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00035/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00035/trusted-metrics.json",
+    "source_sha256": "c95d61886e2ba6a9d8be0e05662940b2ef01733f2936fdcbc69664845542c452",
+    "export_sha256": "c95d61886e2ba6a9d8be0e05662940b2ef01733f2936fdcbc69664845542c452",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00036/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00036/method.py",
+    "source_sha256": "eb88b69a8966a66f263da7d5eeb6033927ac10bebaf1d0b6d4c818bdc245ba48",
+    "export_sha256": "eb88b69a8966a66f263da7d5eeb6033927ac10bebaf1d0b6d4c818bdc245ba48",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00036/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00036/trusted-metrics.json",
+    "source_sha256": "84fb365ea858397a272ba9a993f3a1989e20d0d2883a95bf722bf1c5a7968a5b",
+    "export_sha256": "84fb365ea858397a272ba9a993f3a1989e20d0d2883a95bf722bf1c5a7968a5b",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00037/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00037/method.py",
+    "source_sha256": "39badef7541efad0a88771f44aa8cfc0e819b347a2e1433e4e77ad987e564f5f",
+    "export_sha256": "39badef7541efad0a88771f44aa8cfc0e819b347a2e1433e4e77ad987e564f5f",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00037/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00037/trusted-metrics.json",
+    "source_sha256": "9737f8a4fea063524765fe441f917545d1f4f86e12323ed8ee1bb651d0c1253a",
+    "export_sha256": "9737f8a4fea063524765fe441f917545d1f4f86e12323ed8ee1bb651d0c1253a",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00038/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00038/method.py",
+    "source_sha256": "c891f0c1cfd691fc25135bac07b3f15d1bf11ae633fcba5699e4662350f945d7",
+    "export_sha256": "c891f0c1cfd691fc25135bac07b3f15d1bf11ae633fcba5699e4662350f945d7",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00038/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00038/trusted-metrics.json",
+    "source_sha256": "efb5823c5546aa1b96c13d18ecd6f9ca13dedf5c0172ee5d80432ba71aa49c26",
+    "export_sha256": "efb5823c5546aa1b96c13d18ecd6f9ca13dedf5c0172ee5d80432ba71aa49c26",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00039/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00039/method.py",
+    "source_sha256": "9bcfc0072259c5f7f82784148a2071225ac28b07feb32489e73cfaf0d85b838f",
+    "export_sha256": "9bcfc0072259c5f7f82784148a2071225ac28b07feb32489e73cfaf0d85b838f",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00039/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00039/trusted-metrics.json",
+    "source_sha256": "3632cc1a92f7fa37cdadac50039ddf793c9518aaac11170ff6586623292fcc73",
+    "export_sha256": "3632cc1a92f7fa37cdadac50039ddf793c9518aaac11170ff6586623292fcc73",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00040/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00040/method.py",
+    "source_sha256": "eb88b69a8966a66f263da7d5eeb6033927ac10bebaf1d0b6d4c818bdc245ba48",
+    "export_sha256": "eb88b69a8966a66f263da7d5eeb6033927ac10bebaf1d0b6d4c818bdc245ba48",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00040/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00040/trusted-metrics.json",
+    "source_sha256": "756e5d142d04b1446179e69b2fc91e15f038c2bdd13bb35b3e8a2f30a0151288",
+    "export_sha256": "756e5d142d04b1446179e69b2fc91e15f038c2bdd13bb35b3e8a2f30a0151288",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00041/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00041/method.py",
+    "source_sha256": "fe1b145ed358519e34389ff15857cbbdb115cff81351bacc57d14abb474a9ca3",
+    "export_sha256": "fe1b145ed358519e34389ff15857cbbdb115cff81351bacc57d14abb474a9ca3",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00041/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00041/trusted-metrics.json",
+    "source_sha256": "e3a4c0e7eef0aa5766bef9006176b563af8861f5b97b50e0acde7068ff8854ab",
+    "export_sha256": "e3a4c0e7eef0aa5766bef9006176b563af8861f5b97b50e0acde7068ff8854ab",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00042/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00042/method.py",
+    "source_sha256": "7f81dd7b6e958a8cb852301c1cd08ff60cf0ea9124b57748056da6dab5027ec9",
+    "export_sha256": "7f81dd7b6e958a8cb852301c1cd08ff60cf0ea9124b57748056da6dab5027ec9",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00042/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00042/trusted-metrics.json",
+    "source_sha256": "27498c572f6d7e99e549c4b46dae8fc1896ec2703b3c885557c561333220e2d1",
+    "export_sha256": "27498c572f6d7e99e549c4b46dae8fc1896ec2703b3c885557c561333220e2d1",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00043/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00043/method.py",
+    "source_sha256": "5fd36183c4aaaf471de151cdfe6e70d6142d4d3bb74d1b32f3058ac2061e2f2c",
+    "export_sha256": "5fd36183c4aaaf471de151cdfe6e70d6142d4d3bb74d1b32f3058ac2061e2f2c",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00043/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00043/trusted-metrics.json",
+    "source_sha256": "93dd10a89f87157fe0b1b7f4c03ba12ca19e0327adf96bdbd238c9fa4d37b6f2",
+    "export_sha256": "93dd10a89f87157fe0b1b7f4c03ba12ca19e0327adf96bdbd238c9fa4d37b6f2",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00044/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00044/method.py",
+    "source_sha256": "7f81dd7b6e958a8cb852301c1cd08ff60cf0ea9124b57748056da6dab5027ec9",
+    "export_sha256": "7f81dd7b6e958a8cb852301c1cd08ff60cf0ea9124b57748056da6dab5027ec9",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00044/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00044/trusted-metrics.json",
+    "source_sha256": "ca607c13d14b191eb5012ac3e3945735ae98397ad1912b67046a9163bc355387",
+    "export_sha256": "ca607c13d14b191eb5012ac3e3945735ae98397ad1912b67046a9163bc355387",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00045/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00045/method.py",
+    "source_sha256": "250b0afa1a867b66de2f39f945bd1984cd6731522487e904fac4c8a2ac2f9bf7",
+    "export_sha256": "250b0afa1a867b66de2f39f945bd1984cd6731522487e904fac4c8a2ac2f9bf7",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00045/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00045/trusted-metrics.json",
+    "source_sha256": "f0b78ccf9eb47e31a35319d60c79cdae24e68108a354883832ec280d13e72414",
+    "export_sha256": "f0b78ccf9eb47e31a35319d60c79cdae24e68108a354883832ec280d13e72414",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00046/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00046/method.py",
+    "source_sha256": "aeeef2a9411e5f3d96ccca9cda9477096e289ba0550f48cb1b20fe3614330f1d",
+    "export_sha256": "aeeef2a9411e5f3d96ccca9cda9477096e289ba0550f48cb1b20fe3614330f1d",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00046/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00046/trusted-metrics.json",
+    "source_sha256": "0a4d279ff35341785da2037e25487c44cf6187e9a72b92fd63e540a9a95b1b1b",
+    "export_sha256": "0a4d279ff35341785da2037e25487c44cf6187e9a72b92fd63e540a9a95b1b1b",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00047/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00047/method.py",
+    "source_sha256": "250b0afa1a867b66de2f39f945bd1984cd6731522487e904fac4c8a2ac2f9bf7",
+    "export_sha256": "250b0afa1a867b66de2f39f945bd1984cd6731522487e904fac4c8a2ac2f9bf7",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00047/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00047/trusted-metrics.json",
+    "source_sha256": "b44d73f0ef64e132e16e616fed90e84446464d5b716cfab04c4f83c9f2f49e66",
+    "export_sha256": "b44d73f0ef64e132e16e616fed90e84446464d5b716cfab04c4f83c9f2f49e66",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00048/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00048/method.py",
+    "source_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+    "export_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00048/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00048/trusted-metrics.json",
+    "source_sha256": "9712fa6599fa71daf313cd6fe2b5fbc57efb0deeced1ca95ced2fbc13b52f417",
+    "export_sha256": "9712fa6599fa71daf313cd6fe2b5fbc57efb0deeced1ca95ced2fbc13b52f417",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00049/method.py",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00049/method.py",
+    "source_sha256": "ec4fd4106b1c816dbf6f896a642bdbee828dc3e59da0f272ce0d9cfe39494c5b",
+    "export_sha256": "ec4fd4106b1c816dbf6f896a642bdbee828dc3e59da0f272ce0d9cfe39494c5b",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/rounds/00049/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/gpt/private-rounds/00049/trusted-metrics.json",
+    "source_sha256": "1f969f2552f6566a43ec32b0df00daca49c15e3556588005a9f7ff59de1226b9",
+    "export_sha256": "1f969f2552f6566a43ec32b0df00daca49c15e3556588005a9f7ff59de1226b9",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/final-native-logs/trial.log",
+    "source_logical": "clean-best-all24-backup/native/gpt/trials/onedc_clean_best_gpt_all24_20261004/trial.log",
+    "source_sha256": "396fcc5cb8dc9fa63e44019ca2d6d9ea0dfa9d6caf335f178c00218ff3bc398d",
+    "export_sha256": "396fcc5cb8dc9fa63e44019ca2d6d9ea0dfa9d6caf335f178c00218ff3bc398d",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/final-native-logs/agent/replay-agent.log",
+    "source_logical": "clean-best-all24-backup/native/gpt/trials/onedc_clean_best_gpt_all24_20261004/agent/replay-agent.log",
+    "source_sha256": "df408953374cfba89680172a19726d54fc222e95cfccca3307753ace5fb7a304",
+    "export_sha256": "df408953374cfba89680172a19726d54fc222e95cfccca3307753ace5fb7a304",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/final-native-logs/agent/replay-setup.log",
+    "source_logical": "clean-best-all24-backup/native/gpt/trials/onedc_clean_best_gpt_all24_20261004/agent/replay-setup.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/final-native-logs/agent/replay-source.json",
+    "source_logical": "clean-best-all24-backup/native/gpt/trials/onedc_clean_best_gpt_all24_20261004/agent/replay-source.json",
+    "source_sha256": "d94df7efacb8d0aa0e3ab02662d186dae1d82b21f6fb88613a2341dd302ce56a",
+    "export_sha256": "d94df7efacb8d0aa0e3ab02662d186dae1d82b21f6fb88613a2341dd302ce56a",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/final-native-logs/verifier/test-stdout.txt",
+    "source_logical": "clean-best-all24-backup/native/gpt/trials/onedc_clean_best_gpt_all24_20261004/verifier/test-stdout.txt",
+    "source_sha256": "0aacafe776cda05b92d5c8e403b6038a720b2a575e4d457a6ae93b60ca212438",
+    "export_sha256": "0aacafe776cda05b92d5c8e403b6038a720b2a575e4d457a6ae93b60ca212438",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "gpt/final-native-logs/verifier/out/detail_bpp.csv",
+    "source_logical": "clean-best-all24-backup/native/gpt/trials/onedc_clean_best_gpt_all24_20261004/verifier/out/detail_bpp.csv",
+    "source_sha256": "13e0a55a4f708b0019d407465a822a1b1db0dc9e2f4906775871368f7a80645d",
+    "export_sha256": "13e0a55a4f708b0019d407465a822a1b1db0dc9e2f4906775871368f7a80645d",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/original-controller-trajectory.jsonl",
+    "source_logical": "live-backups/1791121971876893884/seed/trajectory.jsonl",
+    "source_sha256": "5ce37924ad67498736d6916505a2a98eec76366647bb4dbc2f0019b031321fba",
+    "export_sha256": "5ce37924ad67498736d6916505a2a98eec76366647bb4dbc2f0019b031321fba",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00001/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00001/method.py",
+    "source_sha256": "07918cb7a8943c442ae54a7e88e6835d9dfb1592bfcd47432592962192f70209",
+    "export_sha256": "07918cb7a8943c442ae54a7e88e6835d9dfb1592bfcd47432592962192f70209",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00001/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00001/trusted-metrics.json",
+    "source_sha256": "beb0801baee1c61267bd7391cd5b9f9fb5d0f4d7ae65c6d3858d8d57ee049a7c",
+    "export_sha256": "beb0801baee1c61267bd7391cd5b9f9fb5d0f4d7ae65c6d3858d8d57ee049a7c",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00002/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00002/method.py",
+    "source_sha256": "8309e00bb4fd95538b163c3bced6f2eb5c1980f5bae9e9f3f74df60f3a89a55a",
+    "export_sha256": "8309e00bb4fd95538b163c3bced6f2eb5c1980f5bae9e9f3f74df60f3a89a55a",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00002/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00002/trusted-metrics.json",
+    "source_sha256": "ffa43e7444b3f6b8007d76083e39fa45d1b52b6582e3d4eb56afafe1f806bf37",
+    "export_sha256": "ffa43e7444b3f6b8007d76083e39fa45d1b52b6582e3d4eb56afafe1f806bf37",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00004/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00004/method.py",
+    "source_sha256": "4d56e64efb79ad046bb14b5f793a2af809de4e5caf729e6a8096a2eefb948229",
+    "export_sha256": "4d56e64efb79ad046bb14b5f793a2af809de4e5caf729e6a8096a2eefb948229",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00004/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00004/trusted-metrics.json",
+    "source_sha256": "19337c737ea957016f2a21ccfc5aec66753beacd3725d2630f41a08241c9e28a",
+    "export_sha256": "19337c737ea957016f2a21ccfc5aec66753beacd3725d2630f41a08241c9e28a",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00005/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00005/method.py",
+    "source_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+    "export_sha256": "44c0409efa9f68334e3125646c34420d08c14a295ed05a207b419abc2325de7e",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00005/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00005/trusted-metrics.json",
+    "source_sha256": "047f3ecc4776ba6ad057fb79d674632faaa920247fefee7f93a16ce60ad6fa9c",
+    "export_sha256": "047f3ecc4776ba6ad057fb79d674632faaa920247fefee7f93a16ce60ad6fa9c",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00006/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00006/method.py",
+    "source_sha256": "e673bd594559dff10529ad05a2aa88d1b999482664f8ecc0fecdb3dd02ae40fb",
+    "export_sha256": "e673bd594559dff10529ad05a2aa88d1b999482664f8ecc0fecdb3dd02ae40fb",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00006/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00006/trusted-metrics.json",
+    "source_sha256": "4510d993bc7a2a36044b183b9730f6c8658824598e71f5b8c193834c02ff96be",
+    "export_sha256": "4510d993bc7a2a36044b183b9730f6c8658824598e71f5b8c193834c02ff96be",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00008/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00008/method.py",
+    "source_sha256": "f4fa32817cbc17a2f001d2aea85d7555589a7f69614d4673c0ac646d98c83817",
+    "export_sha256": "f4fa32817cbc17a2f001d2aea85d7555589a7f69614d4673c0ac646d98c83817",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00008/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00008/trusted-metrics.json",
+    "source_sha256": "73927b5451348321153548993d9aa58ae409d85a39ddda80a0264440dc94ac46",
+    "export_sha256": "73927b5451348321153548993d9aa58ae409d85a39ddda80a0264440dc94ac46",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00009/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00009/method.py",
+    "source_sha256": "a6cba403158662ab754e16fb83a8d8f6d8f4bb7a33ea479969eeb3d21e0c7268",
+    "export_sha256": "a6cba403158662ab754e16fb83a8d8f6d8f4bb7a33ea479969eeb3d21e0c7268",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00009/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00009/trusted-metrics.json",
+    "source_sha256": "1a7ff276d650ba00fcb0120b6bd1e97527cf672d95e2912642c75cf681d8ca12",
+    "export_sha256": "1a7ff276d650ba00fcb0120b6bd1e97527cf672d95e2912642c75cf681d8ca12",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00010/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00010/method.py",
+    "source_sha256": "6f461dc6538b5f8d977976053538069efb35d1fc7410cc5b2f52519c3532836f",
+    "export_sha256": "6f461dc6538b5f8d977976053538069efb35d1fc7410cc5b2f52519c3532836f",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00010/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00010/trusted-metrics.json",
+    "source_sha256": "d52e7b9bac0b563c5d51258d743b44c864ce0f78f607a0c45a755b5079202240",
+    "export_sha256": "d52e7b9bac0b563c5d51258d743b44c864ce0f78f607a0c45a755b5079202240",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00011/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00011/method.py",
+    "source_sha256": "1753a7c97522af29f273d9bf5edbbad832cbf3ff90682d9b44f6e5f8b04e27b1",
+    "export_sha256": "1753a7c97522af29f273d9bf5edbbad832cbf3ff90682d9b44f6e5f8b04e27b1",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00011/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00011/trusted-metrics.json",
+    "source_sha256": "260fc7007444b009ac5729acd4f7e8a400ad94b8b00b49b5ada2f3ca2919fe24",
+    "export_sha256": "260fc7007444b009ac5729acd4f7e8a400ad94b8b00b49b5ada2f3ca2919fe24",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00012/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00012/method.py",
+    "source_sha256": "b600fa0472f50174b8ac98ce76bef3506a590e2b4d49506b68ca8c959c87275d",
+    "export_sha256": "b600fa0472f50174b8ac98ce76bef3506a590e2b4d49506b68ca8c959c87275d",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00012/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00012/trusted-metrics.json",
+    "source_sha256": "48df9b7f27bf240d42e484f59192ea2dae091a63bb162bb0a45babef6f74d31c",
+    "export_sha256": "48df9b7f27bf240d42e484f59192ea2dae091a63bb162bb0a45babef6f74d31c",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00013/method.py",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00013/method.py",
+    "source_sha256": "f4ab82d18c221f1e30944c6572e8e6dc84fdd2e9394928865c653ebdb9cff823",
+    "export_sha256": "f4ab82d18c221f1e30944c6572e8e6dc84fdd2e9394928865c653ebdb9cff823",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/rounds/00013/trusted-public-metrics.json",
+    "source_logical": "live-backups/1791121971876893884/seed/private-rounds/00013/trusted-metrics.json",
+    "source_sha256": "95f69e1b30180bade3ac66578ae8a99a6e219a0f899c3c4cc50fb04b9a795660",
+    "export_sha256": "95f69e1b30180bade3ac66578ae8a99a6e219a0f899c3c4cc50fb04b9a795660",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/final-native-logs/trial.log",
+    "source_logical": "clean-best-all24-backup/native/seed/trials/onedc_clean_best_seed_all24_20261004/trial.log",
+    "source_sha256": "396fcc5cb8dc9fa63e44019ca2d6d9ea0dfa9d6caf335f178c00218ff3bc398d",
+    "export_sha256": "396fcc5cb8dc9fa63e44019ca2d6d9ea0dfa9d6caf335f178c00218ff3bc398d",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/final-native-logs/agent/replay-agent.log",
+    "source_logical": "clean-best-all24-backup/native/seed/trials/onedc_clean_best_seed_all24_20261004/agent/replay-agent.log",
+    "source_sha256": "d8cdc0dc40a8f9ee3ed9fd2b15fa47a786be681e423e76c82cb7d7374fce8a4d",
+    "export_sha256": "d8cdc0dc40a8f9ee3ed9fd2b15fa47a786be681e423e76c82cb7d7374fce8a4d",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/final-native-logs/agent/replay-setup.log",
+    "source_logical": "clean-best-all24-backup/native/seed/trials/onedc_clean_best_seed_all24_20261004/agent/replay-setup.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/final-native-logs/agent/replay-source.json",
+    "source_logical": "clean-best-all24-backup/native/seed/trials/onedc_clean_best_seed_all24_20261004/agent/replay-source.json",
+    "source_sha256": "b9f52dcb20044ff9d24857a34e34cd6eaac0c99d4c7a6d781cd891a5a1146a88",
+    "export_sha256": "b9f52dcb20044ff9d24857a34e34cd6eaac0c99d4c7a6d781cd891a5a1146a88",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/final-native-logs/verifier/test-stdout.txt",
+    "source_logical": "clean-best-all24-backup/native/seed/trials/onedc_clean_best_seed_all24_20261004/verifier/test-stdout.txt",
+    "source_sha256": "caa9eeacf08fd46990a4675283cb3027964acc1a3a04f4c923f1f6c29e5978b7",
+    "export_sha256": "caa9eeacf08fd46990a4675283cb3027964acc1a3a04f4c923f1f6c29e5978b7",
+    "transform": "byte-exact"
+  },
+  {
+    "member": "seed/final-native-logs/verifier/out/detail_bpp.csv",
+    "source_logical": "clean-best-all24-backup/native/seed/trials/onedc_clean_best_seed_all24_20261004/verifier/out/detail_bpp.csv",
+    "source_sha256": "f0dfaf3295cec15b2876d850cb3b8ce4638062abb09e28d67ada80758e38d64d",
+    "export_sha256": "f0dfaf3295cec15b2876d850cb3b8ce4638062abb09e28d67ada80758e38d64d",
+    "transform": "byte-exact"
+  }
+]

@@ -1,0 +1,37 @@
+[run_eval] waiting gpu lock (/opt/onedc/locks/gpu.lock) ...
+[run_eval] gpu lock acquired
+[INFO] using lora to Unet
+<All keys matched successfully>
+<All keys matched successfully>
+[run_eval] model loaded in 5.7s
+[run_eval] kodim01: bpp=0.02252
+[run_eval] kodim02: bpp=0.01908
+[run_eval] kodim04: bpp=0.02061
+[run_eval] kodim08: bpp=0.02690
+[run_eval] kodim11: bpp=0.02075
+[run_eval] kodim12: bpp=0.01656
+[run_eval] kodim13: bpp=0.02026
+[run_eval] kodim14: bpp=0.02745
+[run_eval] kodim16: bpp=0.01609
+[run_eval] kodim17: bpp=0.02861
+[run_eval] kodim18: bpp=0.02313
+[run_eval] kodim19: bpp=0.01943
+[run_eval] kodim20: bpp=0.01512
+[run_eval] kodim21: bpp=0.01729
+[run_eval] kodim23: bpp=0.02252
+[run_eval] kodim24: bpp=0.02743
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/usr/local/lib/python3.10/dist-packages/lpips/lpips.py:107: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.load_state_dict(torch.load(model_path, map_location='cpu'), strict=False)
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/usr/local/lib/python3.10/dist-packages/DISTS_pytorch/DISTS_pt.py:63: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  weights = torch.load(os.path.join(sys.prefix,'weights.pt'))
+/usr/local/lib/python3.10/dist-packages/pytorch_msssim/ssim.py:238: UserWarning: No PYTORCH_KERNEL_CACHE_PATH or HOME environment variable set! This disables kernel caching. (Triggered internally at ../aten/src/ATen/native/cuda/jit_utils.cpp:1426.)
+  ms_ssim_val = torch.prod(mcs_and_ssim ** weights_tensor.view(-1, 1, 1), dim=0)
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /usr/local/lib/python3.10/dist-packages/lpips/weights/v0.1/alex.pth
+[run_eval] DONE bpp=0.02148 dists=0.10881 lpips=0.17183 score=-1.0 elapsed=33s

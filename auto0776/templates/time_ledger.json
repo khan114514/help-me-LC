@@ -1,0 +1,11 @@
+{
+  "schema": "auto0776-author-time-ledger-v1",
+  "status": "UNREVIEWED_TEMPLATE_NOT_EVIDENCE",
+  "timezone": "Asia/Shanghai",
+  "required_seconds_per_track": 36000,
+  "tracks": [
+    {"track": "gpt", "review_complete": false, "research_intervals": [], "excluded_intervals": [], "notes": "审定真实合法区间后填入；formal墙钟上界18507.022668秒，不等于有效时长。"},
+    {"track": "seed", "review_complete": false, "research_intervals": [], "excluded_intervals": [], "notes": "审定真实合法区间后填入；formal墙钟上界18841.694233秒，不等于有效时长。"}
+  ],
+  "interval_contract": {"start": "带时区ISO8601", "end": "带时区ISO8601", "category": "真实分类", "evidence": ["相对证据路径"], "rationale": "计入或扣除理由；不得把模板当实测。"}
+}

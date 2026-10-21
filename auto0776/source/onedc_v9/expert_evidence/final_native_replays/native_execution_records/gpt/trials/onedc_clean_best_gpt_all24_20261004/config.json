@@ -1,0 +1,22 @@
+{
+  "task": {
+    "path": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/clean-best-all24/gpt/task"
+  },
+  "trial_name": "onedc_clean_best_gpt_all24_20261004",
+  "trials_dir": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/clean-best-all24/gpt/trials",
+  "agent": {
+    "import_path": "clean_best_native:FrozenBestReplay",
+    "override_timeout_sec": 120.0,
+    "kwargs": {
+      "method_path": "${HOST_RUNTIME_ROOT}/a10-takeover-20261004/clean-best-all24/gpt/best_method.py",
+      "expected_sha256": "db57c37907109775875e3f1e1146acedc026e003b0d8bcf6bb480c39f4fe9acb"
+    }
+  },
+  "environment": {
+    "import_path": "onedc_offline_harbor:OfflineOneDCDockerEnvironment",
+    "kwargs": {
+      "gpu_lock_path": "/var/lib/onedc/gpu.lock",
+      "gpu_device_id": "0"
+    }
+  }
+}

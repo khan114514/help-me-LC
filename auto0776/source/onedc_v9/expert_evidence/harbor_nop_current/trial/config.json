@@ -1,0 +1,19 @@
+{
+  "task": {
+    "path": "workspace/harbor_task"
+  },
+  "trial_name": "onedc_nop_current_package_v4_20261004",
+  "trials_dir": "expert_evidence/harbor_nop_current",
+  "agent": {
+    "name": "nop",
+    "override_timeout_sec": 120
+  },
+  "environment": {
+    "import_path": "onedc_offline_harbor:OfflineOneDCDockerEnvironment",
+    "kwargs": {
+      "gpu_lock_path": "<organizer-private-gpu-lock>",
+      "gpu_device_id": "0"
+    }
+  }
+}
+

@@ -1,0 +1,6 @@
+{
+  "scope": "Author helper checks only, not legacy task execution or official QA",
+  "overlapping_intervals_union_and_exclusion_seconds": 4500,
+  "unrepaired_historical_package_rejected": true,
+  "task_release_ready": false
+}

@@ -1,0 +1,11 @@
+{
+  "harbor_version": "0.23.0",
+  "python_version": "3.14.7",
+  "schema_validation": "PASS",
+  "task_name": "autoresearch/onedc-quant",
+  "schema_version": "1.4",
+  "verifier_environment_mode": "separate",
+  "verifier_docker_image": null,
+  "agent_docker_image": "sha256:40875d7a85a1923dbd2041239f7d1ffa367e20e95e1aa31546cfe2dffa08a2c5",
+  "note": "Validated with Harbor TaskConfig.model_validate and TOML parsing on the target runtime. Paths are represented by logical package identifiers in this public receipt."
+}

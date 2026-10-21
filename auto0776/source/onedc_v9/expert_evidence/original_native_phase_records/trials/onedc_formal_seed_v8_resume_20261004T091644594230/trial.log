@@ -1,0 +1,4 @@
+Trial onedc_formal_seed_v8_resume_20261004T091644594230 failed: Model turn failed or produced no successful execution tool; state preserved for audited continuation
+Collecting main service artifacts
+Running collect hook in service 'main': 'rm -rf /logs/artifacts/solution; mkdir /logs/artifacts/solution; cp -a /workspace/solution/. /logs/artifacts/solution/'
+Collect hook in service 'main' completed

@@ -1,0 +1,16 @@
+{
+  "classification": "exploratory_only",
+  "records": {
+    "codex": 154,
+    "seed": 65
+  },
+  "source_archive_sha256": "86b2c50e2563856b0f26f4d38e8677ae52a31e94c7af90929a133ab9ed735dc0",
+  "timezone": "Asia/Shanghai",
+  "formal_effective_duration_hours": {
+    "codex": 0,
+    "seed": 0
+  },
+  "score_provenance": "Original metrics.dists, not normalized score; not independently revalidated for every round.",
+  "retained_best_provenance": "Unobserved original decisions remain null.",
+  "eligibility": "Physical isolation failed. No formal trajectory qualification. Original logs and historical method code are preserved privately."
+}
