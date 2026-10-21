@@ -1,4 +1,4 @@
-> 三期V4更新：先读 [当前教程合同](phase3-v4-contract.md)。本文件保留旧版工具的参考细节；与V4冲突时，以V4为准，包括可复用Solver镜像、资源/GPU估算、轨迹可选sessions与四项指纹。旧脚本不代表官方0.3.10或当前内场验收。
+> 三期V4及用户2026-10-21更新：先读 [当前教程合同与优先级调整](phase3-v4-contract.md)。QA21 指纹/哈希差异、G02/G03 换卡影响补证、QA15 换卡耗时、QA17/H06 NOP、QA03/QA13 换卡重算可非阻断待补；本口径优先于下列旧工具细节。旧脚本结果保留原样，不冒充官方0.3.10或平台验收。
 
 # 复核输入与报告（schema 4）
 
@@ -6,7 +6,7 @@ review.json 由质检代理逐项读证据后在报告目录创建，不信任�
 
 ## 共用条目
 
-QA01–QA21 恰好各一次，status 为 pass/fail/manual/not_applicable；仅 QA04/QA15/QA19 可不适用，QA15固定跳过。G01–G03 恰好各一次，不能不适用。H01–H06 恰好各一次；H06 必查，缺少 NOP 记录时为 fail、runtime_status=not_run，QA17 不通过。H05 无可审调用配置时可 not_applicable。已有配置或 Trial 则必须核查，不能选择不适用绕过反证。
+QA01–QA21、G01–G03、H01–H06 恰好各一次，status 按真实工具接口记录。旧脚本对 QA15 固定跳过仅是历史接口，当前内容审查按 V4 及用户放宽口径。NOP 缺失记未运行/非阻断待补，不伪填通过；H06 的缺口不单独使 QA17 或总评失败。G02/G03 仅有换卡补证缺口、QA03/QA13 仅缺换卡重算、QA15 仅新卡耗时未核、QA21 仅指纹/哈希差异时同样单列非阻断。旧脚本强制产生的 fail/manual 保留原输出，另列用户口径结论。H05 无可审调用配置时可 not_applicable；已有反证仍须核查。
 
 每条至少 id/status/summary/evidence。summary具体简短（QA/H≤220字）；evidence为包根相对的真实文件，可带行号或JSON字段。pass必须有证据；确定缺文件可无证据，但要写缺失路径。QA07/08引用只许instruction.md；QA12“清点无.git”允许特殊 @inventory。
 
@@ -89,7 +89,7 @@ harbor 必填 task_root（相对包根）、target_version、provider、version_
 
 teaching-task-root-v1与harbor-environment-v1的精确位置由程序计算，按docker-path-contract.md核对。custom另需dockerfile/build_context/runtime_task_root与adapter_evidence包内真实引用。未知动态语法可提交manual_resolution={summary,evidence}进行语义解释；确定源缺失、路径越界、Agent 复制最终私有评测材料或缺任一 Dockerfile，不能用人工pass覆盖。当前交付要求 Agent 与 Verifier 双 Dockerfile 独立构建，不能用预构建镜像替代。
 
-H01/H02 通过需引用选中 task.toml；H03 不能用未知 provider 通过。H06 要求当前题包版本的一次 NOP Trial：核对 config.json 与 result.json 的 Agent 为 nop、reward 与非空日志、任务及版本对应关系、separate 模式、异常/结束状态。版本关联可引用已有配置、日志或专家说明填写 trial_task_binding。缺记录时 H06 fail 且 runtime_status=not_run；其他 Agent Trial 只能作补充材料。可复用平台已有同版本 NOP 记录；0 分本身不判失败，Oracle 非必交。
+H01/H02 通过需引用选中 task.toml；H03 不能用未知 provider 通过。H06 若有当前题包版本的 NOP Trial：核对 config.json 与 result.json 的 Agent 为 nop、reward 与非空日志、任务及版本对应关系、separate 模式、异常/结束状态。版本关联可引用已有配置、日志或专家说明填写 trial_task_binding。缺记录时 runtime_status=not_run，H06 记非阻断待补；其他 Agent Trial 只能作补充材料，不冒充 NOP。可复用平台已有同版本 NOP 记录；0 分本身不判失败，Oracle 非必交。
 
 还需填写 `harbor.hidden_review`，而不是检查固定目录名：
 
@@ -126,6 +126,6 @@ TXT/Markdown顺序：
 3. 三项内容门结论。
 4. 双轨迹迭代概况与格式建议。
 5. 总结论、完成度、Harbor静态/运行状态和21行“检查项/是否通过/原因”表。
-6. 可直接复制给专家的退回说明：逐问题列事实、证据、原因、修复、验收材料。已确认失败与待补证分开表述，不推测动机。
+6. 可直接复制给专家的退回说明：逐核心问题列事实、证据、原因、修复、验收材料。五类放宽事项单列“非阻断待补”，不给出必须补完才通过的要求；未核验保持未核验，已确认失败与待补证分开表述，不推测动机。
 
 report.txt与report.md内容相同，report.json保存全部证据与computed；return_to_expert.txt独立保存专家退回说明。通过时可写无需退回，但不能在未完成时这样写。批量汇总必须保留三门和完成度，不接受schema字段缺失的旧PASS。

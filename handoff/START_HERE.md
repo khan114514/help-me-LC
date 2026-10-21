@@ -1,5 +1,7 @@
 # 接手执行手册
 
+**先读最新[当前用户口径](CURRENT_REVIEW_POLICY.md)。** 五项证据差异/换卡补证/NOP可非阻断待补，不单独判退或强制补跑；本手册按此口径续接。其他核心要求保留，旧工具输出和历史状态不得回改为PASS。
+
 ## 当前状态与范围
 
 第一题 **auto0505 — Taming Rectified Flow for Inversion and Editing**，方法任务名 RFSteps。原提交 ZIP SHA256：`bc995b80eeb1a361d4a17d88f1f9e8e04172cf1361b945d766219ea045153a6e`。本仓库交的是其可续修工作副本和必要原始重建输入，未声称重新上传了该原 ZIP 的原字节。
@@ -65,13 +67,13 @@ docker build -t rfsteps-agent:3.5.0-a100 auto0505/package/workspace/harbor_task/
 docker build -t rfsteps-verifier:3.5.0-a100 auto0505/package/workspace/harbor_task/tests
 ```
 
-记录实际镜像ID/digest、完整依赖清单、驱动与GPU型号。精确依赖不可取时记录失败、明确迁移版本并成对复验，不把不同环境称为原冻结环境。本地tag不是平台可拉取镜像，需准备平台认可入口及资产注入方式。
+记录实际镜像ID/digest、完整依赖清单、驱动与GPU型号。精确依赖不可取时记录失败、明确迁移版本，审查其实际影响；只属于换卡成绩/耗时/锚点补证可后补，发现实质错误协议或无效结果再修复和必要复验。不把不同环境称为原冻结环境。本地tag不是平台可拉取镜像，需准备平台认可入口及资产注入方式。
 
 ## 先验证完整链再开始研究
 
-1. 在真实 A100 验证当前公共Dev与独立Verifier。先做 B/R/U 同协议 full16，保留实际命令、起止、退出码、raw stdout/stderr、method/模型/数据/镜像身份、每图指标和聚合。核算完整单轮耗时，正常结果原子写 `/logs/verifier/reward.json`。
+1. 先审已有真实B/R/U及当前实现的协议、数据和隔离；仅因换卡缺补证不强制重新评分或计时。需要验证核心实现/故障时，再在A100针对性检查公共Dev与独立Verifier，保存真实命令、起止、退出码、原始stdout/stderr、方法/模型/数据/镜像身份及结果。正常结果原子写 `/logs/verifier/reward.json`；未运行保持未核验。
 2. 按目标安装版本的实际 Harbor CLI/Schema 配置，无本机 Harbor CLI 可据。读取真实 `--help` 与schema再调用，不从历史旧provider启动。Agent context=`environment/`，Verifier context=`tests/`；单容器、自身GPU、separate、artifacts只含 `/workspace/solution`。不允许Compose/RPC服务恢复。
-3. 当前NOP须是同一个真实Trial的config/result/reward/logs，证明Agent退出、候选收集、独立Verifier运行与出分。0分可以，基础设施失败不能算完成。源码 `solution/` 不等于已完成候选移交。
+3. 已有NOP核对同一真实Trial的config/result/reward/logs、版本和独立Verifier。未跑、记录不齐、版本关联待核记非阻断待补，不单独使H06/QA17或总评失败，不为凑齐自动启动NOP。0分可以；已证实的实际构建/移交/评分故障仍属核心问题，不能当成单纯缺NOP。源码 `solution/` 不等于已证明候选移交。
 4. 核验公开UID1000可读代码/权重；只读 `/opt/rfsteps/worker` 可供降权UID65534加载；`/tests`仍私有。可信数值进程只导入固定数值桥接，不能导入候选源码。
 
 ## 干净双轨与选优
@@ -86,9 +88,9 @@ docker build -t rfsteps-verifier:3.5.0-a100 auto0505/package/workspace/harbor_ta
 
 ## 官方工具、最终压缩和质检
 
-先取得真实官方0.3.10和独立 `check_submission.py`、GPU前检、`task_fingerprint.py`，记录来源、版本、SHA256、实际CLI。不存在的工具不能重命名旧脚本冒充。
+实际取得官方0.3.10及独立 `check_submission.py`、GPU前检、`task_fingerprint.py`时，记录来源、版本、SHA256、实际CLI并按真实能力执行。缺工具如实写覆盖范围，继续安全内容复核；指纹及NOP相关缺口按当前口径可后补，不强制以这些材料齐全为当前用户口径通过的前提。不存在的工具不能重命名旧脚本冒充。
 
-官方四项指纹范围严格为 `environment/`、`task.toml`、`tests/`、`instruction.md` 全递归含隐藏项与空目录；结果放四项外，在对应实际研究版本的run_summary.task_binding填写。`release_tools/verify_handoff.py` 的仓库文件清单不是官方题包指纹。
+官方四项指纹范围仍严格为 `environment/`、`task.toml`、`tests/`、`instruction.md` 全递归含隐藏项与空目录；结果放四项外，在对应实际研究版本的run_summary.task_binding填写。缺失或差异保留原值与来源并记非阻断待核，不猜算法、不倒填历史、不仅因此全量重跑。`release_tools/verify_handoff.py` 的仓库文件清单不是官方题包指纹。
 
 完善 `expert_annotation.json`、当前两轨、run_summary、唯一best_method、成对原始证据/说明/comparison_summary；原始观测缺失为null并说明，不凭空补字段。
 
@@ -96,8 +98,8 @@ docker build -t rfsteps-verifier:3.5.0-a100 auto0505/package/workspace/harbor_ta
 python3 release_tools/pack_submission.py --package-root auto0505/package --output <完整提交包.zip>
 ```
 
-此命令只打包和计算ZIP SHA256，不发PASS。按真实官方CLI对完整ZIP做格式/GPU/指纹/内容审查，修复每个ERROR，处理每个CHECK；再让两个不同AI独立新会话只接收同一完整ZIP和固定实际QA工具，不接作者额外解释、另一AI结论或交接工作区。完成G01-G03、QA01-QA21、H01-H06、实际工具版本与目标运行状态，两个首轮独立。任何硬失败或分歧持续修复并重新完整打包，重新绑定同一新ZIP；不要多数投票。
+此命令只打包和计算ZIP SHA256，不发PASS。按实际可用工具执行并原样保存其结果；核心ERROR修复、CHECK据事实分类。仅五项放宽范围造成的fail/manual/NOT_READY不回改，另列当前用户口径结论与非阻断待补项。两个不同AI独立新会话只接收同一完整ZIP和固定实际QA规则/工具，不接作者额外解释、另一AI结论或交接工作区。完成G01-G03、QA01-QA21、H01-H06以及工具/运行范围说明；核心硬失败或核心分歧持续修复，不多数投票，不为放宽项反复补跑。
 
-最终ZIP字节冻结后再做双审，报告放ZIP外防止循环自包含。若之后修改包，重新计算SHA并重新审，不能把旧PASS贴到新ZIP。交用户ZIP、SHA256、两份报告、原版共识和修改说明。
+最终ZIP字节冻结后再做双审，报告放ZIP外防止循环自包含。两份独立QA仍须真实接收同一ZIP，不能把不同包声称同包。若之后修改实际最终输入，保留新旧身份并如实审查，不把旧PASS冒充新包结论；但不因单纯指纹差异强制全量重跑实验。交用户ZIP、SHA256、两份适用口径报告、核心共识、旧工具原始结果与差异说明；可为“通过（含放宽待补项）”。
 
 当前A100优先不等于平台QA15已放行。要声称完整平台质检通过，须有平台认可A100的真实证据或后续目标卡验证；保持H20/L20暂缓的真实状态，不能偷偷改审查规则。

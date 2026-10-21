@@ -2,6 +2,8 @@
 
 Read [the V4 contract](phase3-v4-contract.md) for the phase-three rules. This reference describes remote preparation; it does not authorize requests or resume historical tasks. `requirements.txt` and `server-context.md` retain earlier task-specific requirements and observations. Current user instructions and V4 override their incompatible model, route, build-context and deployment examples.
 
+The user’s 2026-10-21 [priority adjustment](phase3-v4-contract.md#当前优先级调整用户授权2026-10-21) makes the specified fingerprint/hash discrepancies, post-GPU-change score/timing checks, NOP evidence and score recalculation nonblocking follow-ups. Do not launch extra runs solely for them; keep genuine hardware labels and pending verification explicit. Other core checks remain in force.
+
 ## Check the selected server and route
 
 1. Resolve the user's task and host from the session. Do not default new work to the old A100 alias or process named old tasks merely because they appear in a reference.
@@ -21,7 +23,7 @@ Use the standard `workspace/harbor_task/` task root. Build Agent with `environme
 
 Provide Public/Dev scoring inside the Agent sandbox, keep Hidden/Reference/expert/optimization evidence private, and declare exact artifact transfer paths. Each sandbox is one container. Agent and candidate execute directly on their allocated CPU/GPU; extra work containers, DinD/sibling Docker, remote GPU services and Compose are not valid task dependencies. An ordinary subprocess is allowed. The framework creates the final separate Verifier after Agent exit.
 
-For actual phase-three GPU runs select H20 preferred or L20; CPU tasks remain at gpus=0. Other candidate gpu_types entries alone are not failure if H20/L20 is supported and actually selected. Preserve old hardware labels and recheck affected scores, timing and anchors after migration. Full round ≤2h, ≤8 allowed GPUs and ≤64 CPUs, with logs supporting estimates. Do not declare unsupported storage/network limits.
+For actual phase-three GPU runs select H20 preferred or L20; CPU tasks remain at gpus=0. Other candidate gpu_types entries alone are not failure if H20/L20 is supported and actually selected. Preserve old hardware labels; affected scores, timing and anchors may await later post-migration verification under the current adjustment. Full round ≤2h, ≤8 allowed GPUs and ≤64 CPUs, with logs supporting estimates. Do not declare unsupported storage/network limits.
 
 ## Execute, transfer and record
 
@@ -30,7 +32,7 @@ For actual phase-three GPU runs select H20 preferred or L20; CPU tasks remain at
 - Append exactly eight fields per round: round, policy_name, method_summary, status, score, failure_reason, retained_best, time. Score is the actual declared Public/Dev raw/proxy metric; unavailable scores are null. Preserve failures. Actual models/efforts and effective time belong in run_summary and the expert explanation.
 - Before exit put the retested best candidate and its required checkpoint/config in `/workspace/solution` or the declared equivalent. Framework artifacts transfer this directory only; no `/logs`, reward, evaluator or whole workspace. The Verifier executes `/tests/test.sh` and atomically writes finite reward.txt or a numeric reward.json object. Final Hidden is not iterative feedback.
 - Choose one final best by valid normalized Public/Dev aggregate; keep only final code/entry/config in best_method, and clean-rerun it. Required trained model artifacts travel by the actual submission contract or approved immutable asset mechanism.
-- Collect same-version NOP config/result/reward/log from the same Trial; platform complete records may be reused. Record actual build/run commands, contexts, image identities, upload/preload branch and results. NOP=0 alone is not failure.
+- Collect available same-version NOP config/result/reward/log from the same Trial; missing or incomplete records may remain a nonblocking follow-up, and platform complete records may be reused. Record actual build/run commands, contexts, image identities, upload/preload branch and results. NOP=0 alone is not failure.
 - Use the real published task_fingerprint.py for task_binding over environment/, task.toml, tests/, instruction.md recursively, including hidden files and empty directories. Do not invent a compatible hash. Obtain missing official scripts before claiming that check complete.
 - Format/GPU-check the repaired full ZIP, fix ERROR and address CHECK; recheck the final upload bytes and save ZIP SHA-256. Deliver workspace/, expert_evidence/, optimization_evidence/ together. Source-defined models/restricted assets retain their approved immutable/safe delivery mechanism.
 

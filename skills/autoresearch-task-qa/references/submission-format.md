@@ -1,4 +1,4 @@
-> 三期V4更新：先读 [当前教程合同](phase3-v4-contract.md)。本文件保留旧版工具的参考细节；与V4冲突时，以V4为准，包括可复用Solver镜像、资源/GPU估算、轨迹可选sessions与四项指纹。旧脚本不代表官方0.3.10或当前内场验收。
+> 三期V4及用户2026-10-21更新：先读 [当前教程合同与优先级调整](phase3-v4-contract.md)。QA21 指纹/哈希差异、G02/G03 换卡影响补证、QA15 换卡耗时、QA17/H06 NOP、QA03/QA13 换卡重算可非阻断待补；本口径优先于下列旧工具细节。旧脚本结果保留原样，不冒充官方0.3.10或平台验收。
 
 # 新版提交格式与优化面证据检查
 
@@ -38,7 +38,7 @@ Agent 运行时提交目录以题面为准，本教程采用 `/workspace/solutio
 
 推荐放在 `expert_evidence/trajectory_codex.json`、`trajectory_seed.json`，等价命名应在 overview.source_path 中明确映射。每轮必含 `round`、`policy_name`、`method_summary`、`status`、`score`、`failure_reason`、`retained_best`、`time`。成功须记录有限数值分数；失败保留真实状态与失败原因，分数未知用 null；最佳标记为布尔值，时间须可解析。轮次与顺序、分数方向、最佳候选和 run_summary 相互一致，不补造记录。自动解析不能代替任务身份、实际有效时长或探索质量复核。
 
-必交一次当前题包版本的 NOP 自检，可复用平台已有同版本记录。保留同一次 Trial 的配置、结果、reward、日志及任务版本对应依据，确认构建和独立 Verifier 链路正常。无需新增一条长时 Agent 轨迹，详见 harbor-harness.md。
+当前题包版本的 NOP 可后补，可复用平台已有同版本记录。已交材料核对同一次 Trial 的配置、结果、reward、日志及任务版本对应依据；缺失、不齐或版本待核记非阻断待补。未完成不能声称链路实测通过，也无需为此新增长时 Agent 轨迹，详见 harbor-harness.md。
 
 ## 2. optimization_evidence 最小结构
 
@@ -95,7 +95,7 @@ quality_gate, artifacts
 
 ### 模型产物
 
-训练型任务的每个 seed 应保存真实 checkpoint、`artifact.json` 和 `reload.log`。核对模型格式、大小、SHA-256、role、seed、method hash、来源 result、独立重载状态及复评分差值。模型缺失、损坏、哈希不一致或无法重载时，该轮不是完整训练证据。
+训练型任务的每个 seed 应保存真实 checkpoint、`artifact.json` 和 `reload.log`。核对模型格式、大小、SHA-256、role、seed、method hash、来源 result、独立重载状态及复评分差值。模型确实缺失、损坏或无法重载时，按核心训练证据问题处理；单纯哈希不一致先保留差异与来源，按当前口径记非阻断待核，不能据此直接推定模型损坏或伪造。
 
 非训练型任务不创建空 `model/`；在 `result.json` 中标记 `NOT_APPLICABLE`。若产生其他核心产物，在 `artifacts` 中记录路径和哈希。
 

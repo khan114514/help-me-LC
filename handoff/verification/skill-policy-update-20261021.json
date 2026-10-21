@@ -1,0 +1,156 @@
+{
+  "scope": "User-authorized five-category nonblocking priority adjustment; documentation sync only",
+  "changed_skill_documents": [
+    {
+      "source_alias": "skills/autoresearch/SKILL.md",
+      "source_sha256": "c787bdbb570cbc2fc5462f6ef6facb93b94a9ebeb0ee7efa8075c9b0742049bf",
+      "export_sha256": "c787bdbb570cbc2fc5462f6ef6facb93b94a9ebeb0ee7efa8075c9b0742049bf",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch/references/phase3-v4-contract.md",
+      "source_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
+      "export_sha256": "26bbe5cd6c381d0cc4cc15597b9bea33c8d71f3829cd380766c261ebd20a8885",
+      "privacy_redacted": true
+    },
+    {
+      "source_alias": "skills/autoresearch-manager/SKILL.md",
+      "source_sha256": "9dd9f8bc7422e7a9ffe898e2e3e0027f91bef0e255f32650333add79960745cf",
+      "export_sha256": "aa826b6b6bb8d625ed05cd709987d4d5c408511422ff90861c9420008d71f951",
+      "privacy_redacted": true
+    },
+    {
+      "source_alias": "skills/autoresearch-manager/references/phase3-v4-contract.md",
+      "source_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
+      "export_sha256": "26bbe5cd6c381d0cc4cc15597b9bea33c8d71f3829cd380766c261ebd20a8885",
+      "privacy_redacted": true
+    },
+    {
+      "source_alias": "skills/autoresearch-manager/references/runtime-contract.md",
+      "source_sha256": "70a8c9e9417c4348b11d6f14df1a34a5f16d47fd05977faed792e40c31407e4d",
+      "export_sha256": "70a8c9e9417c4348b11d6f14df1a34a5f16d47fd05977faed792e40c31407e4d",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-remote-cli/SKILL.md",
+      "source_sha256": "77540b895a09628750e884328f4cd0d37f26134a0bb2259ed512bf013b9c312c",
+      "export_sha256": "4b8ac480cbcaeafc48cbcbb51d10ff8f8fb2d21bedcff333a61e5f263713e635",
+      "privacy_redacted": true
+    },
+    {
+      "source_alias": "skills/autoresearch-remote-cli/references/phase3-v4-contract.md",
+      "source_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
+      "export_sha256": "26bbe5cd6c381d0cc4cc15597b9bea33c8d71f3829cd380766c261ebd20a8885",
+      "privacy_redacted": true
+    },
+    {
+      "source_alias": "skills/autoresearch-remote-cli/references/workflow.md",
+      "source_sha256": "9bf1939c8f612e067b0831cbe7ab7c89594878a73c01d50654d78ee319043426",
+      "export_sha256": "a8241f6b563a8aabc4147e4c67fa19bf440cc1ba1791faa0bea91e3fc9d5dbef",
+      "privacy_redacted": true
+    },
+    {
+      "source_alias": "skills/autoresearch-task-qa/AGENTS.md",
+      "source_sha256": "001be43980179b672239219a736453de8f49896f5d0d6f67532747674df49ee1",
+      "export_sha256": "001be43980179b672239219a736453de8f49896f5d0d6f67532747674df49ee1",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-task-qa/SKILL.md",
+      "source_sha256": "2d112c47371004391fc5fe325d7a944988fc0e857428f53a18ab9c3ae67595f4",
+      "export_sha256": "2d112c47371004391fc5fe325d7a944988fc0e857428f53a18ab9c3ae67595f4",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-task-qa/references/harbor-harness.md",
+      "source_sha256": "7d362c047a10fee4ed96cfe56389a0d18ade7ad0c56959908d421acc8aeee985",
+      "export_sha256": "7d362c047a10fee4ed96cfe56389a0d18ade7ad0c56959908d421acc8aeee985",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-task-qa/references/implementation-policy.md",
+      "source_sha256": "07f9e868948dc7a20da25f3e46c79b4e5ebd4aebf1573a2652e1b7cbca67433d",
+      "export_sha256": "07f9e868948dc7a20da25f3e46c79b4e5ebd4aebf1573a2652e1b7cbca67433d",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-task-qa/references/implementation-report.md",
+      "source_sha256": "ded2399bd0998912fe5c5245c2fd3621f62a2c1aba35fed2f74597c3144ad34e",
+      "export_sha256": "ded2399bd0998912fe5c5245c2fd3621f62a2c1aba35fed2f74597c3144ad34e",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-task-qa/references/phase3-v4-contract.md",
+      "source_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
+      "export_sha256": "26bbe5cd6c381d0cc4cc15597b9bea33c8d71f3829cd380766c261ebd20a8885",
+      "privacy_redacted": true
+    },
+    {
+      "source_alias": "skills/autoresearch-task-qa/references/research-quality.md",
+      "source_sha256": "ea1fd85d6b66b48463a6ec4b253c12c0a2d5c3b4ae0d832e2e047c4c7204781d",
+      "export_sha256": "ea1fd85d6b66b48463a6ec4b253c12c0a2d5c3b4ae0d832e2e047c4c7204781d",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-task-qa/references/source-alignment.md",
+      "source_sha256": "23af9a34c4b329ea0a4bb12e20f1c0df6fc2b4ab94d8308ba1c35fc77ea2a64e",
+      "export_sha256": "23af9a34c4b329ea0a4bb12e20f1c0df6fc2b4ab94d8308ba1c35fc77ea2a64e",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-task-qa/references/submission-format.md",
+      "source_sha256": "800e0db16ad8482fdd1625598379694aa0ac7c7ec078100fcee1704760988008",
+      "export_sha256": "800e0db16ad8482fdd1625598379694aa0ac7c7ec078100fcee1704760988008",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-baseline-quality/AGENTS.md",
+      "source_sha256": "eaed446d9ee5f810a777850ed4f5fe62d04b0b905d7cba301edc2ef823dcb68a",
+      "export_sha256": "eaed446d9ee5f810a777850ed4f5fe62d04b0b905d7cba301edc2ef823dcb68a",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-baseline-quality/SKILL.md",
+      "source_sha256": "980e47e99c7ffbb9784800d53fa5ba4c84ef07cab4e747f917170060530e0013",
+      "export_sha256": "980e47e99c7ffbb9784800d53fa5ba4c84ef07cab4e747f917170060530e0013",
+      "privacy_redacted": false
+    },
+    {
+      "source_alias": "skills/autoresearch-baseline-quality/references/phase3-v4-contract.md",
+      "source_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
+      "export_sha256": "26bbe5cd6c381d0cc4cc15597b9bea33c8d71f3829cd380766c261ebd20a8885",
+      "privacy_redacted": true
+    }
+  ],
+  "frozen_QA_executables_modified": false,
+  "historical_reports_modified": false,
+  "experiments_started": false,
+  "format_validation": [
+    {
+      "skill": "autoresearch",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "autoresearch-manager",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "autoresearch-remote-cli",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "autoresearch-task-qa",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "autoresearch-baseline-quality",
+      "exit_code": 0,
+      "result": "Skill is valid!"
+    }
+  ],
+  "validator_environment": "Task-local PyYAML 6.0.3 supplied; initial default runtime lacked this dependency."
+}

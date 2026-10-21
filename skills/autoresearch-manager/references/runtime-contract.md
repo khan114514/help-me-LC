@@ -6,6 +6,10 @@
 
 V4 内容要求：两镜像不是必需，Solver/Verifier 是不同sandbox；每轮公开Dev，结束后只移交候选再Hidden；每个sandbox单容器，无Compose/额外工作环境；GPU实际H20优先或L20，CPU不加GPU；QA15有日志资源估算，QA21四项指纹；格式/GPU检查后重交完整三目录ZIP，保留最终ZIP SHA256。旧计时JSON是此执行器适配接口，并非教程额外要求每个专家实现独立计时器。
 
+## 当前用户放宽口径与旧执行器
+
+用户2026-10-21的[优先级调整](phase3-v4-contract.md#当前优先级调整用户授权2026-10-21)适用于当前内容审查：指定的指纹/哈希差异、换卡分数/耗时补证和NOP可非阻断待补。本文件下列固定stage、receipt和源码哈希要求仅描述旧0.3.4执行器，不覆盖用户的新口径；不得仅为这些缺口启动其强制NOP/repair循环。原始工具结论与用户口径结论分列，保留旧计划、在途和暂停状态，不伪造receipt、PASS或历史证据。
+
 ## Plan
 
 主控专用JSON，不得进入题包。schema_version=1；task_root是绝对作者任务目录；goal是用户目标。contract包含qa_version=0.3.4、effective_seconds_per_track=36000、stability_seconds=43200。reviewers为两个不同身份对象，各有provider/model/version，必须使用用户指定模型与最新路由，不自动替换。
