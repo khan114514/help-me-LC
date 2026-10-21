@@ -3,7 +3,7 @@
   "task_release_ready": false,
   "official_0310_qa_performed": false,
   "scope": "Read-only file hashes, historical six raw score logs and actual skill snapshots. No candidate import, GPU, model, official fingerprint, NOP or QA execution.",
-  "checks": 6040,
+  "checks": 6052,
   "errors": [],
   "source_files": 842,
   "skill_files": 111,
