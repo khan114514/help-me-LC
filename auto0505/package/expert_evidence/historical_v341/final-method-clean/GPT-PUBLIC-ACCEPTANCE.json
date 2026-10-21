@@ -1,0 +1,18 @@
+{
+  "status": "PASSED_CURRENT_CLEAN_PUBLIC",
+  "candidate_role": "gpt",
+  "source_sha256": "8b34e25306187b02cf1e21681a8e86797d5fbadcbec8a9657cac309ff041e051",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "GPU_job_id": "a9b3d60a-0486-4d1f-a859-d2e8c3d4691d",
+  "mean_psnr": 21.21974298189495,
+  "normalized_score_unclipped": 1.0,
+  "public_count": 12,
+  "NFE_per_image": 100,
+  "candidate_source_nodes_binding": true,
+  "whole_trusted_RPC_and_A100_receipt_equal": true,
+  "historical_raw_overall_and_per_image_exactly_reproduced": true,
+  "historical_source_protocol_relabelled": false,
+  "model_calls": 0,
+  "purpose": "clean_rerun",
+  "research_credit_seconds": 0
+}

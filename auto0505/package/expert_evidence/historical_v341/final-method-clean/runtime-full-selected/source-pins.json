@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "purpose": "clean_rerun",
+  "source_change_scope": "Accepted expert Reference runner/verifier cloned; fixed method+nodes pins, labels and unique paths changed only. Native frozen Task/test/scorer remain untouched.",
+  "files": {
+    "clean_selected_verifier.py": "c66d949cc1cbc326ac99658cfe7a7d6b6aaa3b479aa99be6e8315971dd67929a",
+    "cold-image-content-pins.json": "5057e6483b5934287e3f3c185b9e4b1e398971746e957a6eb995e605f8a64efc",
+    "job-config.json": "ad54a74c922c7670c88b9c1fc6748d5e0a19fdb4d64a02a83aa37bc0d659bdac",
+    "live_tmpfs_download.py": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+    "nop_runtime.py": "8aef3402b0888a51f3201edd45db59dfe9a21198ac3c41bfabc8a8d2c514b55f",
+    "numerical-identity-pins.json": "a098e00c43b6e2cff569916b67062ab7d0290ff0d5a64328b732416362c817a7",
+    "private-selected/method.py": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+    "run_nop.py": "3f53f1d62c4b4a959d98315cc9e8f15767680017f1e6b1450c74dc3b92ac41aa",
+    "run_selected_full.py": "da1e29f22d590ca8c24d6245a96806b25eb5ae4a8a061f1514ab5f77f3712403",
+    "selection.json": "8b3ba7095facbfbb8ff70e22f22157466ec9ac465a2756f83ee586c9c677b6a2",
+    "task-freeze.json": "0b8fabd7e1289b74e530ba5a59c3fa99b984d208cfb7b4e2d8a470f7a3d70178"
+  }
+}

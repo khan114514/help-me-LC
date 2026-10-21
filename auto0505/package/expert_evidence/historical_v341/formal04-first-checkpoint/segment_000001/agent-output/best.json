@@ -1,0 +1,9 @@
+{
+  "round": 4,
+  "directory": "round_000004",
+  "policy_name": "bf16_aligned_quadratic_noise_density",
+  "psnr": 19.61162232893616,
+  "score": 0.13456559444867944,
+  "method_sha256": "ca0cf0e2f5236d813f779dca8ca9aeac801aad6050cfa52cf312f34a0017be2e",
+  "explanation": "平方余时间与 BF16 对齐的公开 PSNR=19.6116223289，比当前最佳 μ=1.20 提高 0.0648044673 dB，比 Starter 提高 0.2500451914 dB，保留。SSIM 未同步提升，说明收益应按指定平均 PSNR 判断；本段完成恰好三个新探索。"
+}

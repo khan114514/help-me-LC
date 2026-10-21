@@ -1,0 +1,28 @@
+schema_version = "1.3"
+artifacts = ["/workspace/solution"]
+
+[task]
+name = "autoresearch/rfsteps"
+version = "3.5.0-a100-repair"
+description = "Deterministic timestep allocation under fixed numerical model and NFE budget."
+
+[verifier]
+timeout_sec = 3600.0
+environment_mode = "separate"
+
+[verifier.environment]
+cpus = 8
+memory_mb = 65536
+gpus = 1
+gpu_types = ["A100"]
+
+[agent]
+timeout_sec = 43200.0
+
+[environment]
+os = "linux"
+cpus = 8
+memory_mb = 65536
+gpus = 1
+gpu_types = ["A100"]
+build_timeout_sec = 7200.0

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "receipt.json",
+    "scp_exit": 0,
+    "stderr": "",
+    "sha256": "951d518b4acc3b60ef6fc67c5954e5cf4a7e65f263cdf86bcd4745333af56b15"
+  },
+  {
+    "file": "scorer-stdout.txt",
+    "scp_exit": 0,
+    "stderr": "",
+    "sha256": "12eb6a8f35b9ee0e80353c3bf8f01b0c391b6bc18f9bb5c0e20bae58272a8c5d"
+  },
+  {
+    "file": "gpu-observations.jsonl",
+    "scp_exit": 0,
+    "stderr": "",
+    "sha256": "6622549ff4616d5c556133d5c794cfc176469c27ac3e44c0d8d72349da2711be"
+  },
+  {
+    "file": "output/metrics.json",
+    "scp_exit": 0,
+    "stderr": "",
+    "sha256": "718bab9818874a7df00b88f138c406b332c5c825a5d44da33bfaf4a8782cdb4a"
+  },
+  {
+    "file": "output/schedule.json",
+    "scp_exit": 0,
+    "stderr": "",
+    "sha256": "aac575e390a5df14a55fd4fcbc2a75f40533773f11aee1139a851ccc5849dfe5"
+  }
+]

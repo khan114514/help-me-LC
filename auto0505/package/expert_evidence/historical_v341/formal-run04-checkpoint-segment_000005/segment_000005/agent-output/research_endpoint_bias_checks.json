@@ -1,0 +1,20 @@
+[
+  {
+    "source_round": 13,
+    "formal_last_three_nodes": [
+      0.08,
+      0.032,
+      0.0
+    ],
+    "generic_nodes_valid": true
+  },
+  {
+    "source_round": 15,
+    "formal_last_three_nodes": [
+      0.08,
+      0.032,
+      0.0
+    ],
+    "generic_nodes_valid": true
+  }
+]

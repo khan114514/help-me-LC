@@ -1,0 +1,70 @@
+{
+  "config.json": {
+    "sha256": "92d89f4a9d02f0cd57a668e2b91ebe52992fd84434f26d5035c38cd47fd54585",
+    "bytes": 650
+  },
+  "job.log": {
+    "sha256": "654a4ca8d3528de9d4a8807cbe08ab3d004c2316462185e0364870798c7dd931",
+    "bytes": 3101
+  },
+  "lock.json": {
+    "sha256": "76f11898101e9880f100ce186acdfe692372bbb5c7c8f423a6c11d1d872b5577",
+    "bytes": 2226
+  },
+  "result.json": {
+    "sha256": "f5a1cfec2c6acaf68125c4ce8068c0ce40727c72649e0978b64716a20644c81e",
+    "bytes": 1867
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/artifacts/manifest.json": {
+    "sha256": "55444ad09322d5f69d46b7c73cd202b20feb444aa542d773bb95b50f915a428a",
+    "bytes": 349
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/artifacts/solution/method.py": {
+    "sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+    "bytes": 1036
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/artifacts/solution/solve.sh": {
+    "sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+    "bytes": 145
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/config.json": {
+    "sha256": "13dd81f58b6eb08fb3fbc0c4e7b910715eaf4382d3fcd203303401cdf6f9df11",
+    "bytes": 632
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/lock.json": {
+    "sha256": "f18b0e4e21c6c4864161168829b0263163967d0fac8461226a8e11a95311c6e6",
+    "bytes": 1192
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/result.json": {
+    "sha256": "d71a59a74e388490ae5094bd1c594d6f0f785314645b12a4dae36887ea69f9d0",
+    "bytes": 4193
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/trial.log": {
+    "sha256": "bf801260b4865399ee597b45aa59d46e52091b750e5d486a71f370daaf8c9c56",
+    "bytes": 3026
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/verifier/evaluation_status.json": {
+    "sha256": "6ba0de3de49e5c1184938d3835cbc05f41342ead4949aaa770208700131b78d8",
+    "bytes": 267
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/verifier/gpu_receipt.json": {
+    "sha256": "8d8f8bad656bd2a453f78bf361163e83872f61354bb39df27990e9353288a309",
+    "bytes": 14109
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/verifier/metrics.json": {
+    "sha256": "28dd9114339c1a5c1f375d78586e35266617bb77c27ec454a52feea63ebf9397",
+    "bytes": 4439
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/verifier/remote_metrics.json": {
+    "sha256": "17aac8aebea423fffb703fd7e989d741c3522bae16883ad7340945eef0b38da5",
+    "bytes": 4343
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/verifier/reward.json": {
+    "sha256": "07bafa6ecee54bcea2b2cdcf345e83c271663a7e4ad4973af0036922f58ac19d",
+    "bytes": 106
+  },
+  "rfsteps-v341-build-check-2026100__QTvtVoh/verifier/test-stdout.txt": {
+    "sha256": "11c9b1977211412316ba239d9b3cf44f4b2a5a380774b878d8c5defd02cf1eac",
+    "bytes": 126
+  }
+}

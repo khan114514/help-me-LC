@@ -1,0 +1,74 @@
+[
+  {
+    "image": "coco_000000000139",
+    "psnr_delta": 0.17475749548941977,
+    "pixel_mse_delta": -33.57683563232422,
+    "latent_mse_delta": -0.003168269991874695
+  },
+  {
+    "image": "coco_000000000285",
+    "psnr_delta": -0.09091161168328199,
+    "pixel_mse_delta": 6.0667572021484375,
+    "latent_mse_delta": 0.0004619145765900612
+  },
+  {
+    "image": "coco_000000000632",
+    "psnr_delta": -2.9843100541475955,
+    "pixel_mse_delta": 611.6092402140299,
+    "latent_mse_delta": 0.05910016968846321
+  },
+  {
+    "image": "coco_000000001000",
+    "psnr_delta": 0.4335476482401788,
+    "pixel_mse_delta": -143.40759404500318,
+    "latent_mse_delta": -0.01618390530347824
+  },
+  {
+    "image": "coco_000000001268",
+    "psnr_delta": -0.03189931992761785,
+    "pixel_mse_delta": 9.858465830485102,
+    "latent_mse_delta": 0.0007768422365188599
+  },
+  {
+    "image": "coco_000000001425",
+    "psnr_delta": -0.060219205734576065,
+    "pixel_mse_delta": 7.052959442138615,
+    "latent_mse_delta": -0.0012325569987297058
+  },
+  {
+    "image": "coco_000000001490",
+    "psnr_delta": -0.18048114668866333,
+    "pixel_mse_delta": 30.215106964111328,
+    "latent_mse_delta": -0.006011359393596649
+  },
+  {
+    "image": "coco_000000039769",
+    "psnr_delta": 1.8713741833110618,
+    "pixel_mse_delta": -189.17111714680988,
+    "latent_mse_delta": -0.022740330547094345
+  },
+  {
+    "image": "repo_art",
+    "psnr_delta": 0.22448268509666747,
+    "pixel_mse_delta": -11.54312006632486,
+    "latent_mse_delta": -0.0008537787944078445
+  },
+  {
+    "image": "repo_boy",
+    "psnr_delta": -0.236177780063354,
+    "pixel_mse_delta": 5.501818339029953,
+    "latent_mse_delta": 0.0004739966243505478
+  },
+  {
+    "image": "repo_horse",
+    "psnr_delta": -0.020321267736623128,
+    "pixel_mse_delta": 0.8936907450358262,
+    "latent_mse_delta": -0.0003609582781791687
+  },
+  {
+    "image": "repo_nobel",
+    "psnr_delta": 0.17782273931605985,
+    "pixel_mse_delta": -148.8526217142744,
+    "latent_mse_delta": -0.015599191188812256
+  }
+]

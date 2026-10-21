@@ -1,0 +1,46 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 241B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/auto0505-permissions-base:20261021
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/9] FROM docker.io/library/auto0505-permissions-base:20261021@sha256:8b94a3d8a012d14c55b31545d5b9069f7cdada3e9aee84753445a72becfe9d47
+#5 resolve docker.io/library/auto0505-permissions-base:20261021@sha256:8b94a3d8a012d14c55b31545d5b9069f7cdada3e9aee84753445a72becfe9d47 0.0s done
+#5 DONE 0.0s
+
+#5 [1/9] FROM docker.io/library/auto0505-permissions-base:20261021@sha256:8b94a3d8a012d14c55b31545d5b9069f7cdada3e9aee84753445a72becfe9d47
+#5 DONE 0.1s
+
+#4 [internal] load build context
+#4 transferring context: 6.50MB 0.2s done
+#4 DONE 0.2s
+
+#6 [2/4] COPY . /tests/
+#6 DONE 0.1s
+
+#7 [3/4] RUN chmod -R go-rwx /tests && chmod 755 /tests/test.sh
+#7 DONE 0.2s
+
+#8 [4/4] WORKDIR /workspace
+#8 DONE 0.0s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 0.2s done
+#9 exporting manifest sha256:c7d23b338dcfbfaa783bc3bd0e5c3e619c9a22ff75822565c325b77128fe70a0 done
+#9 exporting config sha256:11ebdef1a5a9c92ac7b9ed995c4663f9e41f9d06a6c93fc441602fbb2fd53bc7 0.0s done
+#9 exporting attestation manifest sha256:4c46f5f15af6740d3ec1cec093670058219eedd8ecf5ec9663ac7f2557bf6f5e 0.0s done
+#9 exporting manifest list sha256:c833c4eed084e45789b8c99b648903e5dc5bfb772a0ec86c728b521b820adf62 0.0s done
+#9 naming to docker.io/library/auto0505-formal-permissions:20261021 done
+#9 unpacking to docker.io/library/auto0505-formal-permissions:20261021 0.1s done
+#9 DONE 0.4s

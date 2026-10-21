@@ -1,0 +1,184 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "policy_name": "starter_flux_shift_mu_0.63",
+      "method_summary": "冻结 Starter 的官方 FLUX 时间偏移 μ=0.63，用于校准公开 PSNR。",
+      "status": "ok",
+      "score": 19.361577137501065,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 23:07:31"
+    },
+    {
+      "round": 2,
+      "policy_name": "unshifted_uniform",
+      "method_summary": "移除 Starter 的正向 logit 偏移，均匀分配时间步。低噪声端最大步长由约 0.0726 降至 0.04，以检验双向中点积分对偏移的敏感性。",
+      "status": "ok",
+      "score": 17.959306788303643,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-04 23:13:29"
+    },
+    {
+      "round": 3,
+      "policy_name": "high_noise_logit_shift_mu_1.20",
+      "method_summary": "均匀分配实测退化，因此将 Starter 的偏移 μ=0.63 增至 1.20，增强高时间端密度。最后高噪声区间缩短至约 0.0124，以检验噪声端积分误差是否主导重建。",
+      "status": "ok",
+      "score": 19.546817861597415,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 23:20:04"
+    },
+    {
+      "round": 4,
+      "policy_name": "bf16_aligned_quadratic_noise_density",
+      "method_summary": "采用 t=1-(i/n)^2，在噪声端集中节点；投影到 1/128 网格，并用最小一格约束保证严格降序。正式参数下时间、中点及步长系数可被 BF16 精确表示，同时低噪声区间从 μ=1.20 的约 0.1215 缩短至 0.078125。",
+      "status": "ok",
+      "score": 19.61162232893616,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 23:26:35"
+    },
+    {
+      "round": 5,
+      "policy_name": "continuous_quadratic_with_endpoint_gap_floor",
+      "method_summary": "保留当前最佳的平方余时间密度与 1/128 最小间隔，移除整数网格舍入。该对照检验 BF16 对齐对往返 PSNR 的影响，同时避免把端点步长塌缩混入比较。",
+      "status": "ok",
+      "score": 19.420211702190297,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-04 23:37:10"
+    },
+    {
+      "round": 6,
+      "policy_name": "quadratic_scaled_embedding_grid_125",
+      "method_summary": "保留平方余时间密度，将 1/128 网格改为 1/125 网格，使节点及中点在公开参考的 BF16 时间乘 1000 操作后恢复精确嵌入时间。最小一格约束防止端点塌缩；该方案检验模型时间嵌入对齐与积分系数对齐的权衡。",
+      "status": "ok",
+      "score": 20.2250921627834,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 23:43:40"
+    },
+    {
+      "round": 7,
+      "policy_name": "power_2.5_scaled_embedding_grid_125",
+      "method_summary": "沿用公开实测改善的 1/125 时间嵌入网格，将余时间幂指数从 2 增至 2.5。t>0.8 的节点从 12 增至 14，最大区间从 0.08 增至 0.096，以检验噪声端加密与低噪声端变粗的权衡。",
+      "status": "ok",
+      "score": 20.11972692968958,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-04 23:49:38"
+    },
+    {
+      "round": 8,
+      "policy_name": "power_1.5_scaled_embedding_grid_125",
+      "method_summary": "保留最佳的 1/125 嵌入对齐，将余时间幂指数从 2 降至 1.5。t>0.8 的节点由 12 降至 9，最大区间由 0.08 降至 0.064，检验给中低噪声区域更多步数能否改善平均 PSNR。",
+      "status": "ok",
+      "score": 20.22256831283264,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-04 23:57:06"
+    },
+    {
+      "round": 9,
+      "policy_name": "starter_logit_scaled_embedding_grid_125",
+      "method_summary": "保持 Starter 的序列长驱动 logit 偏移 μ=0.63，并将节点投影到已实测的 1/125 嵌入网格。它保留原始密度形状，检验时间嵌入对齐是否也能改善 Starter，而非仅对平方密度有效。",
+      "status": "ok",
+      "score": 19.35956474237743,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-05 00:03:14"
+    },
+    {
+      "round": 10,
+      "policy_name": "power_1.75_scaled_embedding_grid_125",
+      "method_summary": "保持 1/125 对齐，选取指数 1.5 与 2 之间的 1.75；三个已测指数的插值最优约为 1.762。该候选在高噪声细分与中低噪声分辨率间折中，检验平均 PSNR 是否可超过两端近乎持平的结果。",
+      "status": "ok",
+      "score": 19.342618834310464,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-05 00:09:19"
+    },
+    {
+      "round": 11,
+      "policy_name": "quadratic_adaptive_embedding_fixed_point_projection",
+      "method_summary": "以平方密度及最小 0.008 间隔为目标，在毫秒网格上用动态规划最小化节点位移。节点和所有相邻中点必须是参考 BF16 时间嵌入的固定点，允许低时间区使用比 1/125 更细的网格，以检验更精确的形状投影。",
+      "status": "ok",
+      "score": 19.627707401550804,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-05 00:20:23"
+    },
+    {
+      "round": 12,
+      "policy_name": "quadratic_high_time_uniform_low_time_tail",
+      "method_summary": "保留当前最佳 t>0.536 的节点，把剩余 8 个区间均匀分配后投影至 1/125 网格。最大间隔由 0.080 降至 0.072，以检验低时间尾部的最大步长是否主导往返误差，而不改变噪声端密度。",
+      "status": "ok",
+      "score": 19.64312655881425,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-05 00:27:29"
+    },
+    {
+      "round": 13,
+      "policy_name": "quadratic_one_interval_budget_exchange",
+      "method_summary": "从原最佳平方网格出发，保留首个端点区间，合并最短内部区间对，再在 1/125 网格上拆分最长区间。正式参数下删除 0.984 并新增 0.040，把一次步数预算转移到低时间端，最大区间从 0.080 降至 0.072。",
+      "status": "ok",
+      "score": 20.65104213455171,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-05 00:33:29"
+    },
+    {
+      "round": 14,
+      "policy_name": "quadratic_two_interval_budget_exchanges",
+      "method_summary": "将已实测获益的合并最短内部区间、拆分最长区间操作从一次增加至两次，始终保留首个端点区间和 1/125 嵌入对齐。正式参数下额外删除 0.968 并新增 0.192，检验进一步把高时间密集预算移到中低时间区域是否有益。",
+      "status": "ok",
+      "score": 20.58900516253615,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-05 00:42:07"
+    },
+    {
+      "round": 15,
+      "policy_name": "quadratic_boundary_protected_budget_exchange",
+      "method_summary": "保留 t>0.96 的平方网格节点，将一次预算交换的合并位置从 0.984 移到 0.944，同时保留新增 0.040 的末端拆分。该对照检验噪声端边界层密度是否值得保护，而不改变计算预算与最大间隔。",
+      "status": "ok",
+      "score": 20.070065536554623,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-05 00:48:10"
+    },
+    {
+      "round": 16,
+      "policy_name": "quadratic_one_exchange_data_end_biased_split",
+      "method_summary": "保持一次预算交换最佳的其它节点，将最后区间内的节点从 0.040 移至 0.032，使图像端首个反演步长缩短，随后区间变为 0.048。节点及中点仍满足 1/125 嵌入对齐；这项对照检验末端局部刚性与不等长区间的权衡。",
+      "status": "ok",
+      "score": 20.59084749834102,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-05 00:54:53"
+    },
+    {
+      "round": 17,
+      "policy_name": "quadratic_one_exchange_upper_endpoint_split",
+      "method_summary": "保留一次预算交换最佳的其它节点，把末端 0.040 改至 0.048，使 0.080 区间的两个步长为 0.032 和 0.048。与已测 0.032 方案构成对照，检验末端局部误差对拆分方向的敏感性，节点及中点保持嵌入对齐。",
+      "status": "ok",
+      "score": 20.172017754438393,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-05 01:03:32"
+    },
+    {
+      "round": 18,
+      "policy_name": "quadratic_adjacent_high_time_donor_exchange",
+      "method_summary": "保留最佳的末端 0.040 等分，将高时间预算合并位置从删除 0.984 改为删除相邻的 0.976。用整数网格间隔确定最短可合并区间，保留 t>0.98 节点；该对照检验邻近预算来源的效果，不增加步数。",
+      "status": "INFRASTRUCTURE_ERROR",
+      "score": null,
+      "failure_reason": "INFRASTRUCTURE_ERROR: {'code': 'trusted_ssh_failure', 'message': 'No evaluation score was accepted; check the organizer-side RPC service.'}",
+      "retained_best": false,
+      "time": "2026-10-05 01:06:53"
+    }
+  ]
+}

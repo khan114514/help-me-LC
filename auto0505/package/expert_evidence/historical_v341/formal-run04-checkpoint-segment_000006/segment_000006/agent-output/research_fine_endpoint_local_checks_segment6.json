@@ -1,0 +1,24 @@
+[
+  {
+    "source_round": 13,
+    "prospective_last_nodes": [
+      0.08,
+      0.036,
+      0.0
+    ],
+    "reference_embedding_time_error": 1.1102230246251565e-16,
+    "generic_shape_checks": true,
+    "not_gpu_scored": true
+  },
+  {
+    "source_round": 18,
+    "prospective_last_nodes": [
+      0.08,
+      0.036,
+      0.0
+    ],
+    "reference_embedding_time_error": 1.1102230246251565e-16,
+    "generic_shape_checks": true,
+    "not_gpu_scored": true
+  }
+]

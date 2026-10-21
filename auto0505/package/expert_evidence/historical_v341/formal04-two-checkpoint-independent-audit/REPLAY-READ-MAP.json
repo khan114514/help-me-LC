@@ -1,0 +1,461 @@
+{
+  "scope": "Exact original-path to local immutable-byte references; only selected Public UUIDs",
+  "files": [
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/source/remote_gpu_worker.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/source/remote_gpu_worker.py",
+      "sha256": "ccffdfadb024de6f7a26f47769eb5b2060d53d31f8c302013f34c48f41d6bf96"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/source/trusted_controller.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/source/trusted_controller.py",
+      "sha256": "5f7a675a0710d8d4a349923e18d6103f1915e96e22df250d2cc3fb9538491452"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/source/detached_gateway_lifecycle.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/source/detached_gateway_lifecycle.py",
+      "sha256": "a44a8c15b0e91fee0693ec451dd368b0f6cb83cde4982be9c52564207ab5c948"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/gpt-provider-events.jsonl",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/gpt-provider-events.jsonl",
+      "sha256": "249c4476c2cc42bf519528549a7cce7193527eefdf6b82e898e5e7d8c93c5baf"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/source/expert_model_controller.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/source/expert_model_controller.py",
+      "sha256": "ec1279ff4722a89e4f564f3f2ac1533745dcd2bba766d420a7b5f13432b1a0a1"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/expert-trajectory.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/expert-trajectory.json",
+      "sha256": "38d6c4fc840d8ff767749983a7b5a23f802bda3b90fd99fdd079f2a080fb9f2e"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/native-segment.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/native-segment.json",
+      "sha256": "0537b9de39bdf7b47103d7b85eb1145f7bf40b9926c3599809cc0971ce4727ea"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/native/codex.txt",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/native/codex.txt",
+      "sha256": "34156a081bf5b0fa2d69d5c82bce199f016fc749c4f45fa43f717ed587201252"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output-manifest.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output-manifest.json",
+      "sha256": "a1f4ef833779b9055bb964686ceacb0ca7fae50ea0ef49af2a7caa6101ae9cf0"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/harness-source/continuation_research_codex.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/harness-source/continuation_research_codex.py",
+      "sha256": "8d9e51d137c5ec2de61eee9f494986c9084690f576827ed71a355a3bcfde64c2"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/actual-instruction.md",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/actual-instruction.md",
+      "sha256": "fc748766095e76608aa29eecf033e07b2aca3d6ce38c7e13584a3d3411638b53"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/native/sessions/2026/10/04/rollout-2026-10-04T15-01-38-01a1076f-51ab-7973-92d6-d0c03e90b789.jsonl",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/native/sessions/2026/10/04/rollout-2026-10-04T15-01-38-01a1076f-51ab-7973-92d6-d0c03e90b789.jsonl",
+      "sha256": "3b0377680e9ce7331c9f2726d324d243c850dee835d7345f7f2ce2171644c1ff"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000001/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output/round_000001/method.py",
+      "sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/52c30802-5957-4b04-88de-4ac645330218.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/52c30802-5957-4b04-88de-4ac645330218.json",
+      "sha256": "6acb5f3899265980ee831a1f60362f5e7ff3f27efcd3397f4c1833a0f207fdd0"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/52c30802-5957-4b04-88de-4ac645330218.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/52c30802-5957-4b04-88de-4ac645330218.json",
+      "sha256": "6acb5f3899265980ee831a1f60362f5e7ff3f27efcd3397f4c1833a0f207fdd0"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000001.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/closure_000001.json",
+      "sha256": "f2db295a53f15c699dbead16feade9939b3872f4dc877ff0f53d7bef62b753cc"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000002/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output/round_000002/method.py",
+      "sha256": "bef7a3bc61f9358d45c8d00c02fa5b0ca69a5f58528368a5ecbeb5d2d8e8d4a5"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/08d7e00b-74a8-4a00-bc1c-dd1627773beb.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/08d7e00b-74a8-4a00-bc1c-dd1627773beb.json",
+      "sha256": "bc8318e3ad8ab33c793efa0452da26c5d424a3d9ae7fff5317d0ffcca4074169"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/08d7e00b-74a8-4a00-bc1c-dd1627773beb.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/08d7e00b-74a8-4a00-bc1c-dd1627773beb.json",
+      "sha256": "bc8318e3ad8ab33c793efa0452da26c5d424a3d9ae7fff5317d0ffcca4074169"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000002.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/closure_000002.json",
+      "sha256": "1b90c4d3e184df01c88fa2b2096d761df9ba54c1fb94946c28f2a7e38ee91e2f"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000003/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output/round_000003/method.py",
+      "sha256": "17965d22465a8bb133b4aa51e0cb6562be6e3139ab080c8a1ed14412a5352b26"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/ac1b633a-4e09-4208-9fd9-2bc95eb3880e.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/ac1b633a-4e09-4208-9fd9-2bc95eb3880e.json",
+      "sha256": "963e42e3c97190bcf8861b048dd136eecbfaecbb84e3e1be7844f73338dc7716"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/ac1b633a-4e09-4208-9fd9-2bc95eb3880e.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/ac1b633a-4e09-4208-9fd9-2bc95eb3880e.json",
+      "sha256": "963e42e3c97190bcf8861b048dd136eecbfaecbb84e3e1be7844f73338dc7716"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000003.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/closure_000003.json",
+      "sha256": "4d263a73c8a4e143d933a4450ab8220ef08a6663336337ecce7187119e9c2a74"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000004/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output/round_000004/method.py",
+      "sha256": "ca0cf0e2f5236d813f779dca8ca9aeac801aad6050cfa52cf312f34a0017be2e"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/48f255a0-c288-4244-9aac-4d276e8b2e65.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/48f255a0-c288-4244-9aac-4d276e8b2e65.json",
+      "sha256": "1cdccf5e16e022035024039cdce1df2938d5af22b228353eec5944ec72f0da0d"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/48f255a0-c288-4244-9aac-4d276e8b2e65.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/48f255a0-c288-4244-9aac-4d276e8b2e65.json",
+      "sha256": "1cdccf5e16e022035024039cdce1df2938d5af22b228353eec5944ec72f0da0d"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000004.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/closure_000004.json",
+      "sha256": "bef7124be3101c1a6ebc958c479dd4623e736495ebac580a3c1912799ec61f44"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/seed-provider-events.jsonl",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/seed-provider-events.jsonl",
+      "sha256": "249c4476c2cc42bf519528549a7cce7193527eefdf6b82e898e5e7d8c93c5baf"
+    },
+    {
+      "checkpoint": "segment_000001",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/seed/empty-trajectory.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/seed/empty-trajectory.json",
+      "sha256": "d2631a5df9d7d6bf6641ada871bfe030a5a6556663c77af5f7239103d63b320d"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/source/remote_gpu_worker.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/source/remote_gpu_worker.py",
+      "sha256": "ccffdfadb024de6f7a26f47769eb5b2060d53d31f8c302013f34c48f41d6bf96"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/source/trusted_controller.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/source/trusted_controller.py",
+      "sha256": "5f7a675a0710d8d4a349923e18d6103f1915e96e22df250d2cc3fb9538491452"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/source/detached_gateway_lifecycle.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/source/detached_gateway_lifecycle.py",
+      "sha256": "a44a8c15b0e91fee0693ec451dd368b0f6cb83cde4982be9c52564207ab5c948"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/gpt-provider-events.jsonl",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/gpt-provider-events.jsonl",
+      "sha256": "9104c1fe51a0373e5f2424a82a04356ab9ab5edda38821b172660dbc340ed916"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/source/expert_model_controller.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/source/expert_model_controller.py",
+      "sha256": "ec1279ff4722a89e4f564f3f2ac1533745dcd2bba766d420a7b5f13432b1a0a1"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/expert-trajectory.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/expert-trajectory.json",
+      "sha256": "ad09e1d6414595116d5993793a94aa22f7a919edb5c52be08081ed2956bc8b2a"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/native-segment.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/native-segment.json",
+      "sha256": "0537b9de39bdf7b47103d7b85eb1145f7bf40b9926c3599809cc0971ce4727ea"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/native/codex.txt",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/native/codex.txt",
+      "sha256": "34156a081bf5b0fa2d69d5c82bce199f016fc749c4f45fa43f717ed587201252"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output-manifest.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output-manifest.json",
+      "sha256": "a1f4ef833779b9055bb964686ceacb0ca7fae50ea0ef49af2a7caa6101ae9cf0"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/harness-source/continuation_research_codex.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/harness-source/continuation_research_codex.py",
+      "sha256": "8d9e51d137c5ec2de61eee9f494986c9084690f576827ed71a355a3bcfde64c2"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/actual-instruction.md",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/actual-instruction.md",
+      "sha256": "fc748766095e76608aa29eecf033e07b2aca3d6ce38c7e13584a3d3411638b53"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/native/sessions/2026/10/04/rollout-2026-10-04T15-01-38-01a1076f-51ab-7973-92d6-d0c03e90b789.jsonl",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/native/sessions/2026/10/04/rollout-2026-10-04T15-01-38-01a1076f-51ab-7973-92d6-d0c03e90b789.jsonl",
+      "sha256": "3b0377680e9ce7331c9f2726d324d243c850dee835d7345f7f2ce2171644c1ff"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000001/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output/round_000001/method.py",
+      "sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/52c30802-5957-4b04-88de-4ac645330218.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/52c30802-5957-4b04-88de-4ac645330218.json",
+      "sha256": "6acb5f3899265980ee831a1f60362f5e7ff3f27efcd3397f4c1833a0f207fdd0"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/52c30802-5957-4b04-88de-4ac645330218.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/52c30802-5957-4b04-88de-4ac645330218.json",
+      "sha256": "6acb5f3899265980ee831a1f60362f5e7ff3f27efcd3397f4c1833a0f207fdd0"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000001.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/closure_000001.json",
+      "sha256": "f2db295a53f15c699dbead16feade9939b3872f4dc877ff0f53d7bef62b753cc"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000002/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output/round_000002/method.py",
+      "sha256": "bef7a3bc61f9358d45c8d00c02fa5b0ca69a5f58528368a5ecbeb5d2d8e8d4a5"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/08d7e00b-74a8-4a00-bc1c-dd1627773beb.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/08d7e00b-74a8-4a00-bc1c-dd1627773beb.json",
+      "sha256": "bc8318e3ad8ab33c793efa0452da26c5d424a3d9ae7fff5317d0ffcca4074169"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/08d7e00b-74a8-4a00-bc1c-dd1627773beb.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/08d7e00b-74a8-4a00-bc1c-dd1627773beb.json",
+      "sha256": "bc8318e3ad8ab33c793efa0452da26c5d424a3d9ae7fff5317d0ffcca4074169"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000002.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/closure_000002.json",
+      "sha256": "1b90c4d3e184df01c88fa2b2096d761df9ba54c1fb94946c28f2a7e38ee91e2f"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000003/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output/round_000003/method.py",
+      "sha256": "17965d22465a8bb133b4aa51e0cb6562be6e3139ab080c8a1ed14412a5352b26"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/ac1b633a-4e09-4208-9fd9-2bc95eb3880e.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/ac1b633a-4e09-4208-9fd9-2bc95eb3880e.json",
+      "sha256": "963e42e3c97190bcf8861b048dd136eecbfaecbb84e3e1be7844f73338dc7716"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/ac1b633a-4e09-4208-9fd9-2bc95eb3880e.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/ac1b633a-4e09-4208-9fd9-2bc95eb3880e.json",
+      "sha256": "963e42e3c97190bcf8861b048dd136eecbfaecbb84e3e1be7844f73338dc7716"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000003.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/closure_000003.json",
+      "sha256": "4d263a73c8a4e143d933a4450ab8220ef08a6663336337ecce7187119e9c2a74"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000004/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output/round_000004/method.py",
+      "sha256": "ca0cf0e2f5236d813f779dca8ca9aeac801aad6050cfa52cf312f34a0017be2e"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/48f255a0-c288-4244-9aac-4d276e8b2e65.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/48f255a0-c288-4244-9aac-4d276e8b2e65.json",
+      "sha256": "1cdccf5e16e022035024039cdce1df2938d5af22b228353eec5944ec72f0da0d"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/48f255a0-c288-4244-9aac-4d276e8b2e65.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/48f255a0-c288-4244-9aac-4d276e8b2e65.json",
+      "sha256": "1cdccf5e16e022035024039cdce1df2938d5af22b228353eec5944ec72f0da0d"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000004.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/closure_000004.json",
+      "sha256": "bef7124be3101c1a6ebc958c479dd4623e736495ebac580a3c1912799ec61f44"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/native-segment.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/native-segment.json",
+      "sha256": "e8272924b61f1395c40ff22ce01281c732bb3d7b11152118addddf9e9b911d7f"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/native/codex.txt",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/native/codex.txt",
+      "sha256": "647a33194e6a44b07ed8bb9aecd3d0304f9f870586efda5513598e91c06b6af1"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/agent-output-manifest.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/agent-output-manifest.json",
+      "sha256": "c8fe94599b93575a1de3a53bcaab473aeb2f89c52597b99dfc99aa67703c5e2a"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/native/sessions/2026/10/04/rollout-2026-10-04T15-01-38-01a1076f-51ab-7973-92d6-d0c03e90b789.jsonl",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/native/sessions/2026/10/04/rollout-2026-10-04T15-01-38-01a1076f-51ab-7973-92d6-d0c03e90b789.jsonl",
+      "sha256": "e63787e5cbf8fac3c837e4f3ba3b25ffd45453cd3cc1c6504e8b18a1200d5af2"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/agent-output/round_000005/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/agent-output/round_000005/method.py",
+      "sha256": "fa5f0561f0e77f1643075df7766dd28e7d5cd5e62b9416aaa9f0227128bc164d"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/f2397b9e-4a6e-4bfa-abc4-3f0478d9bbba.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/f2397b9e-4a6e-4bfa-abc4-3f0478d9bbba.json",
+      "sha256": "354645d093229a829a28ff51e23b2bb8a8565cd4a1b654f66cb641182c936245"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/f2397b9e-4a6e-4bfa-abc4-3f0478d9bbba.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/f2397b9e-4a6e-4bfa-abc4-3f0478d9bbba.json",
+      "sha256": "354645d093229a829a28ff51e23b2bb8a8565cd4a1b654f66cb641182c936245"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/closure_000005.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/closure_000005.json",
+      "sha256": "1194bad74b637d9daea1623a3e3efd6c2cf75340aff57c69857c587a0cf1a3a0"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/agent-output/round_000006/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/agent-output/round_000006/method.py",
+      "sha256": "d593a6bba72a9e91d27d009dc687bf3ac64557396ec4a1cb798213dbb5d71703"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/8fd42025-944d-45e6-a4c4-94829d1c6bf3.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/8fd42025-944d-45e6-a4c4-94829d1c6bf3.json",
+      "sha256": "f421fe134c8e55652928c98410021f2b4b4c288758591f7dd675128c9a693de0"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/8fd42025-944d-45e6-a4c4-94829d1c6bf3.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/8fd42025-944d-45e6-a4c4-94829d1c6bf3.json",
+      "sha256": "f421fe134c8e55652928c98410021f2b4b4c288758591f7dd675128c9a693de0"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/closure_000006.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/closure_000006.json",
+      "sha256": "10a19ea37496842e33da59379e51949e7ed03b68c02d2ac22cce6a709c8d67c5"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/agent-output/round_000007/method.py",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/agent-output/round_000007/method.py",
+      "sha256": "ca726e5877fedab4687b3b8ea0e4b814b4aedb989486fd0daf6dbb0bb05375aa"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/4e06bc27-6228-4efc-98c3-c4b0fe7cdd30.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/4e06bc27-6228-4efc-98c3-c4b0fe7cdd30.json",
+      "sha256": "c9d8bc3d1611ba7a4f1365c41669739f856661d37264b8ee05bdac058a48ae1a"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/4e06bc27-6228-4efc-98c3-c4b0fe7cdd30.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/numeric-live-01/trusted-receipts/4e06bc27-6228-4efc-98c3-c4b0fe7cdd30.json",
+      "sha256": "c9d8bc3d1611ba7a4f1365c41669739f856661d37264b8ee05bdac058a48ae1a"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/closure_000007.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/closure_000007.json",
+      "sha256": "41d9836942fcfb1e5596f17373018671d05cc86edf1f23b5128800525d9b0d8d"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/seed-provider-events.jsonl",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/seed-provider-events.jsonl",
+      "sha256": "9104c1fe51a0373e5f2424a82a04356ab9ab5edda38821b172660dbc340ed916"
+    },
+    {
+      "checkpoint": "segment_000002",
+      "original_reference": "/historical-root/rfsteps-v341-formal-research-run04-20261004/seed/empty-trajectory.json",
+      "local_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-preparation/seed/empty-trajectory.json",
+      "sha256": "d2631a5df9d7d6bf6641ada871bfe030a5a6556663c77af5f7239103d63b320d"
+    }
+  ]
+}

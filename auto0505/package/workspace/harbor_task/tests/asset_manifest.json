@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "role": "formal",
+  "images": {
+    "hidden/coco_000000001296.png": "00dba577e9dcb25f07b4d06f50f05ddfaae8c46826bc59d44c48fe7a548c0d93",
+    "hidden/repo_hiking.png": "13c42ee741a032e7caba387654becfe5a366f897557d72b8b4ac7b3d478f8966",
+    "hidden/repo_cartoon.png": "6ed0bb12d07ecf772e868c2f33f88bbe782882d4ac3a6dbc36597928a3182bda",
+    "hidden/coco_000000000802.png": "642688ad84d6c9c3f64d1e9f66c388e5857da157e7ea9e5a9be8c0132b768be7",
+    "public/repo_art.png": "95e0d7bfa351fa3b00f90d667e7ab7ca5da261e44fcf4473de50bde6eed5e9ea",
+    "public/coco_000000001268.png": "3876caece29c6b1a681b061e6e1577828839c14394abb68372b252cb92c59e95",
+    "public/coco_000000001490.png": "be0522e9c34479fa5da9f4a433454affd8a468a8cbab897ad75c6d7f24f6e104",
+    "public/repo_boy.png": "b7c9e147c4635e10953fb14cdad472ff1bfaa54ae6147ae096c24133b019697a",
+    "public/coco_000000001425.png": "26830a640e3974480e1b8c734c46af479c74d6e273ad4f52dbd106b954e5b049",
+    "public/coco_000000039769.png": "fd6f28d91862d2dd0b8265afb1da553b3a3f9bc91841c1040a8598042b4324e5",
+    "public/coco_000000000139.png": "410abbaa2b30b9386fb1d53aefc21af172d292026fbb81f61c23c9301a88ead8",
+    "public/coco_000000001000.png": "837ede6bcebcc4465c1555c48d85130d5bf9829469b052bdbe5718649b4132fa",
+    "public/repo_nobel.png": "1496a92a885c211c5de07dc23dd346047079f76982754639c40e18021ded60d5",
+    "public/repo_horse.png": "dceef30c01ae1814a274ac264823c851145c5623dd268bff715b5e339855f952",
+    "public/coco_000000000285.png": "3acce04c32eccd56472e4269a7e57ea1ac8f2ede5ff7216d34b399e8a2276f6b",
+    "public/coco_000000000632.png": "f19d159764fa3aeb612c0a090aa27d82934fab43675e6bf05b218c3a4dd7f729"
+  },
+  "runtime_files": {
+    "run_eval.py": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9",
+    "isolation.py": "52824f0d820ca2e0c656d845a9c55f981ca36a098b5042eef02314691c3bd8c6",
+    "local_backend.py": "e59a939bb3250be1aceecff25574e746c9d9982018bfa8df2f4e7975849ae33a",
+    "candidate_worker.py": "b8fdfa6e4ae9bef1d629111b141a21caf702eff916a9a5d4a038f64584eb8466",
+    "evaluate_candidate.py": "17ccee7007afb05cca8d0a1748e24d12d87699efa0805083e04677e4f94394d4",
+    "anchors.json": "50076621400ca5bfd087acf5434f4d0e241926ffa84dbd9fa3e04eadef8a983f"
+  },
+  "worker_files": {
+    "candidate_worker.py": "b8fdfa6e4ae9bef1d629111b141a21caf702eff916a9a5d4a038f64584eb8466",
+    "isolation.py": "52824f0d820ca2e0c656d845a9c55f981ca36a098b5042eef02314691c3bd8c6"
+  },
+  "repo_files": {
+    "RF-Solver-Edit/FLUX_Image_Edit/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "RF-Solver-Edit/FLUX_Image_Edit/src/flux/_version.py": "3ea3468a1db74d0f32be9c3a01f1348eaec3fd160581e1b513e092549f439edc",
+    "RF-Solver-Edit/FLUX_Image_Edit/src/flux/util.py": "44b254613fe21a74efded55ed57fa27bf1881e6cb84dc98447c06200a4408988",
+    "RF-Solver-Edit/FLUX_Image_Edit/src/flux/__init__.py": "696433629f30a57293621e3b11ed9e3d9039e2beacff79c6e722c65c27fb173f",
+    "RF-Solver-Edit/FLUX_Image_Edit/src/flux/model.py": "bcd397255f9520d6588c701901b72d9ff19172b5b3ffc9125bebb6eb84e0be95",
+    "RF-Solver-Edit/FLUX_Image_Edit/src/flux/sampling.py": "f46de4cec96f916f6e9462b9f0914c75d66da7ec1ec4d15b03364e4b9e9a0ed1",
+    "RF-Solver-Edit/FLUX_Image_Edit/src/flux/math.py": "4dbcbb2d07062297dced91254256590594fe93089c05bd0679e74da3e77c4dfa",
+    "RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/conditioner.py": "e994b0a3727aca0d02eb26ff2198c66f1cbe3bff16f689a458e9df6173bd281c",
+    "RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/autoencoder.py": "b6d51754eae0600d9c2d5c84bf05e019692093652a2988dfc5b5bc6e7b6833f8",
+    "RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/layers.py": "804b0371838bf1b5a6c3d93af1a0b1a5fd4e01867bbd085ceff6da74fdf5af41"
+  },
+  "weight_files": {
+    "flux-dev/flux1-dev.safetensors": "4610115bb0c89560703c892c59ac2742fa821e60ef5871b33493ba544683abd7",
+    "flux-schnell/ae.safetensors": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38",
+    "t5-encoder-bf16/model.safetensors": "565cb2487351282e8e4dbeb88e63f4ad28217ce0439f5a8e6525a924807d2d9b",
+    "clip-vit-l14/model.safetensors": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb",
+    "t5-encoder-bf16/.gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+    "t5-encoder-bf16/README.md": "06671025c9f8ac4f5c33373e08a0e17e9b7c291170a8a3f3682586de7f77491b",
+    "t5-encoder-bf16/config.json": "e8b75fe2bb5c14903a9208b8d492ed301ec03b227993f213bcf8eaf04491be6a",
+    "t5-encoder-bf16/special_tokens_map.json": "4720c0fddbe4c5991334f85ad7073d9bd0a294a8ba4641a2f8dab614ca825949",
+    "t5-encoder-bf16/spiece.model": "d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86",
+    "t5-encoder-bf16/tokenizer_config.json": "b971dce1d2805c2a66da8657156e7114a30501c6ba602fc947c8bf607a3ead2d",
+    "clip-vit-l14/.gitattributes": "98ccb431c012ebfe976280fbd45aea4cec7409935868ccecf3954370f96732a1",
+    "clip-vit-l14/README.md": "de4274ec48590ab3aa1c239720ff55e99a37f4165c117ba3ad7af2b7df72687c",
+    "clip-vit-l14/config.json": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+    "clip-vit-l14/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+    "clip-vit-l14/preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "clip-vit-l14/special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+    "clip-vit-l14/tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+    "clip-vit-l14/tokenizer_config.json": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+    "clip-vit-l14/vocab.json": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69"
+  }
+}

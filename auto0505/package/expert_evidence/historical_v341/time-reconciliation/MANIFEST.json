@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-10-04T17:09:29.494286+00:00",
+  "scope": "Independent read-only timing evidence reconciliation; user acceptance separate from numeric certification.",
+  "files": [
+    {
+      "path": "TIME-RECONCILIATION.md",
+      "sha256": "f6bb706ff5a40e8ca55841e993ba2d8b954b895f5f3869c67cc45f0e3262674f",
+      "bytes": 3675
+    },
+    {
+      "path": "TIME-RECONCILIATION.json",
+      "sha256": "25e83d9ee534de5b3b81d717cd4f8410c102f752c0b4ebbe2824d4097f68a4b0",
+      "bytes": 61690
+    },
+    {
+      "path": "reconcile_time.py",
+      "sha256": "c926615e34c899b64d9de4d21791279028e631c866adda4661b566b46633052a",
+      "bytes": 16560
+    }
+  ],
+  "checks": {
+    "python_AST": true,
+    "nonoverlapping_role_unions": true,
+    "interval_sums_and_known_deductions": true,
+    "unknown_total_preserved_null": true,
+    "user_time_acceptance_recorded": true,
+    "model_GPU_RPC_candidate_calls": 0,
+    "production_mutations": 0
+  },
+  "source_manifest_entries": 45
+}

@@ -1,0 +1,122 @@
+{
+  "status": "ACTUAL_INSTALLED_FRESH_RUN04_PRECHECK_AND_CONSTRUCTORS_PASSED",
+  "harbor": "0.23.0",
+  "python": "3.14.7",
+  "roles": {
+    "gpt": {
+      "precheck": {
+        "schema_version": 1,
+        "role": "gpt",
+        "utc": "2026-10-04T15:00:04.058773+00:00",
+        "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+        "full_prompt_sha256": "fc748766095e76608aa29eecf033e07b2aca3d6ce38c7e13584a3d3411638b53",
+        "uds": {
+          "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock": {
+            "device": 64514,
+            "inode": 1978676,
+            "mode": "0o666",
+            "uid": 0
+          },
+          "/historical-root/rfsteps-v341-rpc-20261004/sockets/formal.sock": {
+            "device": 64514,
+            "inode": 1978678,
+            "mode": "0o600",
+            "uid": 0
+          },
+          "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/gpt.sock": {
+            "device": 64514,
+            "inode": 1978677,
+            "mode": "0o600",
+            "uid": 0
+          },
+          "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/seed.sock": {
+            "device": 64514,
+            "inode": 1978679,
+            "mode": "0o600",
+            "uid": 0
+          }
+        },
+        "transport_at_check": {
+          "19946": {
+            "status": 501,
+            "body_bytes": 496,
+            "body_sha256": "d0282aea5467c76f7c4bd97faefaaabbe01a9da8beb633c0632fd2bdc490297b"
+          },
+          "19947": {
+            "status": 405,
+            "body_bytes": 39,
+            "body_sha256": "24522f41d219130511f61392ce811d7fb2f2feeb439c9ef9717146dc6d5d3263"
+          }
+        },
+        "native_task_constructed": false,
+        "model_requests": 0,
+        "gpu_requests": 0,
+        "research_credit_seconds": 0
+      },
+      "actual_native_constructor_passed": true,
+      "model": "gpt-6.1-sol",
+      "effort": "xhigh",
+      "dummy_connection_only": true,
+      "host_auth_disabled": true
+    },
+    "seed": {
+      "precheck": {
+        "schema_version": 1,
+        "role": "seed",
+        "utc": "2026-10-04T15:00:04.208669+00:00",
+        "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+        "full_prompt_sha256": "fc748766095e76608aa29eecf033e07b2aca3d6ce38c7e13584a3d3411638b53",
+        "uds": {
+          "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock": {
+            "device": 64514,
+            "inode": 1978676,
+            "mode": "0o666",
+            "uid": 0
+          },
+          "/historical-root/rfsteps-v341-rpc-20261004/sockets/formal.sock": {
+            "device": 64514,
+            "inode": 1978678,
+            "mode": "0o600",
+            "uid": 0
+          },
+          "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/gpt.sock": {
+            "device": 64514,
+            "inode": 1978677,
+            "mode": "0o600",
+            "uid": 0
+          },
+          "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/seed.sock": {
+            "device": 64514,
+            "inode": 1978679,
+            "mode": "0o600",
+            "uid": 0
+          }
+        },
+        "transport_at_check": {
+          "19946": {
+            "status": 501,
+            "body_bytes": 496,
+            "body_sha256": "d0282aea5467c76f7c4bd97faefaaabbe01a9da8beb633c0632fd2bdc490297b"
+          },
+          "19947": {
+            "status": 405,
+            "body_bytes": 39,
+            "body_sha256": "24522f41d219130511f61392ce811d7fb2f2feeb439c9ef9717146dc6d5d3263"
+          }
+        },
+        "native_task_constructed": false,
+        "model_requests": 0,
+        "gpu_requests": 0,
+        "research_credit_seconds": 0
+      },
+      "actual_native_constructor_passed": true,
+      "model": "doubao-seed-2-1-turbo-260628",
+      "effort": "high",
+      "dummy_connection_only": true,
+      "host_auth_disabled": true
+    }
+  },
+  "models_gpu_containers_started": 0,
+  "research_credit_seconds": 0,
+  "source_files_verified": 42
+}

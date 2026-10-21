@@ -1,0 +1,15 @@
+{
+  "files": {
+    "DEPLOYMENT-REQUIREMENTS.md": "8e87f9cacad1b58df2eb669fa2ef8cc8fea187a1916d39c6940a41b72c639029",
+    "source/socket_gateway.py": "79532001e77d0e680ec8dad75421c3e2ef251227e250fc15338f241e94ee7928",
+    "source/expert_model_controller.py": "ec1279ff4722a89e4f564f3f2ac1533745dcd2bba766d420a7b5f13432b1a0a1",
+    "source/detached_gateway_lifecycle.py": "a44a8c15b0e91fee0693ec451dd368b0f6cb83cde4982be9c52564207ab5c948",
+    "source/model_http_bridge.py": "7c214445421c7352dd6346a4023fadbbfbaabed95114b2c4b0130bcdc4d10cf7",
+    "source/trusted_controller.py": "5f7a675a0710d8d4a349923e18d6103f1915e96e22df250d2cc3fb9538491452",
+    "source/model_transport.py": "39e84ce78c30ff5e7ce3ed1e8fd269765a4375aaa90269012daefbacb3277e7d",
+    "source/model_socket_gateway.py": "90e5cb76e3ee599ef35c2f1ba66eb64811e5cc9b36e27cf5715546cabf566843",
+    "source/mirror_model_events.py": "c9e2e21f08a8ec1326c2a80ac2f2ef66028e8e128d3680fc54e5d7c5d7806a48",
+    "source/remote_gpu_worker.py": "ccffdfadb024de6f7a26f47769eb5b2060d53d31f8c302013f34c48f41d6bf96"
+  },
+  "credentials_included": false
+}

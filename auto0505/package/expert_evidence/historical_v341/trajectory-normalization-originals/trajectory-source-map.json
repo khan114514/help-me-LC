@@ -1,0 +1,1346 @@
+{
+  "renumbering_only": true,
+  "records": [
+    {
+      "track": "codex",
+      "canonical_round": 1,
+      "original_round": 1,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 2,
+      "original_round": 2,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 3,
+      "original_round": 3,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 4,
+      "original_round": 4,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 5,
+      "original_round": 5,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 6,
+      "original_round": 6,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 7,
+      "original_round": 7,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 8,
+      "original_round": 8,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 9,
+      "original_round": 9,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 10,
+      "original_round": 10,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 11,
+      "original_round": 11,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 12,
+      "original_round": 12,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 13,
+      "original_round": 13,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 14,
+      "original_round": 14,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 15,
+      "original_round": 15,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 16,
+      "original_round": 16,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 17,
+      "original_round": 17,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 18,
+      "original_round": 18,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 19,
+      "original_round": 19,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 20,
+      "original_round": 20,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 21,
+      "original_round": 21,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 22,
+      "original_round": 22,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 23,
+      "original_round": 23,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 24,
+      "original_round": 24,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 25,
+      "original_round": 25,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 26,
+      "original_round": 26,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 27,
+      "original_round": 27,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 28,
+      "original_round": 28,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 29,
+      "original_round": 29,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 30,
+      "original_round": 30,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 31,
+      "original_round": 31,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 32,
+      "original_round": 32,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 33,
+      "original_round": 33,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 34,
+      "original_round": 34,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 35,
+      "original_round": 35,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 36,
+      "original_round": 36,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 37,
+      "original_round": 37,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 38,
+      "original_round": 38,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 39,
+      "original_round": 39,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 40,
+      "original_round": 40,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 41,
+      "original_round": 41,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 42,
+      "original_round": 42,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 43,
+      "original_round": 43,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 44,
+      "original_round": 44,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 45,
+      "original_round": 45,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 46,
+      "original_round": 46,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 47,
+      "original_round": 47,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 48,
+      "original_round": 48,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 49,
+      "original_round": 49,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 50,
+      "original_round": 50,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 51,
+      "original_round": 51,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 52,
+      "original_round": 52,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 53,
+      "original_round": 53,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 54,
+      "original_round": 54,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 55,
+      "original_round": 55,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 56,
+      "original_round": 56,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 57,
+      "original_round": 57,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 58,
+      "original_round": 58,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 59,
+      "original_round": 59,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 60,
+      "original_round": 60,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 61,
+      "original_round": 61,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 62,
+      "original_round": 62,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 63,
+      "original_round": 63,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 64,
+      "original_round": 64,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 65,
+      "original_round": 65,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 66,
+      "original_round": 66,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 67,
+      "original_round": 67,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 68,
+      "original_round": 68,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 69,
+      "original_round": 69,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 70,
+      "original_round": 70,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 71,
+      "original_round": 71,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 72,
+      "original_round": 72,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 73,
+      "original_round": 73,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 74,
+      "original_round": 74,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 75,
+      "original_round": 75,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 76,
+      "original_round": 76,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 77,
+      "original_round": 77,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 78,
+      "original_round": 78,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 79,
+      "original_round": 79,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 80,
+      "original_round": 80,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 81,
+      "original_round": 81,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 82,
+      "original_round": 82,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 83,
+      "original_round": 83,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 84,
+      "original_round": 84,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_codex.json",
+      "source_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 85,
+      "original_round": 1,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 86,
+      "original_round": 2,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 87,
+      "original_round": 3,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 88,
+      "original_round": 4,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 89,
+      "original_round": 5,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 90,
+      "original_round": 6,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 91,
+      "original_round": 7,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 92,
+      "original_round": 8,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 93,
+      "original_round": 9,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 94,
+      "original_round": 10,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 95,
+      "original_round": 11,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 96,
+      "original_round": 12,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 97,
+      "original_round": 13,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 98,
+      "original_round": 14,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 99,
+      "original_round": 15,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 100,
+      "original_round": 16,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 101,
+      "original_round": 17,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "codex",
+      "canonical_round": 102,
+      "original_round": 18,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/trajectory_codex-formal04-original.json",
+      "bundled_original": "expert_evidence/trajectory_codex-formal04-original.json",
+      "source_sha256": "196832240f19d89231b7aacf5774adb8d4ce6145e91cc50be6fccec794dfb0fb",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 1,
+      "original_round": 1,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 2,
+      "original_round": 2,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 3,
+      "original_round": 3,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 4,
+      "original_round": 4,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 5,
+      "original_round": 5,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 6,
+      "original_round": 6,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 7,
+      "original_round": 7,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 8,
+      "original_round": 8,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 9,
+      "original_round": 9,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 10,
+      "original_round": 10,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 11,
+      "original_round": 11,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 12,
+      "original_round": 12,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 13,
+      "original_round": 13,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 14,
+      "original_round": 14,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 15,
+      "original_round": 15,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 16,
+      "original_round": 16,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 17,
+      "original_round": 17,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 18,
+      "original_round": 18,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 19,
+      "original_round": 19,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 20,
+      "original_round": 20,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 21,
+      "original_round": 21,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 22,
+      "original_round": 22,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 23,
+      "original_round": 23,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 24,
+      "original_round": 24,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 25,
+      "original_round": 25,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 26,
+      "original_round": 26,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 27,
+      "original_round": 27,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 28,
+      "original_round": 28,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 29,
+      "original_round": 29,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 30,
+      "original_round": 30,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 31,
+      "original_round": 31,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 32,
+      "original_round": 32,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 33,
+      "original_round": 33,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 34,
+      "original_round": 34,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 35,
+      "original_round": 35,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 36,
+      "original_round": 36,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 37,
+      "original_round": 37,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 38,
+      "original_round": 38,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 39,
+      "original_round": 39,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 40,
+      "original_round": 40,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 41,
+      "original_round": 41,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 42,
+      "original_round": 42,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 43,
+      "original_round": 43,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 44,
+      "original_round": 44,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 45,
+      "original_round": 45,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 46,
+      "original_round": 46,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    },
+    {
+      "track": "seed",
+      "canonical_round": 47,
+      "original_round": 47,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "bundled_original": "expert_evidence/historical-original-trajectories/trajectory_seed.json",
+      "source_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "metrics_not_relabelled": true
+    }
+  ]
+}

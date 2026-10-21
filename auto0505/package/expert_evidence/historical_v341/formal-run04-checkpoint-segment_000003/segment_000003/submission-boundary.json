@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "method": {
+    "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/source/method.py",
+    "sha256": "d593a6bba72a9e91d27d009dc687bf3ac64557396ec4a1cb798213dbb5d71703"
+  },
+  "solve": {
+    "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/source/solve.sh",
+    "sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58"
+  },
+  "nodes_sha256": "d78491c1b5c5cc297a7d249cc62f34c875b1c1a3b3890d77e6633b84ae6fb99d",
+  "evidence_kind": "expert_source_boundary_and_frozen_cpu_guard_only",
+  "research_credit_seconds": 0
+}

@@ -1,0 +1,7 @@
+{
+  "driver_AST_except_common_template_exact": true,
+  "manifest_files_exact": 42,
+  "both_jobs_only_fresh_paths_changed": true,
+  "baseTaskInstructionUnchanged": true,
+  "all_prior_credit_zero": true
+}

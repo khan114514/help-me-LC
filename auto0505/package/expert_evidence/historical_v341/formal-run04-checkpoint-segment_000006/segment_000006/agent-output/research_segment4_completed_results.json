@@ -1,0 +1,32 @@
+[
+  {
+    "round": 11,
+    "policy_name": "quadratic_adaptive_embedding_fixed_point_projection",
+    "overall": {
+      "psnr": 19.627707401550804,
+      "ssim": 0.6257186126662172,
+      "pixel_mse": 1052.906201786465,
+      "latent_mse": 0.12304445620005329,
+      "n": 12
+    },
+    "development_score": 0.1432220190962277,
+    "psnr_delta_from_retained_best": -0.5973847612325969,
+    "actual_public_gpu_job_id": "883bead5-0398-4cee-b035-4d8f727b277b",
+    "actual_scoring_seconds": 238.1415962856263
+  },
+  {
+    "round": 12,
+    "policy_name": "quadratic_high_time_uniform_low_time_tail",
+    "overall": {
+      "psnr": 19.64312655881425,
+      "ssim": 0.6322318983280423,
+      "pixel_mse": 1010.2482158872816,
+      "latent_mse": 0.11844822221125166,
+      "n": 12
+    },
+    "development_score": 0.1515200713448816,
+    "psnr_delta_from_retained_best": -0.5819656039691523,
+    "actual_public_gpu_job_id": "f02433ca-8fc2-4d67-84ea-4839147f690e",
+    "actual_scoring_seconds": 238.49108634423465
+  }
+]

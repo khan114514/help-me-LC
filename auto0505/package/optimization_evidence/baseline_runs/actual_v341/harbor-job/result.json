@@ -1,0 +1,57 @@
+{
+    "id": "fb3abb6b-361e-4b2d-987b-86e508c73bdd",
+    "started_at": "2026-10-04T20:27:20.046457",
+    "updated_at": "2026-10-04T20:34:28.278142",
+    "finished_at": "2026-10-04T20:34:28.278142",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "nop__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "nfe_per_image": 100.0,
+                        "psnr": 19.528882409499996,
+                        "reward": 0.0,
+                        "ssim": 0.6360678995088689
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.0": [
+                            "rfsteps-v341-build-check-2026100__QTvtVoh"
+                        ]
+                    },
+                    "psnr": {
+                        "19.528882409499996": [
+                            "rfsteps-v341-build-check-2026100__QTvtVoh"
+                        ]
+                    },
+                    "ssim": {
+                        "0.6360678995088689": [
+                            "rfsteps-v341-build-check-2026100__QTvtVoh"
+                        ]
+                    },
+                    "nfe_per_image": {
+                        "100.0": [
+                            "rfsteps-v341-build-check-2026100__QTvtVoh"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

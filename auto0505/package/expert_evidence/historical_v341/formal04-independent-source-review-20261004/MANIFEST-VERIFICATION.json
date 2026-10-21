@@ -1,0 +1,257 @@
+{
+  "source_manifest_sha256": "b282cd50306ff561593fddd43538eeaf6a8f2bae02ea7950a7a61d0a7b272425",
+  "files": [
+    {
+      "path": "OPERATIONAL-RECOVERY.md",
+      "sha256": "271f07071bf9ccd0a04f3aae5ae82d8bc1b88f53467cd6a401e9cbc66df4ea85",
+      "bytes": 521,
+      "matched": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "6db2acac020964dd5dc3bae1248700916b4ba429bd6597e07796f720873c711d",
+      "bytes": 804,
+      "matched": true
+    },
+    {
+      "path": "ROOT-REVIEW.md",
+      "sha256": "58a26c01f292671a6892c314b6da663c340ca930e6e2b392df6c74a70c8d4a62",
+      "bytes": 612,
+      "matched": true
+    },
+    {
+      "path": "accepted-native-preflight05.json",
+      "sha256": "acb5ca0d5ad2765bd26211da348d88cf520f40ee4bfd28ba3c61a01be3f61b4f",
+      "bytes": 2725,
+      "matched": true
+    },
+    {
+      "path": "actual-instruction.md",
+      "sha256": "fc748766095e76608aa29eecf033e07b2aca3d6ce38c7e13584a3d3411638b53",
+      "bytes": 6805,
+      "matched": true
+    },
+    {
+      "path": "cpu-first-stale-harness-fixture-failed.log",
+      "sha256": "a49e4d2e63b340fb212d6916a40689488050dfbee6f9a594023090f8fa41a591",
+      "bytes": 8317,
+      "matched": true
+    },
+    {
+      "path": "cpu-validation.log",
+      "sha256": "de20790ab599c739ddf97b9dd56899bfbf5e803be7ebde94772892c1adbb0414",
+      "bytes": 7471,
+      "matched": true
+    },
+    {
+      "path": "empty-initial-ledger.json",
+      "sha256": "5624e0685fe117e2d1a388e8ec04dbff09dec95c08179ae675f7fa68ed961fc3",
+      "bytes": 3376,
+      "matched": true
+    },
+    {
+      "path": "formal_preflight.py",
+      "sha256": "bebf17f512f750a94c1d3468aa5be393f5b61e540bdbcfb996891a9826ed0e70",
+      "bytes": 17785,
+      "matched": true
+    },
+    {
+      "path": "gpt/empty-trajectory.json",
+      "sha256": "d2631a5df9d7d6bf6641ada871bfe030a5a6556663c77af5f7239103d63b320d",
+      "bytes": 14,
+      "matched": true
+    },
+    {
+      "path": "gpt/initial-bindings.json",
+      "sha256": "a199c5e077ec26e8f84ea3f8de2fbb7c5465ff0d6dac903c3322c812084f9669",
+      "bytes": 562,
+      "matched": true
+    },
+    {
+      "path": "gpt/job.json",
+      "sha256": "660c04a82f6b74d0cf19b043623e73be0ba7150e3a7f6da4dcda4354d4e42637",
+      "bytes": 1590,
+      "matched": true
+    },
+    {
+      "path": "harness-source/continuation_research_codex.py",
+      "sha256": "8d9e51d137c5ec2de61eee9f494986c9084690f576827ed71a355a3bcfde64c2",
+      "bytes": 38370,
+      "matched": true
+    },
+    {
+      "path": "harness-source/live_tmpfs_download.py",
+      "sha256": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+      "bytes": 20905,
+      "matched": true
+    },
+    {
+      "path": "harness-source/research_ledger.py",
+      "sha256": "f79504aa6839bd01c9eff9cc58f6ce6bb3f46d549850f23b3c73a8ee088f77d0",
+      "bytes": 37079,
+      "matched": true
+    },
+    {
+      "path": "harness-source/role_bound_codex.py",
+      "sha256": "1a7df82fdfbc6cc2e905394c80bbdad78ed982e07e43ff3bbd3e37ee55151219",
+      "bytes": 10654,
+      "matched": true
+    },
+    {
+      "path": "harness-source/stability_runner.py",
+      "sha256": "feffbcfb4c5851a76f5839fa7c5015c191bcaee9978451b3b0e941768ad1b3e4",
+      "bytes": 12081,
+      "matched": true
+    },
+    {
+      "path": "harness-source/submission_compat.py",
+      "sha256": "c289b835773b1e876b64b8ef7442e0228ae8f662f63af6b6987f153805e50e8c",
+      "bytes": 9866,
+      "matched": true
+    },
+    {
+      "path": "launch-contract.json",
+      "sha256": "292fae1f3e975128998d0d888e87609d3308abb36d86bb4b9fcef16226c199b3",
+      "bytes": 6586,
+      "matched": true
+    },
+    {
+      "path": "original-ledger-f3ff/research_ledger.py",
+      "sha256": "f3ff569c9a870bbaf3977b8f5c5158385ca12934ce2a6619ff5a38b6711013c7",
+      "bytes": 36325,
+      "matched": true
+    },
+    {
+      "path": "owned_harbor_runner.py",
+      "sha256": "97d7209ac5ab7a59184daf640a5b8beb8a1e05c7f620a344762e3a491a06eee2",
+      "bytes": 4305,
+      "matched": true
+    },
+    {
+      "path": "policy-template.json",
+      "sha256": "52ace262e469584ae6c485eeb882d485b5573a6e6f47033bf39b7312f5d6225e",
+      "bytes": 11636,
+      "matched": true
+    },
+    {
+      "path": "research-ledger-fixtures/real-run02-uniform-pair.json",
+      "sha256": "5d01b75ba76513d711f52e72285c862dfb644905f392ff6cb0aa157c6cf54cb8",
+      "bytes": 5793,
+      "matched": true
+    },
+    {
+      "path": "seed/empty-trajectory.json",
+      "sha256": "d2631a5df9d7d6bf6641ada871bfe030a5a6556663c77af5f7239103d63b320d",
+      "bytes": 14,
+      "matched": true
+    },
+    {
+      "path": "seed/initial-bindings.json",
+      "sha256": "a199c5e077ec26e8f84ea3f8de2fbb7c5465ff0d6dac903c3322c812084f9669",
+      "bytes": 562,
+      "matched": true
+    },
+    {
+      "path": "seed/job.json",
+      "sha256": "996944ced3b88037e7ba6eecfeb8dbc7c278286abcceddf1e4af3fc03db91c63",
+      "bytes": 1613,
+      "matched": true
+    },
+    {
+      "path": "serial_track_supervisor.py",
+      "sha256": "313294c3775c964ce426777985f581967977cd22ae92a1c989f93f5cbb28730d",
+      "bytes": 3818,
+      "matched": true
+    },
+    {
+      "path": "source/detached_gateway_lifecycle.py",
+      "sha256": "a44a8c15b0e91fee0693ec451dd368b0f6cb83cde4982be9c52564207ab5c948",
+      "bytes": 19476,
+      "matched": true
+    },
+    {
+      "path": "source/expert_model_controller.py",
+      "sha256": "ec1279ff4722a89e4f564f3f2ac1533745dcd2bba766d420a7b5f13432b1a0a1",
+      "bytes": 28474,
+      "matched": true
+    },
+    {
+      "path": "source/mirror_model_events.py",
+      "sha256": "c9e2e21f08a8ec1326c2a80ac2f2ef66028e8e128d3680fc54e5d7c5d7806a48",
+      "bytes": 3739,
+      "matched": true
+    },
+    {
+      "path": "source/model_http_bridge.py",
+      "sha256": "7c214445421c7352dd6346a4023fadbbfbaabed95114b2c4b0130bcdc4d10cf7",
+      "bytes": 2749,
+      "matched": true
+    },
+    {
+      "path": "source/model_socket_gateway.py",
+      "sha256": "90e5cb76e3ee599ef35c2f1ba66eb64811e5cc9b36e27cf5715546cabf566843",
+      "bytes": 8834,
+      "matched": true
+    },
+    {
+      "path": "source/model_transport.py",
+      "sha256": "39e84ce78c30ff5e7ce3ed1e8fd269765a4375aaa90269012daefbacb3277e7d",
+      "bytes": 13012,
+      "matched": true
+    },
+    {
+      "path": "source/remote_gpu_worker.py",
+      "sha256": "ccffdfadb024de6f7a26f47769eb5b2060d53d31f8c302013f34c48f41d6bf96",
+      "bytes": 29599,
+      "matched": true
+    },
+    {
+      "path": "source/socket_gateway.py",
+      "sha256": "79532001e77d0e680ec8dad75421c3e2ef251227e250fc15338f241e94ee7928",
+      "bytes": 17063,
+      "matched": true
+    },
+    {
+      "path": "source/trusted_controller.py",
+      "sha256": "5f7a675a0710d8d4a349923e18d6103f1915e96e22df250d2cc3fb9538491452",
+      "bytes": 15897,
+      "matched": true
+    },
+    {
+      "path": "source-pin-summary.json",
+      "sha256": "d4edc579f9ad5641749fa5ce30125088e220cf8cd017a7e5b985dc423b573f11",
+      "bytes": 3841,
+      "matched": true
+    },
+    {
+      "path": "start_formal_track.py",
+      "sha256": "3ec2e2ffff90e55f5188ddb047ed7c29080d3529fc5dc156c6bc2fef9fd87b6b",
+      "bytes": 1720,
+      "matched": true
+    },
+    {
+      "path": "test_formal_release.py",
+      "sha256": "6ec6907c3cad9cc97aea8c32ef507a23ccdba92edcf85a44242ef6ac6dc48429",
+      "bytes": 6841,
+      "matched": true
+    },
+    {
+      "path": "test_image_names.py",
+      "sha256": "12b5371fd551119c9cab6c387b1b47e479b5cc07fb0bf4a4f363a392ce700882",
+      "bytes": 2930,
+      "matched": true
+    },
+    {
+      "path": "test_research_ledger_v341.py",
+      "sha256": "bf138b60efb125f05c1fde2ca28bb687267d3cb7111b67e165890c77e0a11d3b",
+      "bytes": 38142,
+      "matched": true
+    },
+    {
+      "path": "test_transport_gate.py",
+      "sha256": "17070cfe836cc74ba820ad30a9c773f992842a2d6e410d2ffded27227c5f52a2",
+      "bytes": 1900,
+      "matched": true
+    }
+  ]
+}

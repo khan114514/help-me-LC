@@ -1,0 +1,43 @@
+{
+  "role": "verifier",
+  "session_id": "rfsteps-v341-build-check-2026100__QTvtVoh__verifier__trial",
+  "cid": "978653aaf205e1ad3131bafdde188999bac6f134053cd70678f0454f87e1b168",
+  "image_id": "sha256:8825c1ef3bf78926f531630e394be913179b352f91efcf898d13950784f61396",
+  "cold_image_id": "sha256:083355fcfe79da0533990e461e7db1e7857162b9486934f381dd48bfaef7e128",
+  "content_sha256": "8113fd6c6afa6210bea76c1c1acd11f2062ee580247269b667af547fe3dcd35a",
+  "direct_image_content_equal": true,
+  "image_recipe": "Architecture/Os/RootFS/Config except Labels; sorted compact JSON SHA256",
+  "socket": {
+    "path": "/historical-root/rfsteps-v341-rpc-20261004/sockets/formal.sock",
+    "inode": 1978678,
+    "device": 64514,
+    "uid": 0,
+    "mode": 384
+  },
+  "mounts": [
+    {
+      "source": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/verifier",
+      "destination": "/logs/verifier",
+      "rw": true,
+      "type": "bind"
+    },
+    {
+      "source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/formal.sock",
+      "destination": "/run/rfsteps/formal.sock",
+      "rw": false,
+      "type": "bind"
+    }
+  ],
+  "cpus": 2,
+  "memory_bytes": 2147483648,
+  "readonly_rootfs": true,
+  "cap_add": [
+    "SETGID",
+    "SETUID"
+  ],
+  "task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "live_adapter_sha256": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+  "native_nop": true,
+  "model_calls": 0,
+  "research_credit_seconds": 0
+}

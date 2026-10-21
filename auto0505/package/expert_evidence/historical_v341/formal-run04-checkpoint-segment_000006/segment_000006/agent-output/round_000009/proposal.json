@@ -1,0 +1,5 @@
+{
+  "policy_name": "starter_logit_scaled_embedding_grid_125",
+  "purpose": "exploration",
+  "method_summary": "保持 Starter 的序列长驱动 logit 偏移 μ=0.63，并将节点投影到已实测的 1/125 嵌入网格。它保留原始密度形状，检验时间嵌入对齐是否也能改善 Starter，而非仅对平方密度有效。"
+}

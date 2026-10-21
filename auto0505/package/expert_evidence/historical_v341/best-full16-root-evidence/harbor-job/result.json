@@ -1,0 +1,57 @@
+{
+    "id": "72432bbc-cb0a-4e15-9bcc-1c302d3657c7",
+    "started_at": "2026-10-05T01:34:37.237130",
+    "updated_at": "2026-10-05T01:41:50.498509",
+    "finished_at": "2026-10-05T01:41:50.498509",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "nop__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "nfe_per_image": 100.0,
+                        "psnr": 21.27548763952123,
+                        "reward": 0.8703690797499839,
+                        "ssim": 0.7167758922645703
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.8703690797499839": [
+                            "rfsteps-v341-build-check-2026100__xPBzff9"
+                        ]
+                    },
+                    "psnr": {
+                        "21.27548763952123": [
+                            "rfsteps-v341-build-check-2026100__xPBzff9"
+                        ]
+                    },
+                    "ssim": {
+                        "0.7167758922645703": [
+                            "rfsteps-v341-build-check-2026100__xPBzff9"
+                        ]
+                    },
+                    "nfe_per_image": {
+                        "100.0": [
+                            "rfsteps-v341-build-check-2026100__xPBzff9"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

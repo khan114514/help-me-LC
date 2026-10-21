@@ -1,0 +1,5 @@
+{
+  "policy_name": "bf16_aligned_quadratic_noise_density",
+  "purpose": "exploration",
+  "method_summary": "采用 t=1-(i/n)^2，在噪声端集中节点；投影到 1/128 网格，并用最小一格约束保证严格降序。正式参数下时间、中点及步长系数可被 BF16 精确表示，同时低噪声区间从 μ=1.20 的约 0.1215 缩短至 0.078125。"
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "files": {
+    "environments/rfsteps-v341-build-check-2026100__QTvtVoh__env/live-transfer/b36e0fda34ae450a9031d875c2ad0297.json": {
+      "sha256": "0c78b201c71f4410137572cd4c35281ebf84b92ef67c685c32ad1d9c53f0730b",
+      "bytes": 1245
+    },
+    "environments/rfsteps-v341-build-check-2026100__QTvtVoh__env/started.json": {
+      "sha256": "39aebda64e7535f142d01f68ec6ddd5636af8c161572fe782cc38e51e2684b0c",
+      "bytes": 1995
+    },
+    "environments/rfsteps-v341-build-check-2026100__QTvtVoh__verifier__trial/started.json": {
+      "sha256": "47eb8048f7341f94866b0f93318b510ebe7d889bd0bf238922213dee04365706",
+      "bytes": 1535
+    },
+    "native-job-inventory.json": {
+      "sha256": "18d8b1812661e90cac78cb6ed686d230dea2fea8c0f30dd32384e2daab339893",
+      "bytes": 2769
+    },
+    "nop-summary.json": {
+      "sha256": "8c336daafd19120d350f98e64efe9d659ae17089b01b415a1f5dd14243546d88",
+      "bytes": 5347
+    },
+    "preflight.json": {
+      "sha256": "a53c6676093e2bdfc4e7c7e08e48b105a4d2939d16fe3e4525a26ff9cb090904",
+      "bytes": 8351
+    },
+    "returned-job-result.json": {
+      "sha256": "67fdd250b58ed87531ea9593d6e063af67e5d95f293195e65e32ea60b615b7e8",
+      "bytes": 5618
+    },
+    "trusted-worker-result.json": {
+      "sha256": "b7d4b2f951ed7b7d6fea9960e6666790f6e6cbbbc4e2b1dbe88ea2c7c5471348",
+      "bytes": 11414
+    }
+  },
+  "research_credit_seconds": 0,
+  "model_calls": 0
+}

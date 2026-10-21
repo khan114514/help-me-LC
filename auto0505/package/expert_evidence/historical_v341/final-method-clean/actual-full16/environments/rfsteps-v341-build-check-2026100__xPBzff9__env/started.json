@@ -1,0 +1,55 @@
+{
+  "role": "agent",
+  "session_id": "rfsteps-v341-build-check-2026100__xPBzff9__env",
+  "cid": "cea1a34c2f71f2cfd5536758ccfae9ec276063f4eaa1f92ffecae82e3c01044a",
+  "image_id": "sha256:2e5f95ebaebe98ebef209a18a93ba2697dd0624b581133408d24449086d83a62",
+  "cold_image_id": "sha256:22aff3587bb3b4855060cc5a25a3ff15b9273bdeec179d733792ee6e48442493",
+  "content_sha256": "bf5bfc1e6916ccfb220754c5e165c68432afcedf2740978ca7a3eb21f5d6d2a1",
+  "direct_image_content_equal": true,
+  "image_recipe": "Architecture/Os/RootFS/Config except Labels; sorted compact JSON SHA256",
+  "socket": {
+    "path": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+    "inode": 1978676,
+    "device": 64514,
+    "uid": 0,
+    "mode": 438
+  },
+  "mounts": [
+    {
+      "source": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9/agent",
+      "destination": "/logs/agent",
+      "rw": true,
+      "type": "bind"
+    },
+    {
+      "source": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9/artifacts/logs/artifacts",
+      "destination": "/logs/artifacts",
+      "rw": true,
+      "type": "bind"
+    },
+    {
+      "source": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9/verifier",
+      "destination": "/logs/verifier",
+      "rw": true,
+      "type": "bind"
+    },
+    {
+      "source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+      "destination": "/run/rfsteps/public.sock",
+      "rw": false,
+      "type": "bind"
+    }
+  ],
+  "cpus": 2,
+  "memory_bytes": 2147483648,
+  "readonly_rootfs": true,
+  "cap_add": [
+    "SETGID",
+    "SETUID"
+  ],
+  "task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "live_adapter_sha256": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+  "native_nop": true,
+  "model_calls": 0,
+  "research_credit_seconds": 0
+}

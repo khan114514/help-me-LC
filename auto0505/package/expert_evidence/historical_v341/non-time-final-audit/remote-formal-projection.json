@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-10-04T16:49:39.115959+00:00",
+  "root_exists": true,
+  "tracks": {
+    "gpt": {
+      "closed_segments": [
+        "segment_000001",
+        "segment_000002",
+        "segment_000003",
+        "segment_000004"
+      ],
+      "directory_exists": true,
+      "launch-receipt.json": {
+        "actual_prompt_sha256": "fc748766095e76608aa29eecf033e07b2aca3d6ce38c7e13584a3d3411638b53",
+        "agent_timeout_seconds": 86400,
+        "argv": [
+          "/opt/miniconda3/bin/harbor",
+          "run",
+          "--config",
+          "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/job.json",
+          "--max-retries",
+          "0",
+          "--debug"
+        ],
+        "captured_exit_method": "owned Popen.wait, direct log file; no shell tee",
+        "harness_sha256": "8d9e51d137c5ec2de61eee9f494986c9084690f576827ed71a355a3bcfde64c2",
+        "job_dir": "/historical-root/rfsteps-v341-research-jobs-20261004/rfsteps-v341-gpt-formal-research-04",
+        "launched_at_utc": "2026-10-04T15:01:30.771451+00:00",
+        "owned_runner_pid": 2692887,
+        "owned_runner_start_ticks": 8044292,
+        "pid": 2692941,
+        "precheck_uds": {
+          "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/gpt.sock": {
+            "device": 64514,
+            "inode": 1978677,
+            "mode": "0o600",
+            "uid": 0
+          },
+          "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/seed.sock": {
+            "device": 64514,
+            "inode": 1978679,
+            "mode": "0o600",
+            "uid": 0
+          },
+          "/historical-root/rfsteps-v341-rpc-20261004/sockets/formal.sock": {
+            "device": 64514,
+            "inode": 1978678,
+            "mode": "0o600",
+            "uid": 0
+          },
+          "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock": {
+            "device": 64514,
+            "inode": 1978676,
+            "mode": "0o666",
+            "uid": 0
+          }
+        },
+        "prior_attempt_credit_seconds": 0,
+        "process_created": true,
+        "qualifying_seconds": 0,
+        "research_target_met": false,
+        "role": "gpt",
+        "schema_version": 1,
+        "start_ticks": 8044310,
+        "status": "LAUNCHED_NOT_YET_QUALIFIED",
+        "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+        "verifier_timeout_seconds": 3600
+      },
+      "metadata_files": [
+        "gpt/empty-trajectory.json",
+        "gpt/initial-bindings.json",
+        "gpt/native-construction-precheck.json",
+        "gpt/launch-receipt.json",
+        "gpt/job.json",
+        "gpt/policy.json"
+      ],
+      "native_segment_manifest_count": 4
+    },
+    "seed": {
+      "closed_segments": [],
+      "directory_exists": true,
+      "metadata_files": [
+        "seed/empty-trajectory.json",
+        "seed/initial-bindings.json",
+        "seed/job.json"
+      ],
+      "native_segment_manifest_count": 0
+    }
+  }
+}
+

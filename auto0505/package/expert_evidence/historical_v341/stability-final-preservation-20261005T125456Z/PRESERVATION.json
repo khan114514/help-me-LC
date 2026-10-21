@@ -1,0 +1,73 @@
+{
+  "original_remote_root": "/historical-root/rfsteps-v341-stability-attempt01-20261004",
+  "files": [
+    {
+      "path": "launch.json",
+      "sha256": "e1b23cc761d25bdf7386f4d3cd02889daaf33eb322b6f326f4174fe2f95affa6",
+      "bytes": 684
+    },
+    {
+      "path": "stability_runner.py",
+      "sha256": "693409b10c9509162879056fb20b893a43db04629db7b15c4fcb3079828fcf5b",
+      "bytes": 12226
+    },
+    {
+      "path": "seed/stability.jsonl",
+      "sha256": "28366080d37c9406d4bed2a4d54f3ab1982455417f6e3dbfb9549adc585290b6",
+      "bytes": 1482565
+    },
+    {
+      "path": "seed/summary.json",
+      "sha256": "95e55cb247d9da4283f19e183deed4a2ee10f53c65786be8b89f5939c78bfe28",
+      "bytes": 138
+    },
+    {
+      "path": "gpt/stability.jsonl",
+      "sha256": "3fd0c91bd34781ba7911622b873fb689f3c89b74ad03225fdb8cfb121f396251",
+      "bytes": 1475855
+    },
+    {
+      "path": "gpt/summary.json",
+      "sha256": "99178e4feb0a7d90a18ffa92f2a82dee923ecd4ffc0a4262da0c7a6ddc656b63",
+      "bytes": 136
+    },
+    {
+      "path": "gpt/harbor-construction/stability-gpt-fb7ef85ff6424b2583e69ff119ff6e62/trial.log",
+      "sha256": "cfd4c8e9cb4ad9a9561b4c86e386d87821fe03442b5d2e1026949e64ba0b263b",
+      "bytes": 97
+    },
+    {
+      "path": "gpt/harbor-construction/stability-gpt-fb7ef85ff6424b2583e69ff119ff6e62/lock.json",
+      "sha256": "482715856a4e38a7a0af104bbd5a2d1a9b7432f438b24cd8073c00d02513e907",
+      "bytes": 1282
+    },
+    {
+      "path": "seed/harbor-construction/stability-seed-66f079bebd1642288e0818a1d10880ba/trial.log",
+      "sha256": "cfd4c8e9cb4ad9a9561b4c86e386d87821fe03442b5d2e1026949e64ba0b263b",
+      "bytes": 97
+    },
+    {
+      "path": "seed/harbor-construction/stability-seed-66f079bebd1642288e0818a1d10880ba/lock.json",
+      "sha256": "d7d0b089f23ac9e3ae75ff799350411227363f3a5ed4a836336943b67ed1dcaa",
+      "bytes": 1284
+    }
+  ],
+  "services": {
+    "gpt": {
+      "returncode": 0,
+      "properties": {
+        "ExecMainStatus": "0",
+        "ActiveState": "inactive",
+        "SubState": "dead"
+      }
+    },
+    "seed": {
+      "returncode": 0,
+      "properties": {
+        "ExecMainStatus": "0",
+        "ActiveState": "inactive",
+        "SubState": "dead"
+      }
+    }
+  }
+}

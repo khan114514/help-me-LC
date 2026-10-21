@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "utc": "2026-10-04T16:08:35.926859+00:00",
+  "verdict": "CHECKPOINT_EVIDENCE_PASS_INCOMPLETE_10H",
+  "checks": [
+    {
+      "check": "frozen_ledger_exact_f795",
+      "passed": true
+    },
+    {
+      "check": "frozen42_source_manifest_exact_b282",
+      "passed": true
+    },
+    {
+      "check": "frozen42_source_bytes_all_match",
+      "passed": true
+    },
+    {
+      "check": "actual_Mac_expert_mirror_mode0700",
+      "passed": true
+    },
+    {
+      "check": "segment_000001_all_preserved_raw_sha",
+      "passed": true,
+      "count": 80,
+      "preservation_manifest_sha256": "bc33d8af69a577b87d06393e4456205d8cd216f2ac5f23a43bd601792adbd499"
+    },
+    {
+      "check": "segment_000001_acceptance_file_map_exact_preservation_map",
+      "passed": true
+    },
+    {
+      "check": "segment_000001_independent_frozen_formal_ledger_replay_exact",
+      "passed": true,
+      "canonical_replay_sha256": "6f1d260edb13b1cfe5e67a5cec9181278ed0ccc3e42fd29640b7be4240c470b9",
+      "fixture_testing": false,
+      "relocation_scope": "Only exact file-read pathname map plus trusted_root to actual Mac0700/0600 mirror; no contract gate disabled."
+    },
+    {
+      "check": "segment_000001_raw_and_canonical_exact8_fields",
+      "passed": true
+    },
+    {
+      "check": "segment_000001_root_canonical_trajectory_exact",
+      "passed": true
+    },
+    {
+      "check": "segment_000001_round1_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "52c30802-5957-4b04-88de-4ac645330218",
+      "raw_sha256": "6acb5f3899265980ee831a1f60362f5e7ff3f27efcd3397f4c1833a0f207fdd0",
+      "archived_json_sha256": "c0367f304357dcc9cfd6f41b5c7f840e974067d12b31e67f9de8870a86636a56",
+      "archived_copy_origin_segment": "segment_000001"
+    },
+    {
+      "check": "segment_000001_round1_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000001_round1_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000001_round2_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "08d7e00b-74a8-4a00-bc1c-dd1627773beb",
+      "raw_sha256": "bc8318e3ad8ab33c793efa0452da26c5d424a3d9ae7fff5317d0ffcca4074169",
+      "archived_json_sha256": "6b84063b68a95b152683d5c1626270b77f32fccc752dd593c8b51893388442cb",
+      "archived_copy_origin_segment": "segment_000001"
+    },
+    {
+      "check": "segment_000001_round2_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000001_round2_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000001_round3_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "ac1b633a-4e09-4208-9fd9-2bc95eb3880e",
+      "raw_sha256": "963e42e3c97190bcf8861b048dd136eecbfaecbb84e3e1be7844f73338dc7716",
+      "archived_json_sha256": "1f7d88d30840a393c6fa45334477068425e35811809129d1ce22a2e4c9736cad",
+      "archived_copy_origin_segment": "segment_000001"
+    },
+    {
+      "check": "segment_000001_round3_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000001_round3_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000001_round4_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "48f255a0-c288-4244-9aac-4d276e8b2e65",
+      "raw_sha256": "1cdccf5e16e022035024039cdce1df2938d5af22b228353eec5944ec72f0da0d",
+      "archived_json_sha256": "6685da0b79d255bfff7ca22131c6c7f0b24d178f09d425be4fe6b994f8ca542d",
+      "archived_copy_origin_segment": "segment_000001"
+    },
+    {
+      "check": "segment_000001_round4_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000001_round4_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000001_native_raw_commands_and_completion_match_manifest",
+      "passed": true,
+      "real_command_execution_count": 39,
+      "successful": 39,
+      "turn_completed_lines": [
+        99
+      ],
+      "item_error_lines_preserved": [
+        4,
+        5
+      ],
+      "note": "Pre-turn item.error events remain preserved; actual shell commands later succeeded. No top-level error or turn.failed observed."
+    },
+    {
+      "check": "segment_000001_same_manifest_thread_as_actual_native_log",
+      "passed": true,
+      "native_thread_started": [
+        [
+          3,
+          "01a1076f-51ab-7973-92d6-d0c03e90b789"
+        ]
+      ]
+    },
+    {
+      "check": "segment_000001_incomplete_no_model_or_historical_time",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_all_preserved_raw_sha",
+      "passed": true,
+      "count": 110,
+      "preservation_manifest_sha256": "c6bd0265a485dbe4416f08bb7703faea23b6ee8b92db3a1d93d2ca954f41ecb8"
+    },
+    {
+      "check": "segment_000002_acceptance_file_map_exact_preservation_map",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_independent_frozen_formal_ledger_replay_exact",
+      "passed": true,
+      "canonical_replay_sha256": "847ca04b61e104898c04f9ad9e56c69841b5ad0ae6a8a01f2539d4b597d9e965",
+      "fixture_testing": false,
+      "relocation_scope": "Only exact file-read pathname map plus trusted_root to actual Mac0700/0600 mirror; no contract gate disabled."
+    },
+    {
+      "check": "segment_000002_raw_and_canonical_exact8_fields",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_root_canonical_trajectory_exact",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_round1_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "52c30802-5957-4b04-88de-4ac645330218",
+      "raw_sha256": "6acb5f3899265980ee831a1f60362f5e7ff3f27efcd3397f4c1833a0f207fdd0",
+      "archived_json_sha256": "c0367f304357dcc9cfd6f41b5c7f840e974067d12b31e67f9de8870a86636a56",
+      "archived_copy_origin_segment": "segment_000001"
+    },
+    {
+      "check": "segment_000002_round1_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000002_round1_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_round2_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "08d7e00b-74a8-4a00-bc1c-dd1627773beb",
+      "raw_sha256": "bc8318e3ad8ab33c793efa0452da26c5d424a3d9ae7fff5317d0ffcca4074169",
+      "archived_json_sha256": "6b84063b68a95b152683d5c1626270b77f32fccc752dd593c8b51893388442cb",
+      "archived_copy_origin_segment": "segment_000001"
+    },
+    {
+      "check": "segment_000002_round2_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000002_round2_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_round3_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "ac1b633a-4e09-4208-9fd9-2bc95eb3880e",
+      "raw_sha256": "963e42e3c97190bcf8861b048dd136eecbfaecbb84e3e1be7844f73338dc7716",
+      "archived_json_sha256": "1f7d88d30840a393c6fa45334477068425e35811809129d1ce22a2e4c9736cad",
+      "archived_copy_origin_segment": "segment_000001"
+    },
+    {
+      "check": "segment_000002_round3_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000002_round3_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_round4_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "48f255a0-c288-4244-9aac-4d276e8b2e65",
+      "raw_sha256": "1cdccf5e16e022035024039cdce1df2938d5af22b228353eec5944ec72f0da0d",
+      "archived_json_sha256": "6685da0b79d255bfff7ca22131c6c7f0b24d178f09d425be4fe6b994f8ca542d",
+      "archived_copy_origin_segment": "segment_000001"
+    },
+    {
+      "check": "segment_000002_round4_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000002_round4_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_round5_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "f2397b9e-4a6e-4bfa-abc4-3f0478d9bbba",
+      "raw_sha256": "354645d093229a829a28ff51e23b2bb8a8565cd4a1b654f66cb641182c936245",
+      "archived_json_sha256": "dd5e6276f90447fa244bf46802948b3186404ffe0f2c0862a4b539d1ed741c56",
+      "archived_copy_origin_segment": "segment_000002"
+    },
+    {
+      "check": "segment_000002_round5_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000002_round5_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_round6_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "8fd42025-944d-45e6-a4c4-94829d1c6bf3",
+      "raw_sha256": "f421fe134c8e55652928c98410021f2b4b4c288758591f7dd675128c9a693de0",
+      "archived_json_sha256": "b51275157f17ad0d1c2bfa021924ed955c1494fecb83e979736b5330198f7482",
+      "archived_copy_origin_segment": "segment_000002"
+    },
+    {
+      "check": "segment_000002_round6_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000002_round6_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_round7_whole_RPC_original_and_copies_exact",
+      "passed": true,
+      "job_id": "4e06bc27-6228-4efc-98c3-c4b0fe7cdd30",
+      "raw_sha256": "c9d8bc3d1611ba7a4f1365c41669739f856661d37264b8ee05bdac058a48ae1a",
+      "archived_json_sha256": "aade5047584315826ae38b3377157b9a3e33a88ae8a9fb5e5eaed078cea66b64",
+      "archived_copy_origin_segment": "segment_000002"
+    },
+    {
+      "check": "segment_000002_round7_source_nodes_score_time_bound",
+      "passed": true,
+      "candidate_execution_scope": "No candidate run; frozen producer extraction attestation/source gate and sealed node hash verified."
+    },
+    {
+      "check": "segment_000002_round7_independent_near_duplicate_credit_rule",
+      "passed": true
+    },
+    {
+      "check": "segment_000002_native_raw_commands_and_completion_match_manifest",
+      "passed": true,
+      "real_command_execution_count": 18,
+      "successful": 18,
+      "turn_completed_lines": [
+        55
+      ],
+      "item_error_lines_preserved": [
+        3,
+        4
+      ],
+      "note": "Pre-turn item.error events remain preserved; actual shell commands later succeeded. No top-level error or turn.failed observed."
+    },
+    {
+      "check": "segment_000002_same_manifest_thread_as_actual_native_log",
+      "passed": true,
+      "native_thread_started": [
+        [
+          2,
+          "01a1076f-51ab-7973-92d6-d0c03e90b789"
+        ]
+      ]
+    },
+    {
+      "check": "segment_000002_incomplete_no_model_or_historical_time",
+      "passed": true
+    },
+    {
+      "check": "same_actual_native_thread_both_segments",
+      "passed": true
+    },
+    {
+      "check": "only_new_scoring_duration_adds_second_segment",
+      "passed": true
+    }
+  ],
+  "failed_checks": [],
+  "checkpoints": [
+    {
+      "segment": "segment_000001",
+      "raw_files_verified": 80,
+      "root_acceptance_sha256": "c3b8d1f36d5c54d7d6c83473b7f4f76f837d10139509a02c09da2675c7f8f13d",
+      "preservation_manifest_sha256": "bc33d8af69a577b87d06393e4456205d8cd216f2ac5f23a43bd601792adbd499",
+      "native_log_sha256": "34156a081bf5b0fa2d69d5c82bce199f016fc749c4f45fa43f717ed587201252",
+      "native_thread": "01a1076f-51ab-7973-92d6-d0c03e90b789",
+      "native_exit_code": 0,
+      "pipeline_exit_code": 0,
+      "shell_success_count": 39,
+      "native_started_at": "2026-10-04T15:01:37.629156+00:00",
+      "native_finished_at": "2026-10-04T15:30:01.969319+00:00",
+      "accepted_rounds": [
+        3,
+        4
+      ],
+      "qualifying_scoring_seconds": 478.48517274390906,
+      "qualifying_model_seconds": null,
+      "gate_pass": false,
+      "observed_completed_provider_requests": 58,
+      "observed_provider_time_credit": 0,
+      "rounds": [
+        {
+          "round": 1,
+          "policy_name": "starter_flux_shift_mu_0.63",
+          "status": "ok",
+          "public_psnr": 19.361577137501065,
+          "retained_best": true,
+          "purpose": "starter",
+          "code_sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+          "nodes_sha256": "a2a74cba18f963bf00245edde3452535627888905664e63007434076828ff427",
+          "job_id": "52c30802-5957-4b04-88de-4ac645330218",
+          "scoring_seconds": 237.2350991172716,
+          "queue_seconds_not_credited": 0.0005804700776934624,
+          "contribution_seconds": 0.0,
+          "credit_reason": "fixed_known_nodes",
+          "near_duplicate_count": 1,
+          "canonical_time": "2026-10-04 23:07:31"
+        },
+        {
+          "round": 2,
+          "policy_name": "unshifted_uniform",
+          "status": "ok",
+          "public_psnr": 17.959306788303643,
+          "retained_best": false,
+          "purpose": "exploration",
+          "code_sha256": "bef7a3bc61f9358d45c8d00c02fa5b0ca69a5f58528368a5ecbeb5d2d8e8d4a5",
+          "nodes_sha256": "f01d9b1c72f25ec8332a62e7c9145f8e0faadc63d18d8051ed5661e7061a6c72",
+          "job_id": "08d7e00b-74a8-4a00-bc1c-dd1627773beb",
+          "scoring_seconds": 236.5558069422841,
+          "queue_seconds_not_credited": 0.0005735317245125771,
+          "contribution_seconds": 0.0,
+          "credit_reason": "fixed_known_nodes",
+          "near_duplicate_count": 2,
+          "canonical_time": "2026-10-04 23:13:29"
+        },
+        {
+          "round": 3,
+          "policy_name": "high_noise_logit_shift_mu_1.20",
+          "status": "ok",
+          "public_psnr": 19.546817861597415,
+          "retained_best": true,
+          "purpose": "exploration",
+          "code_sha256": "17965d22465a8bb133b4aa51e0cb6562be6e3139ab080c8a1ed14412a5352b26",
+          "nodes_sha256": "91fa1f3764ceecd951821f684ad9d544531cbd746ede430ab1406115a4599595",
+          "job_id": "ac1b633a-4e09-4208-9fd9-2bc95eb3880e",
+          "scoring_seconds": 238.04985779710114,
+          "queue_seconds_not_credited": 0.0006099231541156769,
+          "contribution_seconds": 238.04985779710114,
+          "credit_reason": "unique_successful_closed_loop_public",
+          "near_duplicate_count": 0,
+          "canonical_time": "2026-10-04 23:20:04"
+        },
+        {
+          "round": 4,
+          "policy_name": "bf16_aligned_quadratic_noise_density",
+          "status": "ok",
+          "public_psnr": 19.61162232893616,
+          "retained_best": true,
+          "purpose": "exploration",
+          "code_sha256": "ca0cf0e2f5236d813f779dca8ca9aeac801aad6050cfa52cf312f34a0017be2e",
+          "nodes_sha256": "90bef3adda2d8e0c0fd953ca12c9e4945ba2c7aa55f07555040b7452f47e2176",
+          "job_id": "48f255a0-c288-4244-9aac-4d276e8b2e65",
+          "scoring_seconds": 240.43531494680792,
+          "queue_seconds_not_credited": 0.0006356928497552872,
+          "contribution_seconds": 240.43531494680792,
+          "credit_reason": "unique_successful_closed_loop_public",
+          "near_duplicate_count": 0,
+          "canonical_time": "2026-10-04 23:26:35"
+        }
+      ]
+    },
+    {
+      "segment": "segment_000002",
+      "raw_files_verified": 110,
+      "root_acceptance_sha256": "68c10f991f0439f1b4d16041a112d3ec58ba5167d3796ff888ce3d2a48726e5c",
+      "preservation_manifest_sha256": "c6bd0265a485dbe4416f08bb7703faea23b6ee8b92db3a1d93d2ca954f41ecb8",
+      "native_log_sha256": "647a33194e6a44b07ed8bb9aecd3d0304f9f870586efda5513598e91c06b6af1",
+      "native_thread": "01a1076f-51ab-7973-92d6-d0c03e90b789",
+      "native_exit_code": 0,
+      "pipeline_exit_code": 0,
+      "shell_success_count": 18,
+      "native_started_at": "2026-10-04T15:30:14.536558+00:00",
+      "native_finished_at": "2026-10-04T15:51:27.681834+00:00",
+      "accepted_rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "qualifying_scoring_seconds": 1190.7643089639023,
+      "qualifying_model_seconds": null,
+      "gate_pass": false,
+      "observed_completed_provider_requests": 103,
+      "observed_provider_time_credit": 0,
+      "rounds": [
+        {
+          "round": 1,
+          "policy_name": "starter_flux_shift_mu_0.63",
+          "status": "ok",
+          "public_psnr": 19.361577137501065,
+          "retained_best": true,
+          "purpose": "starter",
+          "code_sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+          "nodes_sha256": "a2a74cba18f963bf00245edde3452535627888905664e63007434076828ff427",
+          "job_id": "52c30802-5957-4b04-88de-4ac645330218",
+          "scoring_seconds": 237.2350991172716,
+          "queue_seconds_not_credited": 0.0005804700776934624,
+          "contribution_seconds": 0.0,
+          "credit_reason": "fixed_known_nodes",
+          "near_duplicate_count": 1,
+          "canonical_time": "2026-10-04 23:07:31"
+        },
+        {
+          "round": 2,
+          "policy_name": "unshifted_uniform",
+          "status": "ok",
+          "public_psnr": 17.959306788303643,
+          "retained_best": false,
+          "purpose": "exploration",
+          "code_sha256": "bef7a3bc61f9358d45c8d00c02fa5b0ca69a5f58528368a5ecbeb5d2d8e8d4a5",
+          "nodes_sha256": "f01d9b1c72f25ec8332a62e7c9145f8e0faadc63d18d8051ed5661e7061a6c72",
+          "job_id": "08d7e00b-74a8-4a00-bc1c-dd1627773beb",
+          "scoring_seconds": 236.5558069422841,
+          "queue_seconds_not_credited": 0.0005735317245125771,
+          "contribution_seconds": 0.0,
+          "credit_reason": "fixed_known_nodes",
+          "near_duplicate_count": 2,
+          "canonical_time": "2026-10-04 23:13:29"
+        },
+        {
+          "round": 3,
+          "policy_name": "high_noise_logit_shift_mu_1.20",
+          "status": "ok",
+          "public_psnr": 19.546817861597415,
+          "retained_best": true,
+          "purpose": "exploration",
+          "code_sha256": "17965d22465a8bb133b4aa51e0cb6562be6e3139ab080c8a1ed14412a5352b26",
+          "nodes_sha256": "91fa1f3764ceecd951821f684ad9d544531cbd746ede430ab1406115a4599595",
+          "job_id": "ac1b633a-4e09-4208-9fd9-2bc95eb3880e",
+          "scoring_seconds": 238.04985779710114,
+          "queue_seconds_not_credited": 0.0006099231541156769,
+          "contribution_seconds": 238.04985779710114,
+          "credit_reason": "unique_successful_closed_loop_public",
+          "near_duplicate_count": 0,
+          "canonical_time": "2026-10-04 23:20:04"
+        },
+        {
+          "round": 4,
+          "policy_name": "bf16_aligned_quadratic_noise_density",
+          "status": "ok",
+          "public_psnr": 19.61162232893616,
+          "retained_best": true,
+          "purpose": "exploration",
+          "code_sha256": "ca0cf0e2f5236d813f779dca8ca9aeac801aad6050cfa52cf312f34a0017be2e",
+          "nodes_sha256": "90bef3adda2d8e0c0fd953ca12c9e4945ba2c7aa55f07555040b7452f47e2176",
+          "job_id": "48f255a0-c288-4244-9aac-4d276e8b2e65",
+          "scoring_seconds": 240.43531494680792,
+          "queue_seconds_not_credited": 0.0006356928497552872,
+          "contribution_seconds": 240.43531494680792,
+          "credit_reason": "unique_successful_closed_loop_public",
+          "near_duplicate_count": 0,
+          "canonical_time": "2026-10-04 23:26:35"
+        },
+        {
+          "round": 5,
+          "policy_name": "continuous_quadratic_with_endpoint_gap_floor",
+          "status": "ok",
+          "public_psnr": 19.420211702190297,
+          "retained_best": false,
+          "purpose": "exploration",
+          "code_sha256": "fa5f0561f0e77f1643075df7766dd28e7d5cd5e62b9416aaa9f0227128bc164d",
+          "nodes_sha256": "5cac14495c7c21a9fdbc7b4d07ad0ab933ee7acf6596c92aa2d4dd2db711aa8c",
+          "job_id": "f2397b9e-4a6e-4bfa-abc4-3f0478d9bbba",
+          "scoring_seconds": 237.5008159512654,
+          "queue_seconds_not_credited": 0.0006503937765955925,
+          "contribution_seconds": 237.5008159512654,
+          "credit_reason": "unique_successful_closed_loop_public",
+          "near_duplicate_count": 0,
+          "canonical_time": "2026-10-04 23:37:10"
+        },
+        {
+          "round": 6,
+          "policy_name": "quadratic_scaled_embedding_grid_125",
+          "status": "ok",
+          "public_psnr": 20.2250921627834,
+          "retained_best": true,
+          "purpose": "exploration",
+          "code_sha256": "d593a6bba72a9e91d27d009dc687bf3ac64557396ec4a1cb798213dbb5d71703",
+          "nodes_sha256": "d78491c1b5c5cc297a7d249cc62f34c875b1c1a3b3890d77e6633b84ae6fb99d",
+          "job_id": "8fd42025-944d-45e6-a4c4-94829d1c6bf3",
+          "scoring_seconds": 237.36252480000257,
+          "queue_seconds_not_credited": 0.0005966853350400925,
+          "contribution_seconds": 237.36252480000257,
+          "credit_reason": "unique_successful_closed_loop_public",
+          "near_duplicate_count": 0,
+          "canonical_time": "2026-10-04 23:43:40"
+        },
+        {
+          "round": 7,
+          "policy_name": "power_2.5_scaled_embedding_grid_125",
+          "status": "ok",
+          "public_psnr": 20.11972692968958,
+          "retained_best": false,
+          "purpose": "exploration",
+          "code_sha256": "ca726e5877fedab4687b3b8ea0e4b814b4aedb989486fd0daf6dbb0bb05375aa",
+          "nodes_sha256": "b7c6eead7618e643ad35fba929f4122f4638f7d0bfade42afdd3a47cea6b8b5c",
+          "job_id": "4e06bc27-6228-4efc-98c3-c4b0fe7cdd30",
+          "scoring_seconds": 237.41579546872526,
+          "queue_seconds_not_credited": 0.000572999007999897,
+          "contribution_seconds": 237.41579546872526,
+          "credit_reason": "unique_successful_closed_loop_public",
+          "near_duplicate_count": 0,
+          "canonical_time": "2026-10-04 23:49:38"
+        }
+      ]
+    }
+  ],
+  "source_manifest_sha256": "b282cd50306ff561593fddd43538eeaf6a8f2bae02ea7950a7a61d0a7b272425",
+  "ledger_source_sha256": "f79504aa6839bd01c9eff9cc58f6ce6bb3f46d549850f23b3c73a8ee088f77d0",
+  "source_files_verified": 42,
+  "method_quality": {
+    "scope": "First two actual segments only; not full G01-G03/release QA.",
+    "pure_hyperparameter_search_only": false,
+    "parameter_only_rounds": [
+      3,
+      7
+    ],
+    "structural_evidence": [
+      {
+        "round": 4,
+        "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/agent-output/round_000004/method.py",
+        "lines": [
+          12,
+          18,
+          21
+        ],
+        "meaning": "New quadratic noise-density law plus grid projection and minimum-gap constraint."
+      },
+      {
+        "round": 5,
+        "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/agent-output/round_000005/method.py",
+        "lines": [
+          11,
+          15,
+          16
+        ],
+        "meaning": "Grid-rounding ablation preserving minimum gap."
+      },
+      {
+        "round": 6,
+        "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/agent-output/round_000006/method.py",
+        "lines": [
+          12,
+          13,
+          18,
+          21
+        ],
+        "meaning": "Time-embedding-grid variant of the newly designed quadratic/projection method."
+      }
+    ],
+    "precision_claim_limit": "Method comments provide hypotheses; this audit does not independently run torch/BF16/GPU to prove full execution equivalence.",
+    "best_observed_public_round": 6,
+    "best_observed_public_psnr": 20.2250921627834,
+    "final_reference_or_hidden_success_claim": false
+  },
+  "effective_lower_bound_seconds": 1190.7643089639023,
+  "target_seconds_per_role": 36000,
+  "gpt_target_fraction": 0.0330767863601084,
+  "seed_qualifying_seconds": 0,
+  "historical_credit_carried": 0,
+  "research_time_granted_by_CPU_audit": 0,
+  "mutations_to_source_task_records": 0,
+  "model_GPU_RPC_requests": 0,
+  "candidate_executions": 0,
+  "scope_limits": [
+    "Whole RPC equality includes the actual raw expert mirror bytes and full decoded object, not just a receipt subset.",
+    "Source42 verification is local frozen source against manifest; this audit did not separately query live installed remote copies.",
+    "Native/pipeline return codes are expert PIPESTATUS attestations; raw command completion and tool results independently parsed.",
+    "Expert-only formal ledger ran with fixture_testing=false against existing real evidence. Read paths relocated without changing byte/hash or permission gates.",
+    "No final Harbor/Verifier closure, 10h, Seed trajectory, stability or fullflow completion is claimed."
+  ],
+  "audit_execution_note": "An initial local auditor lookup assumed the cumulative second checkpoint duplicated old trusted copies; corrected to the original segment_000001 archive identified by unchanged bindings. No production evidence or ledger gate changed."
+}

@@ -1,0 +1,5 @@
+{
+  "policy_name": "quadratic_one_interval_budget_exchange",
+  "purpose": "exploration",
+  "method_summary": "从原最佳平方网格出发，保留首个端点区间，合并最短内部区间对，再在 1/125 网格上拆分最长区间。正式参数下删除 0.984 并新增 0.040，把一次步数预算转移到低时间端，最大区间从 0.080 降至 0.072。"
+}

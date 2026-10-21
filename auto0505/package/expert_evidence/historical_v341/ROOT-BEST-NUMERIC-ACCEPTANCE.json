@@ -1,0 +1,44 @@
+{
+  "status": "ROOT_NUMERIC_TRIPLE_FULL16_RECEIPTS_INDEPENDENTLY_VERIFIED",
+  "scope": "Whole current trusted numeric responses; candidate-source binding and native result separately verified in clean preservation. Not 12h or release QA acceptance.",
+  "equal_receipt_fields": [
+    "control_task_checksum",
+    "worker_sha256",
+    "scorer_sha256",
+    "repo_sha256",
+    "anchors_sha256",
+    "asset_sha256",
+    "weights_sha256",
+    "weight_support_sha256",
+    "environment",
+    "protocol",
+    "exclusivity_evidence",
+    "cpu_affinity"
+  ],
+  "same_GPU_UUID": true,
+  "selected_nodes_match_frozen_Public_selection": true,
+  "selected_source_matches_delivered_best": true,
+  "full16_NFE100": true,
+  "records": [
+    {
+      "job_id": "49b94096-d370-4b96-8677-32a7b7553579",
+      "whole_response_sha256": "b7d4b2f951ed7b7d6fea9960e6666790f6e6cbbbc4e2b1dbe88ea2c7c5471348",
+      "PSNR": 19.528882409499996,
+      "reward": 0.0
+    },
+    {
+      "job_id": "84b1db68-0591-4737-87b9-8e99da4b2edd",
+      "whole_response_sha256": "a43aec4c23f142600aa8430a637c9af9d36dcd8a33d3dcc71f6d6fa8d2b21e8f",
+      "PSNR": 20.45734928422148,
+      "reward": 0.46267401782591483
+    },
+    {
+      "job_id": "b448cf6c-f09a-4ff0-b278-b643082565d6",
+      "whole_response_sha256": "6274be278cead0e26430c39568d709345fc7235f405bb44dd5000e62f65cab5f",
+      "PSNR": 21.27548763952123,
+      "reward": 0.8703690797499839
+    }
+  ],
+  "selected_delta_from_NOP_dB": 1.7466052300212347,
+  "selected_delta_from_Reference_dB": 0.8181383552997517
+}

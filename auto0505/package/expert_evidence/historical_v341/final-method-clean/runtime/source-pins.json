@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "purpose": "clean_rerun",
+  "Task": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "files": {
+    "clean_reference_verifier.py": "41a39b80333446b9a157fad7001d4855a34c7160ea59ddf8bfc444366d61520c",
+    "cold-image-content-pins.json": "5057e6483b5934287e3f3c185b9e4b1e398971746e957a6eb995e605f8a64efc",
+    "live_tmpfs_download.py": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+    "nop_runtime.py": "8aef3402b0888a51f3201edd45db59dfe9a21198ac3c41bfabc8a8d2c514b55f",
+    "numerical-identity-pins.json": "a098e00c43b6e2cff569916b67062ab7d0290ff0d5a64328b732416362c817a7",
+    "private-candidates/current/method.py": "1a23b0ccd17e3d0825dacc5502c1837a60afdec63dd892b3e512f83b021e23b7",
+    "private-candidates/gpt/method.py": "8b34e25306187b02cf1e21681a8e86797d5fbadcbec8a9657cac309ff041e051",
+    "private-candidates/seed/method.py": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+    "public-numerical-identity-pins.json": "5b8047ce407729d6e69b503ef3d04572f8c7d21d89c8f7c8cd31759c5dd27a76",
+    "run_nop.py": "3f53f1d62c4b4a959d98315cc9e8f15767680017f1e6b1450c74dc3b92ac41aa",
+    "run_public_clean.py": "b0fb36485529213da4d6df1ee537363bc667701a4d7adab48f0ce5035eefa624",
+    "task-freeze.json": "0b8fabd7e1289b74e530ba5a59c3fa99b984d208cfb7b4e2d8a470f7a3d70178"
+  }
+}

@@ -1,0 +1,21 @@
+[test.sh] candidate=/workspace/method.py split=public
+[run_eval] waiting gpu lock (/tmp/rfsteps_gpu_eval.lock) ...
+[run_eval] gpu lock acquired
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+Init model
+Loading checkpoint
+[W1004 03:07:25.708577480 CUDACachingAllocator.cpp:528] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 9895936, total: 23684841472).
+[W1004 03:07:25.716127715 CUDACachingAllocator.cpp:528] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 9895936, total: 23684841472).
+Traceback (most recent call last):
+  File "/tests/run_eval.py", line 281, in <module>
+    main()
+  File "/usr/local/lib/python3.10/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/tests/run_eval.py", line 179, in main
+    model = load_flow_model("flux-dev", device=device)
+  File "/workspace/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/util.py", line 123, in load_flow_model
+    sd = load_sft(ckpt_path, device=str(device))
+  File "/usr/local/lib/python3.10/dist-packages/safetensors/torch.py", line 360, in load_file
+    return f.get_tensors()
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 90.00 MiB. GPU 0 has a total capacity of 22.06 GiB of which 29.44 MiB is free. Including non-PyTorch memory, this process has 22.02 GiB memory in use. Of the allocated memory 21.71 GiB is allocated by PyTorch, and 35.81 MiB is reserved by PyTorch but unallocated.
+[test.sh] reward: {"reward": 0.0}

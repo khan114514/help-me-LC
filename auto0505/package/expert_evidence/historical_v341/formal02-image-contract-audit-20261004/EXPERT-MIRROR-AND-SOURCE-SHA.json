@@ -1,0 +1,37 @@
+{
+  "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/cd480709-b019-485e-8813-a0f2fc5db5a3.json": {
+    "sha256": "737dfaade0276102a68842f02fda00911948a9d3addcfbda0fab1877c1f9b506",
+    "mode": "0o600",
+    "uid": 0
+  },
+  "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/a7d23ae4-e3ae-40a1-8603-effa4c6e1839.json": {
+    "sha256": "ad0052124961ddc8cc1c5f52c0326df270d17a77dbc3403ccd2b01c989f9410c",
+    "mode": "0o600",
+    "uid": 0
+  },
+  "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/14fbb92d-5edb-4af5-821f-22e16bf99b9c.json": {
+    "sha256": "1cc9bd8c8df6158632461d259d21e8fc30c9f3345772c633e53659e01d45d131",
+    "mode": "0o600",
+    "uid": 0
+  },
+  "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/e8053c88-b3f1-4662-86b6-82c8688894e7.json": {
+    "sha256": "6d310c63fd71f1e51f0f04716ffe0887a7f7a8b858d82a38298fdeab6eed59a9",
+    "mode": "0o600",
+    "uid": 0
+  },
+  "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/22190a69-7ada-4435-b9a8-3ed8fcf8fd4a.json": {
+    "sha256": "774a4c5cbb108ec458ec38f10802d7c186e9e78167e492f2178bc8551866c15a",
+    "mode": "0o600",
+    "uid": 0
+  },
+  "/historical-root/rfsteps-v341-formal-research-run02-20261004/harness-source/research_ledger.py": {
+    "sha256": "8ad72cdb73f4d27e1e2e941d29c3ef5ce339a51feb995779b216b7924ff23131",
+    "mode": "0o644",
+    "uid": 501
+  },
+  "/historical-root/rfsteps-v341-build-check-20261004/tests/run_eval.py": {
+    "sha256": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9",
+    "mode": "0o644",
+    "uid": 501
+  }
+}

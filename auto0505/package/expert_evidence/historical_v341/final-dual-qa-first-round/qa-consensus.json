@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "skill": {
+    "name": "autoresearch-qa-skills",
+    "version": "0.3.2"
+  },
+  "status": "NOT_READY",
+  "artifact_sha256": "00e7c6b67671be377c32b0f28fe8972827ce3767ad7f291d6fb6b1d7825a8ccd",
+  "qa_reports": [
+    {
+      "path": "report.json",
+      "sha256": "9ad42b492c690b2b9332d65159ec76bb1a5ac5e00524269728c13dcd90db0d5f"
+    },
+    {
+      "path": "report.json",
+      "sha256": "b946b8329d8873d8ecab1c3041963706ca76b0b181d6f79f4cccbda015f063a9"
+    }
+  ],
+  "report_sha256s": [
+    "9ad42b492c690b2b9332d65159ec76bb1a5ac5e00524269728c13dcd90db0d5f",
+    "b946b8329d8873d8ecab1c3041963706ca76b0b181d6f79f4cccbda015f063a9"
+  ],
+  "reviewers": [
+    {
+      "provider": "OpenAI",
+      "model": "gpt-6.1-sol",
+      "version": "served-snapshot-unknown",
+      "session_id": "root-final_zip_qa_a-20261005-independent-fork-none"
+    },
+    {
+      "provider": "OpenAI",
+      "model": "gpt-6-sol",
+      "version": "unknown-snapshot",
+      "session_id": "/historical-root/final_zip_qa_b"
+    }
+  ],
+  "unresolved_disagreements": [
+    {
+      "check": "harbor:H02",
+      "report_1": "pass",
+      "report_2": "manual"
+    },
+    {
+      "check": "harbor:H03",
+      "report_1": "pass",
+      "report_2": "manual"
+    },
+    {
+      "check": "harbor:H06",
+      "report_1": "pass",
+      "report_2": "manual"
+    },
+    {
+      "check": "qa:QA17",
+      "report_1": "pass",
+      "report_2": "manual"
+    }
+  ],
+  "validation_errors": [
+    "report 1 decision is not PASS",
+    "report 2 decision is not PASS"
+  ]
+}

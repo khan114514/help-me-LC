@@ -1,0 +1,16 @@
+--- formal03/CONTINUATION_TEMPLATE
++++ formal04/CONTINUATION_TEMPLATE
+@@ -1,6 +1,13 @@
+ 
+ 
+ Expert research continuation contract (applies from the first segment):
++For local file inspection, coding and scoring commands, use the declared
++functions.exec tool with JavaScript invoking the local tools.exec_command:
++const result = await tools.exec_command({cmd: "YOUR SHELL COMMAND", workdir: "/workspace", max_output_tokens: 3000});
++text(result);
++This invokes the actual local shell. Use its real output; an assistant message,
++self-message or wait on an uncreated exec cell cannot perform a research command.
++If a command fails, inspect and correct it truthfully using the same local tool.
+ Continue genuine method-level research under the frozen public protocol. Design a
+ new reasoned method, implement it, run the frozen public evaluator, interpret its
+ real feedback and decide whether to retain it. Do not perform dummy loops, sleeps,

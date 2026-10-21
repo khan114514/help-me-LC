@@ -1,0 +1,29 @@
+{
+  "task_version": "3.4.1",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "method_explanation": "METHOD-EXPLANATION.md",
+  "best_method": "best_method.py",
+  "best_source_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+  "selection": "PUBLIC-SELECTION.json",
+  "selection_basis": "Fresh current-protocol Public mean PSNR; selection frozen before full16.",
+  "trajectories": {
+    "codex": "trajectory_codex.json",
+    "seed": "trajectory_seed.json"
+  },
+  "original_field_provenance": "trajectory-source-map.json",
+  "trajectory_root_check": "ROOT-TRAJECTORY-ACCEPTANCE.json",
+  "time_rule": "Per-model actual research intervals minus evidenced network-unavailable intervals; preserve historical work across repairs.",
+  "time_sufficiency_accepted_by_user": true,
+  "exact_lifetime_net_seconds": {
+    "gpt": null,
+    "seed": null
+  },
+  "time_evidence": "time-reconciliation/TIME-RECONCILIATION.json",
+  "mandatory_NOP": "nop_evidence/NOP-REPORT.md",
+  "historical_attached_documents": "nop_evidence/legacy_v32/",
+  "training_applicable": false,
+  "current_scope": "NOP, pairedReference and best clean full16 passed. Original A10 recovered;117 original file hashes verified. Both 12h stability tracks completed and passed full721 sample verification. Final repaired candidate review pending; previous first-round reports remain INCOMPLETE.",
+  "new_method_or_duration_claims_fabricated": false,
+  "best_full16": "final-method-clean/ACCEPTANCE.json",
+  "trajectory_normalization": "Round renumbering plus one explicit INFRASTRUCTURE_ERROR to failed alias; all metrics/time/reason/method/best flags and raw originals retained."
+}

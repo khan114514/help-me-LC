@@ -1,0 +1,8 @@
+{
+  "status": "PASS_PACKAGING_TOOL_ONLY",
+  "sample_archive_bytes": 24829397,
+  "sample_archive_members": 2014,
+  "sample_zip_sha256": "6752f03c04ad90a4980649b7eec8d8cdfd007579ba79a09c813eb77c5ad42855",
+  "three_directory_layout": true,
+  "formal_QA_PASS": false
+}

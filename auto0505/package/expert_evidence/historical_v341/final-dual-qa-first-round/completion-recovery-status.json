@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-05T11:18:36.112978+00:00",
+  "scope": "Current completion recovery; no invented runtime or final PASS.",
+  "prior_delivery_error": "Preview archive was presented before final completion; user asked correction.",
+  "QA_sessions": [
+    {
+      "configured_model": "gpt-6.1-sol",
+      "task": "/historical-root/final_zip_qa_a",
+      "fork_turns": "none",
+      "input_zip": "rfsteps-package-v3.4.1-preview-20261005T015301.zip",
+      "input_sha256": "00e7c6b67671be377c32b0f28fe8972827ce3767ad7f291d6fb6b1d7825a8ccd",
+      "served_immutable_model_snapshot": null
+    },
+    {
+      "configured_model": "gpt-6-sol",
+      "task": "/historical-root/final_zip_qa_b",
+      "fork_turns": "none",
+      "input_zip": "rfsteps-package-v3.4.1-preview-20261005T015301.zip",
+      "input_sha256": "00e7c6b67671be377c32b0f28fe8972827ce3767ad7f291d6fb6b1d7825a8ccd",
+      "served_immutable_model_snapshot": null
+    }
+  ],
+  "stability_final_log_retrieval": "Blocked while original cloud VM is powered off/reclaim pending.",
+  "read_only_connectivity_tests": {
+    "original_direct_SSH": "timeout",
+    "authorized_local_proxy_SSH": "connection closed",
+    "authorized_existing_GPU_TCP_to_original_SSH": "timeout"
+  },
+  "cloud_console_refresh_observation": {
+    "resource_alias": "original_harbor_A10",
+    "instance_id": "ins-lz0iv9re",
+    "status": "待回收",
+    "public_ipv4": "absent",
+    "release_notice": "14天后释放",
+    "detail_page": "未找到指定资源"
+  },
+  "automatic_instance_recovery_or_payment_performed": false,
+  "human_approval_pending": "Short recovery/start original instance to retrieve existing logs; do not rerun12h without evidence review."
+}

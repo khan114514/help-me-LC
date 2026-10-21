@@ -1,0 +1,50 @@
+test_native_open_cannot_read_outside_input (__main__.CandidateBoundary.test_native_open_cannot_read_outside_input) ... ERROR
+test_native_socket_denied (__main__.CandidateBoundary.test_native_socket_denied) ... ERROR
+test_nonfinite_is_invalid (__main__.CandidateBoundary.test_nonfinite_is_invalid) ... ok
+test_symlink_method_rejected (__main__.CandidateBoundary.test_symlink_method_rejected) ... ok
+test_unbounded_stdout_is_resource_failure (__main__.CandidateBoundary.test_unbounded_stdout_is_resource_failure) ... FAIL
+test_valid_math_schedule (__main__.CandidateBoundary.test_valid_math_schedule) ... ok
+
+======================================================================
+ERROR: test_native_open_cannot_read_outside_input (__main__.CandidateBoundary.test_native_open_cannot_read_outside_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/validation/test_candidate_boundary.py", line 38, in test_native_open_cannot_read_outside_input
+    nodes, _ = self.extract('import ctypes\ndef get_timesteps(n,s):\n lib=ctypes.CDLL(None)\n fd=lib.open(b"/private-canary/readable-secret",0)\n if fd>=0:\n  lib.close(fd)\n  raise ValueError("private_read_succeeded")\n return [1-i/n for i in range(n+1)]\n')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/validation/test_candidate_boundary.py", line 26, in extract
+    return evaluator.extract_schedule(method, RUNTIME / "candidate_worker.py", scratch, "/usr/bin/python3")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/runtime/evaluate_candidate.py", line 199, in extract_schedule
+    raise CandidateFailure(expected, data["reason_code"], evidence)
+trusted_evaluator.CandidateFailure: candidate_syntax_interface_or_value_format
+
+======================================================================
+ERROR: test_native_socket_denied (__main__.CandidateBoundary.test_native_socket_denied)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/validation/test_candidate_boundary.py", line 42, in test_native_socket_denied
+    nodes, _ = self.extract('import ctypes\ndef get_timesteps(n,s):\n lib=ctypes.CDLL(None)\n fd=lib.socket(2,1,0)\n if fd>=0:\n  lib.close(fd)\n  raise ValueError("network_socket_succeeded")\n return [1-i/n for i in range(n+1)]\n')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/validation/test_candidate_boundary.py", line 26, in extract
+    return evaluator.extract_schedule(method, RUNTIME / "candidate_worker.py", scratch, "/usr/bin/python3")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/runtime/evaluate_candidate.py", line 199, in extract_schedule
+    raise CandidateFailure(expected, data["reason_code"], evidence)
+trusted_evaluator.CandidateFailure: candidate_syntax_interface_or_value_format
+
+======================================================================
+FAIL: test_unbounded_stdout_is_resource_failure (__main__.CandidateBoundary.test_unbounded_stdout_is_resource_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/validation/test_candidate_boundary.py", line 63, in test_unbounded_stdout_is_resource_failure
+    self.assertEqual(result.exception.status, "RESOURCE_EXCEEDED")
+AssertionError: 'FORMAT_ERROR' != 'RESOURCE_EXCEEDED'
+- FORMAT_ERROR
++ RESOURCE_EXCEEDED
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.207s
+
+FAILED (failures=1, errors=2)

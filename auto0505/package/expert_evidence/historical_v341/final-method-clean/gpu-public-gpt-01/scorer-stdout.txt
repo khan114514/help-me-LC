@@ -1,0 +1,20 @@
+[run_eval] waiting gpu lock (/historical-root/rfsteps-v34-numeric-context-20261004/rpc_frozen_scorer.lock) ...
+[run_eval] gpu lock acquired
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+Init model
+Loading checkpoint
+Init AE
+[run_eval] models loaded in 24.6s (TEs offloaded, prompt cached)
+[run_eval] public/coco_000000000139: psnr=20.053 ssim=0.6428
+[run_eval] public/coco_000000000285: psnr=22.858 ssim=0.7825
+[run_eval] public/coco_000000000632: psnr=20.753 ssim=0.7303
+[run_eval] public/coco_000000001000: psnr=15.677 ssim=0.4638
+[run_eval] public/coco_000000001268: psnr=16.449 ssim=0.6190
+[run_eval] public/coco_000000001425: psnr=22.765 ssim=0.8582
+[run_eval] public/coco_000000001490: psnr=19.795 ssim=0.5534
+[run_eval] public/coco_000000039769: psnr=21.756 ssim=0.6699
+[run_eval] public/repo_art: psnr=26.116 ssim=0.8676
+[run_eval] public/repo_boy: psnr=23.424 ssim=0.6659
+[run_eval] public/repo_horse: psnr=20.241 ssim=0.7320
+[run_eval] public/repo_nobel: psnr=24.750 ssim=0.9549
+[run_eval] DONE psnr=21.2197 ssim=0.7117 score=1.0 elapsed=236s

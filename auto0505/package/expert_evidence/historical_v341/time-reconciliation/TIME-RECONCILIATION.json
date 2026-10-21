@@ -1,0 +1,1321 @@
+{
+  "schema_version": 1,
+  "utc": "2026-10-04T17:00:47.065954+00:00",
+  "status": "RECONCILED_USER_ACCEPTED_TIME_WITH_EVIDENCE_LIMITS",
+  "user_rule": "Count actual research process time; deduct only network-unreachable periods. Do not use GPU scoring_seconds as total or zero real work for expert ledger fixes/version changes.",
+  "separate_roles_not_added": true,
+  "interval_union_deduplication": true,
+  "exact_activity_records": [
+    {
+      "role": "gpt",
+      "start": "2026-10-04T06:53:03.979560+00:00",
+      "finish": "2026-10-04T07:17:57.306952+00:00",
+      "seconds": 1493.327392,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research/attempt01-archive/segment_000001/native-segment.json",
+      "field": "started_at/finished_at",
+      "kind": "research_native",
+      "native_exit_code": 0,
+      "task_sha256": "fc48c83b201e5e38403f07f0778e5615f5a19b3ccbd0fa98b2fa79606fca44ee",
+      "note": "No zeroing for failure, duplicate candidate or source-version migration."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T09:34:10.383197+00:00",
+      "finish": "2026-10-04T10:05:08.950492+00:00",
+      "seconds": 1858.567295,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run03/preserved-remote-root/gpt/native-archive/segment_000001/native-segment.json",
+      "field": "started_at/finished_at",
+      "kind": "research_native",
+      "native_exit_code": 1,
+      "task_sha256": "fc48c83b201e5e38403f07f0778e5615f5a19b3ccbd0fa98b2fa79606fca44ee",
+      "note": "No zeroing for failure, duplicate candidate or source-version migration."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T13:34:15.229896+00:00",
+      "finish": "2026-10-04T14:09:47.493235+00:00",
+      "seconds": 2132.263339,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal02-image-contract-audit-20261004/remote-evidence/native-segment.json",
+      "field": "started_at/finished_at",
+      "kind": "research_native",
+      "native_exit_code": 0,
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "note": "No zeroing for failure, duplicate candidate or source-version migration."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T13:34:15.229896+00:00",
+      "finish": "2026-10-04T14:09:47.493235+00:00",
+      "seconds": 2132.263339,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run02-ledger-bug-preservation/remote-root/gpt/native-archive/segment_000001/native-segment.json",
+      "field": "started_at/finished_at",
+      "kind": "research_native",
+      "native_exit_code": 0,
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "note": "No zeroing for failure, duplicate candidate or source-version migration."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T14:10:13.327180+00:00",
+      "finish": "2026-10-04T14:13:29.035936+00:00",
+      "seconds": 195.708756,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run02-ledger-bug-preservation/remote-root/gpt/native-archive/segment_000002/native-segment.json",
+      "field": "started_at/finished_at",
+      "kind": "research_native",
+      "native_exit_code": null,
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "note": "No zeroing for failure, duplicate candidate or source-version migration."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T15:30:14.536558+00:00",
+      "finish": "2026-10-04T15:51:27.681834+00:00",
+      "seconds": 1273.145276,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/native-segment.json",
+      "field": "started_at/finished_at",
+      "kind": "research_native",
+      "native_exit_code": 0,
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "note": "No zeroing for failure, duplicate candidate or source-version migration."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T15:51:31.117023+00:00",
+      "finish": "2026-10-04T16:11:51.998434+00:00",
+      "seconds": 1220.881411,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000003/segment_000003/native-segment.json",
+      "field": "started_at/finished_at",
+      "kind": "research_native",
+      "native_exit_code": 0,
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "note": "No zeroing for failure, duplicate candidate or source-version migration."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T16:11:55.583468+00:00",
+      "finish": "2026-10-04T16:35:54.390899+00:00",
+      "seconds": 1438.807431,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000004/segment_000004/native-segment.json",
+      "field": "started_at/finished_at",
+      "kind": "research_native",
+      "native_exit_code": 0,
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "note": "No zeroing for failure, duplicate candidate or source-version migration."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T15:01:37.629156+00:00",
+      "finish": "2026-10-04T15:30:01.969319+00:00",
+      "seconds": 1704.340163,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/native-segment.json",
+      "field": "started_at/finished_at",
+      "kind": "research_native",
+      "native_exit_code": 0,
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "note": "No zeroing for failure, duplicate candidate or source-version migration."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T06:24:18.015503+00:00",
+      "finish": "2026-10-04T06:25:00.114453+00:00",
+      "seconds": 42.09895,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-function-tools-smoke-03/rfsteps-v34-build-check-20261004__RVWWWuv/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "task_sha256": "fc48c83b201e5e38403f07f0778e5615f5a19b3ccbd0fa98b2fa79606fca44ee"
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T06:14:20.137634+00:00",
+      "finish": "2026-10-04T06:20:41.338280+00:00",
+      "seconds": 381.200646,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-model-tool-smoke-01/rfsteps-v34-build-check-20261004__B88PjQi/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "task_sha256": "fc48c83b201e5e38403f07f0778e5615f5a19b3ccbd0fa98b2fa79606fca44ee"
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T06:22:01.671604+00:00",
+      "finish": "2026-10-04T06:23:09.964974+00:00",
+      "seconds": 68.29337,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-tool-schema-default-02/rfsteps-v34-build-check-20261004__cGmw4vA/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "task_sha256": "fc48c83b201e5e38403f07f0778e5615f5a19b3ccbd0fa98b2fa79606fca44ee"
+    },
+    {
+      "role": "seed",
+      "start": "2026-10-04T06:14:20.121403+00:00",
+      "finish": "2026-10-04T06:14:49.035303+00:00",
+      "seconds": 28.9139,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-seed-model-tool-smoke-01/rfsteps-v34-build-check-20261004__FDqxZKZ/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "task_sha256": "fc48c83b201e5e38403f07f0778e5615f5a19b3ccbd0fa98b2fa79606fca44ee"
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T06:22:01.671604+00:00",
+      "finish": "2026-10-04T06:23:09.964974+00:00",
+      "seconds": 68.29337,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-preflight/gpt/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "task_sha256": "fc48c83b201e5e38403f07f0778e5615f5a19b3ccbd0fa98b2fa79606fca44ee"
+    },
+    {
+      "role": "seed",
+      "start": "2026-10-04T06:14:20.121403+00:00",
+      "finish": "2026-10-04T06:14:49.035303+00:00",
+      "seconds": 28.9139,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-preflight/seed/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "task_sha256": "fc48c83b201e5e38403f07f0778e5615f5a19b3ccbd0fa98b2fa79606fca44ee"
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T07:48:56.617658+00:00",
+      "finish": "2026-10-04T08:28:56.688926+00:00",
+      "seconds": 2400.071268,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run02/preserved-harbor-job/rfsteps-v34-build-check-20261004__xB3yzK5/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "research_agent_execution",
+      "task_sha256": "fc48c83b201e5e38403f07f0778e5615f5a19b3ccbd0fa98b2fa79606fca44ee"
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T09:34:09.715512+00:00",
+      "finish": "2026-10-04T10:05:17.138108+00:00",
+      "seconds": 1867.422596,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run03/preserved-harbor-job/rfsteps-v34-build-check-20261004__hd5bubu/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "research_agent_execution",
+      "task_sha256": "fc48c83b201e5e38403f07f0778e5615f5a19b3ccbd0fa98b2fa79606fca44ee"
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T12:49:17.167309+00:00",
+      "finish": "2026-10-04T13:05:27.527818+00:00",
+      "seconds": 970.360509,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run01-failed-preservation/harbor-job/rfsteps-v341-build-check-2026100__RGepqW4/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "research_agent_execution",
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb"
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T13:34:14.564955+00:00",
+      "finish": "2026-10-04T14:13:29.775585+00:00",
+      "seconds": 2355.21063,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run02-ledger-bug-preservation/harbor-job/rfsteps-v341-build-check-2026100__p5zQbmq/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "research_agent_execution",
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb"
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T14:49:07.239913+00:00",
+      "finish": "2026-10-04T14:55:40.665716+00:00",
+      "seconds": 393.425803,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run03-tool-loop-preservation/harbor-job/rfsteps-v341-build-check-2026100__7pdzjN4/result.json",
+      "field": "agent_execution.started_at/finished_at",
+      "kind": "research_agent_execution",
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb"
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T12:19:19.003609+00:00",
+      "finish": "2026-10-04T12:20:15.331765+00:00",
+      "seconds": 56.328156,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight02/preserved-remote/gpt/summary.json",
+      "field": "summary.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "outcome_passed": true,
+      "note": "Real model/tool preparation; separately reported, no GPU-only qualification constraint."
+    },
+    {
+      "role": "seed",
+      "start": "2026-10-04T12:20:15.376221+00:00",
+      "finish": "2026-10-04T12:20:57.810456+00:00",
+      "seconds": 42.434235,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight02/preserved-remote/seed/summary.json",
+      "field": "summary.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "outcome_passed": true,
+      "note": "Real model/tool preparation; separately reported, no GPU-only qualification constraint."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T13:29:13.755378+00:00",
+      "finish": "2026-10-04T13:30:08.831542+00:00",
+      "seconds": 55.076164,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight03/preserved-remote/gpt/summary.json",
+      "field": "summary.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "outcome_passed": true,
+      "note": "Real model/tool preparation; separately reported, no GPU-only qualification constraint."
+    },
+    {
+      "role": "seed",
+      "start": "2026-10-04T13:30:08.877731+00:00",
+      "finish": "2026-10-04T13:30:52.395175+00:00",
+      "seconds": 43.517444,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight03/preserved-remote/seed/summary.json",
+      "field": "summary.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "outcome_passed": true,
+      "note": "Real model/tool preparation; separately reported, no GPU-only qualification constraint."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T14:28:41.241582+00:00",
+      "finish": "2026-10-04T14:35:18.338515+00:00",
+      "seconds": 397.096933,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight04/preserved-remote/gpt/summary.json",
+      "field": "summary.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "outcome_passed": false,
+      "note": "Real model/tool preparation; separately reported, no GPU-only qualification constraint."
+    },
+    {
+      "role": "seed",
+      "start": "2026-10-04T14:35:18.383936+00:00",
+      "finish": "2026-10-04T14:36:00.154998+00:00",
+      "seconds": 41.771062,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight04/preserved-remote/seed/summary.json",
+      "field": "summary.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "outcome_passed": true,
+      "note": "Real model/tool preparation; separately reported, no GPU-only qualification constraint."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T14:42:04.179796+00:00",
+      "finish": "2026-10-04T14:43:41.326765+00:00",
+      "seconds": 97.146969,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight05/preserved-remote/gpt/summary.json",
+      "field": "summary.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "outcome_passed": true,
+      "note": "Real model/tool preparation; separately reported, no GPU-only qualification constraint."
+    },
+    {
+      "role": "seed",
+      "start": "2026-10-04T14:43:41.372899+00:00",
+      "finish": "2026-10-04T14:44:24.746472+00:00",
+      "seconds": 43.373573,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight05/preserved-remote/seed/summary.json",
+      "field": "summary.started_at/finished_at",
+      "kind": "model_tool_probe",
+      "outcome_passed": true,
+      "note": "Real model/tool preparation; separately reported, no GPU-only qualification constraint."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T15:01:30.771451+00:00",
+      "finish": "2026-10-04T16:35:54.390899+00:00",
+      "seconds": 5663.619448,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/gpt-formal-run04-launch-receipt.json",
+      "field": "launched_at_utc -> last archived native.finished_at",
+      "kind": "ongoing_confirmed_run_envelope",
+      "finish_scope": "Censored at latest archived segment; includes actual expert close-loop gaps; no extrapolation.",
+      "owned_pid": 2692941,
+      "owned_start_ticks": 8044310
+    }
+  ],
+  "outer_trial_bounds_separately_not_double_counted": [
+    {
+      "role": "gpt",
+      "start": "2026-10-04T06:24:12.971616+00:00",
+      "finish": "2026-10-04T06:25:16.678661+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-function-tools-smoke-03/rfsteps-v34-build-check-20261004__RVWWWuv/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T06:14:15.288982+00:00",
+      "finish": "2026-10-04T06:20:57.027225+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-model-tool-smoke-01/rfsteps-v34-build-check-20261004__B88PjQi/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T06:21:55.958373+00:00",
+      "finish": "2026-10-04T06:23:26.488033+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-tool-schema-default-02/rfsteps-v34-build-check-20261004__cGmw4vA/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    },
+    {
+      "role": "seed",
+      "start": "2026-10-04T06:14:15.289798+00:00",
+      "finish": "2026-10-04T06:15:05.230027+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-seed-model-tool-smoke-01/rfsteps-v34-build-check-20261004__FDqxZKZ/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T06:21:55.958373+00:00",
+      "finish": "2026-10-04T06:23:26.488033+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-preflight/gpt/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    },
+    {
+      "role": "seed",
+      "start": "2026-10-04T06:14:15.289798+00:00",
+      "finish": "2026-10-04T06:15:05.230027+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-preflight/seed/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T07:48:51.374024+00:00",
+      "finish": "2026-10-04T08:29:08.422577+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run02/preserved-harbor-job/rfsteps-v34-build-check-20261004__xB3yzK5/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T09:34:05.010876+00:00",
+      "finish": "2026-10-04T10:06:04.792706+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run03/preserved-harbor-job/rfsteps-v34-build-check-20261004__hd5bubu/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T12:49:11.822898+00:00",
+      "finish": "2026-10-04T13:12:35.343799+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run01-failed-preservation/harbor-job/rfsteps-v341-build-check-2026100__RGepqW4/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T13:34:06.596555+00:00",
+      "finish": "2026-10-04T14:13:41.526333+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run02-ledger-bug-preservation/harbor-job/rfsteps-v341-build-check-2026100__p5zQbmq/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    },
+    {
+      "role": "gpt",
+      "start": "2026-10-04T14:49:02.578471+00:00",
+      "finish": "2026-10-04T14:55:52.362341+00:00",
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run03-tool-loop-preservation/harbor-job/rfsteps-v341-build-check-2026100__7pdzjN4/result.json",
+      "scope": "Outer Trial bounds, not automatically continuous Agent work."
+    }
+  ],
+  "historical": {
+    "gpt": {
+      "completed_attempts": 84,
+      "event_count": 178,
+      "completion_point_span": {
+        "start_utc": "2026-10-02T18:37:58+00:00",
+        "finish_utc": "2026-10-03T03:38:06+00:00",
+        "seconds": 32408.0
+      },
+      "all_event_point_span_including_wrap_recovery": {
+        "start_utc": "2026-10-02T18:37:58+00:00",
+        "finish_utc": "2026-10-03T04:34:45+00:00",
+        "seconds": 35807.0
+      },
+      "time_evidence_status": "POINT_EVENT_HULL_NOT_CONTINUOUS_RUNTIME_PROOF",
+      "network_deduction_seconds": null,
+      "network_duration_status": "OLD_ERROR_BOOKMARKS_HAVE_NO_TIMESTAMP; cannot derive duration from counts or gaps.",
+      "safe_error_bookmark_counts": {
+        "transport_error": 91
+      },
+      "error_bookmark_scope": "Error-pattern bookmarks only; timestamps and blocking duration cannot be inferred from occurrence counts. Repeated tool output may duplicate a line.",
+      "largest_completion_gaps": [
+        {
+          "seconds": 857.0,
+          "previous_round": 2,
+          "round": 3,
+          "start": "2026-10-03T02:42:13+08:00",
+          "end": "2026-10-03T02:56:30+08:00"
+        },
+        {
+          "seconds": 848.0,
+          "previous_round": 3,
+          "round": 4,
+          "start": "2026-10-03T02:56:30+08:00",
+          "end": "2026-10-03T03:10:38+08:00"
+        },
+        {
+          "seconds": 813.0,
+          "previous_round": 7,
+          "round": 8,
+          "start": "2026-10-03T03:49:48+08:00",
+          "end": "2026-10-03T04:03:21+08:00"
+        },
+        {
+          "seconds": 788.0,
+          "previous_round": 6,
+          "round": 7,
+          "start": "2026-10-03T03:36:40+08:00",
+          "end": "2026-10-03T03:49:48+08:00"
+        },
+        {
+          "seconds": 786.0,
+          "previous_round": 4,
+          "round": 5,
+          "start": "2026-10-03T03:10:38+08:00",
+          "end": "2026-10-03T03:23:44+08:00"
+        },
+        {
+          "seconds": 776.0,
+          "previous_round": 5,
+          "round": 6,
+          "start": "2026-10-03T03:23:44+08:00",
+          "end": "2026-10-03T03:36:40+08:00"
+        },
+        {
+          "seconds": 584.0,
+          "previous_round": 9,
+          "round": 10,
+          "start": "2026-10-03T04:08:17+08:00",
+          "end": "2026-10-03T04:18:01+08:00"
+        },
+        {
+          "seconds": 549.0,
+          "previous_round": 35,
+          "round": 36,
+          "start": "2026-10-03T07:17:32+08:00",
+          "end": "2026-10-03T07:26:41+08:00"
+        }
+      ],
+      "supervisor_timer": {
+        "path": "rfsteps-results/codex/.track_timer.log",
+        "sha256": "31aed718dd0002833187e1e6f424ded0240b9dcde3f35cfd56d5e7aeb9938e64",
+        "records": [
+          "supervisor_boot 2026-10-02 18:36:00",
+          "supervisor_boot 2026-10-03 02:38:41",
+          "supervisor_halt 2026-10-03 12:36:13"
+        ],
+        "timezone": null
+      },
+      "timer_status": "Timezone absent and UTC/local interpretation ambiguous; no 10h assumption.",
+      "raw_supervisor_source_sha_only": {
+        "path": "rfsteps-results/codex/supervisor.log",
+        "sha256": "436970fbb0f7949005d734093a9b57fc8225808abbc11e555830acf8dbb61146",
+        "bytes": 145993808,
+        "lines": 593491
+      },
+      "model_configuration_scope": {
+        "count": 21,
+        "models": {
+          "gpt-6.1-sol": 21
+        },
+        "efforts": {
+          "xhigh": 21
+        },
+        "sandbox_modes": {
+          "danger-full-access": 21
+        }
+      },
+      "clock_zeroing_for_old_version_or_failure_applied": false,
+      "canonical_snapshot_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_codex.json",
+      "canonical_snapshot_sha256": "0e6726263ba4cb6fd5b5b376f15a62e6e36d3c0c79f513ff3304262efe43b122",
+      "actual_legacy_supervisor_contents_read": false
+    },
+    "seed": {
+      "completed_attempts": 47,
+      "event_count": 50,
+      "completion_point_span": {
+        "start_utc": "2026-10-02T18:53:05.723361+00:00",
+        "finish_utc": "2026-10-03T04:07:56.450009+00:00",
+        "seconds": 33290.726648
+      },
+      "all_event_point_span_including_wrap_recovery": {
+        "start_utc": "2026-10-02T18:53:05.723361+00:00",
+        "finish_utc": "2026-10-03T04:09:14.929642+00:00",
+        "seconds": 33369.206281
+      },
+      "time_evidence_status": "POINT_EVENT_HULL_NOT_CONTINUOUS_RUNTIME_PROOF",
+      "network_deduction_seconds": null,
+      "network_duration_status": "OLD_ERROR_BOOKMARKS_HAVE_NO_TIMESTAMP; cannot derive duration from counts or gaps.",
+      "safe_error_bookmark_counts": {
+        "transport_error": 1,
+        "rate_or_quota_error": 224
+      },
+      "error_bookmark_scope": "Error-pattern bookmarks only; timestamps and blocking duration cannot be inferred from occurrence counts. Repeated tool output may duplicate a line.",
+      "largest_completion_gaps": [
+        {
+          "seconds": 7766.839201,
+          "previous_round": 27,
+          "round": 28,
+          "start": "2026-10-03T07:22:11.036104+08:00",
+          "end": "2026-10-03T09:31:37.875305+08:00"
+        },
+        {
+          "seconds": 1802.294487,
+          "previous_round": 10,
+          "round": 11,
+          "start": "2026-10-03T04:27:48.322340+08:00",
+          "end": "2026-10-03T04:57:50.616827+08:00"
+        },
+        {
+          "seconds": 1435.800362,
+          "previous_round": 29,
+          "round": 30,
+          "start": "2026-10-03T09:47:05.857769+08:00",
+          "end": "2026-10-03T10:11:01.658131+08:00"
+        },
+        {
+          "seconds": 1195.166639,
+          "previous_round": 15,
+          "round": 16,
+          "start": "2026-10-03T05:31:27.436548+08:00",
+          "end": "2026-10-03T05:51:22.603187+08:00"
+        },
+        {
+          "seconds": 1181.35893,
+          "previous_round": 6,
+          "round": 7,
+          "start": "2026-10-03T03:45:25.802428+08:00",
+          "end": "2026-10-03T04:05:07.161358+08:00"
+        },
+        {
+          "seconds": 927.982464,
+          "previous_round": 28,
+          "round": 29,
+          "start": "2026-10-03T09:31:37.875305+08:00",
+          "end": "2026-10-03T09:47:05.857769+08:00"
+        },
+        {
+          "seconds": 801.298151,
+          "previous_round": 4,
+          "round": 5,
+          "start": "2026-10-03T03:19:01.116229+08:00",
+          "end": "2026-10-03T03:32:22.414380+08:00"
+        },
+        {
+          "seconds": 783.388048,
+          "previous_round": 5,
+          "round": 6,
+          "start": "2026-10-03T03:32:22.414380+08:00",
+          "end": "2026-10-03T03:45:25.802428+08:00"
+        }
+      ],
+      "supervisor_timer": {
+        "path": "rfsteps-results/seed/.track_timer.log",
+        "sha256": "5ac1908137ec3a5a05aeeae801dfce0a5c724ad804933a1b9f6b3a087fe6a51e",
+        "records": [
+          "supervisor_boot 2026-10-02 18:36:00",
+          "supervisor_boot 2026-10-03 02:38:41",
+          "supervisor_halt 2026-10-03 12:36:42"
+        ],
+        "timezone": null
+      },
+      "timer_status": "Timezone absent and UTC/local interpretation ambiguous; no 10h assumption.",
+      "raw_supervisor_source_sha_only": {
+        "path": "rfsteps-results/seed/supervisor.log",
+        "sha256": "1b87e408968090688fd024ce2d7b6a368e2e141c16765641678b095d4975afcf",
+        "bytes": 1760354,
+        "lines": 25857
+      },
+      "model_configuration_scope": {
+        "count": 128,
+        "models": {
+          "doubao-seed-2-1-turbo-260628": 128
+        },
+        "efforts": {
+          "xhigh": 128
+        },
+        "sandbox_modes": {
+          "danger-full-access": 128
+        }
+      },
+      "clock_zeroing_for_old_version_or_failure_applied": false,
+      "canonical_snapshot_path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-package-trajectories/trajectory_seed.json",
+      "canonical_snapshot_sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "actual_legacy_supervisor_contents_read": false
+    }
+  },
+  "network": [
+    {
+      "scope": "v341 model reverse forward",
+      "start_utc": "2026-10-04T12:39:31.879000+00:00",
+      "finish_utc": "2026-10-04T13:15:23.548374+00:00",
+      "seconds": 2151.669374,
+      "status": "OWNED_FORWARD_OUTAGE_THROUGH_EXTERNAL_OPERATOR_UP",
+      "sources": [
+        "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/connection-outage-20261004-1239/OUTAGE-AUDIT.json",
+        "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/operator-recovery-01/minimal-model-live-01/operator-events.jsonl"
+      ],
+      "deduction_roles": [
+        "gpt",
+        "seed"
+      ]
+    },
+    {
+      "scope": "v34 formal03 upstream transport failures",
+      "status": "REQUEST_INTERVALS_EXACT_OUTAGE_BOUNDARIES_UNCERTAIN",
+      "failure_requests": 26,
+      "direct_failed_connect_intervals": [
+        {
+          "start_utc": "2026-10-04T10:04:27.774000+00:00",
+          "finish_utc": "2026-10-04T10:04:28.080000+00:00",
+          "seconds": 0.306
+        },
+        {
+          "start_utc": "2026-10-04T10:04:28.433000+00:00",
+          "finish_utc": "2026-10-04T10:04:28.550000+00:00",
+          "seconds": 0.117
+        },
+        {
+          "start_utc": "2026-10-04T10:04:29.092000+00:00",
+          "finish_utc": "2026-10-04T10:04:29.413000+00:00",
+          "seconds": 0.321
+        },
+        {
+          "start_utc": "2026-10-04T10:04:30.317000+00:00",
+          "finish_utc": "2026-10-04T10:04:30.430000+00:00",
+          "seconds": 0.113
+        },
+        {
+          "start_utc": "2026-10-04T10:04:32.158000+00:00",
+          "finish_utc": "2026-10-04T10:04:32.264000+00:00",
+          "seconds": 0.106
+        },
+        {
+          "start_utc": "2026-10-04T10:04:32.791000+00:00",
+          "finish_utc": "2026-10-04T10:04:33.084000+00:00",
+          "seconds": 0.293
+        },
+        {
+          "start_utc": "2026-10-04T10:04:33.419000+00:00",
+          "finish_utc": "2026-10-04T10:04:33.540000+00:00",
+          "seconds": 0.121
+        },
+        {
+          "start_utc": "2026-10-04T10:04:34.071000+00:00",
+          "finish_utc": "2026-10-04T10:04:34.384000+00:00",
+          "seconds": 0.313
+        },
+        {
+          "start_utc": "2026-10-04T10:04:35.332000+00:00",
+          "finish_utc": "2026-10-04T10:04:35.630000+00:00",
+          "seconds": 0.298
+        },
+        {
+          "start_utc": "2026-10-04T10:04:37.517000+00:00",
+          "finish_utc": "2026-10-04T10:04:37.621000+00:00",
+          "seconds": 0.104
+        },
+        {
+          "start_utc": "2026-10-04T10:04:38.611000+00:00",
+          "finish_utc": "2026-10-04T10:04:38.724000+00:00",
+          "seconds": 0.113
+        },
+        {
+          "start_utc": "2026-10-04T10:04:39.076000+00:00",
+          "finish_utc": "2026-10-04T10:04:39.194000+00:00",
+          "seconds": 0.118
+        },
+        {
+          "start_utc": "2026-10-04T10:04:39.709000+00:00",
+          "finish_utc": "2026-10-04T10:04:40.028000+00:00",
+          "seconds": 0.319
+        },
+        {
+          "start_utc": "2026-10-04T10:04:40.938000+00:00",
+          "finish_utc": "2026-10-04T10:04:41.233000+00:00",
+          "seconds": 0.295
+        },
+        {
+          "start_utc": "2026-10-04T10:04:42.883000+00:00",
+          "finish_utc": "2026-10-04T10:04:42.985000+00:00",
+          "seconds": 0.102
+        },
+        {
+          "start_utc": "2026-10-04T10:04:44.600000+00:00",
+          "finish_utc": "2026-10-04T10:04:44.904000+00:00",
+          "seconds": 0.304
+        },
+        {
+          "start_utc": "2026-10-04T10:04:45.241000+00:00",
+          "finish_utc": "2026-10-04T10:04:45.542000+00:00",
+          "seconds": 0.301
+        },
+        {
+          "start_utc": "2026-10-04T10:04:46.099000+00:00",
+          "finish_utc": "2026-10-04T10:04:46.407000+00:00",
+          "seconds": 0.308
+        },
+        {
+          "start_utc": "2026-10-04T10:04:47.281000+00:00",
+          "finish_utc": "2026-10-04T10:04:47.589000+00:00",
+          "seconds": 0.308
+        },
+        {
+          "start_utc": "2026-10-04T10:04:49.167000+00:00",
+          "finish_utc": "2026-10-04T10:04:49.270000+00:00",
+          "seconds": 0.103
+        },
+        {
+          "start_utc": "2026-10-04T10:04:52.759000+00:00",
+          "finish_utc": "2026-10-04T10:04:53.067000+00:00",
+          "seconds": 0.308
+        },
+        {
+          "start_utc": "2026-10-04T10:04:53.408000+00:00",
+          "finish_utc": "2026-10-04T10:04:53.707000+00:00",
+          "seconds": 0.299
+        },
+        {
+          "start_utc": "2026-10-04T10:04:54.372000+00:00",
+          "finish_utc": "2026-10-04T10:04:54.691000+00:00",
+          "seconds": 0.319
+        },
+        {
+          "start_utc": "2026-10-04T10:05:06.119000+00:00",
+          "finish_utc": "2026-10-04T10:05:06.435000+00:00",
+          "seconds": 0.316
+        },
+        {
+          "start_utc": "2026-10-04T10:05:08.232000+00:00",
+          "finish_utc": "2026-10-04T10:05:08.526000+00:00",
+          "seconds": 0.294
+        }
+      ],
+      "direct_failed_connect_union_seconds": 5.898999999999999,
+      "first_failed_stream_request_start_utc": "2026-10-04T10:00:29.648000+00:00",
+      "first_stream_failure_detected_at_utc": "2026-10-04T10:04:27.410+00:00",
+      "last_failed_request_finished_at_utc": "2026-10-04T10:05:08.526000+00:00",
+      "potential_outage_envelope_seconds": 278.878,
+      "recovery_at": null,
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/run03-qualification-followup/provider-terminal-details.json",
+      "note": "No completed model response after the failed cluster in this run. Stream onset/retry gaps not silently credited or fully deducted."
+    }
+  ],
+  "role_summaries": {
+    "gpt": {
+      "exact_oct4_actual_activity_intervals_union": [
+        {
+          "start_utc": "2026-10-04T06:14:20.137634+00:00",
+          "finish_utc": "2026-10-04T06:20:41.338280+00:00",
+          "seconds": 381.200646
+        },
+        {
+          "start_utc": "2026-10-04T06:22:01.671604+00:00",
+          "finish_utc": "2026-10-04T06:23:09.964974+00:00",
+          "seconds": 68.29337
+        },
+        {
+          "start_utc": "2026-10-04T06:24:18.015503+00:00",
+          "finish_utc": "2026-10-04T06:25:00.114453+00:00",
+          "seconds": 42.09895
+        },
+        {
+          "start_utc": "2026-10-04T06:53:03.979560+00:00",
+          "finish_utc": "2026-10-04T07:17:57.306952+00:00",
+          "seconds": 1493.327392
+        },
+        {
+          "start_utc": "2026-10-04T07:48:56.617658+00:00",
+          "finish_utc": "2026-10-04T08:28:56.688926+00:00",
+          "seconds": 2400.071268
+        },
+        {
+          "start_utc": "2026-10-04T09:34:09.715512+00:00",
+          "finish_utc": "2026-10-04T10:05:17.138108+00:00",
+          "seconds": 1867.422596
+        },
+        {
+          "start_utc": "2026-10-04T12:19:19.003609+00:00",
+          "finish_utc": "2026-10-04T12:20:15.331765+00:00",
+          "seconds": 56.328156
+        },
+        {
+          "start_utc": "2026-10-04T12:49:17.167309+00:00",
+          "finish_utc": "2026-10-04T13:05:27.527818+00:00",
+          "seconds": 970.360509
+        },
+        {
+          "start_utc": "2026-10-04T13:29:13.755378+00:00",
+          "finish_utc": "2026-10-04T13:30:08.831542+00:00",
+          "seconds": 55.076164
+        },
+        {
+          "start_utc": "2026-10-04T13:34:14.564955+00:00",
+          "finish_utc": "2026-10-04T14:13:29.775585+00:00",
+          "seconds": 2355.21063
+        },
+        {
+          "start_utc": "2026-10-04T14:28:41.241582+00:00",
+          "finish_utc": "2026-10-04T14:35:18.338515+00:00",
+          "seconds": 397.096933
+        },
+        {
+          "start_utc": "2026-10-04T14:42:04.179796+00:00",
+          "finish_utc": "2026-10-04T14:43:41.326765+00:00",
+          "seconds": 97.146969
+        },
+        {
+          "start_utc": "2026-10-04T14:49:07.239913+00:00",
+          "finish_utc": "2026-10-04T14:55:40.665716+00:00",
+          "seconds": 393.425803
+        },
+        {
+          "start_utc": "2026-10-04T15:01:30.771451+00:00",
+          "finish_utc": "2026-10-04T16:35:54.390899+00:00",
+          "seconds": 5663.619448
+        }
+      ],
+      "exact_oct4_gross_seconds": 16240.678834000002,
+      "oct4_research_process_union_seconds": 15143.437646000002,
+      "oct4_real_model_tool_preparation_union_seconds": 1097.2411879999997,
+      "exact_known_network_intersection": [
+        {
+          "start_utc": "2026-10-04T10:04:27.774000+00:00",
+          "finish_utc": "2026-10-04T10:04:28.080000+00:00",
+          "seconds": 0.306
+        },
+        {
+          "start_utc": "2026-10-04T10:04:28.433000+00:00",
+          "finish_utc": "2026-10-04T10:04:28.550000+00:00",
+          "seconds": 0.117
+        },
+        {
+          "start_utc": "2026-10-04T10:04:29.092000+00:00",
+          "finish_utc": "2026-10-04T10:04:29.413000+00:00",
+          "seconds": 0.321
+        },
+        {
+          "start_utc": "2026-10-04T10:04:30.317000+00:00",
+          "finish_utc": "2026-10-04T10:04:30.430000+00:00",
+          "seconds": 0.113
+        },
+        {
+          "start_utc": "2026-10-04T10:04:32.158000+00:00",
+          "finish_utc": "2026-10-04T10:04:32.264000+00:00",
+          "seconds": 0.106
+        },
+        {
+          "start_utc": "2026-10-04T10:04:32.791000+00:00",
+          "finish_utc": "2026-10-04T10:04:33.084000+00:00",
+          "seconds": 0.293
+        },
+        {
+          "start_utc": "2026-10-04T10:04:33.419000+00:00",
+          "finish_utc": "2026-10-04T10:04:33.540000+00:00",
+          "seconds": 0.121
+        },
+        {
+          "start_utc": "2026-10-04T10:04:34.071000+00:00",
+          "finish_utc": "2026-10-04T10:04:34.384000+00:00",
+          "seconds": 0.313
+        },
+        {
+          "start_utc": "2026-10-04T10:04:35.332000+00:00",
+          "finish_utc": "2026-10-04T10:04:35.630000+00:00",
+          "seconds": 0.298
+        },
+        {
+          "start_utc": "2026-10-04T10:04:37.517000+00:00",
+          "finish_utc": "2026-10-04T10:04:37.621000+00:00",
+          "seconds": 0.104
+        },
+        {
+          "start_utc": "2026-10-04T10:04:38.611000+00:00",
+          "finish_utc": "2026-10-04T10:04:38.724000+00:00",
+          "seconds": 0.113
+        },
+        {
+          "start_utc": "2026-10-04T10:04:39.076000+00:00",
+          "finish_utc": "2026-10-04T10:04:39.194000+00:00",
+          "seconds": 0.118
+        },
+        {
+          "start_utc": "2026-10-04T10:04:39.709000+00:00",
+          "finish_utc": "2026-10-04T10:04:40.028000+00:00",
+          "seconds": 0.319
+        },
+        {
+          "start_utc": "2026-10-04T10:04:40.938000+00:00",
+          "finish_utc": "2026-10-04T10:04:41.233000+00:00",
+          "seconds": 0.295
+        },
+        {
+          "start_utc": "2026-10-04T10:04:42.883000+00:00",
+          "finish_utc": "2026-10-04T10:04:42.985000+00:00",
+          "seconds": 0.102
+        },
+        {
+          "start_utc": "2026-10-04T10:04:44.600000+00:00",
+          "finish_utc": "2026-10-04T10:04:44.904000+00:00",
+          "seconds": 0.304
+        },
+        {
+          "start_utc": "2026-10-04T10:04:45.241000+00:00",
+          "finish_utc": "2026-10-04T10:04:45.542000+00:00",
+          "seconds": 0.301
+        },
+        {
+          "start_utc": "2026-10-04T10:04:46.099000+00:00",
+          "finish_utc": "2026-10-04T10:04:46.407000+00:00",
+          "seconds": 0.308
+        },
+        {
+          "start_utc": "2026-10-04T10:04:47.281000+00:00",
+          "finish_utc": "2026-10-04T10:04:47.589000+00:00",
+          "seconds": 0.308
+        },
+        {
+          "start_utc": "2026-10-04T10:04:49.167000+00:00",
+          "finish_utc": "2026-10-04T10:04:49.270000+00:00",
+          "seconds": 0.103
+        },
+        {
+          "start_utc": "2026-10-04T10:04:52.759000+00:00",
+          "finish_utc": "2026-10-04T10:04:53.067000+00:00",
+          "seconds": 0.308
+        },
+        {
+          "start_utc": "2026-10-04T10:04:53.408000+00:00",
+          "finish_utc": "2026-10-04T10:04:53.707000+00:00",
+          "seconds": 0.299
+        },
+        {
+          "start_utc": "2026-10-04T10:04:54.372000+00:00",
+          "finish_utc": "2026-10-04T10:04:54.691000+00:00",
+          "seconds": 0.319
+        },
+        {
+          "start_utc": "2026-10-04T10:05:06.119000+00:00",
+          "finish_utc": "2026-10-04T10:05:06.435000+00:00",
+          "seconds": 0.316
+        },
+        {
+          "start_utc": "2026-10-04T10:05:08.232000+00:00",
+          "finish_utc": "2026-10-04T10:05:08.526000+00:00",
+          "seconds": 0.294
+        },
+        {
+          "start_utc": "2026-10-04T12:49:17.167309+00:00",
+          "finish_utc": "2026-10-04T13:05:27.527818+00:00",
+          "seconds": 970.360509
+        }
+      ],
+      "exact_known_network_deduction_seconds": 976.259509,
+      "oct4_net_after_only_exact_known_network_seconds": 15264.419325000003,
+      "oct4_net_if_full_uncertain_failure_envelope_is_blocked_seconds": 14991.440325000001,
+      "oct4_net_status": "BOUNDED_OLD03_STREAM_NETWORK_UNCERTAINTY; no arbitrary exclusion for failed tools/version/ledger repair.",
+      "nominal_historical_completion_span_plus_oct4_known_net_seconds": 47672.419325,
+      "nominal_historical_all_event_span_plus_oct4_known_net_seconds": 51071.419325,
+      "nominal_combination_scope": "Arithmetic sensitivity only; point spans may include inactive/network intervals; NOT a certified total.",
+      "all_history_network_deducted_actual_research_total_seconds": null,
+      "target_met": null,
+      "evidence_certified_target_met": null,
+      "user_accepted_time_sufficiency": true
+    },
+    "seed": {
+      "exact_oct4_actual_activity_intervals_union": [
+        {
+          "start_utc": "2026-10-04T06:14:20.121403+00:00",
+          "finish_utc": "2026-10-04T06:14:49.035303+00:00",
+          "seconds": 28.9139
+        },
+        {
+          "start_utc": "2026-10-04T12:20:15.376221+00:00",
+          "finish_utc": "2026-10-04T12:20:57.810456+00:00",
+          "seconds": 42.434235
+        },
+        {
+          "start_utc": "2026-10-04T13:30:08.877731+00:00",
+          "finish_utc": "2026-10-04T13:30:52.395175+00:00",
+          "seconds": 43.517444
+        },
+        {
+          "start_utc": "2026-10-04T14:35:18.383936+00:00",
+          "finish_utc": "2026-10-04T14:36:00.154998+00:00",
+          "seconds": 41.771062
+        },
+        {
+          "start_utc": "2026-10-04T14:43:41.372899+00:00",
+          "finish_utc": "2026-10-04T14:44:24.746472+00:00",
+          "seconds": 43.373573
+        }
+      ],
+      "exact_oct4_gross_seconds": 200.010214,
+      "oct4_research_process_union_seconds": 0,
+      "oct4_real_model_tool_preparation_union_seconds": 200.010214,
+      "exact_known_network_intersection": [],
+      "exact_known_network_deduction_seconds": 0,
+      "oct4_net_after_only_exact_known_network_seconds": 200.010214,
+      "oct4_net_if_full_uncertain_failure_envelope_is_blocked_seconds": 200.010214,
+      "oct4_net_status": "NO_OBSERVED_OCT4_NETWORK_OVERLAP; not a claim that all historical network intervals are known.",
+      "nominal_historical_completion_span_plus_oct4_known_net_seconds": 33490.736862000005,
+      "nominal_historical_all_event_span_plus_oct4_known_net_seconds": 33569.216495,
+      "nominal_combination_scope": "Arithmetic sensitivity only; point spans may include inactive/network intervals; NOT a certified total.",
+      "all_history_network_deducted_actual_research_total_seconds": null,
+      "target_met": null,
+      "evidence_certified_target_met": null,
+      "user_accepted_time_sufficiency": true
+    }
+  },
+  "ambiguous_timezone_records": [
+    {
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-function-tools-smoke-03/result.json",
+      "field": "Job started_at/finished_at",
+      "start": "2026-10-04T14:24:12.911705",
+      "finish": "2026-10-04T14:25:16.681332",
+      "reason": "Naive Job clock; corresponding trial Z clock used instead."
+    },
+    {
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-tool-schema-default-02/result.json",
+      "field": "Job started_at/finished_at",
+      "start": "2026-10-04T14:21:55.899138",
+      "finish": "2026-10-04T14:23:26.491159",
+      "reason": "Naive Job clock; corresponding trial Z clock used instead."
+    },
+    {
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-seed-model-tool-smoke-01/result.json",
+      "field": "Job started_at/finished_at",
+      "start": "2026-10-04T14:14:15.180672",
+      "finish": "2026-10-04T14:15:05.232636",
+      "reason": "Naive Job clock; corresponding trial Z clock used instead."
+    },
+    {
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run02/preserved-harbor-job/result.json",
+      "field": "Job started_at/finished_at",
+      "start": "2026-10-04T15:48:51.316971",
+      "finish": "2026-10-04T16:29:08.425383",
+      "reason": "Naive Job clock; corresponding trial Z clock used instead."
+    },
+    {
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run03/preserved-harbor-job/result.json",
+      "field": "Job started_at/finished_at",
+      "start": "2026-10-04T17:34:04.952694",
+      "finish": "2026-10-04T18:06:04.795559",
+      "reason": "Naive Job clock; corresponding trial Z clock used instead."
+    },
+    {
+      "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run01-failed-preservation/harbor-job/result.json",
+      "field": "Job started_at/finished_at",
+      "start": "2026-10-04T20:49:11.766578",
+      "finish": "2026-10-04T21:12:35.347099",
+      "reason": "Naive Job clock; corresponding trial Z clock used instead."
+    }
+  ],
+  "preserved_original_gpu_only_lower_bound": {
+    "source": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000004/segment_000004/research-ledger.json",
+    "name": "qualifying_scoring_seconds",
+    "by_role": {
+      "gpt": 2621.909664709121,
+      "seed": 0.0
+    },
+    "scope": "Retained original metric, not revised-rule research total or revised 10h gate."
+  },
+  "unresolved": [
+    "Historical network bookmarks lack timestamped outage start/end; original raw supervisor secrets not read.",
+    "Historical point spans do not prove continuous model-process activity, especially GPT late recovery/wrap tail and Seed long gaps.",
+    "Historical timer timezone not explicit; no repair- or migration-driven zeroing and no invented timer interpretation.",
+    "Oct4 failed-stream outage onset lies somewhere after request start; exact request failures are known but continuous recovery boundary is not.",
+    "Model/tool preparation is explicit separate activity; it is shown in broad actual-process union, not mislabeled as scoring research.",
+    "Historical Seed xhigh banner/model isolation qualifications remain separate metadata; timing does not silently certify high or isolation."
+  ],
+  "source_manifest": {
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research/attempt01-archive/segment_000001/native-segment.json": {
+      "sha256": "641518de810ec9c4f73b2cee8c109b5c467179c056bf4b569da43c8b41d6e589",
+      "bytes": 2302
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run03/preserved-remote-root/gpt/native-archive/segment_000001/native-segment.json": {
+      "sha256": "b7055dd44d414a88411ac39d3a5287630e1447b4603449cba1f3c556b53272ea",
+      "bytes": 4155
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal02-image-contract-audit-20261004/remote-evidence/native-segment.json": {
+      "sha256": "05a8fb4a8a0d6477b996cf43a06a6547b0e7618a09d9e02542c86b3f1ceb5aa3",
+      "bytes": 5056
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run02-ledger-bug-preservation/remote-root/gpt/native-archive/segment_000001/native-segment.json": {
+      "sha256": "05a8fb4a8a0d6477b996cf43a06a6547b0e7618a09d9e02542c86b3f1ceb5aa3",
+      "bytes": 5056
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run02-ledger-bug-preservation/remote-root/gpt/native-archive/segment_000002/native-segment.json": {
+      "sha256": "214e5ab17df25c0dac9a38cc7123983b9ee76de6f67e025aac51a2a7da552397",
+      "bytes": 5134
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000002/segment_000002/native-segment.json": {
+      "sha256": "e8272924b61f1395c40ff22ce01281c732bb3d7b11152118addddf9e9b911d7f",
+      "bytes": 6028
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000003/segment_000003/native-segment.json": {
+      "sha256": "045aa4dfe872e295a9ac4834b665e81374e32e7bb63f271fd39d19f01ae58fad",
+      "bytes": 7000
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000004/segment_000004/native-segment.json": {
+      "sha256": "fe2564158ff09990c2b6f2425dc3fede9bce361a3a70fe1f02d9a313c5ba1246",
+      "bytes": 7972
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-first-checkpoint/segment_000001/native-segment.json": {
+      "sha256": "0537b9de39bdf7b47103d7b85eb1145f7bf40b9926c3599809cc0971ce4727ea",
+      "bytes": 5056
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-function-tools-smoke-03/result.json": {
+      "sha256": "57293d63738a5708c6c54746ad39c2200673e75b86c4796071d7c51002cfc234",
+      "bytes": 938
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-function-tools-smoke-03/rfsteps-v34-build-check-20261004__RVWWWuv/result.json": {
+      "sha256": "33487cf8204ad7d76e6b6efdb66eae5d40b6e8797d4806fa3bac904ddeb2e0f9",
+      "bytes": 4622
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-model-tool-smoke-01/result.json": {
+      "sha256": "e8491f1102378ada5391ccef422f0a68890809b42b9e99e7d8b1a0a25684af91",
+      "bytes": 1076
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-model-tool-smoke-01/rfsteps-v34-build-check-20261004__B88PjQi/result.json": {
+      "sha256": "4a0ad324ff92330d009435a8cb97a7b023f7dfa66bd746d30c2fdd57f451b261",
+      "bytes": 8369
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-tool-schema-default-02/result.json": {
+      "sha256": "8ad9427a05599fb8075f926bc800dae86a5cc70b5d5988b326d61562f2134db0",
+      "bytes": 938
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-gpt-tool-schema-default-02/rfsteps-v34-build-check-20261004__cGmw4vA/result.json": {
+      "sha256": "70d9bc4d4eda694f2f86fd2a9a9e4473800d7de86907de19d5cef1fe3c70f7f7",
+      "bytes": 4614
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-seed-model-tool-smoke-01/result.json": {
+      "sha256": "28d2a15a50da88a93317bf977f4cdf697d3f2f22f76f942cd1662c496ad097bd",
+      "bytes": 951
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-smoke/rfsteps-v34-seed-model-tool-smoke-01/rfsteps-v34-build-check-20261004__FDqxZKZ/result.json": {
+      "sha256": "662bc05a0910e1650b88b0faa71079c3018ef383d748e6545c9337f579d4cc37",
+      "bytes": 4639
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-preflight/gpt/result.json": {
+      "sha256": "70d9bc4d4eda694f2f86fd2a9a9e4473800d7de86907de19d5cef1fe3c70f7f7",
+      "bytes": 4614
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/model-preflight/seed/result.json": {
+      "sha256": "662bc05a0910e1650b88b0faa71079c3018ef383d748e6545c9337f579d4cc37",
+      "bytes": 4639
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run02/preserved-harbor-job/result.json": {
+      "sha256": "860fe76ea9b3fc29a80690fa3ea7574baf0e363252f3b6fa8c16f915f5fdbace",
+      "bytes": 1091
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run02/preserved-harbor-job/rfsteps-v34-build-check-20261004__xB3yzK5/result.json": {
+      "sha256": "74c1f649b2b3b8f76411c7b2d033609908ccc06abcb65f434d7b9b51813641a8",
+      "bytes": 6698
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run03/preserved-harbor-job/result.json": {
+      "sha256": "9e6f2ca7d4cebc4a23dd4cf91d6acc9143777d70e2160b95b704be40fc2211ce",
+      "bytes": 1098
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal-research-run03/preserved-harbor-job/rfsteps-v34-build-check-20261004__hd5bubu/result.json": {
+      "sha256": "74eb3fba65b6ea05791e654b5ca4ead2087db882b28a6e7a0d7c0e0c17a34148",
+      "bytes": 23199
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run01-failed-preservation/harbor-job/result.json": {
+      "sha256": "df9d7dc43393d6d4fadc95ab4b68aed5eb4601c7f748e2d05006e589e7c051cb",
+      "bytes": 2040
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run01-failed-preservation/harbor-job/rfsteps-v341-build-check-2026100__RGepqW4/result.json": {
+      "sha256": "6f11bf56b73a2bc9276a8306ff9178e52740b10f5f799ca07e142d155d8fbf81",
+      "bytes": 25096
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run02-ledger-bug-preservation/harbor-job/result.json": {
+      "sha256": "2bf7931e00481f6a3fb4ad39e069b94fc747a94e6d87c4aaa0fb47f7fa76ede1",
+      "bytes": 1078
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run02-ledger-bug-preservation/harbor-job/rfsteps-v341-build-check-2026100__p5zQbmq/result.json": {
+      "sha256": "1f3a226115358c72cfef058508602f68ccbe1ad4eff991acda372bc762ed9f58",
+      "bytes": 11693
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run03-tool-loop-preservation/harbor-job/result.json": {
+      "sha256": "9f3fbe5d01f37499b4ea0095e0deaafba5174cf73c9dd1d8eb74f1f3024d5822",
+      "bytes": 1057
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run03-tool-loop-preservation/harbor-job/rfsteps-v341-build-check-2026100__7pdzjN4/result.json": {
+      "sha256": "5bb3a77fa84505cdece4ed0a3bf33f859d32ccc4745e46d3ca1ba2c1403c8104",
+      "bytes": 12353
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight02/preserved-remote/gpt/summary.json": {
+      "sha256": "c62c850b22ddc82dd8fbb522ab60885251feeb99e217c5ae8b07151b9fa02730",
+      "bytes": 631
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight02/preserved-remote/seed/summary.json": {
+      "sha256": "69d7a72f74cd1499757f2ade2a1b41e32a1e8a258618d0c992a475ccc90a069a",
+      "bytes": 648
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight03/preserved-remote/gpt/summary.json": {
+      "sha256": "d5726173520c4220c45265e55b43dc5d76adbe3e69d5d1dbef7b30123a02bd4f",
+      "bytes": 631
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight03/preserved-remote/seed/summary.json": {
+      "sha256": "2e87a9e127f357373b3903a8503493567de1e37012d4239578a42db7151a0366",
+      "bytes": 648
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight04/preserved-remote/gpt/summary.json": {
+      "sha256": "76f91e38275a59152209c13bb0cc59ed16ccf0359992cc5ba4de511b86a55e23",
+      "bytes": 503
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight04/preserved-remote/seed/summary.json": {
+      "sha256": "3f8a1611c0f80afc767ff6f9e8ceb5fba9c3834a1f428fa8350f759eb1efa864",
+      "bytes": 648
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight05/preserved-remote/gpt/summary.json": {
+      "sha256": "45b138fcc098927bcb42444e5c071b3062dcfe5c4942c652173fc5d5043c6b44",
+      "bytes": 631
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight05/preserved-remote/seed/summary.json": {
+      "sha256": "c842722ac67af8b5490bbf8c0f4049166f2b5ba9bf1d1e69aee23ef24e2a22b8",
+      "bytes": 648
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/gpt-formal-run04-launch-receipt.json": {
+      "sha256": "e36e281c70af78b8e96f0a1903738626bd07084537204882a73a03423816386a",
+      "bytes": 1506
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/tracks-audit.json": {
+      "sha256": "a5d34517bd5813eeea5b08916924506607966997589676d3d9176efb797079dc",
+      "bytes": 170899
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-code-and-events/expert_evidence/trajectories/trajectory_codex.jsonl": {
+      "sha256": "e9c5aa08c76996f6cc364371b70a8d61fb8bf8b8e643ccb21b7c3f3c2f2f503b",
+      "bytes": 193589
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/historical-code-and-events/expert_evidence/trajectories/trajectory_seed.jsonl": {
+      "sha256": "ccd7fb46f0dbaafecbbedd086d26e37789b9143824a05f05b9e3bb540f47fec1",
+      "bytes": 35662
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/connection-outage-20261004-1239/OUTAGE-AUDIT.json": {
+      "sha256": "ddf4541926aff58b269605620f255f4995c6223db50dd19ace23bf9c7cb5b97b",
+      "bytes": 7159
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/infrastructure-deployment/operator-recovery-01/minimal-model-live-01/operator-events.jsonl": {
+      "sha256": "26b9cdd9e35a252381e63ecdcda1b373d368827a4fb4c5f54c6230eabb25796c",
+      "bytes": 234
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/tracks/run03-qualification-followup/provider-terminal-details.json": {
+      "sha256": "35b33f8e0879ce5f34094ab961802f72dfa1afecb4e9eb088f7f860308b99abe",
+      "bytes": 106351
+    },
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run04-checkpoint-segment_000004/segment_000004/research-ledger.json": {
+      "sha256": "724fb0bd310b21ef37ddead83cc1de50f8472a0fb91923da3760966bcb7f5511",
+      "bytes": 29673
+    }
+  },
+  "threshold_pass_claim": false,
+  "models_GPU_RPC_or_candidates_executed": 0,
+  "production_sources_or_records_modified": 0,
+  "time_requirement_disposition": {
+    "status": "USER_CONFIRMATION_ACCEPTED",
+    "source": "Human user confirmation relayed by Root: 时间肯定够.",
+    "applies_to_roles": [
+      "gpt",
+      "seed"
+    ],
+    "independent_numeric_certification": false,
+    "exact_missing_historical_seconds_invented": false,
+    "additional_research_required_by_this_time_audit": false,
+    "old_GPU_only_shortfall_is_a_task_blocker": false
+  },
+  "audit_cutoff": {
+    "latest_archived_formal04_finish_utc": "2026-10-04T16:35:54.390899+00:00",
+    "latest_archived_formal04_finish_asia_shanghai": "2026-10-05 00:35:54",
+    "continuing_run_after_cutoff_included": false
+  },
+  "scope_limit": "Only observed original timestamps and safe prior projections are reconciled. User acceptance is separate from an independently certified all-history numeric total. Model/effort/isolation/method/verification acceptance is not inferred from timing."
+}

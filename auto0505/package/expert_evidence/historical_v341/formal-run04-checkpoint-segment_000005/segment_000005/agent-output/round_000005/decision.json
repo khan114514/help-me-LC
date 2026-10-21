@@ -1,0 +1,8 @@
+{
+  "decision": "reject",
+  "purpose": "exploration",
+  "explanation": "移除网格舍入但保留相同最小间隔后，公开 PSNR=19.4202117022，低于当前最佳 0.1914106267 dB，拒绝。连续平方分配没有改善 PSNR；下一轮将节点对齐到模型时间乘 1000 后的表示网格，检验更贴近时间嵌入的对齐。",
+  "psnr": 19.420211702190297,
+  "best_round": 4,
+  "method_sha256": "fa5f0561f0e77f1643075df7766dd28e7d5cd5e62b9416aaa9f0227128bc164d"
+}

@@ -1,0 +1,203 @@
+{
+  "checked_at": "2026-10-04T17:30:40.195921+00:00",
+  "required_seconds": 43200,
+  "scope": "Read-only existing samples and service state; does not prove continuous RPC availability.",
+  "tracks": {
+    "gpt": {
+      "unit": "rfsteps-v341-stability-gpt-attempt01.service",
+      "service": {
+        "ExecMainStatus": "0",
+        "ActiveState": "active",
+        "SubState": "running"
+      },
+      "path": "/historical-root/rfsteps-v341-stability-attempt01-20261004/gpt/stability.jsonl",
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "sample_count": 319,
+      "last_sample": {
+        "utc": "2026-10-04T17:29:53.724346+00:00",
+        "event": "stability_sample",
+        "sample_index": 319,
+        "monotonic_seconds": 89345.836100218,
+        "elapsed_stability_seconds": 19080.055994447,
+        "research_effective_seconds": 0,
+        "container": {
+          "container_id": "622dc9cf9b6857eb53a9e3b9bb8f3a9bc1ff55212028153a5b963a0dac5b9bb5",
+          "image_id": "sha256:b62357fc696479df707ae8e4131ab186eac4d054fb8d865bf112bf765972a863",
+          "restarts": 0,
+          "running": true,
+          "oom_killed": false,
+          "started_at": "2026-10-04T12:11:52.670111287Z",
+          "nano_cpus": 2000000000,
+          "cpu_quota": 0,
+          "cpu_period": 0,
+          "memory_bytes": 2147483648,
+          "readonly_rootfs": true,
+          "cap_drop": [
+            "ALL"
+          ],
+          "cap_add": [
+            "CAP_SETGID",
+            "CAP_SETUID"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "network_mode": "stability-gpt-fb7ef85ff6424b2583e69ff119ff6e62__env_default",
+          "mounts": [
+            {
+              "Destination": "/logs/agent",
+              "Mode": "rw",
+              "Propagation": "rprivate",
+              "RW": true,
+              "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/gpt/harbor-construction/stability-gpt-fb7ef85ff6424b2583e69ff119ff6e62/agent",
+              "Type": "bind"
+            },
+            {
+              "Destination": "/logs/artifacts",
+              "Mode": "rw",
+              "Propagation": "rprivate",
+              "RW": true,
+              "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/gpt/harbor-construction/stability-gpt-fb7ef85ff6424b2583e69ff119ff6e62/artifacts/logs/artifacts",
+              "Type": "bind"
+            },
+            {
+              "Destination": "/logs/verifier",
+              "Mode": "rw",
+              "Propagation": "rprivate",
+              "RW": true,
+              "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/gpt/harbor-construction/stability-gpt-fb7ef85ff6424b2583e69ff119ff6e62/verifier",
+              "Type": "bind"
+            },
+            {
+              "Destination": "/run/rfsteps-model/gpt.sock",
+              "Mode": "ro",
+              "Propagation": "rprivate",
+              "RW": false,
+              "Source": "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/gpt.sock",
+              "Type": "bind"
+            },
+            {
+              "Destination": "/run/rfsteps/public.sock",
+              "Mode": "",
+              "Propagation": "rprivate",
+              "RW": false,
+              "Source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+              "Type": "bind"
+            }
+          ]
+        },
+        "probe": {
+          "container_monotonic_ns": 89346042989864,
+          "rw_ok": true,
+          "forbidden_paths_present": [],
+          "public_socket_exists": true,
+          "public_socket_inode": 1978676,
+          "model_socket_exists": true,
+          "model_socket_inode": 1978677,
+          "sole_model_socket": true
+        }
+      },
+      "any_observed_restart": false,
+      "any_observed_oom": false,
+      "observed_container_identities": 1
+    },
+    "seed": {
+      "unit": "rfsteps-v341-stability-seed-attempt01.service",
+      "service": {
+        "ExecMainStatus": "0",
+        "ActiveState": "active",
+        "SubState": "running"
+      },
+      "path": "/historical-root/rfsteps-v341-stability-attempt01-20261004/seed/stability.jsonl",
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "sample_count": 319,
+      "last_sample": {
+        "utc": "2026-10-04T17:29:53.627472+00:00",
+        "event": "stability_sample",
+        "sample_index": 319,
+        "monotonic_seconds": 89345.735460038,
+        "elapsed_stability_seconds": 19080.060767138013,
+        "research_effective_seconds": 0,
+        "container": {
+          "container_id": "69b94aa832418d838c2b591e44f5f84bc4c1a61783fce3aa6dd9361964887c0f",
+          "image_id": "sha256:71768eeb1ef13b5262be72a753bbe47c2f3380eebea0c4d3763af633e366f3b6",
+          "restarts": 0,
+          "running": true,
+          "oom_killed": false,
+          "started_at": "2026-10-04T12:11:52.608243212Z",
+          "nano_cpus": 2000000000,
+          "cpu_quota": 0,
+          "cpu_period": 0,
+          "memory_bytes": 2147483648,
+          "readonly_rootfs": true,
+          "cap_drop": [
+            "ALL"
+          ],
+          "cap_add": [
+            "CAP_SETGID",
+            "CAP_SETUID"
+          ],
+          "security_opt": [
+            "no-new-privileges:true"
+          ],
+          "network_mode": "stability-seed-66f079bebd1642288e0818a1d10880ba__env_default",
+          "mounts": [
+            {
+              "Destination": "/logs/agent",
+              "Mode": "rw",
+              "Propagation": "rprivate",
+              "RW": true,
+              "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/seed/harbor-construction/stability-seed-66f079bebd1642288e0818a1d10880ba/agent",
+              "Type": "bind"
+            },
+            {
+              "Destination": "/logs/artifacts",
+              "Mode": "rw",
+              "Propagation": "rprivate",
+              "RW": true,
+              "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/seed/harbor-construction/stability-seed-66f079bebd1642288e0818a1d10880ba/artifacts/logs/artifacts",
+              "Type": "bind"
+            },
+            {
+              "Destination": "/logs/verifier",
+              "Mode": "rw",
+              "Propagation": "rprivate",
+              "RW": true,
+              "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/seed/harbor-construction/stability-seed-66f079bebd1642288e0818a1d10880ba/verifier",
+              "Type": "bind"
+            },
+            {
+              "Destination": "/run/rfsteps-model/seed.sock",
+              "Mode": "ro",
+              "Propagation": "rprivate",
+              "RW": false,
+              "Source": "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/seed.sock",
+              "Type": "bind"
+            },
+            {
+              "Destination": "/run/rfsteps/public.sock",
+              "Mode": "",
+              "Propagation": "rprivate",
+              "RW": false,
+              "Source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+              "Type": "bind"
+            }
+          ]
+        },
+        "probe": {
+          "container_monotonic_ns": 89345945799627,
+          "rw_ok": true,
+          "forbidden_paths_present": [],
+          "public_socket_exists": true,
+          "public_socket_inode": 1978676,
+          "model_socket_exists": true,
+          "model_socket_inode": 1978679,
+          "sole_model_socket": true
+        }
+      },
+      "any_observed_restart": false,
+      "any_observed_oom": false,
+      "observed_container_identities": 1
+    }
+  }
+}

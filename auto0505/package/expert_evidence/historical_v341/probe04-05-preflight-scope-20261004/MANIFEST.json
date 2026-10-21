@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "scope": "Independent read-only preflight04/05 scope supplement; excludes itself",
+  "files": [
+    {
+      "path": "PREFLIGHT-SCOPE-SUPPLEMENT.json",
+      "sha256": "b46f886b72dc3a0d51e7b468e82a3487ba390b0aefe63857761f98c459f78db9",
+      "bytes": 7562
+    },
+    {
+      "path": "PREFLIGHT-SCOPE-SUPPLEMENT.md",
+      "sha256": "464d93c31a3c2aa3eec857c81259a64282307e6b3e45fab8a6ace40fe7b99aa5",
+      "bytes": 1993
+    }
+  ]
+}

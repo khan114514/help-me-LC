@@ -1,0 +1,151 @@
+{
+  "checked_at_utc": "2026-10-21T08:33:01.128725+00:00",
+  "scope": "Public primary-index metadata only. No install, dependency resolution, CUDA compatibility or GPU execution claimed.",
+  "packages": [
+    {
+      "package": "numpy",
+      "version": "2.4.4",
+      "source": "https://pypi.org/pypi/numpy/2.4.4/json",
+      "metadata_sha256": "4b21fc65334c67ec954c29ed98601553db6fc0a5896148255235c5a620a6977e",
+      "status": "WHEEL_SOURCE_FOUND",
+      "candidate_wheels": [
+        {
+          "filename": "numpy-2.4.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+          "sha256": "81f4a14bee47aec54f883e0cad2d73986640c1590eb9bfaaba7ad17394481e6e"
+        }
+      ]
+    },
+    {
+      "package": "einops",
+      "version": "0.8.2",
+      "source": "https://pypi.org/pypi/einops/0.8.2/json",
+      "metadata_sha256": "3b2b9bc8b566fbba8d96f1a5d75a5abe4aaadf144fe00d472edc83d90c6a5f4e",
+      "status": "WHEEL_SOURCE_FOUND",
+      "candidate_wheels": [
+        {
+          "filename": "einops-0.8.2-py3-none-any.whl",
+          "sha256": "54058201ac7087911181bfec4af6091bb59380360f069276601256a76af08193"
+        }
+      ]
+    },
+    {
+      "package": "pillow",
+      "version": "12.2.0",
+      "source": "https://pypi.org/pypi/pillow/12.2.0/json",
+      "status": "WHEEL_SOURCE_FOUND",
+      "metadata_sha256": "c92adeefcdf3e9543b9d3336060b3600ea8d3a1b434af20b493e1d753c1c5940",
+      "candidate_wheels": [
+        {
+          "filename": "pillow-12.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+          "sha256": "b86024e52a1b269467a802258c25521e6d742349d760728092e1bc2d135b4d76"
+        },
+        {
+          "filename": "pillow-12.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+          "sha256": "62f5409336adb0663b7caa0da5c7d9e7bdbaae9ce761d34669420c2a801b2780"
+        }
+      ]
+    },
+    {
+      "package": "scikit-image",
+      "version": "0.26.0",
+      "source": "https://pypi.org/pypi/scikit-image/0.26.0/json",
+      "metadata_sha256": "f39533198843665c9f7f537f431709aab11ee1add1844aebfa06169c5ed37d39",
+      "status": "WHEEL_SOURCE_FOUND",
+      "candidate_wheels": [
+        {
+          "filename": "scikit_image-0.26.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+          "sha256": "7df650e79031634ac90b11e64a9eedaf5a5e06fcd09bcd03a34be01745744466"
+        }
+      ]
+    },
+    {
+      "package": "transformers",
+      "version": "4.41.2",
+      "source": "https://pypi.org/pypi/transformers/4.41.2/json",
+      "metadata_sha256": "ac6b57ce1bd33c328a15d938be8cf55383ad397e21a37f12f666bddeec260c94",
+      "status": "WHEEL_SOURCE_FOUND",
+      "candidate_wheels": [
+        {
+          "filename": "transformers-4.41.2-py3-none-any.whl",
+          "sha256": "05555d20e43f808de1ef211ab64803cdb513170cef70d29a888b589caebefc67"
+        }
+      ]
+    },
+    {
+      "package": "huggingface-hub",
+      "version": "0.24.6",
+      "source": "https://pypi.org/pypi/huggingface-hub/0.24.6/json",
+      "metadata_sha256": "8ade146b904a1d64a9fdad6df8133f2a594c1215a85bb8854b23220eeee0628c",
+      "status": "WHEEL_SOURCE_FOUND",
+      "candidate_wheels": [
+        {
+          "filename": "huggingface_hub-0.24.6-py3-none-any.whl",
+          "sha256": "a990f3232aa985fe749bc9474060cbad75e8b2f115f6665a9fda5b9c97818970"
+        }
+      ]
+    },
+    {
+      "package": "safetensors",
+      "version": "0.8.0",
+      "source": "https://pypi.org/pypi/safetensors/0.8.0/json",
+      "metadata_sha256": "b8d395b433d0319498c9192ed323b86a84d82b5f40b4adf1b97b3bf8963fafad",
+      "status": "WHEEL_SOURCE_FOUND",
+      "candidate_wheels": [
+        {
+          "filename": "safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "sha256": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774"
+        }
+      ]
+    },
+    {
+      "package": "sentencepiece",
+      "version": "0.2.2",
+      "source": "https://pypi.org/pypi/sentencepiece/0.2.2/json",
+      "metadata_sha256": "85007aeaf57c3f63de1c460a3a8d82ab530f06e55d529f7a20ac6f92227a0412",
+      "status": "WHEEL_SOURCE_FOUND",
+      "candidate_wheels": [
+        {
+          "filename": "sentencepiece-0.2.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+          "sha256": "c8a168b040bc61681293f79a949b5d911c8e25086f4260285b8d97ab5f1195da"
+        }
+      ]
+    },
+    {
+      "package": "invisible-watermark",
+      "version": "0.2.0",
+      "source": "https://pypi.org/pypi/invisible-watermark/0.2.0/json",
+      "metadata_sha256": "650a9205370c5a71a943e5494d2cdb87af9127ffdb0cca026f197f35a759e343",
+      "status": "WHEEL_SOURCE_FOUND",
+      "candidate_wheels": [
+        {
+          "filename": "invisible_watermark-0.2.0-py3-none-any.whl",
+          "sha256": "644311beed9cfe4a9a5a4a46c740f47800cef184fe2e1297f3f4542e2d992f8b"
+        }
+      ]
+    },
+    {
+      "package": "requests",
+      "version": "2.34.2",
+      "source": "https://pypi.org/pypi/requests/2.34.2/json",
+      "metadata_sha256": "8622e50ffd295ed759ec793f2a009172a4ed0204bbc5e948de23111bc3d2aeae",
+      "status": "WHEEL_SOURCE_FOUND",
+      "candidate_wheels": [
+        {
+          "filename": "requests-2.34.2-py3-none-any.whl",
+          "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+        }
+      ]
+    },
+    {
+      "package": "torch",
+      "version": "2.12.1+cu130",
+      "source": "https://download.pytorch.org/whl/cu130/torch/",
+      "metadata_sha256": "6400e85e40ffd5d3dd77a615dde51e01bf5e524de0ca0ce17f099c997f5f775c",
+      "status": "WHEEL_SOURCE_FOUND",
+      "candidate_wheels": [
+        "torch-2.12.1%2Bcu130-cp312-cp312-manylinux_2_28_x86_64.whl",
+        "torch-2.12.1+cu130-cp312-cp312-manylinux_2_28_x86_64.whl"
+      ]
+    }
+  ]
+}

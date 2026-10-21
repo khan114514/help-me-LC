@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "method.py",
+      "sha256": "d593a6bba72a9e91d27d009dc687bf3ac64557396ec4a1cb798213dbb5d71703",
+      "bytes": 919
+    },
+    {
+      "path": "solve.sh",
+      "sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "bytes": 145
+    }
+  ]
+}

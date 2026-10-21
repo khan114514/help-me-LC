@@ -1,0 +1,106 @@
+{
+  "service": {
+    "ExecMainStatus": "2",
+    "ActiveState": "failed",
+    "SubState": "failed"
+  },
+  "owned_harbor_exit": {
+    "schema_version": 1,
+    "role": "gpt",
+    "pid": 2692941,
+    "start_ticks": 8044310,
+    "return_code": 130,
+    "harbor_wait_completed": true,
+    "finished_at_utc": "2026-10-04T17:09:28.157475+00:00",
+    "stop_requested": true,
+    "research_credit_seconds": 0
+  },
+  "files": [
+    {
+      "path": "run/serial-supervisor-started.json",
+      "original_remote_path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/serial-supervisor-started.json",
+      "sha256": "c56237cb6cd3f3f61ad5bac4e8749a7bda6684ba4e9ba610382104bf0bfcfeef",
+      "bytes": 121
+    },
+    {
+      "path": "run/serial-supervisor-events.jsonl",
+      "original_remote_path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/serial-supervisor-events.jsonl",
+      "sha256": "02218e8b05e078858fd39896fd3d84718df07b01c303a1610c206bafb211d1b4",
+      "bytes": 204
+    },
+    {
+      "path": "run/gpt/launch-receipt.json",
+      "original_remote_path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/launch-receipt.json",
+      "sha256": "ab71a32fc9ff9c4d1b2055ed3d13ebbba7e59872f0ba20e3e4861fc0f9f3bcee",
+      "bytes": 1722
+    },
+    {
+      "path": "run/gpt/owned-runner.log",
+      "original_remote_path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/owned-runner.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "run/gpt/harbor-process.log",
+      "original_remote_path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/harbor-process.log",
+      "sha256": "8f7cef2ba1204a3c703c2c2fb87768d6d329d3bbdc2a46334749baf44fa41d93",
+      "bytes": 227923
+    },
+    {
+      "path": "run/gpt/owned-harbor-exit.json",
+      "original_remote_path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/owned-harbor-exit.json",
+      "sha256": "3e5b024e13be8d0f3ea00f6a9008bc4fb93f0a7512ed529402dc81e17b45a13c",
+      "bytes": 257
+    },
+    {
+      "path": "run/gpt/job.json",
+      "original_remote_path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/job.json",
+      "sha256": "660c04a82f6b74d0cf19b043623e73be0ba7150e3a7f6da4dcda4354d4e42637",
+      "bytes": 1590
+    },
+    {
+      "path": "harbor-job/config.json",
+      "original_remote_path": "/historical-root/rfsteps-v341-research-jobs-20261004/rfsteps-v341-gpt-formal-research-04/config.json",
+      "sha256": "5e0069263299872b16f3bc9f4ef37ee6d393ec636425fe89202f0eec34b32c6b",
+      "bytes": 1790
+    },
+    {
+      "path": "harbor-job/result.json",
+      "original_remote_path": "/historical-root/rfsteps-v341-research-jobs-20261004/rfsteps-v341-gpt-formal-research-04/result.json",
+      "sha256": "99002b092be8efa84b75f0235be48df82035f08f47ce29d1265d0fd7c2818537",
+      "bytes": 1067
+    },
+    {
+      "path": "harbor-job/job.log",
+      "original_remote_path": "/historical-root/rfsteps-v341-research-jobs-20261004/rfsteps-v341-gpt-formal-research-04/job.log",
+      "sha256": "427e9e6c875ef4ed533d433e307412a4478b8abbf1442e95c50987c9f0ef6eed",
+      "bytes": 226619
+    },
+    {
+      "path": "harbor-job/lock.json",
+      "original_remote_path": "/historical-root/rfsteps-v341-research-jobs-20261004/rfsteps-v341-gpt-formal-research-04/lock.json",
+      "sha256": "9ad5ebeb5fc679ce8e9ff3ec9f2558c514578ff5a2d9232323431a15032436c8",
+      "bytes": 3452
+    },
+    {
+      "path": "harbor-job/rfsteps-v341-build-check-2026100__Q8zdwcX/config.json",
+      "original_remote_path": "/historical-root/rfsteps-v341-research-jobs-20261004/rfsteps-v341-gpt-formal-research-04/rfsteps-v341-build-check-2026100__Q8zdwcX/config.json",
+      "sha256": "c8ab5b51b0d6fd469391ed52fa05da78089ac7de76a1521fc5b1e8301721e05a",
+      "bytes": 1735
+    },
+    {
+      "path": "harbor-job/rfsteps-v341-build-check-2026100__Q8zdwcX/result.json",
+      "original_remote_path": "/historical-root/rfsteps-v341-research-jobs-20261004/rfsteps-v341-gpt-formal-research-04/rfsteps-v341-build-check-2026100__Q8zdwcX/result.json",
+      "sha256": "e1ef743565c6f396d27d4bf32fad246512d3ac5fb01eb532532af28f0c7f29f9",
+      "bytes": 11671
+    },
+    {
+      "path": "harbor-job/rfsteps-v341-build-check-2026100__Q8zdwcX/trial.log",
+      "original_remote_path": "/historical-root/rfsteps-v341-research-jobs-20261004/rfsteps-v341-gpt-formal-research-04/rfsteps-v341-build-check-2026100__Q8zdwcX/trial.log",
+      "sha256": "427e9e6c875ef4ed533d433e307412a4478b8abbf1442e95c50987c9f0ef6eed",
+      "bytes": 226619
+    }
+  ],
+  "scope": "Actual cancelled owned research job raw bytes. Time rule superseded GPU-only loop; no successful full verifier claimed.",
+  "final_acceptance": false
+}

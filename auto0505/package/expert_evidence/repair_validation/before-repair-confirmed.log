@@ -1,0 +1,50 @@
+test_native_open_cannot_read_outside_input (__main__.CandidateBoundary.test_native_open_cannot_read_outside_input) ... FAIL
+test_native_socket_denied (__main__.CandidateBoundary.test_native_socket_denied) ... FAIL
+test_nonfinite_is_invalid (__main__.CandidateBoundary.test_nonfinite_is_invalid) ... ok
+test_symlink_method_rejected (__main__.CandidateBoundary.test_symlink_method_rejected) ... ok
+test_unbounded_stdout_is_resource_failure (__main__.CandidateBoundary.test_unbounded_stdout_is_resource_failure) ... FAIL
+test_valid_math_schedule (__main__.CandidateBoundary.test_valid_math_schedule) ... ok
+
+======================================================================
+FAIL: test_native_open_cannot_read_outside_input (__main__.CandidateBoundary.test_native_open_cannot_read_outside_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/validation/test_candidate_boundary.py", line 39, in test_native_open_cannot_read_outside_input
+    self.assertEqual(nodes, [1-i/25 for i in range(26)])
+AssertionError: Lists differ: [1.0, 0.9984, 0.9936, 0.9856, 0.9744, 0.96, 0.9424[265 chars] 0.0] != [1.0, 0.96, 0.92, 0.88, 0.84, 0.8, 0.76, 0.72, 0.6[201 chars] 0.0]
+
+First differing element 1:
+0.9984
+0.96
+
+Diff is 833 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_native_socket_denied (__main__.CandidateBoundary.test_native_socket_denied)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/validation/test_candidate_boundary.py", line 43, in test_native_socket_denied
+    self.assertEqual(nodes, [1-i/25 for i in range(26)])
+AssertionError: Lists differ: [1.0, 0.9984, 0.9936, 0.9856, 0.9744, 0.96, 0.9424[265 chars] 0.0] != [1.0, 0.96, 0.92, 0.88, 0.84, 0.8, 0.76, 0.72, 0.6[201 chars] 0.0]
+
+First differing element 1:
+0.9984
+0.96
+
+Diff is 833 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_unbounded_stdout_is_resource_failure (__main__.CandidateBoundary.test_unbounded_stdout_is_resource_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/validation/test_candidate_boundary.py", line 63, in test_unbounded_stdout_is_resource_failure
+    self.assertEqual(result.exception.status, "RESOURCE_EXCEEDED")
+AssertionError: 'FORMAT_ERROR' != 'RESOURCE_EXCEEDED'
+- FORMAT_ERROR
++ RESOURCE_EXCEEDED
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.153s
+
+FAILED (failures=3)

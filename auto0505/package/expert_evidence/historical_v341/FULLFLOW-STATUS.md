@@ -1,0 +1,21 @@
+> 当前状态已于2026-10-05开机核验后更新：两条12小时稳定性完整原件均通过，117项原始文件哈希匹配；最终质检待复核。以下为此前阶段记录，当前结论见CURRENT-COMPLETION-STATUS.md及RECOVERY-ACCEPTANCE.json。
+
+# RFSteps 全流程状态
+
+更新：2026-10-05。当前为证据草稿，NOP、Reference和最佳方法独立full16实际通过，当前协议Public选优已完成；完整12小时容器证据和发布自检尚待收尾。
+
+用户更正研究时间：只扣网络不可达，其他真实研究过程计入，历史两轨不因版本修复清零。用户明确确认时间充分，已单列验收，独立对账材料在time-reconciliation-20261005。缺失网络边界的全生命周期精确净秒数保留null；GPU评分下界只作诊断，不再作为研究时间门。
+
+冻结Task3.4.1共63个文件，SHA90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb。原生Harbor NOP通过full16/100NFE，PSNR19.528882409499996、reward0；独立Reference同协议20.45734928422148、reward0.46267401782591483，提升0.928466874721483dB。原始44和49文件与远端逐SHA一致。
+
+旧GPU单独计时循环通过其自有Runner停止，实际Harbor取消退出130保留。正式04六个同原生会话段已精确保全，末段236个原始文件与远端一致，冻结42源码和账本独立重放通过。18轮含17次评分和一次trusted_ssh_failure，无成绩的失败为空分数。历史GPT84条加该18条，共102条；Seed历史47条。原值不改、仅统一编号，原协议范围和来源映射附在草稿。
+
+两个历史候选已在当前Task协议下独立清洁复测：Seed Public21.66197823479546，GPT21.21974298189495；正式04 Public最佳20.65104213455171。已按Public平均PSNR选择Seed，选定文件保持SHA df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805，选定记录在full16前冻结。Seed首次并行复测遭BUSY，无分数原件保留；之后等待Public空闲，独立fresh02真实通过。
+
+两份独立12小时容器检查继续运行。01:30样本实际19080秒，零restart/OOM，容器身份不变；范围为资源、隔离、文件IO和UDS连续性，不证明连续RPC可用。完整43200秒尚未观测。
+
+rfsteps-package-v3.4.1-draft已包含当前NOP全证据、用户最初附的两个旧版文档及63份历史NOP运行原件、配对Reference、两轨轨迹、时长对账、源冻结/回执/审核材料、Runtime支持代码、Public选择和选中方法。打包脚本强制NOP必含路径、全源SHA一致、ZIP CRC和解压逐文件SHA验证。预览ZIP如实标记未完成最终验收。
+
+最佳Seed full16 PSNR21.27548763952123、reward0.8703690797499839。170份完整清洁证据SHA通过，Root另独立保全20份远端原件，Task63文件、原生result/reward、Actor Starter/solve、Verifier选中源及root/0600完整可信回执均核对一致；NOP/Reference/Best的12个共同评分字段和GPU身份一致。原生test exit0，ignored chmod exit1原件保留。
+
+仍需完整43200秒稳定性及最终双AI发布自检后才标记最终全流程通过。平台task_id部署未验证；评分依赖专家外部GPU/权重/私有Hidden和RPC服务。旧阶段状态另存FULLFLOW-STATUS-historical-20261004.md，不作为当前结论。

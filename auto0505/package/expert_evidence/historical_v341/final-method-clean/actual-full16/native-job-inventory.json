@@ -1,0 +1,70 @@
+{
+  "config.json": {
+    "sha256": "2f0529c30d31e6bc835bfa52d1a5dee897d0bb2595bdeffacdde8e9360e7b962",
+    "bytes": 1046
+  },
+  "job.log": {
+    "sha256": "eb70893254a2c8cf7a82f0a7ac26acf093c0f8f83038f71fd4d0c3c3e147f8bb",
+    "bytes": 4446
+  },
+  "lock.json": {
+    "sha256": "d3f573309eda64ac2835487f304c3f9409ba356cf6237077db0a9d1bef304cdd",
+    "bytes": 2631
+  },
+  "result.json": {
+    "sha256": "af5980b4b8a80aed26dcf3e7d4e0f7e4753381a9a08639340a3d100248cef936",
+    "bytes": 1895
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/artifacts/manifest.json": {
+    "sha256": "55444ad09322d5f69d46b7c73cd202b20feb444aa542d773bb95b50f915a428a",
+    "bytes": 349
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/artifacts/solution/method.py": {
+    "sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+    "bytes": 1036
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/artifacts/solution/solve.sh": {
+    "sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+    "bytes": 145
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/config.json": {
+    "sha256": "733fb9ca9de005b6b211f93779d937214251df6dd3070f34fe2189cb854e1aaf",
+    "bytes": 1028
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/lock.json": {
+    "sha256": "2259b3860fb9eb800ba1dd63c020246781c911ed83e3671739215284ae797fe5",
+    "bytes": 1557
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/result.json": {
+    "sha256": "bea162e3933f9e387854e176388e5490efecc16f9c5096b378d1c35afe8f0817",
+    "bytes": 4606
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/trial.log": {
+    "sha256": "aa6ebcb7a69874498a945863235c1da02f45e21e0ce34c1e44b12da978d63175",
+    "bytes": 4371
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/verifier/evaluation_status.json": {
+    "sha256": "9378eaa55285b1aa5e288f5f2d5e04f85118d09e259daba945e7981deb271531",
+    "bytes": 281
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/verifier/gpu_receipt.json": {
+    "sha256": "b8d1c2360c7deae7e9b987209eae9458168ef2324b85745a8cc1308089e55469",
+    "bytes": 14130
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/verifier/metrics.json": {
+    "sha256": "0da9cd3cd52155f853a61174a0d72fdada19f2b80cae057b538bc86cc727b42a",
+    "bytes": 4461
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/verifier/remote_metrics.json": {
+    "sha256": "8cf378e3f24b540d51fa616c9aa3a0eb263084c6156f2b69b3f4c091809fd1c2",
+    "bytes": 4365
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/verifier/reward.json": {
+    "sha256": "b6d238d0789cc5e082e009439cd259285ee8d49997b5460a68e8427a09cea528",
+    "bytes": 120
+  },
+  "rfsteps-v341-build-check-2026100__xPBzff9/verifier/test-stdout.txt": {
+    "sha256": "8ca5099130bce44d9ada4ea6f35abe3d83022e4b5f2afe361f360dfc7cce4ed9",
+    "bytes": 140
+  }
+}

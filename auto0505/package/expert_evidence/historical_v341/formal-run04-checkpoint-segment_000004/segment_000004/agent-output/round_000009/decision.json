@@ -1,0 +1,8 @@
+{
+  "decision": "reject",
+  "purpose": "exploration",
+  "explanation": "1/125 对齐的 Starter logit 网格 PSNR=19.3595647424，比当前平方最佳低 0.8655274204 dB，且比原始 Starter 低 0.0020123951 dB，拒绝。该结果表明对齐收益依赖密度形状，不能单独假设对齐普遍有效；最后一轮测试已测指数 1.5 与 2 的中间值 1.75。",
+  "psnr": 19.35956474237743,
+  "best_round": 6,
+  "method_sha256": "dc4b6575cd084b49f5bf415bca7be8422cbcb744dc80719fc9eba26dc2abe68c"
+}

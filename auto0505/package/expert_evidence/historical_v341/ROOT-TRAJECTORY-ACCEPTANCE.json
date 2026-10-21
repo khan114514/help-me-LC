@@ -1,0 +1,26 @@
+{
+  "status": "ROOT_ORIGINAL_TRAJECTORIES_AND_DOCUMENTED_FAILURE_ALIAS_VERIFIED",
+  "source_map_sha256": "91df93ae0e764a88f56b98bba58ff5e0b64e4c204839c21a409a2bc960aacbf2",
+  "tracks": {
+    "codex": {
+      "rows": 102,
+      "exact_original_fields_except_documented_round_and_status_alias": true,
+      "sha256": "129a54329014b801cc2de0117e14a7e8cef5b367aaa9ff6fc3c1c2df174c8060"
+    },
+    "seed": {
+      "rows": 47,
+      "exact_original_fields_except_documented_round_and_status_alias": true,
+      "sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50"
+    }
+  },
+  "documented_status_alias_changes": [
+    {
+      "round": 102,
+      "original_status": "INFRASTRUCTURE_ERROR",
+      "canonical_status": "failed",
+      "original_failure_reason": "INFRASTRUCTURE_ERROR: {'code': 'trusted_ssh_failure', 'message': 'No evaluation score was accepted; check the organizer-side RPC service.'}"
+    }
+  ],
+  "raw_originals_modified": false,
+  "scores_times_methods_failure_reasons_best_flags_changed": false
+}

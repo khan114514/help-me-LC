@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "status": "READ_ONLY_AUDIT_COMPLETE_REPAIR_PROPOSED_NOT_APPLIED",
+  "root_cause": "Frozen scorer emits exact stems in per_image.image; ledger PUBLIC_NAMES contains asset filenames with .png and uses the same constant for both metric names and hashed asset keys.",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "full_prompt_sha256": "6bbce6050c797cf0054b01fbc3585b6fbcd839f3514e9f2884e72f6f9bd4ec21",
+  "source_pins": {
+    "ledger": "8ad72cdb73f4d27e1e2e941d29c3ef5ce339a51feb995779b216b7924ff23131",
+    "scorer": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9",
+    "old_cpu_fixture": "963dc2c4580c82a0116fae0db5dd8123952c0097bfcd18788fd38e1d176781cc"
+  },
+  "line_evidence": {
+    "scorer_name_projection": 208,
+    "scorer_image_field": 225,
+    "ledger_asset_name_literal": [
+      41,
+      45
+    ],
+    "ledger_metrics_name_guard": [
+      381,
+      384
+    ],
+    "ledger_asset_key_guard": [
+      456,
+      458
+    ],
+    "cpu_fixture_asset_keys": 33,
+    "cpu_fixture_wrong_metric_image_names": 111
+  },
+  "actual_segment": {
+    "track": "gpt",
+    "rounds": 5,
+    "all_original_rejection_reasons": "metrics_public_images",
+    "formal_ledger_credit_seconds": 0,
+    "native_process_exit_code": 0,
+    "pipeline_exit_code": 0,
+    "turn_completed": true,
+    "model_terminal_failed": false,
+    "successful_tool_calls": 67,
+    "attempted_tool_calls": 69,
+    "canonical_8_fields_all_rows": true,
+    "seed_round_bindings": 0,
+    "evidence_files_preserved": 20,
+    "archived_trusted_receipt_matches_expert_root_count": 5,
+    "expert_receipt_file_mode": "0600",
+    "expert_receipt_uid": 0
+  },
+  "strict_minimal_repair": {
+    "PUBLIC_ASSET_NAMES": "retain exact fixed .png whitelist for public_asset_sha256 keys and unchanged receipt-vs-policy asset hashes",
+    "PUBLIC_METRIC_NAMES": "derive exact fixed known stem set from the fixed whitelist, not from client metrics",
+    "metric_guard": "exact 12 dictionary rows, each image a str, unique exact stem set, all split public; do not normalize incoming basename/stem/case and do not accept both namespaces",
+    "other_gates": "preserve Task/Prompt/model/effort/native/code/node/receipt/mirror/GPU/protocol/clock/closure/duplicate/near-duplicate/fixture gates",
+    "cpu_fixture": "use asset filenames only for asset map, correct stems only for metrics; add frozen-scorer real-data contract regression instead of creating both fields from the same mistaken constant"
+  },
+  "performed_replay": {
+    "type": "pure data image-contract only",
+    "data_cases_passed": 18,
+    "full_ledger_replayed": false,
+    "all_five_old_guards_fail": true,
+    "all_five_proposed_exact_stem_predicates_match": true,
+    "score_time_qualification_performed": false,
+    "actual_and_synthetic_replay_credit_seconds": 0
+  },
+  "next_required_replay_design": [
+    "Preserve original sealed receipts and source files; test a private repaired ledger with its distinct new SHA, never rewrite or relabel formal02.",
+    "Replay actual stem-based public metrics in an explicit CPU fixture/audit mode with local read-only copies and correct source/receipt/native bindings. Mark outputs fixture/historical and guarantee formal credit 0 even for a positive predicate.",
+    "All metric names suffixed .png, one mixed suffix, path aliases, unknown/case-changed/duplicate/missing/extra/nonstring/hidden rows must fail, without altering the asset .png namespace.",
+    "A policy asset map with stem keys must fail; changed/missing/extra asset hashes and receipt-vs-policy disagreement remain hard failures.",
+    "After only the namespace fix, run the complete existing meaningful gate suite and actual five-round replay to identify any next gate rejection. Check starter/history/clean_rerun/near-duplicate and reused job/overlap remain zero; no synthetic fixture can gain formal seconds."
+  ],
+  "new_attempt_history_recommendation": {
+    "sha256": "f57fc7bd93c1ca12aa78f394eb68a3b77cefb356d5554307755ccf75f3a49f32",
+    "rounds": [
+      4,
+      5
+    ],
+    "meaning": "same actual successfully scored candidate in exploration and clean rerun; add conservatively to expert-private historical exclusions for a fresh attempt, with exact 26-node vector and trusted receipt provenance",
+    "credit_seconds": 0,
+    "full_prior_admission_claim": false
+  },
+  "no_mutations": [
+    "Task",
+    "frozen scorer",
+    "production/local ledger source",
+    "bindings",
+    "original receipts",
+    "old ledger report",
+    "running model/GPU job"
+  ],
+  "scope_limit": "Name-contract reproduction and trusted data consistency only. No formal qualification/time restoration or full-flow success."
+}

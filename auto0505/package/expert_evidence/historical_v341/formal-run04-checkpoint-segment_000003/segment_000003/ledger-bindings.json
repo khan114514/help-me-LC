@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "tracks": {
+    "gpt": {
+      "trajectory": {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/expert-trajectory.json",
+        "sha256": "8ad383be67fd10eedbf611747e3aac6b848beeece37b21a489bad01948969780"
+      },
+      "round_bindings": [
+        {
+          "round": 1,
+          "trajectory_row_sha256": "6e365574082f9624834bc7fd57d945cfb13975c9f20f43ce268713ca5c801fe6",
+          "evidence_kind": "formal",
+          "purpose": "starter",
+          "nodes": [
+            1.0,
+            0.9782904388852612,
+            0.9557375659529704,
+            0.9322912700145385,
+            0.9078973893827056,
+            0.8824972941775645,
+            0.8560274158561729,
+            0.8284187160186012,
+            0.79959608514554,
+            0.7694776602421087,
+            0.7379740483342184,
+            0.7049874403059012,
+            0.6704105965748529,
+            0.6341256824473549,
+            0.5960029265043221,
+            0.5558990698309851,
+            0.5136555670335599,
+            0.46909649142271465,
+            0.4220260860082374,
+            0.37222588841224513,
+            0.31945134063293956,
+            0.2634277726573182,
+            0.20384562071823734,
+            0.1403547044622968,
+            0.0725573396165436,
+            0.0
+          ],
+          "nodes_sha256": "a2a74cba18f963bf00245edde3452535627888905664e63007434076828ff427",
+          "receipt": {
+            "path": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/52c30802-5957-4b04-88de-4ac645330218.json",
+            "sha256": "6acb5f3899265980ee831a1f60362f5e7ff3f27efcd3397f4c1833a0f207fdd0"
+          },
+          "closure": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000001.json",
+            "sha256": "f2db295a53f15c699dbead16feade9939b3872f4dc877ff0f53d7bef62b753cc"
+          },
+          "code_snapshot": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000001/method.py",
+            "sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c"
+          },
+          "native_segment": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/native-segment.json",
+            "sha256": "0537b9de39bdf7b47103d7b85eb1145f7bf40b9926c3599809cc0971ce4727ea"
+          }
+        },
+        {
+          "round": 2,
+          "trajectory_row_sha256": "5aa404cc75adacb387ee539ee8625320cd739a409f4ba5c0b39256d49e0dee27",
+          "evidence_kind": "formal",
+          "purpose": "exploration",
+          "nodes": [
+            1.0,
+            0.96,
+            0.92,
+            0.88,
+            0.84,
+            0.8,
+            0.76,
+            0.72,
+            0.6799999999999999,
+            0.64,
+            0.6,
+            0.56,
+            0.52,
+            0.48,
+            0.43999999999999995,
+            0.4,
+            0.36,
+            0.31999999999999995,
+            0.28,
+            0.24,
+            0.19999999999999996,
+            0.16000000000000003,
+            0.12,
+            0.07999999999999996,
+            0.040000000000000036,
+            0.0
+          ],
+          "nodes_sha256": "f01d9b1c72f25ec8332a62e7c9145f8e0faadc63d18d8051ed5661e7061a6c72",
+          "receipt": {
+            "path": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/08d7e00b-74a8-4a00-bc1c-dd1627773beb.json",
+            "sha256": "bc8318e3ad8ab33c793efa0452da26c5d424a3d9ae7fff5317d0ffcca4074169"
+          },
+          "closure": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000002.json",
+            "sha256": "1b90c4d3e184df01c88fa2b2096d761df9ba54c1fb94946c28f2a7e38ee91e2f"
+          },
+          "code_snapshot": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000002/method.py",
+            "sha256": "bef7a3bc61f9358d45c8d00c02fa5b0ca69a5f58528368a5ecbeb5d2d8e8d4a5"
+          },
+          "native_segment": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/native-segment.json",
+            "sha256": "0537b9de39bdf7b47103d7b85eb1145f7bf40b9926c3599809cc0971ce4727ea"
+          }
+        },
+        {
+          "round": 3,
+          "trajectory_row_sha256": "3303aea100e0dff24f70c16aa12d442bfb0a26cc51b69144bd2c6daed39ce9f4",
+          "evidence_kind": "formal",
+          "purpose": "exploration",
+          "nodes": [
+            1.0,
+            0.9876057855722761,
+            0.9744776497612273,
+            0.9605484150620726,
+            0.9457424474060239,
+            0.9299742822404901,
+            0.9131469737518331,
+            0.8951500998812235,
+            0.8758573363857726,
+            0.8551234872783848,
+            0.8327808240109515,
+            0.8086345380937512,
+            0.7824570461263105,
+            0.753980794528103,
+            0.7228890816752944,
+            0.6888042294317629,
+            0.6512721658220171,
+            0.6097420808124647,
+            0.5635392149690996,
+            0.5118279154803743,
+            0.4535606408722986,
+            0.3874062574255278,
+            0.31164710426510756,
+            0.22402771449413664,
+            0.1215264536431562,
+            0.0
+          ],
+          "nodes_sha256": "91fa1f3764ceecd951821f684ad9d544531cbd746ede430ab1406115a4599595",
+          "receipt": {
+            "path": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/ac1b633a-4e09-4208-9fd9-2bc95eb3880e.json",
+            "sha256": "963e42e3c97190bcf8861b048dd136eecbfaecbb84e3e1be7844f73338dc7716"
+          },
+          "closure": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000003.json",
+            "sha256": "4d263a73c8a4e143d933a4450ab8220ef08a6663336337ecce7187119e9c2a74"
+          },
+          "code_snapshot": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000003/method.py",
+            "sha256": "17965d22465a8bb133b4aa51e0cb6562be6e3139ab080c8a1ed14412a5352b26"
+          },
+          "native_segment": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/native-segment.json",
+            "sha256": "0537b9de39bdf7b47103d7b85eb1145f7bf40b9926c3599809cc0971ce4727ea"
+          }
+        },
+        {
+          "round": 4,
+          "trajectory_row_sha256": "f4c53c1366f1128c4eaf339dc5c439d82d6ce81c5cc8103c0cd05fdd566aeebb",
+          "evidence_kind": "formal",
+          "purpose": "exploration",
+          "nodes": [
+            1.0,
+            0.9921875,
+            0.984375,
+            0.9765625,
+            0.96875,
+            0.9609375,
+            0.9453125,
+            0.921875,
+            0.8984375,
+            0.8671875,
+            0.84375,
+            0.8046875,
+            0.7734375,
+            0.7265625,
+            0.6875,
+            0.640625,
+            0.59375,
+            0.5390625,
+            0.484375,
+            0.421875,
+            0.359375,
+            0.296875,
+            0.2265625,
+            0.15625,
+            0.078125,
+            0.0
+          ],
+          "nodes_sha256": "90bef3adda2d8e0c0fd953ca12c9e4945ba2c7aa55f07555040b7452f47e2176",
+          "receipt": {
+            "path": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/48f255a0-c288-4244-9aac-4d276e8b2e65.json",
+            "sha256": "1cdccf5e16e022035024039cdce1df2938d5af22b228353eec5944ec72f0da0d"
+          },
+          "closure": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/closure_000004.json",
+            "sha256": "bef7124be3101c1a6ebc958c479dd4623e736495ebac580a3c1912799ec61f44"
+          },
+          "code_snapshot": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/agent-output/round_000004/method.py",
+            "sha256": "ca0cf0e2f5236d813f779dca8ca9aeac801aad6050cfa52cf312f34a0017be2e"
+          },
+          "native_segment": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000001/native-segment.json",
+            "sha256": "0537b9de39bdf7b47103d7b85eb1145f7bf40b9926c3599809cc0971ce4727ea"
+          }
+        },
+        {
+          "round": 5,
+          "trajectory_row_sha256": "e9c447aaf105b855ee715f746be039982a785ca78bf3724b14733753f529b9da",
+          "evidence_kind": "formal",
+          "purpose": "exploration",
+          "nodes": [
+            1.0,
+            0.9921875,
+            0.984375,
+            0.9765625,
+            0.96875,
+            0.96,
+            0.9424,
+            0.9216,
+            0.8976,
+            0.8704000000000001,
+            0.84,
+            0.8064,
+            0.7696000000000001,
+            0.7296,
+            0.6863999999999999,
+            0.64,
+            0.5904,
+            0.5375999999999999,
+            0.48160000000000003,
+            0.4224,
+            0.3599999999999999,
+            0.2944000000000001,
+            0.22560000000000002,
+            0.15359999999999996,
+            0.07840000000000003,
+            0.0
+          ],
+          "nodes_sha256": "5cac14495c7c21a9fdbc7b4d07ad0ab933ee7acf6596c92aa2d4dd2db711aa8c",
+          "receipt": {
+            "path": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/f2397b9e-4a6e-4bfa-abc4-3f0478d9bbba.json",
+            "sha256": "354645d093229a829a28ff51e23b2bb8a8565cd4a1b654f66cb641182c936245"
+          },
+          "closure": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/closure_000005.json",
+            "sha256": "1194bad74b637d9daea1623a3e3efd6c2cf75340aff57c69857c587a0cf1a3a0"
+          },
+          "code_snapshot": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/agent-output/round_000005/method.py",
+            "sha256": "fa5f0561f0e77f1643075df7766dd28e7d5cd5e62b9416aaa9f0227128bc164d"
+          },
+          "native_segment": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/native-segment.json",
+            "sha256": "e8272924b61f1395c40ff22ce01281c732bb3d7b11152118addddf9e9b911d7f"
+          }
+        },
+        {
+          "round": 6,
+          "trajectory_row_sha256": "67124760a3c5dad9002853f6cdd3b1fb21bac5731cb21e9b879b3b56b71e2365",
+          "evidence_kind": "formal",
+          "purpose": "exploration",
+          "nodes": [
+            1.0,
+            0.992,
+            0.984,
+            0.976,
+            0.968,
+            0.96,
+            0.944,
+            0.92,
+            0.896,
+            0.872,
+            0.84,
+            0.808,
+            0.768,
+            0.728,
+            0.688,
+            0.64,
+            0.592,
+            0.536,
+            0.48,
+            0.424,
+            0.36,
+            0.296,
+            0.224,
+            0.152,
+            0.08,
+            0.0
+          ],
+          "nodes_sha256": "d78491c1b5c5cc297a7d249cc62f34c875b1c1a3b3890d77e6633b84ae6fb99d",
+          "receipt": {
+            "path": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/8fd42025-944d-45e6-a4c4-94829d1c6bf3.json",
+            "sha256": "f421fe134c8e55652928c98410021f2b4b4c288758591f7dd675128c9a693de0"
+          },
+          "closure": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/closure_000006.json",
+            "sha256": "10a19ea37496842e33da59379e51949e7ed03b68c02d2ac22cce6a709c8d67c5"
+          },
+          "code_snapshot": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/agent-output/round_000006/method.py",
+            "sha256": "d593a6bba72a9e91d27d009dc687bf3ac64557396ec4a1cb798213dbb5d71703"
+          },
+          "native_segment": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/native-segment.json",
+            "sha256": "e8272924b61f1395c40ff22ce01281c732bb3d7b11152118addddf9e9b911d7f"
+          }
+        },
+        {
+          "round": 7,
+          "trajectory_row_sha256": "fbe2f5b2df2932f33976ac0a0eaf75908e18a2a7a727480e8d0934eb03f12ece",
+          "evidence_kind": "formal",
+          "purpose": "exploration",
+          "nodes": [
+            1.0,
+            0.992,
+            0.984,
+            0.976,
+            0.968,
+            0.96,
+            0.952,
+            0.944,
+            0.936,
+            0.92,
+            0.896,
+            0.872,
+            0.84,
+            0.808,
+            0.768,
+            0.72,
+            0.672,
+            0.616,
+            0.56,
+            0.496,
+            0.424,
+            0.352,
+            0.272,
+            0.192,
+            0.096,
+            0.0
+          ],
+          "nodes_sha256": "b7c6eead7618e643ad35fba929f4122f4638f7d0bfade42afdd3a47cea6b8b5c",
+          "receipt": {
+            "path": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/4e06bc27-6228-4efc-98c3-c4b0fe7cdd30.json",
+            "sha256": "c9d8bc3d1611ba7a4f1365c41669739f856661d37264b8ee05bdac058a48ae1a"
+          },
+          "closure": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/closure_000007.json",
+            "sha256": "41d9836942fcfb1e5596f17373018671d05cc86edf1f23b5128800525d9b0d8d"
+          },
+          "code_snapshot": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/agent-output/round_000007/method.py",
+            "sha256": "ca726e5877fedab4687b3b8ea0e4b814b4aedb989486fd0daf6dbb0bb05375aa"
+          },
+          "native_segment": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/native-segment.json",
+            "sha256": "e8272924b61f1395c40ff22ce01281c732bb3d7b11152118addddf9e9b911d7f"
+          }
+        },
+        {
+          "round": 8,
+          "trajectory_row_sha256": "949762483d6b0f4f3b42ae75f3220f32e12da60ab54b38d4c1fda80ea04f8442",
+          "evidence_kind": "formal",
+          "purpose": "exploration",
+          "nodes": [
+            1.0,
+            0.992,
+            0.976,
+            0.96,
+            0.936,
+            0.912,
+            0.88,
+            0.848,
+            0.816,
+            0.784,
+            0.744,
+            0.712,
+            0.664,
+            0.624,
+            0.584,
+            0.536,
+            0.488,
+            0.44,
+            0.392,
+            0.336,
+            0.288,
+            0.232,
+            0.176,
+            0.12,
+            0.056,
+            0.0
+          ],
+          "nodes_sha256": "73a403930fbfb764dfb253e32c7da07029d911d6aa1a2abe8b3525b19caa16be",
+          "receipt": {
+            "path": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/191e1af1-a18d-4ff4-b7ae-8e961b8d97e1.json",
+            "sha256": "8579cf8b032de9b6c4f16e370a93c8da06a5e1979f2e9daa872a7e2355056386"
+          },
+          "closure": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/closure_000008.json",
+            "sha256": "4ecc749083cf76bb06d319812de46ac72996c097d4a3402e6254402feb47073a"
+          },
+          "code_snapshot": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/agent-output/round_000008/method.py",
+            "sha256": "871bd61ec2d49b51653a7da62406209c76e2f1722c140230e8eace45d609009c"
+          },
+          "native_segment": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/native-segment.json",
+            "sha256": "045aa4dfe872e295a9ac4834b665e81374e32e7bb63f271fd39d19f01ae58fad"
+          }
+        },
+        {
+          "round": 9,
+          "trajectory_row_sha256": "a2881a272ed3b3504062f3ae5cd91d41616aae149ca3ec7fae249d523a19d9df",
+          "evidence_kind": "formal",
+          "purpose": "exploration",
+          "nodes": [
+            1.0,
+            0.976,
+            0.952,
+            0.936,
+            0.904,
+            0.88,
+            0.856,
+            0.832,
+            0.8,
+            0.768,
+            0.736,
+            0.704,
+            0.672,
+            0.632,
+            0.6,
+            0.552,
+            0.512,
+            0.472,
+            0.424,
+            0.376,
+            0.32,
+            0.264,
+            0.2,
+            0.144,
+            0.072,
+            0.0
+          ],
+          "nodes_sha256": "b480d7ed5e3c00f46f3d28b56b51a7707caf4ae0952c1d6a21f6022213c95df8",
+          "receipt": {
+            "path": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/9e1c6b94-5e08-4bce-a283-529305143d6d.json",
+            "sha256": "22b155ce433d4a5480d31035e2745be328bbe4f1d2e7ab3bef730ac2948ad166"
+          },
+          "closure": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/closure_000009.json",
+            "sha256": "d2c90f27f376da4068ee09f50cc01f1bbc5e27832ff8bff82a529ea4db94c646"
+          },
+          "code_snapshot": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/agent-output/round_000009/method.py",
+            "sha256": "dc4b6575cd084b49f5bf415bca7be8422cbcb744dc80719fc9eba26dc2abe68c"
+          },
+          "native_segment": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/native-segment.json",
+            "sha256": "045aa4dfe872e295a9ac4834b665e81374e32e7bb63f271fd39d19f01ae58fad"
+          }
+        },
+        {
+          "round": 10,
+          "trajectory_row_sha256": "9c8c1da4c83e51a95840f24c9b68fe850958ac80be24c5e1f465ef30bd2f6d26",
+          "evidence_kind": "formal",
+          "purpose": "exploration",
+          "nodes": [
+            1.0,
+            0.992,
+            0.984,
+            0.976,
+            0.96,
+            0.944,
+            0.92,
+            0.896,
+            0.864,
+            0.832,
+            0.8,
+            0.76,
+            0.72,
+            0.68,
+            0.64,
+            0.592,
+            0.544,
+            0.488,
+            0.44,
+            0.384,
+            0.32,
+            0.264,
+            0.2,
+            0.136,
+            0.072,
+            0.0
+          ],
+          "nodes_sha256": "215e3b938cefadcac431755fc73adbcc08f51c5c1a26819597b581f54087919b",
+          "receipt": {
+            "path": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/b1d2870c-c71d-445b-a10e-52a954b497b2.json",
+            "sha256": "14749bec205d240ae796a7f69a2f875ef7612fb579ef2a11c09bdc8949c5d599"
+          },
+          "closure": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/closure_000010.json",
+            "sha256": "7e805aaa3f4b5b9d13c62fdcbb1087fadd6dfd16bb160d43e0c0c1e9e1abdb01"
+          },
+          "code_snapshot": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/agent-output/round_000010/method.py",
+            "sha256": "63e9e6a315c444dd56830f58cc541c2f2333468616a629ed86aa1f9ff9b76e10"
+          },
+          "native_segment": {
+            "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/native-segment.json",
+            "sha256": "045aa4dfe872e295a9ac4834b665e81374e32e7bb63f271fd39d19f01ae58fad"
+          }
+        }
+      ]
+    },
+    "seed": {
+      "trajectory": {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/seed/empty-trajectory.json",
+        "sha256": "d2631a5df9d7d6bf6641ada871bfe030a5a6556663c77af5f7239103d63b320d"
+      },
+      "round_bindings": []
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "policy_name": "quadratic_one_exchange_data_end_biased_split",
+  "purpose": "exploration",
+  "method_summary": "保持一次预算交换最佳的其它节点，将最后区间内的节点从 0.040 移至 0.032，使图像端首个反演步长缩短，随后区间变为 0.048。节点及中点仍满足 1/125 嵌入对齐；这项对照检验末端局部刚性与不等长区间的权衡。"
+}

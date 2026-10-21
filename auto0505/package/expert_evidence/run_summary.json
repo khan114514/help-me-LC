@@ -1,0 +1,44 @@
+{
+  "task_id": "auto0505",
+  "task_version": "3.5.0-a100-repair",
+  "status": "REPAIR_IN_PROGRESS_NOT_READY",
+  "hardware_choice": {
+    "actual_requested": "A100",
+    "authorization": "User instruction 2026-10-21",
+    "H20_L20_validation": "DEFERRED_BY_USER"
+  },
+  "agent_execution": {
+    "codex": {
+      "model": "gpt-6.1-sol",
+      "requested_effort": "xhigh",
+      "status": "current isolated run not started",
+      "effective_seconds": null,
+      "rounds": 0
+    },
+    "seed": {
+      "model": "doubao-seed-2-1-turbo-260628",
+      "requested_effort": "high",
+      "status": "current isolated run not started; historical pilot access confirmed",
+      "effective_seconds": null,
+      "rounds": 0
+    }
+  },
+  "historical_evidence": "historical_v341/; original source ZIP retained outside candidate input",
+  "historical_time_acceptance": "User acceptance preserved as history; it is not converted into certified current effective seconds.",
+  "research_duration_rule": {
+    "default_per_track_seconds": 36000,
+    "nontraining_exception_per_track_seconds": 25200,
+    "exception_status": "not yet claimed; all exception conditions require actual run evidence"
+  },
+  "task_binding": {
+    "hash_profile": "harbor-task-inputs-v1",
+    "task_content_sha256": null,
+    "status": "OFFICIAL_FINGERPRINT_TOOL_PENDING"
+  },
+  "best_method": null,
+  "nop": "NOT_RUN_CURRENT_VERSION",
+  "GPU_validation": "NOT_RUN_CURRENT_VERSION",
+  "stability_12h": "NOT_RUN_CURRENT_VERSION",
+  "official_format_and_gpu_checks": "OFFICIAL_TOOLS_PENDING",
+  "local_validation": "Linux arm64 container boundary tests; no GPU/model score or research-duration credit"
+}

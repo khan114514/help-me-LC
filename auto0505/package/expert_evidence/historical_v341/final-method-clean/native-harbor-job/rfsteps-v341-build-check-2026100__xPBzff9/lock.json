@@ -1,0 +1,44 @@
+{
+    "schema_version": 2,
+    "task": {
+        "name": "rfsteps-v341-build-check-20261004",
+        "version": "3.4.1",
+        "type": "local",
+        "digest": "sha256:a376e292acc1dcf1284bc129312c3f1a24d21232d77cd027fb77625f503c0d85",
+        "path": "/historical-root/rfsteps-v341-build-check-20261004"
+    },
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent": {
+        "name": "nop",
+        "skills": [],
+        "resume_trajectory": false,
+        "extra_allowed_hosts": [],
+        "kwargs": {},
+        "mcp_servers": []
+    },
+    "bridge_inputs": {},
+    "skills": [],
+    "environment": {
+        "import_path": "nop_runtime:NopLiveDockerEnvironment",
+        "force_build": false,
+        "delete": true,
+        "cpu_enforcement_policy": "auto",
+        "memory_enforcement_policy": "auto",
+        "extra_docker_compose": [],
+        "kwargs": {
+            "nop_evidence_root": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01",
+            "nop_source_root": "/historical-root/rfsteps-v341-final-best-runtime-20261005/attempt01"
+        },
+        "extra_allowed_hosts": []
+    },
+    "verifier": {
+        "import_path": "clean_selected_verifier:ExpertCleanSelectedVerifier",
+        "kwargs": {
+            "expert_selected_path": "/historical-root/rfsteps-v341-final-best-runtime-20261005/attempt01/private-selected/method.py",
+            "expert_evidence_root": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01"
+        },
+        "disable": false,
+        "environment_mode": "separate"
+    }
+}

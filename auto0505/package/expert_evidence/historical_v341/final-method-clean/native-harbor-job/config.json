@@ -1,0 +1,31 @@
+{
+    "job_name": "rfsteps-v341-final-best-full16-01",
+    "jobs_dir": "/historical-root/rfsteps-v341-final-best-jobs-20261005",
+    "debug": true,
+    "n_concurrent_trials": 1,
+    "quiet": true,
+    "environment": {
+        "import_path": "nop_runtime:NopLiveDockerEnvironment",
+        "kwargs": {
+            "nop_evidence_root": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01",
+            "nop_source_root": "/historical-root/rfsteps-v341-final-best-runtime-20261005/attempt01"
+        }
+    },
+    "verifier": {
+        "import_path": "clean_selected_verifier:ExpertCleanSelectedVerifier",
+        "kwargs": {
+            "expert_selected_path": "/historical-root/rfsteps-v341-final-best-runtime-20261005/attempt01/private-selected/method.py",
+            "expert_evidence_root": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01"
+        }
+    },
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "/historical-root/rfsteps-v341-build-check-20261004"
+        }
+    ]
+}

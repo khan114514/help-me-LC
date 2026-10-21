@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "status": "INFRASTRUCTURE_ERROR",
+  "evaluation_completed": false,
+  "reason_code": "INFRASTRUCTURE_ERROR: {'code': 'trusted_ssh_failure', 'message': 'No evaluation score was accepted; check the organizer-side RPC service.'}",
+  "reason": "INFRASTRUCTURE_ERROR: {'code': 'trusted_ssh_failure', 'message': 'No evaluation score was accepted; check the organizer-side RPC service.'}",
+  "action": "Ask the expert to repair the trusted runtime; do not treat this as a score.",
+  "execution_evidence": {},
+  "psnr": null,
+  "score": null
+}

@@ -1,0 +1,215 @@
+{
+  "utc": "2026-10-04T15:57:26.672110+00:00",
+  "status": "RUNNING_CHECKPOINT_NOT_FINAL_ACCEPTANCE",
+  "stability_samples": {
+    "gpt": {
+      "utc": "2026-10-04T15:56:53.732558+00:00",
+      "event": "stability_sample",
+      "sample_index": 226,
+      "monotonic_seconds": 83765.840088173,
+      "elapsed_stability_seconds": 13500.059982402003,
+      "research_effective_seconds": 0,
+      "container": {
+        "container_id": "622dc9cf9b6857eb53a9e3b9bb8f3a9bc1ff55212028153a5b963a0dac5b9bb5",
+        "image_id": "sha256:b62357fc696479df707ae8e4131ab186eac4d054fb8d865bf112bf765972a863",
+        "restarts": 0,
+        "running": true,
+        "oom_killed": false,
+        "started_at": "2026-10-04T12:11:52.670111287Z",
+        "nano_cpus": 2000000000,
+        "cpu_quota": 0,
+        "cpu_period": 0,
+        "memory_bytes": 2147483648,
+        "readonly_rootfs": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": [
+          "CAP_SETGID",
+          "CAP_SETUID"
+        ],
+        "security_opt": [
+          "no-new-privileges:true"
+        ],
+        "network_mode": "stability-gpt-fb7ef85ff6424b2583e69ff119ff6e62__env_default",
+        "mounts": [
+          {
+            "Destination": "/logs/agent",
+            "Mode": "rw",
+            "Propagation": "rprivate",
+            "RW": true,
+            "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/gpt/harbor-construction/stability-gpt-fb7ef85ff6424b2583e69ff119ff6e62/agent",
+            "Type": "bind"
+          },
+          {
+            "Destination": "/logs/artifacts",
+            "Mode": "rw",
+            "Propagation": "rprivate",
+            "RW": true,
+            "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/gpt/harbor-construction/stability-gpt-fb7ef85ff6424b2583e69ff119ff6e62/artifacts/logs/artifacts",
+            "Type": "bind"
+          },
+          {
+            "Destination": "/logs/verifier",
+            "Mode": "rw",
+            "Propagation": "rprivate",
+            "RW": true,
+            "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/gpt/harbor-construction/stability-gpt-fb7ef85ff6424b2583e69ff119ff6e62/verifier",
+            "Type": "bind"
+          },
+          {
+            "Destination": "/run/rfsteps-model/gpt.sock",
+            "Mode": "ro",
+            "Propagation": "rprivate",
+            "RW": false,
+            "Source": "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/gpt.sock",
+            "Type": "bind"
+          },
+          {
+            "Destination": "/run/rfsteps/public.sock",
+            "Mode": "",
+            "Propagation": "rprivate",
+            "RW": false,
+            "Source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+            "Type": "bind"
+          }
+        ]
+      },
+      "probe": {
+        "container_monotonic_ns": 83766050611762,
+        "rw_ok": true,
+        "forbidden_paths_present": [],
+        "public_socket_exists": true,
+        "public_socket_inode": 1978676,
+        "model_socket_exists": true,
+        "model_socket_inode": 1978677,
+        "sole_model_socket": true
+      }
+    },
+    "seed": {
+      "utc": "2026-10-04T15:56:53.624067+00:00",
+      "event": "stability_sample",
+      "sample_index": 226,
+      "monotonic_seconds": 83765.735084088,
+      "elapsed_stability_seconds": 13500.060391188003,
+      "research_effective_seconds": 0,
+      "container": {
+        "container_id": "69b94aa832418d838c2b591e44f5f84bc4c1a61783fce3aa6dd9361964887c0f",
+        "image_id": "sha256:71768eeb1ef13b5262be72a753bbe47c2f3380eebea0c4d3763af633e366f3b6",
+        "restarts": 0,
+        "running": true,
+        "oom_killed": false,
+        "started_at": "2026-10-04T12:11:52.608243212Z",
+        "nano_cpus": 2000000000,
+        "cpu_quota": 0,
+        "cpu_period": 0,
+        "memory_bytes": 2147483648,
+        "readonly_rootfs": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": [
+          "CAP_SETGID",
+          "CAP_SETUID"
+        ],
+        "security_opt": [
+          "no-new-privileges:true"
+        ],
+        "network_mode": "stability-seed-66f079bebd1642288e0818a1d10880ba__env_default",
+        "mounts": [
+          {
+            "Destination": "/logs/agent",
+            "Mode": "rw",
+            "Propagation": "rprivate",
+            "RW": true,
+            "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/seed/harbor-construction/stability-seed-66f079bebd1642288e0818a1d10880ba/agent",
+            "Type": "bind"
+          },
+          {
+            "Destination": "/logs/artifacts",
+            "Mode": "rw",
+            "Propagation": "rprivate",
+            "RW": true,
+            "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/seed/harbor-construction/stability-seed-66f079bebd1642288e0818a1d10880ba/artifacts/logs/artifacts",
+            "Type": "bind"
+          },
+          {
+            "Destination": "/logs/verifier",
+            "Mode": "rw",
+            "Propagation": "rprivate",
+            "RW": true,
+            "Source": "/historical-root/rfsteps-v341-stability-attempt01-20261004/seed/harbor-construction/stability-seed-66f079bebd1642288e0818a1d10880ba/verifier",
+            "Type": "bind"
+          },
+          {
+            "Destination": "/run/rfsteps-model/seed.sock",
+            "Mode": "ro",
+            "Propagation": "rprivate",
+            "RW": false,
+            "Source": "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/seed.sock",
+            "Type": "bind"
+          },
+          {
+            "Destination": "/run/rfsteps/public.sock",
+            "Mode": "",
+            "Propagation": "rprivate",
+            "RW": false,
+            "Source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+            "Type": "bind"
+          }
+        ]
+      },
+      "probe": {
+        "container_monotonic_ns": 83765942046093,
+        "rw_ok": true,
+        "forbidden_paths_present": [],
+        "public_socket_exists": true,
+        "public_socket_inode": 1978676,
+        "model_socket_exists": true,
+        "model_socket_inode": 1978679,
+        "sole_model_socket": true
+      }
+    }
+  },
+  "units": {
+    "rfsteps-v341-serial-research-run04-20261004": {
+      "ExecMainStatus": "0",
+      "ActiveState": "active",
+      "SubState": "running"
+    },
+    "rfsteps-v341-stability-gpt-attempt01": {
+      "ExecMainStatus": "0",
+      "ActiveState": "active",
+      "SubState": "running"
+    },
+    "rfsteps-v341-stability-seed-attempt01": {
+      "ExecMainStatus": "0",
+      "ActiveState": "active",
+      "SubState": "running"
+    }
+  },
+  "exact_expected_process_births": {
+    "2692887": {
+      "start_ticks": 8044292,
+      "state": "S"
+    },
+    "2692941": {
+      "start_ticks": 8044310,
+      "state": "S"
+    },
+    "1934848": {
+      "start_ticks": 7001597,
+      "state": "S"
+    },
+    "1934849": {
+      "start_ticks": 7001597,
+      "state": "S"
+    },
+    "2519854": {
+      "start_ticks": 7787670,
+      "state": "S"
+    }
+  },
+  "research_credit_from_runtime_snapshot_seconds": 0,
+  "RPC_continuous_availability_claim": false
+}

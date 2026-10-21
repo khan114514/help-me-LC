@@ -1,0 +1,18 @@
+{
+  "commands": [
+    {
+      "command_sha256": "8c2dd24ddbb7f44e7eca6efae4b011ce99c50a7d1d2d2bcda86ac82140d7e827",
+      "return_code": 1,
+      "finished_at": "2026-10-04T17:35:03.314617+00:00",
+      "is_chmod": true
+    },
+    {
+      "command_sha256": "65bfbc8697b10100e5617e3e67cb41653919b8801d1071cbb0c8d0738f6ad2e4",
+      "return_code": 0,
+      "finished_at": "2026-10-04T17:41:38.941211+00:00",
+      "is_chmod": false
+    }
+  ],
+  "unchanged_native_commands": true,
+  "research_credit_seconds": 0
+}

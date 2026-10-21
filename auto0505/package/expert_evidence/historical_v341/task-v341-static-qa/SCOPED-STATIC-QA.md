@@ -1,0 +1,15 @@
+# Task3.4.1 scoped static QA
+
+The new Task identity is `90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb`. Independent read-only checks found exactly 63 matching local/remote files, no remote symlinks, and the same native Harbor dirhash. Installed Harbor0.23.0 accepts the TOML with separate Verifier, 2CPUs/2048MiB/GPU0 for both environments and Verifier timeout3600s. No Docker, candidate, model or GPU/RPC action was performed for this static review.
+
+Four guards match the accepted review hashes exactly. Both instruction copies are byte-identical and contain all eight substantive sections. Format/interface/shape errors are explicitly distinguished from parseable node Hard Gate violations; only non-cheating Hard Gate invalidity has -1. CPU/wall/scorer/transport timeouts, resource and infrastructure failures are distinguished without normal scores. Candidate source/read-origin limits, subprocess prohibition, source1MiB, CPU30s and AS512MiB correspond to actual guard implementation. Actor may read public files, while the node worker is separately restricted to its copied source and trusted stdlib origins.
+
+The same exact guard CPU evidence supports implemented common import/loader/open paths and real resource enforcement; it is not a general adversarial Python/native API sandbox certification. Starter, solve.sh, both anchors, frozen numeric tests/run_eval.py and all24 copies of12 Publicassets preserve their previous exact bytes. The unused Actor/public run_eval.py was removed; Verifier numerical source remains frozen.
+
+Both Compose files use long bind syntax with create_host_path=false for their fixed public/formal socket. Root's prior actual Host parse record confirms that field and reports zero created containers or bound sockets. This review reads that record; it does not claim a new container-level missing-bind test.
+
+QA01/07/08 are instruction-only checks: no Hidden sample/label/answer or Reference method/config/result is disclosed there. QA11 has complete eight-part content. QA05 passes the bounded implementation/existing exact-code evidence scope. QA15 is skipped under the current policy. The fixed method/solve exact-two-file and allowed generated-cache cleanup boundary is implemented by the separate expert harness; Task tests/test.sh alone reads method.py and does not independently verify solve.sh. Its final native instance/artifact behavior requires the new runtime evidence.
+
+No static startup blocker was found in the requested contract scope. Full delivery is NOT READY: current Task3.4.1 NOP remains pending, hence H06 and QA17 cannot pass. Old Task NOP or duration evidence is not labeled as belonging to this checksum. Root has since reported cold builds, but their image runtime is a separate next check. This is not the two fresh ZIP-only release self-checks or a full21/G01–G03 audit.
+
+The worker's3500s job deadline implements the stated≤3600s scoring budget. The wrapper's3720s socket wait is transport tolerance, distinct from computation time; a transport deadline produces TIMEOUT. This static review does not assert a3720s caller wait is≤3600s.

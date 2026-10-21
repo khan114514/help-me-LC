@@ -1,0 +1,5 @@
+{
+  "policy_name": "starter_flux_shift_mu_0.63",
+  "purpose": "starter",
+  "method_summary": "冻结 Starter 的官方 FLUX 时间偏移 μ=0.63，用于校准公开 PSNR。"
+}

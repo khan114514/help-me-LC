@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "status": "PASSED_REAL_NEW_TASK_NOP",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "files": {
+    "ACCEPTANCE.json": {
+      "sha256": "5a4546a5865b201378d113fc043fec87e81e07800d1ad31b3a8d20e21f607c28",
+      "bytes": 6382
+    },
+    "NOP-RESULT.md": {
+      "sha256": "cc315530ed39f16d8e5948bee8de38ae9bd953a87236973a997169938d15fb17",
+      "bytes": 3570
+    },
+    "a10-evidence/environments/rfsteps-v341-build-check-2026100__QTvtVoh__env/live-transfer/b36e0fda34ae450a9031d875c2ad0297.json": {
+      "sha256": "0c78b201c71f4410137572cd4c35281ebf84b92ef67c685c32ad1d9c53f0730b",
+      "bytes": 1245
+    },
+    "a10-evidence/environments/rfsteps-v341-build-check-2026100__QTvtVoh__env/started.json": {
+      "sha256": "39aebda64e7535f142d01f68ec6ddd5636af8c161572fe782cc38e51e2684b0c",
+      "bytes": 1995
+    },
+    "a10-evidence/environments/rfsteps-v341-build-check-2026100__QTvtVoh__verifier__trial/started.json": {
+      "sha256": "47eb8048f7341f94866b0f93318b510ebe7d889bd0bf238922213dee04365706",
+      "bytes": 1535
+    },
+    "a10-evidence/native-job-inventory.json": {
+      "sha256": "18d8b1812661e90cac78cb6ed686d230dea2fea8c0f30dd32384e2daab339893",
+      "bytes": 2769
+    },
+    "a10-evidence/nop-summary.json": {
+      "sha256": "8c336daafd19120d350f98e64efe9d659ae17089b01b415a1f5dd14243546d88",
+      "bytes": 5347
+    },
+    "a10-evidence/preflight.json": {
+      "sha256": "a53c6676093e2bdfc4e7c7e08e48b105a4d2939d16fe3e4525a26ff9cb090904",
+      "bytes": 8351
+    },
+    "a10-evidence/preservation-manifest.json": {
+      "sha256": "43b8abd4d53372cc053c7d8552112f0e0f4a1d507ec0cbb0021b27f0f76d12c7",
+      "bytes": 1436
+    },
+    "a10-evidence/returned-job-result.json": {
+      "sha256": "67fdd250b58ed87531ea9593d6e063af67e5d95f293195e65e32ea60b615b7e8",
+      "bytes": 5618
+    },
+    "a10-evidence/trusted-worker-result.json": {
+      "sha256": "b7d4b2f951ed7b7d6fea9960e6666790f6e6cbbbc4e2b1dbe88ea2c7c5471348",
+      "bytes": 11414
+    },
+    "a10-launch/launch.json": {
+      "sha256": "b5b61baed6f53d131445b80d9f7710077fadec2859ba1fe58dffcb01ee61faf2",
+      "bytes": 1059
+    },
+    "a10-launch/run.stderr": {
+      "sha256": "93b64187e9629ae395ed17b2bceb9742f416969531c2dd5603d9b44983b14446",
+      "bytes": 3744
+    },
+    "a10-launch/run.stdout": {
+      "sha256": "eec92bdcf40b1af5d8c2dd1a3fe6d1cf998ac966891e204bee14e79a9e6327a6",
+      "bytes": 4668
+    },
+    "copy-records.json": {
+      "sha256": "83596da4c1dd4b1cdc566b1a8706cf11d319d3e70f334450e96c32f9393f1a0b",
+      "bytes": 532
+    },
+    "gpu-owned-job/copy-records.json": {
+      "sha256": "af15d6b0dd1ebc3be246c03b21462eaa6ea3a834bf4b5daa908912d447fd785d",
+      "bytes": 408
+    },
+    "gpu-owned-job/gpu-observations.jsonl": {
+      "sha256": "361053575ec818817f1a249fcdb8f279d7b461dd8ab6812c4762c8130c279858",
+      "bytes": 92864
+    },
+    "gpu-owned-job/output/metrics.json": {
+      "sha256": "6220a7d31315ec28d4cf5678bff265ffef2c1d6f6bb1981284ea85a1254c8231",
+      "bytes": 4342
+    },
+    "gpu-owned-job/output/schedule.json": {
+      "sha256": "3067fc70baedbdf883d9696db87ba8c962915156f6cee387ef7578ab7af304e7",
+      "bytes": 638
+    },
+    "gpu-owned-job/receipt.json": {
+      "sha256": "8d8f8bad656bd2a453f78bf361163e83872f61354bb39df27990e9353288a309",
+      "bytes": 14109
+    },
+    "gpu-owned-job/scorer-stdout.txt": {
+      "sha256": "512126f413bda6ab295e8e401523c577bf74596d0706fe29d3275bda818c52c0",
+      "bytes": 1691
+    },
+    "harbor-job/config.json": {
+      "sha256": "92d89f4a9d02f0cd57a668e2b91ebe52992fd84434f26d5035c38cd47fd54585",
+      "bytes": 650
+    },
+    "harbor-job/job.log": {
+      "sha256": "654a4ca8d3528de9d4a8807cbe08ab3d004c2316462185e0364870798c7dd931",
+      "bytes": 3101
+    },
+    "harbor-job/lock.json": {
+      "sha256": "76f11898101e9880f100ce186acdfe692372bbb5c7c8f423a6c11d1d872b5577",
+      "bytes": 2226
+    },
+    "harbor-job/result.json": {
+      "sha256": "f5a1cfec2c6acaf68125c4ce8068c0ce40727c72649e0978b64716a20644c81e",
+      "bytes": 1867
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/artifacts/manifest.json": {
+      "sha256": "55444ad09322d5f69d46b7c73cd202b20feb444aa542d773bb95b50f915a428a",
+      "bytes": 349
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/artifacts/solution/method.py": {
+      "sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "bytes": 1036
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/artifacts/solution/solve.sh": {
+      "sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "bytes": 145
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/config.json": {
+      "sha256": "13dd81f58b6eb08fb3fbc0c4e7b910715eaf4382d3fcd203303401cdf6f9df11",
+      "bytes": 632
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/lock.json": {
+      "sha256": "f18b0e4e21c6c4864161168829b0263163967d0fac8461226a8e11a95311c6e6",
+      "bytes": 1192
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/result.json": {
+      "sha256": "d71a59a74e388490ae5094bd1c594d6f0f785314645b12a4dae36887ea69f9d0",
+      "bytes": 4193
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/trial.log": {
+      "sha256": "bf801260b4865399ee597b45aa59d46e52091b750e5d486a71f370daaf8c9c56",
+      "bytes": 3026
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/evaluation_status.json": {
+      "sha256": "6ba0de3de49e5c1184938d3835cbc05f41342ead4949aaa770208700131b78d8",
+      "bytes": 267
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/gpu_receipt.json": {
+      "sha256": "8d8f8bad656bd2a453f78bf361163e83872f61354bb39df27990e9353288a309",
+      "bytes": 14109
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/metrics.json": {
+      "sha256": "28dd9114339c1a5c1f375d78586e35266617bb77c27ec454a52feea63ebf9397",
+      "bytes": 4439
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/remote_metrics.json": {
+      "sha256": "17aac8aebea423fffb703fd7e989d741c3522bae16883ad7340945eef0b38da5",
+      "bytes": 4343
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/reward.json": {
+      "sha256": "07bafa6ecee54bcea2b2cdcf345e83c271663a7e4ad4973af0036922f58ac19d",
+      "bytes": 106
+    },
+    "harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/test-stdout.txt": {
+      "sha256": "11c9b1977211412316ba239d9b3cf44f4b2a5a380774b878d8c5defd02cf1eac",
+      "bytes": 126
+    },
+    "initial-systemd-status.txt": {
+      "sha256": "92664bc8895a84961b8b4d5bfe6496e51e63de45077bc891bce330a09d9a4573",
+      "bytes": 84
+    },
+    "launch.json": {
+      "sha256": "b5b61baed6f53d131445b80d9f7710077fadec2859ba1fe58dffcb01ee61faf2",
+      "bytes": 1059
+    },
+    "preflight.json": {
+      "sha256": "a53c6676093e2bdfc4e7c7e08e48b105a4d2939d16fe3e4525a26ff9cb090904",
+      "bytes": 8351
+    },
+    "runtime/rfsteps-v341-build-check-2026100__QTvtVoh__env/live-transfer/b36e0fda34ae450a9031d875c2ad0297.json": {
+      "sha256": "0c78b201c71f4410137572cd4c35281ebf84b92ef67c685c32ad1d9c53f0730b",
+      "bytes": 1245
+    },
+    "runtime/rfsteps-v341-build-check-2026100__QTvtVoh__env/started.json": {
+      "sha256": "39aebda64e7535f142d01f68ec6ddd5636af8c161572fe782cc38e51e2684b0c",
+      "bytes": 1995
+    },
+    "runtime/rfsteps-v341-build-check-2026100__QTvtVoh__verifier__trial/started.json": {
+      "sha256": "47eb8048f7341f94866b0f93318b510ebe7d889bd0bf238922213dee04365706",
+      "bytes": 1535
+    }
+  },
+  "file_count": 44,
+  "model_calls": 0,
+  "research_credit_seconds": 0
+}

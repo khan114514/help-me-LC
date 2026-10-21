@@ -1,0 +1,5 @@
+{
+  "policy_name": "quadratic_two_interval_budget_exchanges",
+  "purpose": "exploration",
+  "method_summary": "将已实测获益的合并最短内部区间、拆分最长区间操作从一次增加至两次，始终保留首个端点区间和 1/125 嵌入对齐。正式参数下额外删除 0.968 并新增 0.192，检验进一步把高时间密集预算移到中低时间区域是否有益。"
+}

@@ -1,0 +1,8 @@
+{
+  "decision": "reject",
+  "purpose": "exploration",
+  "explanation": "冻结公开评分器返回 INFRASTRUCTURE_ERROR，原因是 trusted_ssh_failure；明确未接受任何评价分数，score=null，拒绝作为最佳。该基础设施失败不能归因于候选 PSNR 或门禁违规，按失败可提前结束本段的约定停止新增请求，保留第 13 轮最佳。",
+  "psnr": null,
+  "best_round": 13,
+  "method_sha256": "d920c22ae090cc3d196e69ec80cc14387f7ebd933374dde60c8a511af16c8857"
+}

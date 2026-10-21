@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "role": "gpt",
+  "pid": 2692941,
+  "start_ticks": 8044310,
+  "return_code": 130,
+  "harbor_wait_completed": true,
+  "finished_at_utc": "2026-10-04T17:09:28.157475+00:00",
+  "stop_requested": true,
+  "research_credit_seconds": 0
+}

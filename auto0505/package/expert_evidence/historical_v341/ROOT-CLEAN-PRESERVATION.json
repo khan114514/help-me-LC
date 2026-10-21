@@ -1,0 +1,17 @@
+{
+  "status": "ROOT_FROZEN_CLEAN_EVIDENCE_EXACT_PRESERVATION_AND_NATIVE_CROSSCHECK_PASSED",
+  "original_manifest_sha256": "e5782af9eb02d230652fbe61e20c11b5608d4cf23ce6e2018eb880a02c29270e",
+  "original_files_verified": 170,
+  "public_selection_precedes_full16": true,
+  "native_original_bytes_match_independent_root_copy": true,
+  "best_source_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+  "full16_reward": {
+    "reward": 0.8703690797499839,
+    "psnr": 21.27548763952123,
+    "ssim": 0.7167758922645703,
+    "nfe_per_image": 100.0
+  },
+  "task_unchanged": true,
+  "12h_completed": false,
+  "final_release_QA_passed": false
+}

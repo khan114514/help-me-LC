@@ -1,0 +1,171 @@
+{
+  "segment": 4,
+  "start_round": 11,
+  "end_round": 13,
+  "checks": [
+    {
+      "round": 1,
+      "purpose": "starter",
+      "status": "ok",
+      "method_sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "psnr": 19.361577137501065,
+      "score": 0.0,
+      "gpu_job_id": "52c30802-5957-4b04-88de-4ac645330218",
+      "nodes_sha256": "a2a74cba18f963bf00245edde3452535627888905664e63007434076828ff427",
+      "scoring_seconds": 237.2350991172716
+    },
+    {
+      "round": 2,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "bef7a3bc61f9358d45c8d00c02fa5b0ca69a5f58528368a5ecbeb5d2d8e8d4a5",
+      "psnr": 17.959306788303643,
+      "score": -0.7546529570695181,
+      "gpu_job_id": "08d7e00b-74a8-4a00-bc1c-dd1627773beb",
+      "nodes_sha256": "f01d9b1c72f25ec8332a62e7c9145f8e0faadc63d18d8051ed5661e7061a6c72",
+      "scoring_seconds": 236.5558069422841
+    },
+    {
+      "round": 3,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "17965d22465a8bb133b4aa51e0cb6562be6e3139ab080c8a1ed14412a5352b26",
+      "psnr": 19.546817861597415,
+      "score": 0.09969009206321577,
+      "gpu_job_id": "ac1b633a-4e09-4208-9fd9-2bc95eb3880e",
+      "nodes_sha256": "91fa1f3764ceecd951821f684ad9d544531cbd746ede430ab1406115a4599595",
+      "scoring_seconds": 238.04985779710114
+    },
+    {
+      "round": 4,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "ca0cf0e2f5236d813f779dca8ca9aeac801aad6050cfa52cf312f34a0017be2e",
+      "psnr": 19.61162232893616,
+      "score": 0.13456559444867944,
+      "gpu_job_id": "48f255a0-c288-4244-9aac-4d276e8b2e65",
+      "nodes_sha256": "90bef3adda2d8e0c0fd953ca12c9e4945ba2c7aa55f07555040b7452f47e2176",
+      "scoring_seconds": 240.43531494680792
+    },
+    {
+      "round": 5,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "fa5f0561f0e77f1643075df7766dd28e7d5cd5e62b9416aaa9f0227128bc164d",
+      "psnr": 19.420211702190297,
+      "score": 0.031555076133884016,
+      "gpu_job_id": "f2397b9e-4a6e-4bfa-abc4-3f0478d9bbba",
+      "nodes_sha256": "5cac14495c7c21a9fdbc7b4d07ad0ab933ee7acf6596c92aa2d4dd2db711aa8c",
+      "scoring_seconds": 237.5008159512654
+    },
+    {
+      "round": 6,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "d593a6bba72a9e91d27d009dc687bf3ac64557396ec4a1cb798213dbb5d71703",
+      "psnr": 20.2250921627834,
+      "score": 0.46471364646356744,
+      "gpu_job_id": "8fd42025-944d-45e6-a4c4-94829d1c6bf3",
+      "nodes_sha256": "d78491c1b5c5cc297a7d249cc62f34c875b1c1a3b3890d77e6633b84ae6fb99d",
+      "scoring_seconds": 237.36252480000257
+    },
+    {
+      "round": 7,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "ca726e5877fedab4687b3b8ea0e4b814b4aedb989486fd0daf6dbb0bb05375aa",
+      "psnr": 20.11972692968958,
+      "score": 0.40800975568239245,
+      "gpu_job_id": "4e06bc27-6228-4efc-98c3-c4b0fe7cdd30",
+      "nodes_sha256": "b7c6eead7618e643ad35fba929f4122f4638f7d0bfade42afdd3a47cea6b8b5c",
+      "scoring_seconds": 237.41579546872526
+    },
+    {
+      "round": 8,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "871bd61ec2d49b51653a7da62406209c76e2f1722c140230e8eace45d609009c",
+      "psnr": 20.22256831283264,
+      "score": 0.46335539851256957,
+      "gpu_job_id": "191e1af1-a18d-4ff4-b7ae-8e961b8d97e1",
+      "nodes_sha256": "73a403930fbfb764dfb253e32c7da07029d911d6aa1a2abe8b3525b19caa16be",
+      "scoring_seconds": 237.89180514588952
+    },
+    {
+      "round": 9,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "dc4b6575cd084b49f5bf415bca7be8422cbcb744dc80719fc9eba26dc2abe68c",
+      "psnr": 19.35956474237743,
+      "score": -0.0010830008148665206,
+      "gpu_job_id": "9e1c6b94-5e08-4bce-a283-529305143d6d",
+      "nodes_sha256": "b480d7ed5e3c00f46f3d28b56b51a7707caf4ae0952c1d6a21f6022213c95df8",
+      "scoring_seconds": 238.79488753061742
+    },
+    {
+      "round": 10,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "63e9e6a315c444dd56830f58cc541c2f2333468616a629ed86aa1f9ff9b76e10",
+      "psnr": 19.342618834310464,
+      "score": -0.010202697056238871,
+      "gpu_job_id": "b1d2870c-c71d-445b-a10e-52a954b497b2",
+      "nodes_sha256": "215e3b938cefadcac431755fc73adbcc08f51c5c1a26819597b581f54087919b",
+      "scoring_seconds": 239.06203788612038
+    },
+    {
+      "round": 11,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "4673590990718a7bd99f94b2ae90e559138c90e1de77c39fcf1d266a4c0d6a38",
+      "psnr": 19.627707401550804,
+      "score": 0.1432220190962277,
+      "gpu_job_id": "883bead5-0398-4cee-b035-4d8f727b277b",
+      "nodes_sha256": "adf04d6035fbdad7fddfa5cb43b570fcfb1d447049642b38cbbdad1e9b95f558",
+      "scoring_seconds": 238.1415962856263
+    },
+    {
+      "round": 12,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "db2ba40bc34365078705adc652f48d1f0dc5350db0069807f375af933b496022",
+      "psnr": 19.64312655881425,
+      "score": 0.1515200713448816,
+      "gpu_job_id": "f02433ca-8fc2-4d67-84ea-4839147f690e",
+      "nodes_sha256": "28eec6cc6437c95e498b5eafcffd9e9b70fc69adf24d389f064cba2da94ad73a",
+      "scoring_seconds": 238.49108634423465
+    },
+    {
+      "round": 13,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "1a23b0ccd17e3d0825dacc5502c1837a60afdec63dd892b3e512f83b021e23b7",
+      "psnr": 20.65104213455171,
+      "score": 0.693945053904085,
+      "gpu_job_id": "d02471d0-6fe8-4e33-88f1-7cc64797996d",
+      "nodes_sha256": "ed38e69e52cb11289828a7a3e0cfbde0df441ab304d55971ac6ad6dfb5d4974b",
+      "scoring_seconds": 238.76394255273044
+    }
+  ],
+  "new_exploration_count": 3,
+  "cumulative_exploration_count": 12,
+  "starter_count": 1,
+  "clean_rerun_count": 0,
+  "segment_exploration_gpu_scoring_seconds": 715.3966251825914,
+  "cumulative_exploration_gpu_scoring_seconds": 2858.465471651405,
+  "unique_gpu_jobs": 13,
+  "unique_node_hashes": 13,
+  "prior_round_files_unchanged": true,
+  "frozen_files_changed": [],
+  "best": {
+    "round": 13,
+    "directory": "round_000013",
+    "policy_name": "quadratic_one_interval_budget_exchange",
+    "psnr": 20.65104213455171,
+    "score": 0.693945053904085,
+    "method_sha256": "1a23b0ccd17e3d0825dacc5502c1837a60afdec63dd892b3e512f83b021e23b7",
+    "explanation": "单区间预算交换得到公开 PSNR=20.6510421346，比此前最佳提高 0.4259499718 dB，比 Starter 提高 1.2894649971 dB，保留。保留首个噪声端小区间、把一份内部高时间预算转到末端拆分的组合获得实测改善；合并与拆分的独立贡献仍需后续真实评分分离。"
+  },
+  "final_cpu_schedule_matches_gpu_receipt": true,
+  "expert_lower_bound_gate": "independent audit pending"
+}

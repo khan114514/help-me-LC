@@ -1,0 +1,11 @@
+test_native_open_cannot_read_outside_input (__main__.CandidateBoundary.test_native_open_cannot_read_outside_input) ... ok
+test_native_socket_denied (__main__.CandidateBoundary.test_native_socket_denied) ... ok
+test_nonfinite_is_invalid (__main__.CandidateBoundary.test_nonfinite_is_invalid) ... ok
+test_symlink_method_rejected (__main__.CandidateBoundary.test_symlink_method_rejected) ... ok
+test_unbounded_stdout_is_resource_failure (__main__.CandidateBoundary.test_unbounded_stdout_is_resource_failure) ... ok
+test_valid_math_schedule (__main__.CandidateBoundary.test_valid_math_schedule) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.176s
+
+OK

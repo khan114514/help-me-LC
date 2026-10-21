@@ -1,0 +1,8 @@
+{
+  "decision": "reject",
+  "purpose": "exploration",
+  "explanation": "末端节点 0.040→0.032 的公开 PSNR=20.5908474983，比当前最佳低 0.0601946362 dB，拒绝。缩短图像端第一步未改善平均 PSNR，保留原 0.040 等分；本段三个探索均合法完成，累计最佳仍为第 13 轮的一次预算交换。",
+  "psnr": 20.59084749834102,
+  "best_round": 13,
+  "method_sha256": "f585e4c90f3fefdc7834132759c0f0d918ed4c6f236fc52f8f5a33f0a33ecea8"
+}

@@ -1,0 +1,130 @@
+{
+  "status": "PASSED",
+  "task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "started_at": "2026-10-04T12:27:19.931016+00:00",
+  "native_agent": "nop",
+  "model_calls": 0,
+  "research_credit_seconds": 0,
+  "job_id": "fb3abb6b-361e-4b2d-987b-86e508c73bdd",
+  "job_dir": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01",
+  "trial_uuid": "ab972d61-e4b8-45b5-b359-c6d57158eb38",
+  "trial_name": "rfsteps-v341-build-check-2026100__QTvtVoh",
+  "trial_dir": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh",
+  "gpu_job_id": "49b94096-d370-4b96-8677-32a7b7553579",
+  "reward": {
+    "reward": 0.0,
+    "psnr": 19.528882409499996,
+    "ssim": 0.6360678995088689,
+    "nfe_per_image": 100.0
+  },
+  "scoring_seconds": 308.06073663569987,
+  "trusted_receipt": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/49b94096-d370-4b96-8677-32a7b7553579.json",
+  "trusted_receipt_sha256": "b7d4b2f951ed7b7d6fea9960e6666790f6e6cbbbc4e2b1dbe88ea2c7c5471348",
+  "actual_exception": null,
+  "runtimes": [
+    {
+      "role": "agent",
+      "session_id": "rfsteps-v341-build-check-2026100__QTvtVoh__env",
+      "cid": "6e8ab615a6d62a3df7a474331ffcd4afae0c4a2677147b6157039c746b80a67d",
+      "image_id": "sha256:e54b21181cc5d1ec423e39ee825ac38812c1662e751a264d3b50357a7f7b9d0d",
+      "cold_image_id": "sha256:22aff3587bb3b4855060cc5a25a3ff15b9273bdeec179d733792ee6e48442493",
+      "content_sha256": "bf5bfc1e6916ccfb220754c5e165c68432afcedf2740978ca7a3eb21f5d6d2a1",
+      "direct_image_content_equal": true,
+      "image_recipe": "Architecture/Os/RootFS/Config except Labels; sorted compact JSON SHA256",
+      "socket": {
+        "path": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+        "inode": 1978676,
+        "device": 64514,
+        "uid": 0,
+        "mode": 438
+      },
+      "mounts": [
+        {
+          "source": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/agent",
+          "destination": "/logs/agent",
+          "rw": true,
+          "type": "bind"
+        },
+        {
+          "source": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/artifacts/logs/artifacts",
+          "destination": "/logs/artifacts",
+          "rw": true,
+          "type": "bind"
+        },
+        {
+          "source": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/verifier",
+          "destination": "/logs/verifier",
+          "rw": true,
+          "type": "bind"
+        },
+        {
+          "source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+          "destination": "/run/rfsteps/public.sock",
+          "rw": false,
+          "type": "bind"
+        }
+      ],
+      "cpus": 2,
+      "memory_bytes": 2147483648,
+      "readonly_rootfs": true,
+      "cap_add": [
+        "SETGID",
+        "SETUID"
+      ],
+      "task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "live_adapter_sha256": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+      "native_nop": true,
+      "model_calls": 0,
+      "research_credit_seconds": 0
+    },
+    {
+      "role": "verifier",
+      "session_id": "rfsteps-v341-build-check-2026100__QTvtVoh__verifier__trial",
+      "cid": "978653aaf205e1ad3131bafdde188999bac6f134053cd70678f0454f87e1b168",
+      "image_id": "sha256:8825c1ef3bf78926f531630e394be913179b352f91efcf898d13950784f61396",
+      "cold_image_id": "sha256:083355fcfe79da0533990e461e7db1e7857162b9486934f381dd48bfaef7e128",
+      "content_sha256": "8113fd6c6afa6210bea76c1c1acd11f2062ee580247269b667af547fe3dcd35a",
+      "direct_image_content_equal": true,
+      "image_recipe": "Architecture/Os/RootFS/Config except Labels; sorted compact JSON SHA256",
+      "socket": {
+        "path": "/historical-root/rfsteps-v341-rpc-20261004/sockets/formal.sock",
+        "inode": 1978678,
+        "device": 64514,
+        "uid": 0,
+        "mode": 384
+      },
+      "mounts": [
+        {
+          "source": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/verifier",
+          "destination": "/logs/verifier",
+          "rw": true,
+          "type": "bind"
+        },
+        {
+          "source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/formal.sock",
+          "destination": "/run/rfsteps/formal.sock",
+          "rw": false,
+          "type": "bind"
+        }
+      ],
+      "cpus": 2,
+      "memory_bytes": 2147483648,
+      "readonly_rootfs": true,
+      "cap_add": [
+        "SETGID",
+        "SETUID"
+      ],
+      "task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "live_adapter_sha256": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+      "native_nop": true,
+      "model_calls": 0,
+      "research_credit_seconds": 0
+    }
+  ],
+  "full_count": 16,
+  "nfe_per_image": 100,
+  "solution_source_sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+  "solver_sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+  "transfer_report_count": 1,
+  "finished_at": "2026-10-04T12:34:28.404503+00:00"
+}

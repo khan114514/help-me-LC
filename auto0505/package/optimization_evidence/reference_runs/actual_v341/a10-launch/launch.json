@@ -1,0 +1,27 @@
+{
+  "unit": "rfsteps-v341-clean-reference-attempt02",
+  "command": [
+    "systemd-run",
+    "--unit=rfsteps-v341-clean-reference-attempt02",
+    "--property=Type=exec",
+    "--property=RuntimeMaxSec=7200",
+    "--property=StandardOutput=append:/historical-root/rfsteps-v341-clean-reference-launch-20261004/attempt02/run.stdout",
+    "--property=StandardError=append:/historical-root/rfsteps-v341-clean-reference-launch-20261004/attempt02/run.stderr",
+    "--setenv=RFSTEPS_SOCKET_ROOT=/historical-root/rfsteps-v341-rpc-20261004/sockets",
+    "--setenv=PYTHONPATH=/historical-root/rfsteps-v341-clean-reference-runtime-20261004/attempt02",
+    "/opt/miniconda3/bin/python3",
+    "-B",
+    "/historical-root/rfsteps-v341-clean-reference-runtime-20261004/attempt02/run_reference.py",
+    "--source-manifest-sha256",
+    "62bc7454d27d36fbf281663cca950fc4bab44d1b14818f481cdf74d2d0aee01a"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "Running as unit: rfsteps-v341-clean-reference-attempt02.service\n",
+  "launched_at": "2026-10-04T13:21:15.252125+00:00",
+  "purpose": "expert_clean_reference",
+  "is_NOP": false,
+  "Task": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "model_calls": 0,
+  "research_credit_seconds": 0
+}

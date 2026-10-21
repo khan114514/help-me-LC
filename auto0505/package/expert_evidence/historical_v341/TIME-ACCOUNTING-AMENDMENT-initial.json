@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "source": "Direct human correction on 2026-10-05 Asia/Shanghai",
+  "user_text": "时间怎么能算这么紧的，就是把网络连不上的那些时候去除，然后其余的都应该算上。时间肯定够的。",
+  "rule": "Per-model actual research interval union minus evidenced network-unavailable intervals; all other actual research process time included. GPT and Seed counted independently.",
+  "gpu_scoring_seconds": "Preserved as a diagnostic lower bound, not total effective research duration or the user time gate.",
+  "historical_resets": "Historical actual research duration is not zeroed merely because source/ledger/version was repaired; scientific scores retain their original versions and evidence scope.",
+  "inactive_periods": "Track intervals require actual run evidence; arbitrary elapsed calendar time is not invented as track execution.",
+  "status": "RECONCILIATION_IN_PROGRESS",
+  "runtime_gate_status": "Existing remote frozen driver still uses the earlier GPU-only threshold. This record does not pretend that live gate has been changed."
+}

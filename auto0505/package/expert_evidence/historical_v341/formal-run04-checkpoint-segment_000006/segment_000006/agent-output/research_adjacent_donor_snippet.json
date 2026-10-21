@@ -1,0 +1,4 @@
+{
+  "old": "        remove = min(range(2, len(nodes) - 1),\n                     key=lambda i: (nodes[i - 1] - nodes[i + 1], i))\n",
+  "new": "        eligible = [i for i in range(2, len(nodes) - 1) if nodes[i] <= 0.98]\n        if not eligible:\n            eligible = list(range(2, len(nodes) - 1))\n        remove = min(eligible,\n                     key=lambda i: (round(resolution * (nodes[i - 1] - nodes[i + 1])), i))\n"
+}

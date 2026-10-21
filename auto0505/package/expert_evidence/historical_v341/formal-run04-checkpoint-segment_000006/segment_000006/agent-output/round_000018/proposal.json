@@ -1,0 +1,5 @@
+{
+  "policy_name": "quadratic_adjacent_high_time_donor_exchange",
+  "purpose": "exploration",
+  "method_summary": "保留最佳的末端 0.040 等分，将高时间预算合并位置从删除 0.984 改为删除相邻的 0.976。用整数网格间隔确定最短可合并区间，保留 t>0.98 节点；该对照检验邻近预算来源的效果，不增加步数。"
+}

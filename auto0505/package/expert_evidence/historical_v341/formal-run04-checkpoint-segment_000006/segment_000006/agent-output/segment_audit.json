@@ -1,0 +1,62 @@
+{
+  "checks": [
+    {
+      "round": 1,
+      "purpose": "starter",
+      "status": "ok",
+      "method_sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "psnr": 19.361577137501065,
+      "gpu_job_id": "52c30802-5957-4b04-88de-4ac645330218",
+      "nodes_sha256": "a2a74cba18f963bf00245edde3452535627888905664e63007434076828ff427",
+      "scoring_seconds": 237.2350991172716
+    },
+    {
+      "round": 2,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "bef7a3bc61f9358d45c8d00c02fa5b0ca69a5f58528368a5ecbeb5d2d8e8d4a5",
+      "psnr": 17.959306788303643,
+      "gpu_job_id": "08d7e00b-74a8-4a00-bc1c-dd1627773beb",
+      "nodes_sha256": "f01d9b1c72f25ec8332a62e7c9145f8e0faadc63d18d8051ed5661e7061a6c72",
+      "scoring_seconds": 236.5558069422841
+    },
+    {
+      "round": 3,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "17965d22465a8bb133b4aa51e0cb6562be6e3139ab080c8a1ed14412a5352b26",
+      "psnr": 19.546817861597415,
+      "gpu_job_id": "ac1b633a-4e09-4208-9fd9-2bc95eb3880e",
+      "nodes_sha256": "91fa1f3764ceecd951821f684ad9d544531cbd746ede430ab1406115a4599595",
+      "scoring_seconds": 238.04985779710114
+    },
+    {
+      "round": 4,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "ca0cf0e2f5236d813f779dca8ca9aeac801aad6050cfa52cf312f34a0017be2e",
+      "psnr": 19.61162232893616,
+      "gpu_job_id": "48f255a0-c288-4244-9aac-4d276e8b2e65",
+      "nodes_sha256": "90bef3adda2d8e0c0fd953ca12c9e4945ba2c7aa55f07555040b7452f47e2176",
+      "scoring_seconds": 240.43531494680792
+    }
+  ],
+  "new_exploration_count": 3,
+  "starter_count": 1,
+  "clean_rerun_count": 0,
+  "unique_gpu_job_ids": 4,
+  "unique_node_hashes": 4,
+  "exploration_gpu_scoring_seconds": 715.0409796861932,
+  "frozen_files_changed": [],
+  "retained_best": {
+    "round": 4,
+    "directory": "round_000004",
+    "policy_name": "bf16_aligned_quadratic_noise_density",
+    "psnr": 19.61162232893616,
+    "score": 0.13456559444867944,
+    "method_sha256": "ca0cf0e2f5236d813f779dca8ca9aeac801aad6050cfa52cf312f34a0017be2e",
+    "explanation": "平方余时间与 BF16 对齐的公开 PSNR=19.6116223289，比当前最佳 μ=1.20 提高 0.0648044673 dB，比 Starter 提高 0.2500451914 dB，保留。SSIM 未同步提升，说明收益应按指定平均 PSNR 判断；本段完成恰好三个新探索。"
+  },
+  "solution_matches_evaluated_bytes": true,
+  "expert_lower_bound_gate": "not asserted; expert audit pending"
+}

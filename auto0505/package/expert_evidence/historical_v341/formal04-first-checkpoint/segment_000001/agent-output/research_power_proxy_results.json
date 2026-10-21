@@ -1,0 +1,77 @@
+[
+  {
+    "sigma_data": 0.1,
+    "power": 1,
+    "proxy_mse": 1.3359286451518101e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "power": 1.25,
+    "proxy_mse": 1.2137388624726076e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "power": 1.5,
+    "proxy_mse": 1.5764319634141314e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "power": 1.75,
+    "proxy_mse": 1.95184063367731e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "power": 2,
+    "proxy_mse": 2.5316752074895217e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "power": 1,
+    "proxy_mse": 1.8637943468213368e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "power": 1.25,
+    "proxy_mse": 1.9349134402354882e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "power": 1.5,
+    "proxy_mse": 2.3684777698136857e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "power": 1.75,
+    "proxy_mse": 3.366866158456561e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "power": 2,
+    "proxy_mse": 4.8120581281999555e-06
+  },
+  {
+    "sigma_data": 0.4,
+    "power": 1,
+    "proxy_mse": 4.17758511711073e-08
+  },
+  {
+    "sigma_data": 0.4,
+    "power": 1.25,
+    "proxy_mse": 6.074002336484981e-08
+  },
+  {
+    "sigma_data": 0.4,
+    "power": 1.5,
+    "proxy_mse": 8.839535196887691e-08
+  },
+  {
+    "sigma_data": 0.4,
+    "power": 1.75,
+    "proxy_mse": 1.3070788831670152e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "power": 2,
+    "proxy_mse": 1.9360498534054858e-07
+  }
+]

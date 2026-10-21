@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "passed": [
+    "synthetic_full16_binding",
+    "wrong_nodes",
+    "wrong_source",
+    "public_role",
+    "nonzero",
+    "wrong_reward",
+    "wrong_count"
+  ],
+  "model_calls": 0,
+  "GPU_calls": 0,
+  "candidate_executed": false
+}

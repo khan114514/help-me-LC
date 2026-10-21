@@ -1,0 +1,42 @@
+{
+    "task": {
+        "path": "/historical-root/rfsteps-v341-build-check-20261004"
+    },
+    "trial_name": "rfsteps-v341-build-check-2026100__Q8zdwcX",
+    "trials_dir": "/historical-root/rfsteps-v341-research-jobs-20261004/rfsteps-v341-gpt-formal-research-04",
+    "agent_timeout_multiplier": 2.0,
+    "verifier_timeout_multiplier": 1.0,
+    "agent": {
+        "name": "continuation_research_codex:ContinuationResearchCodex",
+        "model_name": "gpt-6.1-sol",
+        "kwargs": {
+            "role": "gpt",
+            "reasoning_effort": "xhigh",
+            "web_search": "disabled",
+            "bridge_source_dir": "/historical-root/rfsteps-v341-model-rpc-20261004/source",
+            "control_task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+            "ledger_policy_path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/policy.json",
+            "ledger_bindings_path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/initial-bindings.json",
+            "research_archive_root": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive",
+            "trusted_rpc_receipts_root": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004",
+            "max_segments": 512,
+            "max_no_progress_segments": 3
+        }
+    },
+    "environment": {
+        "type": "docker",
+        "delete": false,
+        "mounts": [
+            {
+                "type": "bind",
+                "source": "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/gpt.sock",
+                "target": "/run/rfsteps-model/gpt.sock",
+                "read_only": true
+            }
+        ],
+        "kwargs": {
+            "keep_containers": false
+        }
+    },
+    "job_id": "255dea45-721f-4980-b54c-6ccc03eeb2e4"
+}

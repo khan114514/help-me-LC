@@ -1,0 +1,5 @@
+{
+  "policy_name": "high_noise_logit_shift_mu_1.20",
+  "purpose": "exploration",
+  "method_summary": "均匀分配实测退化，因此将 Starter 的偏移 μ=0.63 增至 1.20，增强高时间端密度。最后高噪声区间缩短至约 0.0124，以检验噪声端积分误差是否主导重建。"
+}

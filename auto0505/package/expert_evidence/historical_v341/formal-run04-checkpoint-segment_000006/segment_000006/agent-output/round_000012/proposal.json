@@ -1,0 +1,5 @@
+{
+  "policy_name": "quadratic_high_time_uniform_low_time_tail",
+  "purpose": "exploration",
+  "method_summary": "保留当前最佳 t>0.536 的节点，把剩余 8 个区间均匀分配后投影至 1/125 网格。最大间隔由 0.080 降至 0.072，以检验低时间尾部的最大步长是否主导往返误差，而不改变噪声端密度。"
+}

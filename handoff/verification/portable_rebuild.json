@@ -1,0 +1,9 @@
+{
+  "status": "PASS_PORTABLE_REBUILD",
+  "same_task_file_bytes": true,
+  "task_files": 66,
+  "fresh_unrelated_directory": true,
+  "numerical_scorer_sha256": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9",
+  "GPU_or_Harbor_claimed": false,
+  "scope": "Copied handoff only; ran patch_runtime and assemble_package without original workstation directories."
+}

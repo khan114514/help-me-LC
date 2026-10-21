@@ -1,0 +1,38 @@
+{
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "scope": "Existing container/resource/isolation/IO/UDS stability samples; not continuous RPC availability.",
+  "source_sha256": "693409b10c9509162879056fb20b893a43db04629db7b15c4fcb3079828fcf5b",
+  "tracks": {
+    "gpt": {
+      "passed": true,
+      "sample_count": 721,
+      "last_elapsed_seconds": 43200.059968128,
+      "first_sample_utc": "2026-10-04T12:11:53.669320+00:00",
+      "last_sample_utc": "2026-10-05T00:11:53.732978+00:00",
+      "summary": {
+        "continuous_stability_seconds": 43200.281585836,
+        "sample_count": 721,
+        "research_effective_seconds": 0,
+        "status": "COMPLETE"
+      },
+      "failure_types": [],
+      "evidence": "original/gpt/stability.jsonl"
+    },
+    "seed": {
+      "passed": true,
+      "sample_count": 721,
+      "last_elapsed_seconds": 43200.06077189301,
+      "first_sample_utc": "2026-10-04T12:11:53.570698+00:00",
+      "last_sample_utc": "2026-10-05T00:11:53.626215+00:00",
+      "summary": {
+        "continuous_stability_seconds": 43200.28150372401,
+        "sample_count": 721,
+        "research_effective_seconds": 0,
+        "status": "COMPLETE"
+      },
+      "failure_types": [],
+      "evidence": "original/seed/stability.jsonl"
+    }
+  },
+  "all_passed": true
+}

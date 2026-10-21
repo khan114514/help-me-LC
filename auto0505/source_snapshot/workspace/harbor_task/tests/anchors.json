@@ -1,0 +1,63 @@
+{
+  "task": "rfsteps",
+  "created": "2026-10-02T19:54:09+0000",
+  "note": "anchors \u5728\u8f68\u8ff9\u542f\u52a8\u540e\u7ea6 1.5h \u7531 pilot \u5b9e\u8dd1\u751f\u6210\u5e76\u56de\u586b\uff1b\u6b64\u524d\u8f6e\u6b21\u4ee5\u539f\u59cb PSNR \u4e3a\u51c6\uff0cscore \u53ef\u6309\u672c\u6587\u4ef6\u56de\u6eaf\u91cd\u7b97",
+  "determinism_check": {
+    "mushift_run1": 19.528882409499996,
+    "mushift_run2": 19.528882409499996
+  },
+  "baseline": {
+    "name": "time_shift(mu~0.63) official flux-dev default",
+    "full": {
+      "psnr": 19.528882409499996
+    },
+    "public": {
+      "psnr": 19.361577137501065
+    },
+    "hidden": {
+      "psnr": 20.030798225496785
+    }
+  },
+  "reference": {
+    "name": "sine",
+    "full": {
+      "psnr": 20.45734928422148
+    },
+    "public": {
+      "psnr": 20.22483156573475
+    },
+    "hidden": {
+      "psnr": 21.15490243968167
+    }
+  },
+  "upper_bound": {
+    "name": "codex round61 embedding-aware soft-sine DP (bf16 quantization-aware), agent-measured ceiling",
+    "full": {
+      "psnr": 21.535623309030747
+    },
+    "public": {
+      "psnr": 21.21974298189495
+    },
+    "hidden": {
+      "psnr": 22.483264290438154
+    },
+    "source": "expert_evidence/final_verify_codex_metrics.json (method sha256 8b34e25306187b02cf1e21681a8e86797d5fbadcbec8a9657cac309ff041e051)",
+    "calibration": "v3 上限校准：取双轨 Agent 同协议实测最强 schedule（codex round61，组织者 full split 复核值）。Reference 归一化 (R-B)/(U-B)=0.4627∈[0.15,0.8]。"
+  },
+  "note_v3": "2026-10-03 协议 v3：新增独立上限锚点 upper_bound（v2 为 U≡Reference，归一化结构性 1.0，QA G03 不通过后整改）。v3 scorer sha256=23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9（tests/run_eval.py，相对 v2 仅改 score 计算（U 制、未裁剪 + score_clipped 展示分）、结果原子写与路径环境变量化；PSNR/SSIM 测量路径与 v2 scorer(17e17794) 完全一致，既有 B/R/U 测量值继续有效）。",
+  "scorer_sha256_v2_runs": "17e1779437e61328f40c7574826a216a007d04f663798371c38dae9590382dc9",
+  "candidates_full_psnr": {
+    "mushift": 19.528882409499996,
+    "uniform": 17.856734441704795,
+    "sine": 20.45734928422148,
+    "square": 15.525029259725066,
+    "mu15": 20.150706575951347
+  },
+  "weights_sha256": {
+    "flux1-dev": "4610115bb0c89560703c892c59ac2742fa821e60ef5871b33493ba544683abd7",
+    "ae": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38",
+    "t5": "565cb2487351282e8e4dbeb88e63f4ad28217ce0439f5a8e6525a924807d2d9b",
+    "clip": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb"
+  },
+  "scorer_sha256": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9"
+}

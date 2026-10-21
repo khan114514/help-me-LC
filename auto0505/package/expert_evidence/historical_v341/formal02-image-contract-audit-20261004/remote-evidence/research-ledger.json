@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "evidence_mode": "formal",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "gpu_uuid": "GPU-3c13714e-bfde-e7e7-8f1e-be9b84370014",
+  "worker_sha256": "ccffdfadb024de6f7a26f47769eb5b2060d53d31f8c302013f34c48f41d6bf96",
+  "scorer_sha256": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9",
+  "numerical_controller_sha256": "5f7a675a0710d8d4a349923e18d6103f1915e96e22df250d2cc3fb9538491452",
+  "controller_sha256": "ec1279ff4722a89e4f564f3f2ac1533745dcd2bba766d420a7b5f13432b1a0a1",
+  "lifecycle_sha256": "a44a8c15b0e91fee0693ec451dd368b0f6cb83cde4982be9c52564207ab5c948",
+  "known_fixed_nodes_count": 9,
+  "known_fixed_vectors_count": 9,
+  "near_duplicate_absolute_tolerance": 1e-12,
+  "near_duplicate_rule": "all 26 absolute per-node differences <= fixed tolerance; compare every prior legal vector per track",
+  "near_duplicate_limit": "conservative exclusion may discard small genuine differences; not an exact BF16/FP32 execution equivalence model",
+  "row_time_source": "receipt.scoring_finished_at",
+  "qualifying_clock": "receipt.scoring_seconds: frozen worker time.monotonic, Popen through wait",
+  "model_clock_qualification": "unavailable: first response byte can be nonsemantic SSE ping",
+  "metrics_elapsed_sec_clock": "time.time wall duration; never used for qualification",
+  "single_gpu_two_track_minimum_scoring_seconds": 72000,
+  "claim_scope": "timing lower bound only; no NOP, 12h stability, isolation or platform acceptance claim",
+  "tracks": {
+    "gpt": {
+      "model": "gpt-6.1-sol",
+      "effort": "xhigh",
+      "formal_started_at": "2026-10-04T13:34:05.725939+00:00",
+      "qualifying_scoring_seconds": 0.0,
+      "qualifying_model_seconds": null,
+      "effective_research_seconds": null,
+      "conservative_lower_bound_seconds": 0.0,
+      "conservative_lower_bound_hours": 0.0,
+      "target_seconds": 36000,
+      "target_met_by_audited_lower_bound": false,
+      "state": "INCOMPLETE",
+      "observed_provider": {
+        "successful_completed_requests": 56,
+        "successful_stream_wall_union_seconds": 1193.603,
+        "successful_request_wall_union_seconds": 1542.312,
+        "events_sha256": "534c45f1113855e5cb0d989916f04f90d69abf3707f2d73b7661d9882af78c7b",
+        "ignored_nonterminal_or_other_role_lines": 83,
+        "rejected": [
+          {
+            "line": 3,
+            "reason": "provider_time_order"
+          },
+          {
+            "line": 5,
+            "reason": "provider_time_order"
+          },
+          {
+            "line": 25,
+            "reason": "provider_time_order"
+          },
+          {
+            "line": 27,
+            "reason": "provider_time_order"
+          }
+        ]
+      },
+      "accepted_rounds": [],
+      "research_effective_lower_bound_seconds": 0.0,
+      "gate_pass": false,
+      "all_tools_failed": false,
+      "errors": [
+        {
+          "round": 1,
+          "reason": "metrics_public_images"
+        },
+        {
+          "round": 2,
+          "reason": "metrics_public_images"
+        },
+        {
+          "round": 3,
+          "reason": "metrics_public_images"
+        },
+        {
+          "round": 4,
+          "reason": "metrics_public_images"
+        },
+        {
+          "round": 5,
+          "reason": "metrics_public_images"
+        }
+      ]
+    },
+    "seed": {
+      "model": "doubao-seed-2-1-turbo-260628",
+      "effort": "high",
+      "formal_started_at": null,
+      "qualifying_scoring_seconds": 0.0,
+      "qualifying_model_seconds": null,
+      "effective_research_seconds": null,
+      "conservative_lower_bound_seconds": 0.0,
+      "conservative_lower_bound_hours": 0.0,
+      "target_seconds": 36000,
+      "target_met_by_audited_lower_bound": false,
+      "state": "NOT_STARTED",
+      "observed_provider": {
+        "successful_completed_requests": 0,
+        "successful_stream_wall_union_seconds": null,
+        "successful_request_wall_union_seconds": null,
+        "events_sha256": "534c45f1113855e5cb0d989916f04f90d69abf3707f2d73b7661d9882af78c7b",
+        "ignored_nonterminal_or_other_role_lines": 139,
+        "rejected": [
+          {
+            "line": 7,
+            "reason": "formal_not_started"
+          },
+          {
+            "line": 9,
+            "reason": "formal_not_started"
+          },
+          {
+            "line": 29,
+            "reason": "formal_not_started"
+          },
+          {
+            "line": 31,
+            "reason": "formal_not_started"
+          }
+        ]
+      },
+      "accepted_rounds": [],
+      "research_effective_lower_bound_seconds": 0.0,
+      "gate_pass": false,
+      "all_tools_failed": null,
+      "errors": []
+    }
+  },
+  "round_audit": [
+    {
+      "track": "gpt",
+      "round": 1,
+      "contribution_seconds": 0.0,
+      "status": "excluded",
+      "reason": "metrics_public_images",
+      "native_tools_verified": true
+    },
+    {
+      "track": "gpt",
+      "round": 2,
+      "contribution_seconds": 0.0,
+      "status": "excluded",
+      "reason": "metrics_public_images",
+      "native_tools_verified": true
+    },
+    {
+      "track": "gpt",
+      "round": 3,
+      "contribution_seconds": 0.0,
+      "status": "excluded",
+      "reason": "metrics_public_images",
+      "native_tools_verified": true
+    },
+    {
+      "track": "gpt",
+      "round": 4,
+      "contribution_seconds": 0.0,
+      "status": "excluded",
+      "reason": "metrics_public_images",
+      "native_tools_verified": true
+    },
+    {
+      "track": "gpt",
+      "round": 5,
+      "contribution_seconds": 0.0,
+      "status": "excluded",
+      "reason": "metrics_public_images",
+      "native_tools_verified": true
+    }
+  ]
+}

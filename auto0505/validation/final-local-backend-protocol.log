@@ -1,0 +1,14 @@
+test_asset_corruption_stops_before_gpu (__main__.BackendProtocol.test_asset_corruption_stops_before_gpu) ... ok
+test_changed_normalization_rejected (__main__.BackendProtocol.test_changed_normalization_rejected) ... ok
+test_gpu_inventory_failure_is_classified (__main__.BackendProtocol.test_gpu_inventory_failure_is_classified) ... ok
+test_gpu_inventory_timeout_is_infrastructure_failure (__main__.BackendProtocol.test_gpu_inventory_timeout_is_infrastructure_failure) ... ok
+test_invalid_nfe_rejected (__main__.BackendProtocol.test_invalid_nfe_rejected) ... ok
+test_nonfinite_per_image_rejected (__main__.BackendProtocol.test_nonfinite_per_image_rejected) ... ok
+test_nonzero_scorer_retains_failure_receipt (__main__.BackendProtocol.test_nonzero_scorer_retains_failure_receipt) ... ok
+test_numeric_bridge_identity_and_atomic_receipt (__main__.BackendProtocol.test_numeric_bridge_identity_and_atomic_receipt) ... ok
+test_wrong_candidate_identity_rejected (__main__.BackendProtocol.test_wrong_candidate_identity_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.815s
+
+OK

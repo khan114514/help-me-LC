@@ -1,0 +1,326 @@
+[
+  {
+    "sigma_data": 0.1,
+    "mu": 0.63,
+    "logit_power": 1,
+    "proxy_mse": 6.237513389255635e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": 0.63,
+    "logit_power": 1.25,
+    "proxy_mse": 7.800020448701458e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": 0.63,
+    "logit_power": 1.5,
+    "proxy_mse": 1.103894400704482e-05
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": 0,
+    "logit_power": 1,
+    "proxy_mse": 1.3359286451517202e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": 0,
+    "logit_power": 1.25,
+    "proxy_mse": 3.6568059127638295e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": 0,
+    "logit_power": 1.5,
+    "proxy_mse": 9.495214232037129e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -0.4,
+    "logit_power": 1,
+    "proxy_mse": 6.730592396558388e-07
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -0.4,
+    "logit_power": 1.25,
+    "proxy_mse": 2.6281006471224494e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -0.4,
+    "logit_power": 1.5,
+    "proxy_mse": 5.395765122777052e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -0.63,
+    "logit_power": 1,
+    "proxy_mse": 6.238419378875673e-07
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -0.63,
+    "logit_power": 1.25,
+    "proxy_mse": 2.3490270248257966e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -0.63,
+    "logit_power": 1.5,
+    "proxy_mse": 5.550435494780404e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -1,
+    "logit_power": 1,
+    "proxy_mse": 7.54383411678374e-07
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -1,
+    "logit_power": 1.25,
+    "proxy_mse": 2.7367402450199775e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -1,
+    "logit_power": 1.5,
+    "proxy_mse": 8.05833134885981e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -1.4,
+    "logit_power": 1,
+    "proxy_mse": 1.4395237117569274e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -1.4,
+    "logit_power": 1.25,
+    "proxy_mse": 4.247942807770036e-06
+  },
+  {
+    "sigma_data": 0.1,
+    "mu": -1.4,
+    "logit_power": 1.5,
+    "proxy_mse": 7.906316836559323e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": 0.63,
+    "logit_power": 1,
+    "proxy_mse": 1.3471171388505612e-05
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": 0.63,
+    "logit_power": 1.25,
+    "proxy_mse": 1.429148081917472e-05
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": 0.63,
+    "logit_power": 1.5,
+    "proxy_mse": 2.649835241039037e-05
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": 0,
+    "logit_power": 1,
+    "proxy_mse": 1.8637943468213391e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": 0,
+    "logit_power": 1.25,
+    "proxy_mse": 5.563247822744955e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": 0,
+    "logit_power": 1.5,
+    "proxy_mse": 1.2118559551589242e-05
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -0.4,
+    "logit_power": 1,
+    "proxy_mse": 1.093566384053209e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -0.4,
+    "logit_power": 1.25,
+    "proxy_mse": 3.77612988976166e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -0.4,
+    "logit_power": 1.5,
+    "proxy_mse": 1.21044998189918e-05
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -0.63,
+    "logit_power": 1,
+    "proxy_mse": 9.87988057959789e-07
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -0.63,
+    "logit_power": 1.25,
+    "proxy_mse": 3.6642464583314484e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -0.63,
+    "logit_power": 1.5,
+    "proxy_mse": 1.160919999123687e-05
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -1,
+    "logit_power": 1,
+    "proxy_mse": 1.1996433352263752e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -1,
+    "logit_power": 1.25,
+    "proxy_mse": 4.095002058159278e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -1,
+    "logit_power": 1.5,
+    "proxy_mse": 1.097608691239501e-05
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -1.4,
+    "logit_power": 1,
+    "proxy_mse": 2.3660178961260347e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -1.4,
+    "logit_power": 1.25,
+    "proxy_mse": 6.2935907143370685e-06
+  },
+  {
+    "sigma_data": 0.2,
+    "mu": -1.4,
+    "logit_power": 1.5,
+    "proxy_mse": 1.5783243903188236e-05
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": 0.63,
+    "logit_power": 1,
+    "proxy_mse": 8.559168436433192e-08
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": 0.63,
+    "logit_power": 1.25,
+    "proxy_mse": 3.8201323071852755e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": 0.63,
+    "logit_power": 1.5,
+    "proxy_mse": 9.182677451457299e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": 0,
+    "logit_power": 1,
+    "proxy_mse": 4.1775851171116106e-08
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": 0,
+    "logit_power": 1.25,
+    "proxy_mse": 1.7398088227451803e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": 0,
+    "logit_power": 1.5,
+    "proxy_mse": 5.049455340308503e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -0.4,
+    "logit_power": 1,
+    "proxy_mse": 3.538914602107306e-08
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -0.4,
+    "logit_power": 1.25,
+    "proxy_mse": 1.4632065463741166e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -0.4,
+    "logit_power": 1.5,
+    "proxy_mse": 4.4169667996341365e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -0.63,
+    "logit_power": 1,
+    "proxy_mse": 3.7782335904249266e-08
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -0.63,
+    "logit_power": 1.25,
+    "proxy_mse": 1.504308987506548e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -0.63,
+    "logit_power": 1.5,
+    "proxy_mse": 4.4833274330862476e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -1,
+    "logit_power": 1,
+    "proxy_mse": 5.5548467878851563e-08
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -1,
+    "logit_power": 1.25,
+    "proxy_mse": 1.920773109464808e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -1,
+    "logit_power": 1.5,
+    "proxy_mse": 5.2947365112624e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -1.4,
+    "logit_power": 1,
+    "proxy_mse": 1.2780606743995643e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -1.4,
+    "logit_power": 1.25,
+    "proxy_mse": 3.27953716145785e-07
+  },
+  {
+    "sigma_data": 0.4,
+    "mu": -1.4,
+    "logit_power": 1.5,
+    "proxy_mse": 7.689487642300134e-07
+  }
+]

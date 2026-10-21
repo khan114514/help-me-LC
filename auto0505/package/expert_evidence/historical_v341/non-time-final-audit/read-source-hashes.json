@@ -1,0 +1,19 @@
+{
+  "captured_at_utc": "2026-10-04T16:55:41.852769+00:00",
+  "scope": "Source hashes identify local files read; draft is concurrently updated by the parent and this is not its final release manifest.",
+  "files": {
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/README.md": "5305fe24c45a856b349838b8a1e5957feb3f96f04112373bfe1bac24af906e07",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/FINAL-ZIP-CONTENTS.md": "6a52432e86492c7d1e91256388fdda7241fb7de7f2862b83806047f4285fb9ae",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/DRAFT-MANIFEST.json": "a7a10de211833fec5849dcb2dbf00aec47eacba1fedd77403f5d7231fb5e908b",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/run_summary.json": "7f47b702d8f8afedfd1b785af4e5ea4bc0ba4a9d099aa2daad1151095eb821df",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/current-state.json": "9bce773009245c125b15e1e1b42a39e21a8018c3efbd8e86b58de222799c7cd6",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/current-track-registry.json": "9300f6d4dfcf01a0eef12f32d62b17b88ebef95c893cceb5ddd46bce83fb80b1",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/runtime-qa-supplement.json": "384eb9d81b871aba40c5b4ffe595c70de1f3303d19f2fd7cc834de35798399a8",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/frozen-task-identity.json": "0b8fabd7e1289b74e530ba5a59c3fa99b984d208cfb7b4e2d8a470f7a3d70178",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/draft-content-scan.json": "1af52b8cd11efb0c95a57124c816e706f3906d63686b03d985c0ad4d9ca99fd4",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/task-v341-static-qa/scoped-static-qa.json": "6e7d262d9475a415a00c134e8f5f5a4b2172ac09f68f769c59c92c7536a3795c",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/workspace/harbor_task/task.toml": "bb2b3844a4ee60a3f4dd2ed6e74afba8afb32c1c09c42aa97217447d4dc681fc",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/workspace/harbor_task/environment/docker-compose.yaml": "a388912f3e106821fe8366ae999f7dac037b199799734aca8e645682aa8b2875",
+    "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/workspace/harbor_task/tests/docker-compose.yaml": "1478a40d6d04c40acbc4f77e12627600889ea059ccec0ddd3f7db17f23e23a16"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE",
+  "evaluation_completed": true,
+  "split": "full",
+  "method_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+  "psnr": 21.27548763952123,
+  "score": 0.8703690797499839,
+  "gpu_job_id": "b448cf6c-f09a-4ff0-b278-b643082565d6"
+}

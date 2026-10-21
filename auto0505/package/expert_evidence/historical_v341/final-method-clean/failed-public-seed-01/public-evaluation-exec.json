@@ -1,0 +1,8 @@
+{
+  "command": "bash /workspace/environment/public_eval/evaluate.sh /tmp/clean-candidate.py /workspace/agent-output/public-clean",
+  "exit_code": 2,
+  "stdout": "[evaluation] INFRASTRUCTURE_ERROR: BUSY: {'code': 'role_job_already_running', 'message': 'No evaluation score was accepted; check the organizer-side RPC service.'}\n",
+  "stderr": null,
+  "finished_at": "2026-10-04T17:17:43.958765+00:00",
+  "scorer_protocol_unchanged": true
+}

@@ -1,0 +1,16 @@
+KEYS ${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft/expert_evidence/frozen-task-identity.json ['schema_version', 'status', 'task_version', 'task_checksum_algorithm', 'task_sha256', 'files', 'file_count', 'remote_task_dir', 'local_task_dir', 'original_task3.4.0_unchanged', 'actual_build_and_NOP_pending', 'freeze_utc']
+{"schema_version": 1, "status": "FROZEN_NEW_TASK_EXACT_REMOTE_BYTES", "task_version": "3.4.1", "task_checksum_algorithm": "Harbor dirhash(task_root, sha256)", "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb", "file_count": 63, "remote_task_dir": "/historical-root/rfsteps-v341-build-check-20261004", "local_task_dir": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/task", "original_task3.4.0_unchanged": true, "actual_build_and_NOP_pending": true, "freeze_utc": "2026-10-04T11:32:39.636808+00:00"}
+KEYS ${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/task-freeze.json ['schema_version', 'status', 'task_version', 'task_checksum_algorithm', 'task_sha256', 'files', 'file_count', 'remote_task_dir', 'local_task_dir', 'original_task3.4.0_unchanged', 'actual_build_and_NOP_pending', 'freeze_utc']
+{"schema_version": 1, "status": "FROZEN_NEW_TASK_EXACT_REMOTE_BYTES", "task_version": "3.4.1", "task_checksum_algorithm": "Harbor dirhash(task_root, sha256)", "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb", "file_count": 63, "remote_task_dir": "/historical-root/rfsteps-v341-build-check-20261004", "local_task_dir": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/task", "original_task3.4.0_unchanged": true, "actual_build_and_NOP_pending": true, "freeze_utc": "2026-10-04T11:32:39.636808+00:00"}
+freeze keys ['schema_version', 'status', 'task_version', 'task_checksum_algorithm', 'task_sha256', 'files', 'file_count', 'remote_task_dir', 'local_task_dir', 'original_task3.4.0_unchanged', 'actual_build_and_NOP_pending', 'freeze_utc']
+TOP FINAL-ZIP-CONTENTS.md file
+TOP DRAFT-MANIFEST.json file
+TOP workspace dir
+TOP README.md file
+TOP expert_evidence dir
+TOP optimization_evidence dir
+CANDIDATE expert_evidence/formal04-independent-source-review-20261004/SOURCE-REVIEW.json
+CANDIDATE expert_evidence/formal04-independent-source-review-20261004/SOURCE-REVIEW.md
+TaskSnapshot {'freezeentries': 63, 'taskfilecount': 63, 'mismatch': []}
+DraftManifestSnapshot {'declared_files': 807, 'missing': [], 'different': []}
+

@@ -1,0 +1,55 @@
+{
+  "role": "agent",
+  "session_id": "clean-public-seed-3e0834bdb09f4a858b64d125d80a9012__env",
+  "cid": "12abbc9d58de2395cbe5c4f740502aa8ea55160ff3649a7fa8123fd36898290d",
+  "image_id": "sha256:76a82024952aea4c275b631f644d4d46e3e1310e87c967714ef7392462cd6aad",
+  "cold_image_id": "sha256:22aff3587bb3b4855060cc5a25a3ff15b9273bdeec179d733792ee6e48442493",
+  "content_sha256": "bf5bfc1e6916ccfb220754c5e165c68432afcedf2740978ca7a3eb21f5d6d2a1",
+  "direct_image_content_equal": true,
+  "image_recipe": "Architecture/Os/RootFS/Config except Labels; sorted compact JSON SHA256",
+  "socket": {
+    "path": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+    "inode": 1978676,
+    "device": 64514,
+    "uid": 0,
+    "mode": 438
+  },
+  "mounts": [
+    {
+      "source": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/public-seed-02/harbor-construction/clean-public-seed-3e0834bdb09f4a858b64d125d80a9012/agent",
+      "destination": "/logs/agent",
+      "rw": true,
+      "type": "bind"
+    },
+    {
+      "source": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/public-seed-02/harbor-construction/clean-public-seed-3e0834bdb09f4a858b64d125d80a9012/artifacts/logs/artifacts",
+      "destination": "/logs/artifacts",
+      "rw": true,
+      "type": "bind"
+    },
+    {
+      "source": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/public-seed-02/harbor-construction/clean-public-seed-3e0834bdb09f4a858b64d125d80a9012/verifier",
+      "destination": "/logs/verifier",
+      "rw": true,
+      "type": "bind"
+    },
+    {
+      "source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+      "destination": "/run/rfsteps/public.sock",
+      "rw": false,
+      "type": "bind"
+    }
+  ],
+  "cpus": 2,
+  "memory_bytes": 2147483648,
+  "readonly_rootfs": true,
+  "cap_add": [
+    "SETGID",
+    "SETUID"
+  ],
+  "task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "live_adapter_sha256": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+  "native_nop": true,
+  "model_calls": 0,
+  "research_credit_seconds": 0
+}

@@ -1,0 +1,6 @@
+{
+  "unchanged": true,
+  "old_sha256": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9",
+  "current_sha256": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9",
+  "scope": "Only the deployment and untrusted-node boundary change; actual GPU numerical equivalence still requires rerun."
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "scope": "independent limited static QA only",
+  "files": {
+    "SCOPED-STATIC-QA.md": "558a701b12b73a0e232314e48c3ed4e4b054ae69b0d20e9f4b37d62ab717ba4f",
+    "remote-readonly-task-check-source.py": "580a17ef2f827f417730e8b965b13ce89877f63854d74d8b6627f63b849357b0",
+    "remote-readonly-task-check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "remote-readonly-task-check.stdout": "a527c9df17f3c94093e41c08b46ea93406e4ebc77506c0f6ce30684375c00598",
+    "scoped-static-qa.json": "6e7d262d9475a415a00c134e8f5f5a4b2172ac09f68f769c59c92c7536a3795c"
+  }
+}

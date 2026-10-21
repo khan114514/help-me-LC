@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN_INDEPENDENT_READ_ONLY_AUDIT",
+  "research_credit_seconds": 0,
+  "source_task_record_mutations": 0,
+  "files": [
+    {
+      "path": "CONTINUATION-TEMPLATE-DIFF.patch",
+      "sha256": "47b82459c7fc0c08271819d68d9957370bd7ddef03e5f8174f2afd7dbfece0f8",
+      "bytes": 944
+    },
+    {
+      "path": "MANIFEST-VERIFICATION.json",
+      "sha256": "fef257516d05e23e141bdfc7792d5fb6de480200e8ad35c38e42b35cc953c219",
+      "bytes": 7880
+    },
+    {
+      "path": "SOURCE-REVIEW.json",
+      "sha256": "27b29830349e49d9bd001191d95300efd5e34911bdfac1b9b51f2a8b5d62f8b3",
+      "bytes": 8677
+    },
+    {
+      "path": "SOURCE-REVIEW.md",
+      "sha256": "4d601c549cd1e5feb277a4d6843f0fff25eab3e809c06235081dcdc3d6fe1c1e",
+      "bytes": 3100
+    },
+    {
+      "path": "audit_formal04.py",
+      "sha256": "9d026878b0f00432b8e8aa1c1c96a82c1a22329d084925fd3a716040ea0a7832",
+      "bytes": 16479
+    }
+  ]
+}

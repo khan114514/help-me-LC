@@ -1,0 +1,5 @@
+{
+  "policy_name": "quadratic_scaled_embedding_grid_125",
+  "purpose": "exploration",
+  "method_summary": "保留平方余时间密度，将 1/128 网格改为 1/125 网格，使节点及中点在公开参考的 BF16 时间乘 1000 操作后恢复精确嵌入时间。最小一格约束防止端点塌缩；该方案检验模型时间嵌入对齐与积分系数对齐的权衡。"
+}

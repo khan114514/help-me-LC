@@ -1,0 +1,27 @@
+[
+  {
+    "path": "scorer-stdout.txt",
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "path": "gpu-observations.jsonl",
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "path": "receipt.json",
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "path": "output/metrics.json",
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "path": "output/schedule.json",
+    "returncode": 0,
+    "stderr": ""
+  }
+]

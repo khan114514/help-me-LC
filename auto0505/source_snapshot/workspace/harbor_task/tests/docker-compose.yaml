@@ -1,0 +1,21 @@
+services:
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    read_only: true
+    cap_drop: [ALL]
+    cap_add: [SETUID, SETGID]
+    security_opt: [no-new-privileges:true]
+    tmpfs:
+      - /tmp:rw,mode=1777,size=256m
+      - /root:rw,mode=700,size=256m
+      - /workspace/solution:rw,size=4m
+      - /logs/artifacts:rw,size=16m
+    volumes:
+      - type: bind
+        source: ${RFSTEPS_SOCKET_ROOT:?Set RFSTEPS_SOCKET_ROOT to trusted task-specific sockets}/formal.sock
+        target: /run/rfsteps/formal.sock
+        read_only: true
+        bind:
+          create_host_path: false

@@ -1,0 +1,11 @@
+# 当前完成状态
+
+原A10 ins-lz0iv9re已恢复，SSH主机密钥与原实例一致。原始实验数据完整：冻结Task63文件、NOP原生17文件、Reference原生17文件和最佳方法20文件共117项远端哈希与已有原件完全一致。
+
+两条原始稳定性轨迹均已通过：各721次采样、连续12小时、summary COMPLETE；全部样本容器身份和资源隔离一致，零重启/OOM、无采样中断，文件IO和UDS检查通过。原件、SHA清单和独立验收见stability-final-preservation-20261005T125456Z，汇总见RECOVERY-ACCEPTANCE.json。
+
+当前mandatory NOP、Reference、Public选优和最佳Seed独立full16均已通过。NOP PSNR19.528882409499996、Reference20.45734928422148、最佳21.27548763952123，最佳reward0.8703690797499839。NOP44份当前原始文件和63份历史原始文件全部保留。
+
+研究时间按用户直接更正的规则验收，缺失边界的精确净秒数仍为null；不伪造数值、不把默认工具manual改成pass。此前两份独立质检首轮报告和NOT_READY原件保留，绑定旧ZIP；轨迹状态格式及Task/runtime绑定已经修正。
+
+稳定性缺口已关闭。剩余工作是对同一修正后候选完成最终独立复核；本目录尚不声明FINAL_ACCEPTED。

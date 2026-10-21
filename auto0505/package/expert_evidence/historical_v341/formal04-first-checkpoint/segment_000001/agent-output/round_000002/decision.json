@@ -1,0 +1,8 @@
+{
+  "decision": "reject",
+  "purpose": "exploration",
+  "explanation": "均匀节点 PSNR=17.9593067883，比 Starter 降低 1.4022703492 dB，拒绝。结果否定了优先加密低噪声端的初始假设，下一轮转向增加高时间端密度。",
+  "psnr": 17.959306788303643,
+  "best_round": 1,
+  "method_sha256": "bef7a3bc61f9358d45c8d00c02fa5b0ca69a5f58528368a5ecbeb5d2d8e8d4a5"
+}

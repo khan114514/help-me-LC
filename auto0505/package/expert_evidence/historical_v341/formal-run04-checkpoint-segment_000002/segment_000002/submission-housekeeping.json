@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "before_inventory": [
+    {
+      "path": "method.py",
+      "type": "file",
+      "bytes": 919,
+      "sha256": "d593a6bba72a9e91d27d009dc687bf3ac64557396ec4a1cb798213dbb5d71703"
+    },
+    {
+      "path": "solve.sh",
+      "type": "file",
+      "bytes": 145,
+      "sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58"
+    }
+  ],
+  "after_inventory": [
+    {
+      "path": "method.py",
+      "type": "file",
+      "bytes": 919,
+      "sha256": "d593a6bba72a9e91d27d009dc687bf3ac64557396ec4a1cb798213dbb5d71703"
+    },
+    {
+      "path": "solve.sh",
+      "type": "file",
+      "bytes": 145,
+      "sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58"
+    }
+  ],
+  "removed_cache_files": [],
+  "cache_executed": false,
+  "cache_unmarshalled": false,
+  "research_credit_seconds": 0,
+  "container_id": "34ae90dec2b82316fe6cc6838cec4bf30502db55d58426010b2066dc8773bd4b",
+  "raw_source": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/raw-source",
+  "clean_source": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000002/source",
+  "before_inventory_sha256": "2359c4fd2aaad8227aa9d113e3614a9608ae6f339f08f7e690195d4d546cb375",
+  "after_inventory_sha256": "2359c4fd2aaad8227aa9d113e3614a9608ae6f339f08f7e690195d4d546cb375"
+}

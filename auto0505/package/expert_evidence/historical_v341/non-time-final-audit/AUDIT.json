@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-04T16:49:39.115959+00:00",
+  "scope": "Read-only non-duration final-readiness audit of current Task3.4.1 package draft. Not a new 21-item release certification.",
+  "user_duration_rule": "Only network-unreachable intervals are deducted; other actual research activity counts. GPU scoring seconds remain an evidence lower bound and are not total research time. Historical duration re-accounting is delegated to the parent/peer and is not judged here.",
+  "task": {
+    "version": "3.4.1",
+    "sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+    "exact63_snapshot_files_match": true
+  },
+  "package_draft": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-package-v3.4.1-draft",
+  "blocking_final_acceptance": [
+    {
+      "id": "two_model_final_selection",
+      "type": "unfinished_acceptance",
+      "finding": "No final cross-model Public selection is recorded. Current formal04 GPT has four archived checkpoints; current Seed has no launch receipt or native segment. Final best fields are null/false.",
+      "evidence": [
+        "expert_evidence/current-track-registry.json",
+        "expert_evidence/run_summary.json",
+        "remote-formal-projection.json"
+      ],
+      "qualification": "This is a missing two-model final result, not a claim that elapsed research time is insufficient."
+    },
+    {
+      "id": "clean_final_best_full16",
+      "type": "unfinished_acceptance",
+      "finding": "The final selected method has no independent clean Public rerun/full16 acceptance in this identity. The passed Reference full16 is a separate expert control; it does not certify the eventual model-selected final method.",
+      "evidence": [
+        "expert_evidence/run_summary.json",
+        "expert_evidence/runtime-qa-supplement.json"
+      ]
+    },
+    {
+      "id": "platform_registration_and_portability",
+      "type": "deployment_prerequisite",
+      "finding": "The draft explicitly lacks independent platform deployment/task_id. Task Compose requires existing task-specific public/formal UDS via RFSTEPS_SOCKET_ROOT and fails closed when absent. Runtime/helper modules and a deployable external-provider profile were not found among the draft filenames. Direct Task upload alone has not been certified as runnable on another platform.",
+      "evidence": [
+        "README.md:7",
+        "workspace/harbor_task/environment/docker-compose.yaml",
+        "workspace/harbor_task/tests/docker-compose.yaml"
+      ],
+      "qualification": "The same provider is proven to work on the current A10/A100 deployment. External RPC itself is not reported as a defect; final platform must provision and preserve its trusted role split, numerical identity and transfer/submission adapter boundaries."
+    }
+  ],
+  "pending_closeout": [
+    {
+      "id": "12h_stability",
+      "finding": "Both new-Task stability units are active with ~16620 seconds and zero restart/OOM in inspected samples; no completed 43200-second result yet.",
+      "evidence": [
+        "remote-stability-projection.json"
+      ],
+      "qualification": "Pending continuous test, not an observed current stability fault."
+    },
+    {
+      "id": "final_QA_and_delivery",
+      "finding": "Existing QA records expressly have limited/historical scope, not final21/ZIP acceptance. Final expert explanation, complete final trajectories, deployment requirements, final candidate evidence, refreshed privacy scan/hash inventory and ZIP SHA still need a coherent final snapshot.",
+      "evidence": [
+        "expert_evidence/task-v341-static-qa/scoped-static-qa.json",
+        "expert_evidence/runtime-qa-supplement.json",
+        "expert_evidence/draft-content-scan.json",
+        "FINAL-ZIP-CONTENTS.md"
+      ]
+    },
+    {
+      "id": "documentation_sync",
+      "finding": "The package now appends the new user duration amendment and includes all mandatory NOP evidence, but body text still describes the earlier GPU-only count/old Seed gate and historical zero carry; README covers three segments while run_summary/registry cover four. Older frozen task/QA snapshots still say NOP pending as their original timestamps. Final current summary must explicitly supersede those historical statuses and use the user-approved clock. Old staging remains Task3.4.0; current draft Task is correctly3.4.1.",
+      "evidence": [
+        "README.md",
+        "expert_evidence/run_summary.json",
+        "expert_evidence/current-state.json",
+        "expert_evidence/frozen-task-identity.json",
+        "expert_evidence/runtime-qa-supplement.json"
+      ],
+      "qualification": "Do not rewrite preserved originals; provide a current versioned summary. No Task/source hash drift was observed."
+    }
+  ],
+  "resolved_or_verified": [
+    {
+      "id": "mandatory_NOP",
+      "finding": "Real native Harbor NOP for Task90bb passed full16/100NFE, PSNR19.528882409499996, reward0.0; 44 preserved evidence files. The draft now has expert_evidence/nop_evidence/actual_v341."
+    },
+    {
+      "id": "paired_Reference",
+      "finding": "Independent clean expert Reference for Task90bb passed full16/100NFE, PSNR20.45734928422148, reward0.46267401782591483; 49 preserved evidence files; paired delta+0.928466874721483dB."
+    },
+    {
+      "id": "guard_and_native_transfer",
+      "finding": "Previously repaired failure classification, source/stdlib read enforcement, role isolation, exact own live tmpfs transfer, generated-cache housekeeping, JSONL trajectory compatibility and frozen solve/exact-two submission boundary have scoped CPU/native evidence. No new defect in these frozen code paths was established here.",
+      "qualification": "Exact2/frozenSolve housekeeping belongs to the expert harness, not tests/test.sh alone. Bounded CPython guards are not a general adversarial sandbox certification."
+    },
+    {
+      "id": "cold_images_and_Task_identity",
+      "finding": "Both cold Actor/Verifier builds and targeted CPU smokes were accepted; current draft has exactly63 frozen Task files, all hashes equal."
+    },
+    {
+      "id": "draft_integrity",
+      "finding": "At the read snapshot all807 entries in DRAFT-MANIFEST matched; none missing. Latest scoped content scan reports808 files, no exact known keys/Hidden fingerprints/weights/symlinks; must rescan regenerated final release."
+    }
+  ],
+  "no_new_actions": {
+    "candidate_executed": false,
+    "model_RPC": false,
+    "GPU_RPC": false,
+    "container_created": false,
+    "production_modified": false
+  }
+}
+

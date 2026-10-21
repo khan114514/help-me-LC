@@ -1,0 +1,23 @@
+{
+  "files": {
+    "flux-dev/flux1-dev.safetensors": "4610115bb0c89560703c892c59ac2742fa821e60ef5871b33493ba544683abd7",
+    "flux-schnell/ae.safetensors": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38",
+    "t5-encoder-bf16/model.safetensors": "565cb2487351282e8e4dbeb88e63f4ad28217ce0439f5a8e6525a924807d2d9b",
+    "clip-vit-l14/model.safetensors": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb",
+    "t5-encoder-bf16/.gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+    "t5-encoder-bf16/README.md": "06671025c9f8ac4f5c33373e08a0e17e9b7c291170a8a3f3682586de7f77491b",
+    "t5-encoder-bf16/config.json": "e8b75fe2bb5c14903a9208b8d492ed301ec03b227993f213bcf8eaf04491be6a",
+    "t5-encoder-bf16/special_tokens_map.json": "4720c0fddbe4c5991334f85ad7073d9bd0a294a8ba4641a2f8dab614ca825949",
+    "t5-encoder-bf16/spiece.model": "d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86",
+    "t5-encoder-bf16/tokenizer_config.json": "b971dce1d2805c2a66da8657156e7114a30501c6ba602fc947c8bf607a3ead2d",
+    "clip-vit-l14/.gitattributes": "98ccb431c012ebfe976280fbd45aea4cec7409935868ccecf3954370f96732a1",
+    "clip-vit-l14/README.md": "de4274ec48590ab3aa1c239720ff55e99a37f4165c117ba3ad7af2b7df72687c",
+    "clip-vit-l14/config.json": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+    "clip-vit-l14/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+    "clip-vit-l14/preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "clip-vit-l14/special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+    "clip-vit-l14/tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+    "clip-vit-l14/tokenizer_config.json": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+    "clip-vit-l14/vocab.json": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69"
+  }
+}

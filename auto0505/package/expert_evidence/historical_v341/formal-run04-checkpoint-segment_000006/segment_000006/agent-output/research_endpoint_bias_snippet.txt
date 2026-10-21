@@ -1,0 +1,5 @@
+    if 2 <= num_steps <= resolution:
+        upper = round(resolution * nodes[-3])
+        if upper >= 2:
+            low_time = max(1, min(upper - 1, round(0.4 * upper)))
+            nodes[-2] = low_time / resolution

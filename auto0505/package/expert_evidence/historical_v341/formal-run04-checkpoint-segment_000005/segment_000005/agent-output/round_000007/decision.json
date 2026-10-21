@@ -1,0 +1,8 @@
+{
+  "decision": "reject",
+  "purpose": "exploration",
+  "explanation": "指数 2.5 与 1/125 对齐的公开 PSNR=20.1197269297，低于指数 2 当前最佳 0.1053652331 dB，拒绝。高噪声端继续加密没有改善指定平均 PSNR，即使 SSIM 略高；恢复第 6 轮指数 2 的 1/125 网格。",
+  "psnr": 20.11972692968958,
+  "best_round": 6,
+  "method_sha256": "ca726e5877fedab4687b3b8ea0e4b814b4aedb989486fd0daf6dbb0bb05375aa"
+}

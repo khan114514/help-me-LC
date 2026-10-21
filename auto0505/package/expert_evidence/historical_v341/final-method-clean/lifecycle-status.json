@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-10-04T17:45:44.813553+00:00",
+  "scope": "Only this clean validation units and exact owned CIDs; no global lookup",
+  "rfsteps-v341-final-clean-public-gpt-01": {
+    "show_rc": 0,
+    "properties": "Result=success\nExecMainStatus=0\nActiveState=inactive\nSubState=dead\n"
+  },
+  "rfsteps-v341-final-clean-public-seed-01": {
+    "show_rc": 0,
+    "properties": "Result=exit-code\nExecMainStatus=1\nActiveState=failed\nSubState=failed\n"
+  },
+  "rfsteps-v341-final-clean-public-seed-02": {
+    "show_rc": 0,
+    "properties": "Result=success\nExecMainStatus=0\nActiveState=inactive\nSubState=dead\n"
+  },
+  "rfsteps-v341-final-best-full16-01": {
+    "show_rc": 0,
+    "properties": "Result=success\nExecMainStatus=0\nActiveState=inactive\nSubState=dead\n"
+  },
+  "owned_containers": [
+    {
+      "started_record": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/public-gpt-01/environments/clean-public-gpt-f69d0973ce0e4ea7ab481e00f82cc370__env/started.json",
+      "cid": "f51cae8fe5823efe2429364aa00ff432b38fa64f790a4370f6d47c5a510452da",
+      "docker_inspect_rc": 1,
+      "removed": true
+    },
+    {
+      "started_record": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/public-seed-02/environments/clean-public-seed-3e0834bdb09f4a858b64d125d80a9012__env/started.json",
+      "cid": "12abbc9d58de2395cbe5c4f740502aa8ea55160ff3649a7fa8123fd36898290d",
+      "docker_inspect_rc": 1,
+      "removed": true
+    },
+    {
+      "started_record": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/environments/rfsteps-v341-build-check-2026100__xPBzff9__verifier__trial/started.json",
+      "cid": "dfbb33506e47bbf8fba8e514d945707213eda988c947a8f1b24de2e97666b681",
+      "docker_inspect_rc": 1,
+      "removed": true
+    },
+    {
+      "started_record": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/environments/rfsteps-v341-build-check-2026100__xPBzff9__env/started.json",
+      "cid": "cea1a34c2f71f2cfd5536758ccfae9ec276063f4eaa1f92ffecae82e3c01044a",
+      "docker_inspect_rc": 1,
+      "removed": true
+    },
+    {
+      "started_record": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/public-seed-01/environments/clean-public-seed-1601e3acc436494bae5f50216f3f18c2__env/started.json",
+      "cid": "a72cc4b973ebcf543efe857210fb64fef2b6507777d1f4e2f7b3ab312a6e0935",
+      "docker_inspect_rc": 1,
+      "removed": true
+    }
+  ]
+}

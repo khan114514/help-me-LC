@@ -1,0 +1,8 @@
+{
+  "decision": "reject",
+  "purpose": "exploration",
+  "explanation": "指数 1.5 的 1/125 网格得到 PSNR=20.2225683128，比当前指数 2 最佳低 0.0025238500 dB，严格按平均 PSNR 拒绝。两者近乎持平，说明最优密度可能处于中间；接下来先在 Starter logit 形状上检验同一时间嵌入对齐，再选择中间密度候选。",
+  "psnr": 20.22256831283264,
+  "best_round": 6,
+  "method_sha256": "871bd61ec2d49b51653a7da62406209c76e2f1722c140230e8eace45d609009c"
+}

@@ -1,0 +1,11 @@
+{
+  "before": {
+    "sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+    "bytes": 1464
+  },
+  "after": {
+    "sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+    "bytes": 1464
+  },
+  "cid": "12abbc9d58de2395cbe5c4f740502aa8ea55160ff3649a7fa8123fd36898290d"
+}

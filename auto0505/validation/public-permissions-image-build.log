@@ -1,0 +1,62 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.21kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/auto0505-permissions-base:20261021
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/9] FROM docker.io/library/auto0505-permissions-base:20261021@sha256:8b94a3d8a012d14c55b31545d5b9069f7cdada3e9aee84753445a72becfe9d47
+#5 resolve docker.io/library/auto0505-permissions-base:20261021@sha256:8b94a3d8a012d14c55b31545d5b9069f7cdada3e9aee84753445a72becfe9d47 0.0s done
+#5 DONE 0.0s
+
+#5 [1/9] FROM docker.io/library/auto0505-permissions-base:20261021@sha256:8b94a3d8a012d14c55b31545d5b9069f7cdada3e9aee84753445a72becfe9d47
+#5 DONE 0.1s
+
+#4 [internal] load build context
+#4 transferring context: 10.39MB 0.2s done
+#4 DONE 0.3s
+
+#6 [2/9] COPY starter /workspace/starter
+#6 DONE 0.0s
+
+#7 [3/9] COPY instruction.md /workspace/instruction.md
+#7 DONE 0.0s
+
+#8 [4/9] COPY public_assets /workspace/environment/public_assets
+#8 DONE 0.0s
+
+#9 [5/9] COPY public_eval /opt/rfsteps/public
+#9 DONE 0.0s
+
+#10 [6/9] COPY public_eval/evaluate.sh /workspace/environment/public_eval/evaluate.sh
+#10 DONE 0.0s
+
+#11 [7/9] COPY bootstrap.sh /usr/local/bin/rfsteps-bootstrap
+#11 DONE 0.0s
+
+#12 [8/9] RUN useradd --uid 1000 --create-home solver     && mkdir -p /workspace/solution /workspace/agent-output     && cp /workspace/starter/method.py /workspace/solution/method.py     && cp /workspace/starter/solve.sh /workspace/solution/solve.sh     && chown -R 1000:1000 /workspace/solution /workspace/agent-output     && chmod -R a+rX /workspace/starter /workspace/environment /opt/rfsteps/public /opt/rfsteps/repo /opt/rfsteps/weights     && chmod -R a-w /workspace/starter /workspace/environment/public_assets /opt/rfsteps/public /opt/rfsteps/repo /opt/rfsteps/weights     && chmod 755 /usr/local/bin/rfsteps-bootstrap /workspace/environment/public_eval/evaluate.sh
+#12 DONE 0.2s
+
+#13 [9/9] WORKDIR /workspace
+#13 DONE 0.0s
+
+#14 exporting to image
+#14 exporting layers
+#14 exporting layers 0.3s done
+#14 exporting manifest sha256:d75addfa5e23d6dbc00f7616a51e705eeca13650cf12b8119d29acf826ee3593 0.0s done
+#14 exporting config sha256:dfa4b59f8e950e8feb98a47f92323ca9cc85589ac32adce1bb5d2c3b2b74d2f4 0.0s done
+#14 exporting attestation manifest sha256:d5d758d70b5aad3f6639f765db91828b1c02a46bc0315dc2e7220deaa83d315f 0.0s done
+#14 exporting manifest list sha256:391ac527aa04f2f4cdd0900c90dffce87d9f651d6c3e879a32ff7071a87c4a6c 0.0s done
+#14 naming to docker.io/library/auto0505-public-permissions:20261021 done
+#14 unpacking to docker.io/library/auto0505-public-permissions:20261021
+#14 unpacking to docker.io/library/auto0505-public-permissions:20261021 0.2s done
+#14 DONE 0.7s

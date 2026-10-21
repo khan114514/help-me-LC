@@ -1,0 +1,148 @@
+{
+  "status": "PASSED",
+  "purpose": "expert_clean_reference",
+  "is_NOP": false,
+  "is_model_trajectory": false,
+  "started_at": "2026-10-04T13:21:15.544150+00:00",
+  "task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "reference_source_sha256": "f4ed9a25e31be15e138b365714d2ab957ea4d6200fc293d3896fda27d3a65518",
+  "model_calls": 0,
+  "research_credit_seconds": 0,
+  "job_id": "49065eef-eb86-4a1b-a479-1ec6747f6216",
+  "trial_uuid": "8e7b5aa6-af91-4ab8-be4a-2eefe1bf0212",
+  "trial_name": "rfsteps-v341-build-check-2026100__DcGEtFn",
+  "trial_dir": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn",
+  "job_dir": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02",
+  "gpu_job_id": "84b1db68-0591-4737-87b9-8e99da4b2edd",
+  "trusted_receipt": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/84b1db68-0591-4737-87b9-8e99da4b2edd.json",
+  "trusted_receipt_sha256": "a43aec4c23f142600aa8430a637c9af9d36dcd8a33d3dcc71f6d6fa8d2b21e8f",
+  "reward": {
+    "reward": 0.46267401782591483,
+    "psnr": 20.45734928422148,
+    "ssim": 0.6543459747451632,
+    "nfe_per_image": 100.0
+  },
+  "scoring_seconds": 309.2353660771623,
+  "native_exception": null,
+  "actor_unchanged_Starter": true,
+  "Task_unchanged": true,
+  "full_images": 16,
+  "nfe_per_image": 100,
+  "injection": {
+    "purpose": "expert_clean_reference",
+    "is_NOP": false,
+    "model_trajectory": false,
+    "verifier_cid": "ea10dd0f7f6af30fe97909aa9f331b0570d24a6824064d9d9189be901e8be18c",
+    "injected_at": "2026-10-04T13:21:39.624203+00:00",
+    "source_before": "/historical-root/rfsteps-v341-clean-reference-evidence-20261004/attempt02/reference-verifier/source-before",
+    "source_after": "/historical-root/rfsteps-v341-clean-reference-evidence-20261004/attempt02/reference-verifier/source-after",
+    "original_method_sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+    "reference_method_sha256": "f4ed9a25e31be15e138b365714d2ab957ea4d6200fc293d3896fda27d3a65518",
+    "frozen_solve_sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+    "live_source_inventory_sha256": "4d48e6599557d507d0d0875d4a408e7888ee1b561c8e8b84348c204dd555f196",
+    "Actor_artifact_not_modified": true,
+    "Task_not_modified": true,
+    "research_credit_seconds": 0
+  },
+  "runtimes": [
+    {
+      "role": "verifier",
+      "session_id": "rfsteps-v341-build-check-2026100__DcGEtFn__verifier__trial",
+      "cid": "ea10dd0f7f6af30fe97909aa9f331b0570d24a6824064d9d9189be901e8be18c",
+      "image_id": "sha256:59e0e162ecf5294614f86d68903b714fdcc586fd1d621d98493013838ec2879c",
+      "cold_image_id": "sha256:083355fcfe79da0533990e461e7db1e7857162b9486934f381dd48bfaef7e128",
+      "content_sha256": "8113fd6c6afa6210bea76c1c1acd11f2062ee580247269b667af547fe3dcd35a",
+      "direct_image_content_equal": true,
+      "image_recipe": "Architecture/Os/RootFS/Config except Labels; sorted compact JSON SHA256",
+      "socket": {
+        "path": "/historical-root/rfsteps-v341-rpc-20261004/sockets/formal.sock",
+        "inode": 1978678,
+        "device": 64514,
+        "uid": 0,
+        "mode": 384
+      },
+      "mounts": [
+        {
+          "source": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/verifier",
+          "destination": "/logs/verifier",
+          "rw": true,
+          "type": "bind"
+        },
+        {
+          "source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/formal.sock",
+          "destination": "/run/rfsteps/formal.sock",
+          "rw": false,
+          "type": "bind"
+        }
+      ],
+      "cpus": 2,
+      "memory_bytes": 2147483648,
+      "readonly_rootfs": true,
+      "cap_add": [
+        "SETGID",
+        "SETUID"
+      ],
+      "task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "live_adapter_sha256": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+      "native_nop": true,
+      "model_calls": 0,
+      "research_credit_seconds": 0
+    },
+    {
+      "role": "agent",
+      "session_id": "rfsteps-v341-build-check-2026100__DcGEtFn__env",
+      "cid": "5e405948800f55e5a93e5303220279bd43a43bb2765d77245dd262493d8541a1",
+      "image_id": "sha256:e4b69345beebc1d1de3008a119b05179fd4f8f582a92771bbcd3dce7191520af",
+      "cold_image_id": "sha256:22aff3587bb3b4855060cc5a25a3ff15b9273bdeec179d733792ee6e48442493",
+      "content_sha256": "bf5bfc1e6916ccfb220754c5e165c68432afcedf2740978ca7a3eb21f5d6d2a1",
+      "direct_image_content_equal": true,
+      "image_recipe": "Architecture/Os/RootFS/Config except Labels; sorted compact JSON SHA256",
+      "socket": {
+        "path": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+        "inode": 1978676,
+        "device": 64514,
+        "uid": 0,
+        "mode": 438
+      },
+      "mounts": [
+        {
+          "source": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/agent",
+          "destination": "/logs/agent",
+          "rw": true,
+          "type": "bind"
+        },
+        {
+          "source": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/artifacts/logs/artifacts",
+          "destination": "/logs/artifacts",
+          "rw": true,
+          "type": "bind"
+        },
+        {
+          "source": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/verifier",
+          "destination": "/logs/verifier",
+          "rw": true,
+          "type": "bind"
+        },
+        {
+          "source": "/historical-root/rfsteps-v341-rpc-20261004/sockets/public.sock",
+          "destination": "/run/rfsteps/public.sock",
+          "rw": false,
+          "type": "bind"
+        }
+      ],
+      "cpus": 2,
+      "memory_bytes": 2147483648,
+      "readonly_rootfs": true,
+      "cap_add": [
+        "SETGID",
+        "SETUID"
+      ],
+      "task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "live_adapter_sha256": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+      "native_nop": true,
+      "model_calls": 0,
+      "research_credit_seconds": 0
+    }
+  ],
+  "finished_at": "2026-10-04T13:28:26.839011+00:00"
+}

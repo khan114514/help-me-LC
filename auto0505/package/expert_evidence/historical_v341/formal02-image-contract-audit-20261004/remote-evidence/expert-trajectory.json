@@ -1,0 +1,54 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "policy_name": "starter_flux_time_shift",
+      "method_summary": "Evaluate the unchanged frozen Starter rational time shift, with mu=0.63 at image_seq_len=1024. Establish the actual public baseline before exploration.",
+      "status": "ok",
+      "score": 19.361577137501065,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 21:39:37"
+    },
+    {
+      "round": 2,
+      "policy_name": "uniform_bidirectional_mesh",
+      "method_summary": "Remove the generation-oriented rational shift and distribute nodes uniformly in physical time. This minimizes maximum interval length and constant-coefficient round-trip error proxies at fixed step count.",
+      "status": "ok",
+      "score": 17.959306788303643,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-04 21:45:37"
+    },
+    {
+      "round": 3,
+      "policy_name": "strengthened_rational_shift",
+      "method_summary": "Double the Starter rational time-shift strength from mu=0.63 to mu=1.26 at 1024 tokens. The measured uniform-mesh regression motivates assigning more nodes to the noise boundary, with a known risk of long image-end intervals.",
+      "status": "ok",
+      "score": 20.079744171544835,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 21:52:51"
+    },
+    {
+      "round": 4,
+      "policy_name": "regularized_noise_log_density",
+      "method_summary": "Equidistribute a noise-distance CDF combining 0.4 uniform density with 0.6 regularized logarithmic density, using eps=0.5/num_steps. Deterministic bisection concentrates the first noise-end intervals while keeping the largest interval near the Starter maximum.",
+      "status": "ok",
+      "score": 20.899062140334625,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 21:59:43"
+    },
+    {
+      "round": 5,
+      "policy_name": "regularized_noise_log_density_clean_confirmation",
+      "method_summary": "Cleanly rerun the exact retained round 000004 source after restoring it to the submission path. Confirm the final public metrics and source identity without counting this rerun as exploration.",
+      "status": "ok",
+      "score": 20.899062140334625,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-04 22:06:16"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Building Docker image harbor-prebuilt:harbor-docker-egress-control-sidecar--9af3dc172792cee8 from /opt/miniconda3/lib/python3.14/site-packages/harbor/environments/docker/harbor-docker-egress-control-sidecar using /opt/miniconda3/lib/python3.14/site-packages/harbor/environments/docker/harbor-docker-egress-control-sidecar/Dockerfile at 2026-10-04 02:23:36.731239+00:00
+Skipping image OS validation for hb__1399e06239676afa5348ff7e2f158972: docker inspect returned 1
+Collecting main service artifacts

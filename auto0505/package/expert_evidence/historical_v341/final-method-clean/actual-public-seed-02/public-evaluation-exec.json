@@ -1,0 +1,8 @@
+{
+  "command": "bash /workspace/environment/public_eval/evaluate.sh /tmp/clean-candidate.py /workspace/agent-output/public-clean",
+  "exit_code": 0,
+  "stdout": "[evaluation] COMPLETE reward: {\"reward\": 1.237995577324134, \"psnr\": 21.66197823479546, \"ssim\": 0.7309316821377365, \"nfe_per_image\": 100.0}\n",
+  "stderr": null,
+  "finished_at": "2026-10-04T17:29:19.606476+00:00",
+  "scorer_protocol_unchanged": true
+}

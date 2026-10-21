@@ -1,0 +1,8 @@
+{
+  "decision": "retain",
+  "purpose": "exploration",
+  "explanation": "μ=1.20 的公开 PSNR=19.5468178616，比 Starter 提高 0.1852407241 dB，保留。高噪声端加密方向获初步实测支持，但提升有限；第三轮采用平方余时间与 BF16 对齐，缩短噪声端区间同时减少低端过长区间。",
+  "psnr": 19.546817861597415,
+  "best_round": 3,
+  "method_sha256": "17965d22465a8bb133b4aa51e0cb6562be6e3139ab080c8a1ed14412a5352b26"
+}

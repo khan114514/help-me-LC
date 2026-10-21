@@ -1,0 +1,20 @@
+{
+  "reason": "User corrected time accounting: old GPU-only repeat threshold is superseded; proceed to final selection and clean validation.",
+  "exact_owned_runner_signalled": 2692887,
+  "harbor_exit": {
+    "schema_version": 1,
+    "role": "gpt",
+    "pid": 2692941,
+    "start_ticks": 8044310,
+    "return_code": 130,
+    "harbor_wait_completed": true,
+    "finished_at_utc": "2026-10-04T17:09:28.157475+00:00",
+    "stop_requested": true,
+    "research_credit_seconds": 0
+  },
+  "owned_containers": [],
+  "native_Harbor_success_claim": false,
+  "closed_segments_preserved": 5,
+  "prior_research_duration_zeroed": false,
+  "Task_gateways_UDS_model_and_stability_services_changed": false
+}

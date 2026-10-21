@@ -1,0 +1,10 @@
+{
+  "agent": {
+    "image_id": "sha256:22aff3587bb3b4855060cc5a25a3ff15b9273bdeec179d733792ee6e48442493",
+    "content_sha256": "bf5bfc1e6916ccfb220754c5e165c68432afcedf2740978ca7a3eb21f5d6d2a1"
+  },
+  "verifier": {
+    "image_id": "sha256:083355fcfe79da0533990e461e7db1e7857162b9486934f381dd48bfaef7e128",
+    "content_sha256": "8113fd6c6afa6210bea76c1c1acd11f2062ee580247269b667af547fe3dcd35a"
+  }
+}

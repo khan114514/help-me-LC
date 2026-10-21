@@ -1,0 +1,62 @@
+[
+  {
+    "image": "coco_000000000139",
+    "psnr_delta": -0.24378089654175028,
+    "latent_mse_delta": 0.007941186428070068
+  },
+  {
+    "image": "coco_000000000285",
+    "psnr_delta": -0.1657610118625925,
+    "latent_mse_delta": 0.0008949488401412964
+  },
+  {
+    "image": "coco_000000000632",
+    "psnr_delta": 5.92331431524164,
+    "latent_mse_delta": -0.1739602256566286
+  },
+  {
+    "image": "coco_000000001000",
+    "psnr_delta": 0.2932473538880451,
+    "latent_mse_delta": -0.014504112303256989
+  },
+  {
+    "image": "coco_000000001268",
+    "psnr_delta": 0.005960469991201478,
+    "latent_mse_delta": 0.003570854663848877
+  },
+  {
+    "image": "coco_000000001425",
+    "psnr_delta": 0.9948083066925477,
+    "latent_mse_delta": -0.023025229573249817
+  },
+  {
+    "image": "coco_000000001490",
+    "psnr_delta": -0.26440886531700514,
+    "latent_mse_delta": -0.0052689313888549805
+  },
+  {
+    "image": "coco_000000039769",
+    "psnr_delta": 0.5854104152106139,
+    "latent_mse_delta": -0.0092545747756958
+  },
+  {
+    "image": "repo_art",
+    "psnr_delta": -0.19051637530434817,
+    "latent_mse_delta": 0.0008130446076393127
+  },
+  {
+    "image": "repo_boy",
+    "psnr_delta": 0.20814775580364753,
+    "latent_mse_delta": -0.007682204246520996
+  },
+  {
+    "image": "repo_horse",
+    "psnr_delta": 0.07756317132037083,
+    "latent_mse_delta": -0.0013096258044242859
+  },
+  {
+    "image": "repo_nobel",
+    "psnr_delta": 0.13765336704456566,
+    "latent_mse_delta": -0.006723165512084961
+  }
+]

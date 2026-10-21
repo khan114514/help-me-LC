@@ -1,0 +1,5 @@
+# Small CPU fixture, solely for testing the production Dockerfile permissions.
+FROM auto0505-boundary-test:20261021
+COPY candidate_worker.py isolation.py /opt/rfsteps/worker/
+RUN mkdir -p /opt/rfsteps/repo /opt/rfsteps/weights \
+    && chmod 755 /opt/rfsteps/worker && chmod 644 /opt/rfsteps/worker/*.py

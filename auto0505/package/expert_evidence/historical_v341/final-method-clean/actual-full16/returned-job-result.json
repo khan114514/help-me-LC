@@ -1,0 +1,185 @@
+{
+  "id": "72432bbc-cb0a-4e15-9bcc-1c302d3657c7",
+  "started_at": "2026-10-05T01:34:37.237130",
+  "updated_at": "2026-10-05T01:41:50.498509",
+  "finished_at": "2026-10-05T01:41:50.498509",
+  "n_total_trials": 1,
+  "stats": {
+    "n_completed_trials": 1,
+    "n_errored_trials": 0,
+    "n_running_trials": 0,
+    "n_pending_trials": 0,
+    "n_cancelled_trials": 0,
+    "n_retries": 0,
+    "evals": {
+      "nop__adhoc": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "metrics": [
+          {
+            "nfe_per_image": 100.0,
+            "psnr": 21.27548763952123,
+            "reward": 0.8703690797499839,
+            "ssim": 0.7167758922645703
+          }
+        ],
+        "pass_at_k": {},
+        "reward_stats": {
+          "reward": {
+            "0.8703690797499839": [
+              "rfsteps-v341-build-check-2026100__xPBzff9"
+            ]
+          },
+          "psnr": {
+            "21.27548763952123": [
+              "rfsteps-v341-build-check-2026100__xPBzff9"
+            ]
+          },
+          "ssim": {
+            "0.7167758922645703": [
+              "rfsteps-v341-build-check-2026100__xPBzff9"
+            ]
+          },
+          "nfe_per_image": {
+            "100.0": [
+              "rfsteps-v341-build-check-2026100__xPBzff9"
+            ]
+          }
+        },
+        "exception_stats": {}
+      }
+    },
+    "n_input_tokens": null,
+    "n_cache_tokens": null,
+    "n_output_tokens": null,
+    "cost_usd": null
+  },
+  "trial_results": [
+    {
+      "id": "51a134e4-d0af-48da-a1d6-b9faf29d0ed9",
+      "task_name": "autoresearch/rfsteps",
+      "trial_name": "rfsteps-v341-build-check-2026100__xPBzff9",
+      "trial_uri": "file:///historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9",
+      "task_id": {
+        "path": "/historical-root/rfsteps-v341-build-check-20261004"
+      },
+      "source": null,
+      "task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "config": {
+        "task": {
+          "path": "/historical-root/rfsteps-v341-build-check-20261004",
+          "git_url": null,
+          "git_commit_id": null,
+          "name": null,
+          "ref": null,
+          "overwrite": false,
+          "download_dir": null,
+          "source": null
+        },
+        "trial_name": "rfsteps-v341-build-check-2026100__xPBzff9",
+        "trials_dir": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+          "name": "nop",
+          "import_path": null,
+          "model_name": null,
+          "n_concurrent": null,
+          "concurrency_group": null,
+          "skills": [],
+          "override_timeout_sec": null,
+          "override_setup_timeout_sec": null,
+          "max_timeout_sec": null,
+          "resume_trajectory": false,
+          "load_trajectory": null,
+          "extra_allowed_hosts": [],
+          "kwargs": {},
+          "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+          "type": null,
+          "import_path": "nop_runtime:NopLiveDockerEnvironment",
+          "force_build": false,
+          "delete": true,
+          "cpu_enforcement_policy": "auto",
+          "memory_enforcement_policy": "auto",
+          "override_cpus": null,
+          "override_memory_mb": null,
+          "override_storage_mb": null,
+          "override_gpus": null,
+          "override_tpu": null,
+          "mounts": null,
+          "extra_docker_compose": [],
+          "kwargs": {
+            "nop_evidence_root": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01",
+            "nop_source_root": "/historical-root/rfsteps-v341-final-best-runtime-20261005/attempt01"
+          },
+          "extra_allowed_hosts": []
+        },
+        "verifier": {
+          "override_timeout_sec": null,
+          "max_timeout_sec": null,
+          "import_path": "clean_selected_verifier:ExpertCleanSelectedVerifier",
+          "kwargs": {
+            "expert_selected_path": "/historical-root/rfsteps-v341-final-best-runtime-20261005/attempt01/private-selected/method.py",
+            "expert_evidence_root": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01"
+          },
+          "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "72432bbc-cb0a-4e15-9bcc-1c302d3657c7",
+        "source_trial": null
+      },
+      "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+      },
+      "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "reward": 0.8703690797499839,
+          "psnr": 21.27548763952123,
+          "ssim": 0.7167758922645703,
+          "nfe_per_image": 100.0
+        }
+      },
+      "verifier_environment_mode": "separate",
+      "exception_info": null,
+      "started_at": "2026-10-04T17:34:37.315722Z",
+      "finished_at": "2026-10-04T17:41:50.495608Z",
+      "environment_setup": {
+        "started_at": "2026-10-04T17:34:37.326436Z",
+        "finished_at": "2026-10-04T17:34:43.336236Z"
+      },
+      "agent_setup": {
+        "started_at": "2026-10-04T17:34:43.336299Z",
+        "finished_at": "2026-10-04T17:34:43.336369Z"
+      },
+      "agent_execution": {
+        "started_at": "2026-10-04T17:34:43.336444Z",
+        "finished_at": "2026-10-04T17:34:43.336538Z"
+      },
+      "verifier": {
+        "started_at": "2026-10-04T17:34:55.012334Z",
+        "finished_at": "2026-10-04T17:41:50.495590Z"
+      },
+      "step_results": null
+    }
+  ]
+}

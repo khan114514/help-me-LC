@@ -1,0 +1,101 @@
+{
+  "status": "PASSED_SELECTED_METHOD_CLEAN_ACCEPTANCE",
+  "checked_at_utc": "2026-10-04T17:48:19.553304+00:00",
+  "scope": "Current Task3.4.1 cross-candidate clean Public selection and subsequent genuine independent native Harbor Verifier full16; not entire fullflow or12h stability acceptance",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "selection_manifest_sha256": "8b3ba7095facbfbb8ff70e22f22157466ec9ac465a2756f83ee586c9c677b6a2",
+  "selected_role": "seed",
+  "selected_source_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+  "selected_nodes_sha256": "88b4ddc7ade3ad425a3fa660db6683dcc001c3367695d9b4de74106d728b5679",
+  "public_ranking": [
+    {
+      "candidate": "seed",
+      "public_mean_psnr": 21.66197823479546,
+      "normalized_score_unclipped": 1.237995577324134,
+      "method_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+      "nodes_sha256": "88b4ddc7ade3ad425a3fa660db6683dcc001c3367695d9b4de74106d728b5679",
+      "gpu_job_id": "8625f57f-0fa1-416a-b321-2d4b22a6ee6d",
+      "whole_trusted_receipt_sha256": "c8b977ee65d5d028f3094435d72c197a25a2def0f1fe9dc2c68ad637f5e0d7f1",
+      "clean_summary_sha256": "8d2698c3b190a7e3cdabdf9c6d03970af85c9170315e563903404a81e28bda9d",
+      "source_and_nodes_verified": true,
+      "clean_rerun": true
+    },
+    {
+      "candidate": "gpt",
+      "public_mean_psnr": 21.21974298189495,
+      "normalized_score_unclipped": 1.0,
+      "method_sha256": "8b34e25306187b02cf1e21681a8e86797d5fbadcbec8a9657cac309ff041e051",
+      "nodes_sha256": "6719483eaf769b14725f116af435e3e663a263f4fbb4d29e519f196aa604a76b",
+      "gpu_job_id": "a9b3d60a-0486-4d1f-a859-d2e8c3d4691d",
+      "whole_trusted_receipt_sha256": "a9f2cd4ee8422598897df676d7523185630819dda4357062d5a4240e499518ed",
+      "clean_summary_sha256": "7c92ab84d6aa9d42d7374207c8df4ca49393d25cf40250c5e737f9db7a1b84b1",
+      "source_and_nodes_verified": true,
+      "clean_rerun": true
+    },
+    {
+      "candidate": "current-formal04",
+      "public_mean_psnr": 20.65104213455171,
+      "normalized_score_unclipped": 0.693945053904085,
+      "method_sha256": "1a23b0ccd17e3d0825dacc5502c1837a60afdec63dd892b3e512f83b021e23b7",
+      "gpu_job_id": "d02471d0-6fe8-4e33-88f1-7cc64797996d",
+      "clean_rerun": false,
+      "source": "already sealed current Task fullPublic receipt round13, unchanged through6segments"
+    }
+  ],
+  "full16": {
+    "native_job_uuid": "72432bbc-cb0a-4e15-9bcc-1c302d3657c7",
+    "trial_uuid": "51a134e4-d0af-48da-a1d6-b9faf29d0ed9",
+    "trial_name": "rfsteps-v341-build-check-2026100__xPBzff9",
+    "GPU_job_id": "b448cf6c-f09a-4ff0-b278-b643082565d6",
+    "trusted_receipt_sha256": "6274be278cead0e26430c39568d709345fc7235f405bb44dd5000e62f65cab5f",
+    "overall": {
+      "psnr": 21.27548763952123,
+      "ssim": 0.7167758922645703,
+      "pixel_mse": 746.3723849455516,
+      "latent_mse": 0.10612048173788935,
+      "n": 16
+    },
+    "public": {
+      "psnr": 21.66197823479546,
+      "ssim": 0.7309316821377365,
+      "pixel_mse": 686.4576675626967,
+      "latent_mse": 0.07408000171805422,
+      "n": 12
+    },
+    "hidden": {
+      "psnr": 20.116015853698542,
+      "ssim": 0.6743085226450719,
+      "pixel_mse": 926.1165370941163,
+      "latent_mse": 0.20224192179739475,
+      "n": 4
+    },
+    "reward": 0.8703690797499839,
+    "anchors": {
+      "baseline_psnr": 19.528882409499996,
+      "upper_bound_psnr": 21.535623309030747
+    },
+    "full_count": 16,
+    "NFE_per_image": 100,
+    "scoring_seconds": 309.6092902002856,
+    "native_exception": null,
+    "native_test_exit_code": 0,
+    "wrapper_exit_code": 0,
+    "Actor_Starter_unchanged": true,
+    "Task_unchanged": true,
+    "frozen_solve_sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+    "injection_scope": "Only own stopped-Actor unique separate Verifier live method; no candidate/Reference/Hidden injected into Actor during full16",
+    "live_source_inventory_sha256": "01e2895bc934147421c89c849fd1640cce92973caa6f1293bdf968904b2ee166",
+    "native_result_relative_path": "native-harbor-job/rfsteps-v341-build-check-2026100__xPBzff9/result.json",
+    "native_reward_relative_path": "native-harbor-job/rfsteps-v341-build-check-2026100__xPBzff9/verifier/reward.json"
+  },
+  "delta_from_actual_full_NOP_dB": 1.7466052300212347,
+  "delta_from_actual_full_Reference_dB": 0.8181383552997517,
+  "fresh_full12_public_metrics_and_reconstruction_hashes_equal": true,
+  "failed_Seed01": "BUSY infra, guardexit2;10 original files preserved, no score or GPU completion claimed. Exactly one fresh Seed02 followed verified GPT completion, not blind retry.",
+  "copied_GPU_artifacts": "Only each own receipt/log/telemetry/metrics/schedule;15 files for3 completed GPUjobs; no PNG pixels, privateinput images or weights copied",
+  "model_calls": 0,
+  "purpose": "clean_rerun",
+  "research_credit_seconds": 0,
+  "12h_stability": "separate pending; no claim of complete fullflow",
+  "history_note": "Original old scorer provenance retained; clean current values decide. Historical study clock is parent/user approved and not recomputed by these acceptance-only runs."
+}

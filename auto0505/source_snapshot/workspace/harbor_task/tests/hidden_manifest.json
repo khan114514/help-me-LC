@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "files": {
+    "coco_000000000802.png": "642688ad84d6c9c3f64d1e9f66c388e5857da157e7ea9e5a9be8c0132b768be7",
+    "coco_000000001296.png": "00dba577e9dcb25f07b4d06f50f05ddfaae8c46826bc59d44c48fe7a548c0d93",
+    "repo_cartoon.png": "6ed0bb12d07ecf772e868c2f33f88bbe782882d4ac3a6dbc36597928a3182bda",
+    "repo_hiking.png": "13c42ee741a032e7caba387654becfe5a366f897557d72b8b4ac7b3d478f8966"
+  }
+}

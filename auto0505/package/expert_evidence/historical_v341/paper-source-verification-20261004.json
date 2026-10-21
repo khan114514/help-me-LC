@@ -1,0 +1,16 @@
+{
+  "observed_date": "2026-10-04",
+  "paper": "Taming Rectified Flow for Inversion and Editing",
+  "primary_sources": [
+    {
+      "url": "https://proceedings.mlr.press/v267/wang25ce.html",
+      "supports": "ICML2025, PMLR267 pages64044-64058; RF-Solver high-order ODE, training-free; official software link"
+    },
+    {
+      "url": "https://github.com/wangjiangshan0725/RF-Solver-Edit",
+      "supports": "Author repository, FLUX image implementation, arXiv2411.04746"
+    }
+  ],
+  "scope": "Source identity/background only; frozen local source and measured task receipts govern actual execution",
+  "research_credit_seconds": 0
+}

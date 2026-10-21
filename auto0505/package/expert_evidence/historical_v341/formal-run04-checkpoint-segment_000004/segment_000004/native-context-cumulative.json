@@ -1,0 +1,9 @@
+{
+  "n_input_tokens": 18892962,
+  "n_cache_tokens": 17732224,
+  "n_output_tokens": 80024,
+  "cost_usd": null,
+  "model_usage": null,
+  "rollout_details": null,
+  "metadata": null
+}

@@ -1,0 +1,127 @@
+{
+    "id": "0131cf79-9fc4-44cb-8ce2-b844f79e5b4b",
+    "task_name": "autoresearch/rfsteps",
+    "trial_name": "harbor_task__46ruE8U",
+    "trial_uri": "file:///historical-root/rfsteps-nop/jobs/2026-10-04__10-51-51/harbor_task__46ruE8U",
+    "task_id": {
+        "path": "/historical-root/rfsteps-nop/harbor_task"
+    },
+    "source": null,
+    "task_checksum": "3c8aa3512bb7de901179f3d2412065c066f90efe207608c3058582afb61f13ee",
+    "config": {
+        "task": {
+            "path": "/historical-root/rfsteps-nop/harbor_task",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "harbor_task__46ruE8U",
+        "trials_dir": "/historical-root/rfsteps-nop/jobs/2026-10-04__10-51-51",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": 2.0,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "nop",
+            "import_path": null,
+            "model_name": null,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": null,
+            "import_path": "gpu_docker_env:GpuDockerEnvironment",
+            "force_build": false,
+            "delete": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": [
+                {
+                    "type": "bind",
+                    "source": "/opt/rfsteps/weights",
+                    "target": "/opt/rfsteps/weights",
+                    "read_only": true
+                }
+            ],
+            "extra_docker_compose": [
+                "/historical-root/rfsteps-nop/gpu-overlay.yaml"
+            ],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {
+                "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"
+            },
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "cf6d958b-40db-4d6b-8dcd-61cf02daf2bc",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-10-04T02:51:52.484524Z",
+    "finished_at": "2026-10-04T02:52:12.194366Z",
+    "environment_setup": {
+        "started_at": "2026-10-04T02:51:52.575669Z",
+        "finished_at": "2026-10-04T02:51:56.257134Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-04T02:51:56.257197Z",
+        "finished_at": "2026-10-04T02:51:56.257268Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-04T02:51:56.257369Z",
+        "finished_at": "2026-10-04T02:51:56.257498Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-04T02:51:56.592655Z",
+        "finished_at": "2026-10-04T02:52:01.095700Z"
+    },
+    "step_results": null
+}

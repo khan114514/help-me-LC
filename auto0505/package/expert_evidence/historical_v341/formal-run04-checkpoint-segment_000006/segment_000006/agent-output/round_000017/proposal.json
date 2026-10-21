@@ -1,0 +1,5 @@
+{
+  "policy_name": "quadratic_one_exchange_upper_endpoint_split",
+  "purpose": "exploration",
+  "method_summary": "保留一次预算交换最佳的其它节点，把末端 0.040 改至 0.048，使 0.080 区间的两个步长为 0.032 和 0.048。与已测 0.032 方案构成对照，检验末端局部误差对拆分方向的敏感性，节点及中点保持嵌入对齐。"
+}

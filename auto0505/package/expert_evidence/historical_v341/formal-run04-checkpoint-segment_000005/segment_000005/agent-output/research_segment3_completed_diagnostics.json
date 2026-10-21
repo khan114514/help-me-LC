@@ -1,0 +1,62 @@
+[
+  {
+    "round": 1,
+    "method": "starter_flux_shift_mu_0.63",
+    "actual_overall": {
+      "psnr": 19.361577137501065,
+      "ssim": 0.6266812768198705,
+      "pixel_mse": 1062.522612147861,
+      "latent_mse": 0.13340374214264253,
+      "n": 12
+    },
+    "actual_development_score": 0.0
+  },
+  {
+    "round": 6,
+    "method": "quadratic_scaled_embedding_grid_125",
+    "actual_overall": {
+      "psnr": 20.2250921627834,
+      "ssim": 0.6786202896543475,
+      "pixel_mse": 893.2876360151504,
+      "latent_mse": 0.10476065070057909,
+      "n": 12
+    },
+    "actual_development_score": 0.46471364646356744
+  },
+  {
+    "round": 7,
+    "method": "power_2.5_scaled_embedding_grid_125",
+    "actual_overall": {
+      "psnr": 20.11972692968958,
+      "ssim": 0.6814082389599657,
+      "pixel_mse": 917.9226111306085,
+      "latent_mse": 0.10788343699338536,
+      "n": 12
+    },
+    "actual_development_score": 0.40800975568239245
+  },
+  {
+    "round": 8,
+    "method": "power_1.5_scaled_embedding_grid_125",
+    "actual_overall": {
+      "psnr": 20.22256831283264,
+      "ssim": 0.6474490942044017,
+      "pixel_mse": 804.9715155495538,
+      "latent_mse": 0.09473878021041553,
+      "n": 12
+    },
+    "actual_development_score": 0.46335539851256957
+  },
+  {
+    "round": 9,
+    "method": "starter_logit_scaled_embedding_grid_125",
+    "actual_overall": {
+      "psnr": 19.35956474237743,
+      "ssim": 0.6091574343739209,
+      "pixel_mse": 1294.4540042877197,
+      "latent_mse": 0.1587571386480704,
+      "n": 12
+    },
+    "actual_development_score": -0.0010830008148665206
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "overall": {
+    "psnr": 20.58900516253615,
+    "ssim": 0.6982742230133053,
+    "pixel_mse": 886.2990766101415,
+    "latent_mse": 0.09933954360894859,
+    "n": 12
+  },
+  "score": 0.660558920904856,
+  "purpose": "exploration",
+  "decision": "reject"
+}

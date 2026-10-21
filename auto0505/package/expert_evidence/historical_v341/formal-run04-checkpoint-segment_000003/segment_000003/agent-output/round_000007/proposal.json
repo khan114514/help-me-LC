@@ -1,0 +1,5 @@
+{
+  "policy_name": "power_2.5_scaled_embedding_grid_125",
+  "purpose": "exploration",
+  "method_summary": "沿用公开实测改善的 1/125 时间嵌入网格，将余时间幂指数从 2 增至 2.5。t>0.8 的节点从 12 增至 14，最大区间从 0.08 增至 0.096，以检验噪声端加密与低噪声端变粗的权衡。"
+}

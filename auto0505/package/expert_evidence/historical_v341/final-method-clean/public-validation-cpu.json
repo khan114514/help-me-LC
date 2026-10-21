@@ -1,0 +1,19 @@
+{
+  "synthetic": true,
+  "model_calls": 0,
+  "GPU_calls": 0,
+  "candidate_executed": false,
+  "passed": [
+    "synthetic_complete_binding",
+    "wrong_role",
+    "incomplete",
+    "wrong_Task",
+    "wrong_nodes",
+    "wrong_source",
+    "scorer_nonzero",
+    "wrong_anchor",
+    "wrong_count",
+    "bad_reward",
+    "wrong_NFE"
+  ]
+}

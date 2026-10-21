@@ -1,0 +1,25 @@
+test_fifo_source_rejected_without_waiting_for_writer (__main__.CandidateBoundary.test_fifo_source_rejected_without_waiting_for_writer) ... ok
+test_missing_isolation_fails_before_candidate (__main__.CandidateBoundary.test_missing_isolation_fails_before_candidate) ... FAIL
+test_native_open_cannot_read_outside_input (__main__.CandidateBoundary.test_native_open_cannot_read_outside_input) ... ok
+test_native_socket_denied (__main__.CandidateBoundary.test_native_socket_denied) ... ok
+test_nonfinite_is_invalid (__main__.CandidateBoundary.test_nonfinite_is_invalid) ... ok
+test_symlink_method_rejected (__main__.CandidateBoundary.test_symlink_method_rejected) ... ok
+test_unbounded_stdout_is_resource_failure (__main__.CandidateBoundary.test_unbounded_stdout_is_resource_failure) ... ok
+test_valid_math_schedule (__main__.CandidateBoundary.test_valid_math_schedule) ... ok
+test_wall_timeout_reaps_worker (__main__.CandidateBoundary.test_wall_timeout_reaps_worker) ... ok
+
+======================================================================
+FAIL: test_missing_isolation_fails_before_candidate (__main__.CandidateBoundary.test_missing_isolation_fails_before_candidate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/validation/test_candidate_boundary.py", line 89, in test_missing_isolation_fails_before_candidate
+    self.assertEqual(result.exception.status, "INFRASTRUCTURE_ERROR")
+AssertionError: 'FORMAT_ERROR' != 'INFRASTRUCTURE_ERROR'
+- FORMAT_ERROR
++ INFRASTRUCTURE_ERROR
+
+
+----------------------------------------------------------------------
+Ran 9 tests in 35.183s
+
+FAILED (failures=1)

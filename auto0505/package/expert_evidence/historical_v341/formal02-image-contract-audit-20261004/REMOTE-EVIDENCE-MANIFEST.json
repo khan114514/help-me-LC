@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/research-ledger.json",
+      "local_path": "remote-evidence/research-ledger.json",
+      "bytes": 5700,
+      "sha256": "c4bdc9849666aa64547ca64d60b03aa4e7faf013d4d96fd53a7dc2a48880ac38"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/ledger-bindings.json",
+      "local_path": "remote-evidence/ledger-bindings.json",
+      "bytes": 11225,
+      "sha256": "2fd00c71c9f8f14f9320491616be9a4a7c036a1cb907c274c8e1a04b055c27b6"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/ledger-policy.json",
+      "local_path": "remote-evidence/ledger-policy.json",
+      "bytes": 10852,
+      "sha256": "43aeddbc3802a57e683804d6e1695afd698b29cbdd01293af4655004f2e6bcfd"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/native-segment.json",
+      "local_path": "remote-evidence/native-segment.json",
+      "bytes": 5056,
+      "sha256": "05a8fb4a8a0d6477b996cf43a06a6547b0e7618a09d9e02542c86b3f1ceb5aa3"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/expert-trajectory.json",
+      "local_path": "remote-evidence/expert-trajectory.json",
+      "bytes": 2387,
+      "sha256": "9a73e842f29328b628a3e1a3e77540af9f5ff06951ebd60217538d5b7e36a60a"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/closure_000001.json",
+      "local_path": "remote-evidence/closure_000001.json",
+      "bytes": 3217,
+      "sha256": "721795bc472d28f116909316d0208344d960cd5b403e00bcd507b85d84b29814"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/closure_000002.json",
+      "local_path": "remote-evidence/closure_000002.json",
+      "bytes": 3217,
+      "sha256": "70afc128443b84bba541f39e442f975cd8725e98e7a5f769f867a56069279d7d"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/closure_000003.json",
+      "local_path": "remote-evidence/closure_000003.json",
+      "bytes": 3217,
+      "sha256": "4fbae94184fdd7464fd1e42a5310311f30be66911c1e3d183919527154218110"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/closure_000004.json",
+      "local_path": "remote-evidence/closure_000004.json",
+      "bytes": 3217,
+      "sha256": "09dc293f56daef7b52e073f9a3a73ae219fd3b135ba1e426cce05eee8cee3c32"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/closure_000005.json",
+      "local_path": "remote-evidence/closure_000005.json",
+      "bytes": 3217,
+      "sha256": "461e76806d0dd403c7ac830b1ace9fb07c9cf720e175a972b3341722d4b48760"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/trusted-rpc-22190a69-7ada-4435-b9a8-3ed8fcf8fd4a.json",
+      "local_path": "remote-evidence/trusted-rpc-22190a69-7ada-4435-b9a8-3ed8fcf8fd4a.json",
+      "bytes": 12050,
+      "sha256": "ad74f647fadeac6dcf57b076ec0aa8295fed7d87ce53d30059b1825a88fe4d4f"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/trusted-rpc-a7d23ae4-e3ae-40a1-8603-effa4c6e1839.json",
+      "local_path": "remote-evidence/trusted-rpc-a7d23ae4-e3ae-40a1-8603-effa4c6e1839.json",
+      "bytes": 12035,
+      "sha256": "8b2109399fdc989b56b3951dda57c1cd5b956b6c10cd088b9db4f5836679e1a8"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/trusted-rpc-14fbb92d-5edb-4af5-821f-22e16bf99b9c.json",
+      "local_path": "remote-evidence/trusted-rpc-14fbb92d-5edb-4af5-821f-22e16bf99b9c.json",
+      "bytes": 12054,
+      "sha256": "dc9e964ec3655f8e6768984ba22d887f78fac5b594c8f9af8036364f2b2f59ef"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/trusted-rpc-cd480709-b019-485e-8813-a0f2fc5db5a3.json",
+      "local_path": "remote-evidence/trusted-rpc-cd480709-b019-485e-8813-a0f2fc5db5a3.json",
+      "bytes": 12024,
+      "sha256": "9b3e16825dfba59265cfe3fe3a9c09383906fbce846c75eaa700e2498d6fcf9b"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/trusted-rpc-e8053c88-b3f1-4662-86b6-82c8688894e7.json",
+      "local_path": "remote-evidence/trusted-rpc-e8053c88-b3f1-4662-86b6-82c8688894e7.json",
+      "bytes": 12049,
+      "sha256": "cae980b4df8b5d8fc30de5b0b1b9f9dd2252c87d625be1cd676c829cf2845b5c"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/agent-output/round_000001/metrics.json",
+      "local_path": "remote-evidence/agent-output/round_000001/metrics.json",
+      "bytes": 3266,
+      "sha256": "a6638c65bd68be956680cc9e4de8ea432de8999338ed7712c1bd972a671c9256"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/agent-output/round_000002/metrics.json",
+      "local_path": "remote-evidence/agent-output/round_000002/metrics.json",
+      "bytes": 3279,
+      "sha256": "50279fabf5ebeca69c8dde3f7e28900e9724b2a58978778a8533207a58e7117d"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/agent-output/round_000003/metrics.json",
+      "local_path": "remote-evidence/agent-output/round_000003/metrics.json",
+      "bytes": 3299,
+      "sha256": "3a67844c95f4d020e557456b775141d79c7e65533213da7415604c8e69a63dd8"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/agent-output/round_000004/metrics.json",
+      "local_path": "remote-evidence/agent-output/round_000004/metrics.json",
+      "bytes": 3292,
+      "sha256": "3cbfa2ecfc363372b77fcce7f1a741f56a532ea885350c4fa616f9d27cec2add"
+    },
+    {
+      "remote_path": "/historical-root/rfsteps-v341-formal-research-run02-20261004/gpt/native-archive/segment_000001/agent-output/round_000005/metrics.json",
+      "local_path": "remote-evidence/agent-output/round_000005/metrics.json",
+      "bytes": 3293,
+      "sha256": "e6bf2ef9a3e42450fd173e1c09ae00c78208ea6c5fb01a833a7ac344eb392575"
+    }
+  ]
+}

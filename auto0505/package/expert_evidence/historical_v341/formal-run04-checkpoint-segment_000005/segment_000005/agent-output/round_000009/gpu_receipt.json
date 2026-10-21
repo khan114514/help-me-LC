@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "evaluation_completed": true,
+  "role": "public",
+  "job_id": "9e1c6b94-5e08-4bce-a283-529305143d6d",
+  "metrics": {
+    "split": "public",
+    "num_steps": 25,
+    "nfe_per_image": 100,
+    "method_sha256": "e16e91230268596c2b15a9ca60c8e7fdc105789a2e257a7d9101b5eee6cedabe",
+    "overall": {
+      "psnr": 19.35956474237743,
+      "ssim": 0.6091574343739209,
+      "pixel_mse": 1294.4540042877197,
+      "latent_mse": 0.1587571386480704,
+      "n": 12
+    },
+    "public": null,
+    "hidden": null,
+    "per_image": [
+      {
+        "split": "public",
+        "image": "coco_000000000139",
+        "psnr": 19.69121961979517,
+        "ssim": 0.6381784444389084,
+        "pixel_mse": 698.1655235290527,
+        "latent_mse": 0.13352824747562408
+      },
+      {
+        "split": "public",
+        "image": "coco_000000000285",
+        "psnr": 24.056093844470254,
+        "ssim": 0.7956144706537999,
+        "pixel_mse": 255.54711151123047,
+        "latent_mse": 0.007339154835790396
+      },
+      {
+        "split": "public",
+        "image": "coco_000000000632",
+        "psnr": 13.925976193366958,
+        "ssim": 0.1555125768327761,
+        "pixel_mse": 2633.193300882975,
+        "latent_mse": 0.25126177072525024
+      },
+      {
+        "split": "public",
+        "image": "coco_000000001000",
+        "psnr": 16.14303727165889,
+        "ssim": 0.4796276191912088,
+        "pixel_mse": 1580.434981028239,
+        "latent_mse": 0.120631143450737
+      },
+      {
+        "split": "public",
+        "image": "coco_000000001268",
+        "psnr": 16.48071109585487,
+        "ssim": 0.5928307727970248,
+        "pixel_mse": 1462.2083218892415,
+        "latent_mse": 0.10398436337709427
+      },
+      {
+        "split": "public",
+        "image": "coco_000000001425",
+        "psnr": 21.361756248036045,
+        "ssim": 0.8568290799590909,
+        "pixel_mse": 475.2309710184733,
+        "latent_mse": 0.07299086451530457
+      },
+      {
+        "split": "public",
+        "image": "coco_000000001490",
+        "psnr": 18.62710494935326,
+        "ssim": 0.5586859006439406,
+        "pixel_mse": 892.0102933247884,
+        "latent_mse": 0.10897587239742279
+      },
+      {
+        "split": "public",
+        "image": "coco_000000039769",
+        "psnr": 20.121913970757728,
+        "ssim": 0.5179404661607353,
+        "pixel_mse": 632.2501831054688,
+        "latent_mse": 0.0502932071685791
+      },
+      {
+        "split": "public",
+        "image": "repo_art",
+        "psnr": 28.317849681082116,
+        "ssim": 0.8984875524048679,
+        "pixel_mse": 95.7845344543457,
+        "latent_mse": 0.010239293798804283
+      },
+      {
+        "split": "public",
+        "image": "repo_boy",
+        "psnr": 17.335782997981596,
+        "ssim": 0.5669366492065259,
+        "pixel_mse": 1200.8867721557617,
+        "latent_mse": 0.2846640348434448
+      },
+      {
+        "split": "public",
+        "image": "repo_horse",
+        "psnr": 25.464910655275233,
+        "ssim": 0.8768974635725768,
+        "pixel_mse": 184.75206247965494,
+        "latent_mse": 0.03618716448545456
+      },
+      {
+        "split": "public",
+        "image": "repo_nobel",
+        "psnr": 10.788420380897048,
+        "ssim": 0.37234821662559486,
+        "pixel_mse": 5422.983996073405,
+        "latent_mse": 0.7249905467033386
+      }
+    ],
+    "elapsed_sec": 236.2133710384369,
+    "score": -0.0010830008148665206,
+    "score_clipped": 0.0,
+    "anchors": {
+      "baseline_psnr": 19.361577137501065,
+      "upper_bound_psnr": 21.21974298189495
+    }
+  },
+  "receipt": {
+    "control_task_checksum": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+    "numerical_runtime_profile": "frozen-v3.3-numerics-over-role-bound-GPU-RPC",
+    "worker_sha256": "ccffdfadb024de6f7a26f47769eb5b2060d53d31f8c302013f34c48f41d6bf96",
+    "nodes_sha256": "b480d7ed5e3c00f46f3d28b56b51a7707caf4ae0952c1d6a21f6022213c95df8",
+    "received_at": "2026-10-04T15:57:48.958+00:00",
+    "queue_started_at": "2026-10-04T15:57:48.958+00:00",
+    "queue_finished_at": "2026-10-04T15:57:48.959+00:00",
+    "queue_seconds": 0.000600186176598072,
+    "scoring_started_at": "2026-10-04T15:59:15.323+00:00",
+    "scoring_finished_at": "2026-10-04T16:03:14.118+00:00",
+    "scoring_seconds": 238.79488753061742,
+    "exit_code": 0,
+    "protocol": {
+      "num_steps": 25,
+      "nfe_per_image": 100,
+      "image_size": [
+        512,
+        512
+      ],
+      "model": "flux-dev",
+      "dtype": "bf16",
+      "prompt": "",
+      "guidance": 1,
+      "inject_step": 0,
+      "split": "public"
+    },
+    "gpu_before": {
+      "observed_at": "2026-10-04T15:57:49.752+00:00",
+      "index": 0,
+      "name": "NVIDIA A100-PCIE-40GB",
+      "uuid": "GPU-3c13714e-bfde-e7e7-8f1e-be9b84370014",
+      "total_memory_mib": 40960,
+      "used_memory_mib": 0,
+      "utilization_percent": 0,
+      "compute_processes": []
+    },
+    "scorer_sha256": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9",
+    "repo_sha256": "af8bec543dba11eb1f9c8697577461c1b68b585b7ae89753e202068c60d3c623",
+    "anchors_sha256": "f0c7c9d1b184ef2f0a364bd153b58cf74a3874f40098d089babf2adcfbfe1ab5",
+    "asset_sha256": {
+      "public": {
+        "coco_000000000139.png": "410abbaa2b30b9386fb1d53aefc21af172d292026fbb81f61c23c9301a88ead8",
+        "coco_000000000285.png": "3acce04c32eccd56472e4269a7e57ea1ac8f2ede5ff7216d34b399e8a2276f6b",
+        "coco_000000000632.png": "f19d159764fa3aeb612c0a090aa27d82934fab43675e6bf05b218c3a4dd7f729",
+        "coco_000000001000.png": "837ede6bcebcc4465c1555c48d85130d5bf9829469b052bdbe5718649b4132fa",
+        "coco_000000001268.png": "3876caece29c6b1a681b061e6e1577828839c14394abb68372b252cb92c59e95",
+        "coco_000000001425.png": "26830a640e3974480e1b8c734c46af479c74d6e273ad4f52dbd106b954e5b049",
+        "coco_000000001490.png": "be0522e9c34479fa5da9f4a433454affd8a468a8cbab897ad75c6d7f24f6e104",
+        "coco_000000039769.png": "fd6f28d91862d2dd0b8265afb1da553b3a3f9bc91841c1040a8598042b4324e5",
+        "repo_art.png": "95e0d7bfa351fa3b00f90d667e7ab7ca5da261e44fcf4473de50bde6eed5e9ea",
+        "repo_boy.png": "b7c9e147c4635e10953fb14cdad472ff1bfaa54ae6147ae096c24133b019697a",
+        "repo_horse.png": "dceef30c01ae1814a274ac264823c851145c5623dd268bff715b5e339855f952",
+        "repo_nobel.png": "1496a92a885c211c5de07dc23dd346047079f76982754639c40e18021ded60d5"
+      }
+    },
+    "runtime_execution": "fresh byte-identical source copy; no inherited Python caches",
+    "weights_sha256": {
+      "flux-dev/flux1-dev.safetensors": "4610115bb0c89560703c892c59ac2742fa821e60ef5871b33493ba544683abd7",
+      "flux-schnell/ae.safetensors": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38",
+      "t5-encoder-bf16/model.safetensors": "565cb2487351282e8e4dbeb88e63f4ad28217ce0439f5a8e6525a924807d2d9b",
+      "clip-vit-l14/model.safetensors": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb"
+    },
+    "weight_support_sha256": {
+      "t5-encoder-bf16/.gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+      "t5-encoder-bf16/README.md": "06671025c9f8ac4f5c33373e08a0e17e9b7c291170a8a3f3682586de7f77491b",
+      "t5-encoder-bf16/config.json": "e8b75fe2bb5c14903a9208b8d492ed301ec03b227993f213bcf8eaf04491be6a",
+      "t5-encoder-bf16/special_tokens_map.json": "4720c0fddbe4c5991334f85ad7073d9bd0a294a8ba4641a2f8dab614ca825949",
+      "t5-encoder-bf16/spiece.model": "d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86",
+      "t5-encoder-bf16/tokenizer_config.json": "b971dce1d2805c2a66da8657156e7114a30501c6ba602fc947c8bf607a3ead2d",
+      "clip-vit-l14/.gitattributes": "98ccb431c012ebfe976280fbd45aea4cec7409935868ccecf3954370f96732a1",
+      "clip-vit-l14/README.md": "de4274ec48590ab3aa1c239720ff55e99a37f4165c117ba3ad7af2b7df72687c",
+      "clip-vit-l14/config.json": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+      "clip-vit-l14/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "clip-vit-l14/preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+      "clip-vit-l14/special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+      "clip-vit-l14/tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+      "clip-vit-l14/tokenizer_config.json": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+      "clip-vit-l14/vocab.json": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69"
+    },
+    "bridge_sha256": "e16e91230268596c2b15a9ca60c8e7fdc105789a2e257a7d9101b5eee6cedabe",
+    "environment": {
+      "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:20:58) [GCC 14.3.0]",
+      "packages": {
+        "torch": "2.12.1+cu130",
+        "numpy": "2.4.4",
+        "einops": "0.8.2",
+        "pillow": "12.2.0",
+        "scikit-image": "0.26.0",
+        "transformers": "4.41.2",
+        "huggingface-hub": "0.24.6",
+        "safetensors": "0.8.0",
+        "sentencepiece": "0.2.2",
+        "invisible-watermark": "0.2.0",
+        "requests": "2.34.2"
+      },
+      "imported_torch": "2.12.1+cu130",
+      "cuda_runtime": "13.0",
+      "cuda_available": true
+    },
+    "gpu_at_scoring_start": {
+      "observed_at": "2026-10-04T15:59:15.322+00:00",
+      "index": 0,
+      "name": "NVIDIA A100-PCIE-40GB",
+      "uuid": "GPU-3c13714e-bfde-e7e7-8f1e-be9b84370014",
+      "total_memory_mib": 40960,
+      "used_memory_mib": 0,
+      "utilization_percent": 0,
+      "compute_processes": []
+    },
+    "cpu_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "scorer_process_pid": 540172,
+    "scorer_peak_rss_observed_bytes": 23864643584,
+    "gpu_after": {
+      "observed_at": "2026-10-04T16:03:14.198+00:00",
+      "index": 0,
+      "name": "NVIDIA A100-PCIE-40GB",
+      "uuid": "GPU-3c13714e-bfde-e7e7-8f1e-be9b84370014",
+      "total_memory_mib": 40960,
+      "used_memory_mib": 0,
+      "utilization_percent": 0,
+      "compute_processes": []
+    },
+    "schedule_sha256": "033f7b237623fe05673242b0e91929272cd54d6e4fe085f881abf08038fa0c8f",
+    "metrics_sha256": "ca3892d492293301d1c8b6c19b82eecd546d9965bbad009a08084ab61de3a2d9",
+    "png_sha256": {
+      "recon_coco_000000000139.png": "404996277b7be73489093727004038c45fb63886d300b7c4aee7111b8bea8db7",
+      "recon_coco_000000000285.png": "a4f3d0e58c79ce7b3f4ca5419aa3eae3682579e7f75f70f4e04233d9303495d4",
+      "recon_coco_000000000632.png": "16a9f2cab5cf95d874c291ff1d6bd064d6531f16d97660cd3c843f66331773b7",
+      "recon_coco_000000001000.png": "08b9b2ab359d34eb3f228b23e0d7a56fcce381410515721e22c7cd3d6bea20a1",
+      "recon_coco_000000001268.png": "e55ecdecace19acc173ab667a072691b15948bc65cb0ab51756539e8bbb0f7ed",
+      "recon_coco_000000001425.png": "596aec6d5ae43968ddaec1df0bbda76a742787dcc1bf10d2b7c5f123cbe00d25",
+      "recon_coco_000000001490.png": "aa6627746859e8c37002baa67222fca4ea0328d1a8fb522d28f81beaac32c2f6",
+      "recon_coco_000000039769.png": "66a7df9493054255f48be0911bcd3eb7b5bc0dc0ec6ee340f1ae04b9b8d6d5b4",
+      "recon_repo_art.png": "1b2d20ee22fc17c38b74c74fbcb095464cdcd3d78ad47688f3fdcdf3347beeba",
+      "recon_repo_boy.png": "43ef6f7c0f01fee6790a90bc7a161063a87ef23e1a08f6112306c3b1dde8cc47",
+      "recon_repo_horse.png": "4c529074a1f4c0b98c15eecd53b4397b830272deb69f8d4c8217732978cab1bc",
+      "recon_repo_nobel.png": "9b937eaf73de8c7eb3f7b1e1b58bb85720473ef43bb2916ec49d82899a76af01"
+    },
+    "exclusivity_evidence": "serialized RPC lease; GPU idle before launch; sampled compute-process inventory",
+    "finished_at": "2026-10-04T16:03:14.229+00:00",
+    "total_seconds": 325.2704058457166,
+    "scorer_log_sha256": "19af32528605b74ba348b0a4438c33e026957cb5739336e9a2469814974283ea",
+    "gpu_observations_sha256": "c517c97123d71e91a230b4c879e422b9a7accb9f81de08b572991812ef1cfd60"
+  },
+  "record_infra_error": null
+}

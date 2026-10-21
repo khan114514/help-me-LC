@@ -1,0 +1,11 @@
+{
+  "source": "stability-final-preservation-20261005T125456Z",
+  "sha256": "ea3ae0e5b87564afd382625ddfd6676ce727960478bcb113e3fbe4ac8884e879",
+  "gpt_continuous_seconds": 43200.281585836,
+  "seed_continuous_seconds": 43200.28150372401,
+  "sample_count_each": 721,
+  "passed": true,
+  "scope": "Existing container/resource/isolation/IO/UDS stability samples; not continuous RPC availability.",
+  "recovered_data_evidence": "recovered-original-data-20261005T125652Z.json",
+  "no_new_experiment_started": true
+}

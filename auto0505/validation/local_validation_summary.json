@@ -1,0 +1,46 @@
+{
+  "recorded_at_utc": "2026-10-21T08:42:45.788343+00:00",
+  "status": "PASS_LOCAL_REGRESSION_ONLY",
+  "checks": [
+    {
+      "log": "final-root-candidate-boundary.log",
+      "status": "PASS",
+      "cases": 9,
+      "sha256": "bb6f726499554a734b78806a329f2df1277666213c0ca34ff775eb1adf9fa3e9"
+    },
+    {
+      "log": "final-nonroot-candidate-boundary.log",
+      "status": "PASS",
+      "cases": 9,
+      "sha256": "5497fdb862b889887d1183b1c105f4b69694b5ceec863ad8d9c1f37c418c455b"
+    },
+    {
+      "log": "final-local-backend-protocol.log",
+      "status": "PASS",
+      "cases": 9,
+      "sha256": "fcb2af6de5d14941c26dfe27a49451cca9c9e0d46324f737ffeb8c83d5c7ac39"
+    },
+    {
+      "log": "public-image-permissions.log",
+      "status": "PASS",
+      "cases": 1,
+      "sha256": "9d123df4f84b2565dd071ed63690ad34430797be4252bdbff3a410be7c4ea2b2"
+    },
+    {
+      "log": "formal-image-permissions.log",
+      "status": "PASS",
+      "cases": 1,
+      "sha256": "642460ecb96d91a26cbc024f00be82274af352e8b984e646ed7a053ee24dfc52"
+    }
+  ],
+  "case_executions": 29,
+  "machine": "macOS arm64 host; Linux aarch64 Docker containers",
+  "scope_exclusions": [
+    "real FLUX/CUDA image build",
+    "A100 numerical scoring",
+    "Harbor artifact transfer and native NOP",
+    "official V4 fingerprint and format/GPU check",
+    "research trajectory duration",
+    "12h stability"
+  ]
+}

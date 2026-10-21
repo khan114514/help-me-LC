@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-04T16:49:15.201894+00:00",
+  "remote_root": "/historical-root/rfsteps-v341-stability-attempt01-20261004",
+  "scope": "Read-only projections of systemctl show and first/last stability.jsonl records; no new sample or probe executed.",
+  "required_seconds": 43200,
+  "tracks": {
+    "gpt": {
+      "unit": "rfsteps-v341-stability-gpt-attempt01.service",
+      "active_state": "active",
+      "sub_state": "running",
+      "exec_main_status": 0,
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "elapsed_seconds": 16620.059967377005,
+      "sample_index": 278,
+      "last_sample_utc": "2026-10-04T16:48:53.733622+00:00",
+      "container_id": "622dc9cf9b6857eb53a9e3b9bb8f3a9bc1ff55212028153a5b963a0dac5b9bb5",
+      "restarts": 0,
+      "oom_killed": false,
+      "rw_ok": true,
+      "forbidden_paths_present": [],
+      "public_socket_inode": 1978676,
+      "model_socket_inode": 1978677,
+      "sole_model_socket": true
+    },
+    "seed": {
+      "unit": "rfsteps-v341-stability-seed-attempt01.service",
+      "active_state": "active",
+      "sub_state": "running",
+      "exec_main_status": 0,
+      "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+      "elapsed_seconds": 16620.060785183014,
+      "sample_index": 278,
+      "last_sample_utc": "2026-10-04T16:48:53.625802+00:00",
+      "container_id": "69b94aa832418d838c2b591e44f5f84bc4c1a61783fce3aa6dd9361964887c0f",
+      "restarts": 0,
+      "oom_killed": false,
+      "rw_ok": true,
+      "forbidden_paths_present": [],
+      "public_socket_inode": 1978676,
+      "model_socket_inode": 1978679,
+      "sole_model_socket": true
+    }
+  },
+  "conclusion": "Still running; 12h not yet observed. No failure in the inspected last samples. Does not attest continuous RPC availability."
+}
+

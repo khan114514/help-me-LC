@@ -1,0 +1,474 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "policy_name": "baseline_attempt",
+      "method_summary": "首轮评测失败：schnell 权重文件不存在（/historical-root/rivermind-data/weights/flux-schnell/flux1-schnell.safetensors 缺失）。合同 v2 已切换到 flux-dev，但 scorer 仍引用 flux-schnell 模型名。解决方案：设置 FLUX_SCHNELL 环境变量指向 dev 权重。",
+      "status": "failed",
+      "score": null,
+      "failure_reason": "首轮评测失败：schnell 权重文件不存在（/historical-root/rivermind-data/weights/flux-schnell/flux1-schnell.safetensors 缺失）。合同 v2 已切换到 flux-dev，但 scorer 仍引用 flux-schnell 模型名。解决方案：设置 FLUX_SCHNELL 环境变量指向 dev 权重。",
+      "retained_best": false,
+      "time": "2026-10-03 02:53:05"
+    },
+    {
+      "round": 2,
+      "policy_name": "baseline_official",
+      "method_summary": "官方默认 time_shift(mu≈0.63) schedule，即 Baseline 锚点。步数向 t≈1（高噪声端）集中：近端步长~0.022，远端步长~0.073。public 集 PSNR=19.36dB 作为后续对比基准。anchors.json 尚未生成，score 字段为 None。",
+      "status": "ok",
+      "score": 19.361577137501065,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 02:53:05"
+    },
+    {
+      "round": 3,
+      "policy_name": "uniform_schedule",
+      "method_summary": "均匀线性 schedule（无偏移）。PSNR=17.96dB，比 baseline 低 1.40dB。证明向高噪声端（t≈1）集中步长是必要的——均匀分配在高噪声端步长太大，截断误差累积更严重。",
+      "status": "ok",
+      "score": 17.959306788303643,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 03:06:03"
+    },
+    {
+      "round": 4,
+      "policy_name": "time_shift_mu1.0",
+      "method_summary": "time_shift(mu=1.0) schedule。PSNR=20.30dB，比 baseline +0.94dB。进一步验证了向高噪声端（t≈1）集中步长的有效性。步长比约 6.7x（首步 0.015 vs 末步 0.102）。趋势仍在上升，继续测试更高 mu。",
+      "status": "ok",
+      "score": 20.300487156329098,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 03:19:01"
+    },
+    {
+      "round": 5,
+      "policy_name": "time_shift_mu1.5",
+      "method_summary": "time_shift(mu=1.5) schedule。PSNR=19.64dB，比 baseline +0.28dB，但比 mu=1.0 低 0.66dB。说明浓度过高反而有害——t≈0 端步长太大（~0.16）引入误差。最优 mu 在 1.0 附近。",
+      "status": "ok",
+      "score": 19.641245001579538,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 03:32:22"
+    },
+    {
+      "round": 6,
+      "policy_name": "time_shift_mu1.2",
+      "method_summary": "time_shift(mu=1.2) schedule。PSNR=19.55dB，比 baseline +0.19dB，但比 mu=1.0 低 0.75dB。time_shift 家族峰值确认在 mu≈1.0 附近（+0.94dB）。下一步探索其他函数族。",
+      "status": "ok",
+      "score": 19.546817861597415,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 03:45:25"
+    },
+    {
+      "round": 7,
+      "policy_name": "rev_exp_alpha2.0",
+      "method_summary": "反向指数 schedule（alpha=2.0），与 time_shift mu=1.0 浓度比相近（~6.8x）但形状不同。PSNR=19.68dB（score=0.373），比 baseline +0.32dB，但比 time_shift mu=1.0 低 0.62dB。说明 S 型（logit 偏移）的形状优于纯指数增长。",
+      "status": "ok",
+      "score": 19.68334632981351,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:05:07"
+    },
+    {
+      "round": 8,
+      "policy_name": "sine_schedule_reference",
+      "method_summary": "正弦 schedule（Reference 方法）。PSNR=20.22dB，score=1.0，与 pilot 完全一致，验证环境正确。其特征是 bathtub 形步长密度：t≈1 极密、中段较疏、t≈0 也比 time_shift 密。我们的 time_shift mu=1.0 已达 20.30dB，略高于 Reference。",
+      "status": "ok",
+      "score": 20.22483156573475,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:12:06"
+    },
+    {
+      "round": 9,
+      "policy_name": "cos_pow_1.5",
+      "method_summary": "cos^p schedule with p=1.5（U型步长密度）。PSNR=19.94dB, score=0.67。比 time_shift mu=1.0 低 0.36dB。证明误差密度从 t=1 到 t=0 单调递减——给 t≈0 端加步数反而降低精度，因为减少了高噪声端的步数。time_shift 家族仍最优。",
+      "status": "ok",
+      "score": 19.935898606696494,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:20:05"
+    },
+    {
+      "round": 10,
+      "policy_name": "time_shift_mu0.95",
+      "method_summary": "time_shift(mu=0.95) schedule。PSNR=20.30dB, score=1.0。与 mu=1.0（20.30dB）几乎相同，说明最优 mu 在 0.95-1.0 区间很宽，sigma=1.0 时 time_shift 家族上限约 20.30dB。下一步探索 sigma 参数（双参数）。",
+      "status": "ok",
+      "score": 20.30161236366396,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 04:27:48"
+    },
+    {
+      "round": 11,
+      "policy_name": "time_shift_mu1.0_sigma0.9",
+      "method_summary": "time_shift(mu=1.0, sigma=0.9)。PSNR=20.14dB, score=0.90。比 sigma=1.0 (20.30dB) 低 0.16dB。sigma<1 使步长分布呈 U 型（中间最小），不利于高噪声端精度。最优 sigma ≥ 1.0。下一步试 sigma=1.1。",
+      "status": "ok",
+      "score": 20.13869558094801,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:57:50"
+    },
+    {
+      "round": 12,
+      "policy_name": "time_shift_mu1.0_sigma1.1",
+      "method_summary": "time_shift(mu=1.0, sigma=1.1)。PSNR=20.20dB, score=0.966。比 sigma=1.0 (20.30dB) 低 0.10dB。time_shift 家族最优在 sigma≈1.0（mu≈0.95-1.0），S 曲线形状已近最优。下一步探索不同函数族：rev_power p=1.5。",
+      "status": "ok",
+      "score": 20.195060665863227,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 05:05:44"
+    },
+    {
+      "round": 13,
+      "policy_name": "rev_power_p1.5",
+      "method_summary": "反向幂律 schedule t=1-(i/N)^p, p=1.5。PSNR=20.60dB, score=1.0。比 time_shift 最佳 (20.30dB) 提升 +0.30dB！关键发现：步长减速增长（先快后慢）优于 S 型增长。说明误差密度在 t≈1 处快速下降，中段保持较高，而非 S 型分布。下一步细调 p 值找最优。",
+      "status": "ok",
+      "score": 20.59893818205907,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 05:13:59"
+    },
+    {
+      "round": 14,
+      "policy_name": "rev_power_p1.7",
+      "method_summary": "反向幂律 p=1.7。PSNR=19.92dB, score=0.65。比 p=1.5 (20.60dB) 低 0.68dB。过度向 t≈1 集中步长有害。最优 p 在 1.3-1.6 区间。下一步 p=1.4 与 p=1.6 精确定位最优值。",
+      "status": "ok",
+      "score": 19.92387788652444,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 05:22:19"
+    },
+    {
+      "round": 15,
+      "policy_name": "rev_power_p1.4",
+      "method_summary": "反向幂律 p=1.4。PSNR=21.01dB, score=1.0。比 p=1.5 (20.60dB) 再提升 +0.41dB！新纪录。rev_power 家族最优 p 在 1.3-1.5 区间。步长减速增长形状（先快后慢）显著优于 time_shift 的 S 型曲线。下一步 p=1.3 精确定位峰值。",
+      "status": "ok",
+      "score": 21.009927311808024,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 05:31:27"
+    },
+    {
+      "round": 16,
+      "policy_name": "rev_power_p1.3",
+      "method_summary": "反向幂律 p=1.3。PSNR=21.59dB, score=1.0。比 p=1.4 (21.01dB) 再提升 +0.58dB！新纪录。最优 p 在 1.0-1.3 区间，步长分布更均匀时更好（但 p=1.0 均匀最差）。峰值在 p≈1.1-1.2 附近。下一步 p=1.2。",
+      "status": "ok",
+      "score": 21.5947070476374,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 05:51:22"
+    },
+    {
+      "round": 17,
+      "policy_name": "rev_power_p1.2",
+      "method_summary": "反向幂律 p=1.2。PSNR=21.66dB, score=1.0。比 p=1.3 (21.59dB) 微涨 +0.07dB。提升放缓，峰值在 p≈1.1-1.2。p=1.0 (均匀) 仅 17.96dB，说明均匀分配最差，但少量向 t≈1 倾斜就能大幅提升。下一步 p=1.1。",
+      "status": "ok",
+      "score": 21.66197823479546,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 05:58:19"
+    },
+    {
+      "round": 18,
+      "policy_name": "rev_power_p1.1",
+      "method_summary": "反向幂律 p=1.1。PSNR=19.51dB, score=0.176。比 p=1.2 (21.66dB) 暴跌 -2.15dB！rev_power 家族峰值非常尖锐地落在 p≈1.2 处。p<1.2 时某些图像（如 repo_nobel）反演质量急剧下降。最优 p 在 1.15-1.30 区间，峰值约 1.2。",
+      "status": "ok",
+      "score": 19.513524267769906,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:06:16"
+    },
+    {
+      "round": 19,
+      "policy_name": "rev_power_p1.25",
+      "method_summary": "反向幂律 p=1.25。PSNR=19.23dB, score=0.0。意外的低——p=1.2(21.66)和p=1.3(21.59)都很好，但p=1.25很差。说明PSNR-p关系非单调，存在特定schedule导致某些图像（repo_boy仅16.7dB、repo_nobel仅13.0dB）反演质量骤降。最佳仍是p=1.2。下一步转向其他减速增长族验证形状普适性。",
+      "status": "ok",
+      "score": 19.234193640030757,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:14:30"
+    },
+    {
+      "round": 20,
+      "policy_name": "linear_step_growth_r2.5",
+      "method_summary": "线性步长增长 schedule (ratio=2.5x)。PSNR=20.83dB, score=1.0。比 time_shift (20.30dB) 好 +0.53dB，但比 rev_power p=1.2 (21.66dB) 低 0.83dB。验证结论：减速增长形状>恒定增长速率>S型曲线。rev_power 族仍是最佳。下一步测试几何增长作为对照。",
+      "status": "ok",
+      "score": 20.830977246882448,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:22:33"
+    },
+    {
+      "round": 21,
+      "policy_name": "geometric_step_growth_r2.5",
+      "method_summary": "几何步长增长 schedule (ratio=2.5x)。PSNR=20.44dB, score=1.0。形状对比完成：减速增长(rev_power,21.66dB) > 恒速率增长(线性,20.83dB) > 加速增长(几何,20.44dB)。形状影响高达 1.2dB。rev_power 族仍是最佳。下一步尝试分段 schedule 突破 rev_power。",
+      "status": "ok",
+      "score": 20.44369530613992,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:30:21"
+    },
+    {
+      "round": 22,
+      "policy_name": "rev_power_p1.2_verify",
+      "method_summary": "反向幂律 p=1.2 复现验证。PSNR=21.662dB, score=1.0。与 round17 完全一致，证明结果确定性可靠。rev_power p=1.2 为当前最佳。下一步尝试两参数推广族。",
+      "status": "ok",
+      "score": 21.66197823479546,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:42:21"
+    },
+    {
+      "round": 23,
+      "policy_name": "rev_power_p1.18",
+      "method_summary": "反向幂律 p=1.18。PSNR=20.63dB, score=1.0。比 p=1.2 低 1.03dB！峰值左侧极陡峭：p=1.2 恰好在数值稳定性边界，再低 0.02 就导致 repo_nobel(12.8dB)、repo_horse(21.3dB) 等图像反演质量骤降。p=1.2 是保持所有图像稳定的最均匀分布。",
+      "status": "ok",
+      "score": 20.630486120014,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:50:17"
+    },
+    {
+      "round": 24,
+      "policy_name": "rev_power_p1.22",
+      "method_summary": "反向幂律 p=1.22。PSNR=21.02dB, score=1.0。比 p=1.2 低 0.64dB。PSNR-p 曲线非单调：p=1.2(21.66)和p=1.3(21.59)双峰，p≈1.25为谷值。最佳仍是 p=1.2。下一步测试 padded rev_power（首几步加密步数）。",
+      "status": "ok",
+      "score": 21.02237635322236,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:58:07"
+    },
+    {
+      "round": 25,
+      "policy_name": "padded_rev_power_p1.5to1.2_5step",
+      "method_summary": "Padded rev_power（前5步从p=1.5过渡到p=1.2）。PSNR=21.28dB, score=1.0。比纯p=1.2低0.38dB。首步加密（0.0097 vs 0.021）没有带来整体提升，说明p=1.2的初始步长已经接近最优。最佳仍是 rev_power p=1.2 (21.66dB)。",
+      "status": "ok",
+      "score": 21.275254197357444,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:06:23"
+    },
+    {
+      "round": 26,
+      "policy_name": "best_method_verification",
+      "method_summary": "best_method.py 最终验证。PSNR=21.662dB，与 round17、round22 完全一致，三次独立运行结果精确相同，证明方法确定性可靠。best_method.py 已确认。",
+      "status": "ok",
+      "score": 21.66197823479546,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:14:17"
+    },
+    {
+      "round": 27,
+      "policy_name": "rev_power_p1.28",
+      "method_summary": "反向幂律 p=1.28。PSNR=21.24dB, score=1.0。位于 p=1.25(19.23) 谷值与 p=1.3(21.59) 第二峰之间，验证了双峰结构。最佳仍是 p=1.2 (21.66dB)。",
+      "status": "ok",
+      "score": 21.23655349349821,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:22:11"
+    },
+    {
+      "round": 28,
+      "policy_name": "varying_p_1.3_to_1.2",
+      "method_summary": "p 从 1.3 线性递减到 1.2 的平滑变参 rev_power。PSNR=20.85dB，比 p=1.2 低 0.81dB，比 p=1.3 低 0.74dB。变参形状比固定 p 差，说明纯幂律的一致性形状本身是最优的关键因素。",
+      "status": "ok",
+      "score": 20.84576321490657,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:31:37"
+    },
+    {
+      "round": 29,
+      "policy_name": "error_model_k0.4_eps0.5",
+      "method_summary": "误差等分布 schedule（k=0.4, eps=0.5），假设误差=幂律发散+常数基底。PSNR=21.54dB，比 rev_power p=1.2 低 0.12dB。说明纯幂律误差模型（eps→0）更准确，常数项假设使形状偏离最优。",
+      "status": "ok",
+      "score": 21.5388615382808,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:47:05"
+    },
+    {
+      "round": 30,
+      "policy_name": "empty_slot",
+      "method_summary": "round30 目录已创建但评测未实际运行（上一轮调用异常退出），空转浪费。",
+      "status": "not_run",
+      "score": null,
+      "failure_reason": "round30 目录已创建但评测未实际运行（上一轮调用异常退出），空转浪费。",
+      "retained_best": false,
+      "time": "2026-10-03 10:11:01"
+    },
+    {
+      "round": 31,
+      "policy_name": "rev_power_p1.195",
+      "method_summary": "反向幂律 p=1.195，精细探测峰值左侧。PSNR=20.75dB，比 p=1.2 低 0.91dB。左侧边界极陡：p 仅下降 0.005，coco_0632(-5.1dB) 和 coco_1425(-5.4dB) 即崩溃。确认 p=1.2 是左侧稳定边界。",
+      "status": "ok",
+      "score": 20.75363795217883,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:11:01"
+    },
+    {
+      "round": 32,
+      "policy_name": "beta_cdf_a1.15_b0.95",
+      "method_summary": "Beta CDF schedule (a=1.15, b=0.95)，杠铃形步长分布。PSNR=21.05dB，比 p=1.2 低 0.61dB。部分图像显著改善（coco_1268 +2.5dB, repo_art +2.2dB）但更多图像变差（repo_horse -4.8dB, coco_1425 -2.8dB）。纯幂律的折中形状最优。",
+      "status": "ok",
+      "score": 21.048375949315098,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:19:25"
+    },
+    {
+      "round": 33,
+      "policy_name": "rev_power_p1.205",
+      "method_summary": "反向幂律 p=1.205，精细探测峰值右侧。PSNR=20.76dB，比 p=1.2 低 0.91dB。降幅远超预期——PSNR-p 景观非常粗糙，存在类似共振的谷值（repo_boy 在 p=1.205 从 30.5 骤降至 23.8）。",
+      "status": "ok",
+      "score": 20.755132361424995,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:28:29"
+    },
+    {
+      "round": 34,
+      "policy_name": "rev_power_p1.201",
+      "method_summary": "反向幂律 p=1.201。PSNR=21.08dB，比 p=1.2 低 0.58dB。峰值极其尖锐——p 仅变 0.001 就降 0.6dB。coco_0632 对 p 变化极度敏感（-5.4dB）。p=1.2 是一个精确的稳定甜点。",
+      "status": "ok",
+      "score": 21.084424335425343,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:35:25"
+    },
+    {
+      "round": 35,
+      "policy_name": "sine_perturbed_p1.2",
+      "method_summary": "p=1.2 基础上加小幅正弦扰动（a=0.005, 2π 周期）。PSNR=21.50dB，比 p=1.2 低 0.16dB。比相近浓度比的纯幂律（p=1.201: 21.08dB）好很多，说明步长形状的细节很重要。",
+      "status": "ok",
+      "score": 21.498105760398598,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:42:40"
+    },
+    {
+      "round": 36,
+      "policy_name": "poly_corrected_p1.2",
+      "method_summary": "p=1.2 加多项式修正（a=0.02, b=-0.05, c=0.03）。PSNR=21.10dB，比 p=1.2 低 0.56dB。比正弦扰动差，说明周期型扰动比多项式型更接近最优形状。",
+      "status": "ok",
+      "score": 21.10027320286379,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:51:17"
+    },
+    {
+      "round": 37,
+      "policy_name": "error_model_k0.38_eps0.2",
+      "method_summary": "误差模型 k=0.38, eps=0.2。PSNR=20.53dB，比 p=1.2 低 1.13dB。比 k=0.4/eps=0.5 差 1.0dB。误差模型最优参数接近 k=0.4, eps=0.5（21.54dB）但仍不如纯幂律。",
+      "status": "ok",
+      "score": 20.533262629691666,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:59:22"
+    },
+    {
+      "round": 38,
+      "policy_name": "sine_perturb_a0.003_pi",
+      "method_summary": "p=1.2 正弦扰动（a=0.003, freq=π）。PSNR=20.99dB，比 p=1.2 低 0.67dB。比高频率 2π 版本（21.50dB）差，说明高频小幅度扰动更有利。",
+      "status": "ok",
+      "score": 20.991085355800696,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:07:29"
+    },
+    {
+      "round": 39,
+      "policy_name": "blend_p1.2_p1.3_alpha0.6",
+      "method_summary": "p=1.2 与 p=1.3 凸组合（alpha=0.6）。PSNR=19.70dB，比 p=1.2 低 1.96dB。混合跌入双峰之间的谷值，证明两个峰独立存在，线性插值无法兼得。",
+      "status": "ok",
+      "score": 19.70137194040251,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:19:27"
+    },
+    {
+      "round": 40,
+      "policy_name": "exp_correction_c0.1",
+      "method_summary": "反向幂律 p=1.2 加指数修正 c=0.1（压缩中段步长）。PSNR=19.57dB，比 p=1.2 低 2.09dB。正向修正严重恶化性能，尝试负方向。",
+      "status": "ok",
+      "score": 19.566119159638,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:27:20"
+    },
+    {
+      "round": 41,
+      "policy_name": "exp_correction_c-0.05",
+      "method_summary": "反向幂律 p=1.2 加指数修正 c=-0.05（扩张中段步长）。PSNR=20.83dB，比 p=1.2 低 0.83dB。指数修正族最优在 c=0 即纯幂律——任何偏离纯幂律的指数修正都降低性能。",
+      "status": "ok",
+      "score": 20.832876605643907,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:34:53"
+    },
+    {
+      "round": 42,
+      "policy_name": "error_model_k0.45_eps0.5",
+      "method_summary": "误差模型 k=0.45, eps=0.5。PSNR=19.40dB，比 k=0.4 低 2.14dB。k 增大导致 t≈1 端步长过小，进入不稳定区。误差模型最优 k 在 0.4 附近。",
+      "status": "ok",
+      "score": 19.403336887903624,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:42:25"
+    },
+    {
+      "round": 43,
+      "policy_name": "error_model_k0.35_eps0.5",
+      "method_summary": "误差模型 k=0.35, eps=0.5。PSNR=21.08dB，比 k=0.4 低 0.46dB。误差模型最优 k 在 0.4 附近（k=0.35: 21.08, k=0.4: 21.54, k=0.45: 19.40）。",
+      "status": "ok",
+      "score": 21.078404748154284,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:47:06"
+    },
+    {
+      "round": 44,
+      "policy_name": "error_model_k0.4_eps0.7",
+      "method_summary": "误差模型 k=0.4, eps=0.7。PSNR=21.30dB，比 eps=0.5 低 0.24dB。误差模型最优在 eps≈0.5 附近。误差模型上限 21.54dB，仍低于纯幂律 21.66dB。",
+      "status": "ok",
+      "score": 21.29950936196936,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:52:09"
+    },
+    {
+      "round": 45,
+      "policy_name": "error_model_1over3_k0.6_eps0.5",
+      "method_summary": "误差模型 1/3 指数（二阶方法理论值）k=0.6, eps=0.5。PSNR=21.16dB，比 1/2 指数（21.54dB）差 0.38dB。经验上 sqrt 指数更优，可能因为 RF-Solver 实际有效阶数低于 2。",
+      "status": "ok",
+      "score": 21.164690632839704,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:58:12"
+    },
+    {
+      "round": 46,
+      "policy_name": "nested_power_p1.2_q0.8",
+      "method_summary": "嵌套幂律 t=1-(1-(1-x)^q)^p, p=1.2, q=0.8。PSNR=20.49dB，比纯 p=1.2 低 1.17dB。所有非纯幂律变体均未能超越 p=1.2。开始收尾。",
+      "status": "ok",
+      "score": 20.486711554594944,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 12:03:21"
+    },
+    {
+      "round": 47,
+      "policy_name": "best_method_final_verification",
+      "method_summary": "best_method.py 第四次独立验证。PSNR=21.662dB，与 round17、round22、round26 完全一致。四次验证结果精确相同，方法确定性可靠。",
+      "status": "ok",
+      "score": 21.66197823479546,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 12:07:56"
+    }
+  ]
+}

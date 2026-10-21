@@ -1,0 +1,174 @@
+{
+  "status": "PASSED",
+  "purpose": "clean_rerun",
+  "split": "public",
+  "candidate_role": "seed",
+  "candidate_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+  "Task": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "started_at": "2026-10-04T17:23:49.309886+00:00",
+  "model_calls": 0,
+  "research_credit_seconds": 0,
+  "is_NOP": false,
+  "is_model_trajectory": false,
+  "trial_uuid": "8455456f-e03e-43d4-bd59-c24508875318",
+  "own_container_id": "12abbc9d58de2395cbe5c4f740502aa8ea55160ff3649a7fa8123fd36898290d",
+  "gpu_job_id": "8625f57f-0fa1-416a-b321-2d4b22a6ee6d",
+  "nodes_sha256": "88b4ddc7ade3ad425a3fa660db6683dcc001c3367695d9b4de74106d728b5679",
+  "nodes": [
+    1.0,
+    0.9789877775647698,
+    0.9517265893076386,
+    0.9214732732070515,
+    0.8890968250951765,
+    0.8550440672644608,
+    0.819592956219277,
+    0.782935082452427,
+    0.7452114108457617,
+    0.7065304805418677,
+    0.6669787170392507,
+    0.6266267399376091,
+    0.5855334511584107,
+    0.5437488077271107,
+    0.5013157725710718,
+    0.45827172913153946,
+    0.41464953353302225,
+    0.3704783142810305,
+    0.3257840915133464,
+    0.28059026438133094,
+    0.23491800016797038,
+    0.18878654891769164,
+    0.14221350073290295,
+    0.09521499833508462,
+    0.04780591428873637,
+    0.0
+  ],
+  "metrics": {
+    "split": "public",
+    "num_steps": 25,
+    "nfe_per_image": 100,
+    "method_sha256": "f4e2c04019a45111a9561abe12423e45eb457a0344c22c03377166738f779ec4",
+    "overall": {
+      "psnr": 21.66197823479546,
+      "ssim": 0.7309316821377365,
+      "pixel_mse": 686.4576675626967,
+      "latent_mse": 0.07408000171805422,
+      "n": 12
+    },
+    "public": null,
+    "hidden": null,
+    "per_image": [
+      {
+        "split": "public",
+        "image": "coco_000000000139",
+        "psnr": 20.00823388309162,
+        "ssim": 0.6443223645571607,
+        "pixel_mse": 649.0183448791504,
+        "latent_mse": 0.12954439222812653
+      },
+      {
+        "split": "public",
+        "image": "coco_000000000285",
+        "psnr": 23.871391100090698,
+        "ssim": 0.8014026660583494,
+        "pixel_mse": 266.64979298909503,
+        "latent_mse": 0.0077234357595443726
+      },
+      {
+        "split": "public",
+        "image": "coco_000000000632",
+        "psnr": 20.31786308189912,
+        "ssim": 0.683057534202307,
+        "pixel_mse": 604.3576901753744,
+        "latent_mse": 0.03615933284163475
+      },
+      {
+        "split": "public",
+        "image": "coco_000000001000",
+        "psnr": 15.919458252313511,
+        "ssim": 0.47152169421083007,
+        "pixel_mse": 1663.9280217488606,
+        "latent_mse": 0.13213863968849182
+      },
+      {
+        "split": "public",
+        "image": "coco_000000001268",
+        "psnr": 16.63279614180994,
+        "ssim": 0.6126782477537649,
+        "pixel_mse": 1411.8896242777507,
+        "latent_mse": 0.10092152655124664
+      },
+      {
+        "split": "public",
+        "image": "coco_000000001425",
+        "psnr": 24.28132382974659,
+        "ssim": 0.8736868629857627,
+        "pixel_mse": 242.6319440205892,
+        "latent_mse": 0.04099643975496292
+      },
+      {
+        "split": "public",
+        "image": "coco_000000001490",
+        "psnr": 19.144158079250396,
+        "ssim": 0.5539269947200619,
+        "pixel_mse": 791.8894424438477,
+        "latent_mse": 0.102424755692482
+      },
+      {
+        "split": "public",
+        "image": "coco_000000039769",
+        "psnr": 22.895101387513304,
+        "ssim": 0.6702276079900904,
+        "pixel_mse": 333.8644841512044,
+        "latent_mse": 0.01906590349972248
+      },
+      {
+        "split": "public",
+        "image": "repo_art",
+        "psnr": 24.772023891017675,
+        "ssim": 0.8435975631761297,
+        "pixel_mse": 216.70951080322266,
+        "latent_mse": 0.025731489062309265
+      },
+      {
+        "split": "public",
+        "image": "repo_boy",
+        "psnr": 30.5502449303461,
+        "ssim": 0.9465307522382727,
+        "pixel_mse": 57.28697204589844,
+        "latent_mse": 0.008834250271320343
+      },
+      {
+        "split": "public",
+        "image": "repo_horse",
+        "psnr": 26.06460499820162,
+        "ssim": 0.8931714585258673,
+        "pixel_mse": 160.92364501953125,
+        "latent_mse": 0.02874160185456276
+      },
+      {
+        "split": "public",
+        "image": "repo_nobel",
+        "psnr": 15.486539242264941,
+        "ssim": 0.777056439234241,
+        "pixel_mse": 1838.3425381978352,
+        "latent_mse": 0.2566782534122467
+      }
+    ],
+    "elapsed_sec": 236.1872432231903,
+    "score": 1.237995577324134,
+    "score_clipped": 1.0,
+    "anchors": {
+      "baseline_psnr": 19.361577137501065,
+      "upper_bound_psnr": 21.21974298189495
+    }
+  },
+  "scoring_seconds": 239.01468836609274,
+  "trusted_receipt": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/8625f57f-0fa1-416a-b321-2d4b22a6ee6d.json",
+  "trusted_receipt_sha256": "c8b977ee65d5d028f3094435d72c197a25a2def0f1fe9dc2c68ad637f5e0d7f1",
+  "actual_exit_code": 0,
+  "Actor_Starter_unchanged": true,
+  "Task_unchanged": true,
+  "native_trial_run_or_agent_setup": false,
+  "own_container_cleanup": "own environment.stop(delete=True)",
+  "finished_at": "2026-10-04T17:29:31.390328+00:00"
+}

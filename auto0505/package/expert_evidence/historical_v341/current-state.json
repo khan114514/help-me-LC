@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-04T15:02:56.358061+00:00",
+  "task_version": "3.4.1",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "delivery_stage_task_remains_version": "3.4.0",
+  "cold_builds": "actual both passed",
+  "cold_cpu_smoke": "actual both passed; 45 evidence files hash verified",
+  "services": "Original model controller still EXHAUSTED; separately frozen attested operator owner PID78141 restored19947. Same controller, gateway and UDS; no request replay. NUM19946 remained UP.",
+  "native_model_tool_preflight": "post-owner probe05 actual both completed native checks; GPT shell[1,0] first syntax error retained/self-corrected; Seed[0];3+2 trusted completedResponses;25 files exact remoteSHA;0 credit",
+  "nop": "PASSED real new Task native Harbor nop; full16/NFE100/PSNR19.528882409499996/reward0; 44 files independently hash verified",
+  "stability": "both actual attempts running>=9600secs,0restart/OOM;43200sec target pending",
+  "research_effective_seconds": {
+    "gpt": 0,
+    "seed": 0
+  },
+  "formal_tracks": "fresh GPT formal04 launched 2026-10-04T15:01:30.771451+00:00; serial supervisor active. Both model tracks share new explicit local functions.exec/tools.exec_command format guidance. Seed waits GPT independent36000sec+actual successful full16.",
+  "final_best_method": "unselected",
+  "final_zip": "not created",
+  "clean_reference": "PASSED actual paired full16; Root independently verified49 files and common receipt fields",
+  "formal_run01": "FAILED before any formal upstream model request; native1/tee0/Harborwait0; 82 preserved files remote SHA exact; zero research credit; Seed not started",
+  "baseline_quality": "reasonable within supplied evidence; historical Reference selection not recertified",
+  "formal_run02": "Stopped for metrics stem vs PNG schema bug, recorded0 credit. Offline corrected compatibility replay identifies one237.622s round, ZERO carried; former novel vector added to both fresh historical exclusions.",
+  "formal_run03_manifest_sha256": "a0f15767c1afb94995eee7ff05aaaaf429aec9171caa384a212eb364e5047d4c",
+  "formal_run03_ledger_sha256": "f79504aa6839bd01c9eff9cc58f6ce6bb3f46d549850f23b3c73a8ee088f77d0",
+  "formal_run03": "Stopped after repeated completed model responses without research shell commands. Exact own runner cancellation; actual Harbor wait=-9/stop_requested=true;91 original files exact remote SHA;0 carried credit.",
+  "formal_run04_manifest_sha256": "b282cd50306ff561593fddd43538eeaf6a8f2bae02ea7950a7a61d0a7b272425",
+  "formal_run04_driver_sha256": "8d9e51d137c5ec2de61eee9f494986c9084690f576827ed71a355a3bcfde64c2",
+  "formal_run04_prompt_sha256": "fc748766095e76608aa29eecf033e07b2aca3d6ce38c7e13584a3d3411638b53",
+  "formal_run04_ledger_sha256": "f79504aa6839bd01c9eff9cc58f6ce6bb3f46d549850f23b3c73a8ee088f77d0"
+}

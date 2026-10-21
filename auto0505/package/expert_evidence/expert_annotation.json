@@ -1,0 +1,24 @@
+{
+  "task_id": "auto0505",
+  "task_type": "fixed-model nontraining inference-method optimization",
+  "research_direction": "deterministic timestep allocation for inversion and reconstruction",
+  "optimization_surface": "get_timesteps(num_steps,image_seq_len) method; frozen model, 100 NFE/image and numerical scorer",
+  "metric": "mean PSNR, maximize",
+  "task_version": "3.5.0-a100-repair",
+  "anchors": {
+    "public": {
+      "B": 19.361577137501065,
+      "U": 21.21974298189495
+    },
+    "full": {
+      "B": 19.528882409499996,
+      "U": 21.535623309030747
+    }
+  },
+  "historical_reference": {
+    "PSNR_full": 20.45734928422148,
+    "status": "original A100 v3.4.1 result; current deployment rerun pending"
+  },
+  "isolation": "public task only to Agent; artifacts only to separate Verifier; no Reference/Hidden/expert evidence in Agent context",
+  "new_deployment_scoring": "NOT_RUN"
+}

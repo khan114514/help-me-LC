@@ -1,0 +1,78 @@
+{
+  "scope": "read-only paired review; no code import/execution/model/Docker/GPU",
+  "overall": "reasonable within supplied evidence",
+  "checks": {
+    "B01": {
+      "status": "pass",
+      "evidence": "Starter/Baseline/scoreB bound to2555 default-form time_shift(mu); frozen Repo sampling.py46-72 same formula; representativeness limited to declared protocol"
+    },
+    "B02": {
+      "status": "pass",
+      "evidence": "No training; actual healthy deterministic full16 NOP completed; fixed weights/scorer/environment verified"
+    },
+    "B03": {
+      "status": "pass",
+      "evidence": "Raw paired receipts common fields exact equal, full16/25steps/100NFE same A100 UUID"
+    },
+    "B04": {
+      "status": "pass",
+      "evidence": "Baseline fixed default-form mu, no abnormal Baseline-only parameters. Reference sine fixed before new run; historical pilot selection not recertified"
+    },
+    "B05": {
+      "status": "not_applicable",
+      "evidence": "Deterministic inference; no training seed or copied checkpoints represented as seeds"
+    },
+    "B06": {
+      "status": "pass",
+      "evidence": "Actual unchanged Starter equals formal B and frozen B score. Historical sanity not treated as fresh runs"
+    },
+    "B07": {
+      "status": "pass",
+      "evidence": "Only schedule differs; fixed protocol/input/weights/environment exact paired; model research remains pending"
+    },
+    "B08": {
+      "status": "pass",
+      "evidence": "Source roles/formulas/budget/limits disclosed; Pythonfloat protocol does not assert FP32 bit equality"
+    }
+  },
+  "paired": {
+    "status": "ROOT_INDEPENDENT_NEW_PAIRED_FULL16_ACCEPTED",
+    "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+    "NOP_files_verified": 44,
+    "Reference_files_verified": 49,
+    "NOP_manifest_sha256": "7caf3cb6c6f92e52c3b18f9fb5de8e5c05c4fed2e9409257c5dd4d2885de53ac",
+    "Reference_manifest_sha256": "e175862ad0c7c009e8400f7b32bf36434a174550e348588ff75e321b6deee0b0",
+    "equal_receipt_fields": [
+      "control_task_checksum",
+      "worker_sha256",
+      "scorer_sha256",
+      "repo_sha256",
+      "anchors_sha256",
+      "asset_sha256",
+      "weights_sha256",
+      "weight_support_sha256",
+      "environment",
+      "protocol",
+      "exclusivity_evidence",
+      "cpu_affinity"
+    ],
+    "baseline": {
+      "gpu_job_id": "49b94096-d370-4b96-8677-32a7b7553579",
+      "PSNR": 19.528882409499996,
+      "reward": 0.0,
+      "scoring_seconds": 308.06073663569987
+    },
+    "reference": {
+      "gpu_job_id": "84b1db68-0591-4737-87b9-8e99da4b2edd",
+      "PSNR": 20.45734928422148,
+      "reward": 0.46267401782591483,
+      "scoring_seconds": 309.2353660771623
+    },
+    "delta_dB": 0.928466874721483,
+    "research_credit_seconds": 0,
+    "Fullflow_or_two_track_qualification": false
+  },
+  "historical_Reference_selection_recertified": false,
+  "training": "not applicable; deterministic inference",
+  "fullflow": "INCOMPLETE"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "raw_files": [
+    {
+      "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000003/agent-output/trajectory.jsonl",
+      "sha256": "35bcd200f56a7837a9d15e26471d40c7e30bd83788c121c33fc05307b03a1b9e",
+      "bytes": 4171
+    }
+  ],
+  "canonical_rows_from": "real raw records only",
+  "research_credit_seconds": 0
+}

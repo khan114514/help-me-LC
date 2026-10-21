@@ -1,0 +1,45 @@
+{
+  "status": "PASSED_OFFLINE_ORIGINAL_EVIDENCE_VERIFICATION",
+  "records": [
+    {
+      "directory": "actual-public-gpt-01",
+      "files": 20,
+      "manifest_sha256": "d4ee5ee4bf2c265a0f303e759cd67cb3cf20bbaee63366fbec14273f81e61f24"
+    },
+    {
+      "directory": "actual-public-seed-02",
+      "files": 20,
+      "manifest_sha256": "9c711a60daa37f103dc027013d34bae6ea1a518015ff7d2cef5f7130865e5799"
+    },
+    {
+      "directory": "failed-public-seed-01",
+      "files": 10,
+      "manifest_sha256": "f2053521ff47f51d9468f05ffd7e3930bc514e7d3279fb7be47c04b4d3b2e905"
+    },
+    {
+      "directory": "actual-full16",
+      "files": 19,
+      "manifest_sha256": "c8c0ed0f6b2c2bea16b987429c9d36bdc29afe2d1744319db3537b9e7cbf061b"
+    }
+  ],
+  "native_job_files": 17,
+  "A100_owned_files": 15,
+  "PNG_pixels_copied": 0,
+  "fresh_full_Public_per_image_and_12PNG_hashes_equal": true,
+  "common_numerical_identity_fields": [
+    "control_task_checksum",
+    "worker_sha256",
+    "scorer_sha256",
+    "repo_sha256",
+    "weights_sha256",
+    "weight_support_sha256",
+    "environment",
+    "cpu_affinity",
+    "exclusivity_evidence"
+  ],
+  "own_containers_removed": 5,
+  "new_model_calls": 0,
+  "additional_GPU_calls": 0,
+  "purpose": "clean_rerun",
+  "research_credit_seconds": 0
+}

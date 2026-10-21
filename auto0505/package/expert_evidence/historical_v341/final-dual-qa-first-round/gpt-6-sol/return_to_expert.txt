@@ -1,0 +1,29 @@
+QA16 轨迹实际迭代时长（待补充核验）：Codex GPT缺少 collector 生成的 duration_evidence，手填 effective_seconds 不能单独作为时长证据；Codex GPT缺少有效时长或排除排队/安装/故障的核算证据；Seed 2.1 Turbo High缺少 collector 生成的 duration_evidence，手填 effective_seconds 不能单独作为时长证据；Seed 2.1 Turbo High缺少有效时长或排除排队/安装/故障的核算证据
+证据：rfsteps-package/expert_evidence/TIME-ACCOUNTING-AMENDMENT.json；rfsteps-package/expert_evidence/time-reconciliation/TIME-RECONCILIATION.json
+请修改/补充：针对上述轨迹补齐有效时段核算，每条达到 10h；仅在完全不涉及训练或微调且单轮迭代很短时，才可凭资格依据采用至少 7h 的例外，并提交具体理由、每条至少 3 个有效方法闭环、后续方向及最优方法复验。
+复检验收材料：两条轨迹各自的起止/有效时段日志、被排除时段及理由；如申请 7h 例外，附无训练/微调的实现证据、典型单轮耗时及原始日志、方法闭环与最优方法复验记录。
+
+QA17 Harbor Harness 兼容性（待补充核验）：Harbor 子项未通过：H02 版本与配置；H03 环境与运行路径；H06 NOP 自检记录；详细原因与证据保留在 report.json。
+证据：rfsteps-package/workspace/harbor_task/task.toml；rfsteps-package/workspace/harbor_task/environment/Dockerfile；rfsteps-package/workspace/harbor_task/tests/Dockerfile；rfsteps-package/workspace/harbor_task/tests/test.sh；rfsteps-package/expert_evidence/runtime_support/source/remote_gpu_worker.py；rfsteps-package/optimization_evidence/baseline_runs/actual_v341/ACCEPTANCE.json；rfsteps-package/expert_evidence/runtime_support/DEPLOYMENT-REQUIREMENTS.md；rfsteps-package/workspace/harbor_task/tests/evaluate_candidate.py；rfsteps-package/optimization_evidence/baseline_runs/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/reward.json；rfsteps-package/optimization_evidence/baseline_runs/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/config.json；rfsteps-package/optimization_evidence/baseline_runs/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/result.json；rfsteps-package/optimization_evidence/baseline_runs/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/trial.log
+请修改/补充：修复collector的[task].name身份识别，补目标平台provider部署与NOP证据。
+复检验收材料：修复后H06自动通过及目标平台双镜像构建/移交/独立Verifier结果。
+
+QA18 轨迹、日志与分析（待补充核验）：两条轨迹的八字段证据未通过：rounds[101].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。
+证据：rfsteps-package/expert_evidence/trajectory_codex.json；rfsteps-package/expert_evidence/trajectory_seed.json；rfsteps-package/expert_evidence/run_summary.json
+请修改/补充：补齐两条真实轨迹，每轮八字段须完整有效；保留失败原因，不补造分数、时间或轮次。自定义状态需说明其语义。
+复检验收材料：overview.source_path 指向两份可读取轨迹，轮次及八字段符合教程，并与运行摘要和最佳方法记录一致。
+
+QA21 三个 JSON 的填写内容（待补充核验）：两条轨迹的八字段证据未通过：rounds[101].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。
+证据：rfsteps-package/expert_evidence/trajectory_codex.json；rfsteps-package/expert_evidence/trajectory_seed.json；rfsteps-package/expert_evidence/expert_annotation.json；rfsteps-package/expert_evidence/run_summary.json
+请修改/补充：补齐两条真实轨迹，每轮八字段须完整有效；保留失败原因，不补造分数、时间或轮次。自定义状态需说明其语义。
+复检验收材料：overview.source_path 指向两份可读取轨迹，轮次及八字段符合教程，并与运行摘要和最佳方法记录一致。
+
+待质检员核实的格式观察（等价材料可以认可，不直接作为专家整改结论）：
+- expert_evidence/trajectory-source-map.json：最终轨迹 JSON 必须包含 rounds 数组。
+- expert_evidence/trajectory_codex-formal04-original.json：rounds[17].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。
+- expert_evidence/trajectory_codex.json：rounds[101].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。
+- expert_evidence/trajectory_seed-formal04-original.json：rounds 为空，长程轨迹尚未完成或缺少证据；不能用虚构轮次补齐。
+- optimization_evidence/baseline_runs：baseline_runs/ 中没有 seed_<真实seed>/ 运行目录。
+- optimization_evidence/comparison_summary.json：optimization_evidence 必须包含 comparison_summary.json。
+- optimization_evidence/reference_runs：reference_runs/ 中没有 seed_<真实seed>/ 运行目录。
+- optimization_evidence/训练证据说明.md：optimization_evidence 缺少中文训练证据说明.md。

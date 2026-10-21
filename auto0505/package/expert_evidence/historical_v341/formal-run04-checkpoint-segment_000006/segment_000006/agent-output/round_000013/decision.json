@@ -1,0 +1,8 @@
+{
+  "decision": "retain",
+  "purpose": "exploration",
+  "explanation": "单区间预算交换得到公开 PSNR=20.6510421346，比此前最佳提高 0.4259499718 dB，比 Starter 提高 1.2894649971 dB，保留。保留首个噪声端小区间、把一份内部高时间预算转到末端拆分的组合获得实测改善；合并与拆分的独立贡献仍需后续真实评分分离。",
+  "psnr": 20.65104213455171,
+  "best_round": 13,
+  "method_sha256": "1a23b0ccd17e3d0825dacc5502c1837a60afdec63dd892b3e512f83b021e23b7"
+}

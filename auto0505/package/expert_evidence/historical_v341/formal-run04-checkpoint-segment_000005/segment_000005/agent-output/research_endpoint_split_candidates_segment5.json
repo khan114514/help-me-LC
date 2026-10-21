@@ -1,0 +1,26 @@
+[
+  {
+    "inserted_endpoint_node": 0.032,
+    "last_two_steps": [
+      0.048,
+      0.032
+    ],
+    "last_two_steps_fourth_power_sum": 6.356992e-06
+  },
+  {
+    "inserted_endpoint_node": 0.04,
+    "last_two_steps": [
+      0.04,
+      0.04
+    ],
+    "last_two_steps_fourth_power_sum": 5.12e-06
+  },
+  {
+    "inserted_endpoint_node": 0.048,
+    "last_two_steps": [
+      0.032,
+      0.048
+    ],
+    "last_two_steps_fourth_power_sum": 6.356992e-06
+  }
+]

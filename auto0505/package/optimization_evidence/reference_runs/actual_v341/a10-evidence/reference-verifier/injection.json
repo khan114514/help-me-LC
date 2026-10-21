@@ -1,0 +1,16 @@
+{
+  "purpose": "expert_clean_reference",
+  "is_NOP": false,
+  "model_trajectory": false,
+  "verifier_cid": "ea10dd0f7f6af30fe97909aa9f331b0570d24a6824064d9d9189be901e8be18c",
+  "injected_at": "2026-10-04T13:21:39.624203+00:00",
+  "source_before": "/historical-root/rfsteps-v341-clean-reference-evidence-20261004/attempt02/reference-verifier/source-before",
+  "source_after": "/historical-root/rfsteps-v341-clean-reference-evidence-20261004/attempt02/reference-verifier/source-after",
+  "original_method_sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+  "reference_method_sha256": "f4ed9a25e31be15e138b365714d2ab957ea4d6200fc293d3896fda27d3a65518",
+  "frozen_solve_sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+  "live_source_inventory_sha256": "4d48e6599557d507d0d0875d4a408e7888ee1b561c8e8b84348c204dd555f196",
+  "Actor_artifact_not_modified": true,
+  "Task_not_modified": true,
+  "research_credit_seconds": 0
+}

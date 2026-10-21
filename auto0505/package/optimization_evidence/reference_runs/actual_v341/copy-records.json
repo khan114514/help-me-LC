@@ -1,0 +1,20 @@
+[
+  {
+    "source": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02",
+    "destination": "harbor-job",
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "/historical-root/rfsteps-v341-clean-reference-evidence-20261004/attempt02",
+    "destination": "a10-evidence",
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "/historical-root/rfsteps-v341-clean-reference-launch-20261004/attempt02",
+    "destination": "a10-launch",
+    "returncode": 0,
+    "stderr": ""
+  }
+]

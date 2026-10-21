@@ -1,0 +1,30 @@
+{
+  "status": "BOTH_INDEPENDENT_REVIEWS_COMPLETED_NOT_READY",
+  "reviewed_preview_sha256": "00e7c6b67671be377c32b0f28fe8972827ce3767ad7f291d6fb6b1d7825a8ccd",
+  "reviewed_preview_filename": "rfsteps-package-v3.4.1-preview-20261005T015301.zip",
+  "first_reports_immutable": true,
+  "reviews": [
+    {
+      "model": "gpt-6.1-sol",
+      "report": "gpt-6.1-sol/report.json",
+      "report_sha256": "9ad42b492c690b2b9332d65159ec76bb1a5ac5e00524269728c13dcd90db0d5f",
+      "decision": "INCOMPLETE"
+    },
+    {
+      "model": "gpt-6-sol",
+      "report": "gpt-6-sol/report.json",
+      "report_sha256": "b946b8329d8873d8ecab1c3041963706ca76b0b181d6f79f4cccbda015f063a9",
+      "decision": "INCOMPLETE"
+    }
+  ],
+  "current_repairs": [
+    "Explicit original Task name/directory and Harbor0.23 version bindings from original lock/precheck/source records.",
+    "One infrastructure status alias normalized in canonical trajectory only; exact original record/source map retained."
+  ],
+  "pending": [
+    "Original12h logs inaccessible while VM is reclaim pending; require actual evidence retrieval.",
+    "Final same-candidate independent verification after repairs; distinguish original QA16 collector from direct human time policy."
+  ],
+  "no_final_PASS_fabricated": true,
+  "current_package_is_modified_after_first_review": true
+}

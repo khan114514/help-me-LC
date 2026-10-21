@@ -1,0 +1,5 @@
+{
+  "policy_name": "quadratic_boundary_protected_budget_exchange",
+  "purpose": "exploration",
+  "method_summary": "保留 t>0.96 的平方网格节点，将一次预算交换的合并位置从 0.984 移到 0.944，同时保留新增 0.040 的末端拆分。该对照检验噪声端边界层密度是否值得保护，而不改变计算预算与最大间隔。"
+}

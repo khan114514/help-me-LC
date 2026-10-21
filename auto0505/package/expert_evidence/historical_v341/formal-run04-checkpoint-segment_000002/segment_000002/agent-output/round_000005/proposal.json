@@ -1,0 +1,5 @@
+{
+  "policy_name": "continuous_quadratic_with_endpoint_gap_floor",
+  "purpose": "exploration",
+  "method_summary": "保留当前最佳的平方余时间密度与 1/128 最小间隔，移除整数网格舍入。该对照检验 BF16 对齐对往返 PSNR 的影响，同时避免把端点步长塌缩混入比较。"
+}

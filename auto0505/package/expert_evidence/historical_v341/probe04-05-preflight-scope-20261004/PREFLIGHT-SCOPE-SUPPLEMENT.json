@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "utc": "2026-10-04T14:54:08.030512+00:00",
+  "verdict": "SOURCE_RELEASE_PASS_WITH_ROOT_ACCEPTED_PREFLIGHT05_PENDING_RUNTIME_PRECHECKS",
+  "blocking_source_findings": [],
+  "references": {
+    "prior_source_review": {
+      "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/formal03-independent-source-review-20261004/SOURCE-REVIEW.json",
+      "sha256": "4620d5b5a019e631697d591bbe4dbb805f1aff5c74318760caf9758e9affa388",
+      "line": null
+    },
+    "prior_tool_compare": {
+      "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/probe03-04-tool-audit-20261004/TOOL-COMPARE-AUDIT.json",
+      "sha256": "5564f2399f70e465d0e27ac0d145b6e26ca689162763b65d12d1954ef4a69f4f",
+      "line": null
+    },
+    "root_preflight05_acceptance": {
+      "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/model-preflight05/root-acceptance.json",
+      "sha256": "acb5ca0d5ad2765bd26211da348d88cf520f40ee4bfd28ba3c61a01be3f61b4f",
+      "line": null
+    },
+    "skill_tool_event_requirement": {
+      "path": "${AUTHOR_HOME}/.codex/skills/autoresearch-remote-cli/SKILL.md",
+      "sha256": "3831319b9f822607e0a568deb036a032beba0f20d2ccf1fb7f802edd591daace",
+      "line": 52
+    }
+  },
+  "probe04": {
+    "gpt_status": "FAILED_TOOL_GATE_PRESERVED",
+    "actual_command_execution_count": 0,
+    "marker_present": false,
+    "root_failure": "DownloadRejected/no marker",
+    "scope": "Prior independent native-session and native-log projections; unchanged preserved failure; provider Responses completion alone did not pass tool gate.",
+    "research_credit_seconds": 0
+  },
+  "probe05": {
+    "status": "ACTUAL_POST_RECOVERY_NATIVE_TOOL_PREFLIGHT_PASSED",
+    "root_acceptance_utc": "2026-10-04T14:46:58.615460+00:00",
+    "roles": {
+      "gpt": {
+        "model": "gpt-6.1-sol",
+        "effort": "xhigh",
+        "turn_completed": true,
+        "actual_native_shell_exit_codes": [
+          1,
+          0
+        ],
+        "trusted_completed_requests": 3,
+        "native_failed_shell_calls_preserved": 1,
+        "native_log_sha256": "fc6a74680be258501def10682b21a41334f66f5d435e31e931ac01786d343661",
+        "probe_checks": {
+          "marker": "RFSTEPS_MODEL_TOOL_PROBE_OK",
+          "version": "0.160.0",
+          "starter_unchanged": true,
+          "public_images": 12,
+          "own_model_socket": "gpt.sock",
+          "forbidden_paths_absent": true,
+          "only_dummy_key": true,
+          "frozen_source_readonly": true,
+          "tool_write_read_ok": true
+        }
+      },
+      "seed": {
+        "model": "doubao-seed-2-1-turbo-260628",
+        "effort": "high",
+        "turn_completed": true,
+        "actual_native_shell_exit_codes": [
+          0
+        ],
+        "trusted_completed_requests": 2,
+        "native_failed_shell_calls_preserved": 0,
+        "native_log_sha256": "03f5f9cdb1a5ee3b5bbcb4626fe2137e75b87bb3d05614d2fb993a347381e19a",
+        "probe_checks": {
+          "marker": "RFSTEPS_MODEL_TOOL_PROBE_OK",
+          "version": "0.160.0",
+          "starter_unchanged": true,
+          "public_images": 12,
+          "own_model_socket": "seed.sock",
+          "forbidden_paths_absent": true,
+          "only_dummy_key": true,
+          "frozen_source_readonly": true,
+          "tool_write_read_ok": true
+        }
+      }
+    },
+    "native_exit_code": null,
+    "pipeline_exit_code": null,
+    "research_credit_seconds": 0,
+    "raw_remote_files_preserved_by_root": 25,
+    "prompt_change_scope": "Root reports only common preflight added explicit functions.exec / await tools.exec_command invocation-format guidance; formal instruction hash independently rechecked unchanged.",
+    "gpt_failed_attempt_scope": "Root reports first command failed with newline-escaping SyntaxError before checks; successful self-corrected second command performed actual full assertions and marker. Failed call remains preserved.",
+    "independent_review_scope": "Acceptance JSON read/hash-verified and exact copied acceptance hash rechecked. This supplement did not independently replay the full probe05 native logs or trusted provider-event stream."
+  },
+  "rule_interpretation": {
+    "skill_line": 52,
+    "all_attempted_commands_failed": false,
+    "one_failed_shell_call_is_not_all_failed": true,
+    "required_success_scope": "Actual successful command must perform the checks; both role acceptance records contain the exact marker and checks.",
+    "model_completion_alone_sufficient": false
+  },
+  "fresh_formal03_source_hash_recheck": [
+    {
+      "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run03-preparation/harness-source/research_ledger.py",
+      "sha256": "f79504aa6839bd01c9eff9cc58f6ce6bb3f46d549850f23b3c73a8ee088f77d0",
+      "expected_sha256": "f79504aa6839bd01c9eff9cc58f6ce6bb3f46d549850f23b3c73a8ee088f77d0",
+      "matched": true
+    },
+    {
+      "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run03-preparation/harness-source/continuation_research_codex.py",
+      "sha256": "e07528f452aed392528285724a7378915d13cf3060216edd7aa0ad0b3094872a",
+      "expected_sha256": "e07528f452aed392528285724a7378915d13cf3060216edd7aa0ad0b3094872a",
+      "matched": true
+    },
+    {
+      "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run03-preparation/harness-source/role_bound_codex.py",
+      "sha256": "1a7df82fdfbc6cc2e905394c80bbdad78ed982e07e43ff3bbd3e37ee55151219",
+      "expected_sha256": "1a7df82fdfbc6cc2e905394c80bbdad78ed982e07e43ff3bbd3e37ee55151219",
+      "matched": true
+    },
+    {
+      "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run03-preparation/actual-instruction.md",
+      "sha256": "6bbce6050c797cf0054b01fbc3585b6fbcd839f3514e9f2884e72f6f9bd4ec21",
+      "expected_sha256": "6bbce6050c797cf0054b01fbc3585b6fbcd839f3514e9f2884e72f6f9bd4ec21",
+      "matched": true
+    },
+    {
+      "path": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/taREDACTED/formal-run03-preparation/accepted-native-preflight05.json",
+      "sha256": "acb5ca0d5ad2765bd26211da348d88cf520f40ee4bfd28ba3c61a01be3f61b4f",
+      "expected_sha256": "acb5ca0d5ad2765bd26211da348d88cf520f40ee4bfd28ba3c61a01be3f61b4f",
+      "matched": true
+    }
+  ],
+  "prior_original_source_manifest_sha256": "b114b9a3c9f2f45398dd5b98f54d446e006aa0392ad5af05aaf63c3f31dc18fa",
+  "prior_source_review_preserved_unchanged": true,
+  "pending_runtime_requirements": [
+    "Immediately before actual start, frozen formal precheck must verify exact Task/source/gateway identities and role-bound UDS identities and permissions.",
+    "Actual keyless numeric19946 GET must return501; model19947 GET must return405 within bounded timeout/body.",
+    "Fresh formal03 starts with empty per-role trajectories and zero historical/preflight/replay carry; accepted research credit requires the frozen ledger source/receipt/closure/model/native gates, unique or not-near-repeated nodes, and qualifying monotonic GPU durations."
+  ],
+  "research_credit_seconds_from_all_preflights": 0,
+  "fullflow_completion_claim": false,
+  "source_task_record_mutations": 0,
+  "model_requests_by_audit": 0,
+  "gpu_requests_by_audit": 0,
+  "candidate_executions": 0,
+  "files_written_scope": "${AUTHOR_HOME}/WorkBuddy/2026-10-03-00-43-02/rfsteps-fullflow-audit/probe04-05-preflight-scope-20261004"
+}

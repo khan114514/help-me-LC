@@ -1,0 +1,5 @@
+{
+  "policy_name": "unshifted_uniform",
+  "purpose": "exploration",
+  "method_summary": "移除 Starter 的正向 logit 偏移，均匀分配时间步。低噪声端最大步长由约 0.0726 降至 0.04，以检验双向中点积分对偏移的敏感性。"
+}

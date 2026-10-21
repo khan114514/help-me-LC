@@ -1,0 +1,95 @@
+{
+  "utc": "2026-10-05T12:58:04.800990+00:00",
+  "task_version": "3.4.1",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "delivery_stage_task_remains_version": "3.4.1 (63 exact frozen files)",
+  "cold_builds": "actual both passed",
+  "cold_cpu_smoke": "actual both passed; 45 evidence files hash verified",
+  "services": "Original A10 recovered, original host key verified; data checked read-only. Earlier service-state descriptions are historical, not current live readiness.",
+  "native_model_tool_preflight": "post-owner probe05 actual both completed native checks; GPT shell[1,0] first syntax error retained/self-corrected; Seed[0];3+2 trusted completedResponses;25 files exact remoteSHA;0 credit",
+  "nop": "PASSED real new Task native Harbor nop; full16/NFE100/PSNR19.528882409499996/reward0; 44 files independently hash verified",
+  "stability": "PASS: both original tracks completed43200s,721 samples each; all resource/isolation/IO/UDS samples verified, no restart/OOM/gaps.",
+  "research_effective_seconds": {
+    "gpt": null,
+    "seed": null
+  },
+  "formal_tracks": "Historical GPT/Seed research retained under direct human time rule; canonical102/47 original fields verified. Current-protocol cross-model Public selection and independent best full16 passed. Superseded GPU-only loop cancellation130 preserved.",
+  "final_best_method": {
+    "status": "PUBLIC_SELECTED_INDEPENDENT_FULL16_PASSED",
+    "role": "seed",
+    "source_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+    "public_mean_psnr": 21.66197823479546,
+    "full16": {
+      "reward": 0.8703690797499839,
+      "psnr": 21.27548763952123,
+      "ssim": 0.7167758922645703,
+      "nfe_per_image": 100.0
+    },
+    "evidence": "final-method-clean/",
+    "root_acceptance": "best-full16-root-evidence/ROOT-ACCEPTANCE.json"
+  },
+  "final_zip": "Not created: current verified artifacts are previews, not final accepted delivery.",
+  "clean_reference": "PASSED actual paired full16; Root independently verified49 files and common receipt fields",
+  "formal_run01": "FAILED before any formal upstream model request; native1/tee0/Harborwait0; 82 preserved files remote SHA exact; zero research credit; Seed not started",
+  "baseline_quality": "reasonable within supplied evidence; historical Reference selection not recertified",
+  "formal_run02": "Stopped for metrics stem vs PNG schema bug, recorded0 credit. Offline corrected compatibility replay identifies one237.622s round, ZERO carried; former novel vector added to both fresh historical exclusions.",
+  "formal_run03_manifest_sha256": "a0f15767c1afb94995eee7ff05aaaaf429aec9171caa384a212eb364e5047d4c",
+  "formal_run03_ledger_sha256": "f79504aa6839bd01c9eff9cc58f6ce6bb3f46d549850f23b3c73a8ee088f77d0",
+  "formal_run03": "Stopped after repeated completed model responses without research shell commands. Exact own runner cancellation; actual Harbor wait=-9/stop_requested=true;91 original files exact remote SHA;0 carried credit.",
+  "formal_run04_manifest_sha256": "b282cd50306ff561593fddd43538eeaf6a8f2bae02ea7950a7a61d0a7b272425",
+  "formal_run04_driver_sha256": "8d9e51d137c5ec2de61eee9f494986c9084690f576827ed71a355a3bcfde64c2",
+  "formal_run04_prompt_sha256": "fc748766095e76608aa29eecf033e07b2aca3d6ce38c7e13584a3d3411638b53",
+  "formal_run04_ledger_sha256": "f79504aa6839bd01c9eff9cc58f6ce6bb3f46d549850f23b3c73a8ee088f77d0",
+  "latest_runtime_checkpoint": "runtime-checkpoint-20261004T155726Z.json",
+  "formal04_independent_audit": "55 checks passed; exact two closed real checkpoints;1190.7643089639023 sec; own native thread. No final10h or Seed qualification.",
+  "formal04_independent_audit_manifest_sha256": "87f5b200980af211dcf03753b999dc5715f0773945aa87a02eae092019144ac9",
+  "gpu_scoring_lower_bound_seconds": {
+    "gpt": 3575.9077651416883,
+    "seed": 0
+  },
+  "time_accounting_amendment": {
+    "schema_version": 1,
+    "source": "Direct human correction on 2026-10-05 Asia/Shanghai",
+    "user_text": "时间怎么能算这么紧的，就是把网络连不上的那些时候去除，然后其余的都应该算上。时间肯定够的。",
+    "rule": "Per-model actual research interval union minus evidenced network-unavailable intervals; all other actual research process time included. GPT and Seed counted independently.",
+    "gpu_scoring_seconds": "Preserved as a diagnostic lower bound, not total effective research duration or the user time gate.",
+    "historical_resets": "Historical actual research duration is not zeroed merely because source/ledger/version was repaired; scientific scores retain their original versions and evidence scope.",
+    "inactive_periods": "Track intervals require actual run evidence; arbitrary elapsed calendar time is not invented as track execution.",
+    "status": "RECONCILED_USER_ACCEPTED_TIME_WITH_EVIDENCE_LIMITS",
+    "runtime_gate_status": "Superseded frozen GPU-only research loop stopped through its own runner; actual Harbor wait130 preserved. No gate hotpatch or fabricated normal exit.",
+    "exact_lifetime_net_seconds": {
+      "gpt": null,
+      "seed": null
+    },
+    "reconciliation_manifest_sha256": "cb4d7132f4c18c0001310df369235083ccb80c148a42d63d677e5483bb92e194"
+  },
+  "status": "RUNTIME_EVIDENCE_COMPLETE_FINAL_QA_PENDING",
+  "canonical_trajectory_scope": "Historical original records plus closed formal04 checkpoints through segment_000006; original protocol provenance retained, including failures.",
+  "final_best_selected": true,
+  "time_sufficiency_accepted_by_user": true,
+  "time_acceptance_basis": "Direct human confirmation, revised counting rule, and frozen independent reconciliation. Exact lifetime totals are not fabricated; published historical spans have explicit uncertainty.",
+  "canonical_records": {
+    "codex": {
+      "rows": 102,
+      "historical_rows": 84,
+      "formal04_rows": 18,
+      "scope": "Eight-field records from separate documented protocols; immutable original values retained. Final ranking uses new clean current-protocol scores."
+    },
+    "seed": {
+      "rows": 47,
+      "historical_rows": 47,
+      "formal04_rows": 0,
+      "scope": "Eight-field records from separate documented protocols; immutable original values retained. Final ranking uses new clean current-protocol scores."
+    }
+  },
+  "latest_stability_projection": "stability-existing-samples-20261004T173039Z.json",
+  "best_clean_full16_passed": true,
+  "trajectory_normalization": "Round renumbering plus one explicit INFRASTRUCTURE_ERROR to failed alias; all metrics/time/reason/method/best flags and raw originals retained.",
+  "Harbor_installed_version": "0.23.0",
+  "task_runtime_binding": "TASK-AND-RUNTIME-BINDING.json",
+  "dual_ai_review_completed": true,
+  "dual_ai_review_status": "Both first-round INCOMPLETE reports preserved; consensus NOT_READY, repairs underway. No finalQA PASS claimed.",
+  "container_12h_passed": true,
+  "stability_evidence": "stability-final-preservation-20261005T125456Z/ROOT-STABILITY-ACCEPTANCE.json",
+  "recovered_original_data": "recovered-original-data-20261005T125652Z.json"
+}

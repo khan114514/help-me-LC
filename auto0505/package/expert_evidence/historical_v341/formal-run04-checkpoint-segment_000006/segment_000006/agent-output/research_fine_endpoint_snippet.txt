@@ -1,0 +1,7 @@
+    if 4 <= num_steps <= resolution:
+        upper_time = nodes[-3]
+        fine_resolution = 500 if upper_time <= 0.128 else resolution
+        upper = round(fine_resolution * upper_time)
+        if upper >= 2:
+            lower_biased = max(1, min(upper - 1, round(0.45 * upper)))
+            nodes[-2] = lower_biased / fine_resolution

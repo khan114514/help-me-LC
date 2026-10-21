@@ -1,0 +1,40 @@
+[
+  {
+    "round": 13,
+    "last_nodes": [
+      0.08,
+      0.04,
+      0.0
+    ],
+    "midpoints": [
+      0.06,
+      0.02
+    ],
+    "steps": [
+      0.04,
+      0.04
+    ],
+    "embedding_reference_max_time_error": 0.0,
+    "midpoint_solver_max_scalar_bf16_error": 3.906249999999917e-05,
+    "pure_local_diagnostic": true
+  },
+  {
+    "round": 16,
+    "last_nodes": [
+      0.08,
+      0.032,
+      0.0
+    ],
+    "midpoints": [
+      0.056,
+      0.016
+    ],
+    "steps": [
+      0.048,
+      0.032
+    ],
+    "embedding_reference_max_time_error": 0.0,
+    "midpoint_solver_max_scalar_bf16_error": 9.5703124999999e-05,
+    "pure_local_diagnostic": true
+  }
+]

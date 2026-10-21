@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SCOPED_DRAFT_CONTENT_SCAN",
+  "utc": "2026-10-05T12:58:41.261860+00:00",
+  "files_scanned": 1622,
+  "ModCon_authorized_exact_key_and_JSON_escaped_scan": true,
+  "official_Ark_profile_exact_key_and_JSON_escaped_scan": true,
+  "exact_key_matches": [],
+  "actual_hidden_input_SHA256_matches": [],
+  "weight_binary_suffixes_found": [],
+  "symlinks_found": [],
+  "frozen_Task_files_verified": 63,
+  "scope": "Exact current authorized provider keys and four input fingerprints only; not a comprehensive credential/privacy certification. No key/credential hash persisted; keys used in RAM only. Final regenerated package needs new content scan."
+}

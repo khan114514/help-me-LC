@@ -1,0 +1,70 @@
+{
+  "config.json": {
+    "sha256": "aa8767a96453adab2d0d3ee2c01e1ceae3a78845ac7df87ae53349fc2bf7c0f4",
+    "bytes": 1043
+  },
+  "job.log": {
+    "sha256": "64aee20ad60e1eea10bc2a5e9a177f8c80b5cd21afc3d6f6ed72e9236438d2bf",
+    "bytes": 4470
+  },
+  "lock.json": {
+    "sha256": "7170f03bf0f4c97593a2f35137e475303fa1fdabeda1792ac0c990dc5f9b2c88",
+    "bytes": 2625
+  },
+  "result.json": {
+    "sha256": "70598c6e51c696a187ab7ae366d21eb8875bb62f92d548b0cdcbeed1fc25ab3a",
+    "bytes": 1897
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/artifacts/manifest.json": {
+    "sha256": "55444ad09322d5f69d46b7c73cd202b20feb444aa542d773bb95b50f915a428a",
+    "bytes": 349
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/artifacts/solution/method.py": {
+    "sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+    "bytes": 1036
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/artifacts/solution/solve.sh": {
+    "sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+    "bytes": 145
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/config.json": {
+    "sha256": "c65b2ef5a20a783f4ff7a82486a518bd30ca8e2d8713e23c046fb77e592af8b5",
+    "bytes": 1025
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/lock.json": {
+    "sha256": "3e7e2f75f76930050e02e7dd273cb1de86dfb0fb15082fe8dfdafde3c4e8f90a",
+    "bytes": 1551
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/result.json": {
+    "sha256": "8a7feb0f6e68deb3253a45ecb269c527e1e70d9f1c52e67f0abeee230dd721ff",
+    "bytes": 4607
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/trial.log": {
+    "sha256": "627e18c51a9f3cc1a5b020a796c26b481ef685106750d2c459fc672f588c0df2",
+    "bytes": 4395
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/verifier/evaluation_status.json": {
+    "sha256": "b0a47ee0232d020944cc7f084bc478ebb2f4f3d98ae7fb2e278a4bf23f2dc352",
+    "bytes": 282
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/verifier/gpu_receipt.json": {
+    "sha256": "e7b72df8e8fe490c476584a030f5be65adc8a7b2ea30957b69d6f4352429302d",
+    "bytes": 14132
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/verifier/metrics.json": {
+    "sha256": "f09804ba437cf0823389bb0992c35f1180185d9971ac38928b98c9bc8caf12a1",
+    "bytes": 4462
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/verifier/remote_metrics.json": {
+    "sha256": "7a268a43f7dfc1c765eaac7ced9e8ecc0da0ed551049a42c0c1b8c54e92359ba",
+    "bytes": 4366
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/verifier/reward.json": {
+    "sha256": "06feb946cb156346739b0702f58846b60e86391cce424f97b97aaecc476b69bb",
+    "bytes": 121
+  },
+  "rfsteps-v341-build-check-2026100__DcGEtFn/verifier/test-stdout.txt": {
+    "sha256": "7d88765609505b74c9d01a4966b89bf1531d1da3683d59269de00020879637c3",
+    "bytes": 141
+  }
+}

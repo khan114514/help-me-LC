@@ -1,0 +1,17 @@
+{
+  "status": "FAILED_PRESERVED",
+  "purpose": "clean_rerun",
+  "split": "public",
+  "candidate_role": "seed",
+  "candidate_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+  "Task": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "started_at": "2026-10-04T17:17:37.448310+00:00",
+  "model_calls": 0,
+  "research_credit_seconds": 0,
+  "is_NOP": false,
+  "is_model_trajectory": false,
+  "failure_type": "RuntimeError",
+  "failure": "public_guard_or_RPC_nonzero",
+  "own_container_cleanup": "own environment.stop(delete=True)",
+  "finished_at": "2026-10-04T17:17:55.258683+00:00"
+}

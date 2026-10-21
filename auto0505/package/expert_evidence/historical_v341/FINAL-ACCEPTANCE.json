@@ -1,0 +1,17 @@
+{
+  "status": "RUNTIME_EVIDENCE_COMPLETE_FINAL_QA_PENDING",
+  "time_accepted_under_user_rule": true,
+  "both_model_trajectories_complete": true,
+  "best_selected_by_public": true,
+  "best_clean_full16_passed": true,
+  "container_12h_passed": true,
+  "final_qa_passed": false,
+  "evidence_scope": "Historical original GPT102/Seed47 records preserved; user time rule accepted, not fabricated fresh Seed run or exact unknown duration.",
+  "best_clean_manifest_sha256": "e5782af9eb02d230652fbe61e20c11b5608d4cf23ce6e2018eb880a02c29270e",
+  "NOP_manifest_sha256": "7caf3cb6c6f92e52c3b18f9fb5de8e5c05c4fed2e9409257c5dd4d2885de53ac",
+  "dual_ai_review_completed": true,
+  "first_qa_reviewed_zip_sha256": "00e7c6b67671be377c32b0f28fe8972827ce3767ad7f291d6fb6b1d7825a8ccd",
+  "first_qa_consensus": "final-dual-qa-first-round/qa-consensus.json",
+  "stability_evidence": "stability-final-preservation-20261005T125456Z/ROOT-STABILITY-ACCEPTANCE.json",
+  "recovered_original_data": "recovered-original-data-20261005T125652Z.json"
+}

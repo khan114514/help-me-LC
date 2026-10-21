@@ -1,0 +1,53 @@
+{
+  "QA05": {
+    "state": "CODE_REPAIRED_LOCAL_BOUNDARY_TESTS_PASS_TARGET_RUN_PENDING",
+    "changes": [
+      "single-container local GPU execution",
+      "removed unsupported storage/network requests",
+      "Landlock+seccomp candidate confinement",
+      "bounded output and timeout cleanup",
+      "race-resistant regular source opening",
+      "classified GPU inventory failures",
+      "separate public read-only worker and private verifier permissions"
+    ]
+  },
+  "QA15": {
+    "state": "A100_VALIDATION_PENDING_H20_L20_DEFERRED_BY_USER",
+    "resource_request": "1 GPU, 8 CPUs, 64GiB each sandbox",
+    "historical_worker_seconds": [
+      392.4930227380246,
+      393.9862480489537
+    ]
+  },
+  "H02_H03_QA17": {
+    "state": "CONFIG_AND_PATHS_REPAIRED_NATIVE_TRIAL_PENDING",
+    "compose_in_execution_contexts": false,
+    "verifier_mode": "separate",
+    "artifacts": [
+      "/workspace/solution"
+    ]
+  },
+  "QA16": {
+    "state": "NEW_QUALIFYING_TIME_PENDING",
+    "note": "Old event bounds and user acceptance are preserved, not relabeled as measured net time."
+  },
+  "QA18": {
+    "state": "HISTORICAL_PROVENANCE_AUDITED_CLEAN_CURRENT_TRAJECTORIES_PENDING",
+    "confirmed_issue": "Seed read private pilot log and m_sine.py source in original supervisor log."
+  },
+  "QA21": {
+    "state": "CURRENT_SCHEMA_PREPARED_OFFICIAL_FINGERPRINT_PENDING",
+    "note": "No replacement official hash algorithm invented."
+  },
+  "B05": {
+    "state": "DOCUMENTATION_REPAIRED",
+    "protocol": "fixed-model deterministic paired inference; no independent training seeds claimed"
+  },
+  "local_validation": {
+    "candidate_boundary": "9 cases under root and unprivileged Linux users; current logs in repair_validation",
+    "backend_protocol": "9 synthetic scorer cases; GPU inventory and large assets mocked; no model/GPU score claimed",
+    "dockerfile_permissions": "Both production Dockerfiles built with a CPU fixture base; public UID1000 and formal private-material boundary passed",
+    "old_failure_logs": "Preserved as diagnosis history; latest final-* and *-image-permissions logs record current results"
+  },
+  "overall": "NOT_READY_FOR_RESUBMISSION"
+}

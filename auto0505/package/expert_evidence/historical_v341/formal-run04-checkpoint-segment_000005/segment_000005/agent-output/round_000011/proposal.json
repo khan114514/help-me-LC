@@ -1,0 +1,5 @@
+{
+  "policy_name": "quadratic_adaptive_embedding_fixed_point_projection",
+  "purpose": "exploration",
+  "method_summary": "以平方密度及最小 0.008 间隔为目标，在毫秒网格上用动态规划最小化节点位移。节点和所有相邻中点必须是参考 BF16 时间嵌入的固定点，允许低时间区使用比 1/125 更细的网格，以检验更精确的形状投影。"
+}

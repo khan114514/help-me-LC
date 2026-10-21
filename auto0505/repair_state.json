@@ -1,0 +1,12 @@
+{
+  "task_id": "auto0505",
+  "status": "LOCAL_CODE_REPAIR_VALIDATED_WAITING_A100",
+  "source_zip_sha256": "bc995b80eeb1a361d4a17d88f1f9e8e04172cf1361b945d766219ea045153a6e",
+  "new_task_version": "3.5.0-a100-repair",
+  "hardware": "A100 user override; H20/L20 deferred",
+  "runtime_validation": "saved gpuhome-a100 endpoint connection refused on latest read-only retry; current SSH endpoint required",
+  "official_v4_tools": "not found; official fingerprint and format/GPU checks pending",
+  "historical_scores": "preserved; not relabeled as v3.5.0 results",
+  "local_validation": "29 case executions PASS; GPU/Harbor not run",
+  "model_assets": "frozen 19-file model manifest prepared; target asset availability not yet verified"
+}

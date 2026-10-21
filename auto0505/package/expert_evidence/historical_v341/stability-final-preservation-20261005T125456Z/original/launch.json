@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-04T12:11:48.575062+00:00",
+  "source_sha256": "693409b10c9509162879056fb20b893a43db04629db7b15c4fcb3079828fcf5b",
+  "units": {
+    "gpt": {
+      "unit": "rfsteps-v341-stability-gpt-attempt01",
+      "return_code": 0,
+      "stderr": "Running as unit: rfsteps-v341-stability-gpt-attempt01.service\n"
+    },
+    "seed": {
+      "unit": "rfsteps-v341-stability-seed-attempt01",
+      "return_code": 0,
+      "stderr": "Running as unit: rfsteps-v341-stability-seed-attempt01.service\n"
+    }
+  },
+  "duration_seconds": 43200,
+  "scope": "container continuity/resource/isolation/IO/UDS identity; RPC availability separately recorded",
+  "research_credit_seconds": 0
+}

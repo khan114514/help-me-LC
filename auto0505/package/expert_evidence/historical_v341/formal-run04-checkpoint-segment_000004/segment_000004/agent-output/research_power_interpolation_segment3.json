@@ -1,0 +1,11 @@
+{
+  "observed_public_psnr": {
+    "1.5": 20.22256831283264,
+    "2": 20.2250921627834,
+    "2.5": 20.11972692968958
+  },
+  "fit_only_for_candidate_selection": true,
+  "quadratic_vertex": 1.7616965029247647,
+  "proposed_power": 1.75,
+  "limitation": "Grid projection and large image-specific PSNR changes make interpolation non-predictive; must use actual frozen evaluation."
+}

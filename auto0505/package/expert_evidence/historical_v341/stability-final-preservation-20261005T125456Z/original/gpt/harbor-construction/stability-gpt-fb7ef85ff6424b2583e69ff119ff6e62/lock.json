@@ -1,0 +1,46 @@
+{
+    "schema_version": 2,
+    "task": {
+        "name": "rfsteps-v341-build-check-20261004",
+        "version": "3.4.1",
+        "type": "local",
+        "digest": "sha256:a376e292acc1dcf1284bc129312c3f1a24d21232d77cd027fb77625f503c0d85",
+        "path": "/historical-root/rfsteps-v341-build-check-20261004"
+    },
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent": {
+        "name": "nop",
+        "skills": [],
+        "resume_trajectory": false,
+        "extra_allowed_hosts": [],
+        "kwargs": {},
+        "mcp_servers": []
+    },
+    "bridge_inputs": {},
+    "skills": [],
+    "environment": {
+        "type": "docker",
+        "force_build": false,
+        "delete": false,
+        "cpu_enforcement_policy": "auto",
+        "memory_enforcement_policy": "auto",
+        "mounts": [
+            {
+                "type": "bind",
+                "source": "/historical-root/rfsteps-v341-model-rpc-20261004/sockets/gpt.sock",
+                "target": "/run/rfsteps-model/gpt.sock",
+                "read_only": true
+            }
+        ],
+        "extra_docker_compose": [],
+        "kwargs": {
+            "keep_containers": false
+        },
+        "extra_allowed_hosts": []
+    },
+    "verifier": {
+        "disable": false,
+        "environment_mode": "separate"
+    }
+}

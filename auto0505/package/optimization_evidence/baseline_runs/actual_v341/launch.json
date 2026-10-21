@@ -1,0 +1,25 @@
+{
+  "unit": "rfsteps-v341-nop-attempt01",
+  "command": [
+    "systemd-run",
+    "--unit=rfsteps-v341-nop-attempt01",
+    "--property=Type=exec",
+    "--property=RuntimeMaxSec=7200",
+    "--property=StandardOutput=append:/historical-root/rfsteps-v341-formal-nop-launch-20261004/attempt01/run.stdout",
+    "--property=StandardError=append:/historical-root/rfsteps-v341-formal-nop-launch-20261004/attempt01/run.stderr",
+    "--setenv=RFSTEPS_SOCKET_ROOT=/historical-root/rfsteps-v341-rpc-20261004/sockets",
+    "--setenv=PYTHONPATH=/historical-root/rfsteps-v341-nop-runtime-20261004/attempt02",
+    "/opt/miniconda3/bin/python3",
+    "-B",
+    "/historical-root/rfsteps-v341-nop-runtime-20261004/attempt02/run_nop.py",
+    "--source-manifest-sha256",
+    "84c0d32c6a8732fd749866029655a97b776fcb07cbecd524fb7266c5697dbe0f"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "Running as unit: rfsteps-v341-nop-attempt01.service\n",
+  "launched_at": "2026-10-04T12:27:19.650555+00:00",
+  "Task": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "native_NOP": true,
+  "research_credit_seconds": 0
+}

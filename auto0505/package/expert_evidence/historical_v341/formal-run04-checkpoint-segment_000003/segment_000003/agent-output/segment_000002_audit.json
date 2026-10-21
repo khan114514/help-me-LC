@@ -1,0 +1,105 @@
+{
+  "segment": 2,
+  "start_round": 5,
+  "end_round": 7,
+  "checks": [
+    {
+      "round": 1,
+      "purpose": "starter",
+      "status": "ok",
+      "method_sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "psnr": 19.361577137501065,
+      "score": 0.0,
+      "gpu_job_id": "52c30802-5957-4b04-88de-4ac645330218",
+      "nodes_sha256": "a2a74cba18f963bf00245edde3452535627888905664e63007434076828ff427",
+      "scoring_seconds": 237.2350991172716
+    },
+    {
+      "round": 2,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "bef7a3bc61f9358d45c8d00c02fa5b0ca69a5f58528368a5ecbeb5d2d8e8d4a5",
+      "psnr": 17.959306788303643,
+      "score": -0.7546529570695181,
+      "gpu_job_id": "08d7e00b-74a8-4a00-bc1c-dd1627773beb",
+      "nodes_sha256": "f01d9b1c72f25ec8332a62e7c9145f8e0faadc63d18d8051ed5661e7061a6c72",
+      "scoring_seconds": 236.5558069422841
+    },
+    {
+      "round": 3,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "17965d22465a8bb133b4aa51e0cb6562be6e3139ab080c8a1ed14412a5352b26",
+      "psnr": 19.546817861597415,
+      "score": 0.09969009206321577,
+      "gpu_job_id": "ac1b633a-4e09-4208-9fd9-2bc95eb3880e",
+      "nodes_sha256": "91fa1f3764ceecd951821f684ad9d544531cbd746ede430ab1406115a4599595",
+      "scoring_seconds": 238.04985779710114
+    },
+    {
+      "round": 4,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "ca0cf0e2f5236d813f779dca8ca9aeac801aad6050cfa52cf312f34a0017be2e",
+      "psnr": 19.61162232893616,
+      "score": 0.13456559444867944,
+      "gpu_job_id": "48f255a0-c288-4244-9aac-4d276e8b2e65",
+      "nodes_sha256": "90bef3adda2d8e0c0fd953ca12c9e4945ba2c7aa55f07555040b7452f47e2176",
+      "scoring_seconds": 240.43531494680792
+    },
+    {
+      "round": 5,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "fa5f0561f0e77f1643075df7766dd28e7d5cd5e62b9416aaa9f0227128bc164d",
+      "psnr": 19.420211702190297,
+      "score": 0.031555076133884016,
+      "gpu_job_id": "f2397b9e-4a6e-4bfa-abc4-3f0478d9bbba",
+      "nodes_sha256": "5cac14495c7c21a9fdbc7b4d07ad0ab933ee7acf6596c92aa2d4dd2db711aa8c",
+      "scoring_seconds": 237.5008159512654
+    },
+    {
+      "round": 6,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "d593a6bba72a9e91d27d009dc687bf3ac64557396ec4a1cb798213dbb5d71703",
+      "psnr": 20.2250921627834,
+      "score": 0.46471364646356744,
+      "gpu_job_id": "8fd42025-944d-45e6-a4c4-94829d1c6bf3",
+      "nodes_sha256": "d78491c1b5c5cc297a7d249cc62f34c875b1c1a3b3890d77e6633b84ae6fb99d",
+      "scoring_seconds": 237.36252480000257
+    },
+    {
+      "round": 7,
+      "purpose": "exploration",
+      "status": "ok",
+      "method_sha256": "ca726e5877fedab4687b3b8ea0e4b814b4aedb989486fd0daf6dbb0bb05375aa",
+      "psnr": 20.11972692968958,
+      "score": 0.40800975568239245,
+      "gpu_job_id": "4e06bc27-6228-4efc-98c3-c4b0fe7cdd30",
+      "nodes_sha256": "b7c6eead7618e643ad35fba929f4122f4638f7d0bfade42afdd3a47cea6b8b5c",
+      "scoring_seconds": 237.41579546872526
+    }
+  ],
+  "new_exploration_count": 3,
+  "cumulative_exploration_count": 6,
+  "starter_count": 1,
+  "clean_rerun_count": 0,
+  "segment_exploration_gpu_scoring_seconds": 712.2791362199932,
+  "cumulative_exploration_gpu_scoring_seconds": 1427.3201159061864,
+  "unique_gpu_jobs": 7,
+  "unique_node_hashes": 7,
+  "prior_round_files_unchanged": true,
+  "frozen_files_changed": [],
+  "best": {
+    "round": 6,
+    "directory": "round_000006",
+    "policy_name": "quadratic_scaled_embedding_grid_125",
+    "psnr": 20.2250921627834,
+    "score": 0.46471364646356744,
+    "method_sha256": "d593a6bba72a9e91d27d009dc687bf3ac64557396ec4a1cb798213dbb5d71703",
+    "explanation": "1/125 缩放时间嵌入对齐的平方网格得到公开 PSNR=20.2250921628，比当前最佳提高 0.6134698338 dB，比 Starter 提高 0.8635150253 dB，保留。该效果支持继续使用时间嵌入对齐网格；最后一轮保持 1/125 对齐，将幂指数从 2 增至 2.5 检验更集中高噪声密度。"
+  },
+  "final_cpu_schedule_matches_gpu_receipt": true,
+  "expert_lower_bound_gate": "independent audit pending"
+}

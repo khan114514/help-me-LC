@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "scope": "Read-only non-duration readiness report; no new model/GPU/container/candidate execution",
+  "files": {
+    "AUDIT.json": "377bdc1b45dacd34c705a5b21afbcce0301a01337d7c6d7bc861a27b6624352a",
+    "AUDIT.md": "35a1f7ecb2cbdf6354d429714e2886d694c123e9ecfa2a6e5e7be82f14e8a9dc",
+    "local-hash-read-snapshot.txt": "e0cebc733b3a342e75a009d045f7365af8343d7a611652957b2d3b77a8d75569",
+    "read-source-hashes.json": "e6999bf04a346a2d68b39209a2339762aeb08129cc473bfa61c7517c6ce2cf93",
+    "remote-formal-projection.json": "e0c700edd270d4333c54ca5c5cf795fb1bf9b1e1972ba1b6bf19ac017d29ac9d",
+    "remote-stability-projection.json": "2c03c440d0271ce765e2fd51d8fc77c81f9e3dd15f2ecf2dddaeb1f53c7b58a3"
+  }
+}

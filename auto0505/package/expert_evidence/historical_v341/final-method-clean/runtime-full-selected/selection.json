@@ -1,0 +1,48 @@
+{
+  "status": "SELECTED_BY_CURRENT_PUBLIC_MEAN_PSNR",
+  "selection_frozen_at_utc": "2026-10-04T17:30:19.205508+00:00",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "selected_role": "seed",
+  "selected_source_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+  "selected_nodes_sha256": "88b4ddc7ade3ad425a3fa660db6683dcc001c3367695d9b4de74106d728b5679",
+  "ranking": [
+    {
+      "candidate": "seed",
+      "public_mean_psnr": 21.66197823479546,
+      "normalized_score_unclipped": 1.237995577324134,
+      "method_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+      "nodes_sha256": "88b4ddc7ade3ad425a3fa660db6683dcc001c3367695d9b4de74106d728b5679",
+      "gpu_job_id": "8625f57f-0fa1-416a-b321-2d4b22a6ee6d",
+      "whole_trusted_receipt_sha256": "c8b977ee65d5d028f3094435d72c197a25a2def0f1fe9dc2c68ad637f5e0d7f1",
+      "clean_summary_sha256": "8d2698c3b190a7e3cdabdf9c6d03970af85c9170315e563903404a81e28bda9d",
+      "source_and_nodes_verified": true,
+      "clean_rerun": true
+    },
+    {
+      "candidate": "gpt",
+      "public_mean_psnr": 21.21974298189495,
+      "normalized_score_unclipped": 1.0,
+      "method_sha256": "8b34e25306187b02cf1e21681a8e86797d5fbadcbec8a9657cac309ff041e051",
+      "nodes_sha256": "6719483eaf769b14725f116af435e3e663a263f4fbb4d29e519f196aa604a76b",
+      "gpu_job_id": "a9b3d60a-0486-4d1f-a859-d2e8c3d4691d",
+      "whole_trusted_receipt_sha256": "a9f2cd4ee8422598897df676d7523185630819dda4357062d5a4240e499518ed",
+      "clean_summary_sha256": "7c92ab84d6aa9d42d7374207c8df4ca49393d25cf40250c5e737f9db7a1b84b1",
+      "source_and_nodes_verified": true,
+      "clean_rerun": true
+    },
+    {
+      "candidate": "current-formal04",
+      "public_mean_psnr": 20.65104213455171,
+      "normalized_score_unclipped": 0.693945053904085,
+      "method_sha256": "1a23b0ccd17e3d0825dacc5502c1837a60afdec63dd892b3e512f83b021e23b7",
+      "gpu_job_id": "d02471d0-6fe8-4e33-88f1-7cc64797996d",
+      "clean_rerun": false,
+      "source": "already sealed current Task fullPublic receipt round13, unchanged through6segments"
+    }
+  ],
+  "rule": "Higher current mean PSNR on exactly same12Public/current assets/scorer/NFE100. Current same-anchor unclipped normalized score is monotone and independently checked; old clipped1 never ranks. Full16 is subsequent acceptance and cannot change the Public selection.",
+  "purpose": "clean_rerun",
+  "new_model_calls": 0,
+  "research_credit_seconds": 0,
+  "failed_Seed01": "BUSY/role_job_already_running, no accepted score, full original preserved"
+}

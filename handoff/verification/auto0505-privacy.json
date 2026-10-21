@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "strict": true,
+  "implementation": "local-strict-protocol-extension/1",
+  "official_upstream_protocol": false,
+  "scanned_payloads": 1794,
+  "scanned_bytes_including_nested": 70572047,
+  "content_manifest_sha256": "698abd66d7498d44edafc6c5fdf140419e3c60e44025c8fe45c57ba755ab1a25",
+  "findings": []
+}

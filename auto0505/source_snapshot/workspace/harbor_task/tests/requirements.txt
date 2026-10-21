@@ -1,0 +1,2 @@
+# Candidate extraction and controlled RPC use Python standard library only.
+# Numerical runtime is separately frozen and hash-checked on the A100 backend.

@@ -1,0 +1,22 @@
+{
+  "status": "ROOT_EXACT_ORIGINAL_TRAJECTORY_MAPPING_VERIFIED",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "renumbering_only": true,
+  "source_map_sha256": "f3d856852845a6e146b337905a71ef68fb6608ec1f9a40fa822452afe65c725f",
+  "tracks": {
+    "codex": {
+      "rows": 102,
+      "exact_original_fields": true,
+      "sha256": "3a8da50292394fcc19a1b7dbe09a095369178d7c5076b4374d2da9d76b4915c1",
+      "failed_null_score": 4
+    },
+    "seed": {
+      "rows": 47,
+      "exact_original_fields": true,
+      "sha256": "3cf80189fa443c837fd7ee2b9c54dbb3a53cb852b9596ec973b04aead874af50",
+      "failed_null_score": 2
+    }
+  },
+  "same_protocol_for_all_historical_scores_claimed": false,
+  "exact_unobserved_duration_fabricated": false
+}

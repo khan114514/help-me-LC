@@ -1,0 +1,32 @@
+{
+    "task": {
+        "path": "/historical-root/rfsteps-nop/harbor_task"
+    },
+    "trial_name": "harbor_task__46ruE8U",
+    "trials_dir": "/historical-root/rfsteps-nop/jobs/2026-10-04__10-51-51",
+    "verifier_timeout_multiplier": 2.0,
+    "agent": {
+        "name": "nop"
+    },
+    "environment": {
+        "import_path": "gpu_docker_env:GpuDockerEnvironment",
+        "delete": false,
+        "mounts": [
+            {
+                "type": "bind",
+                "source": "/opt/rfsteps/weights",
+                "target": "/opt/rfsteps/weights",
+                "read_only": true
+            }
+        ],
+        "extra_docker_compose": [
+            "/historical-root/rfsteps-nop/gpu-overlay.yaml"
+        ]
+    },
+    "verifier": {
+        "env": {
+            "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"
+        }
+    },
+    "job_id": "cf6d958b-40db-4d6b-8dcd-61cf02daf2bc"
+}

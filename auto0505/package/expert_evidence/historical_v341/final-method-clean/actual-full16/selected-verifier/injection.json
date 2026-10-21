@@ -1,0 +1,16 @@
+{
+  "purpose": "clean_rerun",
+  "is_NOP": false,
+  "model_trajectory": false,
+  "verifier_cid": "dfbb33506e47bbf8fba8e514d945707213eda988c947a8f1b24de2e97666b681",
+  "injected_at": "2026-10-04T17:35:03.220443+00:00",
+  "source_before": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-verifier/source-before",
+  "source_after": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-verifier/source-after",
+  "original_method_sha256": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+  "selected_method_sha256": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+  "frozen_solve_sha256": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+  "live_source_inventory_sha256": "01e2895bc934147421c89c849fd1640cce92973caa6f1293bdf968904b2ee166",
+  "Actor_artifact_not_modified": true,
+  "Task_not_modified": true,
+  "research_credit_seconds": 0
+}

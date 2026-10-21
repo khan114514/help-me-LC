@@ -1,0 +1,5 @@
+{
+  "policy_name": "power_1.75_scaled_embedding_grid_125",
+  "purpose": "exploration",
+  "method_summary": "保持 1/125 对齐，选取指数 1.5 与 2 之间的 1.75；三个已测指数的插值最优约为 1.762。该候选在高噪声细分与中低噪声分辨率间折中，检验平均 PSNR 是否可超过两端近乎持平的结果。"
+}

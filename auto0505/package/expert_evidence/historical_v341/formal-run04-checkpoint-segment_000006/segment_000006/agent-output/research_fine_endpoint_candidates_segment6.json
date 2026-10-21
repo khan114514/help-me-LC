@@ -1,0 +1,57 @@
+[
+  {
+    "split": 0.032,
+    "midpoints": [
+      0.016,
+      0.056
+    ],
+    "max_reference_embedding_error": 0.0,
+    "max_step_bf16_error": 9.5703124999999e-05,
+    "sum_last_steps_fourth": 6.356992e-06,
+    "unscored_diagnostic": true
+  },
+  {
+    "split": 0.036,
+    "midpoints": [
+      0.018,
+      0.057999999999999996
+    ],
+    "max_reference_embedding_error": 6.938893903907228e-18,
+    "max_step_bf16_error": 0.00011132812499999728,
+    "sum_last_steps_fourth": 5.427712000000001e-06,
+    "unscored_diagnostic": true
+  },
+  {
+    "split": 0.04,
+    "midpoints": [
+      0.02,
+      0.06
+    ],
+    "max_reference_embedding_error": 0.0,
+    "max_step_bf16_error": 3.906249999999917e-05,
+    "sum_last_steps_fourth": 5.12e-06,
+    "unscored_diagnostic": true
+  },
+  {
+    "split": 0.044,
+    "midpoints": [
+      0.022,
+      0.062
+    ],
+    "max_reference_embedding_error": 0.0,
+    "max_step_bf16_error": 0.00011132812500000422,
+    "sum_last_steps_fourth": 5.427712e-06,
+    "unscored_diagnostic": true
+  },
+  {
+    "split": 0.048,
+    "midpoints": [
+      0.024,
+      0.064
+    ],
+    "max_reference_embedding_error": 0.0,
+    "max_step_bf16_error": 9.5703124999999e-05,
+    "sum_last_steps_fourth": 6.356992e-06,
+    "unscored_diagnostic": true
+  }
+]

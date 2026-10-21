@@ -1,0 +1,8 @@
+[test.sh] candidate=/workspace/method.py split=public
+Traceback (most recent call last):
+  File "/tests/run_eval.py", line 50, in <module>
+    from flux.util import load_ae, load_flow_model
+  File "/workspace/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/util.py", line 7, in <module>
+    from imwatermark import WatermarkEncoder
+ModuleNotFoundError: No module named 'imwatermark'
+[test.sh] reward: {"reward": 0.0}

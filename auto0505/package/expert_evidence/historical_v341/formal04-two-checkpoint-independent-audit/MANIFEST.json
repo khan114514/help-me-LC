@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN_INDEPENDENT_TWO_CHECKPOINT_AUDIT_INCOMPLETE",
+  "research_credit_seconds_granted_by_audit": 0,
+  "source_task_record_mutations": 0,
+  "files": [
+    {
+      "path": "CHECKPOINT-AUDIT.json",
+      "sha256": "23487dc99a4317522d2e250a656254526e83c09e0dbb734c5ab47efd17faff4d",
+      "bytes": 26447
+    },
+    {
+      "path": "CHECKPOINT-AUDIT.md",
+      "sha256": "7a9c86014b0986af894f5d844decd181817879d24da15fb4bf4c58bc57b99136",
+      "bytes": 3639
+    },
+    {
+      "path": "REPLAY-READ-MAP.json",
+      "sha256": "d15382efeb3703e91cbba62fda469e27f47a72d45f1698e606fd14e544b0445f",
+      "bytes": 36073
+    },
+    {
+      "path": "audit_checkpoints.py",
+      "sha256": "817d9e2b1e65f242eaf48954fcc3f390a9b6866bd1a76d1a31233d5f0eb4f356",
+      "bytes": 17754
+    }
+  ]
+}

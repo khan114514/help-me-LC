@@ -1,0 +1,31 @@
+{
+    "job_name": "2026-10-04__10-18-48",
+    "jobs_dir": "/historical-root/rfsteps-nop/jobs",
+    "verifier_timeout_multiplier": 2.0,
+    "debug": true,
+    "environment": {
+        "import_path": "gpu_docker_env:GpuDockerEnvironment",
+        "delete": false,
+        "mounts": [
+            {
+                "type": "bind",
+                "source": "/opt/rfsteps/weights",
+                "target": "/opt/rfsteps/weights",
+                "read_only": true
+            }
+        ],
+        "extra_docker_compose": [
+            "/historical-root/rfsteps-nop/gpu-overlay.yaml"
+        ]
+    },
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "/historical-root/rfsteps-nop/harbor_task"
+        }
+    ]
+}

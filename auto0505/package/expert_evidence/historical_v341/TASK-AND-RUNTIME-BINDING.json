@@ -1,0 +1,26 @@
+{
+  "status": "EXACT_CURRENT_TASK_AND_TESTED_RUNTIME_BINDING",
+  "declared_task_name": "autoresearch/rfsteps",
+  "packaged_task_root": "workspace/harbor_task",
+  "packaged_directory_name": "harbor_task",
+  "original_remote_task_directory_name": "rfsteps-v341-build-check-20261004",
+  "version": "3.4.1",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "task_file_count": 63,
+  "harbor_version": "0.23.0",
+  "version_evidence": {
+    "optimization_evidence/baseline_runs/actual_v341/harbor-job/lock.json#harbor.version": "0.23.0",
+    "expert_evidence/formal-run04-installed-precheck.json#harbor": "0.23.0",
+    "expert_evidence/task-v341-static-qa/remote-readonly-task-check.stdout#harbor_version": "0.23.0"
+  },
+  "NOP_binding_evidence": [
+    "workspace/harbor_task/task.toml",
+    "optimization_evidence/baseline_runs/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/config.json",
+    "optimization_evidence/baseline_runs/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/result.json",
+    "expert_evidence/frozen-task-identity.json",
+    "expert_evidence/task-v341-static-qa/remote-readonly-task-check.stdout"
+  ],
+  "binding_explanation": "autoresearch/rfsteps is the [task].name recorded by Harbor; harbor_task is the packaged directory and rfsteps-v341-build-check-20261004 is its experiment checkout. They bind to identical Task3.4.1 bytes, not different tasks. No original Trial is renamed or altered.",
+  "accepted_tested_provider": "Actual Harbor0.23 DockerEnvironment with frozen expert NopLiveDockerEnvironment adapter for bounded live transfer and external private A100 UDS scoring; original current Task NOP and full16 show successful construction, artifact handoff and separate Verifier.",
+  "deployment_scope": "This tested expert runtime, not an unexecuted arbitrary platform. Independent third-party registration/task_id not claimed."
+}

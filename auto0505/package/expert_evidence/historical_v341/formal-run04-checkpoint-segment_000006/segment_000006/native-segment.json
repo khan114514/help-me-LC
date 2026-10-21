@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "evidence_kind": "formal",
+  "track": "gpt",
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "model": "gpt-6.1-sol",
+  "effort": "xhigh",
+  "frozen_instruction_sha256": "fc748766095e76608aa29eecf033e07b2aca3d6ce38c7e13584a3d3411638b53",
+  "base_task_instruction_sha256": "a253ba99c1cbc50d5679e6ab75642d8197617adffa1386a72347749c7934be46",
+  "continuation_template_sha256": "fcfe0938ca25114a71d1358bbcf69690cea0ee4fa399bba7f6eeeeb57cea0631",
+  "started_at": "2026-10-04T16:57:22.752353+00:00",
+  "finished_at": "2026-10-04T17:09:09.576811+00:00",
+  "expert_verification": {
+    "exit_code": 0,
+    "pipeline_exit_code": 0,
+    "native_process_exit_code": 0,
+    "native_process_exit_scope": "expert outer Bash captures PIPESTATUS[0] without rewriting native Codex command",
+    "turn_completed": true,
+    "model_terminal_failed": false,
+    "error_classification": "terminal-errors-sticky; exact-stream-reconnect-requires-later-completion",
+    "reconnect_warning_events": 0,
+    "recovered_reconnect_warnings": 0,
+    "unresolved_reconnect_warnings": 0,
+    "terminal_error_events": 0,
+    "turn_failed_events": 0,
+    "item_error_events": 4,
+    "attempted_tool_calls": 13,
+    "successful_tool_calls": 11,
+    "all_tools_failed": false,
+    "thread_id": "01a1076f-51ab-7973-92d6-d0c03e90b789"
+  },
+  "invocation_error_type": null,
+  "live_download_adapter": {
+    "source_sha256": "aec60c3a09e95841cf1bc421f4ceba899c32fb44950095ef136785eb11a939c2",
+    "report_root": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads",
+    "container_id": "34ae90dec2b82316fe6cc6838cec4bf30502db55d58426010b2066dc8773bd4b",
+    "scope": "exact own DockerEnvironment instance; live solution/agent-output only; zero research credit"
+  },
+  "artifacts": {
+    "native_log": {
+      "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000006/native/codex.txt",
+      "sha256": "cf3ef4245d362f92b118a944ceca813ca01ff17120501d689ff0510b4cd7720f"
+    },
+    "sessions": [
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000006/native/sessions/2026/10/04/rollout-2026-10-04T15-01-38-01a1076f-51ab-7973-92d6-d0c03e90b789.jsonl",
+        "sha256": "1a9aadbf007bddd9fc6cba0b8323c66e27d59007818f041f9d71b777bb9d104a"
+      }
+    ],
+    "agent_output": {
+      "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000006/agent-output-manifest.json",
+      "sha256": "02c6b7b20808fdedad41b53ff08e7ca6d4e993bce5fa79f416829632169249b3"
+    },
+    "source": {
+      "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/harness-source/continuation_research_codex.py",
+      "sha256": "8d9e51d137c5ec2de61eee9f494986c9084690f576827ed71a355a3bcfde64c2"
+    },
+    "actual_instruction": {
+      "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/actual-instruction.md",
+      "sha256": "fc748766095e76608aa29eecf033e07b2aca3d6ce38c7e13584a3d3411638b53"
+    },
+    "submission_boundary": {
+      "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000006/submission-boundary.json",
+      "sha256": "7949dfd9b8a0c0ce52f6ca5c904e2fb6a9ea84d3a8fd063043ff8501487c3978"
+    },
+    "raw_source": {
+      "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000006/raw-source-manifest.json",
+      "sha256": "a07f76af11a5632caae7dd6d61c138267337695ee41bac6459914cf9d1aa1d10"
+    },
+    "submission_housekeeping": {
+      "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive/segment_000006/submission-housekeeping.json",
+      "sha256": "4647253e269fa515eb1c8dc5e37641c6ebc16f46906429c61f9ff7c9867df379"
+    },
+    "submission_compat_source": {
+      "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/harness-source/submission_compat.py",
+      "sha256": "c289b835773b1e876b64b8ef7442e0228ae8f662f63af6b6987f153805e50e8c"
+    },
+    "live_download_reports": [
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/03910201a05d43af8522da306ca0ee32.json",
+        "sha256": "6f62b3b3d4558a2523a2865d734fe6a91d9b0f3160e6bdf16c570791b7cefd8c"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/04ca41e498154bcf8341a2d47592a237.json",
+        "sha256": "7af29298c6e059ac5e3671a62f06fab05af0e530a0ecbde414e100ac5b2469af"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/15893b120f9f4e1a8349839f4e577671.json",
+        "sha256": "b2239a647bca62891bf000a2bdc2deeec1467d733fca891cff91b2d10cae0bb0"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/16bb3a776f714af9a3a2a8616764a7a8.json",
+        "sha256": "407e5579f126cc39ef84654b82f3772324fffc891de32c676dbedc0f3d031574"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/17fb6f0b01314c3b8be46f468dc014d9.json",
+        "sha256": "fd9659f5a31fb0ee9cad9883b056074856b69d26dbbfd825bc493248f59a9131"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/1ebcd0230156416f87cdf8adaba48d04.json",
+        "sha256": "dcba0de78750079d5291955337c7567a7d8e28469d876c168e1ef7a3b151ad22"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/2123d3153dd141edbb26ee6917cb7487.json",
+        "sha256": "7c09c09e7065e1e8b18cb1b72513984f016dd349db48cb9199dafafc663f24d5"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/30215546fd6142d2a926dfdefbefeead.json",
+        "sha256": "7a0a3a630a0e813c14c24218c1635531af8089839022b6a39e6e43b00adb2693"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/33a81befc1d74e8bbc1da872afd737cb.json",
+        "sha256": "51fa76658befebeada55315d591df7683add7ab49156ee3c9ba6c7dfeacd0be1"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/364a3f18dd1c4015999e386967a9856c.json",
+        "sha256": "6d5ff4546f41244547f46a3041442f2c2d24feb85e748716b1554d2f8bc0cc27"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/478297474ce540a6a1c789950e1e25b7.json",
+        "sha256": "2762b07647220a44db2b6accf2f52ab72dc4955529de3f3357c45a6f20c0447a"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/4d2f2c7047ef417ba7fb5a3cbe6d6ca9.json",
+        "sha256": "ac3c94e91795f8b7b465eb001c66dffdaa0b6b557923518fdfe2a51c59768553"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/510ae12fd66b45cf89c7a562e742a976.json",
+        "sha256": "757b56c34c6e754eb0599563cc6b19536584f33eacdf8af3c3f440f6fa662869"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/57d2798401e34743b1b43d8d525c9361.json",
+        "sha256": "40a36d44cd70932a8e8483ec62a58c898d22067ed9b24c39c9b05e8edca86578"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/57deb581883c4c3e82990e860d5214f5.json",
+        "sha256": "186b6262f0989c27918b4eb8b7d11ec8d6181dca153a441f9966be5798a5a652"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/5ca281072aef4367ab9ec79453d65bc5.json",
+        "sha256": "e9d56a258d07618da87d438de8bbb9cda25e4efefbd5ee09a4460fdc4a2c3005"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/5fe5adeea29d4bb39e17b4aa1de89f03.json",
+        "sha256": "01a6e3f91a600a9d2f3e9e7a0a639ea8d5dd7314dc77db9cda9d0a3fe583633e"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/6280dc1509e94ea7b1c121e1d7eaf231.json",
+        "sha256": "6bc15b61470f6bff18c55c361b8280d0ded0d495a4db52ab3e2fea77243e4da6"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/8a7afa64002c4f63b0c5cbf6e004adc5.json",
+        "sha256": "9f508004893de861dbdc303ca3076e8fe332e361dc769f1bed4eed1fac8e11e7"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/e9024a4412f94ddab208c7a8c4609a73.json",
+        "sha256": "260cab2c6781c60db5aafad5053d0cddecb8e903950294788a16818b6982d647"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/e916537a6f7949fd9b51adbd09eefd1a.json",
+        "sha256": "69cd8f6a50a7ea3f45383f9981a9703f251905527dd93f7094f3840fdc92cc55"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/f0af32fece3941a9985bbf231f3a110d.json",
+        "sha256": "c6c4d2b6d0caa8ea09e2cd05a93c9e528958f5fd79751de92a51786f6efa7e10"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/f2ccac1d7ce64f5ab577ef2871918996.json",
+        "sha256": "df406cfc691f3f866b83cf89cee0c79cb145103b9dfff7964974ab88b90fbffe"
+      },
+      {
+        "path": "/historical-root/rfsteps-v341-formal-research-run04-20261004/gpt/native-archive-live-downloads/f68e5993e0554a3ca6b16eced91b75d1.json",
+        "sha256": "3912e632eb80a2808bcf808ed1bca76632147101da9d21b2208f2a3b009ad538"
+      }
+    ]
+  }
+}

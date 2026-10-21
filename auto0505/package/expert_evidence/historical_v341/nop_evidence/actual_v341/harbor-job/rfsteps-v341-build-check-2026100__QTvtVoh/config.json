@@ -1,0 +1,18 @@
+{
+    "task": {
+        "path": "/historical-root/rfsteps-v341-build-check-20261004"
+    },
+    "trial_name": "rfsteps-v341-build-check-2026100__QTvtVoh",
+    "trials_dir": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01",
+    "agent": {
+        "name": "nop"
+    },
+    "environment": {
+        "import_path": "nop_runtime:NopLiveDockerEnvironment",
+        "kwargs": {
+            "nop_evidence_root": "/historical-root/rfsteps-v341-formal-nop-evidence-20261004/attempt01",
+            "nop_source_root": "/historical-root/rfsteps-v341-nop-runtime-20261004/attempt02"
+        }
+    },
+    "job_id": "fb3abb6b-361e-4b2d-987b-86e508c73bdd"
+}

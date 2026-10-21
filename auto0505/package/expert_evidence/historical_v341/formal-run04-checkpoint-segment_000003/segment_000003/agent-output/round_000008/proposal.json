@@ -1,0 +1,5 @@
+{
+  "policy_name": "power_1.5_scaled_embedding_grid_125",
+  "purpose": "exploration",
+  "method_summary": "保留最佳的 1/125 嵌入对齐，将余时间幂指数从 2 降至 1.5。t>0.8 的节点由 12 降至 9，最大区间由 0.08 降至 0.064，检验给中低噪声区域更多步数能否改善平均 PSNR。"
+}

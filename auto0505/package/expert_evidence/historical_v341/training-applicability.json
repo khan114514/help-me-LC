@@ -1,0 +1,8 @@
+{
+  "training_applicable": false,
+  "reason": "Deterministic inference-only node generator task; no optimizer/epochs/checkpoint training. Actual B/R evidence is same protocol GPU inversion-reconstruction evaluation, not fabricated training.",
+  "formal_train_command": null,
+  "training_duration_seconds": null,
+  "seed_protocol": "frozen deterministic scorer protocol, same paired environment/GPU/assets/weights",
+  "Scope": "No training; user time rule accepted and best clean full16 passed.12h stability and final release QA pending."
+}

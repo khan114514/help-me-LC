@@ -1,0 +1,828 @@
+{
+  "files": [
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/config.json",
+      "expected": "92d89f4a9d02f0cd57a668e2b91ebe52992fd84434f26d5035c38cd47fd54585",
+      "actual": "92d89f4a9d02f0cd57a668e2b91ebe52992fd84434f26d5035c38cd47fd54585",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/job.log",
+      "expected": "654a4ca8d3528de9d4a8807cbe08ab3d004c2316462185e0364870798c7dd931",
+      "actual": "654a4ca8d3528de9d4a8807cbe08ab3d004c2316462185e0364870798c7dd931",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/lock.json",
+      "expected": "76f11898101e9880f100ce186acdfe692372bbb5c7c8f423a6c11d1d872b5577",
+      "actual": "76f11898101e9880f100ce186acdfe692372bbb5c7c8f423a6c11d1d872b5577",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/result.json",
+      "expected": "f5a1cfec2c6acaf68125c4ce8068c0ce40727c72649e0978b64716a20644c81e",
+      "actual": "f5a1cfec2c6acaf68125c4ce8068c0ce40727c72649e0978b64716a20644c81e",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/artifacts/manifest.json",
+      "expected": "55444ad09322d5f69d46b7c73cd202b20feb444aa542d773bb95b50f915a428a",
+      "actual": "55444ad09322d5f69d46b7c73cd202b20feb444aa542d773bb95b50f915a428a",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/artifacts/solution/method.py",
+      "expected": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "actual": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/artifacts/solution/solve.sh",
+      "expected": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "actual": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/config.json",
+      "expected": "13dd81f58b6eb08fb3fbc0c4e7b910715eaf4382d3fcd203303401cdf6f9df11",
+      "actual": "13dd81f58b6eb08fb3fbc0c4e7b910715eaf4382d3fcd203303401cdf6f9df11",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/lock.json",
+      "expected": "f18b0e4e21c6c4864161168829b0263163967d0fac8461226a8e11a95311c6e6",
+      "actual": "f18b0e4e21c6c4864161168829b0263163967d0fac8461226a8e11a95311c6e6",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/result.json",
+      "expected": "d71a59a74e388490ae5094bd1c594d6f0f785314645b12a4dae36887ea69f9d0",
+      "actual": "d71a59a74e388490ae5094bd1c594d6f0f785314645b12a4dae36887ea69f9d0",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/trial.log",
+      "expected": "bf801260b4865399ee597b45aa59d46e52091b750e5d486a71f370daaf8c9c56",
+      "actual": "bf801260b4865399ee597b45aa59d46e52091b750e5d486a71f370daaf8c9c56",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/evaluation_status.json",
+      "expected": "6ba0de3de49e5c1184938d3835cbc05f41342ead4949aaa770208700131b78d8",
+      "actual": "6ba0de3de49e5c1184938d3835cbc05f41342ead4949aaa770208700131b78d8",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/gpu_receipt.json",
+      "expected": "8d8f8bad656bd2a453f78bf361163e83872f61354bb39df27990e9353288a309",
+      "actual": "8d8f8bad656bd2a453f78bf361163e83872f61354bb39df27990e9353288a309",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/metrics.json",
+      "expected": "28dd9114339c1a5c1f375d78586e35266617bb77c27ec454a52feea63ebf9397",
+      "actual": "28dd9114339c1a5c1f375d78586e35266617bb77c27ec454a52feea63ebf9397",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/remote_metrics.json",
+      "expected": "17aac8aebea423fffb703fd7e989d741c3522bae16883ad7340945eef0b38da5",
+      "actual": "17aac8aebea423fffb703fd7e989d741c3522bae16883ad7340945eef0b38da5",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/reward.json",
+      "expected": "07bafa6ecee54bcea2b2cdcf345e83c271663a7e4ad4973af0036922f58ac19d",
+      "actual": "07bafa6ecee54bcea2b2cdcf345e83c271663a7e4ad4973af0036922f58ac19d",
+      "matched": true
+    },
+    {
+      "group": "nop",
+      "remote": "/historical-root/rfsteps-v341-formal-nop-jobs-20261004/rfsteps-v341-formal-nop-01/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/test-stdout.txt",
+      "expected": "11c9b1977211412316ba239d9b3cf44f4b2a5a380774b878d8c5defd02cf1eac",
+      "actual": "11c9b1977211412316ba239d9b3cf44f4b2a5a380774b878d8c5defd02cf1eac",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/config.json",
+      "expected": "aa8767a96453adab2d0d3ee2c01e1ceae3a78845ac7df87ae53349fc2bf7c0f4",
+      "actual": "aa8767a96453adab2d0d3ee2c01e1ceae3a78845ac7df87ae53349fc2bf7c0f4",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/job.log",
+      "expected": "64aee20ad60e1eea10bc2a5e9a177f8c80b5cd21afc3d6f6ed72e9236438d2bf",
+      "actual": "64aee20ad60e1eea10bc2a5e9a177f8c80b5cd21afc3d6f6ed72e9236438d2bf",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/lock.json",
+      "expected": "7170f03bf0f4c97593a2f35137e475303fa1fdabeda1792ac0c990dc5f9b2c88",
+      "actual": "7170f03bf0f4c97593a2f35137e475303fa1fdabeda1792ac0c990dc5f9b2c88",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/result.json",
+      "expected": "70598c6e51c696a187ab7ae366d21eb8875bb62f92d548b0cdcbeed1fc25ab3a",
+      "actual": "70598c6e51c696a187ab7ae366d21eb8875bb62f92d548b0cdcbeed1fc25ab3a",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/artifacts/manifest.json",
+      "expected": "55444ad09322d5f69d46b7c73cd202b20feb444aa542d773bb95b50f915a428a",
+      "actual": "55444ad09322d5f69d46b7c73cd202b20feb444aa542d773bb95b50f915a428a",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/artifacts/solution/method.py",
+      "expected": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "actual": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/artifacts/solution/solve.sh",
+      "expected": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "actual": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/config.json",
+      "expected": "c65b2ef5a20a783f4ff7a82486a518bd30ca8e2d8713e23c046fb77e592af8b5",
+      "actual": "c65b2ef5a20a783f4ff7a82486a518bd30ca8e2d8713e23c046fb77e592af8b5",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/lock.json",
+      "expected": "3e7e2f75f76930050e02e7dd273cb1de86dfb0fb15082fe8dfdafde3c4e8f90a",
+      "actual": "3e7e2f75f76930050e02e7dd273cb1de86dfb0fb15082fe8dfdafde3c4e8f90a",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/result.json",
+      "expected": "8a7feb0f6e68deb3253a45ecb269c527e1e70d9f1c52e67f0abeee230dd721ff",
+      "actual": "8a7feb0f6e68deb3253a45ecb269c527e1e70d9f1c52e67f0abeee230dd721ff",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/trial.log",
+      "expected": "627e18c51a9f3cc1a5b020a796c26b481ef685106750d2c459fc672f588c0df2",
+      "actual": "627e18c51a9f3cc1a5b020a796c26b481ef685106750d2c459fc672f588c0df2",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/verifier/evaluation_status.json",
+      "expected": "b0a47ee0232d020944cc7f084bc478ebb2f4f3d98ae7fb2e278a4bf23f2dc352",
+      "actual": "b0a47ee0232d020944cc7f084bc478ebb2f4f3d98ae7fb2e278a4bf23f2dc352",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/verifier/gpu_receipt.json",
+      "expected": "e7b72df8e8fe490c476584a030f5be65adc8a7b2ea30957b69d6f4352429302d",
+      "actual": "e7b72df8e8fe490c476584a030f5be65adc8a7b2ea30957b69d6f4352429302d",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/verifier/metrics.json",
+      "expected": "f09804ba437cf0823389bb0992c35f1180185d9971ac38928b98c9bc8caf12a1",
+      "actual": "f09804ba437cf0823389bb0992c35f1180185d9971ac38928b98c9bc8caf12a1",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/verifier/remote_metrics.json",
+      "expected": "7a268a43f7dfc1c765eaac7ced9e8ecc0da0ed551049a42c0c1b8c54e92359ba",
+      "actual": "7a268a43f7dfc1c765eaac7ced9e8ecc0da0ed551049a42c0c1b8c54e92359ba",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/verifier/reward.json",
+      "expected": "06feb946cb156346739b0702f58846b60e86391cce424f97b97aaecc476b69bb",
+      "actual": "06feb946cb156346739b0702f58846b60e86391cce424f97b97aaecc476b69bb",
+      "matched": true
+    },
+    {
+      "group": "reference",
+      "remote": "/historical-root/rfsteps-v341-clean-reference-jobs-20261004/rfsteps-v341-clean-reference-02/rfsteps-v341-build-check-2026100__DcGEtFn/verifier/test-stdout.txt",
+      "expected": "7d88765609505b74c9d01a4966b89bf1531d1da3683d59269de00020879637c3",
+      "actual": "7d88765609505b74c9d01a4966b89bf1531d1da3683d59269de00020879637c3",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-summary.json",
+      "expected": "e786611371807c6a0ebe2ba6b63db253788329dbffbc5d8526e5f9b0ca972789",
+      "actual": "e786611371807c6a0ebe2ba6b63db253788329dbffbc5d8526e5f9b0ca972789",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-verifier/native-exec-receipt.json",
+      "expected": "9254f51cca7b34775216b1ed14fd860ccbaddab5393362b807bbc9828d716ee8",
+      "actual": "9254f51cca7b34775216b1ed14fd860ccbaddab5393362b807bbc9828d716ee8",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-verifier/injection.json",
+      "expected": "bd23d005503394504f145284444de5207e7bb47ad52d658205a83cb42e0ded11",
+      "actual": "bd23d005503394504f145284444de5207e7bb47ad52d658205a83cb42e0ded11",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-verifier/source-before/method.py",
+      "expected": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "actual": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-verifier/source-before/solve.sh",
+      "expected": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "actual": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-verifier/source-after/method.py",
+      "expected": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+      "actual": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-verifier/source-after/solve.sh",
+      "expected": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "actual": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-verifier/source-final/method.py",
+      "expected": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+      "actual": "df41c5a4726df6debb31dd57abc38f1b9418dd20b085bdc7c15eece61a5e0805",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-method-clean-20261005/evidence/full-selected-01/selected-verifier/source-final/solve.sh",
+      "expected": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "actual": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/config.json",
+      "expected": "2f0529c30d31e6bc835bfa52d1a5dee897d0bb2595bdeffacdde8e9360e7b962",
+      "actual": "2f0529c30d31e6bc835bfa52d1a5dee897d0bb2595bdeffacdde8e9360e7b962",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/result.json",
+      "expected": "af5980b4b8a80aed26dcf3e7d4e0f7e4753381a9a08639340a3d100248cef936",
+      "actual": "af5980b4b8a80aed26dcf3e7d4e0f7e4753381a9a08639340a3d100248cef936",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/job.log",
+      "expected": "eb70893254a2c8cf7a82f0a7ac26acf093c0f8f83038f71fd4d0c3c3e147f8bb",
+      "actual": "eb70893254a2c8cf7a82f0a7ac26acf093c0f8f83038f71fd4d0c3c3e147f8bb",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9/config.json",
+      "expected": "733fb9ca9de005b6b211f93779d937214251df6dd3070f34fe2189cb854e1aaf",
+      "actual": "733fb9ca9de005b6b211f93779d937214251df6dd3070f34fe2189cb854e1aaf",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9/result.json",
+      "expected": "bea162e3933f9e387854e176388e5490efecc16f9c5096b378d1c35afe8f0817",
+      "actual": "bea162e3933f9e387854e176388e5490efecc16f9c5096b378d1c35afe8f0817",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9/trial.log",
+      "expected": "aa6ebcb7a69874498a945863235c1da02f45e21e0ce34c1e44b12da978d63175",
+      "actual": "aa6ebcb7a69874498a945863235c1da02f45e21e0ce34c1e44b12da978d63175",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9/verifier/reward.json",
+      "expected": "b6d238d0789cc5e082e009439cd259285ee8d49997b5460a68e8427a09cea528",
+      "actual": "b6d238d0789cc5e082e009439cd259285ee8d49997b5460a68e8427a09cea528",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9/verifier/test-stdout.txt",
+      "expected": "8ca5099130bce44d9ada4ea6f35abe3d83022e4b5f2afe361f360dfc7cce4ed9",
+      "actual": "8ca5099130bce44d9ada4ea6f35abe3d83022e4b5f2afe361f360dfc7cce4ed9",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9/artifacts/solution/method.py",
+      "expected": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "actual": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-final-best-jobs-20261005/rfsteps-v341-final-best-full16-01/rfsteps-v341-build-check-2026100__xPBzff9/artifacts/solution/solve.sh",
+      "expected": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "actual": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "matched": true
+    },
+    {
+      "group": "best",
+      "remote": "/historical-root/rfsteps-v341-trusted-rpc-receipts-20261004/b448cf6c-f09a-4ff0-b278-b643082565d6.json",
+      "expected": "6274be278cead0e26430c39568d709345fc7235f405bb44dd5000e62f65cab5f",
+      "actual": "6274be278cead0e26430c39568d709345fc7235f405bb44dd5000e62f65cab5f",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/.dockerignore",
+      "expected": "0d0b453adf1496e7a36ba8c8b6be951bb60862a96c761f8c0023fd96b7ddc702",
+      "actual": "0d0b453adf1496e7a36ba8c8b6be951bb60862a96c761f8c0023fd96b7ddc702",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/Dockerfile",
+      "expected": "de23f1d9ca6a87fb3be55980c7d74c9d2dd400fd798ddbaedb766006e1236a88",
+      "actual": "de23f1d9ca6a87fb3be55980c7d74c9d2dd400fd798ddbaedb766006e1236a88",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/bootstrap.sh",
+      "expected": "f1d84bb12c879d95ab06a8dcbbb3aa30412c9b4edc6e090334bb8b4541a57ab6",
+      "actual": "f1d84bb12c879d95ab06a8dcbbb3aa30412c9b4edc6e090334bb8b4541a57ab6",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/docker-compose.yaml",
+      "expected": "a388912f3e106821fe8366ae999f7dac037b199799734aca8e645682aa8b2875",
+      "actual": "a388912f3e106821fe8366ae999f7dac037b199799734aca8e645682aa8b2875",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/instruction.md",
+      "expected": "a253ba99c1cbc50d5679e6ab75642d8197617adffa1386a72347749c7934be46",
+      "actual": "a253ba99c1cbc50d5679e6ab75642d8197617adffa1386a72347749c7934be46",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/coco_000000000139.png",
+      "expected": "410abbaa2b30b9386fb1d53aefc21af172d292026fbb81f61c23c9301a88ead8",
+      "actual": "410abbaa2b30b9386fb1d53aefc21af172d292026fbb81f61c23c9301a88ead8",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/coco_000000000285.png",
+      "expected": "3acce04c32eccd56472e4269a7e57ea1ac8f2ede5ff7216d34b399e8a2276f6b",
+      "actual": "3acce04c32eccd56472e4269a7e57ea1ac8f2ede5ff7216d34b399e8a2276f6b",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/coco_000000000632.png",
+      "expected": "f19d159764fa3aeb612c0a090aa27d82934fab43675e6bf05b218c3a4dd7f729",
+      "actual": "f19d159764fa3aeb612c0a090aa27d82934fab43675e6bf05b218c3a4dd7f729",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/coco_000000001000.png",
+      "expected": "837ede6bcebcc4465c1555c48d85130d5bf9829469b052bdbe5718649b4132fa",
+      "actual": "837ede6bcebcc4465c1555c48d85130d5bf9829469b052bdbe5718649b4132fa",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/coco_000000001268.png",
+      "expected": "3876caece29c6b1a681b061e6e1577828839c14394abb68372b252cb92c59e95",
+      "actual": "3876caece29c6b1a681b061e6e1577828839c14394abb68372b252cb92c59e95",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/coco_000000001425.png",
+      "expected": "26830a640e3974480e1b8c734c46af479c74d6e273ad4f52dbd106b954e5b049",
+      "actual": "26830a640e3974480e1b8c734c46af479c74d6e273ad4f52dbd106b954e5b049",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/coco_000000001490.png",
+      "expected": "be0522e9c34479fa5da9f4a433454affd8a468a8cbab897ad75c6d7f24f6e104",
+      "actual": "be0522e9c34479fa5da9f4a433454affd8a468a8cbab897ad75c6d7f24f6e104",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/coco_000000039769.png",
+      "expected": "fd6f28d91862d2dd0b8265afb1da553b3a3f9bc91841c1040a8598042b4324e5",
+      "actual": "fd6f28d91862d2dd0b8265afb1da553b3a3f9bc91841c1040a8598042b4324e5",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/repo_art.png",
+      "expected": "95e0d7bfa351fa3b00f90d667e7ab7ca5da261e44fcf4473de50bde6eed5e9ea",
+      "actual": "95e0d7bfa351fa3b00f90d667e7ab7ca5da261e44fcf4473de50bde6eed5e9ea",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/repo_boy.png",
+      "expected": "b7c9e147c4635e10953fb14cdad472ff1bfaa54ae6147ae096c24133b019697a",
+      "actual": "b7c9e147c4635e10953fb14cdad472ff1bfaa54ae6147ae096c24133b019697a",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/repo_horse.png",
+      "expected": "dceef30c01ae1814a274ac264823c851145c5623dd268bff715b5e339855f952",
+      "actual": "dceef30c01ae1814a274ac264823c851145c5623dd268bff715b5e339855f952",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_assets/eval_public/repo_nobel.png",
+      "expected": "1496a92a885c211c5de07dc23dd346047079f76982754639c40e18021ded60d5",
+      "actual": "1496a92a885c211c5de07dc23dd346047079f76982754639c40e18021ded60d5",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_eval/anchors.json",
+      "expected": "f0c7c9d1b184ef2f0a364bd153b58cf74a3874f40098d089babf2adcfbfe1ab5",
+      "actual": "f0c7c9d1b184ef2f0a364bd153b58cf74a3874f40098d089babf2adcfbfe1ab5",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_eval/candidate_worker.py",
+      "expected": "1e0d5a62e0d57a74340dff463fde05279ba570e6c89f83048f25f77b0143f9a7",
+      "actual": "1e0d5a62e0d57a74340dff463fde05279ba570e6c89f83048f25f77b0143f9a7",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_eval/evaluate.sh",
+      "expected": "400b3cfc5b0b84d884fee6c28aec3b27722a13c92c8ce17bd840ad02eed62994",
+      "actual": "400b3cfc5b0b84d884fee6c28aec3b27722a13c92c8ce17bd840ad02eed62994",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_eval/evaluate_candidate.py",
+      "expected": "a466b469cbab848b1b28ab09a621d9f09c11ae946080d39e06c6f097841ce9f3",
+      "actual": "a466b469cbab848b1b28ab09a621d9f09c11ae946080d39e06c6f097841ce9f3",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/public_eval/solve.sh",
+      "expected": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "actual": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/requirements.txt",
+      "expected": "8c4f8eca75da836e81ba92263ea8ae5d13d8ab968a596b9036bd5a243fc9ae8c",
+      "actual": "8c4f8eca75da836e81ba92263ea8ae5d13d8ab968a596b9036bd5a243fc9ae8c",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/environment/starter/method.py",
+      "expected": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "actual": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/instruction.md",
+      "expected": "a253ba99c1cbc50d5679e6ab75642d8197617adffa1386a72347749c7934be46",
+      "actual": "a253ba99c1cbc50d5679e6ab75642d8197617adffa1386a72347749c7934be46",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/solution/method.py",
+      "expected": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "actual": "2555f26dd588cf7d8a57091b61bedd41971e74e112a6edd5e659db4ce8399e3c",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/solution/solve.sh",
+      "expected": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "actual": "245736edfc8c8c905fad03f336e521cb6192328b3ad1ade9eab6ed893b03ed58",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/task.toml",
+      "expected": "bb2b3844a4ee60a3f4dd2ed6e74afba8afb32c1c09c42aa97217447d4dc681fc",
+      "actual": "bb2b3844a4ee60a3f4dd2ed6e74afba8afb32c1c09c42aa97217447d4dc681fc",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/.dockerignore",
+      "expected": "0d0b453adf1496e7a36ba8c8b6be951bb60862a96c761f8c0023fd96b7ddc702",
+      "actual": "0d0b453adf1496e7a36ba8c8b6be951bb60862a96c761f8c0023fd96b7ddc702",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/Dockerfile",
+      "expected": "8100047b975c281c14435519bdf40be663abf7ce46cd75af3adeb9347570ac44",
+      "actual": "8100047b975c281c14435519bdf40be663abf7ce46cd75af3adeb9347570ac44",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/anchors.json",
+      "expected": "50076621400ca5bfd087acf5434f4d0e241926ffa84dbd9fa3e04eadef8a983f",
+      "actual": "50076621400ca5bfd087acf5434f4d0e241926ffa84dbd9fa3e04eadef8a983f",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/bootstrap.sh",
+      "expected": "f1d84bb12c879d95ab06a8dcbbb3aa30412c9b4edc6e090334bb8b4541a57ab6",
+      "actual": "f1d84bb12c879d95ab06a8dcbbb3aa30412c9b4edc6e090334bb8b4541a57ab6",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/candidate_worker.py",
+      "expected": "1e0d5a62e0d57a74340dff463fde05279ba570e6c89f83048f25f77b0143f9a7",
+      "actual": "1e0d5a62e0d57a74340dff463fde05279ba570e6c89f83048f25f77b0143f9a7",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/docker-compose.yaml",
+      "expected": "1478a40d6d04c40acbc4f77e12627600889ea059ccec0ddd3f7db17f23e23a16",
+      "actual": "1478a40d6d04c40acbc4f77e12627600889ea059ccec0ddd3f7db17f23e23a16",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/evaluate_candidate.py",
+      "expected": "a466b469cbab848b1b28ab09a621d9f09c11ae946080d39e06c6f097841ce9f3",
+      "actual": "a466b469cbab848b1b28ab09a621d9f09c11ae946080d39e06c6f097841ce9f3",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/hidden_assets/.gitkeep",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/hidden_manifest.json",
+      "expected": "d9e18e3db804a2dbe2cb52268e254c9cf726149c5a1db3730db9af298ee26a01",
+      "actual": "d9e18e3db804a2dbe2cb52268e254c9cf726149c5a1db3730db9af298ee26a01",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/prepare_hidden.py",
+      "expected": "3ae0a07340734b0bcef2256e25f2606b26f7be44708df0362a7aab4a080a8b5e",
+      "actual": "3ae0a07340734b0bcef2256e25f2606b26f7be44708df0362a7aab4a080a8b5e",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/coco_000000000139.png",
+      "expected": "410abbaa2b30b9386fb1d53aefc21af172d292026fbb81f61c23c9301a88ead8",
+      "actual": "410abbaa2b30b9386fb1d53aefc21af172d292026fbb81f61c23c9301a88ead8",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/coco_000000000285.png",
+      "expected": "3acce04c32eccd56472e4269a7e57ea1ac8f2ede5ff7216d34b399e8a2276f6b",
+      "actual": "3acce04c32eccd56472e4269a7e57ea1ac8f2ede5ff7216d34b399e8a2276f6b",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/coco_000000000632.png",
+      "expected": "f19d159764fa3aeb612c0a090aa27d82934fab43675e6bf05b218c3a4dd7f729",
+      "actual": "f19d159764fa3aeb612c0a090aa27d82934fab43675e6bf05b218c3a4dd7f729",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/coco_000000001000.png",
+      "expected": "837ede6bcebcc4465c1555c48d85130d5bf9829469b052bdbe5718649b4132fa",
+      "actual": "837ede6bcebcc4465c1555c48d85130d5bf9829469b052bdbe5718649b4132fa",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/coco_000000001268.png",
+      "expected": "3876caece29c6b1a681b061e6e1577828839c14394abb68372b252cb92c59e95",
+      "actual": "3876caece29c6b1a681b061e6e1577828839c14394abb68372b252cb92c59e95",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/coco_000000001425.png",
+      "expected": "26830a640e3974480e1b8c734c46af479c74d6e273ad4f52dbd106b954e5b049",
+      "actual": "26830a640e3974480e1b8c734c46af479c74d6e273ad4f52dbd106b954e5b049",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/coco_000000001490.png",
+      "expected": "be0522e9c34479fa5da9f4a433454affd8a468a8cbab897ad75c6d7f24f6e104",
+      "actual": "be0522e9c34479fa5da9f4a433454affd8a468a8cbab897ad75c6d7f24f6e104",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/coco_000000039769.png",
+      "expected": "fd6f28d91862d2dd0b8265afb1da553b3a3f9bc91841c1040a8598042b4324e5",
+      "actual": "fd6f28d91862d2dd0b8265afb1da553b3a3f9bc91841c1040a8598042b4324e5",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/repo_art.png",
+      "expected": "95e0d7bfa351fa3b00f90d667e7ab7ca5da261e44fcf4473de50bde6eed5e9ea",
+      "actual": "95e0d7bfa351fa3b00f90d667e7ab7ca5da261e44fcf4473de50bde6eed5e9ea",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/repo_boy.png",
+      "expected": "b7c9e147c4635e10953fb14cdad472ff1bfaa54ae6147ae096c24133b019697a",
+      "actual": "b7c9e147c4635e10953fb14cdad472ff1bfaa54ae6147ae096c24133b019697a",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/repo_horse.png",
+      "expected": "dceef30c01ae1814a274ac264823c851145c5623dd268bff715b5e339855f952",
+      "actual": "dceef30c01ae1814a274ac264823c851145c5623dd268bff715b5e339855f952",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/public_assets/eval_public/repo_nobel.png",
+      "expected": "1496a92a885c211c5de07dc23dd346047079f76982754639c40e18021ded60d5",
+      "actual": "1496a92a885c211c5de07dc23dd346047079f76982754639c40e18021ded60d5",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/LICENSE",
+      "expected": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "actual": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/__init__.py",
+      "expected": "696433629f30a57293621e3b11ed9e3d9039e2beacff79c6e722c65c27fb173f",
+      "actual": "696433629f30a57293621e3b11ed9e3d9039e2beacff79c6e722c65c27fb173f",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/_version.py",
+      "expected": "3ea3468a1db74d0f32be9c3a01f1348eaec3fd160581e1b513e092549f439edc",
+      "actual": "3ea3468a1db74d0f32be9c3a01f1348eaec3fd160581e1b513e092549f439edc",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/math.py",
+      "expected": "4dbcbb2d07062297dced91254256590594fe93089c05bd0679e74da3e77c4dfa",
+      "actual": "4dbcbb2d07062297dced91254256590594fe93089c05bd0679e74da3e77c4dfa",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/model.py",
+      "expected": "bcd397255f9520d6588c701901b72d9ff19172b5b3ffc9125bebb6eb84e0be95",
+      "actual": "bcd397255f9520d6588c701901b72d9ff19172b5b3ffc9125bebb6eb84e0be95",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/autoencoder.py",
+      "expected": "b6d51754eae0600d9c2d5c84bf05e019692093652a2988dfc5b5bc6e7b6833f8",
+      "actual": "b6d51754eae0600d9c2d5c84bf05e019692093652a2988dfc5b5bc6e7b6833f8",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/conditioner.py",
+      "expected": "e994b0a3727aca0d02eb26ff2198c66f1cbe3bff16f689a458e9df6173bd281c",
+      "actual": "e994b0a3727aca0d02eb26ff2198c66f1cbe3bff16f689a458e9df6173bd281c",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/layers.py",
+      "expected": "804b0371838bf1b5a6c3d93af1a0b1a5fd4e01867bbd085ceff6da74fdf5af41",
+      "actual": "804b0371838bf1b5a6c3d93af1a0b1a5fd4e01867bbd085ceff6da74fdf5af41",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/sampling.py",
+      "expected": "f46de4cec96f916f6e9462b9f0914c75d66da7ec1ec4d15b03364e4b9e9a0ed1",
+      "actual": "f46de4cec96f916f6e9462b9f0914c75d66da7ec1ec4d15b03364e4b9e9a0ed1",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/util.py",
+      "expected": "44b254613fe21a74efded55ed57fa27bf1881e6cb84dc98447c06200a4408988",
+      "actual": "44b254613fe21a74efded55ed57fa27bf1881e6cb84dc98447c06200a4408988",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/requirements.txt",
+      "expected": "8c4f8eca75da836e81ba92263ea8ae5d13d8ab968a596b9036bd5a243fc9ae8c",
+      "actual": "8c4f8eca75da836e81ba92263ea8ae5d13d8ab968a596b9036bd5a243fc9ae8c",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/run_eval.py",
+      "expected": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9",
+      "actual": "23993adad6641121c03950e777089cb702a14e3c7a9f4cb0e9e55685542afaf9",
+      "matched": true
+    },
+    {
+      "group": "frozen_task",
+      "remote": "/historical-root/rfsteps-v341-build-check-20261004/tests/test.sh",
+      "expected": "ece67c593b31ac3390ec105e96fe2fa25345ccf77fc3d27bbd5a673c3173fad3",
+      "actual": "ece67c593b31ac3390ec105e96fe2fa25345ccf77fc3d27bbd5a673c3173fad3",
+      "matched": true
+    }
+  ],
+  "task_sha256": "90bb7746559319dc6ce29dbbfae946f9a6b00694ef04b25d267f7def8c8249cb",
+  "utc": "2026-10-05T12:56:52.362555+00:00",
+  "recovered_instance": "ins-lz0iv9re",
+  "same_original_host_key_verified": true,
+  "all_passed": true
+}

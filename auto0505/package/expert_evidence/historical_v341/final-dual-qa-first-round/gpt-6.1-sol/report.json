@@ -1,0 +1,1216 @@
+{
+  "schema_version": 4,
+  "generated_at": "2026-10-05T11:27:53.938769+00:00",
+  "source": {
+    "path": "rfsteps-package-v3.4.1-preview-20261005T015301.zip",
+    "sha256": "00e7c6b67671be377c32b0f28fe8972827ce3767ad7f291d6fb6b1d7825a8ccd",
+    "kind": "zip"
+  },
+  "workspace_root": ".",
+  "policy": {
+    "name": "implementation",
+    "revision": "research-quality-v3",
+    "strict_release_certification": false,
+    "adjustments": []
+  },
+  "overview": {
+    "optimization_surface": {
+      "summary": "冻结FLUX与RF二阶积分器，开放时间步节点生成完整算法，CPU候选仅输出26节点给受控GPU服务。",
+      "modifiable": [
+        "/workspace/solution/method.py:get_timesteps全部节点生成策略"
+      ],
+      "fixed": [
+        "FLUX权重/二阶积分公式",
+        "25步每方向，100NFE/图",
+        "512×512、空提示、guidance1/inject0、公开12+私有4图"
+      ],
+      "metric_and_gate": "最大化full16平均PSNR，连续未裁剪(B,U)归一化；节点数/端点/有限性/范围/单调与资源、来源门禁。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/instruction.md",
+        "rfsteps-package/workspace/harbor_task/tests/evaluate_candidate.py",
+        "rfsteps-package/workspace/harbor_task/tests/candidate_worker.py",
+        "rfsteps-package/workspace/harbor_task/tests/run_eval.py"
+      ]
+    },
+    "baseline_reference": {
+      "baseline_method": "未经修改官方FLUX time_shift：序列长1024决定mu≈0.63，对均匀t作logit shift；冻结预训练模型推理，无训练。正式B是当前NOP/Starter full16。",
+      "reference_method": "正弦t=sin(s*pi/2)，均匀s从1到0，高噪声端密集；保持同FLUX模型、二阶公式及100NFE；当前独立正式full16。",
+      "metric": "mean image PSNR (dB)",
+      "direction": "maximize",
+      "paired_runs": [
+        {
+          "seed": "deterministic_full16",
+          "baseline": 19.528882409499996,
+          "reference": 20.45734928422148,
+          "baseline_valid": true,
+          "reference_valid": true
+        }
+      ],
+      "baseline_mean": 19.528882409499996,
+      "baseline_sample_std": null,
+      "reference_mean": 20.45734928422148,
+      "reference_sample_std": null,
+      "improvement_summary": "全正式配对1次：改善0.928466874721483dB；归一化0.462674017825915。无训练seed；固定确定性评测，不把16张图当16次随机重训。",
+      "quality_gate_summary": "两侧full16、100NFE、相同冻结协议/资产/权重，正常退出；全部逐图Reference优于Baseline。",
+      "evidence": [
+        "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/output/metrics.json",
+        "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/output/metrics.json",
+        "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/receipt.json",
+        "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/receipt.json"
+      ]
+    },
+    "trajectories": [
+      {
+        "name": "Codex + GPT-6.1 Sol xhigh",
+        "status": "complete",
+        "source_path": "rfsteps-package/expert_evidence/trajectory_codex.json",
+        "packaged_rounds": 102,
+        "reported_effective_rounds": null,
+        "duration_hours": null,
+        "summary": "独立方法探索含密度、幂律、误差模型/网格策略；原失败和协议范围保留。精确生命周期净时长未知。",
+        "final_result": "当前协议Public复测GPT21.21974298189495 / Seed21.66197823479546；按Public选择Seed后full16 reward0.8703690797499839。",
+        "evidence": [
+          "rfsteps-package/expert_evidence/trajectory_codex.json",
+          "rfsteps-package/expert_evidence/run_summary.json",
+          "rfsteps-package/expert_evidence/PUBLIC-SELECTION.json"
+        ]
+      },
+      {
+        "name": "Seed 2.1 Turbo (High资格未独立确认)",
+        "status": "complete",
+        "source_path": "rfsteps-package/expert_evidence/trajectory_seed.json",
+        "packaged_rounds": 47,
+        "reported_effective_rounds": null,
+        "duration_hours": null,
+        "summary": "独立方法探索含密度、幂律、误差模型/网格策略；原失败和协议范围保留。精确生命周期净时长未知。",
+        "final_result": "当前协议Public复测GPT21.21974298189495 / Seed21.66197823479546；按Public选择Seed后full16 reward0.8703690797499839。",
+        "evidence": [
+          "rfsteps-package/expert_evidence/trajectory_seed.json",
+          "rfsteps-package/expert_evidence/run_summary.json",
+          "rfsteps-package/expert_evidence/PUBLIC-SELECTION.json"
+        ]
+      }
+    ]
+  },
+  "format_alignment": {
+    "schema_version": "autoresearch-submission-format.v1",
+    "inspected_root": ".",
+    "submission_root": "rfsteps-package",
+    "submission_root_relative": "rfsteps-package",
+    "wrapper_depth": 1,
+    "status": "deviations",
+    "summary": "发现 8 个格式对齐问题；另记录 5 条非阻断整理建议。",
+    "missing": [
+      {
+        "code": "NO_SEED_RUNS",
+        "path": "optimization_evidence/baseline_runs",
+        "message": "baseline_runs/ 中没有 seed_<真实seed>/ 运行目录。"
+      },
+      {
+        "code": "MISSING_COMPARISON_SUMMARY",
+        "path": "optimization_evidence/comparison_summary.json",
+        "message": "optimization_evidence 必须包含 comparison_summary.json。"
+      },
+      {
+        "code": "NO_SEED_RUNS",
+        "path": "optimization_evidence/reference_runs",
+        "message": "reference_runs/ 中没有 seed_<真实seed>/ 运行目录。"
+      },
+      {
+        "code": "MISSING_TRAINING_EVIDENCE_NOTE",
+        "path": "optimization_evidence/训练证据说明.md",
+        "message": "optimization_evidence 缺少中文训练证据说明.md。"
+      }
+    ],
+    "issues": [
+      {
+        "code": "INVALID_TRAJECTORY_ROUNDS",
+        "path": "expert_evidence/trajectory-source-map.json",
+        "message": "最终轨迹 JSON 必须包含 rounds 数组。",
+        "status": "fail"
+      },
+      {
+        "code": "TRAJECTORY_STATUS_REVIEW",
+        "path": "expert_evidence/trajectory_codex-formal04-original.json",
+        "message": "rounds[17].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。",
+        "status": "manual"
+      },
+      {
+        "code": "TRAJECTORY_STATUS_REVIEW",
+        "path": "expert_evidence/trajectory_codex.json",
+        "message": "rounds[101].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。",
+        "status": "manual"
+      },
+      {
+        "code": "EMPTY_TRAJECTORY_ROUNDS",
+        "path": "expert_evidence/trajectory_seed-formal04-original.json",
+        "message": "rounds 为空，长程轨迹尚未完成或缺少证据；不能用虚构轮次补齐。",
+        "status": "fail"
+      }
+    ],
+    "alignment_issues": [
+      {
+        "code": "INVALID_TRAJECTORY_ROUNDS",
+        "path": "expert_evidence/trajectory-source-map.json",
+        "message": "最终轨迹 JSON 必须包含 rounds 数组。",
+        "status": "fail"
+      },
+      {
+        "code": "TRAJECTORY_STATUS_REVIEW",
+        "path": "expert_evidence/trajectory_codex-formal04-original.json",
+        "message": "rounds[17].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。",
+        "status": "manual"
+      },
+      {
+        "code": "TRAJECTORY_STATUS_REVIEW",
+        "path": "expert_evidence/trajectory_codex.json",
+        "message": "rounds[101].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。",
+        "status": "manual"
+      },
+      {
+        "code": "EMPTY_TRAJECTORY_ROUNDS",
+        "path": "expert_evidence/trajectory_seed-formal04-original.json",
+        "message": "rounds 为空，长程轨迹尚未完成或缺少证据；不能用虚构轮次补齐。",
+        "status": "fail"
+      },
+      {
+        "code": "NO_SEED_RUNS",
+        "path": "optimization_evidence/baseline_runs",
+        "message": "baseline_runs/ 中没有 seed_<真实seed>/ 运行目录。"
+      },
+      {
+        "code": "MISSING_COMPARISON_SUMMARY",
+        "path": "optimization_evidence/comparison_summary.json",
+        "message": "optimization_evidence 必须包含 comparison_summary.json。"
+      },
+      {
+        "code": "NO_SEED_RUNS",
+        "path": "optimization_evidence/reference_runs",
+        "message": "reference_runs/ 中没有 seed_<真实seed>/ 运行目录。"
+      },
+      {
+        "code": "MISSING_TRAINING_EVIDENCE_NOTE",
+        "path": "optimization_evidence/训练证据说明.md",
+        "message": "optimization_evidence 缺少中文训练证据说明.md。"
+      }
+    ],
+    "suggestions": [
+      {
+        "code": "EXTRA_ALLOWED",
+        "path": "DRAFT-MANIFEST.json",
+        "classification": "extra_allowed",
+        "recommendation": "规范外附加材料；多交不构成格式失败。"
+      },
+      {
+        "code": "EXTRA_ALLOWED",
+        "path": "FINAL-ZIP-CONTENTS.md",
+        "classification": "extra_allowed",
+        "recommendation": "规范外附加材料；多交不构成格式失败。"
+      },
+      {
+        "code": "EXTRA_ALLOWED",
+        "path": "optimization_evidence/baseline_runs/actual_v341",
+        "classification": "extra_allowed",
+        "recommendation": "规范外附加材料；多交不构成格式失败。"
+      },
+      {
+        "code": "EXTRA_ALLOWED",
+        "path": "optimization_evidence/reference_runs/actual_v341",
+        "classification": "extra_allowed",
+        "recommendation": "规范外附加材料；多交不构成格式失败。"
+      },
+      {
+        "code": "EXTRA_ALLOWED",
+        "path": "README.md",
+        "classification": "extra_allowed",
+        "recommendation": "规范外附加材料；多交不构成格式失败。"
+      }
+    ],
+    "top_level": {
+      "required": [
+        "workspace",
+        "expert_evidence",
+        "optimization_evidence"
+      ],
+      "present": [
+        "workspace",
+        "expert_evidence",
+        "optimization_evidence"
+      ],
+      "missing": []
+    },
+    "harbor_task": {
+      "path": "workspace/harbor_task",
+      "present": true,
+      "reference_present": true,
+      "legacy_trusted_present": false,
+      "legacy_tests_runtime_present": false
+    },
+    "extras": {
+      "extra_allowed": [
+        {
+          "path": "DRAFT-MANIFEST.json",
+          "reason": "规范外附加材料；多交不构成格式失败。"
+        },
+        {
+          "path": "FINAL-ZIP-CONTENTS.md",
+          "reason": "规范外附加材料；多交不构成格式失败。"
+        },
+        {
+          "path": "optimization_evidence/baseline_runs/actual_v341",
+          "reason": "规范外附加材料；多交不构成格式失败。"
+        },
+        {
+          "path": "optimization_evidence/reference_runs/actual_v341",
+          "reason": "规范外附加材料；多交不构成格式失败。"
+        },
+        {
+          "path": "README.md",
+          "reason": "规范外附加材料；多交不构成格式失败。"
+        }
+      ],
+      "merge_candidate": [],
+      "misplaced": []
+    },
+    "expert_evidence": {
+      "present": true,
+      "trajectories": {
+        "trajectory-source-map.json": {
+          "path": "expert_evidence/trajectory-source-map.json",
+          "present": true,
+          "valid_json": true,
+          "round_count": 0,
+          "format_valid": false,
+          "status": "invalid"
+        },
+        "trajectory_codex-formal04-original.json": {
+          "path": "expert_evidence/trajectory_codex-formal04-original.json",
+          "present": true,
+          "valid_json": true,
+          "round_count": 18,
+          "format_valid": false,
+          "status": "manual"
+        },
+        "trajectory_codex.json": {
+          "path": "expert_evidence/trajectory_codex.json",
+          "present": true,
+          "valid_json": true,
+          "round_count": 102,
+          "format_valid": false,
+          "status": "manual"
+        },
+        "trajectory_seed-formal04-original.json": {
+          "path": "expert_evidence/trajectory_seed-formal04-original.json",
+          "present": true,
+          "valid_json": true,
+          "round_count": 0,
+          "format_valid": false,
+          "status": "incomplete"
+        },
+        "trajectory_seed.json": {
+          "path": "expert_evidence/trajectory_seed.json",
+          "present": true,
+          "valid_json": true,
+          "round_count": 47,
+          "format_valid": true,
+          "status": "valid"
+        }
+      },
+      "completeness_note": "两条模型轨迹是否齐全按 overview 中的 source_path 核验；允许等价文件名，不以目录扫描代替完整性审查。"
+    },
+    "optimization_evidence": {
+      "present": true,
+      "path": "optimization_evidence",
+      "task_kind": "non_training",
+      "baseline_runs": {
+        "path": "optimization_evidence/baseline_runs",
+        "seeds": [],
+        "runs": {}
+      },
+      "reference_runs": {
+        "path": "optimization_evidence/reference_runs",
+        "seeds": [],
+        "runs": {}
+      },
+      "seed_pairing": {
+        "paired": false,
+        "baseline_only": [],
+        "reference_only": [],
+        "paired_seeds": []
+      },
+      "comparison_summary": {
+        "path": "optimization_evidence/comparison_summary.json",
+        "present": false,
+        "valid_json": false
+      }
+    },
+    "reviewed_trajectories": [
+      {
+        "path": "rfsteps-package/expert_evidence/trajectory_codex.json",
+        "present": true,
+        "valid_json": true,
+        "round_count": 102,
+        "format_valid": false,
+        "status": "manual",
+        "alignment_issues": [
+          {
+            "code": "TRAJECTORY_STATUS_REVIEW",
+            "path": "rfsteps-package/expert_evidence/trajectory_codex.json",
+            "message": "rounds[101].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。",
+            "status": "manual"
+          }
+        ]
+      },
+      {
+        "path": "rfsteps-package/expert_evidence/trajectory_seed.json",
+        "present": true,
+        "valid_json": true,
+        "round_count": 47,
+        "format_valid": true,
+        "status": "valid",
+        "alignment_issues": []
+      }
+    ],
+    "review": {
+      "status": "aligned_with_extras",
+      "summary": "三目录职责存在。非训练正式记录采用actual_v341而非seed_*，语义等价；训练证据说明/comparison_summary文件名未提供，但方法说明及原始运行覆盖内容。历史大量附件建议按版本索引，额外内容不单独扣错。",
+      "additional_suggestions": [
+        {
+          "path": "rfsteps-package/optimization_evidence/",
+          "classification": "merge_candidate",
+          "recommendation": "增加非训练协议与成对指标的轻量索引，明确deterministic_run而非伪造seed；保留原件。"
+        },
+        {
+          "path": "rfsteps-package/expert_evidence/nop_evidence/legacy_v32",
+          "classification": "extra_allowed",
+          "recommendation": "标记旧版历史记录不可用于3.4.1结论；当前记录已有独立索引。"
+        },
+        {
+          "path": "rfsteps-package/expert_evidence/time-reconciliation",
+          "classification": "merge_candidate",
+          "recommendation": "为实际活动与断网原始记录提供包内相对路径索引及计时区间，不引用本机绝对路径替代证据。"
+        }
+      ]
+    }
+  },
+  "content_gates": {
+    "schema_version": 1,
+    "checks": [
+      {
+        "id": "G01",
+        "status": "pass",
+        "summary": "get_timesteps可执行任意确定性节点算法；guard限制来源/资源及输出，不限制固定字面量参数搜索。",
+        "evidence": [
+          "rfsteps-package/workspace/harbor_task/instruction.md",
+          "rfsteps-package/workspace/harbor_task/tests/candidate_worker.py",
+          "rfsteps-package/workspace/harbor_task/environment/starter/method.py",
+          "rfsteps-package/workspace/reference/method.py"
+        ],
+        "reason_code": "SUPPORTED_BY_STATIC_AND_PACKAGED_EVIDENCE",
+        "remediation": "当前支持通过；协议或候选变更时重新提供同协议原始材料。",
+        "acceptance_evidence": "保留当前接口、冻结协议、原始成对指标与日志/receipt。",
+        "title": "方法级优化空间"
+      },
+      {
+        "id": "G02",
+        "status": "pass",
+        "summary": "在已提供材料范围内合理：官方time_shift Starter绑定正式B；非训练冻结模型同协议full16正常执行，原始receipt/metrics/log一致，未见故障弱化或选择偏差。",
+        "evidence": [
+          "rfsteps-package/workspace/harbor_task/environment/starter/method.py",
+          "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/output/metrics.json",
+          "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/output/metrics.json",
+          "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/receipt.json",
+          "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/receipt.json"
+        ],
+        "reason_code": "SUPPORTED_BY_STATIC_AND_PACKAGED_EVIDENCE",
+        "dimensions": {
+          "training_sufficiency": "不适用：冻结模型推理，无训练；两侧100NFE/full16正常完成",
+          "method_representativeness": "官方FLUX time_shift正常朴素对照；包内uniform/square较差，不要求换SOTA",
+          "budget_comparability": "两侧25步双向100NFE，同A100身份/冻结资产/权重/评分器",
+          "implementation_correctness": "节点映射合法，真实原始log/metrics哈希与receipt相符",
+          "selection_integrity": "当前B未改Starter，独立R明确注入；历史Reference选择不当作当前Agent评分"
+        },
+        "remediation": "当前支持通过；协议或候选变更时重新提供同协议原始材料。",
+        "acceptance_evidence": "保留当前接口、冻结协议、原始成对指标与日志/receipt。",
+        "title": "Baseline 合理性"
+      },
+      {
+        "id": "G03",
+        "status": "pass",
+        "summary": "当前正式确定性full16配对改善0.928466874721483dB，归一化0.462674在[0.15,0.8]；U来自独立已测上限，质量门及预算一致。",
+        "evidence": [
+          "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/output/metrics.json",
+          "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/output/metrics.json",
+          "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/receipt.json",
+          "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/receipt.json",
+          "rfsteps-package/workspace/harbor_task/tests/anchors.json"
+        ],
+        "reason_code": "SUPPORTED_BY_STATIC_AND_PACKAGED_EVIDENCE",
+        "assessment": {
+          "direction": "maximize",
+          "formal_seeds": [
+            "deterministic_full16"
+          ],
+          "declared_run_count": 1,
+          "evaluation_mode": "deterministic",
+          "same_protocol": true,
+          "quality_valid": true,
+          "upper_bound": 21.535623309030747,
+          "threshold_basis": "v0.3.2确定性真实正向改善与Reference归一化[0.15,0.8]；无统一5%阈值。",
+          "absolute_min_improvement": null,
+          "absolute_threshold_source": ""
+        },
+        "remediation": "当前支持通过；协议或候选变更时重新提供同协议原始材料。",
+        "acceptance_evidence": "保留当前接口、冻结协议、原始成对指标与日志/receipt。",
+        "title": "Reference 提升充分性",
+        "computed": {
+          "baseline_mean": 19.528882409499996,
+          "reference_mean": 20.45734928422148,
+          "baseline_sample_std": null,
+          "reference_sample_std": null,
+          "improvement": 0.928466874721483,
+          "run_count": 1,
+          "sigma_multiplier": null,
+          "normalized_score": 0.46267401782591483
+        },
+        "warnings": [],
+        "automatic_status": "pass"
+      }
+    ]
+  },
+  "runtime_review": {
+    "exception_reason": "",
+    "exception_eligibility": {
+      "non_training": true,
+      "short_iterations": null,
+      "basis": "非训练明确；不以约5min GPU评分自动认定单轮很短，净时长未知。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/instruction.md",
+        "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/receipt.json"
+      ]
+    },
+    "trajectories": [
+      {
+        "name": "Codex + GPT-6.1 Sol xhigh",
+        "source_path": "rfsteps-package/expert_evidence/trajectory_codex.json",
+        "effective_seconds": null,
+        "duration_evidence": null,
+        "evidence": [
+          "rfsteps-package/expert_evidence/time-reconciliation/TIME-RECONCILIATION.json",
+          "rfsteps-package/expert_evidence/TIME-ACCOUNTING-AMENDMENT.json"
+        ],
+        "time_accounting": "包内记录人类更正为实际研究过程并集仅减断网。历史跨度不是连续执行证明，断网净秒数未知；本审核不将GPU下界作为总时长。",
+        "effective_method_cycles": null,
+        "next_direction": "可验证更高精度网格投影、噪声端误差密度与局部预算交换。",
+        "best_method_revalidated": true,
+        "best_method_evidence": [
+          "rfsteps-package/expert_evidence/METHOD-EXPLANATION.md",
+          "rfsteps-package/expert_evidence/PUBLIC-SELECTION.json"
+        ]
+      },
+      {
+        "name": "Seed 2.1 Turbo (High资格未独立确认)",
+        "source_path": "rfsteps-package/expert_evidence/trajectory_seed.json",
+        "effective_seconds": null,
+        "duration_evidence": null,
+        "evidence": [
+          "rfsteps-package/expert_evidence/time-reconciliation/TIME-RECONCILIATION.json",
+          "rfsteps-package/expert_evidence/TIME-ACCOUNTING-AMENDMENT.json"
+        ],
+        "time_accounting": "包内记录人类更正为实际研究过程并集仅减断网。历史跨度不是连续执行证明，断网净秒数未知；本审核不将GPU下界作为总时长。",
+        "effective_method_cycles": null,
+        "next_direction": "可验证更高精度网格投影、噪声端误差密度与局部预算交换。",
+        "best_method_revalidated": true,
+        "best_method_evidence": [
+          "rfsteps-package/expert_evidence/METHOD-EXPLANATION.md",
+          "rfsteps-package/expert_evidence/PUBLIC-SELECTION.json"
+        ]
+      }
+    ],
+    "status": "manual",
+    "summary": "Codex + GPT-6.1 Sol xhigh缺少 collector 生成的 duration_evidence，手填 effective_seconds 不能单独作为时长证据；Codex + GPT-6.1 Sol xhigh缺少有效时长或排除排队/安装/故障的核算证据；Seed 2.1 Turbo (High资格未独立确认)缺少 collector 生成的 duration_evidence，手填 effective_seconds 不能单独作为时长证据；Seed 2.1 Turbo (High资格未独立确认)缺少有效时长或排除排队/安装/故障的核算证据",
+    "evidence": [
+      "rfsteps-package/expert_evidence/time-reconciliation/TIME-RECONCILIATION.json",
+      "rfsteps-package/expert_evidence/TIME-ACCOUNTING-AMENDMENT.json"
+    ],
+    "remediation": "针对上述轨迹补齐有效时段核算，每条达到 10h；仅在完全不涉及训练或微调且单轮迭代很短时，才可凭资格依据采用至少 7h 的例外，并提交具体理由、每条至少 3 个有效方法闭环、后续方向及最优方法复验。",
+    "acceptance_evidence": "两条轨迹各自的起止/有效时段日志、被排除时段及理由；如申请 7h 例外，附无训练/微调的实现证据、典型单轮耗时及原始日志、方法闭环与最优方法复验记录。"
+  },
+  "checks": [
+    {
+      "id": "QA01",
+      "title": "八章节与题面信息泄露",
+      "status": "pass",
+      "severity": "info",
+      "summary": "八章节齐全；题面未含论文、arXiv、仓库线索或参考方法答案。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/instruction.md"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA02",
+      "title": "评分公式与 0/1 锚点",
+      "status": "pass",
+      "severity": "info",
+      "summary": "实际主分数为(PSNR-B)/(U-B)，U>B，连续单调且未裁剪；score_clipped仅展示未传作reward。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/tests/run_eval.py",
+        "rfsteps-package/workspace/harbor_task/tests/evaluate_candidate.py",
+        "rfsteps-package/workspace/harbor_task/tests/anchors.json"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA03",
+      "title": "参考解分数与复现材料",
+      "status": "pass",
+      "severity": "info",
+      "summary": "Reference正弦方法有实际full16入口、非空原始日志和指标；归一化0.462674；非训练无checkpoint要求。",
+      "evidence": [
+        "rfsteps-package/workspace/reference/method.py",
+        "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/output/metrics.json",
+        "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/scorer-stdout.txt"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA04",
+      "title": "波动指标的 3σ 可分辨性",
+      "status": "not_applicable",
+      "severity": "info",
+      "summary": "确定性冻结推理；AE返回mean，评分路径无随机采样；包内重复基线与Seed多次复测一致，不以固定seed代替确定性。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/tests/run_eval.py",
+        "rfsteps-package/workspace/harbor_task/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/autoencoder.py",
+        "rfsteps-package/workspace/harbor_task/tests/anchors.json"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA05",
+      "title": "约束执行实现",
+      "status": "pass",
+      "severity": "info",
+      "summary": "降权进程实现CPU/AS/源码上限、来源与子进程门禁，验证26节点和固定100NFE；可信RPC校验数据与预算。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/tests/evaluate_candidate.py",
+        "rfsteps-package/workspace/harbor_task/tests/candidate_worker.py",
+        "rfsteps-package/expert_evidence/runtime_support/source/remote_gpu_worker.py"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA06",
+      "title": "Verifier 入口、分数与错误处理",
+      "status": "pass",
+      "severity": "info",
+      "summary": "test.sh单命令调用正式评分，成功写有限数值reward.json；失败分类并清除旧reward，硬门非法写-1。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/tests/test.sh",
+        "rfsteps-package/workspace/harbor_task/tests/evaluate_candidate.py"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA07",
+      "title": "instruction 中的 Hidden 信息泄露",
+      "status": "pass",
+      "severity": "info",
+      "summary": "仅题面检查：没有Hidden样本、标签或可恢复答案；提及独立正式评测不构成泄露。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/instruction.md"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA08",
+      "title": "instruction 中的参考解信息泄露",
+      "status": "pass",
+      "severity": "info",
+      "summary": "仅题面检查：没有参考实现、具体参考配置或参考分数。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/instruction.md"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA09",
+      "title": "结果清理与原子写入",
+      "status": "pass",
+      "severity": "info",
+      "summary": "main启动清除旧指标/reward；atomic_json临时写后os.replace，失败分支同样清理。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/tests/evaluate_candidate.py"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA10",
+      "title": "冻结面保护或恢复实现",
+      "status": "pass",
+      "severity": "info",
+      "summary": "Compose只读rootfs；Verifier/tests权限限制；候选降权；GPU worker验证冻结评分器、repo、资产、权重并用新鲜源码副本执行。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/environment/Dockerfile",
+        "rfsteps-package/workspace/harbor_task/tests/Dockerfile",
+        "rfsteps-package/workspace/harbor_task/environment/docker-compose.yaml",
+        "rfsteps-package/workspace/harbor_task/tests/docker-compose.yaml",
+        "rfsteps-package/workspace/harbor_task/tests/evaluate_candidate.py",
+        "rfsteps-package/expert_evidence/runtime_support/source/remote_gpu_worker.py"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA11",
+      "title": "instruction 八项内容",
+      "status": "pass",
+      "severity": "info",
+      "summary": "目标、环境、公式、范围、禁令、提交、迭代及完成条件均有实质内容。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/instruction.md"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA12",
+      "title": "Git 清理",
+      "status": "pass",
+      "severity": "info",
+      "summary": "ZIP清点无.git目录，未发现Git远程或历史答案仓库泄漏。",
+      "evidence": [
+        "@inventory"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA13",
+      "title": "Baseline 与参考解提升",
+      "status": "pass",
+      "severity": "info",
+      "summary": "正式非训练full16 B/R均正常完成；同资产/模型/预算/评分器，逐图均改善；不冒充多seed训练。",
+      "evidence": [
+        "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/output/metrics.json",
+        "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/output/metrics.json",
+        "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/receipt.json",
+        "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/receipt.json"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA14",
+      "title": "合法改进空间",
+      "status": "pass",
+      "severity": "info",
+      "summary": "完整算法接口开放，网格投影及局部预算交换是合法未直接提示方向；Reference score0.462674未饱和。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/instruction.md",
+        "rfsteps-package/workspace/harbor_task/tests/candidate_worker.py",
+        "rfsteps-package/expert_evidence/trajectory_codex.json",
+        "rfsteps-package/workspace/reference/method.py"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA15",
+      "title": "资源限制（不检查）",
+      "status": "not_applicable",
+      "severity": "info",
+      "summary": "按用户要求不检查资源与单次迭代限制。",
+      "evidence": [],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA16",
+      "title": "轨迹实际迭代时长",
+      "status": "manual",
+      "severity": "medium",
+      "summary": "Codex + GPT-6.1 Sol xhigh缺少 collector 生成的 duration_evidence，手填 effective_seconds 不能单独作为时长证据；Codex + GPT-6.1 Sol xhigh缺少有效时长或排除排队/安装/故障的核算证据；Seed 2.1 Turbo (High资格未独立确认)缺少 collector 生成的 duration_evidence，手填 effective_seconds 不能单独作为时长证据；Seed 2.1 Turbo (High资格未独立确认)缺少有效时长或排除排队/安装/故障的核算证据",
+      "evidence": [
+        "rfsteps-package/expert_evidence/time-reconciliation/TIME-RECONCILIATION.json",
+        "rfsteps-package/expert_evidence/TIME-ACCOUNTING-AMENDMENT.json"
+      ],
+      "remediation": "针对上述轨迹补齐有效时段核算，每条达到 10h；仅在完全不涉及训练或微调且单轮迭代很短时，才可凭资格依据采用至少 7h 的例外，并提交具体理由、每条至少 3 个有效方法闭环、后续方向及最优方法复验。",
+      "acceptance_evidence": "两条轨迹各自的起止/有效时段日志、被排除时段及理由；如申请 7h 例外，附无训练/微调的实现证据、典型单轮耗时及原始日志、方法闭环与最优方法复验记录。"
+    },
+    {
+      "id": "QA17",
+      "title": "Harbor Harness 兼容性",
+      "status": "pass",
+      "severity": "info",
+      "summary": "Harbor 格式/接口：通过；已有 NOP 自检记录支持当前版本构建与运行可用，未独立复跑或鉴定真伪。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/task.toml",
+        "rfsteps-package/workspace/harbor_task/environment/Dockerfile",
+        "rfsteps-package/workspace/harbor_task/tests/Dockerfile",
+        "rfsteps-package/expert_evidence/runtime_support/source/remote_gpu_worker.py",
+        "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/receipt.json",
+        "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/receipt.json",
+        "rfsteps-package/workspace/harbor_task/environment/docker-compose.yaml",
+        "rfsteps-package/workspace/harbor_task/tests/docker-compose.yaml",
+        "rfsteps-package/expert_evidence/final-method-clean/runtime/nop_runtime.py",
+        "rfsteps-package/workspace/harbor_task/tests/test.sh",
+        "rfsteps-package/workspace/harbor_task/tests/evaluate_candidate.py",
+        "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/config.json",
+        "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/actual_v341/a10-evidence/nop-summary.json",
+        "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/trial.log",
+        "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/reward.json",
+        "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/test-stdout.txt"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA18",
+      "title": "轨迹、日志与分析",
+      "status": "manual",
+      "severity": "info",
+      "summary": "两条轨迹的八字段证据未通过：rounds[101].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。",
+      "evidence": [
+        "rfsteps-package/expert_evidence/trajectory_codex.json",
+        "rfsteps-package/expert_evidence/trajectory_seed.json",
+        "rfsteps-package/expert_evidence/trajectory-source-map.json",
+        "rfsteps-package/expert_evidence/run_summary.json"
+      ],
+      "remediation": "补齐两条真实轨迹，每轮八字段须完整有效；保留失败原因，不补造分数、时间或轮次。自定义状态需说明其语义。",
+      "acceptance_evidence": "overview.source_path 指向两份可读取轨迹，轮次及八字段符合教程，并与运行摘要和最佳方法记录一致。"
+    },
+    {
+      "id": "QA19",
+      "title": "seed 与有效提升阈值",
+      "status": "not_applicable",
+      "severity": "info",
+      "summary": "确定性评估，无随机训练/随机评价seed阈值要求；确定性依据同QA04。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/tests/run_eval.py",
+        "rfsteps-package/workspace/harbor_task/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/autoencoder.py"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA20",
+      "title": "修改范围、网络与工具策略",
+      "status": "pass",
+      "severity": "info",
+      "summary": "题面给定method.py可改范围、公开文件/文献网络许可与单命令受控评分工具策略。",
+      "evidence": [
+        "rfsteps-package/workspace/harbor_task/instruction.md"
+      ],
+      "remediation": "",
+      "acceptance_evidence": ""
+    },
+    {
+      "id": "QA21",
+      "title": "三个 JSON 的填写内容",
+      "status": "manual",
+      "severity": "info",
+      "summary": "两条轨迹的八字段证据未通过：rounds[101].status='INFRASTRUCTURE_ERROR' 为自定义状态；需人工确认成功/失败含义及对应分数、失败原因和最佳标记。",
+      "evidence": [
+        "rfsteps-package/expert_evidence/trajectory_codex.json",
+        "rfsteps-package/expert_evidence/trajectory_seed.json",
+        "rfsteps-package/expert_evidence/expert_annotation.json",
+        "rfsteps-package/expert_evidence/run_summary.json",
+        "rfsteps-package/expert_evidence/METHOD-EXPLANATION.md"
+      ],
+      "remediation": "补齐两条真实轨迹，每轮八字段须完整有效；保留失败原因，不补造分数、时间或轮次。自定义状态需说明其语义。",
+      "acceptance_evidence": "overview.source_path 指向两份可读取轨迹，轮次及八字段符合教程，并与运行摘要和最佳方法记录一致。"
+    }
+  ],
+  "extra_checks": [],
+  "runtime_candidates": [],
+  "runtime_parse_errors": [],
+  "harbor": {
+    "ruleset": "harbor-compatibility-v0.3.2",
+    "sources": [
+      "reference:packaged-harbor-evidence",
+      "https://docs.harborframework.com/core-concepts/tasks/separate-verifier"
+    ],
+    "target_version": "Harbor 0.23 (packaged runtime claim; official v0.23.0 source statically read)",
+    "provider": "Docker via NopLiveDockerEnvironment task-local adapter",
+    "observations": {
+      "task_candidates": [
+        "rfsteps-package/workspace/harbor_task"
+      ],
+      "task_root": "rfsteps-package/workspace/harbor_task",
+      "toml_parser": "tomllib",
+      "config_sections": [
+        "schema_version",
+        "artifacts",
+        "task",
+        "metadata",
+        "verifier",
+        "agent",
+        "environment"
+      ],
+      "schema_version": "1.3",
+      "verifier_environment_mode": "separate",
+      "parse_error": null,
+      "job_configs": [],
+      "trial_results": [
+        "rfsteps-package/expert_evidence/best-full16-root-evidence/harbor-job/result.json",
+        "rfsteps-package/expert_evidence/best-full16-root-evidence/harbor-job/rfsteps-v341-build-check-2026100__xPBzff9/result.json",
+        "rfsteps-package/expert_evidence/final-method-clean/native-harbor-job/result.json",
+        "rfsteps-package/expert_evidence/final-method-clean/native-harbor-job/rfsteps-v341-build-check-2026100__xPBzff9/result.json",
+        "rfsteps-package/expert_evidence/formal04-stop-raw/harbor-job/result.json",
+        "rfsteps-package/expert_evidence/formal04-stop-raw/harbor-job/rfsteps-v341-build-check-2026100__Q8zdwcX/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__10-17-47/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__10-18-48/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__10-23-35/harbor_task__cJDGGaS/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__10-23-35/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__10-26-12/harbor_task__XVe3qNJ/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__10-26-12/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__10-27-05/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__10-51-51/harbor_task__46ruE8U/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__10-51-51/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__11-06-57/harbor_task__KZSk6k2/result.json",
+        "rfsteps-package/expert_evidence/nop_evidence/legacy_v32/evidence/jobs/2026-10-04__11-06-57/result.json",
+        "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/harbor-job/result.json",
+        "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/result.json",
+        "rfsteps-package/optimization_evidence/reference_runs/actual_v341/harbor-job/result.json",
+        "rfsteps-package/optimization_evidence/reference_runs/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__DcGEtFn/result.json"
+      ]
+    },
+    "path_contract": {
+      "profile": "harbor-environment-v1",
+      "profile_basis": "官方独立Verifier文档及双Dockerfile本地构建context对应；现有自定义Docker adapter可追溯。",
+      "sources": [
+        "https://www.harborframework.com/docs/tasks"
+      ],
+      "task_root": "rfsteps-package/workspace/harbor_task",
+      "dockerfile": "rfsteps-package/workspace/harbor_task/environment/Dockerfile",
+      "build_context": "rfsteps-package/workspace/harbor_task/environment",
+      "verifier_dockerfile": "rfsteps-package/workspace/harbor_task/tests/Dockerfile",
+      "verifier_build_context": "rfsteps-package/workspace/harbor_task/tests",
+      "runtime_task_root": "/workspace",
+      "test_entry": "/tests/test.sh",
+      "image": "agent",
+      "copy_operations": [],
+      "findings": [
+        {
+          "code": "multi_stage",
+          "status": "manual",
+          "message": "多阶段镜像需逐阶段核对最终文件映射；不把前一阶段文件当成最终镜像文件。",
+          "evidence": [
+            "rfsteps-package/workspace/harbor_task/environment/Dockerfile"
+          ]
+        },
+        {
+          "code": "verifier_runtime_declared",
+          "status": "pass",
+          "message": "依据基础镜像 ubuntu:22.04 或显式 bash 安装声明推断评分 shell 可用；仅为静态检查，未验证构建、其他依赖或评分执行。",
+          "evidence": [
+            "rfsteps-package/workspace/harbor_task/tests/Dockerfile"
+          ],
+          "image": "verifier"
+        }
+      ],
+      "status": "manual",
+      "verifier": {
+        "profile": "harbor-environment-v1",
+        "profile_basis": "Harbor Task Structure：独立 Verifier 使用 tests/ 构建镜像。",
+        "sources": [
+          "https://www.harborframework.com/docs/tasks"
+        ],
+        "task_root": "rfsteps-package/workspace/harbor_task",
+        "dockerfile": "rfsteps-package/workspace/harbor_task/tests/Dockerfile",
+        "build_context": "rfsteps-package/workspace/harbor_task/tests",
+        "verifier_dockerfile": null,
+        "verifier_build_context": null,
+        "runtime_task_root": null,
+        "test_entry": "/tests/test.sh",
+        "image": "verifier",
+        "copy_operations": [
+          {
+            "instruction": "COPY",
+            "line": 6,
+            "sources": [
+              "."
+            ],
+            "destination": "/tests/",
+            "resolved_sources": [
+              "rfsteps-package/workspace/harbor_task/tests"
+            ]
+          },
+          {
+            "instruction": "COPY",
+            "line": 7,
+            "sources": [
+              "candidate_worker.py"
+            ],
+            "destination": "/usr/local/lib/rfsteps/candidate_worker.py",
+            "resolved_sources": [
+              "rfsteps-package/workspace/harbor_task/tests/candidate_worker.py"
+            ]
+          },
+          {
+            "instruction": "COPY",
+            "line": 9,
+            "sources": [
+              "bootstrap.sh"
+            ],
+            "destination": "/usr/local/bin/rfsteps-bootstrap",
+            "resolved_sources": [
+              "rfsteps-package/workspace/harbor_task/tests/bootstrap.sh"
+            ]
+          }
+        ],
+        "findings": [
+          {
+            "code": "runtime_declared",
+            "status": "pass",
+            "message": "依据基础镜像 ubuntu:22.04 或显式 bash 安装声明推断评分 shell 可用；仅为静态检查，未验证构建、其他依赖或评分执行。",
+            "evidence": [
+              "rfsteps-package/workspace/harbor_task/tests/Dockerfile"
+            ]
+          }
+        ],
+        "status": "pass",
+        "observed_workdir": "/workspace",
+        "mapped_files": [
+          "/tests/.dockerignore",
+          "/tests/Dockerfile",
+          "/tests/anchors.json",
+          "/tests/bootstrap.sh",
+          "/tests/candidate_worker.py",
+          "/tests/docker-compose.yaml",
+          "/tests/evaluate_candidate.py",
+          "/tests/hidden_assets/.gitkeep",
+          "/tests/hidden_manifest.json",
+          "/tests/prepare_hidden.py",
+          "/tests/public_assets/eval_public/coco_000000000139.png",
+          "/tests/public_assets/eval_public/coco_000000000285.png",
+          "/tests/public_assets/eval_public/coco_000000000632.png",
+          "/tests/public_assets/eval_public/coco_000000001000.png",
+          "/tests/public_assets/eval_public/coco_000000001268.png",
+          "/tests/public_assets/eval_public/coco_000000001425.png",
+          "/tests/public_assets/eval_public/coco_000000001490.png",
+          "/tests/public_assets/eval_public/coco_000000039769.png",
+          "/tests/public_assets/eval_public/repo_art.png",
+          "/tests/public_assets/eval_public/repo_boy.png",
+          "/tests/public_assets/eval_public/repo_horse.png",
+          "/tests/public_assets/eval_public/repo_nobel.png",
+          "/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/LICENSE",
+          "/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/__init__.py",
+          "/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/_version.py",
+          "/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/math.py",
+          "/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/model.py",
+          "/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/autoencoder.py",
+          "/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/conditioner.py",
+          "/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/modules/layers.py",
+          "/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/sampling.py",
+          "/tests/repo/RF-Solver-Edit/FLUX_Image_Edit/src/flux/util.py",
+          "/tests/requirements.txt",
+          "/tests/run_eval.py",
+          "/tests/test.sh",
+          "/usr/local/bin/rfsteps-bootstrap",
+          "/usr/local/lib/rfsteps/candidate_worker.py"
+        ]
+      },
+      "manual_resolution": {
+        "summary": "Agent Node阶段只供/usr/local/bin/node与npm模块，最终FROM ubuntu:22.04；WORKDIR/EVFI_TASK_ROOT=/workspace；所有后续COPY来自environment context，不含tests/reference。RUN创建提交目录并复制Starter/solve。Verifier context tests完整COPY到/tests，test.sh使用绝对路径；多阶段解析缺口已人工读完。",
+        "evidence": [
+          "rfsteps-package/workspace/harbor_task/environment/Dockerfile",
+          "rfsteps-package/workspace/harbor_task/tests/Dockerfile"
+        ]
+      },
+      "adapter_evidence": [
+        "rfsteps-package/expert_evidence/final-method-clean/runtime/nop_runtime.py"
+      ]
+    },
+    "checks": [
+      {
+        "id": "H01",
+        "title": "任务目录",
+        "status": "pass",
+        "summary": "任务根齐全；私有4图由外部可信GPU服务固定哈希检查并formal调用，公开端点仅12图；空hidden_assets不是通过依据。",
+        "evidence": [
+          "rfsteps-package/workspace/harbor_task/task.toml",
+          "rfsteps-package/workspace/harbor_task/environment/Dockerfile",
+          "rfsteps-package/workspace/harbor_task/tests/Dockerfile",
+          "rfsteps-package/expert_evidence/runtime_support/source/remote_gpu_worker.py",
+          "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/receipt.json",
+          "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/receipt.json"
+        ]
+      },
+      {
+        "id": "H02",
+        "title": "版本与配置",
+        "status": "pass",
+        "summary": "TOML以tomllib解析；1.3/schema与Harbor v0.23对照；显式separate，artifacts覆盖/workspace/solution。",
+        "evidence": [
+          "rfsteps-package/workspace/harbor_task/task.toml"
+        ]
+      },
+      {
+        "id": "H03",
+        "title": "环境与运行路径",
+        "status": "pass",
+        "summary": "双context为environment/tests；多阶段只复制Node/npm后Ubuntu最终映像，其余来源存在；独立Python scorer走角色UDS，提交原路径移交；已有适配克服tmpfs复制。",
+        "evidence": [
+          "rfsteps-package/workspace/harbor_task/environment/Dockerfile",
+          "rfsteps-package/workspace/harbor_task/tests/Dockerfile",
+          "rfsteps-package/workspace/harbor_task/environment/docker-compose.yaml",
+          "rfsteps-package/workspace/harbor_task/tests/docker-compose.yaml",
+          "rfsteps-package/expert_evidence/final-method-clean/runtime/nop_runtime.py"
+        ]
+      },
+      {
+        "id": "H04",
+        "title": "测试入口与 reward",
+        "status": "pass",
+        "summary": "/tests/test.sh调用独立CPU worker与formal RPC，reward.json有限非空数值；旧结果清除/失败分类正确。",
+        "evidence": [
+          "rfsteps-package/workspace/harbor_task/tests/test.sh",
+          "rfsteps-package/workspace/harbor_task/tests/evaluate_candidate.py"
+        ]
+      },
+      {
+        "id": "H05",
+        "title": "Job/Trial 调用配置",
+        "status": "pass",
+        "summary": "当前NOP config选定task/nop和NopLiveDockerEnvironment；verifier未禁用；实际双容器及artifact移交记录与选定源相符。",
+        "evidence": [
+          "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/config.json",
+          "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/result.json",
+          "rfsteps-package/expert_evidence/nop_evidence/actual_v341/a10-evidence/nop-summary.json"
+        ]
+      },
+      {
+        "id": "H06",
+        "title": "NOP 自检记录",
+        "status": "pass",
+        "summary": "当前3.4.1 NOP同Trial config/result/log/reward齐全，separate、结束且无异常、full16/NFE100、reward0来自Starter。任务63冻结文件哈希自行核对无差异。",
+        "evidence": [
+          "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/config.json",
+          "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/result.json",
+          "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/trial.log",
+          "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/reward.json",
+          "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh/verifier/test-stdout.txt"
+        ]
+      }
+    ],
+    "static_status": "pass",
+    "runtime_status": "evidence_consistent",
+    "version_basis": "包内NOP-REPORT与实际日志；2026-10-05读取 https://raw.githubusercontent.com/harbor-framework/harbor/v0.23.0/src/harbor/models/task/config.py 及 https://docs.harborframework.com/tasks/separate-verifier；仅源码/文档静态对照，未原生schema加载。",
+    "task_root": "rfsteps-package/workspace/harbor_task",
+    "hidden_review": {
+      "mode": "injected",
+      "summary": "外部可信GPU runtime/private_hidden_assets按4图冻结hash准备，remote_gpu_worker formal分支验证并仅连formal role；公开角色仅12图。回执记录完整私有hash及调用；需部署这些外部依赖。",
+      "evidence": [
+        "rfsteps-package/expert_evidence/runtime_support/source/remote_gpu_worker.py",
+        "rfsteps-package/expert_evidence/runtime_support/source/socket_gateway.py",
+        "rfsteps-package/workspace/harbor_task/tests/evaluate_candidate.py",
+        "rfsteps-package/optimization_evidence/baseline_runs/actual_v341/gpu-owned-job/receipt.json",
+        "rfsteps-package/optimization_evidence/reference_runs/actual_v341/gpu-owned-job/receipt.json"
+      ],
+      "asset_paths": [],
+      "status": "pass",
+      "basis": "reviewed_evidence",
+      "note": "仅核验声明与文件引用；材料用途、隔离和生成/注入可用性由语义复核负责。"
+    },
+    "artifact_contract": {
+      "status": "pass",
+      "submission_paths": [
+        "/workspace/solution"
+      ],
+      "sources": [
+        "/logs/artifacts",
+        "/workspace/solution"
+      ],
+      "default_sources": [
+        "/logs/artifacts"
+      ],
+      "uncovered": [],
+      "ambiguous_extra_sources": false,
+      "summary": "读取路径已由默认 /logs/artifacts 或显式源路径覆盖；运行移交另看 Trial 证据。"
+    },
+    "trial_evidence": {
+      "trial_dir": "rfsteps-package/expert_evidence/nop_evidence/actual_v341/harbor-job/rfsteps-v341-build-check-2026100__QTvtVoh",
+      "agent": "nop",
+      "verifier_environment_mode": "separate",
+      "rewards": {
+        "reward": 0.0,
+        "psnr": 19.528882409499996,
+        "ssim": 0.6360678995088689,
+        "nfe_per_image": 100.0
+      },
+      "task_binding": {
+        "status": "pass",
+        "basis": "reviewed_evidence",
+        "evidence": [
+          "rfsteps-package/expert_evidence/frozen-task-identity.json",
+          "rfsteps-package/expert_evidence/nop_evidence/actual_v341/a10-evidence/returned-job-result.json",
+          "rfsteps-package/expert_evidence/nop_evidence/NOP-REPORT.md",
+          "rfsteps-package/README.md",
+          "rfsteps-package/DRAFT-MANIFEST.json"
+        ],
+        "summary": "Trial autoresearch/rfsteps历史路径rfsteps-v341-build-check-20261004映射包根harbor_task：NOP result task_checksum与frozen-task-identity一致，63文件当前字节全部SHA核对一致；returned-job-result包含原任务名/路径，非仅同名推定。",
+        "authenticity_verified": false
+      }
+    },
+    "qa17_status": "pass"
+  },
+  "review": {
+    "completed": false,
+    "method": "research gates and per-item semantic evidence review"
+  },
+  "risk_notes": [
+    "12h稳定性未完成：run_summary/stability记录约19080秒，目标43200；不伪称压力测试。",
+    "外部RPC/权重/Hidden与adapter实际部署必需；ZIP本身未验证任意平台task_id部署。",
+    "历史时间网络标记无边界/时区，不能把事件凸包当已证明连续有效时长。"
+  ],
+  "assumptions": [],
+  "limitations": [
+    "通过仅表示存在对应实现或材料，不证明独立复现和运行安全。"
+  ],
+  "summary": {
+    "decision": "INCOMPLETE",
+    "counts": {
+      "pass": 15,
+      "fail": 0,
+      "manual": 3,
+      "warn": 0,
+      "not_applicable": 3
+    },
+    "gate_counts": {
+      "pass": 3,
+      "fail": 0,
+      "manual": 0
+    },
+    "blockers": 0
+  },
+  "qa_run": {
+    "skill": {
+      "name": "autoresearch-qa-skills",
+      "version": "0.3.2"
+    },
+    "artifact_sha256": "00e7c6b67671be377c32b0f28fe8972827ce3767ad7f291d6fb6b1d7825a8ccd",
+    "input_kind": "zip",
+    "clean_context": true,
+    "reviewer": {
+      "provider": "OpenAI",
+      "model": "gpt-6.1-sol",
+      "version": "served-snapshot-unknown",
+      "session_id": "root-final_zip_qa_a-20261005-independent-fork-none"
+    }
+  }
+}

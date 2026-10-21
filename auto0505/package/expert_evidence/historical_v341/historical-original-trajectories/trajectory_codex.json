@@ -1,0 +1,844 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "policy_name": "method_2555f26dd588",
+      "method_summary": "Official time_shift baseline, mu=0.63 for image_seq_len=1024. Failed before image evaluation: frozen scorer could not find /historical-root/rivermind-data/weights/flux-schnell/flux1-schnell.safetensors. No metrics produced.",
+      "status": "failed",
+      "score": null,
+      "failure_reason": "Official time_shift baseline, mu=0.63 for image_seq_len=1024. Failed before image evaluation: frozen scorer could not find /historical-root/rivermind-data/weights/flux-schnell/flux1-schnell.safetensors. No metrics produced.",
+      "retained_best": false,
+      "time": "2026-10-03 02:37:58"
+    },
+    {
+      "round": 2,
+      "policy_name": "method_e62aa3f0f7b9",
+      "method_summary": "Resumed original plan with uniform schedule t_i=1-i/25. Local interface checks passed: 26 finite, strictly decreasing points with endpoints 1 and 0; intended NFE remains 100 per image. evaluate.sh exited 1 before any image evaluation because the frozen scorer still cannot find /historical-root/rivermind-data/weights/flux-schnell/flux1-schnell.safetensors. No schedule.json or metrics.json produced. Also found absent anchors.json and disagreement between workspace/scorer (schnell) and TASK_CONTRACT.md (dev); requested organizer environment repair without modifying frozen files.",
+      "status": "failed",
+      "score": null,
+      "failure_reason": "Resumed original plan with uniform schedule t_i=1-i/25. Local interface checks passed: 26 finite, strictly decreasing points with endpoints 1 and 0; intended NFE remains 100 per image. evaluate.sh exited 1 before any image evaluation because the frozen scorer still cannot find /historical-root/rivermind-data/weights/flux-schnell/flux1-schnell.safetensors. No schedule.json or metrics.json produced. Also found absent anchors.json and disagreement between workspace/scorer (schnell) and TASK_CONTRACT.md (dev); requested organizer environment repair without modifying frozen files.",
+      "retained_best": false,
+      "time": "2026-10-03 02:42:13"
+    },
+    {
+      "round": 3,
+      "policy_name": "method_7048db6662fb",
+      "method_summary": "Cosine endpoint clustering completed on all 12 public images using the externally repaired dev scorer. First successful image evaluation and current best PSNR. Frozen 25 steps per direction and 100 NFE per image confirmed by metrics. Score is null because anchors.json is absent; no score inferred. Total elapsed 538.3429 seconds includes GPU queueing. Next planned candidate: square low-t clustering, round04.",
+      "status": "ok",
+      "score": 20.212329217992714,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 02:56:30"
+    },
+    {
+      "round": 4,
+      "policy_name": "method_238a924b9d06",
+      "method_summary": "Square low-t clustering completed on 12 public images. PSNR 15.419368163935218 is 4.792961054057496 dB below cosine round03, so best_method.py remains the identical round03 snapshot. Frozen 25 steps and 100 NFE/image confirmed. Score unavailable because anchors are absent. Total elapsed 721.8745 seconds includes GPU waiting. Next: sine high-t clustering, then obtain first successful uniform and baseline results before choosing a refinement. Additional research idea: dyadic 1/128 endpoint grid makes endpoints and midpoints exactly bf16-representable while retaining 25 strictly positive intervals.",
+      "status": "ok",
+      "score": 15.419368163935218,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 03:10:38"
+    },
+    {
+      "round": 5,
+      "policy_name": "method_78a8b20c4922",
+      "method_summary": "Sine high-t clustering completed on all 12 public images: PSNR exceeds cosine by approximately 0.0125 dB, a small advantage under the primary metric; update best_method.py to the exact round05 snapshot. NFE=100/image and 25 steps verified. Score unavailable because anchors are absent. First-five review: rounds01-02 failed before images; cosine and sine both approximately 20.22 dB, square 15.42 dB. Next round06 obtains the first successful uniform measurement, then round07 baseline. Follow-up candidate family: scaled-time-embedding-aware grid-125 schedules and grid-128 controls.",
+      "status": "ok",
+      "score": 20.22483156573475,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 03:23:44"
+    },
+    {
+      "round": 6,
+      "policy_name": "method_7026db94e13e",
+      "method_summary": "Uniform completed on 12 public images: PSNR 17.9593 dB is about 2.2655 dB below sine round05. The arithmetic benefit of exact scaled embedding times does not by itself guarantee reconstruction quality; keep sine best. Frozen 25 steps and 100 NFE/image confirmed. Score remains unavailable. Next round07 evaluates the preserved original time_shift baseline for its first successful image result; subsequently test stronger high-t shift and grid-aware variants.",
+      "status": "ok",
+      "score": 17.959306788303643,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 03:36:40"
+    },
+    {
+      "round": 7,
+      "policy_name": "method_2555f26dd588",
+      "method_summary": "Original time_shift baseline mu=0.63 completed for the first time on all 12 public images. PSNR 19.3616 dB is approximately 0.8632 dB below sine round05; keep sine best. The method hash is identical to failed round01, but this evidence is a fresh full dev-scorer run. Frozen 25 steps and 100 NFE/image confirmed, score unavailable. Coarse controls now complete. Next round08 increases high-t concentration using time_shift(mu=1.5).",
+      "status": "ok",
+      "score": 19.361577137501065,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 03:49:48"
+    },
+    {
+      "round": 8,
+      "policy_name": "method_c2ea12f245c0",
+      "method_summary": "Stronger time_shift(mu=1.5) completed on 12 public images. PSNR 19.6412 dB improves baseline but remains below sine round05. Anchors became available during this run: scorer produced the first real normalized score, 0.3239692203499083. Earlier scores remain null as originally emitted; no retrospective self-reported score replaces actual evaluation. Keep ordinary sine best. Frozen 25 steps and 100 NFE/image confirmed. Next evaluate prepared sine/grid125 schedule, then a grid128 control.",
+      "status": "ok",
+      "score": 19.641245001579538,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:03:21"
+    },
+    {
+      "round": 9,
+      "policy_name": "method_470191dc7cf9",
+      "method_summary": "Sine/grid125 completed on all 12 public images with genuine score 0.45112298535799017. Exact scaled embedding-time alignment alone did not improve the primary mean PSNR: 19.7510 dB remains below ordinary sine 20.2248 dB. Keep original sine best. Quantization also changes small endpoint intervals, so isolate the raw-time dyadic control next: sine/grid128 in round10. NFE=100/image and 25 steps verified; no frozen changes.",
+      "status": "ok",
+      "score": 19.75101105228935,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:08:17"
+    },
+    {
+      "round": 10,
+      "policy_name": "method_145a5ecb36d3",
+      "method_summary": "Sine/grid128 completed on all 12 public images and became best: PSNR 20.9491 dB, actual scorer score 1.0, approximately 0.7243 dB above ordinary sine and above the reference anchor. Update best_method.py to the exact round10 snapshot. Ten-round review: initial two loading failures, uniform/square inferior, high-t sine and cosine strongest smooth controls, grid125 did not improve mean PSNR, dyadic grid128 did improve both PSNR and SSIM. Frozen 25 steps and 100 NFE/image verified. Next test smooth sine-power p=1.5; later probe dyadic curve refinements and power-of-two interval designs motivated by bf16 update arithmetic.",
+      "status": "ok",
+      "score": 20.94911773068753,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 04:18:01"
+    },
+    {
+      "round": 11,
+      "policy_name": "method_1d29b399d320",
+      "method_summary": "Smooth sine-power p=1.5 completed on 12 public images. PSNR 19.9359 dB and actual score 0.6652980284972935 do not beat dyadic sine/grid128 round10 (20.94911773068753 dB, score 1.0). Keep round10 best. Frozen 25 steps and 100 NFE/image verified. Next hypothesis: project the sine curve onto 25 intervals whose lengths are powers of two on grid128, using an image-independent dynamic program minimizing node deviation; this probes derivative-rescaling arithmetic while keeping all neural calls fixed.",
+      "status": "ok",
+      "score": 19.935898606696494,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:24:46"
+    },
+    {
+      "round": 12,
+      "policy_name": "method_3f69d703b49e",
+      "method_summary": "Sine DP with power-of-two intervals completed on 12 public images. PSNR20.6354 dB, score1.0 improves ordinary sine but is below plain dyadic sine/grid128 best20.94911773068753. Keep round10 best; optimize by PSNR even when normalized scores saturate. The DP targets geometry only, not per-image errors. Frozen25 steps and100 NFE/image verified. Next round13 tests sine-power p=1.5 on the winning ordinary grid128 family, followed by further dyadic-interval projections if useful.",
+      "status": "ok",
+      "score": 20.63541840065839,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:33:50"
+    },
+    {
+      "round": 13,
+      "policy_name": "method_91acb5c260e7",
+      "method_summary": "Sine-power p=1.5/grid128 completed on all12 public images at PSNR20.4532 dB and actual score1.0, below round10 sine/grid12820.94911773068753. Keep round10 best. Intermediate exponent did not improve the tested dyadic curve. Next probe closer p=1.25, then the opposite side p=0.75 if useful; continue ranking by mean PSNR despite saturated score. Frozen25 steps and100 NFE/image verified.",
+      "status": "ok",
+      "score": 20.453203844664422,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:42:23"
+    },
+    {
+      "round": 14,
+      "policy_name": "method_c74991d2d6bd",
+      "method_summary": "Sine-power p=1.25/grid128 completed on12 public images at PSNR20.9058 dB, score1.0, approximately0.0433 dB below round10 best. Keep round10 by primary meanPSNR; auxiliary metrics can be compared separately. Remaining budget is well above the one-hour wrap-up threshold, so continue research as originally requested. Next p=0.75/grid128 probes the opposite direction of the exponent bracket; then review15 rounds and consider grid-size/shape refinements. Frozen25 steps and100 NFE/image verified.",
+      "status": "ok",
+      "score": 20.905768323120437,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:48:13"
+    },
+    {
+      "round": 15,
+      "policy_name": "method_f35f3d302291",
+      "method_summary": "Sine-power p=0.75/grid128 completed on12 public images at PSNR19.5534 dB, score0.22215341557421894, clearly below round10 best. Fifteen-round review: current best remains p=1/grid128 PSNR20.94911773068753, score1.0. p=1.25 is close below best, p=1.5 and p=0.75 are inferior; hard power-of-two projection also did not beat best. Remaining deadline budget is still more than7 hours. Next grid64 and grid256 controls at p=1, then explore an image-independent soft penalty on non-power-of-two intervals. Continue until mandated one-hour wrap-up window. Frozen25 steps and100 NFE/image verified.",
+      "status": "ok",
+      "score": 19.553352057242748,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 04:56:14"
+    },
+    {
+      "round": 16,
+      "policy_name": "method_42685d9b6b9a",
+      "method_summary": "Sine/grid64 completed on12 public images at PSNR20.4187 dB and score1.0, below best grid12820.94911773068753. The coarser grid changes high-t concentration and error transport; keep round10 best. CPU toy-field bf16 round-trip comparisons did not identify a universally superior grid and are explicitly not image metrics. Next sine/grid256 resolution control. Frozen25 steps and100 NFE/image verified.",
+      "status": "ok",
+      "score": 20.418674411174443,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 05:01:30"
+    },
+    {
+      "round": 17,
+      "policy_name": "method_b52f7799d539",
+      "method_summary": "Sine/grid256 completed on12 public images atPSNR19.6052dB,score0.28215751933124367. Three-resolution bracket supports grid128 best(20.94911773068753) versus grid64(20.418674411174443) and grid256. Keep saved round10. Next soft curve-projection DP ongrid128, penalty0.5 for non-power-of-two intervals; local enumeration showed penalty0.125 duplicates round10 and penalties>=4 duplicate round12, so skip those completed schedules. NFE and steps frozen.",
+      "status": "ok",
+      "score": 19.605150865523193,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 05:09:44"
+    },
+    {
+      "round": 18,
+      "policy_name": "method_5c2b2bc8f78a",
+      "method_summary": "Soft sine projection penalty0.5 completed on12 public images and became new best: PSNR21.2103dB,SSIM0.7078,score1.0, approximately0.2612dB above dyadic sine round10. Save exact round18 method as best_method.py. Objective depends only on curve geometry and whether integer interval lengths are powers of two; no per-image fitting. Frozen25 steps and100NFE/image verified. Next penalties1.0 and2.0 are distinct candidates identified by CPU duplicate checking.",
+      "status": "ok",
+      "score": 21.210273145558304,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 05:17:59"
+    },
+    {
+      "round": 19,
+      "policy_name": "method_9306192f79ac",
+      "method_summary": "Soft sine DP penalty1.0 completed on all12 public images: PSNR20.7859dB,score1.0, below penalty0.5 best21.210273145558304. Keep exact round18 best. Frozen25 steps and100 NFE/image verified. Next serialize penalty2.0, cosine/grid128, baseline time_shift/grid128 and mu1.5/grid128; each is a new schedule-only control, and every completed result will be immediately logged.",
+      "status": "ok",
+      "score": 20.785905734172676,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 05:26:20"
+    },
+    {
+      "round": 20,
+      "policy_name": "method_8befa49a3e56",
+      "method_summary": "Soft sine DP, penalty2.0 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Complete the distinct soft-penalty bracket; duplicate extreme penalties were already skipped.",
+      "status": "ok",
+      "score": 20.5489425198969,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 05:33:40"
+    },
+    {
+      "round": 21,
+      "policy_name": "method_cc8c944ced71",
+      "method_summary": "Cosine / grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Compare both-endpoint clustering on the winning dyadic grid, distinct from the original raw cosine.",
+      "status": "ok",
+      "score": 19.972005810859443,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 05:37:43"
+    },
+    {
+      "round": 22,
+      "policy_name": "method_e49f76739bd6",
+      "method_summary": "time_shift mu0.63 / grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Isolate dyadic time-grid effects for the official baseline curve.",
+      "status": "ok",
+      "score": 19.425691776278562,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 05:41:44"
+    },
+    {
+      "round": 23,
+      "policy_name": "method_2d7fc6d108a8",
+      "method_summary": "time_shift mu1.5 / grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Isolate dyadic time-grid effects for the stronger high-time logit shift.",
+      "status": "ok",
+      "score": 19.698690328797277,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 05:45:45"
+    },
+    {
+      "round": 24,
+      "policy_name": "method_0b3794f9c33b",
+      "method_summary": "Soft sine-power p1.25, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Compare the nearby curve shape with the winning soft projection objective.",
+      "status": "ok",
+      "score": 19.948752348094256,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 05:53:42"
+    },
+    {
+      "round": 25,
+      "policy_name": "method_6ad7dbe10467",
+      "method_summary": "Soft sine-power p1.5, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Separate target-curve shape from grid rounding and arithmetic preference.",
+      "status": "ok",
+      "score": 20.253778041893607,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:01:39"
+    },
+    {
+      "round": 26,
+      "policy_name": "method_39590ef0a5b9",
+      "method_summary": "Soft cosine DP, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Check whether the soft numerical projection helps both-endpoint clustering.",
+      "status": "ok",
+      "score": 20.29479971708497,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:09:38"
+    },
+    {
+      "round": 27,
+      "policy_name": "method_d624dad4bbbf",
+      "method_summary": "Exp density a2 / grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use finite exponential step density near the noise endpoint; this is a distinct high-time allocation family.",
+      "status": "ok",
+      "score": 20.522008259204043,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:17:36"
+    },
+    {
+      "round": 28,
+      "policy_name": "method_b947baf1e166",
+      "method_summary": "Reverse-square / grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Test polynomial high-time clustering with a finite low-time derivative.",
+      "status": "ok",
+      "score": 19.61162232893616,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:25:42"
+    },
+    {
+      "round": 29,
+      "policy_name": "method_a4febd8a4e4b",
+      "method_summary": "High-time boundary2 + uniform / grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Isolate two fine noise-end intervals from allocation throughout the interior.",
+      "status": "ok",
+      "score": 19.80486939499269,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:33:40"
+    },
+    {
+      "round": 30,
+      "policy_name": "method_2455b2325698",
+      "method_summary": "High-time boundary4 + uniform / grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Compare four precision-scale noise-end intervals followed by a uniform interior.",
+      "status": "ok",
+      "score": 20.498185027806468,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:37:44"
+    },
+    {
+      "round": 31,
+      "policy_name": "method_0a7c50951edc",
+      "method_summary": "High-time boundary8 + uniform / grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Increase boundary-layer coverage without adapting to any image identity.",
+      "status": "ok",
+      "score": 20.827205204823155,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:45:41"
+    },
+    {
+      "round": 32,
+      "policy_name": "method_bbd849859b58",
+      "method_summary": "Rational high-time warp / grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Compare a distinct rational curve with quadratic clustering at the noise endpoint.",
+      "status": "ok",
+      "score": 19.219763788142934,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 06:53:39"
+    },
+    {
+      "round": 33,
+      "policy_name": "method_6d4dfb9d1e3e",
+      "method_summary": "Exp density a1 / grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Test a weaker finite exponential density after exponential a2 was below best.",
+      "status": "ok",
+      "score": 20.458406823804477,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:01:39"
+    },
+    {
+      "round": 34,
+      "policy_name": "method_ee1d76b07e04",
+      "method_summary": "Soft boundary8 DP, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Project the strongest plain boundary-layer target using the same small arithmetic penalty.",
+      "status": "ok",
+      "score": 20.57475450897978,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:09:36"
+    },
+    {
+      "round": 35,
+      "policy_name": "method_a9aa33b5853a",
+      "method_summary": "Sine / grid128 floor completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Isolate a global downward rounding convention rather than image-specific time perturbations.",
+      "status": "ok",
+      "score": 20.276319640412186,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:17:32"
+    },
+    {
+      "round": 36,
+      "policy_name": "method_9e2bf9c028d8",
+      "method_summary": "Sine / grid128 ceil completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Compare the opposite global rounding convention, retaining every positive interval.",
+      "status": "ok",
+      "score": 20.41459889593528,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:26:41"
+    },
+    {
+      "round": 37,
+      "policy_name": "method_3fa04a0ced0c",
+      "method_summary": "bf16 arithmetic sine DP, penalty0.5, h^0 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Replace binary power-of-two preference with CPU-Torch-validated mantissa-averaged relative squared derivative-rescaling error, weighted by h^0, normalized by mean positive cost; independent of every image.",
+      "status": "ok",
+      "score": 20.259530743364536,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:33:49"
+    },
+    {
+      "round": 38,
+      "policy_name": "method_4f4f1808050a",
+      "method_summary": "bf16 arithmetic sine DP, penalty1, h^0 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Replace binary power-of-two preference with CPU-Torch-validated mantissa-averaged relative squared derivative-rescaling error, weighted by h^0, normalized by mean positive cost; independent of every image.",
+      "status": "ok",
+      "score": 20.578213073719965,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:37:51"
+    },
+    {
+      "round": 39,
+      "policy_name": "method_bcad6d3d1eb8",
+      "method_summary": "bf16 arithmetic sine DP, penalty0.5, h^2 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Replace binary power-of-two preference with CPU-Torch-validated mantissa-averaged relative squared derivative-rescaling error, weighted by h^2, normalized by mean positive cost; independent of every image.",
+      "status": "ok",
+      "score": 20.637363003345794,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:41:53"
+    },
+    {
+      "round": 40,
+      "policy_name": "method_e4a223954cc1",
+      "method_summary": "Embedding-aware soft sine DP, weight0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Add normalized endpoint and bidirectional midpoint scaled-time bf16 quantization error to the soft sine projection, based solely on frozen time-embedding arithmetic.",
+      "status": "ok",
+      "score": 20.73559175719621,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:46:49"
+    },
+    {
+      "round": 41,
+      "policy_name": "method_4dcdb8e8e5cb",
+      "method_summary": "Embedding-aware soft sine DP, weight2 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Add normalized endpoint and bidirectional midpoint scaled-time bf16 quantization error to the soft sine projection, based solely on frozen time-embedding arithmetic.",
+      "status": "ok",
+      "score": 20.906438786612437,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:50:50"
+    },
+    {
+      "round": 42,
+      "policy_name": "method_449910bf2e5c",
+      "method_summary": "Sine increment DP, node0, step1, penalty0 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Compare error on individual interval lengths against cumulative curve-node displacement in a fixed25-step geometry projection; no fitted image statistics.",
+      "status": "ok",
+      "score": 20.21733960351069,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:54:51"
+    },
+    {
+      "round": 43,
+      "policy_name": "method_10333241434b",
+      "method_summary": "Sine increment DP, node0, step1, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Compare error on individual interval lengths against cumulative curve-node displacement in a fixed25-step geometry projection; no fitted image statistics.",
+      "status": "ok",
+      "score": 19.761769118594476,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 07:58:53"
+    },
+    {
+      "round": 44,
+      "policy_name": "method_554a1840c3f2",
+      "method_summary": "Sine increment DP, node1, step1, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Compare error on individual interval lengths against cumulative curve-node displacement in a fixed25-step geometry projection; no fitted image statistics.",
+      "status": "ok",
+      "score": 19.47645569988069,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:02:55"
+    },
+    {
+      "round": 45,
+      "policy_name": "method_be030d95543b",
+      "method_summary": "Sine increment DP, node1, step4, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Compare error on individual interval lengths against cumulative curve-node displacement in a fixed25-step geometry projection; no fitted image statistics.",
+      "status": "ok",
+      "score": 20.393647834396013,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:06:56"
+    },
+    {
+      "round": 46,
+      "policy_name": "method_c61d2e80bcd0",
+      "method_summary": "Soft sine/uniform blend12.5% completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Test a low-dimensional image-independent curve family under the same dyadic grid128 soft interval penalty0.5; separate endpoint density and interior slope from quantization.",
+      "status": "ok",
+      "score": 20.96158425999518,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:15:21"
+    },
+    {
+      "round": 47,
+      "policy_name": "method_505354af8797",
+      "method_summary": "Soft sine/uniform blend25% completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Test a low-dimensional image-independent curve family under the same dyadic grid128 soft interval penalty0.5; separate endpoint density and interior slope from quantization.",
+      "status": "ok",
+      "score": 20.525204450636142,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:19:22"
+    },
+    {
+      "round": 48,
+      "policy_name": "method_6279ceb6a1b9",
+      "method_summary": "Soft sine/cosine blend12.5% completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Test a low-dimensional image-independent curve family under the same dyadic grid128 soft interval penalty0.5; separate endpoint density and interior slope from quantization.",
+      "status": "ok",
+      "score": 20.831646707164737,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:23:23"
+    },
+    {
+      "round": 49,
+      "policy_name": "method_9e160c067ec9",
+      "method_summary": "Soft sine/cosine blend25% completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Test a low-dimensional image-independent curve family under the same dyadic grid128 soft interval penalty0.5; separate endpoint density and interior slope from quantization.",
+      "status": "ok",
+      "score": 20.932913621912352,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:27:24"
+    },
+    {
+      "round": 50,
+      "policy_name": "method_d97658bfab07",
+      "method_summary": "Soft cosine argument-power0.75 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Test a low-dimensional image-independent curve family under the same dyadic grid128 soft interval penalty0.5; separate endpoint density and interior slope from quantization.",
+      "status": "ok",
+      "score": 20.788323786470013,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:31:28"
+    },
+    {
+      "round": 51,
+      "policy_name": "method_764c0f704fd0",
+      "method_summary": "Soft cosine argument-power1.25 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Test a low-dimensional image-independent curve family under the same dyadic grid128 soft interval penalty0.5; separate endpoint density and interior slope from quantization.",
+      "status": "ok",
+      "score": 19.814126831188144,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:35:30"
+    },
+    {
+      "round": 52,
+      "policy_name": "method_a032114ae4a6",
+      "method_summary": "Soft cubic Hermite a1.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Test a low-dimensional image-independent curve family under the same dyadic grid128 soft interval penalty0.5; separate endpoint density and interior slope from quantization.",
+      "status": "ok",
+      "score": 20.863657752756716,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:39:31"
+    },
+    {
+      "round": 53,
+      "policy_name": "method_7a473713aac7",
+      "method_summary": "Soft cubic Hermite a2.0 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Test a low-dimensional image-independent curve family under the same dyadic grid128 soft interval penalty0.5; separate endpoint density and interior slope from quantization.",
+      "status": "ok",
+      "score": 19.72312689468163,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:43:33"
+    },
+    {
+      "round": 54,
+      "policy_name": "method_14943a628a19",
+      "method_summary": "Gaussian round-trip DP sigma0.5/1/2, geometry0, penalty0 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Minimize average absolute explicit-midpoint round-trip gain defect over an analytical independent Gaussian RF scale ensemble on grid128. The surrogate uses no image, model evaluation, or fitted latent statistics.",
+      "status": "ok",
+      "score": 18.53241442657004,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:49:45"
+    },
+    {
+      "round": 55,
+      "policy_name": "method_1abab4d87940",
+      "method_summary": "Gaussian round-trip DP sigma0.5/1/2, geometry0, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Minimize average absolute explicit-midpoint round-trip gain defect over an analytical independent Gaussian RF scale ensemble on grid128. The surrogate uses no image, model evaluation, or fitted latent statistics.",
+      "status": "ok",
+      "score": 19.43127123150512,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:53:46"
+    },
+    {
+      "round": 56,
+      "policy_name": "method_029abfdf58b8",
+      "method_summary": "Gaussian round-trip DP sigma1/2/4, geometry0, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Minimize average absolute explicit-midpoint round-trip gain defect over an analytical independent Gaussian RF scale ensemble on grid128. The surrogate uses no image, model evaluation, or fitted latent statistics.",
+      "status": "ok",
+      "score": 19.315473939698816,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 08:57:47"
+    },
+    {
+      "round": 57,
+      "policy_name": "method_408315c75c0c",
+      "method_summary": "Gaussian round-trip DP sigma2/4/8, geometry0, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Minimize average absolute explicit-midpoint round-trip gain defect over an analytical independent Gaussian RF scale ensemble on grid128. The surrogate uses no image, model evaluation, or fitted latent statistics.",
+      "status": "ok",
+      "score": 19.59613049277873,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:01:49"
+    },
+    {
+      "round": 58,
+      "policy_name": "method_c4c5ae3d42b9",
+      "method_summary": "Gaussian round-trip DP sigma1/2/4, geometry0.25, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Minimize average absolute explicit-midpoint round-trip gain defect over an analytical independent Gaussian RF scale ensemble on grid128. The surrogate uses no image, model evaluation, or fitted latent statistics.",
+      "status": "ok",
+      "score": 20.429734828025683,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:05:51"
+    },
+    {
+      "round": 59,
+      "policy_name": "method_4a361d24229e",
+      "method_summary": "Gaussian round-trip DP sigma1/2/4, geometry1, penalty0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Minimize average absolute explicit-midpoint round-trip gain defect over an analytical independent Gaussian RF scale ensemble on grid128. The surrogate uses no image, model evaluation, or fitted latent statistics.",
+      "status": "ok",
+      "score": 20.523232590939045,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:09:53"
+    },
+    {
+      "round": 60,
+      "policy_name": "method_aff9014accac",
+      "method_summary": "Adaptive bf16 lattice grid256, penalty0 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Allow resolution to increase below bf16 exponent boundaries while keeping all endpoints and midpoint times exact. CPU Torch validation passes; selection depends only on sine geometry and arithmetic preference.",
+      "status": "ok",
+      "score": 20.2738592755907,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:13:54"
+    },
+    {
+      "round": 61,
+      "policy_name": "method_8b34e2530618",
+      "method_summary": "Embedding-aware soft sine DP, weight4 completed on all 12 public images. New best by mean PSNR; save the exact evaluated snapshot. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Complete a coarse stronger-weight bracket for the scaled-time embedding-error objective after weights0.5/2 stayed below the saved best; no image-dependent adaptation.",
+      "status": "ok",
+      "score": 21.21974298189495,
+      "failure_reason": null,
+      "retained_best": true,
+      "time": "2026-10-03 09:17:55"
+    },
+    {
+      "round": 62,
+      "policy_name": "method_b980dc7fc7db",
+      "method_summary": "Embedding-aware soft sine DP, weight8 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Complete a coarse stronger-weight bracket for the scaled-time embedding-error objective after weights0.5/2 stayed below the saved best; no image-dependent adaptation.",
+      "status": "ok",
+      "score": 20.730457708922,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:21:58"
+    },
+    {
+      "round": 63,
+      "policy_name": "method_3cf7dc885cf4",
+      "method_summary": "Gaussian h4 density sigma0.5/1/2, soft DP0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use analytical relative round-trip coefficient C=-sigma^2*((1+sigma^2)*t-sigma^2)^2/(4*V(t)^4), density proportional to ensemble mean(abs(C))^(1/4), and deterministic inverse-CDF quadrature. No image or latent statistics are fitted.",
+      "status": "ok",
+      "score": 18.470496656553337,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:26:00"
+    },
+    {
+      "round": 64,
+      "policy_name": "method_e64f8839bb2e",
+      "method_summary": "Gaussian h4 density sigma0.5/1/2, grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use analytical relative round-trip coefficient C=-sigma^2*((1+sigma^2)*t-sigma^2)^2/(4*V(t)^4), density proportional to ensemble mean(abs(C))^(1/4), and deterministic inverse-CDF quadrature. No image or latent statistics are fitted.",
+      "status": "ok",
+      "score": 18.208517123729113,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:33:58"
+    },
+    {
+      "round": 65,
+      "policy_name": "method_5e6b9edaff33",
+      "method_summary": "Gaussian h4 density sigma1/2/4, soft DP0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use analytical relative round-trip coefficient C=-sigma^2*((1+sigma^2)*t-sigma^2)^2/(4*V(t)^4), density proportional to ensemble mean(abs(C))^(1/4), and deterministic inverse-CDF quadrature. No image or latent statistics are fitted.",
+      "status": "ok",
+      "score": 18.91038429633601,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:38:02"
+    },
+    {
+      "round": 66,
+      "policy_name": "method_a9f4fb3686ab",
+      "method_summary": "Gaussian h4 density sigma1/2/4, grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use analytical relative round-trip coefficient C=-sigma^2*((1+sigma^2)*t-sigma^2)^2/(4*V(t)^4), density proportional to ensemble mean(abs(C))^(1/4), and deterministic inverse-CDF quadrature. No image or latent statistics are fitted.",
+      "status": "ok",
+      "score": 18.936059806632645,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:42:04"
+    },
+    {
+      "round": 67,
+      "policy_name": "method_5ecd61e961ab",
+      "method_summary": "Gaussian h4 density sigma2/4/8, soft DP0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use analytical relative round-trip coefficient C=-sigma^2*((1+sigma^2)*t-sigma^2)^2/(4*V(t)^4), density proportional to ensemble mean(abs(C))^(1/4), and deterministic inverse-CDF quadrature. No image or latent statistics are fitted.",
+      "status": "ok",
+      "score": 19.291106482443638,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:50:02"
+    },
+    {
+      "round": 68,
+      "policy_name": "method_ad305b939b2e",
+      "method_summary": "Gaussian h4 density sigma2/4/8, grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use analytical relative round-trip coefficient C=-sigma^2*((1+sigma^2)*t-sigma^2)^2/(4*V(t)^4), density proportional to ensemble mean(abs(C))^(1/4), and deterministic inverse-CDF quadrature. No image or latent statistics are fitted.",
+      "status": "ok",
+      "score": 19.227379214801733,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:54:04"
+    },
+    {
+      "round": 69,
+      "policy_name": "method_f45dc9f0986c",
+      "method_summary": "Gaussian h4 density sigma4/8/16, soft DP0.5 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use analytical relative round-trip coefficient C=-sigma^2*((1+sigma^2)*t-sigma^2)^2/(4*V(t)^4), density proportional to ensemble mean(abs(C))^(1/4), and deterministic inverse-CDF quadrature. No image or latent statistics are fitted.",
+      "status": "ok",
+      "score": 20.72618429349301,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 09:58:05"
+    },
+    {
+      "round": 70,
+      "policy_name": "method_e63dfc4b4c8e",
+      "method_summary": "Gaussian h4 density sigma4/8/16, grid128 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use analytical relative round-trip coefficient C=-sigma^2*((1+sigma^2)*t-sigma^2)^2/(4*V(t)^4), density proportional to ensemble mean(abs(C))^(1/4), and deterministic inverse-CDF quadrature. No image or latent statistics are fitted.",
+      "status": "ok",
+      "score": 20.128734755270482,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:02:07"
+    },
+    {
+      "round": 71,
+      "policy_name": "method_83008ca721eb",
+      "method_summary": "CPU bf16 Gaussian proxy sigma1/2/4, weight2, embeddingtrue completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Image-independent local relative round-trip MSE over128 bf16 mantissas for analytical Gaussian fields, using the unchanged operation order in a CPU surrogate and optional scaled-time quantization. No neural calls, no image statistics, fixed25 intervals.",
+      "status": "ok",
+      "score": 21.097024316524884,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:06:16"
+    },
+    {
+      "round": 72,
+      "policy_name": "method_ee4af4bf34de",
+      "method_summary": "CPU bf16 Gaussian proxy sigma2/4/8, weight2, embeddingtrue completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Image-independent local relative round-trip MSE over128 bf16 mantissas for analytical Gaussian fields, using the unchanged operation order in a CPU surrogate and optional scaled-time quantization. No neural calls, no image statistics, fixed25 intervals.",
+      "status": "ok",
+      "score": 20.61713476682322,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:14:15"
+    },
+    {
+      "round": 73,
+      "policy_name": "method_455ed6b8c9b2",
+      "method_summary": "CPU bf16 Gaussian proxy sigma1/2/4, weight2, embeddingfalse completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Image-independent local relative round-trip MSE over128 bf16 mantissas for analytical Gaussian fields, using the unchanged operation order in a CPU surrogate and optional scaled-time quantization. No neural calls, no image statistics, fixed25 intervals.",
+      "status": "ok",
+      "score": 21.014041536588106,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:22:13"
+    },
+    {
+      "round": 74,
+      "policy_name": "method_efe916aa1d5e",
+      "method_summary": "Soft angular RF warp sigma1, power1 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use the Gaussian signal/noise angle as an image-independent bounded curve warp, then the same grid128 soft power-of-two interval projection. Scale and power form a small preset family.",
+      "status": "ok",
+      "score": 16.51917045647802,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:30:15"
+    },
+    {
+      "round": 75,
+      "policy_name": "method_0a41d2794f9c",
+      "method_summary": "Soft angular RF warp sigma2, power1 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use the Gaussian signal/noise angle as an image-independent bounded curve warp, then the same grid128 soft power-of-two interval projection. Scale and power form a small preset family.",
+      "status": "ok",
+      "score": 19.30393740033777,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:38:12"
+    },
+    {
+      "round": 76,
+      "policy_name": "method_07544652103a",
+      "method_summary": "Soft angular RF warp sigma4, power1 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use the Gaussian signal/noise angle as an image-independent bounded curve warp, then the same grid128 soft power-of-two interval projection. Scale and power form a small preset family.",
+      "status": "ok",
+      "score": 20.7374853818569,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:46:15"
+    },
+    {
+      "round": 77,
+      "policy_name": "method_49a235785e86",
+      "method_summary": "Soft angular RF warp sigma8, power1 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use the Gaussian signal/noise angle as an image-independent bounded curve warp, then the same grid128 soft power-of-two interval projection. Scale and power form a small preset family.",
+      "status": "ok",
+      "score": 20.640064059250026,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 10:54:12"
+    },
+    {
+      "round": 78,
+      "policy_name": "method_4ba8a7281752",
+      "method_summary": "Soft angular RF warp sigma2, power2 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use the Gaussian signal/noise angle as an image-independent bounded curve warp, then the same grid128 soft power-of-two interval projection. Scale and power form a small preset family.",
+      "status": "ok",
+      "score": 20.528822377927913,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:02:10"
+    },
+    {
+      "round": 79,
+      "policy_name": "method_07529f0e743d",
+      "method_summary": "Soft angular RF warp sigma4, power2 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Use the Gaussian signal/noise angle as an image-independent bounded curve warp, then the same grid128 soft power-of-two interval projection. Scale and power form a small preset family.",
+      "status": "ok",
+      "score": 19.954180710611855,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:10:09"
+    },
+    {
+      "round": 80,
+      "policy_name": "method_2e55f3a7b12f",
+      "method_summary": "Soft sine position-weight high, beta16 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Reweight node geometry toward one endpoint with quadratic normalized weights of unit mean, retaining the same sine curve and0.5 arithmetic penalty. This probes error-location sensitivity without image statistics.",
+      "status": "ok",
+      "score": 20.38234143940432,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:14:11"
+    },
+    {
+      "round": 81,
+      "policy_name": "method_a3f8072bcf17",
+      "method_summary": "Soft sine h3 regularization weight2 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Add normalized h^3 step-size regularization to the sine geometry and0.5 arithmetic penalty, as a conservative truncation-error prior. No learned or image-specific coefficients.",
+      "status": "ok",
+      "score": 20.204663654921315,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:22:08"
+    },
+    {
+      "round": 82,
+      "policy_name": "method_867be0b10408",
+      "method_summary": "Soft sine h4 regularization weight2 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Add normalized h^4 step-size regularization to the sine geometry and0.5 arithmetic penalty, as a conservative truncation-error prior. No learned or image-specific coefficients.",
+      "status": "ok",
+      "score": 20.677808321988486,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:30:08"
+    },
+    {
+      "round": 83,
+      "policy_name": "method_b51bcdd5cd10",
+      "method_summary": "Constrained sine DP minimum2 was launched but terminated before GPU lock/image evaluation when entering final wrap-up; no metrics produced. The pre-evaluation schedule validation passed, but this round is recorded as a failed evaluation per the contract. See run.log; frozen budget was never exercised.",
+      "status": "failed",
+      "score": null,
+      "failure_reason": "Constrained sine DP minimum2 was launched but terminated before GPU lock/image evaluation when entering final wrap-up; no metrics produced. The pre-evaluation schedule validation passed, but this round is recorded as a failed evaluation per the contract. See run.log; frozen budget was never exercised.",
+      "retained_best": false,
+      "time": "2026-10-03 11:31:53"
+    },
+    {
+      "round": 84,
+      "policy_name": "method_8b34e2530618",
+      "method_summary": "Final confirmation of best round61 completed on all 12 public images. Did not improve saved best by mean PSNR. Actual scorer metrics only, fixed 25 steps and 100 NFE/image verified. Repeat the exact saved round61 snapshot on all12 public images through the supplied evaluate.sh optional best_method.py argument. Confirmation only; all25 intervals and100NFE/image remain frozen.",
+      "status": "ok",
+      "score": 21.21974298189495,
+      "failure_reason": null,
+      "retained_best": false,
+      "time": "2026-10-03 11:38:06"
+    }
+  ]
+}
